@@ -50,7 +50,7 @@ a:hover {
   background: url('../img/header_logo.png') top center no-repeat;
   width: 455px;
   padding-top: 180px;
-  padding-bottom: 40px;
+  padding-bottom: 14px;
   margin: 0 auto;
   z-index: 1001;
   -webkit-transform: translate3d(0px, 0px, 0px);
