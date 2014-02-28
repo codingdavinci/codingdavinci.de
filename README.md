@@ -1,13 +1,10 @@
 # GLAM Hack Day Website
 
 ## ToDo:
- - Mobile Support
  - Finalize Text
  - Add images
  - Hover Details
- - Colors
- - Adornments
- - thin out bootstrap
+ - ...
 
 ## Credits
 
