@@ -124,7 +124,7 @@
         var leftEven = -113 + (offset * tileSize);
         var topOdd = -112;
         var leftOdd = 38 + (offset * tileSize);
-        var n = 0;
+        var n = 0, r;
 
         for (var i=0; i < 5; i += 1) {
           for (var j=0; j < 6; j += 1) {
@@ -140,7 +140,9 @@
             t = Math.round(t * 10) / 10;
             l = Math.round(l * 10) / 10;
 
-            html += '<div class="header-tile" style="left:' + l + 'px;top:' + t + 'px;"><div class="flipper"><div class="front" style="background-image:url(\'' + baseurl + 'img/tiles/cdv_tiles' + n + '.jpg\');"></div><div class="back tile-1b"></div></div></div>';
+            r = 0;
+
+            html += '<div class="header-tile" style="left:' + l + 'px;top:' + t + 'px;"><div class="flipper" style="transition-delay:'+ r + 's;"><div class="front" style="background-image:url(\'' + baseurl + 'img/tiles/cdv_tiles' + n + '.jpg\');"></div><div class="back tile-1b"></div></div></div>';
           }
         }
         tileContainer.html(html);

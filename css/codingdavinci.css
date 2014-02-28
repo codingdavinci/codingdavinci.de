@@ -395,6 +395,19 @@ h5 {
           transform: rotateY(180deg);
 }
 
+.header-tile .flipper.show-off {
+  -webkit-transform: rotateY(2880deg);
+     -moz-transform: rotateY(2880deg);
+      -ms-transform: rotateY(2880deg);
+       -o-transform: rotateY(2880deg);
+          transform: rotateY(2880deg);
+  -webkit-transition: all 2s ease-in;
+     -moz-transition: all 2s ease-in;
+      -ms-transition: all 2s ease-in;
+       -o-transition: all 2s ease-in;
+          transition: all 2s ease-in;
+}
+
 .header-tile, .front, .back {
   width: 212px;
   height: 212px;
