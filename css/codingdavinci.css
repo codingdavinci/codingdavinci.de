@@ -1,0 +1,331 @@
+@font-face {
+  font-family: 'Archive';
+  src: url('/fonts/archive.eot');
+  src: local('☺'), url('/fonts/archive.woff') format('woff'), url('/fonts/archive.ttf') format('truetype'), url('/fonts/archive.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Droid Serif', serif;
+  font-size: 16pt;
+  color: #111;
+}
+
+a, a:hover, a:visited, a:active {
+  color: #111;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.header {
+  background: center center url('/img/header_background.png') no-repeat;
+  height: 720px;
+  width: auto;
+  text-align: center;
+  padding-top: 150px;
+  position: relative;
+}
+
+.logo-container {
+  background: url('/img/header_logo.png') top center no-repeat;
+  padding-top: 152px;
+  margin: 0 auto;
+  width: 435px;
+  z-index: 1001;
+}
+
+.logo-text {
+  background-color: #17B06A;
+  padding: 1em 45px;
+}
+
+.main-signup {
+  padding: 20px 20px 15px;
+  text-transform: uppercase;
+  background-color: #19C6F9;
+  font-size: 26pt;
+  font-weight: bold;
+  margin: 120px auto;
+  z-index: 1001;
+  width: 380px;
+  display: block;
+  font-family: "Archive";
+}
+
+.nav-container {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+}
+
+.nav-container.affix-top {
+  position: relative;
+  margin-bottom: -50px;
+}
+
+.nav-container.affix {
+  position: fixed;
+  top: 0px;
+}
+.nav-container.affix-bottom {
+  position: absolute
+}
+
+.navbar-davinci {
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar-davinci .navbar-brand {
+  text-transform: uppercase;
+  color: #17B564;
+  font-size: 18pt;
+  padding: 15px 0;
+}
+
+.navbar-davinci .navbar-nav {
+  font-size: 16pt;
+}
+
+.navbar-davinci .navbar-nav li {
+  display: inline;
+  margin: 0.5em 0;
+}
+
+.navbar-davinci .navbar-nav li a {
+  color: #333;
+  display: inline;
+}
+.navbar-davinci .navbar-nav li a:hover {
+  background-color: transparent;
+}
+
+.navbar-davinci .navbar-nav li:before {
+  content: "|";
+}
+
+.navbar-davinci .navbar-nav li:first-child:before {
+  content: "";
+}
+
+hr {
+  border-top: 1px solid #333;
+}
+
+.top-separator {
+  margin-top: 50px;
+}
+
+.subheader {
+  padding-top: 25px;
+  border-bottom: 1px solid;
+  margin-top: 0.25em;
+  margin-bottom: 3.5em;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.subheader h2 {
+  color: #000;
+  font-family: "Archive";
+  font-size: 32pt;
+  margin: 1em auto 0;
+  position: relative;
+  background-color: #fff;
+  display: inline;
+  padding: 0 20px;
+  bottom: -25px;
+}
+
+.subheader-interlude h2 {
+  background-color: #C4F3E6;
+}
+
+.subheader-hand {
+  background-image: url('/img/subheader_hand.png');
+}
+
+.subheader-challenge {
+  background-image: url('/img/subheader_challenge.png');
+  padding-top: 100px !important;
+}
+
+.interlude {
+  margin: 3em 0;
+  padding: 3em 0;
+  background-color: #C4F3E6;
+}
+
+.lead {
+  font-size: 24pt;
+  color: #111;
+}
+
+h3 {
+  background-color: #17B564;
+  padding: 15px;
+  margin: 0;
+  font-family: "Archive";
+  text-align: center;
+}
+
+.list-inline li:after {
+  padding-left: 10px;
+  content: "|";
+}
+
+.list-inline li:last-child:after {
+  padding: 0;
+  content: " ";
+}
+
+
+.box {
+  background-color: #AEF0DD;
+  padding: 15px;
+  font-size: 13pt;
+}
+
+.time-box {
+  background-color: #17B46B;
+  padding: 15px;
+  min-height: 12em;
+}
+
+.box-arrow {
+  position: relative;
+}
+
+.box-arrow:after{
+  position: absolute;
+  content:"";
+  width:0;
+  height:0;
+  right: 0;
+  top: 50%;
+  border-top:20px solid transparent;
+  border-bottom:20px solid transparent;
+  border-left:20px solid #17B46B;
+}
+
+.btn-action {
+  font-family: "Archive";
+  font-size: 36pt;
+  color: #000;
+  background-color: #17B564;
+  border-radius: 0;
+  padding: 10px 35px 5px;
+}
+
+h4 {
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.center-link {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  margin: 2em 0;
+}
+
+.footer {
+  padding: 3em 0;
+  font-size: 11pt;
+  background-color: #95EED7;
+  min-height: 30em;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+/* Adornments */
+
+/* entire container, keeps perspective */
+
+.header-tile {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  position: absolute;
+}
+
+/* flip the pane when hovered */
+.header-tile:hover .flipper, .header-tile.hover .flipper {
+  /*-webkit-transform: rotateY(180deg);*/
+  /*-webkit-transform: matrix3d(-0.5984600691,0.0000000000,-0.8011526357,0.0000000000,0.6418455457,-0.5984600691,-0.4794578617,0.0000000000,-0.4794578617,-0.8011526357,0.3581544543,0.0000000000,0.0000000000,0.0000000000,0.0000000000,1.0000000000);*/
+  /*-webkit-transform: matrix(-1, 0, 0, 0, -1, 0);*/
+/*                    matrix3d(-1, 0, 0, 0,
+                              0, -1, 0, 0,
+                              0, 0, 1, 0
+                              0, 0, 0, 1);*/
+/*  -webkit-transform-origin: 106px 106px;
+  -moz-transform-origin: 106px 106px;
+  -webkit-transform: rotate(-45deg) rotateY(180deg) rotate(45deg);
+  -moz-transform: rotate(-45deg) rotateY(180deg) rotate(45deg);*/
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.header-tile, .front, .back {
+  width: 212px;
+  height: 212px;
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+  -webkit-transform-origin: 50% 106px;
+  transform-origin: 50% 106px; /* half of height */
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.tile-1 {
+  top: 112px;
+  left: 67px;
+}
+
+.tile-1f {
+  background-image: url('/img/header_tile_1f.png');
+}
+
+.tile-1b {
+  background-image: url('/img/header_tile_1b.png');
+}

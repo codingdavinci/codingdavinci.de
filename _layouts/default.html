@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>Coding Da Vinci</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coding Da Vinci">
+    <meta name="author" content="Open Knowledge Foundation">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/codingdavinci.css" rel="stylesheet">
+    <!-- <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'> -->
+    <link rel="shortcut icon" href="/img/favicon.png"/>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo-container">
+          <div class="logo-text">
+            <p>
+              Der Kultur-Hackathon<br/>
+              26./27. April – 5./6. Juli 20
+            </p>
+          </div>
+        </div>
+        <a class="main-signup" href="#">
+          Jetzt anmelden
+        </a>
+        <div class="tiles">
+        <div class="header-tile tile-1">
+          <div class="flipper">
+            <div class="front tile-1f">
+            </div>
+            <div class="back tile-1b">
+            </div>
+          </div>
+        </div>
+        </div>
+      </header>
+    </div>
+    <div class="nav-container">
+      <div class="container">
+        <nav class="navbar navbar-davinci" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Navigation öffnen</span>
+              &darr;
+            </button>
+            <a class="navbar-brand" href="#inhalt">
+              { <strong>Coding</strong> Da V1nc1 }
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Dokumentation</a></li>
+              <li><a href="#">Presse</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <hr id="inhalt" class="top-separator"/>
+
+      {{ content }}
+
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h5>Kontakt Impressum</h5>
+            <p>
+              Open Knowledge Foundation Deutschland e.V.<br/>
+              Gneisenaustr. 52, 10961 Berlin<br/>
+              www.okfn.de<br/>
+              info@okfn.de<br/>
+              +49 30 57703666 2<br/>
+              Fax: +49 30 57703666 9
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <h5>Ein Projekt von</h5>
+            
+            <h5>Partner und Sponsoren</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/jquery-1.11.0.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script>
+      (function(){
+        var setContainerWidth = function(){
+          $('.nav-container').css('width', $('.nav-container').width() + 'px');
+        };
+        $(window).resize(function(){
+          $('.nav-container').css('width', 'auto');
+          setContainerWidth();
+        });
+        setContainerWidth();
+      }());
+      $('.nav-container').affix({
+        offset: {
+          top: $('.nav-container').offset().top,
+          bottom: $('.footer').height()
+        }
+      });
+      // ontouchstart="this.classList.toggle('hover');"
+    </script>
+  </body>
+</html>
