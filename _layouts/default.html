@@ -13,10 +13,13 @@
   </head>
 
   <body>
-    <div class="container">
-      <header class="header">
+    <header class="header">
+      <div class="tiles">
+      </div>
+      <div class="container header-container">
         <div class="logo-container">
           <div class="logo-text">
+            <h1 class="sr-only">Coding Da Vinci</h1>
             <p>
               Der Kultur-Hackathon<br/>
               26./27. April – 5./6. Juli 20
@@ -26,18 +29,8 @@
         <a class="main-signup" href="#">
           Jetzt anmelden
         </a>
-        <div class="tiles">
-        <div class="header-tile tile-1">
-          <div class="flipper">
-            <div class="front tile-1f">
-            </div>
-            <div class="back tile-1b">
-            </div>
-          </div>
-        </div>
-        </div>
-      </header>
-    </div>
+      </div>
+    </header>
     <div class="nav-container">
       <div class="container">
         <nav class="navbar navbar-davinci" role="navigation">
@@ -78,14 +71,13 @@
           </div>
           <div class="col-lg-5">
             <h5>Ein Projekt von</h5>
-            
             <h5>Partner und Sponsoren</h5>
           </div>
         </div>
       </div>
     </footer>
-    <script src="/js/jquery-1.11.0.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}js/jquery-1.11.0.min.js"></script>
+    <script src="{{ site.baseurl }}js/bootstrap.min.js"></script>
     <script>
       (function(){
         var setContainerWidth = function(){
@@ -103,7 +95,45 @@
           bottom: $('.footer').height()
         }
       });
-      // ontouchstart="this.classList.toggle('hover');"
+      $('.header-tile').on('touchstart', function(){
+        $(this).toggleClass('hover');
+      });
+      (function(){
+        var html = '', l, t;
+        var tileContainer = $('.tiles');
+        var containerWidth = tileContainer.width();
+        var maxCover = 1200;
+        var originalTileSize = 214;
+        var tileSize = Math.sqrt(originalTileSize * originalTileSize * 2);
+        var offset = 0;
+        if (containerWidth > maxCover) {
+          offset = Math.floor(((containerWidth - maxCover) / 2) / tileSize);
+        }
+        var topEven = 39.32;
+        var leftEven = -113 + (offset * tileSize);
+        var topOdd = -112;
+        var leftOdd = 38 + (offset * tileSize);
+        var n = 0;
+
+        for (var i=0; i < 5; i += 1) {
+          for (var j=0; j < 6; j += 1) {
+            n += 1;
+            if (j % 2 === 0) {
+              t = topEven + (j / 2) * tileSize;
+              l = leftEven + i * tileSize;
+            } else {
+              t = topOdd + Math.floor(j / 2) * tileSize;
+              l = leftOdd + i * tileSize;
+            }
+
+            t = Math.round(t * 10) / 10;
+            l = Math.round(l * 10) / 10;
+
+            html += '<div class="header-tile" style="left:' + l + 'px;top:' + t + 'px;"><div class="flipper"><div class="front" style="background-image:url(\'/img/tiles/cdv_tiles' + n + '.jpg\');"></div><div class="back tile-1b"></div></div></div>';
+          }
+        }
+        tileContainer.html(html);
+      }());
     </script>
   </body>
 </html>
