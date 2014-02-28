@@ -109,6 +109,7 @@
         $(this).toggleClass('hover');
       });
       (function(){
+        var baseurl = '{{ site.baseurl }}';
         var html = '', l, t;
         var tileContainer = $('.tiles');
         var containerWidth = tileContainer.width();
@@ -139,7 +140,7 @@
             t = Math.round(t * 10) / 10;
             l = Math.round(l * 10) / 10;
 
-            html += '<div class="header-tile" style="left:' + l + 'px;top:' + t + 'px;"><div class="flipper"><div class="front" style="background-image:url(\'/img/tiles/cdv_tiles' + n + '.jpg\');"></div><div class="back tile-1b"></div></div></div>';
+            html += '<div class="header-tile" style="left:' + l + 'px;top:' + t + 'px;"><div class="flipper"><div class="front" style="background-image:url(\'' + baseurl + 'img/tiles/cdv_tiles' + n + '.jpg\');"></div><div class="back tile-1b"></div></div></div>';
           }
         }
         tileContainer.html(html);
