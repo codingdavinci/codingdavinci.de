@@ -6,7 +6,6 @@
   font-style: normal;
 }
 
-
 body {
   font-family: 'Droid Serif', serif;
   font-size: 16pt;
@@ -29,6 +28,7 @@ a:hover {
   text-align: center;
   padding-top: 150px;
   position: relative;
+  overflow: hidden;
 }
 
 .logo-container {
@@ -87,6 +87,13 @@ a:hover {
   color: #17B564;
   font-size: 18pt;
   padding: 15px 0;
+}
+
+.navbar-davinci .navbar-brand:before {
+  content: "{";
+}
+.navbar-davinci .navbar-brand:after {
+  content: "}";
 }
 
 .navbar-davinci .navbar-nav {
@@ -209,10 +216,35 @@ h3 {
   width:0;
   height:0;
   right: 0;
-  top: 50%;
+  top: 40%;
   border-top:20px solid transparent;
   border-bottom:20px solid transparent;
   border-left:20px solid #17B46B;
+}
+
+.image-heading {
+  background-color: #18B56B;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  padding-bottom: 110px;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+
+.image-heading:after{
+  position: absolute;
+  content:"";
+  width:0;
+  height:0;
+  bottom: -10px;
+  left: 45%;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #18B56B;
+}
+
+.image-best-design {
+  background-image: url('/img/best_design.png');
 }
 
 .btn-action {
@@ -237,8 +269,13 @@ h4 {
   margin: 2em 0;
 }
 
+.additional-text p {
+  font-size: 12pt;
+}
+
 .footer {
   padding: 3em 0;
+  margin: 5em 0 0;
   font-size: 11pt;
   background-color: #95EED7;
   min-height: 30em;
