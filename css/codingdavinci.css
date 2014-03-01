@@ -82,6 +82,13 @@ a:hover {
     padding-top: 120px;
     width: 320px;
   }
+  .header-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .logo-text {
+    font-size: 14pt;
+  }
 }
 
 .nav-container {
