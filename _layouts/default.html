@@ -112,7 +112,7 @@
       });
       (function(){
         var baseurl = '{{ site.baseurl }}';
-        var html = '', l, t;
+        var html = [], l, t;
         var tileContainer = $('.tiles');
         var containerWidth = tileContainer.width();
         var maxCover = 1200;
@@ -144,10 +144,10 @@
 
             r = 0;
 
-            html += '<div class="header-tile" style="left:' + l + 'px;top:' + t + 'px;"><div class="flipper" style="transition-delay:'+ r + 's;"><div class="front" style="background-image:url(\'' + baseurl + 'img/tiles/cdv_tiles' + n + '.jpg\');"></div><div class="back tile-1b"></div></div></div>';
+            html.push('<div class="header-tile" style="left:' + l + 'px;top:' + t + 'px;"><div class="flipper" style="transition-delay:'+ r + 's;"><div class="front" style="background-image:url(\'' + baseurl + 'img/tiles/cdv_tiles' + n + '.jpg\');"></div><div class="back tile-1b"></div></div></div>');
           }
         }
-        tileContainer.html(html);
+        tileContainer.html(html.join(''));
       }());
     </script>
   </body>
