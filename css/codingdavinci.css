@@ -33,17 +33,25 @@ a:hover {
   color: #000;
 }
 
+.background {
+  margin-top: 720px;
+  background-color: white;
+}
+
 .header {
   background: left top url('../img/header_background.jpg') repeat-x;
   height: 720px;
-  width: auto;
+  width: 100%;
   text-align: center;
-  position: relative;
+  position: fixed;
   overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
- .header-container {
-  padding-top: 150px
+.header-container {
+  padding-top: 100px
  }
 
 .logo-container {
@@ -67,7 +75,7 @@ a:hover {
   background-color: #19C6F9;
   font-size: 24pt;
   font-weight: bold;
-  margin: 100px auto;
+  margin: 75px auto;
   z-index: 1001;
   width: 320px;
   display: block;
