@@ -57,7 +57,7 @@ a:hover {
 
 .header-container {
   padding-top: 100px
- }
+}
 
 .logo-container {
   background: url('../img/header_logo.png') top center no-repeat;
@@ -90,6 +90,15 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  .header {
+    position: static;
+  }
+  .header-above {
+    margin-top: 0;
+  }
+  .header-container {
+    padding-top: 60px
+  }
   .logo-container {
     background: url('../img/header_logo_320.png') top center no-repeat;
     padding-top: 120px;
@@ -203,17 +212,18 @@ a:hover {
 }
 
 .navbar-davinci .navbar-nav .image-menu-link {
-  height: 30px;
+  height: 31px;
   margin-bottom: 0.4em;
   margin-top: 0.6em;
   margin-left: 1em;
+  display: block;
 }
 
 .image-menu-link > a {
   display: inline-block !important;
   background-position: center;
   background-repeat: no-repeat;
-  width: 30px;
+  width: 31px;
   margin-left: 5px;
 }
 
