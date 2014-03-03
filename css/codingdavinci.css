@@ -412,6 +412,9 @@ h5 {
 }
 
 .header-tile {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   position: absolute;
   -webkit-transform: rotate(45deg);
      -moz-transform: rotate(45deg);

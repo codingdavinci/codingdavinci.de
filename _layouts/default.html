@@ -128,8 +128,11 @@
           bottom: $('.footer').height()
         }
       });
-      $('.header-tile').on('touchstart', function(){
-        $(this).toggleClass('hover');
+      $(document).on('touchstart', '.header-tile', function(){
+        $(this).addClass('hover');
+      });
+      $(document).on('touchend', '.header-tile', function(){
+        $(this).removeClass('hover');
       });
       (function(){
         var baseurl = '{{ site.baseurl }}';
