@@ -13,6 +13,7 @@
   </head>
 
   <body>
+    {% if page.header %}
     <header class="header">
       <div class="tiles">
       </div>
@@ -31,7 +32,8 @@
         </a>
       </div>
     </header>
-    <div class="background">
+    {% endif %}
+    <div class="background {% if page.header %} header-above{% endif %}">
     <div class="container-fluid nav-container" id="inhalt">
       <nav class="navbar navbar-davinci" role="navigation">
         <div class="navbar-header">
@@ -122,7 +124,7 @@
       }());
       $('.nav-container').affix({
         offset: {
-          top: $('.header').height(),
+          top: $('.header').height() || 0,
           bottom: $('.footer').height()
         }
       });
