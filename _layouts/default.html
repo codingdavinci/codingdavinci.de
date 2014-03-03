@@ -32,16 +32,14 @@
       </div>
     </header>
     <div class="background">
-    <div class="nav-container" id="inhalt">
-      <div class="container">
-        <nav class="navbar navbar-davinci" role="navigation">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#inhalt">
-              <strong>Coding</strong> Da V1nc1
-            </a>
-          </div>
+    <div class="container-fluid nav-container" id="inhalt">
+      <nav class="navbar navbar-davinci" role="navigation">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#inhalt">
+            <strong>Coding</strong>&nbsp;Da&nbsp;V1nc1
+          </a>
+        </div>
 
-      </div>
         <ul class="nav navbar-nav navbar-right">
           <li class="separator">
             <a href="{{ site.baseurl }}">Über</a>
@@ -73,7 +71,6 @@
       </nav>
     </div>
     <div class="container">
-      <hr class="top-separator"/>
 
       {{ content }}
 
@@ -125,7 +122,7 @@
       }());
       $('.nav-container').affix({
         offset: {
-          top: $('.nav-container').offset().top,
+          top: $('.header').height(),
           bottom: $('.footer').height()
         }
       });

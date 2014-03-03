@@ -36,6 +36,8 @@ a:hover {
 .background {
   margin-top: 720px;
   background-color: white;
+  position: relative;
+  padding-top: 105px;
 }
 
 .header {
@@ -103,18 +105,22 @@ a:hover {
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 1000;
+  padding: 0;
 }
 
 @media (min-width: 768px) {
 
   .nav-container.affix-top {
-    position: relative;
-    margin-bottom: -50px;
+    position: absolute;
+    top: 0;
   }
 
   .nav-container.affix {
     position: fixed;
     top: 0px;
+  }
+  .nav-container.affix .navbar-davinci {
+    border-bottom: 0;
   }
   .nav-container.affix-bottom {
     position: absolute
@@ -126,13 +132,16 @@ a:hover {
   margin-bottom: 0;
   border: 0;
   border-radius: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-bottom: 1px solid #000;
 }
 
 .navbar-davinci .navbar-brand {
   text-transform: uppercase;
   color: #17B564;
   font-size: 18pt;
-  padding: 15px 0;
+  padding-left: 0;
 }
 
 .navbar-davinci .navbar-brand:before {
@@ -154,15 +163,23 @@ a:hover {
 }
 
 .navbar-davinci .navbar-nav li a {
-  color: #333;
+  /*color: #333;*/
   display: inline;
+  font-size: 12pt;
+  padding: 15px 5px;
+}
+
+.navbar-davinci .navbar-nav li a.text-hide,
+.navbar-davinci .navbar-nav li a.text-hide:hover {
+  color: transparent;
 }
 .navbar-davinci .navbar-nav li a:hover {
   background-color: transparent;
 }
 
-.navbar-davinci .navbar-nav li.separator:before {
+.navbar-davinci .navbar-nav li.separator:after {
   content: "|";
+  margin-left: -5px;
 }
 
 @media (max-width: 768px) {
@@ -177,15 +194,24 @@ a:hover {
     text-align: center;
     display: block;
   }
+  .background {
+    padding-top: 0;
+  }
 }
 
-.image-menu-link {
+.navbar-davinci .navbar-nav .image-menu-link {
   height: 30px;
-  width: 30px;
-  padding: 0;
+  margin-bottom: 0.4em;
+  margin-top: 0.6em;
+  margin-left: 1em;
+}
+
+.image-menu-link > a {
   display: inline-block !important;
   background-position: center;
   background-repeat: no-repeat;
+  width: 30px;
+  margin-left: 5px;
 }
 
 .twitter {
