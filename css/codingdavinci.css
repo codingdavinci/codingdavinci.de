@@ -386,13 +386,6 @@ h4 {
   margin: 2em 0;
 }
 
-@media (min-width: 768px) {
-  .profile-pic {
-    text-align: center;
-    margin: 0 auto;
-  }
-}
-
 .additional-text p {
   font-size: 12pt;
 }
