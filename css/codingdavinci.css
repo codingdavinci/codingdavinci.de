@@ -25,12 +25,12 @@ body {
 }
 
 a, a:hover, a:visited, a:active {
-  color: #111;
+  color: #00be7b;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #000;
+  color: #00be7b;
 }
 
 .background {
@@ -74,7 +74,7 @@ a:hover {
   padding: 0 35px;
 }
 
-.main-signup {
+a.main-signup {
   padding: 15px 15px 10px;
   text-transform: uppercase;
   background-color: #19C6F9;
@@ -84,9 +84,14 @@ a:hover {
   z-index: 1001;
   width: 320px;
   display: block;
+  color: #000;
   font-family: "Archive";
   -webkit-transform: translate3d(0px, 0px, 0px);
   transform: translate3d(0px, 0px, 0px);
+}
+
+a.main-signup:hover {
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -151,7 +156,7 @@ a:hover {
 
 .navbar-davinci .navbar-brand {
   text-transform: uppercase;
-  color: #17B564;
+  color: #00be7b;
   font-size: 18pt;
   padding-left: 0;
 }
@@ -175,7 +180,7 @@ a:hover {
 }
 
 .navbar-davinci .navbar-nav li a {
-  /*color: #333;*/
+  color: #000;
   display: inline;
   font-size: 12pt;
   padding: 15px 5px;
@@ -187,6 +192,7 @@ a:hover {
 }
 .navbar-davinci .navbar-nav li a:hover {
   background-color: transparent;
+  color: #00be7b;
 }
 
 .navbar-davinci .navbar-nav li.separator:after {
@@ -240,13 +246,13 @@ hr {
 }
 
 .subheader {
-  padding-top: 25px;
+  padding-top: 80px;
   border-bottom: 1px solid;
   margin-top: 0.25em;
   margin-bottom: 3.5em;
   text-align: center;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center top;
 }
 
 .subheader h2 {
@@ -266,7 +272,19 @@ hr {
 }
 
 .subheader-about {
-  background-image: url('../img/subheader_hand.png');
+  background-image: url('../img/icons/hand.png');
+}
+
+.subheader-uhr {
+  background-image: url('../img/icons/uhr.png');
+}
+
+.subheader-kutsche {
+  background-image: url('../img/icons/kutsche.jpg');
+}
+
+.subheader-preis {
+  background-image: url('../img/icons/preis.png');
 }
 
 .subheader-challenge {
@@ -290,7 +308,7 @@ hr {
 }
 
 h3 {
-  background-color: #17B564;
+  background-color: #00be7b;
   padding: 15px;
   margin: 0;
   font-family: "Archive";
@@ -309,13 +327,13 @@ h3 {
 
 
 .box {
-  background-color: #AEF0DD;
+  background-color: #00be7b;
   padding: 15px;
   font-size: 13pt;
 }
 
 .time-box {
-  background-color: #17B46B;
+  background-color: #00be7b;
   padding: 15px;
   min-height: 12em;
 }
@@ -335,7 +353,7 @@ h3 {
     top: 40%;
     border-top:20px solid transparent;
     border-bottom:20px solid transparent;
-    border-left:20px solid #17B46B;
+    border-left:20px solid #00be7b;
   }
 }
 
@@ -367,10 +385,15 @@ h3 {
 .btn-action {
   font-family: "Archive";
   font-size: 28pt;
-  color: #000;
+  color: #000 !important;
   background-color: #17B564;
   border-radius: 0;
   white-space: normal;
+}
+
+.btn-action:hover {
+  color: #fff !important;
+  background-color: #17B564;
 }
 
 h4 {
@@ -396,6 +419,12 @@ h4 {
   font-size: 11pt;
   background-color: #95EED7;
   min-height: 30em;
+}
+
+.footer a,
+.footer a:hover {
+  color: #000;
+  text-decoration: underline;
 }
 
 h5 {
@@ -518,4 +547,68 @@ h5 {
 
 .tile-1b {
   background-image: url('../img/code_tile_1.png');
+}
+
+.time-table {
+  position: relative;
+  margin: 2em 0 3em 100px;
+  table-layout: fixed;
+  word-break: break-all;
+  width: 100%;
+}
+
+.time-table caption {
+  font-family: 'Archive';
+  font-size: 24pt;
+  position: absolute;
+  left: -100px;
+  top: 35%;
+  -webkit-transform: rotate(-90deg);
+     -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+       -o-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.time-table tr {
+  margin-left: 10%;
+}
+
+.time-table td {
+   padding-left: 30px;
+   overflow: hidden;
+}
+
+.time-table tr td:first-child {
+  font-family: 'Archive';
+  padding-left: 0;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 40px;
+  background-color: #ccf2e4;
+  white-space: nowrap;
+  position: relative;
+}
+
+.time-table tr td:first-child:after {
+  background-color: #ccf2e4;
+  position: absolute;
+  content:"";
+  width:0;
+  height:0;
+  bottom: -10px;
+  left: 48%;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ccf2e4;
+}
+
+.minutes {
+  position: relative;
+  font-size: 65%;
+  line-height: 0;
+  vertical-align: baseline;
+  top: -.3em;
+  font-weight: normal;
 }
