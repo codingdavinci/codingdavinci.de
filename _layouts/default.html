@@ -136,9 +136,9 @@
       $(document).on('touchend', '.header-tile', function(){
         $(this).removeClass('hover');
       });
-      $('.main-signup').on('touchstart, mouseover', function(){
+      $('.main-signup').on('touchstart mouseover', function(){
         $('.header-tile').addClass('hover');
-      }).on('touchend, mouseout', function(){
+      }).on('touchend mouseout', function(){
         $('.header-tile').removeClass('hover');
       });
 
