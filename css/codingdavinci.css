@@ -586,6 +586,62 @@ h5 {
   z-index: 9;
 }
 
+.cdv-tiles1, .cdv-tiles10, .cdv-tiles11, .cdv-tiles12, .cdv-tiles13,
+.cdv-tiles14, .cdv-tiles15, .cdv-tiles16, .cdv-tiles17, .cdv-tiles18,
+.cdv-tiles19, .cdv-tiles2, .cdv-tiles20, .cdv-tiles21, .cdv-tiles22,
+.cdv-tiles23, .cdv-tiles24, .cdv-tiles25, .cdv-tiles26, .cdv-tiles27,
+.cdv-tiles28, .cdv-tiles29, .cdv-tiles3, .cdv-tiles30, .cdv-tiles31,
+.cdv-tiles4, .cdv-tiles5, .cdv-tiles6, .cdv-tiles7, .cdv-tiles8,
+.cdv-tiles9
+{ display: block; background: url('../img/tiles/cdv_tiles.jpg') no-repeat; }
+
+.cdv-tiles1 { background-position: -4px -0px; width: 214px; height: 214px; }
+.cdv-tiles10 { background-position: -222px -0px; width: 214px; height: 214px; }
+.cdv-tiles11 { background-position: -440px -0px; width: 214px; height: 214px; }
+.cdv-tiles12 { background-position: -658px -0px; width: 214px; height: 214px; }
+.cdv-tiles13 { background-position: -876px -0px; width: 214px; height: 214px; }
+.cdv-tiles14 { background-position: -4px -218px; width: 214px; height: 214px; }
+.cdv-tiles15 { background-position: -222px -218px; width: 214px; height: 214px; }
+.cdv-tiles16 { background-position: -440px -218px; width: 214px; height: 214px; }
+.cdv-tiles17 { background-position: -658px -218px; width: 214px; height: 214px; }
+.cdv-tiles18 { background-position: -876px -218px; width: 214px; height: 214px; }
+.cdv-tiles19 { background-position: -4px -436px; width: 214px; height: 214px; }
+.cdv-tiles2 { background-position: -222px -436px; width: 214px; height: 214px; }
+.cdv-tiles20 { background-position: -440px -436px; width: 214px; height: 214px; }
+.cdv-tiles21 { background-position: -658px -436px; width: 214px; height: 214px; }
+.cdv-tiles22 { background-position: -876px -436px; width: 214px; height: 214px; }
+.cdv-tiles23 { background-position: -4px -654px; width: 214px; height: 214px; }
+.cdv-tiles24 { background-position: -222px -654px; width: 214px; height: 214px; }
+.cdv-tiles25 { background-position: -440px -654px; width: 214px; height: 214px; }
+.cdv-tiles26 { background-position: -658px -654px; width: 214px; height: 214px; }
+.cdv-tiles27 { background-position: -876px -654px; width: 214px; height: 214px; }
+.cdv-tiles28 { background-position: -4px -872px; width: 214px; height: 214px; }
+.cdv-tiles29 { background-position: -222px -872px; width: 214px; height: 214px; }
+.cdv-tiles3 { background-position: -440px -872px; width: 214px; height: 214px; }
+.cdv-tiles30 { background-position: -658px -872px; width: 214px; height: 214px; }
+.cdv-tiles31 { background-position: -876px -872px; width: 214px; height: 214px; }
+.cdv-tiles4 { background-position: -4px -1090px; width: 214px; height: 214px; }
+.cdv-tiles5 { background-position: -222px -1090px; width: 214px; height: 214px; }
+.cdv-tiles6 { background-position: -440px -1090px; width: 214px; height: 214px; }
+.cdv-tiles7 { background-position: -658px -1090px; width: 214px; height: 214px; }
+.cdv-tiles8 { background-position: -876px -1090px; width: 214px; height: 214px; }
+.cdv-tiles9 { background-position: -4px -1308px; width: 214px; height: 214px; }
+
+.code-tile-1, .code-tile-10, .code-tile-2, .code-tile-3, .code-tile-4, 
+.code-tile-5, .code-tile-6, .code-tile-7, .code-tile-8, .code-tile-9
+{ display: block; background: url('../img/tiles/code_tile.png') no-repeat; }
+
+.code-tile-1 { background-position: -4px -0px; width: 214px; height: 214px; }
+.code-tile-10 { background-position: -222px -0px; width: 214px; height: 214px; }
+.code-tile-2 { background-position: -440px -0px; width: 214px; height: 214px; }
+.code-tile-3 { background-position: -4px -218px; width: 214px; height: 214px; }
+.code-tile-4 { background-position: -222px -218px; width: 214px; height: 214px; }
+.code-tile-5 { background-position: -440px -218px; width: 214px; height: 214px; }
+.code-tile-6 { background-position: -4px -436px; width: 214px; height: 214px; }
+.code-tile-7 { background-position: -222px -436px; width: 214px; height: 214px; }
+.code-tile-8 { background-position: -440px -436px; width: 214px; height: 214px; }
+.code-tile-9 { background-position: -4px -654px; width: 214px; height: 214px; }
+
 .time-table {
   position: relative;
   margin: 2em 0 3em 100px;

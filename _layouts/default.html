@@ -176,7 +176,7 @@
 
             r = Math.floor(Math.random() * 9) + 1;
 
-            html.push('<div class="header-tile" style="left:' + l + 'px;top:' + t + 'px;"><div class="flipper" style="transition-delay:0s;"><div class="front" style="background-image:url(\'' + baseurl + 'img/tiles/cdv_tiles' + n + '.jpg\');"></div><div class="back" style="background-image:url(\'' + baseurl + 'img/tiles/code_tile_' + r + '.png\');"></div></div></div>');
+            html.push('<div class="header-tile" style="left:' + l + 'px;top:' + t + 'px;"><div class="flipper" style="transition-delay:0s;"><div class="front cdv-tiles'+ n + '"></div><div class="back code-tile-' + r + '"></div></div></div>');
           }
         }
         tileContainer.html(html.join(''));
