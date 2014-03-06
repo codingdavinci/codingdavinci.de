@@ -719,3 +719,16 @@ h5 {
   top: -.3em;
   font-weight: normal;
 }
+
+.map {
+  height: 500px;
+  width: 100%;
+  background-color: #eee;
+  padding: 250px 0;
+}
+
+.map:after {
+  margin: auto;
+  content: "Karte aktivieren";
+  margin: 0 35%;
+}
