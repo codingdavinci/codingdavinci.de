@@ -131,6 +131,12 @@
       $(document).on('touchend', '.header-tile', function(){
         $(this).removeClass('hover');
       });
+      $('.main-signup').on('touchstart, mouseover', function(){
+        $('.header-tile').addClass('hover');
+      }).on('touchend, mouseout', function(){
+        $('.header-tile').removeClass('hover');
+      });
+
       (function(){
         var baseurl = '{{ site.baseurl }}';
         var html = [], l, t;
@@ -143,10 +149,10 @@
         if (containerWidth > maxCover) {
           offset = Math.floor(((containerWidth - maxCover) / 2) / tileSize);
         }
-        var topEven = 39.32;
+        var topEven = 39;
         var leftEven = -113 + (offset * tileSize);
-        var topOdd = -112;
-        var leftOdd = 38 + (offset * tileSize);
+        var topOdd = topEven - tileSize / 2;
+        var leftOdd = leftEven + (tileSize / 2) + (offset * tileSize);
         var n = 0, r;
 
         for (var i=0; i < 5; i += 1) {
@@ -163,9 +169,9 @@
             t = Math.round(t * 10) / 10;
             l = Math.round(l * 10) / 10;
 
-            r = 0;
+            r = Math.floor(Math.random() * 9) + 1;
 
-            html.push('<div class="header-tile" style="left:' + l + 'px;top:' + t + 'px;"><div class="flipper" style="transition-delay:'+ r + 's;"><div class="front" style="background-image:url(\'' + baseurl + 'img/tiles/cdv_tiles' + n + '.jpg\');"></div><div class="back tile-1b"></div></div></div>');
+            html.push('<div class="header-tile" style="left:' + l + 'px;top:' + t + 'px;"><div class="flipper" style="transition-delay:0s;"><div class="front" style="background-image:url(\'' + baseurl + 'img/tiles/cdv_tiles' + n + '.jpg\');"></div><div class="back" style="background-image:url(\'' + baseurl + 'img/tiles/code_tile_' + r + '.png\');"></div></div></div>');
           }
         }
         tileContainer.html(html.join(''));

@@ -492,8 +492,8 @@ h5 {
 }
 
 .header-tile, .front, .back {
-  width: 212px;
-  height: 212px;
+  width: 214px;
+  height: 214px;
 }
 
 .flipper {
@@ -517,17 +517,17 @@ h5 {
       -ms-backface-visibility: hidden;
        -o-backface-visibility: hidden;
           backface-visibility: hidden;
-  -webkit-transform: scale(1.05);
-     -moz-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-       -o-transform: scale(1.05);
-          transform: scale(1.05);
 
   position: absolute;
   top: 0;
   left: 0;
   background-repeat: no-repeat;
   background-position: center center;
+  -webkit-transform: scale(1.02);
+     -moz-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+       -o-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 /* front pane, placed above back */
@@ -537,16 +537,12 @@ h5 {
 
 /* back, initially hidden pane */
 .back {
-  -webkit-transform: rotateY(180deg);
-     -moz-transform: rotateY(180deg);
-      -ms-transform: rotateY(180deg);
-       -o-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  -webkit-transform: scale(1.02) rotateY(180deg);
+     -moz-transform: scale(1.02) rotateY(180deg);
+      -ms-transform: scale(1.02) rotateY(180deg);
+       -o-transform: scale(1.02) rotateY(180deg);
+          transform: scale(1.02) rotateY(180deg);
   z-index: 9;
-}
-
-.tile-1b {
-  background-image: url('../img/code_tile_1.png');
 }
 
 .time-table {
