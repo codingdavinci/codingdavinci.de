@@ -464,13 +464,12 @@ h4 {
   text-decoration: underline;
 }
 
-h5 {
-  font-weight: bold;
+.logos img {
+  padding: 0.25em;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) { 
-
+h5 {
+  font-weight: bold;
 }
 
 /* Adornments */
