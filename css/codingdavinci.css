@@ -271,17 +271,22 @@ hr {
   background-color: #C4F3E6;
 }
 
-.subheader-about        {background-image: url('../img/icons/hand.png'); }
-.subheader-uhr           {background-image: url('../img/icons/uhr.png'); }
-.subheader-buch         {background-image: url('../img/icons/buch.png'); }
-.subheader-lupe         {background-image: url('../img/icons/lupe.png'); }
-.subheader-globus     {background-image: url('../img/icons/globus.png'); }
-.subheader-radler     {background-image: url('../img/icons/radler.png'); }
-.subheader-preis       {background-image: url('../img/icons/preis.png'); }
-.subheader-challenge   {background-image: url('../img/icons/bogen.png'); }
-.subheader-zylinder {background-image: url('../img/icons/zylinder.png'); }
-.subheader-kutsche   {background-image: url('../img/icons/kutsche.png'); }
-.subheader-reiter     {background-image: url('../img/icons/reiter.png'); }
+.subheader-about          {background-image: url('../img/icons/hand.png'); }
+.subheader-uhr             {background-image: url('../img/icons/uhr.png'); }
+.subheader-buch           {background-image: url('../img/icons/buch.png'); }
+.subheader-lupe           {background-image: url('../img/icons/lupe.png'); }
+.subheader-globus       {background-image: url('../img/icons/globus.png'); }
+.subheader-radler       {background-image: url('../img/icons/radler.png'); }
+.subheader-preis         {background-image: url('../img/icons/preis.png'); }
+.subheader-challenge     {background-image: url('../img/icons/bogen.png'); }
+.subheader-zylinder   {background-image: url('../img/icons/zylinder.png'); }
+.subheader-haende       {background-image: url('../img/icons/haende.png'); }
+.subheader-zylinder   {background-image: url('../img/icons/zylinder.png'); }
+.subheader-banderole {background-image: url('../img/icons/banderole.png'); }
+.subheader-ausrufer   {background-image: url('../img/icons/ausrufer.png'); }
+.subheader-kutsche     {background-image: url('../img/icons/kutsche.png'); }
+.subheader-reiter       {background-image: url('../img/icons/reiter.png'); }
+
 
 .subheader-kutsche,
 .subheader-reiter {
@@ -299,17 +304,21 @@ only screen and (min-device-pixel-ratio: 2) {
   .subheader-reiter {
     background-size: 150px 150px;
   }
-  .subheader-about        {background-image: url('../img/icons/hand-2x.png'); }
-  .subheader-uhr           {background-image: url('../img/icons/uhr-2x.png'); }
-  .subheader-buch         {background-image: url('../img/icons/buch-2x.png'); }
-  .subheader-lupe         {background-image: url('../img/icons/lupe-2x.png'); }
-  .subheader-globus     {background-image: url('../img/icons/globus-2x.png'); }
-  .subheader-radler     {background-image: url('../img/icons/radler-2x.png'); }
-  .subheader-preis       {background-image: url('../img/icons/preis-2x.png'); }
-  .subheader-challenge   {background-image: url('../img/icons/bogen-2x.png'); }
-  .subheader-zylinder {background-image: url('../img/icons/zylinder-2x.png'); }
-  .subheader-kutsche   {background-image: url('../img/icons/kutsche-2x.png'); }
-  .subheader-reiter     {background-image: url('../img/icons/reiter-2x.png'); }
+.subheader-about          {background-image: url('../img/icons/hand-2x.png'); }
+.subheader-uhr             {background-image: url('../img/icons/uhr-2x.png'); }
+.subheader-buch           {background-image: url('../img/icons/buch-2x.png'); }
+.subheader-lupe           {background-image: url('../img/icons/lupe-2x.png'); }
+.subheader-globus       {background-image: url('../img/icons/globus-2x.png'); }
+.subheader-radler       {background-image: url('../img/icons/radler-2x.png'); }
+.subheader-preis         {background-image: url('../img/icons/preis-2x.png'); }
+.subheader-challenge     {background-image: url('../img/icons/bogen-2x.png'); }
+.subheader-zylinder   {background-image: url('../img/icons/zylinder-2x.png'); }
+.subheader-haende       {background-image: url('../img/icons/haende-2x.png'); }
+.subheader-zylinder   {background-image: url('../img/icons/zylinder-2x.png'); }
+.subheader-banderole {background-image: url('../img/icons/banderole-2x.png'); }
+.subheader-ausrufer   {background-image: url('../img/icons/ausrufer-2x.png'); }
+.subheader-kutsche     {background-image: url('../img/icons/kutsche-2x.png'); }
+.subheader-reiter       {background-image: url('../img/icons/reiter-2x.png'); }
 
 }
 
