@@ -186,6 +186,10 @@ a.main-signup:hover {
   padding: 15px 5px;
 }
 
+.navbar-davinci .navbar-nav li.active a {
+  color: #00be7b;
+}
+
 .navbar-davinci .navbar-nav li a.text-hide,
 .navbar-davinci .navbar-nav li a.text-hide:hover {
   color: transparent;

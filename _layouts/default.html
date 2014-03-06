@@ -71,22 +71,22 @@
         </div>
 
         <ul class="nav navbar-nav navbar-right">
-          <li class="separator">
+          <li class="separator {% if page.slug == "ueber" %}active{% endif %}">
             <a href="{{ site.baseurl }}ueber/">Über</a>
           </li>
-          <li class="separator">
+          <li class="separator {% if page.slug == "daten" %}active{% endif %}">
             <a href="{{ site.baseurl }}daten/">Daten</a>
           </li>
-          <li class="separator">
+          <li class="separator {% if page.slug == "programm" %}active{% endif %}">
             <a href="{{ site.baseurl }}programm/">Programm</a>
           </li>
-          <li class="separator">
+          <li class="separator {% if page.slug == "partner" %}active{% endif %}">
             <a href="{{ site.baseurl }}partner/">Partner</a>
           </li>
-          <li class="separator">
+          <li class="separator {% if page.slug == "presse" %}active{% endif %}">
             <a href="{{ site.baseurl }}presse/">Presse</a>
           </li>
-          <li>
+          <li class="{% if page.slug == "faq" %}active{% endif %}">
             <a href="{{ site.baseurl }}faq/">FAQ</a>
           </li>
           <li class="image-menu-link">
