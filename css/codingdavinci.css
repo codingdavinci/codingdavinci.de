@@ -271,26 +271,31 @@ hr {
   background-color: #C4F3E6;
 }
 
-.subheader-about      {background-image: url('../img/icons/hand.png'); }
-.subheader-uhr         {background-image: url('../img/icons/uhr.png'); }
-.subheader-buch       {background-image: url('../img/icons/buch.png'); }
-.subheader-radler   {background-image: url('../img/icons/radler.png'); }
-.subheader-preis     {background-image: url('../img/icons/preis.png'); }
-.subheader-challenge {background-image: url('../img/icons/bogen.png'); }
-.subheader-kutsche {background-image: url('../img/icons/kutsche.jpg'); }
+.subheader-about        {background-image: url('../img/icons/hand.png'); }
+.subheader-uhr           {background-image: url('../img/icons/uhr.png'); }
+.subheader-buch         {background-image: url('../img/icons/buch.png'); }
+.subheader-lupe         {background-image: url('../img/icons/lupe.png'); }
+.subheader-globus     {background-image: url('../img/icons/globus.png'); }
+.subheader-radler     {background-image: url('../img/icons/radler.png'); }
+.subheader-preis       {background-image: url('../img/icons/preis.png'); }
+.subheader-challenge   {background-image: url('../img/icons/bogen.png'); }
+.subheader-zylinder {background-image: url('../img/icons/zylinder.png'); }
+.subheader-kutsche   {background-image: url('../img/icons/kutsche.jpg'); }
 
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   .subheader {
     background-size: 110px 110px;
   }
-
-  .subheader-about      {background-image: url('../img/icons/hand-2x.png'); }
-  .subheader-uhr         {background-image: url('../img/icons/uhr-2x.png'); }
-  .subheader-buch       {background-image: url('../img/icons/buch-2x.png'); }
-  .subheader-radler   {background-image: url('../img/icons/radler-2x.png'); }
-  .subheader-preis     {background-image: url('../img/icons/preis-2x.png'); }
-  .subheader-challenge {background-image: url('../img/icons/bogen-2x.png'); }
+  .subheader-about        {background-image: url('../img/icons/hand-2x.png'); }
+  .subheader-uhr           {background-image: url('../img/icons/uhr-2x.png'); }
+  .subheader-buch         {background-image: url('../img/icons/buch-2x.png'); }
+  .subheader-lupe         {background-image: url('../img/icons/lupe-2x.png'); }
+  .subheader-globus     {background-image: url('../img/icons/globus-2x.png'); }
+  .subheader-radler     {background-image: url('../img/icons/radler-2x.png'); }
+  .subheader-preis       {background-image: url('../img/icons/preis-2x.png'); }
+  .subheader-challenge   {background-image: url('../img/icons/bogen-2x.png'); }
+  .subheader-zylinder {background-image: url('../img/icons/zylinder-2x.png'); }
 
 }
 
@@ -415,6 +420,7 @@ h3 {
   background-color: #17B564;
   border-radius: 0;
   white-space: normal;
+  padding: 0.2em 0.5em 0;
 }
 
 .btn-action:hover {
