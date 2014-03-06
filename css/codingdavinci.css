@@ -271,33 +271,27 @@ hr {
   background-color: #C4F3E6;
 }
 
-.subheader-about {
-  background-image: url('../img/icons/hand.png');
-}
+.subheader-about      {background-image: url('../img/icons/hand.png'); }
+.subheader-uhr         {background-image: url('../img/icons/uhr.png'); }
+.subheader-buch       {background-image: url('../img/icons/buch.png'); }
+.subheader-radler   {background-image: url('../img/icons/radler.png'); }
+.subheader-preis     {background-image: url('../img/icons/preis.png'); }
+.subheader-challenge {background-image: url('../img/icons/bogen.png'); }
+.subheader-kutsche {background-image: url('../img/icons/kutsche.jpg'); }
 
-.subheader-uhr {
-  background-image: url('../img/icons/uhr.png');
-}
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .subheader {
+    background-size: 110px 110px;
+  }
 
-.subheader-buch {
-  background-image: url('../img/icons/buch.png');
-}
+  .subheader-about      {background-image: url('../img/icons/hand-2x.png'); }
+  .subheader-uhr         {background-image: url('../img/icons/uhr-2x.png'); }
+  .subheader-buch       {background-image: url('../img/icons/buch-2x.png'); }
+  .subheader-radler   {background-image: url('../img/icons/radler-2x.png'); }
+  .subheader-preis     {background-image: url('../img/icons/preis-2x.png'); }
+  .subheader-challenge {background-image: url('../img/icons/bogen-2x.png'); }
 
-.subheader-radler {
-  background-image: url('../img/icons/radler.png');
-}
-
-.subheader-kutsche {
-  background-image: url('../img/icons/kutsche.jpg');
-}
-
-.subheader-preis {
-  background-image: url('../img/icons/preis.png');
-}
-
-.subheader-challenge {
-  background-image: url('../img/subheader_challenge.png');
-  padding-top: 100px !important;
 }
 
 .interlude {
