@@ -225,7 +225,7 @@ a.main-signup:hover {
   height: 31px;
   margin-bottom: 0.4em;
   margin-top: 0.6em;
-  margin-left: 1em;
+  margin-left: 0;
   display: block;
 }
 
@@ -593,11 +593,11 @@ h5 {
   left: 0;
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-transform: scale(1.02);
-     -moz-transform: scale(1.02);
-      -ms-transform: scale(1.02);
-       -o-transform: scale(1.02);
-          transform: scale(1.02);
+  -webkit-transform: scale(1.04);
+     -moz-transform: scale(1.04);
+      -ms-transform: scale(1.04);
+       -o-transform: scale(1.04);
+          transform: scale(1.04);
 }
 
 /* front pane, placed above back */
@@ -607,11 +607,11 @@ h5 {
 
 /* back, initially hidden pane */
 .back {
-  -webkit-transform: scale(1.02) rotateY(180deg);
-     -moz-transform: scale(1.02) rotateY(180deg);
-      -ms-transform: scale(1.02) rotateY(180deg);
-       -o-transform: scale(1.02) rotateY(180deg);
-          transform: scale(1.02) rotateY(180deg);
+  -webkit-transform: scale(1.04) rotateY(180deg);
+     -moz-transform: scale(1.04) rotateY(180deg);
+      -ms-transform: scale(1.04) rotateY(180deg);
+       -o-transform: scale(1.04) rotateY(180deg);
+          transform: scale(1.04) rotateY(180deg);
   z-index: 9;
 }
 
@@ -656,20 +656,42 @@ h5 {
 .cdv-tiles8 { background-position: -876px -1090px; width: 214px; height: 214px; }
 .cdv-tiles9 { background-position: -4px -1308px; width: 214px; height: 214px; }
 
-.code-tile-1, .code-tile-10, .code-tile-2, .code-tile-3, .code-tile-4, 
-.code-tile-5, .code-tile-6, .code-tile-7, .code-tile-8, .code-tile-9
+.code-tile1, .code-tile2, .code-tile3, .code-tile4, .code-tile5,
+.code-tile6, .code-tile7, .code-tile8, .code-tile9
 { display: block; background: url('../img/tiles/code_tile.png') no-repeat; }
 
-.code-tile-1 { background-position: -4px -0px; width: 214px; height: 214px; }
-.code-tile-10 { background-position: -222px -0px; width: 214px; height: 214px; }
-.code-tile-2 { background-position: -440px -0px; width: 214px; height: 214px; }
-.code-tile-3 { background-position: -4px -218px; width: 214px; height: 214px; }
-.code-tile-4 { background-position: -222px -218px; width: 214px; height: 214px; }
-.code-tile-5 { background-position: -440px -218px; width: 214px; height: 214px; }
-.code-tile-6 { background-position: -4px -436px; width: 214px; height: 214px; }
-.code-tile-7 { background-position: -222px -436px; width: 214px; height: 214px; }
-.code-tile-8 { background-position: -440px -436px; width: 214px; height: 214px; }
-.code-tile-9 { background-position: -4px -654px; width: 214px; height: 214px; }
+.code-tile1 { background-position: -4px -0px; width: 214px; height: 214px; }
+.code-tile2 { background-position: -222px -0px; width: 214px; height: 214px; }
+.code-tile3 { background-position: -440px -0px; width: 214px; height: 214px; }
+.code-tile4 { background-position: -4px -218px; width: 214px; height: 214px; }
+.code-tile5 { background-position: -222px -218px; width: 214px; height: 214px; }
+.code-tile6 { background-position: -440px -218px; width: 214px; height: 214px; }
+.code-tile7 { background-position: -4px -436px; width: 214px; height: 214px; }
+.code-tile8 { background-position: -222px -436px; width: 214px; height: 214px; }
+.code-tile9 { background-position: -440px -436px; width: 214px; height: 214px; }
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+  .back {
+    background-size: 214px 214px;
+  }
+
+  .code-tile1, .code-tile2, .code-tile3, .code-tile4, .code-tile5,
+  .code-tile6, .code-tile7, .code-tile8, .code-tile9 {
+    background: url('../img/tiles/code_tile-2x.png') no-repeat;
+  }
+  .code-tile1 { background-position: -4px -0px; }
+  .code-tile2 { background-position: -436px -0px; }
+  .code-tile3 { background-position: -868px -0px; }
+  .code-tile4 { background-position: -4px -432px; }
+  .code-tile5 { background-position: -436px -432px; }
+  .code-tile6 { background-position: -868px -432px; }
+  .code-tile7 { background-position: -4px -864px; }
+  .code-tile8 { background-position: -436px -864px; }
+  .code-tile9 { background-position: -868px -864px; }
+}
 
 .time-table {
   position: relative;
