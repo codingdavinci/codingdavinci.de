@@ -288,6 +288,7 @@ hr {
 .subheader-zylinder   {background-image: url('../img/icons/zylinder.png'); }
 .subheader-banderole {background-image: url('../img/icons/banderole.png'); }
 .subheader-ausrufer   {background-image: url('../img/icons/ausrufer.png'); }
+.subheader-glocke       {background-image: url('../img/icons/glocke.png'); }
 .subheader-kutsche     {background-image: url('../img/icons/kutsche.png'); }
 .subheader-reiter       {background-image: url('../img/icons/reiter.png'); }
 
@@ -321,6 +322,7 @@ only screen and (min-device-pixel-ratio: 2) {
 .subheader-zylinder   {background-image: url('../img/icons/zylinder-2x.png'); }
 .subheader-banderole {background-image: url('../img/icons/banderole-2x.png'); }
 .subheader-ausrufer   {background-image: url('../img/icons/ausrufer-2x.png'); }
+.subheader-glocke       {background-image: url('../img/icons/glocke-2x.png'); }
 .subheader-kutsche     {background-image: url('../img/icons/kutsche-2x.png'); }
 .subheader-reiter       {background-image: url('../img/icons/reiter-2x.png'); }
 
