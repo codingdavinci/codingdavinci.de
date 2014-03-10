@@ -43,6 +43,10 @@ a:hover {
   margin-top: 720px;
 }
 
+.margin-row {
+  margin-top: 2em;
+}
+
 .header {
   background: left top url('../img/header_background.jpg') repeat-x;
   height: 720px;
