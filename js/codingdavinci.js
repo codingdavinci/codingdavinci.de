@@ -3,10 +3,9 @@
   'use strict';
 
   var setContainerWidth = function(){
-    $('.nav-container').css('width', $('.nav-container').width() + 'px');
+    $('.nav-container').css('width', $(window).width() + 'px');
   };
   $(window).resize(function(){
-    $('.nav-container').css('width', 'auto');
     setContainerWidth();
   });
   setContainerWidth();
