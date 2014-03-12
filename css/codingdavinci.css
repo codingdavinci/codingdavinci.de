@@ -98,6 +98,40 @@ a.main-signup:hover {
   color: #fff;
 }
 
+a.scroll-hint {
+  font-size: 24pt;
+  font-weight: bold;
+  margin: 20px auto;
+  z-index: 1001;
+  width: 30px;
+  display: block;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  color: #00be7b;
+  text-decoration: none;
+  -webkit-animation: pulse 3s infinite alternate;
+     -moz-animation: pulse 3s infinite alternate;
+       -o-animation: pulse 3s infinite alternate;
+          animation: pulse 3s infinite alternate;
+}
+
+a.scroll-hint:hover {
+  text-decoration: none;
+}
+
+
+@-webkit-keyframes pulse {
+  0% { color: #00be7b; }
+  100% { color: #000; }
+}
+
+@keyframes pulse {
+  0% { color: #00be7b; }
+  100% { color: #000; }
+}
+
+
+
 @media (max-width: 768px) {
   .header {
     position: static;
