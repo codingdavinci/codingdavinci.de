@@ -401,6 +401,7 @@ h3 {
 
 .time-box > p {
   padding: 0 20px;
+  text-align: center;
 }
 
 .box-arrow {
@@ -803,4 +804,12 @@ only screen and (min-device-pixel-ratio: 2) {
   content: "Karte aktivieren";
   text-decoration: underline;
   margin: 0 0 0 25%;
+}
+
+blockquote {
+  border-left: 0;
+}
+
+h4 {
+  font-size: 22px;
 }
