@@ -217,13 +217,6 @@ a.scroll-hint:hover {
   padding-left: 0;
 }
 
-.navbar-davinci .navbar-brand:before {
-  content: "{";
-}
-.navbar-davinci .navbar-brand:after {
-  content: "}";
-}
-
 .navbar-davinci .navbar-nav {
   font-size: 16pt;
   text-align: right;
