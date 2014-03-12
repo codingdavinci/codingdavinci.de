@@ -33,6 +33,24 @@ a:hover {
   color: #00be7b;
 }
 
+blockquote {
+  border-left: 0;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 5px;
+  padding: 1em 0 0;
+}
+
 .background {
   background-color: white;
   position: relative;
@@ -84,7 +102,7 @@ a.main-signup {
   background-color: #19C6F9;
   font-size: 24pt;
   font-weight: bold;
-  margin: 75px auto;
+  margin: 75px auto 0;
   z-index: 1001;
   width: 320px;
   display: block;
@@ -392,7 +410,7 @@ only screen and (min-device-pixel-ratio: 2) {
   color: #111;
 }
 
-h3 {
+.timebox > h3 {
   background-color: #00be7b;
   padding: 15px;
   margin: 0;
@@ -494,13 +512,6 @@ h3 {
 .btn-action:hover {
   color: #fff !important;
   background-color: #17B564;
-}
-
-h4 {
-  font-weight: bold;
-  color: #000;
-  margin-bottom: 5px;
-  padding: 1em 0 0;
 }
 
 .outset {
@@ -838,12 +849,4 @@ only screen and (min-device-pixel-ratio: 2) {
   content: "Karte aktivieren";
   text-decoration: underline;
   margin: 0 0 0 25%;
-}
-
-blockquote {
-  border-left: 0;
-}
-
-h4 {
-  font-size: 22px;
 }
