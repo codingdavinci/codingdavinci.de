@@ -518,6 +518,12 @@ only screen and (min-device-pixel-ratio: 2) {
   margin: 2em 0;
 }
 
+.jury-profile,
+.jury-profile > div > img {
+  text-align: center;
+  display: inline;
+}
+
 .additional-text p {
   font-size: 12pt;
 }
