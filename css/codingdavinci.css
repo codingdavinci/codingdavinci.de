@@ -431,7 +431,6 @@ only screen and (min-device-pixel-ratio: 2) {
   content: " ";
 }
 
-
 .box {
   background-color: #00be7b;
   padding: 15px;
@@ -448,6 +447,19 @@ only screen and (min-device-pixel-ratio: 2) {
   padding: 0 20px;
   text-align: center;
 }
+
+.challenge-box h3 {
+  background-color: #00be7b;
+  margin-bottom: 0;
+  padding: 15px 0;
+  font-family: "Archive";
+  text-transform: uppercase;
+}
+
+.challenge-box .box {
+  background-color: #C4F3E6;
+}
+
 
 .box-arrow {
   position: relative;
