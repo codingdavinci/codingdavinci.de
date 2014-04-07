@@ -11,6 +11,12 @@
   .col-sm-offset-1-5 {
     margin-left: 12.500000002%
   }
+  .dl-horizontal dt {
+    width: 200px;
+  }
+  .dl-horizontal dd {
+    margin-left: 220px;
+  }
 }
 @media (min-width: 992px) {
   .col-md-offset-0 {
