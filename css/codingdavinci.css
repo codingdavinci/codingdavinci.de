@@ -24,6 +24,10 @@
   }
 }
 
+.thumbnail {
+  border: 0px;
+}
+
 body {
   font-family: 'Droid Serif', serif;
   font-size: 16pt;
@@ -182,7 +186,7 @@ a.scroll-hint:hover {
 
 .nav-container {
   background-color: #fff;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.95);
   z-index: 1000;
   padding: 0;
 }
