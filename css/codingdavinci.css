@@ -474,16 +474,6 @@ only screen and (min-device-pixel-ratio: 2) {
   background-color: #C4F3E6;
 }
 
-@media (min-width: 992px) {
-  .challenge-box-1 .box {
-    height: 470px;
-  }
-  .challenge-box-2 .box {
-    height: 585px;
-  }
-}
-
-
 .box-arrow {
   position: relative;
 }
