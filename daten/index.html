@@ -823,7 +823,7 @@ Für "Book" setzt sich die URL aus der Serveradresse und der Pfadangabe unter "/
   <h4>Grabmale historischer jüdischer Friedhöfe</h4>
 
   <p>
-    Das STI stellt für Coding da Vinci mehr als 26.000 Datensätze zu Grabmalen von rund 135 historischen jüdischen Friedhöfen zur Verfügung. Räumlich sind diese auf 12 Regionen verteilt, zeitlich werden 900 Jahre umspannt. Die Datensätze sind offen zugänglich über die epigraphische Datenbank <a href="http://steinheim-institut.de/cgi-bin/epidat">epidat</a>
+   Das STI stellt für Coding da Vinci mehr als 26.000 Datensätze zu Grabmalen von rund 135 historischen jüdischen Friedhöfen zur Verfügung. Räumlich sind diese auf 12 Regionen verteilt, zeitlich werden 900 Jahre umspannt. Die Datensätze sind offen zugänglich über die epigraphische Datenbank <a href="http://steinheim-institut.de/cgi-bin/epidat">epidat</a>
   </p>
 
   <dl>
@@ -837,32 +837,58 @@ Für "Book" setzt sich die URL aus der Serveradresse und der Pfadangabe unter "/
     <dd>CC-BY 4.0</dd>
     <dt>Dateityp</dt>
     <dd>XML</dd>
+  </dl>
+    
+    <p>
+    Drei XML-Formate stehen für CodingDaVinci zur Verfügung:
+    </p>
+    
+    <p>
+    A. RSS 
+Ein RSS-Feed enthält Kurzinfos zu jedem historischen Friedhof:  Name, Inschriftenzahl, Geokoordinaten, Projektdetails sowie ein Link, der zum Bestand führt. 
+<a href="http://www.steinheim-institut.de/daten/rss.xml">http://www.steinheim-institut.de/daten/rss.xml</a> 
+    </p>
+    
+    <p>
+    B. KML 
+In einer KML-Datei liegen datierte Grabmale sämtlicher Bestände jeweils mit Geokoordinaten und einem Link zur Volldokumentation vor: <a href="http://steinheim-institut.de/daten/epidat.kml">http://steinheim-institut.de/daten/epidat.kml</a>
+Das KML-Format wird zur Zeit für die Visualisierung der epidat Daten im DARIAH-DE Geo-Browser verwendet. Siehe: <a href="http://steinheim-institut.de/cgi-bin/epidat?info=e4d">http://steinheim-institut.de/cgi-bin/epidat?info=e4d</a>
+    </p>
+    
+    <p>
+    C. EpiDoc – Epigraphic Documents in TEI XML
+Jeder einzelne epigraphische Datensatz der epigraphischen Datenbank wird auch im EpiDoc Format bereitgestellt. EpiDoc ist ein XML-Standard für epigraphische Daten. 
+    </p>
+    
+    <p>
+      <a href="http://steinheim-institut.de/cgi-bin/epidat">Zusatzinformationen</a>
+    </p>
+
     <p>
       <a href="http://sourceforge.net/p/epidoc/wiki/Home/">EpiDoc</a> (Epigraphic Documents in TEI XML) für jedes einzelne epigraphische Objekt (Inschrift | Grabmal).
     </p>
     
-    <p>Beispiel <a href="http://steinheim-institut.de/cgi-bin/epidat?id=hha-3361-teip5">http://steinheim-institut.de/cgi-bin/epidat?id=hha-3361-teip5</a> 
-      Syntax: Jeder Datensatz hat eine eindeutige ID. Diese kann sich aus bis zu drei Teilen – verbunden durch Bindestrich – zusammensetzen:
-    </p>
-    
-    <p>
-      1. Obligatorisch: dreistellige Bestands-ID („hha“)
-      2. Obligatorisch: ein- bis vierstellige bestandsbezogene nummerische ID („3361“). Hinweis: Kein epidat Bestand hat zur Zeit mehr als 9999 Einträge.
-      3. Fakultativ: Format (teip5 | t – für TEI XML; txt – für plain-text) - Erfolgt hier keine Angabe wird html ausgegeben.
-    </p>
-    <p>
-      KML – Datierte Grabmale sowie Datierte Grabmale mit Symbolen liegen bestandsübergreifend jeweils mit Geokoordinaten als KML-Datei vor: <a href="http://steinheim-institut.de/daten/epidat.kml">http://steinheim-institut.de/daten/epidat.kml</a> und <a href="http://steinheim-institut.de/daten/symbols.kml">http://steinheim-institut.de/daten/symbols.kml</a> (siehe die Visualisierung im DARIAH-DE Geo-Browser <a href="http://steinheim-institut.de/cgi-bin/epidat?info=e4d">http://steinheim-institut.de/cgi-bin/epidat?info=e4d</a> und <a href="http://www.steinheim-institut.de/cgi-bin/epidat?info=index&anzeige=symbols">http://www.steinheim-institut.de/cgi-bin/epidat?info=index&anzeige=symbols</a>)
-    </p>
-    <p>
-      rss – feed: <a href="http://www.steinheim-institut.de/daten/rss.xml">http://www.steinheim-institut.de/daten/rss.xml</a> mit Kurzinfos zum Bestand (Name, Inschriftenzahl, Links, Geokoordinaten, …)
-    </p>
-    <p>
-      SVG - teilweise liegen Lagepläne vor: <a href="http://www.steinheim-institut.de/cgi-bin/epidat?info=sitemaps">http://www.steinheim-institut.de/cgi-bin/epidat?info=sitemaps</a> 
-    </p>
-    <p>
-      <a href="http://steinheim-institut.de/cgi-bin/epidat">Zusatzinformationen</a>
-  </dl>
+<p>
+Jeder Datensatz der epigraphischen Datenbank epidat hat eine eindeutige ID und kann per URL abgerufen werden. Die ID setzt sich aus bis zu drei Teilen – verbunden durch Bindestrich – zusammen:
+1. Eine obligatorische dreistellige Bestands-ID („hha“),
+2. eine obligatorische ein- bis vierstellige bestandsbezogene nummerische ID („3361“).
+3. Fakultativ ist die Angabe zum Format:
+„teip5“ bzw „t“ für EpiDoc TEI XML für epigraphische Dokumente; 
+„txt“ – für plain-text
+wenn an dieser Stelle keine Angabe gemacht ist, dann wird html ausgegeben.
+</p>
 
+<p>
+Beispiel: <a href="http://steinheim-institut.de/cgi-bin/epidat?id=hha-3361-teip5">http://steinheim-institut.de/cgi-bin/epidat?id=hha-3361-teip5</a> 
+</p>
+
+<p>
+Zur Syntax siehe auch die Übersichtsseite <a href="http://www.steinheim-institut.de/cgi-bin/epidat?info=howtoharvest">„How to harvest epidat records“</a>
+</p>
+
+<p>
+Eine Einführung in historische jüdische Friedhöfe und Grabsteinepigraphik gibt <a href="http://www.steinheim-institut.de/cgi-bin/epidat?info=epi">Spurensuche</a> – Jüdische Friedhöfe in Deutschland
+</p>
 
   </div>
   </div>
