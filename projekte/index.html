@@ -8,7 +8,7 @@ slug: projekte
 </header>
 
 <div class="row">
-  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+  <div class="col-lg-12">
     <p>
       Im Rahmen von <strong>Coding da Vinci</strong> wurden 26 Projekt für die Öffentlichkeit und den Kulturbereich skizziert, davon XX in 10 Wochen in Zusammmenarbeit zwischen den beteiligten Kulturinstitutionen und den Teilnehmer/innen weiterentwickelt und auf der Preisverleihung am 06. Juli 2014 präsentiert.
     </p>
@@ -53,11 +53,56 @@ slug: projekte
     </div>
   {% endif %}
 {% endfor %}
-{% if site.data.projects | size | module:2 == 1 %}
+{% assign even_projects = site.data.projects | size | module:2 %}
+{% if event_projects == 1 %}
   </div>
 {% endif %}
 
+<header id="weitere-projekte" class="subheader">
+  <h2>Weitere Projekte</h2>
+</header>
 
+
+
+
+{% for project in site.data.projects_april %}
+  {% assign even = forloop.index0|modulo:2 %}
+  {% if even == 0 %}
+    <div class="row challenge-box equal">
+  {% endif %}
+
+
+    <div class="col-lg-6 col-md-6">
+      <h3>{{ project.name }}</h3>
+      <div class="box">
+        <img src="{{ project.image }}" alt="{{ project.name }}" class="img-responsive">
+        <p>
+         {{ project.description }}
+        </p>
+        <p>
+          <strong>Zu finden auf:</strong><br/>
+          {{ project.links }}
+        </p>
+        <p>
+        <strong>Datengrundlage:</strong><br/>
+          {{ project.data }}
+        </p>
+        <p>
+          <strong>Team:</strong><br/>
+          {{ project.team }}
+        </p>
+      </div>
+
+
+    </div>
+  {% if even == 1 %}
+    </div>
+  {% endif %}
+{% endfor %}
+{% assign even_projects = site.data.projects_april | size | module:2 %}
+{% if event_projects == 1 %}
+  </div>
+{% endif %}
 
 <!--
 <header id="pressespiegel" class="subheader">
