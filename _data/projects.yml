@@ -1,6 +1,6 @@
 - 
   name: "Alt-Berlin – Die iOS App für Geschichten zur historischen Entwicklung Berlins"
-  image: "\<img src=\"{{ site.baseurl }}img/projekte/alt-berlin-app.jpg\" alt=\"alt-berlin\" class=\"img-responsive col-lg-4 col-md-4 col-sm-4 inline-logo\">"
+  image: "\<img src=\"{{ site.baseurl }}img/projekte/alt-berlin-app.jpg\" alt=\"alt-berlin"
   description: "Für Coding Da Vinci wurden verschiedene Prototypen in Form einer iPad App entwickelt, um die historische Entwicklung Berlins interaktiv zu erforschen. Dazu haben wir mit frei verfügbaren Datensätzen über Berlin experimentiert. Ultimatives Ziel ist es, eine App für Geschichtsbegeisterte in den App Store zu stellen.<br><br>Verschiedene UI Prototypen in Form einer iPad App um die historische Entwicklung Berlins interaktiv zu erforschen, z. B. Zuordnung der Bilder des Stadtmuseums zu Orten, alte Karten von Berlin überlagert auf heutige Karten, vorher/nachher Bilder.<br>Inspirationen: Peter Macdiarmid (Guardian then and now), Halley Docherty (Google Street View), Maphub, Zeitsprung"
   links: "<a href=\"http://altberlinapp.de\">Webseite</a><br><a href=\"https://github.com/choefele/coding-da-vinci\">Demo auf github</a>"
   data: "\"Schichten der Geschichte\" Stadtansichten (Stadtmuseum Berlin),<br>Geometrien der Ortsteile von Berlin (Amt für Statistik Berlin-Brandenburg),<br>Berliner Karten 1650-1986 (Senatsverwaltung für Stadtentwicklung und Umwelt Berlin),<br>Bilder Kreuzberg (Wikipedia)"
