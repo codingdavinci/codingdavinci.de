@@ -7,7 +7,7 @@
   team: "Luiza Mello, <br>Zwetana Penova, <br>Tine Borlande, <br>Nadine Stammen, <br>Aurelius Wendelken, <br>Viktor Schlüter"
 - 
   name: "#openddb: DDB API für YaCy"
-  image: "/img/projekte/ddd-yaci.png"
+  image: "/img/projekte/ddb-yaci.png"
   description: "Die Deutsche Digitale Bibliothek bietet eine API an. Das Projekt versucht in YaCy diese API serverseitig zu implementieren. Es wird sich auf eine Teilmenge der API-Funktionen konzentriert, welche von anderen #codingdavinci Projekten in ihren Client-Anwendungen genutzt wird. "
   links: "<a href=\"http://openddb.yacy.net/\">Webseite</a><br>"
   data: "<strong>Datengrundlage:</strong> API der Deutschen Digitalen Bibliothek<br>"
