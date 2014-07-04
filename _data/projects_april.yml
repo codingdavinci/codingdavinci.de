@@ -45,10 +45,10 @@
 - 
   name: "NS-Buchverbotsliste Audiovisuell"
   image: ""
-  description: "3D A/V Installation"
-  links: "<a href=\"\">Webseite</a><br><a href=\"\">Seite auf github</a>"
-  data: ""
-  team: "Erik Woitschig"
+  description: "Darstellung der Autoren und Werke - visuell - in einer 3D-Installation - später durch Zuschauer steuerbar (Kinect, Sensoren)."
+  links: "<a href=\"http://cdv.sourcloud.com/nsbvl\">Webseite</a><br><a href=\"\">Seite auf github</a>"
+  data: "NS­Buchverbotsliste,ThreeJS Visualisation Libary, WebGL"
+  team: "Erik Woitschig - <a href=\"http://stackoverflow.com/users/1816139/bnz\">StackOverFlow</a><br>twitter: <a href=\"https://twitter.com/iam_bnz\">@iam_bnz</a><br><a href=\"https://github.com/iambnz\">Seite auf github</a>"
 - 
   name: "Tier-Quiz"
   image: ""
@@ -68,4 +68,4 @@
   description: ""
   links: "<a href=\"\">Webseite</a><br><a href=\"\">Seite auf github</a>"
   data: ""
-  team: ", <a href=\"\"></a>, twitter: <a href=\"\"></a>"
+  team: "Erik Woitschig - <a href=\"http://stackoverflow.com/users/1816139/bnz\">StackOverFlow</a><br>twitter: <a href=\"https://twitter.com/iam_bnz\">@iam_bnz</a><br><a href=\"https://github.com/iambnz\">Seite auf github</a>"
