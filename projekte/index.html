@@ -29,7 +29,7 @@ slug: projekte
     <div class="col-lg-6 col-md-6">
       <h3>{{ project.name }}</h3>
       <div class="box">
-         {% if image != "" %}
+        {% if project.image != "" %}
            <img src="{{ project.image }}" alt="{{ project.name }}" class="img-responsive">
         {% endif %}
         <p>
