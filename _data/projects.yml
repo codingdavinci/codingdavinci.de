@@ -14,7 +14,7 @@
   team: "Anna Neovesky, Digitale Akademie, <a href=\"mailto:anna.neovesky@adwmainz.de\">Mail</a>, twitter: <a href=\"https://www.twitter.com/@annavsk\">@annavsk</a><br>Julius Peinelt, Mr. Fridge Software, <a href=\"mailto:julius@mr-fridge.de \">Mail</a>, twitter: <a href=\"https://www.twitter.com/@codingFriends\">@codingFriends</a>"
 - 
   name: "Berlin - 50 Jahre später"
-  image: ""
+  image: "/img/projekte/berlin-50-jahre.png"
   description: "Dank der Veröffentlichung alter Ostberliner Aufnahmen der Berlinischen Galerie wird ein Vergleich erstellt: (Ost-)Berlin 1965 und heute, entweder nebeneinander oder augmented direkt in Streetview - wenn möglich. Die heutigen Aufnahmen sollen von Google Streetview kommen. Eine der schwierigen Aufgaben wird sein den Aufnahmestandort zu finden."
   links: "<a href=\"http://cdv.sourcloud.com/berlin\">Webseite</a>"
   data: "Ostberliner Fotoarchiv der Berlinischen Galerie,<br>Google Maps / Google Street View + APIs,<br>Wikipedia,<br>selbsterfasste Aufnahmen + Geodaten"
@@ -42,14 +42,14 @@
   team: "Christian Bromann<br><a href=\"mailto:mail@christian-bromann.com\">Mail</a>, twitter: <a href=\"https://twitter.com/bromann\">@bromann</a>, github: <a href=\"https://github.com/christian-bromann\">github</a>"
 - 
   name: "DNB - Data Explorer — Generous Interfaces for Visual Exploration"
-  image: "/img/projekte/"
+  image: "/img/projekte/dnb-explorer1.png"
   description: "Die Deutsche Nationalbibliothek bietet einen reichhaltigen Fundus an Daten. Über das gedruckte Medium hinaus finden sich z. B. auch Informationen zu Personen und Orten. All diese Daten stehen in Relation zu einander. Bisher kann man diese Informationen nur über eine klassische Textsuche bzw. Hyperlinks erschließen. Der DNB Data Explorer soll die Relationen in den Datensätzen der DNB sichtbar machen und durch neue Interfaces zur visuellen Exploration einladen."
   links: "<a href=\"https://github.com/sebastian-meier/dnb-visualization\">Seite auf github</a><br><a href=\"http://www.sebastianmeier.eu/2014/06/21/deutsche-national-bibliothek-data-explorer/\">Webseite</a>"
   data: "DNB / GND"
   team: "Sebastian Meier<br>twitter: <a href=\"https://twitter.com/seb_meier\">@seb_meier</a><br>guthub: <a href=\"https://github.com/sebastian-meier\">sebastian-meier</a>"
 - 
   name: "EthnoBand"
-  image: "/img/projekte/"
+  image: "/img/projekte/ethnoband.png"
   description: "Ethnoband ist eine HTML5-Webapp, mit der Nutzer einige der Musikinstrumente aus dem Archiv des Ethnologischen Museums selbst spielen können. Ein Benutzer kann mit seinem Smartphone einen Eintrag aus einer Liste von Musikinstrumenten wählen und dann selbst durch Taps auf einer virtuellen Tastatur das jeweilige Instrument spielen.<br>Mehrere Personen mit mehreren Smartphones können dann gemeinsam musizieren. Denn selbst Musik zu machen, macht doch noch viel mehr Spaß, als sich die Instrumente nur anzusehen!"
   links: "<a href=\"http://ethnoband.thomasfett.de/\">Webseite</a><br>"
   data: "Bilder und Tonaufnahmen des Ethnologischen Museums Berlin"
@@ -62,8 +62,8 @@
   data: "Audiodateien<br>Musikinstrumentensammlung des Ethnologischen Museums<br>Tierstimmenarchiv des Naturkundemuseums<br>Diesen beiden Datensätzen bieten dem EthnoTier momentan grundsätzlich 300 Vögel, Amphibien und Säugetiere aus     Deutschland und 450 Instrumente aus der ganzen Welt."
   team: "Annika Blohm <a href=\"http://www.twitter.com/@e_kunst\">@e_kunst</a>,<br>Thomas Tursics, twitter: <a href=\"http://www.twitter.com/@etursics\"></a>, <a href=\"http://www.github.com/tursics\">Seite auf github</a>"
 - 
-  name: "insight - 19xx: Liste des schädlichen und unerwünschten Schrifttums"
-  image: "/img/projekte/insight-19xx.jpg"
+  name: "inside - 19xx: Liste des schädlichen und unerwünschten Schrifttums"
+  image: "/img/projekte/inside-19xx.jpg"
   description: "Die Liste der verbannten Bücher zwischen 1938 und 1941 von der „Reichsschriftkammer“ erstellten Verbotslisten umfassen knapp 5'000 unerwünschte Einzelpublikationen sowie fast 1'000 Autorinnen und Autoren sowie eine Reihe von Verlagen, deren Gesamtwerk im „Dritten Reich“ verboten wurde.<br>Es handelt sich dabei um eine per Scan und OCR generierte Liste, die redaktionell nicht geprüft wurde (fehlerbehaftet) und deren Einträge weder ergänzt (Homogenisierung der Datensätze) noch extern verlinkt (statische, singuläre Informationsbasis) wurden.<br><strong>Ziel des Projektes sind daher:</strong><br><br>1. Ergänzung der Liste:<br>*zur Vervollkommnung der Liste: Werksangaben zu den Autoren, bei denen \"Sämtliche Schriften\" verboten wurden (d. h., alle recherchierbaren Werke bis einschl. 1945 werden namentlich in die Liste aufgenommen),<br>*zur Homogenisierung der Datensätze: Aufnahme ergänzender Angaben den Autoren, Veröffentlichungsdaten (Orte, jahre, Verlage) u. a.<br>*zur Dynamisierung der Liste: Verlinkung der Listeneinträge (sowohl per Werke als auch per Autoren) zu externen, vornehmlich bibliographischen Datenbanken<br><br>2. Aufsetzen einer Webpräsentation zu der Liste und deren Einträgen mit verbesserten Such- und Sortierfunktionen<br>*Visualisierung der \"Masse\" der betroffenen Werke<br>*Einspielen von ersten - primär statistischen - Analysen (Worthäufigkeiten [in Form von Charts], Regionalverteilungen [in Form von Charts oder Maps] etc.)<br>* Die exemplarische Präsentation der Lebensläufe zweier betroffener Autoren (Annette Kolb, Erich Kästner) mit Hilfe frei nutzbarer, webaffiner Storytelling-Formate (hier: timeline js, storymap js des Northwestern University Knight Lab)"
   links: "<a href=\"http://verbrannte-und-verbannte.de/\">Webseite</a><br><a href=\"https://github.com/jlewis91/codingdavinci\">Seite auf github</a><br><a href=\"https://github.com/mhinters/BannedBookUtils\">Zusatz-Seite auf github</a>"
   data: "NS-Buchverbotsliste,<br>Wikidata und WikidataQuery API,<br>DNB / GND"
@@ -98,14 +98,14 @@
   team: "Noa Rave, twitter: <a href=\"https://@chukarave\">@chukarave</a><br>Florian Idelberger, twitter: <a href=\"https://twitter.com/@windrush\">@windrush</a><br>Ruperta M. Steinwender, twitter: <a href=\"https://twitter.com/@rupertast\">@rupertast</a><br>Tatiana Potetinova"
 - 
   name: "SnatchTheCultureGame"
-  image: ""
+  image: "/img/projekte/snatch-the-culture-game.jpg"
   description: "Das Ziel des Wettbewerbs ist es, etwas aus dem zur Verfügung stehenden Wissen zu erschaffen.<br>Wir dachten uns, es wäre sinnlos, wenn das etwas wäre, was nicht allen Menschen etwas nutzen würde. Aus diesem Grund wollten wir dieses Wissen so verpacken, dass es für alle verständlich und interessant ist. Hierfür kam uns die Idee ein Computerspiel zu entwickeln. Letztendlich wurde daraus ein Spiel, bei dem man Gegenstände suchen muss und sein eigenes Museum gestalten kann. Man muss versuchen, möglichst viele Besucher durch ein attraktives Museum und verschiedene Ausstellungsstücke anzulocken. Außerdem sollte man auch Fragen der Besucher beantworten können, wozu man das Wissen, welches man über die Ausstellungsstücke zur Verfügung gestellt bekommen hat, auch wiedergeben muss.<br>Diese Ideen konnten wir in den 10 Wochen, die wir Zeit hatten jedoch noch nicht vollständig umsetzten, sodass wir auch noch danach daran weiterarbeiten werden."
   links: "<a href=\"https://github.com/2P3H8131C1CP4/SnatchTheCultureGame\">Seite auf github</a>"
   data: "NS-Buchverbotsliste, <br>Stolpersteinen in Berlin, <br>Daten des Botanischen Gartens und des Botanischen Museums Berlin-Dahlem, <br>der Herzog August Bibliothek Wolfenbüttel, <br>weitere Daten kommen noch hinzu"
   team: "Rebecca Kuliga, Philip Wellnitz"
 -
   name: "Soundwall-App"
-  image: ""
+  image: "/img/projekte/soundwall.jpg"
   description: "Ziel des Projekts ist es, den Besuch der bald öffnenden Musikinstrumentensammlung des Ethnologischen Museums Berlin interessanter zu gestalten, indem wir eine App entwickeln, mit der Tonbeispiele, Videos vom Abspielen der Instrumente und weitere Informationen rund um die Instrumente an den Instrumenten selbst dargestellt werden können. <br> Wir haben zur Identifikation der Instrumente die Technologie Augmented Reality verwendet. Nach dem Erkennen des Instruments werden die entsprechenden Informationen aufgerufen, unter anderem in der Kameransicht durch Video-Attachments und Foloating Buttons, die mit dem erkannten Medium verbunden werden."
   links: "<a href=\"http://mcrumbs.com/portfolio/soundwall-app/\">Webseite</a>"
   data: "Digitale Klang- und Videobeispiele aus der Instrumentensammlung des Ethnologischen Museums Berlin"
