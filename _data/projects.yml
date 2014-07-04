@@ -107,7 +107,7 @@
   name: "Soundwall-App"
   image: "/img/projekte/soundwall.jpg"
   description: "Ziel des Projekts ist es, den Besuch der bald öffnenden Musikinstrumentensammlung des Ethnologischen Museums Berlin interessanter zu gestalten, indem wir eine App entwickeln, mit der Tonbeispiele, Videos vom Abspielen der Instrumente und weitere Informationen rund um die Instrumente an den Instrumenten selbst dargestellt werden können. <br> Wir haben zur Identifikation der Instrumente die Technologie Augmented Reality verwendet. Nach dem Erkennen des Instruments werden die entsprechenden Informationen aufgerufen, unter anderem in der Kameransicht durch Video-Attachments und Foloating Buttons, die mit dem erkannten Medium verbunden werden."
-  links: "<a href=\"http://mcrumbs.com/portfolio/soundwall-app/\">Webseite</a>"
+  links: "<a href=\"http://mcrumbs.com/portfolio/soundwall-app/\">Webseite</a><br><a href=\"https://github.com/mCRUMBS/Soundwall/\">Seite auf github</a>"
   data: "Digitale Klang- und Videobeispiele aus der Instrumentensammlung des Ethnologischen Museums Berlin"
   team: "Martha Friedrich, Peggy Sylopp, Martin Adam, Peter Pötsch"
 - 
