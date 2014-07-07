@@ -30,7 +30,7 @@
   name: "Cyberbeetle"
   image: "/img/projekte/cyberbeetle.jpg"
   description: "The project is inspired by the scans of insect boxes provided by the Museum für Naturkunde Berlin. The aim is to give a new life to one of the gorgeous Chalcosoma atlas beetles in the boxes. Based on this intriguing character, a robotic Cyberbeetle is build, which will have its own transformable insect box that enables it to enjoy audiovisual entertainment created from biology related pictures and sounds. Both the beetle and the box work with small Arduinos and contain various other electronic and mechanical parts.<br>The project explores how different kinds of digital open content can be combined in a playful and tangible way. The aim is to also learn more about  robot-building as well as open content in the domain of natural history. Hopefully the project will also give ideas to other makers and new projects!"
-  links: "<a href=\"https://docs.google.com/document/d/1XGU2A_2_D2Cem6bbm8S94j0_B3eTdUk-pVppLqJUJjU/edit?usp=sharing\">project documentation</a>"
+  links: "<a href=\"http://katihyyppa.com/cyberbeetle/">Webseite</a>"
   data: "Insect box scans from Museum für Naturkunde Berlin,<br>Animal sounds from Museum für Naturkunde Berlin,<br>Plant pictures from Botanischer Garten &amp; Botanisches Museum Berlin-Dahlem"
   team: "Kati Hyyppä (Berlin) / Beetle constructor, <a href=\"http://katihyyppa.com \">Webseite</a>,<br>Tomi Hyyppä (Helsinki) / Sound designer"
 - 
