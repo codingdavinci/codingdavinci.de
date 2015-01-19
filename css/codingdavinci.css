@@ -394,7 +394,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 .mini-interlude {
-  margin: 3em 0;
+  margin-bottom: 3em;
   padding: 1.5em 0;
   background-color: #C4F3E6;
 }
@@ -901,3 +901,99 @@ height: 100%;
 @media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
 .flex-video { padding-top: 0; }
 }
+
+.nav-head {
+  font-weight: bold;
+  border-bottom: 1px solid #563d7c;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.nav-filter {
+  font-size: 12px;
+  border-bottom: 1px solid #563d7c;
+  margin-bottom: 1em;
+  padding-bottom: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-filter a {
+  font-weight: 500;
+}
+
+.nav-filter a.label {
+  color: #fff;
+}
+
+.nav-filter a.active {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.nav-entries {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.nav-entries > li > a {
+  color: #999;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 4px 20px;
+}
+
+.nav-entries > li > a:hover, #navigation-entries > li > a:focus {
+  background-color: transparent;
+  border-left: 1px solid #563d7c;
+  color: #563d7c;
+  padding-left: 19px;
+  text-decoration: none;
+}
+
+.nav-entries > .active > a, #navigation-entries > .active:hover > a, #navigation-entries > .active:focus > a {
+  background-color: transparent;
+  border-left: 2px solid #563d7c;
+  color: #563d7c;
+  font-weight: 700;
+  padding-left: 18px;
+}
+
+.data-entry {
+  /*margin-bottom: 3em;*/
+}
+
+.data-interlude {
+  padding: 1.5em 0;
+  background-color: #C4F3E6;
+}
+
+.data-interlude h3 {
+  padding: 0;
+  background-color: transparent;
+}
+
+.data-point {
+  margin-top: 1.5em;
+}
+
+.data-meta {
+  border-top: 1px solid #e5e5f9;
+  border-bottom: 1px solid #e5e5f9;
+}
+
+.data-content {
+  margin-bottom: 1.5em;
+}
+
+.data-meta {
+  padding-top: 1em;
+}
+
+.data-meta dt {
+  margin-top: 0.6em;
+}
+

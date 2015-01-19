@@ -1,1044 +1,1140 @@
 ---
 layout: default
 slug: daten
-
+js: daten.js
 ---
 
 <header id="daten" class="subheader subheader-lupe">
-  <h2>Daten</h2>
+	<h2>Daten</h2>
 </header>
 
 <div class="row">
-  <div class="col-lg-8 col-lg-offset-2">
-    <p>
-      Anhand dieser Daten und der <a href="http://codingdavinci.de/#challenges">Challenges</a> werden Projektideen entwickeln, die wir im <a href="http://cdvinci.hackdash.org/">Hackdash</a> sammeln.
-      Wer noch an <strong>Coding da Vinci</strong> mitarbeiten möchte, kann sich via Mail (<a href="mailto:helene.hahn@okfn.org">helene.hahn@okfn.org</a> noch registrieren. 
-    </p>
-    <p>
-      Wir suchen noch Personen, die z.B. mit den Daten der ZLB oder der Berlinischen Galerie arbeiten wollen. Meldet euch bei uns, wenn ihr dabei sein wollt!
-    </p>
-  </div>
-</div>
+	<div class="col-lg-3 col-md-4 col-md-offset-1">
+		<div class="nav-head">Datenauswahl</div>
+		<div class="nav-filter nav-filter-categories"></div>
+		<div class="nav-filter nav-filter-types"></div>
+		<div class="nav-filter nav-filter-licenses"></div>
+		<div class="nav-navbar">
+			<div class="nav">
+				<ul class="nav-entries"></ul>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-7 col-lg-6">
 
+		<div class="data-entry" id="start">
+			<p>
+				Anhand dieser Daten und der <a href="http://codingdavinci.de/#challenges">Challenges</a> werden Projektideen entwickeln, die wir im <a href="http://cdvinci.hackdash.org/">Hackdash</a> sammeln.
+				Wer noch an <strong>Coding da Vinci</strong> mitarbeiten möchte, kann sich via Mail (<a href="mailto:helene.hahn@okfn.org">helene.hahn@okfn.org</a>) noch registrieren.
+			</p>
 
-</div>
-  <div id="berlinische-galerie" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Berlinische Galerie <br> Landesmuseum für Moderne Kunst, Fotografie und Architektur</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div class="thumbnail">
-        <img src="{{ site.baseurl }}img/daten/ostberliner_fotoarchiv.jpg" alt="Ostberliner Fotoarchiv"/>
-      </div>
-<p>
-  Das Fotoarchiv der ehemaligen Ostberliner Magistratsverwaltung für Stadtentwicklung, Wohnen und Verkehr besteht aus Schwarzweiß-Kontaktfotografien von Originalnegativen. Nach Bezirken, Bauaufgaben und Themen gegliedert, wurde hier die Baugeschichte Ostberlins festgehalten. Der Bestand gilt heute als umfassendstes Dokument der dortigen Architektur- und Stadtentwicklung.
-</p>
-<p>
-  Bereitgestellt werden 200 Archivumschläge und Karteikarten mit Kontaktkopien der Originalnegative von Gisela Dutschmann, 1962–75, Silbergelatine auf Archivumschlag, je 18,5 x 24,6 cm sowie Silbergelatine auf Karteikarte, je 18,5 x 24,6 cm oder 21 x 29,7 cm.<br/>
-  Für <strong>Coding da Vinci</strong> hat die <a href="http://www.berlinischegalerie.de/">Berlinische Galerie</a> einen Teil von 200 Archivumschlägen und Karteikarten aus dem umfangreichen Gesamtbestand des <a href="http://www.berlinischegalerie.de/sammlung/architektur/der-sammlungsbereich/archive/ostberliner-fotoarchiv/">Ostberliner Fotoarchivs</a> ausgewählt. Es handelt sich hierbei um Aufnahmen von Bauprojekten am Alexanderplatz, entlang der Karl-Marx-Allee, Unter den Linden und auf der Fischerinsel aus der Zeit von Oktober 1962 bis Juni 1975.
-</p>
+			<p>
+				Wir suchen noch Personen, die z.B. mit den Daten der ZLB oder der Berlinischen Galerie arbeiten wollen. Meldet euch bei uns, wenn ihr dabei sein wollt!
+			</p>
 
-<dl class="dl-horizontal">
-  <dt>Namensnennung</dt>
-  <dd>Gisela Dutschmann, Berlinische Galerie</dd>
-  <dt>Lizenz</dt>
-  <dd>CC-BY</dd>
-  <dt>Dateityp</dt>
-  <dd>XLS, JPEG</dd>
-  <dt>Link Metadaten</dt>
-  <dd><a href="https://offenedaten.de/dataset/fotoarchiv-ehemaligen-ostberliner-magistratsverwaltung-fur-stadtentwicklung">https://offenedaten.de/dataset/fotoarchiv-ehemaligen-ostberliner-magistratsverwaltung-fur-stadtentwicklung</a></dd>
-  <dt>Link Fotos</dt>
-  <dd><a href="https://www.flickr.com/photos/okfde/sets/72157643263439724/">https://www.flickr.com/photos/okfde/sets/72157643263439724/</a></dd>
-</dl>
+			<p>Wähle Daten in der Auswahl oder <a href class="navigation-all">zeige alle Daten an</a></p>
+		</div>
 
-  </div>
-  </div>
-  </div>
+		<div class="data-entry" id="berlinische-galerie">
+			<div class="data-interlude">
+				<h3>Berlinische Galerie <br> Landesmuseum für Moderne Kunst, Fotografie und Architektur</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/ostberliner_fotoarchiv.jpg" alt="Ostberliner Fotoarchiv"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<p>
+						Das Fotoarchiv der ehemaligen Ostberliner Magistratsverwaltung für Stadtentwicklung, Wohnen und Verkehr besteht aus Schwarzweiß-Kontaktfotografien von Originalnegativen. Nach Bezirken, Bauaufgaben und Themen gegliedert, wurde hier die Baugeschichte Ostberlins festgehalten. Der Bestand gilt heute als umfassendstes Dokument der dortigen Architektur- und Stadtentwicklung.
+					</p>
 
-<div id="botanischer-garten-und-botanisches-museum-berlin-dahlem" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Botanischer Garten und Botanisches Museum Berlin-Dahlem</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div class="thumbnail">
-        <img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
-      </div>
-<p>
-  Das Herbarium des BGBM wurde 1819 gegründet und ist mit 3,6 Millionen getrockneten und konservierten Pflanzenbelegen heute das größte Herbarium in Deutschland. Neben den Blütenpflanzen bewahrt das Herbarium Sammlungen von Algen, Moosen, Farnen, Pilzen und Flechten. Ergänzt werden sie durch Sondersammlungen von Früchten, Samen, Holzproben, Gallen, Pflanzenprodukten und eine Nasspräparatesammlung. Seit dem Jahr 2000 werden Belege des Herbariums hochauflösend digitalisiert und im Internet verfügbar gemacht sowie an internationale Forschungsnetzwerke wie <a href="http://www.biocase.org/">BioCASe</a> und <a href="http://www.gbif.org/">GBIF</a> geliefert.
-</p>
+					<p>
+						Bereitgestellt werden 200 Archivumschläge und Karteikarten mit Kontaktkopien der Originalnegative von Gisela Dutschmann, 1962–75, Silbergelatine auf Archivumschlag, je 18,5 x 24,6 cm sowie Silbergelatine auf Karteikarte, je 18,5 x 24,6 cm oder 21 x 29,7 cm.<br/>
+						Für <strong>Coding da Vinci</strong> hat die <a href="http://www.berlinischegalerie.de/">Berlinische Galerie</a> einen Teil von 200 Archivumschlägen und Karteikarten aus dem umfangreichen Gesamtbestand des <a href="http://www.berlinischegalerie.de/sammlung/architektur/der-sammlungsbereich/archive/ostberliner-fotoarchiv/">Ostberliner Fotoarchivs</a> ausgewählt. Es handelt sich hierbei um Aufnahmen von Bauprojekten am Alexanderplatz, entlang der Karl-Marx-Allee, Unter den Linden und auf der Fischerinsel aus der Zeit von Oktober 1962 bis Juni 1975.
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Gisela Dutschmann, Berlinische Galerie</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 1</span>
+							<span class="label label-default">Kategorie 2</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY</span>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">XLS</span>
+							<span class="label label-info">JPEG</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="https://offenedaten.de/dataset/fotoarchiv-ehemaligen-ostberliner-magistratsverwaltung-fur-stadtentwicklung">Metadaten</a><br/>
+							<a href="https://www.flickr.com/photos/okfde/sets/72157643263439724/">Fotos</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
 
-<p>Derzeit sind 170,000 Bilder digital über das Web verfügbar: die Digitalisate über einen Imageviewer und die zugehörigen Metadaten in RDF/XML:</p>
-<ul>
-  <li>
-    Über die <a href="http://herbarium.bgbm.org/object">Basis-URL</a> erhält man Zugriff auf einen Katalog aller verfügbaren Objekte (g-zipptes RDF/XML-Dokument). Für jedes Objekt sind Titel sowie eine URL aufgeführt, z.B. <a href="http://herbarium.bgbm.org/object/BW06960010">„Loranthus tubulosus Willd.“</a>.
-  </li>
-  <li>
-    Öffnet man diese URL in einem Browser, wird das Objekt in einer für Menschen geeigneten Art präsentiert: Man kann das Bild betrachten, zoomen, drehen usw. sowie sich die <a href="http://ww2.bgbm.org/Herbarium/specimen.cfm?Barcode=BW06960010">Metadaten</a> anschauen,
-  </li>
-  <li>
-    Nutzt eine Software diese URL, erhält sie die <a href="http://herbarium.bgbm.org/data/rdf/BW06960010">Metadaten im maschinenlesbaren RDF-Format</a>.
-  </li>
-  <li>
-    Die ca. 10.500 Bilder der Farne sind über den Imageviewer hinaus auch komplett als JPG verfügbar. Diese Objekte lassen sich am führenden „B20“ in der Objekt-ID erkennen und enthalten in den Metadaten ein zusätzliches Feld associatedMedia, das die URL zum Bild enthält (<a href="http://herbarium.bgbm.org/data/rdf/B200049849">Beispiel</a>).
-  </li>
-</ul>
+		<div class="data-entry" id="botanischer-garten-und-botanisches-museum-berlin-dahlem">
+			<div class="data-interlude">
+				<h3>Botanischer Garten und Botanisches Museum Berlin-Dahlem</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<p>
+						Das Herbarium des BGBM wurde 1819 gegründet und ist mit 3,6 Millionen getrockneten und konservierten Pflanzenbelegen heute das größte Herbarium in Deutschland. Neben den Blütenpflanzen bewahrt das Herbarium Sammlungen von Algen, Moosen, Farnen, Pilzen und Flechten. Ergänzt werden sie durch Sondersammlungen von Früchten, Samen, Holzproben, Gallen, Pflanzenprodukten und eine Nasspräparatesammlung. Seit dem Jahr 2000 werden Belege des Herbariums hochauflösend digitalisiert und im Internet verfügbar gemacht sowie an internationale Forschungsnetzwerke wie <a
+							href="http://www.biocase.org/">BioCASe</a> und <a href="http://www.gbif.org/">GBIF</a> geliefert.
+					</p>
 
-<dl class="dl-horizontal">
-  <dt>Namensnennung</dt>
-  <dd>
-    Botanischer Garten und Botanisches Museum Berlin-Dahlem
-  </dd>
-  <dt>Lizenz</dt>
-  <dd>
-    Bilder: CC-BY-SA 3.0<br/>
-    Metadaten: CC0<br/>
-    <a href="http://ww2.bgbm.org/herbarium/copyright.cfm">Details</a>
-  </dd>
-  <dt>Dateityp</dt>
-  <dd>
-    RDF/XML, JPEG
-  </dd>
-  <dt>Link</dt>
-  <dd>
-    <a href="http://herbarium.bgbm.org/object">
-      http://herbarium.bgbm.org/object
-    </a>
-  </dd>
-</dl>
+					<p>Derzeit sind 170,000 Bilder digital über das Web verfügbar: die Digitalisate über einen Imageviewer und die zugehörigen Metadaten in RDF/XML:</p>
+					<ul>
+						<li>
+							Über die <a href="http://herbarium.bgbm.org/object">Basis-URL</a> erhält man Zugriff auf einen Katalog aller verfügbaren Objekte (g-zipptes RDF/XML-Dokument). Für jedes Objekt sind Titel sowie eine URL aufgeführt, z.B. <a href="http://herbarium.bgbm.org/object/BW06960010">„Loranthus tubulosus Willd.“</a>.
+						</li>
+						<li>
+							Öffnet man diese URL in einem Browser, wird das Objekt in einer für Menschen geeigneten Art präsentiert: Man kann das Bild betrachten, zoomen, drehen usw. sowie sich die <a href="http://ww2.bgbm.org/Herbarium/specimen.cfm?Barcode=BW06960010">Metadaten</a> anschauen,
+						</li>
+						<li>
+							Nutzt eine Software diese URL, erhält sie die <a href="http://herbarium.bgbm.org/data/rdf/BW06960010">Metadaten im maschinenlesbaren RDF-Format</a>.
+						</li>
+						<li>
+							Die ca. 10.500 Bilder der Farne sind über den Imageviewer hinaus auch komplett als JPG verfügbar. Diese Objekte lassen sich am führenden „B20“ in der Objekt-ID erkennen und enthalten in den Metadaten ein zusätzliches Feld associatedMedia, das die URL zum Bild enthält (<a href="http://herbarium.bgbm.org/data/rdf/B200049849">Beispiel</a>).
+						</li>
+					</ul>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Botanischer Garten und Botanisches Museum Berlin-Dahlem</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 1</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							Bilder: <span class="label label-danger">CC-BY-SA</span> 3.0<br/>
+							Metadaten: <span class="label label-danger">CC0</span><br/>
+							<a href="http://ww2.bgbm.org/herbarium/copyright.cfm">Details</a>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							RDF-<span class="label label-info">XML</span>
+							<span class="label label-info">JPEG</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="http://herbarium.bgbm.org/object">http://herbarium.bgbm.org/object</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
 
-  </div>
-  </div>
-  </div>
+		<div class="data-entry" id="ernst-haeckel-haus">
+			<div class="data-interlude">
+				<h3>Ernst-Haeckel-Haus der Friedrich-Schiller-Universität Jena</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/ewg.jpg" alt="Ernst-Haeckel-Haus"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<p>
+						Das <a href="http://www.ehh.uni-jena.de/">Ernst-Haeckel-Haus der Friedrich-Schiller-Universität Jena</a> hat ein ganz spezifisches Profil. Historisch gewachsen ist die Doppelfunktion als Museum und als wissenschaftshistorisches Universitätsinstitut mit angeschlossenen Archiv- und Sammlungsbeständen. Ein neuer Sammlungsschwerpunkt ist die <i>Experimentelle Wissenschaftsgeschichte</i>. Die in diesem Zusammenhang entstandene, umfangreiche Sammlung von Objekten zeugt von der praktischen Auseinandersetzung mit historischen Experimentalanordnungen – im Zuge der
+						Rekonstruktion
+						nach
+						schriftlich und gedruckt überlieferten Gegebenheiten. Die durch Nachbauten und den Erwerb von Originalen stetig erweiterte Instrumentensammlung soll zu einer kritischen, historischen und methodologischen Reflexion über Wissenschaft im Allgemeinen und Naturwissenschaften im Besonderen anregen.
+					</p>
 
+					<p>
+						Die Sammlung <i>Experimentelle Wissenschaftsgeschichte</i> des Ernst-Haeckel-Hauses umfasst derzeit 31 Instrumente. Als Ergebnis eines studentischen Seminars kann die Sammlung im Portal <a href="http://www.museen.thueringen.de/Objektsuche/|Einrichtung|DE-MUS-873516|">museen.thueringen.de</a> präsentiert werden.
+					</p>
 
-<div id="ernst-haeckel-haus" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Ernst-Haeckel-Haus der Friedrich-Schiller-Universität Jena</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div class="thumbnail">
-        <img src="{{ site.baseurl }}img/daten/ewg.jpg" alt="Ernst-Haeckel-Haus"/>
-      </div>
-<p>
-  Das <a href="http://www.ehh.uni-jena.de/">Ernst-Haeckel-Haus der Friedrich-Schiller-Universität Jena</a> hat ein ganz spezifisches Profil. Historisch gewachsen ist die Doppelfunktion als Museum und als wissenschaftshistorisches Universitätsinstitut mit angeschlossenen Archiv- und Sammlungsbeständen. Ein neuer Sammlungsschwerpunkt ist die <i>Experimentelle Wissenschaftsgeschichte</i>. Die in diesem Zusammenhang entstandene, umfangreiche Sammlung von Objekten zeugt von der praktischen Auseinandersetzung mit historischen Experimentalanordnungen – im Zuge der Rekonstruktion nach schriftlich und gedruckt überlieferten Gegebenheiten. Die durch Nachbauten und den Erwerb von Originalen stetig erweiterte Instrumentensammlung soll zu einer kritischen, historischen und methodologischen Reflexion über Wissenschaft im Allgemeinen und Naturwissenschaften im Besonderen anregen.
-</p>
+					<p>
+						Die Metadaten der Instrumentensammlung liegen im LIDO XML Format vor und sind unter CC-BY-SA Lizenz verfügbar. Die Sachbegriffe, die Personen und Körperschaften und die Orte enthalten jeweils URIs auf die <a href="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">GND der Deutschen Nationalbibliothek</a>. Die Sachbegriffe sind außerdem auf den <a href="http://vocab.getty.edu/aat/">AAT-LOD Dienst</a> von <a href="http://www.getty.edu/research/tools/vocabularies/aat/">Getty</a> gemappt. Die Orte haben zusätzlich Verknüpfungen nach <a
+							href="http://www.geonames.org">Geonames</a> und zu dem <a href="https://www.getty.edu/research/tools/vocabularies/tgn/">TGN von Getty</a>.
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Ernst-Haeckel-Haus der Friedrich-Schiller-Universität Jena</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 2</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY-SA</span>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							LIDO-<span class="label label-info">XML</span>
+							<span class="label label-info">JPEG</span>
+							DDB-<span class="label label-info">API</span>
+						</dd>
+						<dt>Links</dt>
+							Bilder: JPGs mit max. 1600 Pixeln und Link auf den <a href="http://www.mycore.de">myCore Viewer</a> der <a href="http://www.thulb.uni-jena.de">ThULB Jena</a><br/>
+							Metadaten: <a href="https://www.deutsche-digitale-bibliothek.de/searchresults?query=*&facetValues[]=provider_fct%3DFriedrich-Schiller-Universit%C3%A4t+Jena%3A+Ernst-Haeckel-Haus&offset=0">BBD API</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
 
-<p>
-  Die Sammlung <i>Experimentelle Wissenschaftsgeschichte</i> des Ernst-Haeckel-Hauses umfasst derzeit 31 Instrumente. Als Ergebnis eines studentischen Seminars  kann die Sammlung  im Portal <a href="http://www.museen.thueringen.de/Objektsuche/|Einrichtung|DE-MUS-873516|">museen.thueringen.de</a> präsentiert werden.
-</p>
+		<div class="data-entry" id="ethnologisches-museum">
+			<div class="data-interlude">
+				<h3>Ethnologisches Museum <br> Abteilung Musikethnologie, Medien-Technik und Phonogramm-Archiv</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<audio controls>
+						<source src="{{ site.baseurl }}files/i-c-1479-b-a-x.mp3" type="audio/ogg">
+						<source src="{{ site.baseurl }}files/i-c-1479-b-a-x.ogg" type="audio/mp3">
+					</audio>
+				</div>
+				<div class="data-content">
+					<p>
+						Für den Hackathon haben wir zwei mögliche Themenschwerpunkte ausgesucht. Der erste wären die Tagore-Sammlungsobjekte, zu denen wir CT-Daten, 3D-Modelle, Fotos und Metadaten vorliegen haben. Der zweite Schwerpunkt läge auf der Bestimmung von Musikinstrumenten. Fast alle unserer 3000 Instrumente sind fotografisch erfasst und zu einigen gibt es ergänzend Audio- und Videofiles.
+					</p>
 
-<p>
-  Die Metadaten der Instrumentensammlung liegen im LIDO XML Format vor und sind unter CC-BY-SA Lizenz verfügbar. Die Sachbegriffe, die Personen und Körperschaften und die Orte enthalten jeweils URIs auf die <a href="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">GND der Deutschen Nationalbibliothek</a>. Die Sachbegriffe sind außerdem auf den <a href="http://vocab.getty.edu/aat/">AAT-LOD Dienst</a> von <a href="http://www.getty.edu/research/tools/vocabularies/aat/">Getty</a> gemappt. Die Orte haben zusätzlich Verknüpfungen nach <a href="http://www.geonames.org">Geonames</a> und zu dem <a href="https://www.getty.edu/research/tools/vocabularies/tgn/">TGN von Getty</a>. 
-</p>
+					<dl class="dl-horizontal">
+						<dt>Signatur</dt>
+						<dd>
+							hausinterne Identifikationsnummer, die über die besitzende Abteilung und die regionale Herkunft Auskunft gibt
+						</dd>
+						<dt>Sachbegriff</dt>
+						<dd>
+							Einordnung des Instruments in das Klassifikationssystem von Hornbostel&amp;Sachs
+						</dd>
+						<dt>Titel</dt>
+						<dd>einheimische Bezeichnung des Instruments</dd>
+						<dt>Geografischer Bezug</dt>
+						<dd>
+							Information über die Herkunft des Instruments
+						</dd>
+					</dl>
 
-<d1>
-  <dt>Namensnennung</dt>
-  <dd>Ernst-Haeckel-Haus der Friedrich-Schiller-Universität Jena</dd>
-  <dt>Lizenz</dt>
-  <dd>CC-BY-SA</dd>
-  <dt>Dateityp</dt>
-  <dd>JPG, LIDO XML, DDB API</dd>
-  <dt>Links Bilder</dt> 
-  <dd>JPGs mit max. 1600 Pixeln und Link auf den <a href="http://www.mycore.de">myCore Viewer</a> der <a href="http://www.thulb.uni-jena.de">ThULB Jena</a></dd>
-  <dt>Link Metadaten</dt>
-  <dd>BBD API: <a href="https://www.deutsche-digitale-bibliothek.de/searchresults?query=*&facetValues[]=provider_fct%3DFriedrich-Schiller-Universit%C3%A4t+Jena%3A+Ernst-Haeckel-Haus&offset=0">https://www.deutsche-digitale-bibliothek.de/searchresults?query=*&facetValues[]=provider_fct%3DFriedrich-Schiller-Universit%C3%A4t+Jena%3A+Ernst-Haeckel-Haus&offset=0</a></dd>
-</d1>
+					<p>
+						Die Datensätze tragen jeweils die Signatur des Objektes (zum Beispiel I_C_7722), so dass Fotos, Metadaten, etc einander zugeordnet werden können.
+					</p>
 
+					<p>
+						Unter den folgenden Links kann man sich die Datensätze zu den Instrumenten komplett ansehen (Foto, Metadaten und wenn vorhanden Audio/Video), indem die Signatur in das Suche-Feld eingegeben wird: <a href="http://www.smb-digital.de">http://www.smb-digital.de</a>, <a href="http://www.mimo-db.eu">http://www.mimo-db.eu</a>
+					</p>
 
-  </div>
-  </div>
-  </div>
+					<p>
+						Fotografien: JPG, die Fotos sind jeweils nach den Urhebern in Alben sortiert:
+						<a href="https://www.flickr.com/x/t/0115002/photos/121003427@N03/">
+							https://www.flickr.com/x/t/0115002/photos/121003427@N03/
+						</a>
+					</p>
 
+					<p>
+						Videos: MPG, Urheber Andreas Richter:
+						<a href="https://offenedaten.de/de/dataset/video-em-spk">
+							https://offenedaten.de/de/dataset/video-em-spk
+						</a>
+					</p>
 
-  <div id="ethnologisches-museum" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Ethnologisches Museum <br> Abteilung Musikethnologie, Medien-Technik und Phonogramm-Archiv</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <audio controls>
-        <source src="{{ site.baseurl }}files/i-c-1479-b-a-x.mp3" type="audio/ogg">
-        <source src="{{ site.baseurl }}files/i-c-1479-b-a-x.ogg" type="audio/mp3">
-      </audio>
-<p>
-  Für den Hackathon haben wir zwei mögliche Themenschwerpunkte ausgesucht. Der erste wären die Tagore-Sammlungsobjekte, zu denen wir CT-Daten, 3D-Modelle, Fotos und Metadaten vorliegen haben. Der zweite Schwerpunkt läge auf der Bestimmung von Musikinstrumenten. Fast alle unserer 3000 Instrumente sind fotografisch erfasst und zu einigen gibt es ergänzend Audio- und Videofiles.
-</p>
+					<p>
+						Audios: MP3, Urheber Andreas Richter:
+						<a href="https://offenedaten.de/de/dataset/audio-em-spk">
+							https://offenedaten.de/de/dataset/audio-em-spk
+						</a>
+					</p>
 
-<dl>
-  <dt>Signatur</dt>
-  <dd>
-    hausinterne Identifikationsnummer, die über die besitzende Abteilung und die regionale Herkunft Auskunft gibt
-  </dd>
-  <dt>Sachbegriff</dt>
-  <dd>
-    Einordnung des Instruments in das Klassifikationssystem von Hornbostel&amp;Sachs
-  </dd>
-  <dt>Titel</dt>
-  <dd>einheimische Bezeichnung des Instruments</dd>
-  <dt>Geografischer Bezug</dt>
-  <dd>
-    Information über die Herkunft des Instruments
-  </dd>
-</dl>
+					<p>
+						3D-Modelle: PLY, Urheber Dana Freyberg, Verena Höhn &amp; Andreas Richter:
+						<a href="https://offenedaten.de/de/dataset/3d-modelle-sammlung-tagore">
+							https://offenedaten.de/de/dataset/3d-modelle-sammlung-tagore
+						</a>
+					</p>
 
-<p>
-  Die Datensätze tragen jeweils die Signatur des Objektes (zum Beispiel I_C_7722), so dass Fotos, Metadaten, etc einander zugeordnet werden können.
-</p>
+					<!-- CT-Aufnahmen (dicom): -->
 
-<p>
-  Unter den folgenden Links kann man sich die Datensätze zu den Instrumenten komplett ansehen (Foto, Metadaten und wenn vorhanden Audio/Video), indem die Signatur in das Suche-Feld eingegeben wird: <a href="http://www.smb-digital.de">http://www.smb-digital.de</a>, <a href="http://www.mimo-db.eu">http://www.mimo-db.eu</a>
-</p>
+					<p>
+						Link Metadaten: XLS, Stiftung Preußischer Kulturbesitz:
+						<a href="https://offenedaten.de/de/dataset/metadaten-vii">
+							https://offenedaten.de/de/dataset/metadaten-vii
+						</a>
+						<br/>
+						<a href="https://offenedaten.de/de/dataset/metadaten-ic">
+							https://offenedaten.de/de/dataset/metadaten-ic
+						</a>
+					</p>
 
-<dl class="dl-horiztonal">
-  <dt>Namensnennung</dt>
-  <dd>siehe Datenzusatz</dd>
-  <dt>Lizenz</dt>
-  <dd>CC-BY-SA</dd>
-</dl>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>(siehe Datenzusatz)</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 3</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY</span>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">JPEG</span>
+							<span class="label label-info">XLS</span>
+							<span class="label label-info">PLY</span>
+							<span class="label label-info">MP3</span>
+							<span class="label label-info">MPG</span>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
 
-<p>
-  Fotografien: JPG, die Fotos sind jeweils nach den Urhebern in Alben sortiert:
-  <a href="https://www.flickr.com/x/t/0115002/photos/121003427@N03/">
-    https://www.flickr.com/x/t/0115002/photos/121003427@N03/
-  </a>
-</p>
+		<div class="data-entry" id="gemeinsame-normdatei">
+			<div class="data-interlude">
+				<h3>Gemeinsame Normdatei</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
 
-<p>
-  Videos: MPG, Urheber Andreas Richter:
-  <a href="https://offenedaten.de/de/dataset/video-em-spk">
-    https://offenedaten.de/de/dataset/video-em-spk
-  </a>
-</p>
+				</div>
+				<div class="data-content">
 
-<p>
-  Audios: MP3, Urheber Andreas Richter:
-  <a href="https://offenedaten.de/de/dataset/audio-em-spk">
-    https://offenedaten.de/de/dataset/audio-em-spk
-  </a>
-</p>
+					<p>
+						Die Gemeinsame Normdatei (GND) ist eine Normdatei für Personen, Körperschaften, Veranstaltungen, Geografika, Sachbegriffe und Werke. Die GND-Datensätze enthalten beschreibende Metadaten und verschiedene Benennungen und Relationen zu anderen Entitäten, um sie eindeutig zu identifizieren und für das Retrieval zur Verfügung zu stellen.
+					</p>
 
-<p>
-  3D-Modelle: PLY, Urheber Dana Freyberg, Verena Höhn &amp; Andreas Richter:
-  <a href="https://offenedaten.de/de/dataset/3d-modelle-sammlung-tagore">
-    https://offenedaten.de/de/dataset/3d-modelle-sammlung-tagore
-  </a>
-</p>
+					<p>
+						Die GND wird in Bibliotheken für die Erschließung bzw. zur Normierung von Sucheinstiegen zu bibliografischen Ressourcen und anderen Objekten eingesetzt, zunehmend aber auch in anderen Kultureinrichtungen wie Archiven und Museen oder in Verlagen und verschiedenen Web-Anwendungen verwendet. Auf diese Weise existiert ein Netz von miteinander in Beziehung stehender Entitäten und Objekte.
+					</p>
 
-<!-- CT-Aufnahmen (dicom): -->
+					<p>
+						Die GND wird kooperativ von der Deutschen Nationalbibliothek (DNB), allen Bibliotheksverbünden des deutschsprachigen Raums, der Zeitschriftendatenbank (ZDB) und zahlreichen weiteren Institutionen geführt und an der DNB gehalten. Das Datenset für „Coding da Vinci“ umfasst die gesamte GND mit ca. 10 Millionen Datensätzen; es können allerdings auch lediglich Teile des Datensets selektiert und verwendet werden.
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Gemeinsame Normdatei (GND)</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 1</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC0</span><br/>
+							unveränderte Koordinaten aus der Datenbank <a href="http://www.geonames.org/">GeoNames</a> in geografischen Normdaten unter <span class="label label-danger">CC-BY</span> 3.0
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							RDF-<span class="label label-info">XML</span>
+							MARC21-<span class="label label-info">XML</span>
+							<span class="label label-info">Turtle</span>
+						</dd>
+						<dt>Download GND</dt>
+						<dd>
+							<a href="assets.okfnlabs.org.s3.amazonaws.com/users/stwe/codingdavinci.de/gnd/GND.rdf.gz">assets.okfnlabs.org.s3.amazonaws.com/users/stwe/codingdavinci.de/gnd/GND.rdf.gz</a><br/>
+							<a href="http://assets.okfnlabs.org.s3.amazonaws.com/users/stwe/codingdavinci.de/gnd/GND.ttl.gz">http://assets.okfnlabs.org.s3.amazonaws.com/users/stwe/codingdavinci.de/gnd/GND.ttl.gz</a>
+						</dd>
+						<dt>weiterführende Links</dt>
+						<dd>
+							GND: <a href="http://www.dnb.de/gnd">http://www.dnb.de/gnd</a>
+							Linked Data Service: <a href="http://www.dnb.de/lds">http://www.dnb.de/lds</a>
+							Datendienste: <a href="http://www.dnb.de/datendienst">http://www.dnb.de/datendienst</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
 
-<p>
-  Link Metadaten: XLS, Stiftung Preußischer Kulturbesitz:
-  <a href="https://offenedaten.de/de/dataset/metadaten-vii">
-    https://offenedaten.de/de/dataset/metadaten-vii
-  </a>
-  <br/>
-  <a href="https://offenedaten.de/de/dataset/metadaten-ic">
-    https://offenedaten.de/de/dataset/metadaten-ic
-  </a>
-</p>
+		<div class="data-entry" id="georg-eckert-institut">
+			<div class="data-interlude">
+				<h3>Georg-Eckert-Institut für internationale Schulbuchforschung</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/georg_eckert_institut.jpg" alt="Alte Weltkarte"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<p>
+						Ein Großteil der Werke stammt aus der Zeit des Deutschen Kaiserreichs. Einen besonderen Teil der Sammlung bilden digitalisierten Geschichtsatlanten aus dem 19. und vom Beginn des 20. Jahrhunderts. Geschichtsatlanten stellen als systematisches Werk der Kartographie einen eigenen Typus dar, der zur Visualisierung historischer Ereignisse, Zustände und Entwicklungen dient.
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Georg-Eckert-Institut für internationale Schulbuchforschung</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 1</span>
+							<span class="label label-default">Kategorie 3</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							Metadaten: <span class="label label-danger">CC0</span><br/>
+							Bilder: <span class="label label-danger">Public Domain</span>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">JPEG</span>
+							METS/MODS-<span class="label label-info">XML</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							Metadaten: <a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">API der DDB</a><br/>
+							Bilder: <a href="http://gei-digital.gei.de/viewer/browse/">http://gei-digital.gei.de/viewer/browse/</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
 
-    </div>
-  </div>
-  </div>
-  
-  
-  
-  
-</div>
-  <div id="gemeinsame-normdatei" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Gemeinsame Normdatei</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+		<div class="data-entry" id="herzog-august-bibliothek-wolfenbüttel">
+			<div class="data-interlude">
+				<h3>Herzog August Bibliothek Wolfenbüttel</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
 
-<p>
-  Die Gemeinsame Normdatei (GND) ist eine Normdatei für Personen, Körperschaften, Veranstaltungen, Geografika, Sachbegriffe und Werke. Die GND-Datensätze enthalten beschreibende Metadaten und verschiedene Benennungen und Relationen zu anderen Entitäten, um sie eindeutig zu identifizieren und für das Retrieval zur Verfügung zu stellen. 
-</p>
+				</div>
+				<div class="data-content">
+					<p>
+						Die "Wolfenbütteler Digitale Bibliothek" (WDB) enthält (Voll-)Digitalisate von mittlerweile über 800 vorwiegend mittelalterlichen Handschriften, von über 700 Inkunabeln (=Bücher, die vor 1500 gedruckt wurden) und über 20.000 Drucken von 1500 bis 1850.
+					</p>
 
-<p>
-  Die GND wird in Bibliotheken für die Erschließung bzw. zur Normierung von Sucheinstiegen zu bibliografischen Ressourcen und anderen Objekten eingesetzt, zunehmend aber auch in anderen Kultureinrichtungen wie Archiven und Museen oder in Verlagen und verschiedenen Web-Anwendungen verwendet. Auf diese Weise existiert ein Netz von miteinander in Beziehung stehender Entitäten und Objekte.
-</p>
+					<p>
+						Zu allen Digitalisaten gibt es Metadaten unterschiedlichen Umfangs, für die gedruckten Werke sind dies vor allem OPAC -Daten, für die Handschriften stehen teilweise ausführliche Beschreibungen zur Verfügung.
+						Für zahlreiche Inkunabeln gibt es virtuelle Inhaltsverzeichnisse, sogenannte Strukturdaten, die "Besonderheiten" wie z .B. Überschriften, Abbildungen, handschriftliche Einträge usw. im Buch dokumentieren und verlinken.
+						Für immer mehr Drucke vor allem Helmstedter Herkunft werden OCR-generierte Volltexte hinterlegt und mit den Digitalisa ten verknüpft.
+					</p>
 
-<p>
-  Die GND wird kooperativ von der Deutschen Nationalbibliothek (DNB), allen Bibliotheksverbünden des deutschsprachigen Raums, der Zeitschriftendatenbank (ZDB) und zahlreichen weiteren Institutionen geführt und an der DNB gehalten. Das Datenset für „Coding da Vinci“ umfasst die gesamte GND mit ca. 10 Millionen Datensätzen; es können allerdings auch lediglich Teile des Datensets selektiert und verwendet werden.
-</p>
+					<p>
+						Die gesamte Organisation der Daten orientiert sich an den Materialgruppen und den Signaturen der Objekte in der Bibliothek. Aus einer Handschriftensignatur "1. Gud. lat." wird eine "normalisierte" Signatur "1-gud-lat", mit deren Hilfe alle Daten abgerufen werden können:
+					</p>
 
-<d1>
-  <dt>Lizenz</dt>
-  <dd>CC0; unveränderte Koordinaten aus der Datenbank <a href="http://www.geonames.org/">GeoNames</a> in geografischen Normdaten unter CC BY 3.0.</dd>
-  <dt>Namensnennung</dt>
-  <dd>Gemeinsame Normdatei (GND)</dd>
-  <dt>Dateityp</dt>
-  <dd>RDFxml, Turtle, MARC 21-xml</dd>
-  <dt>Download GND</dt>
-  <dd>
-    <a href="assets.okfnlabs.org.s3.amazonaws.com/users/stwe/codingdavinci.de/gnd/GND.rdf.gz">assets.okfnlabs.org.s3.amazonaws.com/users/stwe/codingdavinci.de/gnd/GND.rdf.gz</a>
-  </dd>
-  <dd>
-    <a href="http://assets.okfnlabs.org.s3.amazonaws.com/users/stwe/codingdavinci.de/gnd/GND.ttl.gz">http://assets.okfnlabs.org.s3.amazonaws.com/users/stwe/codingdavinci.de/gnd/GND.ttl.gz</a>
-  </dd>
-  <dt>weiterführende Links</dt> 
-  <dd>
-GND: <a href="http://www.dnb.de/gnd">http://www.dnb.de/gnd</a>
-Linked Data Service: <a href="http://www.dnb.de/lds">http://www.dnb.de/lds</a>
-Datendienste: <a href="http://www.dnb.de/datendienst">http://www.dnb.de/datendienst</a>
-  </dd>
-  
-</d1>
+					<p>
+						Bildanzeige: <a href="http://diglib.hab.de/mss/1-gud-lat/start.htm">http://diglib.hab.de/mss/1-gud-lat/start.htm</a></br>
+						Liste der Bilder: <a href="http://diglib.hab.de/mss/1-gud-lat/facsimile.xml">http://diglib.hab.de/mss/1-gud-lat/facsimile.xml</a></br>
+						Beschreibung: <a href="http://diglib.hab.de/?db=mss&list=ms&id=1-gud-lat">http://diglib.hab.de/?db=mss&list=ms&id=1-gud-lat</a></br>
+						Beschreibung als XML: <a href="http://diglib.hab.de/?db=mss&list=ms&id=1-gud-lat&mode=xml">http://diglib.hab.de/?db=mss&list=ms&id=1-gud-lat&mode=xml</a></br>
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Herzog August Bibliothek Wolfenbüttel</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 3</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY-SA</span> 3.0<br/>
+							<a href="http://diglib.hab.de/?link=012 ">Details</a>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">JPEG</span>
+							TEI/METS/MODS-<span class="label label-info">XML</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="http://oai.hab.de">http://oai.hab.de</a>, <a href="http://diglib.hab.de/?db=mss">http://diglib.hab.de/?db=mss</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
 
+		<div class="data-entry" id="landesarchiv-baden-württemberg">
+			<div class="data-interlude">
+				<h3>Landesarchiv Baden-Württemberg</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/labw.jpg" alt="Militärhistorische Bildsammlung"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<p>
+						Das <a href="https://www.deutsche-digitale-bibliothek.de/about-us/institutions/item/XYMQPA4OHAYDDFYWHV6Q4RFUIISTLQJV">Landesarchiv Baden-Württemberg</a> sorgt als landeskundliches Kompetenzzentrum dafür, die archivalische Überlieferung Baden-Württembergs als Teil des kulturellen Erbes und der Erinnerungskultur zu sichern, zu erhalten und jedem Interessierten zugänglich zu machen.
+					</p>
 
-  </div>
-  </div>
-  </div>
+					<h4>Militärhistorische Bildsammlung</h4>
 
+					<p>
+						Die Militärhistorische Bildsammlung umfasst vorwiegend vom Heeresarchiv Stuttgart gesammeltes Bildmaterial (Stiche, Zeichnungen, Drucke, Lithografien, Fotografien, etc.). Die Objekte behandeln das württembergische Königshaus, unterschiedliche militärische Persönlichkeiten, sowie die Militär- und Kriegsgeschichte Europas und Deutschlands vom Mittelalter bis zum Ersten Weltkrieg (mit einigen Nachträgen zum Ersten und Zweiten Weltkrieg).
+						Dieser fast durchgängig digitalisierte Bildbestand bietet neben seiner hierarchischen Gliederung durch die Verwendung von Personennormdaten eine Vielzahl an Einstiegsmöglichkeiten.
+						Exemplarisch soll er für über 6.000 unterschiedlich tief erschlossene Bestände des Landesarchivs stehen, von denen über 100 teilweise oder bereits vollständig digitalisiert wurden (so etwa eine Dokumentation der jüdischen Grabsteine in Baden-Württemberg) und über das API der DDB frei verfügbar sind.
+					</p>
 
+					<p>
+						Unter seiner Federführung entsteht außerdem das <a href="http://www.landesarchiv-bw.de/web/54267">Archivportal-D</a> als DFG-gefördertes Teilprojekt der Deutschen Digitalen Bibliothek, das auf das API der DDB aufbaut.
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Landesarchiv Baden-Württemberg</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 1</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY</span><br/>
+							<a href="http://www.landesarchiv-bw.de/nutzungsbedingungen">Details</a>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">JPEG</span>
+							RDF-<span class="label label-info">XML</span>
+							DDB-<span class="label label-info">API</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">DDB API</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
 
-  <div id="georg-eckert-institut" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Georg-Eckert-Institut für internationale Schulbuchforschung</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+		<div class="data-entry" id="max-planck-institut">
+			<div class="data-interlude">
+				<h3>Max-Planck-Institut für Wissenschaftsgeschichte Berlin</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
 
-      <div class="thumbnail">
-        <img src="{{ site.baseurl }}img/daten/georg_eckert_institut.jpg" alt="Alte Weltkarte"/>
-      </div>
+				</div>
+				<div class="data-content">
 
-      <p>
-        Ein Großteil der Werke stammt aus der Zeit des Deutschen Kaiserreichs. Einen besonderen Teil der Sammlung bilden digitalisierten Geschichtsatlanten aus dem 19. und vom Beginn des 20. Jahrhunderts. Geschichtsatlanten stellen als systematisches Werk der Kartographie einen eigenen Typus dar, der zur Visualisierung historischer Ereignisse, Zustände und Entwicklungen dient.
-      </p>
-      <dl class="dl-horiztonal">
-        <dt>Namensnennung</dt>
-        <dd>Georg-Eckert-Institut für internationale Schulbuchforschung</dd>
-        <dt>Lizenz</dt>
-        <dd>Metadaten CC0, Bilder Public Domain</dd>
-        <dt>Dateityp</dt>
-        <dd>JPG, XML, METS/MODS</dd>
-        <dt>Metadaten</dt>
-        <dd>
-          <a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">
-            API der DDB
-          </a>
-        </dd>
-                <dt>Bilder</dt>
-        <dd>
-          <a href="http://gei-digital.gei.de/viewer/browse/">
-            http://gei-digital.gei.de/viewer/browse/
-          </a>
-        </dd>
-      </dl>
+					<p>
+						Das MPIWG hat ein Open-Access-Repositorium für Forschungsquellen in den Geisteswissenschaften <a href="http://echo.mpiwg-berlin.mpg.de/content">ECHO–Cultural Heritage Online</a> aufgebaut. Darin sind Quellen verschiedener Content-Provider aus aller Welt virtuell zu thematischen Gruppen und in Kollektionen zusammengeführt.
+					</p>
 
-    </div>
-  </div>
-  </div>
+					<p>
+						Es finden sich hochaufgelöste Bilder, Volltexttranskriptionen, Datenbanken mit Forschungsdaten und einige Multimedia-Daten. Für den Hackathon werden bibliografische Metadaten zur Rara-Sammlung des MPIWG (historischer Buchquellen vom 16.-19. Jahrhundert) und exemplarisch einige Metadaten zu Filmen aus der MPWG-Mediathek zur Verfügung gestellt.
+					</p>
 
-  <div id="herzog-august-bibliothek-wolfenbüttel" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Herzog August Bibliothek Wolfenbüttel</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-<p>
-  Die "Wolfenbütteler Digitale Bibliothek" (WDB) enthält (Voll-)Digitalisate von mittlerweile über 800 vorwiegend         mittelalterlichen Handschriften, von über 700 Inkunabeln (=Bücher, die vor 1500 gedruckt wurden) und über 20.000       Drucken von 1500 bis 1850.
-</p>
-<p>
-  Zu allen Digitalisaten gibt es Metadaten unterschiedlichen Umfangs, für die gedruckten Werke sind dies vor allem OPAC  -Daten, für die Handschriften stehen teilweise ausführliche Beschreibungen zur Verfügung.
-  Für zahlreiche Inkunabeln gibt es virtuelle Inhaltsverzeichnisse, sogenannte Strukturdaten, die "Besonderheiten" wie z  .B. Überschriften, Abbildungen, handschriftliche Einträge usw. im Buch dokumentieren und verlinken.
-  Für immer mehr Drucke vor allem Helmstedter Herkunft werden OCR-generierte Volltexte hinterlegt und mit den Digitalisa  ten verknüpft.
-</p>
-<p>
-  Die gesamte Organisation der Daten orientiert sich an den Materialgruppen und den Signaturen der Objekte in der Bibliothek. Aus einer Handschriftensignatur "1. Gud. lat." wird eine "normalisierte" Signatur "1-gud-lat", mit deren Hilfe alle Daten abgerufen werden können:
-</p>
-<p>
-  Bildanzeige: <a href="http://diglib.hab.de/mss/1-gud-lat/start.htm">http://diglib.hab.de/mss/1-gud-lat/start.htm</a></br>
-  Liste der Bilder: <a href="http://diglib.hab.de/mss/1-gud-lat/facsimile.xml">http://diglib.hab.de/mss/1-gud-lat/facsimile.xml</a></br>
-  Beschreibung: <a href="http://diglib.hab.de/?db=mss&list=ms&id=1-gud-lat">http://diglib.hab.de/?db=mss&list=ms&id=1-gud-lat</a></br>
-  Beschreibung als XML: <a href="http://diglib.hab.de/?db=mss&list=ms&id=1-gud-lat&mode=xml">http://diglib.hab.de/?db=mss&list=ms&id=1-gud-lat&mode=xml</a></br>
-</p>
-
-
-<d1>
-  <dt>Namensnennung</dt>
-  <dd>Herzog August Bibliothek Wolfenbüttel</dd>
-  <dt>Lizenz</dt>
-  <dd>CC-BY-SA 3.0, <a href="http://diglib.hab.de/?link=012 ">Details</a></dd>
-  <dt>Dateityp</dt>
-  <dd>JPEG, XML (TEI, METS/MODS)</dd>
-  <dt>Links</dt>
-  <dd><a href="http://oai.hab.de">http://oai.hab.de</a>, <a href="http://diglib.hab.de/?db=mss">http://diglib.hab.de/?db=mss</a></dd>
-</d1>
-
-
-   </div>
-  </div>
-  </div>
-
-
-</div>
-  <div id="landesarchiv-baden-württemberg" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Landesarchiv Baden-Württemberg</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div class="thumbnail">
-        <img src="{{ site.baseurl }}img/daten/labw.jpg" alt="Militärhistorische Bildsammlung"/>
-      </div>
-    <p>
-Das <a href="https://www.deutsche-digitale-bibliothek.de/about-us/institutions/item/XYMQPA4OHAYDDFYWHV6Q4RFUIISTLQJV">Landesarchiv Baden-Württemberg</a> sorgt als landeskundliches Kompetenzzentrum dafür, die archivalische Überlieferung Baden-Württembergs als Teil des kulturellen Erbes und der Erinnerungskultur zu sichern, zu erhalten und jedem Interessierten zugänglich zu machen.
-</p>
-
-<h4>Militärhistorische Bildsammlung</h4>
-<p>
-Die Militärhistorische Bildsammlung umfasst vorwiegend vom Heeresarchiv Stuttgart gesammeltes Bildmaterial (Stiche, Zeichnungen, Drucke, Lithografien, Fotografien, etc.). Die Objekte behandeln das württembergische Königshaus, unterschiedliche militärische Persönlichkeiten, sowie die Militär- und Kriegsgeschichte Europas und Deutschlands vom Mittelalter bis zum Ersten Weltkrieg (mit einigen Nachträgen zum Ersten und Zweiten Weltkrieg).
-Dieser fast durchgängig digitalisierte Bildbestand bietet neben seiner hierarchischen Gliederung durch die Verwendung von Personennormdaten eine Vielzahl an Einstiegsmöglichkeiten. 
-Exemplarisch soll er für über 6.000 unterschiedlich tief erschlossene Bestände des Landesarchivs stehen, von denen über 100 teilweise oder bereits vollständig digitalisiert wurden (so etwa eine Dokumentation der jüdischen Grabsteine in Baden-Württemberg) und über das API der DDB frei verfügbar sind.
-</p>
-
-<p>
-Unter seiner Federführung entsteht außerdem das <a href="http://www.landesarchiv-bw.de/web/54267">Archivportal-D</a> als DFG-gefördertes Teilprojekt der Deutschen Digitalen Bibliothek, das auf das API der DDB aufbaut.
-</p>
-
-  <d1>
-  <dt>Namensnennung</dt>
-  <dd>Landesarchiv Baden-Württemberg</dd>
-  <dt>Lizenz</dt>
-  <dd>CC-BY, <a href="http://www.landesarchiv-bw.de/nutzungsbedingungen">Details</a></dd>
-  <dt>Dateityp</dt>
-  <dd>JPEG, RDF/XML (DDB-API)</dd>
-  <dt>Links</dt>
-  <dd><a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">DDB API</a></dd>
-</d1>
-
-
-  </div>
-  </div>
-  </div>
-
-  
-    
-    
-  <div id="max-planck-institut" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Max-Planck-Institut für Wissenschaftsgeschichte Berlin</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-<p>
-  Das MPIWG hat ein Open-Access-Repositorium für Forschungsquellen in den Geisteswissenschaften <a href="http://echo.mpiwg-berlin.mpg.de/content">ECHO–Cultural Heritage Online</a> aufgebaut. Darin sind Quellen verschiedener Content-Provider aus aller Welt virtuell zu thematischen Gruppen und in Kollektionen zusammengeführt.
-</p>
-<p>
-  Es finden sich hochaufgelöste Bilder, Volltexttranskriptionen, Datenbanken mit Forschungsdaten und einige Multimedia-Daten. Für den Hackathon werden bibliografische Metadaten zur Rara-Sammlung des MPIWG (historischer Buchquellen vom 16.-19. Jahrhundert) und exemplarisch einige Metadaten zu Filmen aus der MPWG-Mediathek zur Verfügung gestellt.
-</p>
-
-<p>
-  URLs für "Videos" stehen in  "/archive-path", z.B.:
-</p>
-<pre>
-  &lt;archive-path&gt;http://einstein-virtuell.mpiwg-berlin.mpg.de/VEA/SC-1816523987_MOD355385129_SEQ-610673245_SL2060416494_de.html&lt;/archive-path&gt;
-</pre>
-
-
-<p>
-Für "Book" setzt sich die URL aus der Serveradresse und der Pfadangabe unter "/archive-path" zusammen:
-</p>
+					<p>
+						URLs für "Videos" stehen in "/archive-path", z.B.:
+					</p>
+					<pre>&lt;archive-path&gt;http://einstein-virtuell.mpiwg-berlin.mpg.de/VEA/SC-1816523987_MOD355385129_SEQ-610673245_SL2060416494_de.html&lt;/archive-path&gt;</pre>
+					<p>
+						Für "Book" setzt sich die URL aus der Serveradresse und der Pfadangabe unter "/archive-path" zusammen:
+					</p>
 <pre>
 "http://echo.mpiwg-berlin.mpg.de/ECHOdocuView?url=" + "/archive-path", z.B.:
 &lt;archive-path&gt;/mpiwg/online/permanent/archimedes_repository/large/monte_mecha_037_it_1581&lt;/archive-path&gt;
 </pre>
 
-<p>Die URL ist dann wie folgt:</p>
-<pre>http://echo.mpiwg-berlin.mpg.de/ECHOdocuView?url=/mpiwg/online/permanent/archimedes_repository/large/monte_mecha_037_it_1581</pre>
+					<p>Die URL ist dann wie folgt:</p>
+					<pre>http://echo.mpiwg-berlin.mpg.de/ECHOdocuView?url=/mpiwg/online/permanent/archimedes_repository/large/monte_mecha_037_it_1581</pre>
 
-<dl>
-  <dt>Namensnennung</dt>
-  <dd>Max-Planck-Institut für Wissenschaftsgeschichte Berlin</dd>
-  <dt>Lizenz</dt>
-  <dd>CC-BY-SA</dd>
-  <dt>Dateityp</dt>
-  <dd>XML</dd>
-  <dt>Metadaten</dt>
-  <dd>
-    <a href="https://offenedaten.de/group/quellensammlung-mpiwg">
-      https://offenedaten.de/group/quellensammlung-mpiwg
-    </a>
-  </dd>
-</dl>
-  </div>
-  </div>
-  </div>
-  <div id="museum-für-naturkunde-berlin" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Museum für Naturkunde Berlin</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div class="thumbnail">
-        <img src="{{ site.baseurl }}img/daten/insektenkasten.jpg" alt="Insektenkasten"/>
-      </div>
-      
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Max-Planck-Institut für Wissenschaftsgeschichte Berlin</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 2</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY-SA</span>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">XML</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="https://offenedaten.de/group/quellensammlung-mpiwg">Metadaten</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
 
-<h4>Insektenkästen</h4>
+		<div class="data-entry" id="museum-für-naturkunde-berlin">
+			<div class="data-interlude">
+				<h3>Museum für Naturkunde Berlin</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/insektenkasten.jpg" alt="Insektenkasten"/>
+					</div>
 
-<p>Für <strong>Coding da Vinci</strong> stellt das Museum für Naturkunde Berlin Gigapixel-Scans von Insektenkästen für die breite Öffentlichkeit und für die Forschungsgemeinschaft zur Verfügung. Diese Insektenkästen umfassen Schmetterlingen, Käfern, Bienen, Heuschrecken, Wanzen usw.. Es gibt eine Liste der Arten in jedem Insektenkasten, allerdings auch Kästen mit unbestimmten Material. Alle Insektenkästen liegen als krpano-Objekte (Flash oder HTML5) vor, wobei jedes krpano-Objekt sich aus ca. 1400 Einzelbildern (JPG) zusammensetzt und insgesamt eine Auflösung von ca. 18.400 x 14.800 Pixel hat sowie eine Dateigröße von 35 Mb umfasst. <a href="http://gbif.naturkundemuseum-berlin.de/hackathon/">50 dieser Bilder</a> sind unter einer <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0-Lizenz</a> verfügbar, eine Erweiterung der krpano-Objekte ist über eine API möglich.</p>
+				</div>
+				<div class="data-content">
+					<h4>Insektenkästen</h4>
 
-<p>
-  Hintergrund: <a href="http://eos.naturkundemuseum-berlin.de/">Insektenkastenportal</a> mit mehr als 3.000 Insektenkästen (jeden Monat kommen ca. 500 weitere hinzu), Beispielsuche: <a href="http://eos.naturkundemuseum-berlin.de/search?fullScientificName_search=Scarabaeidae">Scarabaeidae</a>.
-</p>
+					<p>Für <strong>Coding da Vinci</strong> stellt das Museum für Naturkunde Berlin Gigapixel-Scans von Insektenkästen für die breite Öffentlichkeit und für die Forschungsgemeinschaft zur Verfügung. Diese Insektenkästen umfassen Schmetterlingen, Käfern, Bienen, Heuschrecken, Wanzen usw.. Es gibt eine Liste der Arten in jedem Insektenkasten, allerdings auch Kästen mit unbestimmten Material. Alle Insektenkästen liegen als krpano-Objekte (Flash oder HTML5) vor, wobei jedes krpano-Objekt sich aus ca. 1400 Einzelbildern (JPG) zusammensetzt und insgesamt eine Auflösung von ca.
+						18.400 x
+						14.800 Pixel hat sowie eine Dateigröße von 35 Mb umfasst. <a href="http://gbif.naturkundemuseum-berlin.de/hackathon/">50 dieser Bilder</a> sind unter einer <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0-Lizenz</a> verfügbar, eine Erweiterung der krpano-Objekte ist über eine API möglich.</p>
 
-<a href="http://biowikifarm.net/meta/Open_GLAM_Hackathon_2014#Analyse_von_Gigapixel-Scans_von_Insektenk.C3.A4sten">Weitere Infos gibt es im Wiki</a>
-</br>
-<dl>
-  <dt>Namensnennung</dt>
-  <dd>Museum für Naturkunde Berlin </dd>
-  <dt>Lizenz</dt>
-  <dd>CC-BY</dd>
-  <dt>Dateityp</dt>
-  <dd>JPG</dd>
-  <dt>Bilder und Metadaten</dt>
-  <dd>
-    <a href="http://gbif.naturkundemuseum-berlin.de/hackathon/">
-      http://gbif.naturkundemuseum-berlin.de/hackathon/
-    </a>
-  </dd>
-</dl>
+					<p>
+						Hintergrund: <a href="http://eos.naturkundemuseum-berlin.de/">Insektenkastenportal</a> mit mehr als 3.000 Insektenkästen (jeden Monat kommen ca. 500 weitere hinzu), Beispielsuche: <a href="http://eos.naturkundemuseum-berlin.de/search?fullScientificName_search=Scarabaeidae">Scarabaeidae</a>.
+					</p>
 
+					<a href="http://biowikifarm.net/meta/Open_GLAM_Hackathon_2014#Analyse_von_Gigapixel-Scans_von_Insektenk.C3.A4sten">Weitere Infos gibt es im Wiki</a>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Museum für Naturkunde Berlin</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 2</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY</span>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">JPEG</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="http://gbif.naturkundemuseum-berlin.de/hackathon/">Bilder und Metadaten</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+				</div>
+				<div class="data-content">
 
+					<h4>Tierstimmen</h4>
 
-  <h4>Tierstimmen</h4>
+					<p>
+						Auf <a href="http://www.tierstimmenarchiv.de/">tierstimmenarchiv.de</a> wird eine große Zahl wissenschaftlich geprüfter, hochqualitativer Tierstimmen bereitsgestellt. Ein großer Teil der geschnittenen Aufnahmen kann nicht unter einer offenen Lizenz zur Verfügung gestellt werden, jedoch existiert ein für Deutschland sehr interessanter Satz von ca. 300 Aufnahmen von Vögeln, Amphibien und Säugetieren, die unter CC BY-SA lizensiert und hier verfügbar sind.
+					</p>
 
+					<p>
+						1. Analyse und eventuelle Verbesserung des zur Zeit implementierten <a href="http://www.tierstimmenarchiv.de/webinterface/contents/index.php">Web-basierten Zugriffs</a> <strong>(login als "guest" mit Passwort "guest")</strong>
+					</p>
 
-  <p>
-  Auf <a href="http://www.tierstimmenarchiv.de/">tierstimmenarchiv.de</a> wird eine große Zahl wissenschaftlich geprüfter, hochqualitativer Tierstimmen bereitsgestellt. Ein großer Teil der geschnittenen Aufnahmen kann nicht unter einer offenen Lizenz zur Verfügung gestellt werden, jedoch existiert ein für Deutschland sehr interessanter Satz von ca. 300 Aufnahmen von Vögeln, Amphibien und Säugetieren, die unter CC BY-SA lizensiert und hier verfügbar sind.
-  </p>
-  <p>
-    1. Analyse und eventuelle Verbesserung des zur Zeit implementierten <a href="http://www.tierstimmenarchiv.de/webinterface/contents/index.php">Web-basierten Zugriffs</a> <strong>(login als "guest" mit Passwort "guest")</strong> 
-    </p>
-    <p>
-      2. Nutzung der freien Tierstimmen, z.B. auch in einer Smartphone App.</br>
-    </p>
-    <p>
-      3. Nutzung der Monitoringaufnahmen (erfordert login wie oben), d.h. an einem Ort sind mehrere Mikrofone installiert und es werden über Tage hinweg kontinuierlich Aufnahmen gemacht</br>
-    </p>
-    <p>
-      4. Markierung von Abschnitten (z.B. Anfang und Ende eines Vogelgesangs) -> automatisch oder mit Nutzerhilfe (Crowdsourcing) 
-    </p>
-    <p>
-    5. Als Ansporn und maximales Ziel: automatische Arterkennung durch Vergleich von Abschnitten im Monitoring mit Referenzaufnahmen aus dem Tierstimmenarchiv 
-  </p>
-  
-  <dl>
-    <dt>
-      Namensnennung
-    </dt>
-    <dd>
-      Museum für Naturkunde Berlin
-    </dd>
-    <dt>Lizenz</dt>
-    <dd>CC-BY-SA</dd>
-    <dt>Dateityp</dt>
-    <dd>mp3</dd>
-    <dt>Link Sounds</dt>
-    <dd><a href="http://species-id.net/openmedia/Category:Media_by_Tierstimmenarchiv_MfN">http://species-id.net/openmedia/Category:Media_by_Tierstimmenarchiv_MfN</a></dd>
-  </dl>
+					<p>
+						2. Nutzung der freien Tierstimmen, z.B. auch in einer Smartphone App.</br>
+					</p>
 
+					<p>
+						3. Nutzung der Monitoringaufnahmen (erfordert login wie oben), d.h. an einem Ort sind mehrere Mikrofone installiert und es werden über Tage hinweg kontinuierlich Aufnahmen gemacht</br>
+					</p>
 
+					<p>
+						4. Markierung von Abschnitten (z.B. Anfang und Ende eines Vogelgesangs) -> automatisch oder mit Nutzerhilfe (Crowdsourcing)
+					</p>
 
+					<p>
+						5. Als Ansporn und maximales Ziel: automatische Arterkennung durch Vergleich von Abschnitten im Monitoring mit Referenzaufnahmen aus dem Tierstimmenarchiv
+					</p>
 
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>
+							Museum für Naturkunde Berlin
+						</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 2</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY-SA</span>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">MP3</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="http://species-id.net/openmedia/Category:Media_by_Tierstimmenarchiv_MfN">Sounds</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
 
+		<div class="data-entry" id="ns-buchverbotsliste">
+			<div class="data-interlude">
+				<h3>NS-Buchverbotsliste</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media"></div>
+				<div class="data-content">
+					<p>
+						Die „Liste der schädlichen und unerwünschten Schrifttums“ enthält die von den Nationalsozialisten zwischen 1938 bis 1941 zusammengestellten Autoren und ihre Werke, die im Dritten Reich verboten wurden. Diese Liste wurde nur als vertrauliches Schriftstück an die Reichsschrifttumskammer sowie die Vorstände von Buchhandel und Bibliotheken weitergegeben. Hier wird die NS-Verbotsliste erstmals vollständig online zur Verfügung gestellt mit fast 6.000 Einträgen. Nun steht sie zur freien Verwendung und Verknüpfung bereit.
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung/veröffentlichende Stelle</dt>
+						<dd>
+							BerlinOnline Stadtportal GmbH &amp; Co KG
+						</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 1</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY</span>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">JSON</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="http://daten.berlin.de/datensaetze/liste-der-verbannten-b%C3%BCcher">Metadaten</a>,
+							<a href="http://www.berlin.de/geschichte/verbannte-buecher/">Zusatzinformationen</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
 
+		<div class="data-entry" id="staatsbibliothek-zu-berlin">
+			<div class="data-interlude">
+				<h3>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/sbb.jpg" alt="Europeana Collections 1914-1918-Projekt"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<h4>
+						Europeana Collections 1914-1918-Projekt
+					</h4>
 
+					<p>
+						Die <a href="http://staatsbibliothek-berlin.de/">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</a> hat im Rahmen des <a href="http://www.europeana-collections-1914-1918.eu/">Europeana Collections 1914-1918-Projekts</a> etwa 7.000 Objekte aus der Zeit des Ersten Weltkriegs im Umfang von über 300.000 Seiten digitalisiert. Diese sind in den <a href="http://digital.staatsbibliothek-berlin.de/dms/suche/?DC=krieg.1914.1918">Digitalen Sammlungen der Staatsbibliothek</a> weitgehend als Public Domain bereitgestellt. Für einen großen Anteil dieser Digitalisate liegen
+						zudem Volltexte vor. Die zugehörigen Metadaten liegen als METS/MODS-Files vor.
+					</p>
 
+					<p>
+						Das breite Spektrum der ausgewählten Objekte dokumentiert umfassend die Lebenswirklichkeit der Zeit zwischen 1914 und 1918 an der Front wie in der Heimat. Digitalisiert wurden Kinder- und Schulbücher, Kriegskochbücher, Erbauungsschriften, persönliche Briefe und Kriegspostkarten, Tagebücher und Fotos ebenso wie Flugblätter und Pamphlete, Karten und Musikalien, Schützengrabenzeitungen, Unterhaltungsliteratur für Gefangene, überlebenspraktische Anleitungen für Frontsoldaten u.v.m.
+					</p>
 
-  </div>
-  </div>
-  </div>
-  <div id="ns-buchverbotsliste" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>NS-Buchverbotsliste</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+					<p>
+						Unter den Digitalisaten finden sich etwa Überlegungen „Weshalb die Deutschen im Auslande unbeliebt sind!" neben einer Sammlung hilfreicher Anleitungen für „Frauenfleiß in Kriegszeiten", eine Predigt vom Tag nach Kriegsausbruch, überschrieben mit dem Aufruf „Gottes Geist muss uns mobil machen!", neben einem handlichen Büchlein, das „Wissenswertes für jeden aktiven Soldaten, jeden Reservisten, Landwehrmann usw. im Kriegsfalle" zusammenfasst.
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 2</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							99% <span class="label label-danger">Public Domain</span><br/>
+							<a href="http://digital.staatsbibliothek-berlin.de/small-menus/footer-navigation/nutzungsbedingungen/">Details</a>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">TXT</span>
+							<span class="label label-info">JPEG</span>
+							METS/MODS-<span class="label label-info">XML</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							Die Erst-Weltkriegsdigitalisate der SBB sind über die OAI-Schnittstelle der SBB ist über diesen Link aufrufbar: <a href="http://digital.staatsbibliothek-berlin.de/oai/?verb=ListRecords&metadataPrefix=oai_dc&set=DC_krieg.1914.1918">OAI-DC</a><br/>
+							<a href="http://digital.staatsbibliothek-berlin.de/oai/?verb=ListRecords&metadataPrefix=mets&set=DC_krieg.1914.1918 ">METS (umfangreicherer Datensatz)</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
 
-  <p>
-    Die „Liste der schädlichen und unerwünschten Schrifttums“ enthält die von den Nationalsozialisten zwischen 1938 bis 1941 zusammengestellten Autoren und ihre Werke, die im Dritten Reich verboten wurden. Diese Liste wurde nur als vertrauliches Schriftstück an die Reichsschrifttumskammer sowie die Vorstände von Buchhandel und Bibliotheken weitergegeben. Hier wird die NS-Verbotsliste erstmals vollständig online zur Verfügung gestellt mit fast 6.000 Einträgen. Nun steht sie zur freien Verwendung und Verknüpfung bereit.
-  </p>
+		<div class="data-entry" id="stadtmuseum-berlin">
+			<div class="data-interlude">
+				<h3>Stadtmuseum Berlin</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/stadtmuseum_zille.jpg" alt="Stadtmuseum Zille"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<h4>Berlinischer Schnauze - Heinrich Zille</h4>
 
-  <dl>
-    <dt>
-      Namensnennung/verföffentlichende Stelle
-    </dt>
-    <dd>
-      BerlinOnline Stadtportal GmbH &amp; Co KG
-    </dd>
-    <dt>Lizenz</dt>
-    <dd>CC-BY</dd>
-    <dt>Dateityp</dt>
-    <dd>JSON</dd>
-    <dt>Metadaten</dt>
-    <dd>
-      <a href="http://daten.berlin.de/datensaetze/liste-der-verbannten-b%C3%BCcher">
-        http://daten.berlin.de/datensaetze/liste-der-verbannten-b%C3%BCcher
-      </a>
-    </dd>
-    <dt>Zusatzinformationen</dt>
-    <dd>
-      <a href="http://www.berlin.de/geschichte/verbannte-buecher/">
-        http://www.berlin.de/geschichte/verbannte-buecher/
-      </a>
-    </dd>
-  </dl>
+					<p>
+						<strong>Grundlage:</strong>
+						In der Grafischen Sammlung des <a href="http://www.stadtmuseum.de/">Stadtmuseums Berlin</a> befindet sich einer der größten Bestände des Zeichners <a href="http://www.stadtmuseum.de/sammlungen/grafische-sammlung">Heinrich Zille</a>. Mit Ironie und Witz portraitierte er die Berliner Bevölkerung und warf somit einen augenzwinkernden, aber kritischen Blick auf die sozialen Verhältnisse in der Stadt. Häufig sind die Szenen in Zilles Zeichnungen begleitet von ungehobelten Dialogen der dargestellten Personen in typischer Berliner Schnauze.
+					</p>
 
+					<p>
+						<strong>Die Daten:</strong>
+						Im Mittelpunkt des Projektes stehen Stadtansichten aus dem Bestand des Stadtmuseum Berlin. Die Grafiken und Gemälde zeigen Berlin, wie es im 18. und 19.Jahrhundert ausgesehen hat. Diese Abbildungen liegen als JPEGs mit 1200px lange Kante und 72dpi vor. Zusätzlich dazu liegen zu dem Objekt Metadaten im MuseumDat-XML Format vor. Diese Metadaten geben grundlegende Informationen zu den Museumsobjekt (Maße, Technik, Datierung, Künstler etc.) an.
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>
+							Stadtmuseum Berlin
+						</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 3</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">Public Domain</span><br/>
+							Credit Stadtmuseum Berlin
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">JPEG</span>
+							<span class="label label-info">XML</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="https://offenedaten.de/dataset/stadtmuseum-berlin-berliner-schnauze-grafik-von-heinrichzille">Metadaten Zille</a>,
+							<a href="https://commons.wikimedia.org/wiki/Category:Grafische_Sammlung_%28Stiftung_Stadtmuseum_Berlin%29">
+								Fotos Zille
+							</a> (<a href="http://commons.wikimedia.org/wiki/Heinrich_Zille">ergänzende Bilder</a>)
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/blick_von_oberbaumbruecke.jpg" alt="Stadtmuseum Schichten der Geschichte"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<h4>Schichten der Geschichte</h4>
+
+					<p>
+						<strong>Grundlage:</strong>
+						Die Sammlungen des <a href="http://www.stadtmuseum.de/">Stadtmuseums Berlin</a> geben in den Bereichen Grafik und Gemälde mehrere 100.000 Ansichten her, die das historische Berlin, bekannte und unbekannte Plätze, Straßen, Gebäude und Wahrzeichen der Stadt zeigen. Einige dieser Spuren der Vergangenheit sind heute in der Stadt noch zu erkennen und haben sich teilweise zu Touristenmagneten entwickelt. Andere Zeugen des historischen Berlins hingegen sind abgerissen, überbaut oder durch den Weltkrieg zerstört worden. Ob nun sichtbar oder unsichtbar, die historischen
+						Orte in Berlin
+						sind Anziehungspunkt für Touristen, Tagesbesucher und Berliner gleichermaßen – wie weinige Städte lädt das Zentrum Berlins dabei zu einem Spaziergang in der Vergangenheit der Stadt ein – durch verschiedene Stadtge-Schichte(n).
+					</p>
+
+					<p>
+						<strong>Die Daten:</strong>
+						Im Mittelpunkt des Projektes stehen Stadtansichten aus dem Bestand des Stadtmuseum Berlin. Die Grafiken und Gemälde zeigen Berlin, wie es im 18. und 19.Jahrhundert ausgesehen hat. Diese Abbildungen liegen als JPEGs mit 1200px lange Kante und 72dpi vor. Zusätzlich dazu liegen zu dem Objekt Metadaten im MuseumDat-XML Format vor. Diese Metadaten geben grundlegende Informationen zu den Museumsobjekt (Maße, Technik, Datierung, Künstler etc.) sowie zu abgebildeten Stadtsituation (welche Gebäude sind zu sehen etc.).
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Stadtmuseum Berlin</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 3</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">Public Domain</span><br/>
+							Credit: Stadtmuseum Berlin
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">XML</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="https://offenedaten.de/dataset/stadtmuseum-berlin-schichten-der-geschichte-stadtansichten">Metadaten</a>,
+							<a href="https://commons.wikimedia.org/wiki/Category:Stadtansichten_%28Stiftung_Stadtmuseum_Berlin%29">Bilder</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div class="data-entry" id="steinheim-institut">
+			<div class="data-interlude">
+				<h3>Steinheim-Institut für deutsch-jüdische Geschichte, Essen</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/grabsteine.jpeg" alt="Grabsteine"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<h4>Grabmale historischer jüdischer Friedhöfe</h4>
+
+					<p>
+						Das STI stellt für Coding da Vinci mehr als 26.000 Datensätze zu Grabmalen von rund 135 historischen jüdischen Friedhöfen zur Verfügung. Räumlich sind diese auf 12 Regionen verteilt, zeitlich werden 900 Jahre umspannt. Die Datensätze sind offen zugänglich über die epigraphische Datenbank <a href="http://steinheim-institut.de/cgi-bin/epidat">epidat</a>
+					</p>
+
+					<p>
+						Drei XML-Formate stehen für Coding da Vinci zur Verfügung:
+					</p>
+
+					<p>
+						A. RSS
+						Ein RSS-Feed enthält Kurzinfos zu jedem historischen Friedhof: Name, Inschriftenzahl, Geokoordinaten, Projektdetails sowie ein Link, der zum Bestand führt.
+						<a href="http://www.steinheim-institut.de/daten/rss.xml">http://www.steinheim-institut.de/daten/rss.xml</a>
+					</p>
+
+					<p>
+						B. KML
+						In einer KML-Datei liegen datierte Grabmale sämtlicher Bestände jeweils mit Geokoordinaten und einem Link zur Volldokumentation vor: <a href="http://steinheim-institut.de/daten/epidat.kml">http://steinheim-institut.de/daten/epidat.kml</a>
+						Das KML-Format wird zur Zeit für die Visualisierung der epidat Daten im DARIAH-DE Geo-Browser verwendet. Siehe: <a href="http://steinheim-institut.de/cgi-bin/epidat?info=e4d">http://steinheim-institut.de/cgi-bin/epidat?info=e4d</a>
+					</p>
+
+					<p>
+						C. EpiDoc – Epigraphic Documents in TEI XML
+						Jeder einzelne epigraphische Datensatz der epigraphischen Datenbank wird auch im EpiDoc Format bereitgestellt. EpiDoc ist ein XML-Standard für epigraphische Daten.
+					</p>
+
+					<p>
+						<a href="http://steinheim-institut.de/cgi-bin/epidat">Zusatzinformationen</a>
+					</p>
+
+					<p>
+						Jeder Datensatz der epigraphischen Datenbank epidat hat eine eindeutige ID und kann per URL abgerufen werden. Die ID setzt sich aus bis zu drei Teilen – verbunden durch Bindestrich – zusammen:
+						1. Eine obligatorische dreistellige Bestands-ID („hha“),
+						2. eine obligatorische ein- bis vierstellige bestandsbezogene nummerische ID („3361“).
+						3. Fakultativ ist die Angabe zum Format:
+						„teip5“ bzw „t“ für EpiDoc TEI XML für epigraphische Dokumente;
+						„txt“ – für plain-text
+						wenn an dieser Stelle keine Angabe gemacht ist, dann wird html ausgegeben.
+					</p>
+
+					<p>
+						Beispiel: <a href="http://steinheim-institut.de/cgi-bin/epidat?id=hha-3361-teip5">http://steinheim-institut.de/cgi-bin/epidat?id=hha-3361-teip5</a>
+					</p>
+
+					<p>
+						Zur Syntax siehe auch die Übersichtsseite <a href="http://www.steinheim-institut.de/cgi-bin/epidat?info=howtoharvest">„How to harvest epidat records“</a>
+					</p>
+
+					<p>
+						Eine Einführung in historische jüdische Friedhöfe und Grabsteinepigraphik gibt <a href="http://www.steinheim-institut.de/cgi-bin/epidat?info=epi">Spurensuche</a> – Jüdische Friedhöfe in Deutschland
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Salomon Ludwig Steinheim-Institut für deutsch-jüdische Geschichte – epigraphische Datenbank epidat</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 1</span>
+							<span class="label label-default">Kategorie 4</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY</span> 4.0
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							KML/RSS/EpiDoc-<span class="label label-info">XML</span>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div class="data-entry" id="textgrids-digitale-bibliothek">
+			<div class="data-interlude">
+				<h3>TextGrid’s Digitale Bibliothek </h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/dariah_verne.jpeg" alt="Verne"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<p>
+						Bei der <a href="https://www.textgrid.de/ueber-textgrid/digitale-bibliothek/">Digitalen Bibliothek</a> handelt es sich um eine umfangreiche Sammlung von Texten vom Anfang des Buchdrucks bis zu den ersten Jahrzehnten des 20. Jahrhunderts in digitaler Form. Insgesamt stehen 1267 Texte aus 10 Sachgebieten als Volltexte im Format XML nach den Standards der Text Encoding Iniative zur Verfügung. Metadaten können aus dem
+						&lt;teiHeader&gt; und mittels einer OAI-PMH-Schnittstelle aus dem Repository extrahiert werden. Das Zusammenspiel von Text und homogener Encodierung ermöglicht vielfältige Analysen.
+					</p>
+
+					<p>
+						Mittels unserer OAI-PMH Schnittstelle können zunächst die Metadaten aus dem TextGrid Repository abegholt werden. Zum Beispiel: <a href="http://textgrid-esx2.gwdg.de/1.0/tgoaipmh/oai?verb=GetRecord&identifier=wr71.0&metadataPrefix=oai_dc">http://textgrid-esx2.gwdg.de/1.0/tgoaipmh/oai?verb=GetRecord&identifier=wr71.0&metadataPrefix=oai_dc</a>
+
+						In einem der Relations-Felder ist eine URL hinterlegt, welcher direkt zum TEI-Objekt.
+						In diesem Fall also: <a href="http://textgrid-esx1.gwdg.de/1.0/aggregator/teicorpus/textgrid:wr71.0">http://textgrid-esx1.gwdg.de/1.0/aggregator/teicorpus/textgrid:wr71.0</a>
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>TextGrid</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 4</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY</span> 3.0<br/>
+							<a href="http://creativecommons.org/licenses/by/3.0/de/">Details</a>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">XML</span>
+						</dd>
+						<dt>Förderhinweis</dt>
+						<dd>Die vorliegende Textsammlung wurde im Rahmen des Forschungsprojekts TextGrid (www.textgrid.de, Förderkennzeichen: 01UG1203A) mit Mitteln des BMBF (Bundesministerium für Bildung und Forschung) erworben. Wir bitten im Falle der Nachnutzung des Datenbestandes diesen Förderhinweis den Daten beizulegen.</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div class="data-entry" id="zentral-und-landesbibliothek-berlin">
+			<div class="data-interlude">
+				<h3>Zentral- und Landesbibliothek Berlin</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/zlb_juedisches_adressbuch.jpg" alt="Adressbucheinträge des Jüdischen Adressbuchs von Groß-Berlin von 1931"/>
+					</div>
+
+				</div>
+				<div class="data-content">
+					<h4>Adressbucheinträge des Jüdischen Adressbuchs von Groß-Berlin von 1931</h4>
+
+					<p>
+						72,231 aufbereitete Adressbucheinträge des <a href="http://digital.zlb.de/viewer/resolver?urn=urn:nbn:de:kobv:109-1-2414794">Jüdischen Adressbuchs von Groß-Berlin von 1931</a>, mit Informationen zu Familienname, Vorname, Beruf, Straße, Bezirk und Informationen zu Untermiete u.ä. Für diese im Rahmen des Projekts <a href="http://www.stolperstadt.org">www.stolperstadt.org</a> von Rod Miller erstellten Daten ergeben sich vielfältige Nutzungsmöglichkeiten, von einer attraktiven webbasierten Rechercheoberfläche bis hin zur Anreicherung mit Geo- und Normdaten.
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Zentral- und Landesbibliothek Berlin</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 2</span>
+							<span class="label label-default">Kategorie 3</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY-SA</span>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">CSV</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="https://offenedaten.de/dataset/adressbuchdaten-des-judischen-adressbuchs-fur-grob-berlin-von-1931">Metadaten</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/zlb_adressbuecher.jpg" alt="Berliner Adressbuchdaten (1799-1943)"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<h4>Berliner Adressbuchdaten (1799-1943)</h4>
+
+					<p>
+						Eine Datenauswahl der <a href="http://www.zlb.de/besondere-angebote/berliner-adressbuecher.html">Berliner Adressbücher</a>: reichhaltige Struktur- und Metadaten der Adressbücher sowie die mit maschineller OCR erkannten Volltexte dienen als Grundlage für die Verbesserung der Zugänglichkeit dieser Ressource.
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Zentral- und Landesbibliothek Berlin</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 2</span>
+							<span class="label label-default">Kategorie 3</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY-SA</span>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">XML</span>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/zlb_raubgut.jpg" alt="Daten des NS-Raubgut-Projekts der ZLB"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<h4>Daten des NS-Raubgut-Projekts der ZLB</h4>
+
+					<p>
+						Das <a href="http://raubgut.zlb.de/">NS-Raubgut-Projekt</a> der ZLB recherchiert nach Büchern, die ihren rechtmäßigen Eigentümern während der NS-Herrschaft zwischen 1933 und 1945 entzogen wurden, und versucht deren Herkunft zum ermitteln, um diese an die Eigentümer oder deren Erben zurückzugeben.
+					</p>
+
+					<p>
+						Die Datensätze enthalten Informationen zu den als Raubgut erkannten Büchern, d.h. neben den bibliographischen Informationen und Fotografien Informationen zu den ermittelten Besitzern und den Wegen der Bücher, d.h. den Stationen, über die diese von den rechtmäßigen Eigentümern - oftmals über NS-Behörden und Bergungsstellen - in die ZLB gelangt sind. Mit den Daten sollen beispielhaft die Wege von NS-Raubgut sichtbar gemacht werden, das in die Bestände deutscher Bibliotheken gelangt ist.
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Zentral- und Landesbibliothek Berlin</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Kategorie 2</span>
+							<span class="label label-default">Kategorie 3</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY-SA</span>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">CSV</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="https://offenedaten.de/dataset/ns-raubgut-aus-den-bestanden-der-zentral-und-landesbibliothek-berlin">Metadaten</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+	</div>
 </div>
-  </div>
-  </div>
-  <div ide="staatsbibliothek-zu-berlin" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div class="thumbnail">
-        <img src="{{ site.baseurl }}img/daten/sbb.jpg" alt="Europeana Collections 1914-1918-Projekt"/>
-      </div>
 
-  <h4>
-    Europeana Collections 1914-1918-Projekt
-  </h4>
+<!--
 
-  <p>
-     Die <a href="http://staatsbibliothek-berlin.de/">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</a> hat im Rahmen des <a href="http://www.europeana-collections-1914-1918.eu/">Europeana Collections 1914-1918-Projekts</a> etwa 7.000 Objekte aus der Zeit des Ersten Weltkriegs im Umfang von über 300.000 Seiten digitalisiert. Diese sind in den <a href="http://digital.staatsbibliothek-berlin.de/dms/suche/?DC=krieg.1914.1918">Digitalen Sammlungen der Staatsbibliothek</a> weitgehend als Public Domain bereitgestellt. Für einen großen Anteil dieser Digitalisate liegen zudem Volltexte vor. Die zugehörigen Metadaten liegen als METS/MODS-Files vor.
-  </p>
-
-  <p>
-      Das breite Spektrum der ausgewählten Objekte dokumentiert umfassend die Lebenswirklichkeit der Zeit zwischen 1914 und 1918 an der Front wie in der Heimat. Digitalisiert wurden Kinder- und Schulbücher, Kriegskochbücher, Erbauungsschriften, persönliche Briefe und Kriegspostkarten, Tagebücher und Fotos ebenso wie Flugblätter und Pamphlete, Karten und Musikalien, Schützengrabenzeitungen, Unterhaltungsliteratur für Gefangene, überlebenspraktische Anleitungen für Frontsoldaten u.v.m.
-  </p>
-
-  <p>
-      Unter den Digitalisaten finden sich etwa Überlegungen „Weshalb die Deutschen im Auslande unbeliebt sind!" neben einer Sammlung hilfreicher Anleitungen für „Frauenfleiß in Kriegszeiten", eine Predigt vom Tag nach Kriegsausbruch, überschrieben mit dem Aufruf „Gottes Geist muss uns mobil machen!", neben einem handlichen Büchlein, das „Wissenswertes für jeden aktiven Soldaten, jeden Reservisten, Landwehrmann usw. im Kriegsfalle" zusammenfasst.
-  </p>
-
-<dl>
-    <dt>
-      Namensnennung
-    </dt>
-    <dd>
-      Staatsbibliothek zu Berlin - Preußischer Kulturbesitz
-    </dd>
-    <dt>Lizenz</dt>
-    <dd>99% Public Domain, <a href="http://digital.staatsbibliothek-berlin.de/small-menus/footer-navigation/nutzungsbedingungen/">Details</a></dd>
-    <dt>Daten</dt>
-    <dd> Die Erst-Weltkriegsdigitalisate der SBB sind über die OAI-Schnittstelle der SBB ist über diesen Link aufrufbar:       <a href="http://digital.staatsbibliothek-berlin.de/oai/?verb=ListRecords&metadataPrefix=oai_dc&set=DC_krieg.1914.1918">OAI-DC</a>
-    </dt>
-    <dt>
-    <a href="http://digital.staatsbibliothek-berlin.de/oai/?verb=ListRecords&metadataPrefix=mets&set=DC_krieg.1914.1918 ">METS (umfangreicherer Datensatz)</a>
-    </dd>
-  </dl>
-  
-  
-  
-  </div>
-  </div>
-  </div>
-  <div id="stadtmuseum-berlin" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Stadtmuseum Berlin</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-  <h4>Berlinischer Schnauze - Heinrich Zille</h4>
-      <div class="thumbnail">
-        <img src="{{ site.baseurl }}img/daten/stadtmuseum_zille.jpg" alt="Stadtmuseum Zille"/>
-      </div>
-  <p>
-    <strong>Grundlage:</strong>
-    In der Grafischen Sammlung des <a href="http://www.stadtmuseum.de/">Stadtmuseums Berlin</a> befindet sich einer der größten Bestände des Zeichners <a href="http://www.stadtmuseum.de/sammlungen/grafische-sammlung">Heinrich Zille</a>. Mit Ironie und Witz portraitierte er die Berliner Bevölkerung und warf somit einen augenzwinkernden, aber kritischen Blick auf die sozialen Verhältnisse in der Stadt. Häufig sind die Szenen in Zilles Zeichnungen begleitet von ungehobelten Dialogen der dargestellten Personen in typischer Berliner Schnauze.
-  </p>
-
-  <p>
-    <strong>Die Daten:</strong>
-    Im Mittelpunkt des Projektes stehen Stadtansichten aus dem Bestand des Stadtmuseum Berlin. Die Grafiken und Gemälde zeigen Berlin, wie es im 18. und 19.Jahrhundert ausgesehen hat. Diese Abbildungen liegen als JPEGs mit 1200px lange Kante und 72dpi vor. Zusätzlich dazu liegen zu dem Objekt Metadaten im MuseumDat-XML Format vor. Diese Metadaten geben grundlegende Informationen zu den Museumsobjekt (Maße, Technik, Datierung, Künstler etc.) an.
-  </p>
-
-  <dl>
-    <dt>
-      Namensnennung
-    </dt>
-    <dd>
-      Stadtmuseum Berlin
-    </dd>
-    <dt>Lizenz</dt>
-    <dd>Public Domain, Credit Stadtmuseum Berlin</dd>
-    <dt>Dateityp</dt>
-    <dd>XML, JPEG</dd>
-    <dt>Metadaten Zille</dt>
-    <dd>
-      <a href="https://offenedaten.de/dataset/stadtmuseum-berlin-berliner-schnauze-grafik-von-heinrichzille">
-        https://offenedaten.de/dataset/stadtmuseum-berlin-berliner-schnauze-grafik-von-heinrichzille
-      </a>
-    </dd>
-    <dt>Fotos Zille</dt>
-    <dd>
-      <a href="https://commons.wikimedia.org/wiki/Category:Grafische_Sammlung_%28Stiftung_Stadtmuseum_Berlin%29">
-        https://commons.wikimedia.org/wiki/Category:Grafische_Sammlung_%28Stiftung_Stadtmuseum_Berlin%29
-      </a>
-      <br/>
-      (<a href="http://commons.wikimedia.org/wiki/Heinrich_Zille">ergänzende Bilder von Zille</a>)
-    </dd>
-
-  </dl>
-
-
-  <h4>Schichten der Geschichte</h4>
-<div class="thumbnail">
-        <img src="{{ site.baseurl }}img/daten/blick_von_oberbaumbruecke.jpg" alt="Stadtmuseum Schichten der Geschichte"/>
-      </div>
-  <p>
-    <strong>Grundlage:</strong>
-    Die Sammlungen des <a href="http://www.stadtmuseum.de/">Stadtmuseums Berlin</a> geben in den Bereichen Grafik und Gemälde mehrere 100.000 Ansichten her, die das historische Berlin, bekannte und unbekannte Plätze, Straßen, Gebäude und Wahrzeichen der Stadt zeigen. Einige dieser Spuren der Vergangenheit sind heute in der Stadt noch zu erkennen und haben sich teilweise zu Touristenmagneten entwickelt. Andere Zeugen des historischen Berlins hingegen sind abgerissen, überbaut oder durch den Weltkrieg zerstört worden. Ob nun sichtbar oder unsichtbar, die historischen Orte in Berlin sind Anziehungspunkt für Touristen, Tagesbesucher und Berliner gleichermaßen – wie weinige Städte lädt das Zentrum Berlins dabei zu einem Spaziergang in der Vergangenheit der Stadt ein – durch verschiedene Stadtge-Schichte(n).
-  </p>
-
-  <p>
-    <strong>Die Daten:</strong>
-    Im Mittelpunkt des Projektes stehen Stadtansichten aus dem Bestand des Stadtmuseum Berlin. Die Grafiken und Gemälde zeigen Berlin, wie es im 18. und 19.Jahrhundert ausgesehen hat. Diese Abbildungen liegen als JPEGs mit 1200px lange Kante und 72dpi vor. Zusätzlich dazu liegen zu dem Objekt Metadaten im MuseumDat-XML Format vor. Diese Metadaten geben grundlegende Informationen zu den Museumsobjekt (Maße, Technik, Datierung, Künstler etc.) sowie zu abgebildeten Stadtsituation (welche Gebäude sind zu sehen etc.).
-  </p>
-
-  <dl>
-    <dt>
-      Namensnennung
-    </dt>
-    <dd>
-      Stadtmuseum Berlin
-    </dd>
-    <dt>Lizenz</dt>
-    <dd>Public Domain, Credit: Stadtmuseum Berlin</dd>
-    <dt>Dateityp</dt>
-    <dd>XML</dd>
-    <dt>Link Metadaten</dt>
-    <dd>
-      <a href="https://offenedaten.de/dataset/stadtmuseum-berlin-schichten-der-geschichte-stadtansichten">https://offenedaten.de/dataset/stadtmuseum-berlin-schichten-der-geschichte-stadtansichten</a>
-    </dd>
-    <dt>Link Bilder</dt>
-    <dd>
-      <a href="https://commons.wikimedia.org/wiki/Category:Stadtansichten_%28Stiftung_Stadtmuseum_Berlin%29">https://commons.wikimedia.org/wiki/Category:Stadtansichten_%28Stiftung_Stadtmuseum_Berlin%29</a>
-    </dd>
-  </dl>
-
-
-  </div>
-  </div>
-  </div>
-  <div id="steinheim-institut" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Steinheim-Institut für deutsch-jüdische Geschichte, Essen</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-  <div class="thumbnail">
-    <img src="{{ site.baseurl }}img/daten/grabsteine.jpeg" alt="Grabsteine"/>
-  </div>
-  
-  
-  <h4>Grabmale historischer jüdischer Friedhöfe</h4>
-
-  <p>
-   Das STI stellt für Coding da Vinci mehr als 26.000 Datensätze zu Grabmalen von rund 135 historischen jüdischen Friedhöfen zur Verfügung. Räumlich sind diese auf 12 Regionen verteilt, zeitlich werden 900 Jahre umspannt. Die Datensätze sind offen zugänglich über die epigraphische Datenbank <a href="http://steinheim-institut.de/cgi-bin/epidat">epidat</a>
-  </p>
-
-  <dl>
-    <dt>
-      Namensnennung
-    </dt>
-    <dd>
-      Salomon Ludwig Steinheim-Institut für deutsch-jüdische Geschichte – epigraphische Datenbank epidat
-    </dd>
-    <dt>Lizenz</dt>
-    <dd>CC-BY 4.0</dd>
-    <dt>Dateityp</dt>
-    <dd>XML</dd>
-  </dl>
-    
-    <p>
-    Drei XML-Formate stehen für Coding da Vinci zur Verfügung:
-    </p>
-    
-    <p>
-    A. RSS 
-Ein RSS-Feed enthält Kurzinfos zu jedem historischen Friedhof:  Name, Inschriftenzahl, Geokoordinaten, Projektdetails sowie ein Link, der zum Bestand führt. 
-<a href="http://www.steinheim-institut.de/daten/rss.xml">http://www.steinheim-institut.de/daten/rss.xml</a> 
-    </p>
-    
-    <p>
-    B. KML 
-In einer KML-Datei liegen datierte Grabmale sämtlicher Bestände jeweils mit Geokoordinaten und einem Link zur Volldokumentation vor: <a href="http://steinheim-institut.de/daten/epidat.kml">http://steinheim-institut.de/daten/epidat.kml</a>
-Das KML-Format wird zur Zeit für die Visualisierung der epidat Daten im DARIAH-DE Geo-Browser verwendet. Siehe: <a href="http://steinheim-institut.de/cgi-bin/epidat?info=e4d">http://steinheim-institut.de/cgi-bin/epidat?info=e4d</a>
-    </p>
-    
-    <p>
-    C. EpiDoc – Epigraphic Documents in TEI XML
-Jeder einzelne epigraphische Datensatz der epigraphischen Datenbank wird auch im EpiDoc Format bereitgestellt. EpiDoc ist ein XML-Standard für epigraphische Daten. 
-    </p>
-    
-    <p>
-      <a href="http://steinheim-institut.de/cgi-bin/epidat">Zusatzinformationen</a>
-    </p>
-
-<p>
-Jeder Datensatz der epigraphischen Datenbank epidat hat eine eindeutige ID und kann per URL abgerufen werden. Die ID setzt sich aus bis zu drei Teilen – verbunden durch Bindestrich – zusammen:
-1. Eine obligatorische dreistellige Bestands-ID („hha“),
-2. eine obligatorische ein- bis vierstellige bestandsbezogene nummerische ID („3361“).
-3. Fakultativ ist die Angabe zum Format:
-„teip5“ bzw „t“ für EpiDoc TEI XML für epigraphische Dokumente; 
-„txt“ – für plain-text
-wenn an dieser Stelle keine Angabe gemacht ist, dann wird html ausgegeben.
-</p>
-
-<p>
-Beispiel: <a href="http://steinheim-institut.de/cgi-bin/epidat?id=hha-3361-teip5">http://steinheim-institut.de/cgi-bin/epidat?id=hha-3361-teip5</a> 
-</p>
-
-<p>
-Zur Syntax siehe auch die Übersichtsseite <a href="http://www.steinheim-institut.de/cgi-bin/epidat?info=howtoharvest">„How to harvest epidat records“</a>
-</p>
-
-<p>
-Eine Einführung in historische jüdische Friedhöfe und Grabsteinepigraphik gibt <a href="http://www.steinheim-institut.de/cgi-bin/epidat?info=epi">Spurensuche</a> – Jüdische Friedhöfe in Deutschland
-</p>
-
-  </div>
-  </div>
-  </div>
-  
-</div>
-  <div id="textgrids-digitale-bibliothek" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>TextGrid’s Digitale Bibliothek </h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-  <div class="thumbnail">
-    <img src="{{ site.baseurl }}img/daten/dariah_verne.jpeg" alt="Verne"/>
-  </div>
-  
-<p>
-  Bei der <a href="https://www.textgrid.de/ueber-textgrid/digitale-bibliothek/">Digitalen Bibliothek</a> handelt es sich um eine umfangreiche Sammlung von Texten vom Anfang des Buchdrucks bis zu den ersten Jahrzehnten des 20. Jahrhunderts in digitaler Form. Insgesamt stehen 1267 Texte aus 10 Sachgebieten als Volltexte im Format XML nach den Standards der Text Encoding Iniative zur Verfügung. Metadaten können aus dem <teiHeader> und mittels einer OAI-PMH-Schnittstelle aus dem Repository extrahiert werden. Das Zusammenspiel von Text und homogener Encodierung ermöglicht vielfältige Analysen.
-</p>
-    <p>
-    Mittels unserer OAI-PMH Schnittstelle können zunächst die Metadaten aus dem TextGrid Repository abegholt werden. Zum     Beispiel: <a href="http://textgrid-esx2.gwdg.de/1.0/tgoaipmh/oai?verb=GetRecord&identifier=wr71.0&metadataPrefix=oai_dc">http://textgrid-esx2.gwdg.de/1.0/tgoaipmh/oai?verb=GetRecord&identifier=wr71.0&metadataPrefix=oai_dc</a>
-  
-    In einem der Relations-Felder ist eine URL hinterlegt, welcher direkt zum TEI-Objekt.
-    In diesem Fall also: <a href="http://textgrid-esx1.gwdg.de/1.0/aggregator/teicorpus/textgrid:wr71.0">http://textgrid-esx1.gwdg.de/1.0/aggregator/teicorpus/textgrid:wr71.0</a>
-    </p>
-  <dl>
-    <dt>
-      Namensnennung
-    </dt>
-    <dd>
-      TextGrid
-    </dd>
-    <dt>Lizenz</dt>
-    <dd>CC-BY Version 3.0, <a href="http://creativecommons.org/licenses/by/3.0/de/">Details</a></dd>
-    <dt>Förderhinweis</dt>
-    <dd>Die vorliegende Textsammlung wurde im Rahmen des Forschungsprojekts TextGrid (www.textgrid.de, Förderkennzeichen: 01UG1203A) mit Mitteln des BMBF (Bundesministerium für Bildung und Forschung) erworben. Wir bitten im Falle der Nachnutzung des Datenbestandes diesen Förderhinweis den Daten beizulegen.</dd>
-    <dt>Dateityp</dt>
-    <dd>Volltexte: XML</dd>
-  </dl>
-  
-  </div>
-  </div>
-  </div>
-
-  <div id="zentral-und-landesbibliothek-berlin" class="mini-interlude">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h3>Zentral- und Landesbibliothek Berlin</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-  <h4>Adressbucheinträge des Jüdischen Adressbuchs von Groß-Berlin von 1931</h4>
-
-  <div class="thumbnail">
-    <img src="{{ site.baseurl }}img/daten/zlb_juedisches_adressbuch.jpg" alt="Adressbucheinträge des Jüdischen Adressbuchs von Groß-Berlin von 1931"/>
-  </div>
-
-  <p>
-    72,231 aufbereitete Adressbucheinträge des <a href="http://digital.zlb.de/viewer/resolver?urn=urn:nbn:de:kobv:109-1-2414794">Jüdischen Adressbuchs von Groß-Berlin von 1931</a>, mit  Informationen zu Familienname, Vorname, Beruf, Straße, Bezirk und Informationen zu Untermiete u.ä. Für diese im Rahmen des Projekts <a href="http://www.stolperstadt.org">www.stolperstadt.org</a> von Rod Miller erstellten Daten ergeben sich vielfältige Nutzungsmöglichkeiten, von einer attraktiven webbasierten Rechercheoberfläche bis hin zur Anreicherung mit Geo- und Normdaten.
-  </p>
-
-  <dl>
-    <dt>
-      Namensnennung
-    </dt>
-    <dd>
-      Zentral- und Landesbibliothek Berlin
-    </dd>
-    <dt>Lizenz</dt>
-    <dd>CC-BY-SA</dd>
-    <dt>Dateityp</dt>
-    <dd>CSV</dd>
-    <dt>Metadaten</dt>
-    <dd>
-      <a href="https://offenedaten.de/dataset/adressbuchdaten-des-judischen-adressbuchs-fur-grob-berlin-von-1931">
-        https://offenedaten.de/dataset/adressbuchdaten-des-judischen-adressbuchs-fur-grob-berlin-von-1931
-      </a>
-    </dd>
-  </dl>
-
-  <h4>Berliner Adressbuchdaten (1799-1943)</h4>
-
-  <div class="thumbnail">
-    <img src="{{ site.baseurl }}img/daten/zlb_adressbuecher.jpg" alt="Berliner Adressbuchdaten (1799-1943)"/>
-  </div>
-
-  <p>
-    Eine Datenauswahl der <a href="http://www.zlb.de/besondere-angebote/berliner-adressbuecher.html">Berliner Adressbücher</a>: reichhaltige Struktur- und Metadaten der Adressbücher sowie die mit maschineller OCR erkannten Volltexte dienen als Grundlage für die Verbesserung der Zugänglichkeit dieser Ressource.
-  </p>
-  <dl>
-    <dt>
-      Namensnennung
-    </dt>
-    <dd>
-      Zentral- und Landesbibliothek Berlin
-    </dd>
-    <dt>Lizenz</dt>
-    <dd>CC-BY-SA</dd>
-    <dt>Dateityp</dt>
-    <dd>XML</dd>
-  </dl>
-
-  <h4>Daten des NS-Raubgut-Projekts der ZLB</h4>
-
-  <div class="thumbnail">
-    <img src="{{ site.baseurl }}img/daten/zlb_raubgut.jpg" alt="Daten des NS-Raubgut-Projekts der ZLB"/>
-  </div>
-
-  <p>
-    Das <a href="http://raubgut.zlb.de/">NS-Raubgut-Projekt</a> der ZLB recherchiert nach Büchern, die ihren rechtmäßigen Eigentümern während der NS-Herrschaft zwischen 1933 und 1945 entzogen wurden, und versucht deren Herkunft zum ermitteln, um diese an die Eigentümer oder deren Erben zurückzugeben.
-  </p>
-  <p>
-    Die Datensätze enthalten Informationen zu den als Raubgut erkannten Büchern, d.h. neben den bibliographischen Informationen und Fotografien Informationen zu den ermittelten Besitzern und den Wegen der Bücher, d.h. den Stationen, über die diese von den rechtmäßigen Eigentümern - oftmals über NS-Behörden und Bergungsstellen - in die ZLB gelangt sind. Mit den Daten sollen beispielhaft die Wege von NS-Raubgut sichtbar gemacht werden, das in die Bestände deutscher Bibliotheken gelangt ist.
-  </p>
-  <dl>
-    <dt>
-      Namensnennung
-    </dt>
-    <dd>
-      Zentral- und Landesbibliothek Berlin
-    </dd>
-    <dt>Lizenz</dt>
-    <dd>CC-BY-SA</dd>
-    <dt>Dateityp</dt>
-    <dd>CSV</dd>
-    <dt>Metadaten</dt>
-    <dd>
-      <a href="https://offenedaten.de/dataset/ns-raubgut-aus-den-bestanden-der-zentral-und-landesbibliothek-berlin">
-        https://offenedaten.de/dataset/ns-raubgut-aus-den-bestanden-der-zentral-und-landesbibliothek-berlin
-      </a>
-  </dl>
-
-  </div>
-</div>
+-->
