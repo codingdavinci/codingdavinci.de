@@ -16,9 +16,9 @@ $(document).ready(function () {
 	function buildEntryList() {
 
 		var entries = all_entries.filter(function (entry) {
-			if ((filter.category != null) && (entry.categories.indexOf(filter.category) < 0)) return false;
-			if ((filter.type != null) && (entry.types.indexOf(filter.type) < 0)) return false;
-			if ((filter.license != null) && (entry.licenses.indexOf(filter.license) < 0)) return false;
+			if ((filter.categories != null) && (entry.categories.indexOf(filter.categories) < 0)) return false;
+			if ((filter.types != null) && (entry.types.indexOf(filter.types) < 0)) return false;
+			if ((filter.licenses != null) && (entry.licenses.indexOf(filter.licenses) < 0)) return false;
 			return true;
 		});
 
@@ -26,6 +26,9 @@ $(document).ready(function () {
 		var htm = entries.map(function (entry) {
 			return '<li><a href="#' + entry.id + '" value="' + entry.id + '">' + entry.name + '</a></li>';
 		}).join('');
+		if (entries.length == 0) {
+			htm = '<li><span>Keine Einträge mit diesen Filterkriterien</span></li>'
+		}
 		$(".nav-entries").html(htm);
 		$(".nav-entries a").click(function (e) {
 			var id = $(e.currentTarget).attr('value');
@@ -69,7 +72,7 @@ $(document).ready(function () {
 		});
 	}
 
-	function fillFilter(prop, mode, labeltype) {
+	function fillFilter(mode, labeltype) {
 		//collect categories
 		var list = [];
 		all_entries.forEach(function (entry) {
@@ -88,7 +91,7 @@ $(document).ready(function () {
 		$(".nav-filter-" + mode).html('<a href value="all" class="active">Alle</a> – ' + htm);
 		$(".nav-filter-" + mode + " a").click(function (e) {
 			var val = $(e.currentTarget).attr('value');
-			filter[prop] = val == 'all' ? null : val;
+			filter[mode] = val == 'all' ? null : val;
 			buildEntryList();
 			$(".nav-filter-" + mode + " a").removeClass('active');
 			$(".nav-filter-" + mode + " a[value='" + val + "']").addClass('active');
@@ -98,13 +101,27 @@ $(document).ready(function () {
 	}
 
 	collectEntries();
-	fillFilter('category', 'categories', 'default');
-	fillFilter('type', 'types', 'danger');
-	fillFilter('license', 'licenses', 'info');
+	fillFilter('categories', 'default');
+	fillFilter('types', 'danger');
+	fillFilter('licenses', 'info');
 	buildEntryList();
 
 	//show start
 	$('#start').removeClass('hidden');
+
+	$(".nav-filter-toggle").click(function (e) {
+		var el = $(e.currentTarget);
+		var mode = el.attr('data-filter');
+		if (!el.hasClass('hidden')) {
+			filter[mode] = null;
+			$(".nav-filter-" + mode + " a").removeClass('active');
+			buildEntryList();
+		}
+		el.toggleClass('dropup');
+		el.next().toggleClass('hidden');
+		e.stopPropagation();
+		return false;
+	});
 
 	//go to top - link
 	$(".navigation-gotop").click(function (e) {
