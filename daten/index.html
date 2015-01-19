@@ -8,63 +8,6 @@ js: daten.js
 	<h2>Daten</h2>
 </header>
 
-
-
-{% for entry in site.publisheddata %}
-<h2>{{entry.path}}</h2>
-<li>
-
-	<div class="data-entry1" id="{{ entry.id }}">
-		<div class="data-interlude">
-			<h3>{{entry.name}}</h3>
-		</div>
-		<div class="data-point">
-			<div class="data-media">
-				<div class="thumbnail">
-					<img src="{{ site.baseurl }}img/daten/ostberliner_fotoarchiv.jpg" alt="Ostberliner Fotoarchiv"/>
-				</div>
-			</div>
-			<div class="data-content">
-				<p>
-					Das Fotoarchiv der ehemaligen Ostberliner Magistratsverwaltung für Stadtentwicklung, Wohnen und Verkehr besteht aus Schwarzweiß-Kontaktfotografien von Originalnegativen. Nach Bezirken, Bauaufgaben und Themen gegliedert, wurde hier die Baugeschichte Ostberlins festgehalten. Der Bestand gilt heute als umfassendstes Dokument der dortigen Architektur- und Stadtentwicklung.
-				</p>
-
-				<p>
-					Bereitgestellt werden 200 Archivumschläge und Karteikarten mit Kontaktkopien der Originalnegative von Gisela Dutschmann, 1962–75, Silbergelatine auf Archivumschlag, je 18,5 x 24,6 cm sowie Silbergelatine auf Karteikarte, je 18,5 x 24,6 cm oder 21 x 29,7 cm.<br/>
-					Für <strong>Coding da Vinci</strong> hat die <a href="http://www.berlinischegalerie.de/">Berlinische Galerie</a> einen Teil von 200 Archivumschlägen und Karteikarten aus dem umfangreichen Gesamtbestand des <a href="http://www.berlinischegalerie.de/sammlung/architektur/der-sammlungsbereich/archive/ostberliner-fotoarchiv/">Ostberliner Fotoarchivs</a> ausgewählt. Es handelt sich hierbei um Aufnahmen von Bauprojekten am Alexanderplatz, entlang der Karl-Marx-Allee, Unter den Linden und auf der Fischerinsel aus der Zeit von Oktober 1962 bis Juni 1975.
-				</p>
-			</div>
-			<div class="data-meta">
-				<dl>
-					<dt>Namensnennung</dt>
-					<dd>Gisela Dutschmann, Berlinische Galerie</dd>
-					<dt>Kategorien</dt>
-					<dd class="data-category">
-						<span class="label label-default">Kategorie 1</span>
-						<span class="label label-default">Kategorie 2</span>
-					</dd>
-					<dt>Lizenz</dt>
-					<dd class="data-license">
-						<span class="label label-danger">CC-BY</span>
-					</dd>
-					<dt>Dateityp</dt>
-					<dd class="data-type">
-						<span class="label label-info">XLS</span>
-						<span class="label label-info">JPEG</span>
-					</dd>
-					<dt>Links</dt>
-					<dd>
-						<a href="https://offenedaten.de/dataset/fotoarchiv-ehemaligen-ostberliner-magistratsverwaltung-fur-stadtentwicklung">Metadaten</a><br/>
-						<a href="https://www.flickr.com/photos/okfde/sets/72157643263439724/">Fotos</a>
-					</dd>
-				</dl>
-			</div>
-		</div>
-	</div>
-
-</li>
-{% endfor %}
-
 <div class="row">
 	<div class="col-lg-3 col-md-4 col-md-offset-1">
 		<div class="nav-head">Datenauswahl</div>
@@ -100,7 +43,6 @@ js: daten.js
 
 			<p>Wähle Daten in der Auswahl oder <a href class="navigation-all">zeige alle Daten an</a></p>
 		</div>
-
 
 		<div class="data-entry" id="berlinische-galerie">
 			<div class="data-interlude">
@@ -1203,5 +1145,46 @@ js: daten.js
 </div>
 
 <!--
+
+		<div class="data-entry" id="[eindeutige-id-ohne-leerzeichen]">
+			<div class="data-interlude">
+				<h3>[Name]</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/[dateiname des bildes]" alt="[Bildbeschreibung]"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<p>
+						[Beschreibung]
+					</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>[Datenurheberschaft]</dd>
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">[Kategorie]</span>
+						</dd>
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">[Lizenz]</span>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">[Dateityp]</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="[url]">Metadaten</a><br/>
+							<a href="[url]">Fotos</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
 
 -->
