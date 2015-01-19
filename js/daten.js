@@ -73,7 +73,7 @@ $(document).ready(function () {
 	}
 
 	function fillFilter(mode, labeltype) {
-		//collect categories
+		//collect filter properties
 		var list = [];
 		all_entries.forEach(function (entry) {
 			entry[mode].forEach(function (cat) {
@@ -88,13 +88,19 @@ $(document).ready(function () {
 		var htm = list.map(function (entry) {
 			return '<a href value="' + entry + '" class="label label-' + labeltype + '">' + entry + '</a>';
 		}).join(' – ');
-		$(".nav-filter-" + mode).html('<a href value="all" class="active">Alle</a> – ' + htm);
+		$(".nav-filter-" + mode).html(htm);
+		//toggle filter properties
 		$(".nav-filter-" + mode + " a").click(function (e) {
 			var val = $(e.currentTarget).attr('value');
-			filter[mode] = val == 'all' ? null : val;
-			buildEntryList();
+			if ($(e.currentTarget).hasClass('active')) {
+				val = null;
+			}
 			$(".nav-filter-" + mode + " a").removeClass('active');
-			$(".nav-filter-" + mode + " a[value='" + val + "']").addClass('active');
+			filter[mode] = val;
+			if (val) {
+				$(e.currentTarget).addClass('active');
+			}
+			buildEntryList();
 			e.stopPropagation();
 			return false;
 		});
@@ -109,6 +115,7 @@ $(document).ready(function () {
 	//show start
 	$('#start').removeClass('hidden');
 
+	//expand/collapse filtersection
 	$(".nav-filter-toggle").click(function (e) {
 		var el = $(e.currentTarget);
 		var mode = el.attr('data-filter');
