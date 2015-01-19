@@ -140,8 +140,10 @@
     <script src="{{ site.baseurl }}js/jquery-1.11.0.min.js"></script>
     <script src="{{ site.baseurl }}js/bootstrap.min.js"></script>
     <script src="{{ site.baseurl }}js/codingdavinci.js"></script>
-
-    <!-- Piwik -->
+    {% if page.js %}
+    <script src="{{ site.baseurl }}js/{{page.js}}"></script>
+    {% endif %}
+    <!-- Piwik
     <script type="text/javascript">
       var _paq = _paq || [];
       _paq.push(["trackPageView"]);
@@ -155,7 +157,7 @@
         g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
       })();
     </script>
-    <!-- End Piwik Code -->
+     End Piwik Code -->
 
   </body>
 </html>
