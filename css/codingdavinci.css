@@ -191,7 +191,25 @@ a.scroll-hint:hover {
   padding: 0;
 }
 
+.nav-sub-container {
+	width: 100%;
+	position: relative;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.95);
+	z-index: 1000;
+	padding: 0;
+}
+
 @media (min-width: 768px) {
+	.nav-sub-container {
+		top:50px;
+		width: 100%;
+		position: fixed;
+		padding: 0;
+	}
+	.nav-sub-container .nav {
+		float: right;
+	}
 
   .nav-container.affix-top {
     position: absolute;
@@ -388,7 +406,8 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 .interlude {
-  margin: 3em 0;
+  margin-left: 15px;
+  margin-right: 15px;
   padding: 1.5em 0;
   background-color: #C4F3E6;
 }
