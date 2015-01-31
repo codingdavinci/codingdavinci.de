@@ -910,7 +910,7 @@ height: 100%;
 }
 
 .nav-filter {
-  font-size: 12px;
+  font-size: 15px;
   border-bottom: 1px solid #563d7c;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -929,10 +929,12 @@ height: 100%;
 
 .nav-filter a.label {
   color: #fff;
+	line-height: 32px;
+	/*font-size: 14px;*/
 }
 
 .nav-filter a.active {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -951,24 +953,23 @@ height: 100%;
 .nav-entries > li > a, .nav-entries > li > span {
   color: #999;
   display: block;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   padding: 4px 20px;
 }
 
 .nav-entries > li > a:hover, #navigation-entries > li > a:focus {
   background-color: transparent;
-  border-left: 1px solid #563d7c;
-  color: #563d7c;
+  border-left: 1px solid #17B564;
+  color: #17B564;
   padding-left: 19px;
   text-decoration: none;
 }
 
 .nav-entries > .active > a, #navigation-entries > .active:hover > a, #navigation-entries > .active:focus > a {
   background-color: transparent;
-  border-left: 2px solid #563d7c;
-  color: #563d7c;
-  font-weight: 700;
+  border-left: 2px solid #17B564;
+  color: #17B564;
   padding-left: 18px;
 }
 
