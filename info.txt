@@ -1,0 +1,11 @@
+1. Terminal öffnen
+
+2. dann in projektordner wechseln mit
+cd Documents/codingdavinci.de/
+
+3. jekyll starten mit
+jekyll serve
+
+4. browser öffnen unter
+http://127.0.0.1:4000/
+
