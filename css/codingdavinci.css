@@ -271,11 +271,11 @@ li.active .navsub li a{
 }
 
 
-.navbar-davinci .navbar-nav li.active a {
+.navbar-davinci .navbar-nav li.active a:active {
   color: #00be7b;
 }
 
-.navbar-davinci .navbar-nav-sub li.active a {
+.navbar-davinci .navbar-nav li.active a > .navsub {
   color: #000;
 }
 
