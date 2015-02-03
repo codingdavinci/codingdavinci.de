@@ -3,98 +3,19 @@ layout: default
 slug: projekte
 ---
 
-<div class="container">
-
-  
-  <header id="gewinner-projekte" class="subheader">
-    <h2>Gewinner 2014</h2>
+<div class="container" id="projekte">
+  <header class="subheader subheader-uhr">
+    <h2>Projekte</h2>
   </header>
-  {% for project in site.data.projects_winners %}
-    {% assign even = forloop.index0|modulo:2 %}
-    {% if even == 0 %}
-      <div class="row challenge-box equal">
-    {% endif %}
-      <div class="col-lg-6 col-md-6">
-        <h3>{{ project.name }}</h3>
-        <div class="box">
-          {% if project.image != "" %}
-            <img src="{{ project.image }}" alt="{{ project.name }}" class="img-responsive center-block">
-          {% endif %}
-          <p>
-           {{ project.description }}
-          </p>
-          <p>
-            <strong>Zu finden auf:</strong><br/>
-            {{ project.links }}
-          </p>
-          <p>
-          <strong>Datengrundlage:</strong><br/>
-            {{ project.data }}
-          </p>
-          <p>
-            <strong>Team:</strong><br/>
-            {{ project.team }}
-          </p>
-        </div>
 
-
-      </div>
-    {% if even == 1 %}
-      </div>
-    {% endif %}
-  {% endfor %}
-  {% assign even_projects = site.data.projects_april | size | module:2 %}
-  {% if event_projects == 1 %}
-    </div>
-  {% endif %}
-</div>
-<div class="container">
-  <header id="projekte" class="subheader">
-    <h2>Alle Projekte 2014</h2>
-  </header>
 
   <div class="row">
-    <div class="col-lg-12">
-      <p>
-        Im Rahmen von <strong>Coding da Vinci</strong> wurden 26 Projekte für die Öffentlichkeit und den Kulturbereich skizziert, davon 17 in 10 Wochen in Zusammmenarbeit zwischen den beteiligten Kulturinstitutionen und den Teilnehmer/innen weiterentwickelt und auf der Preisverleihung am 06. Juli 2014 präsentiert.
-      </p>
-      <p>
-        Auf dieser Seite stellen wir alle Projekte und Teams, die bei <strong>Coding da Vinci</strong> teilgenommen haben, vor.
-      </p>
+    <div class="col-lg-8 col-lg-offset-2">
+      <br><br>
+
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</br></br></p>
+      <a href="{{ site.baseurl }}gewinner/">Gewinner</a>
     </div>
   </div>
 
-  {% for project in site.data.projects %}
-    {% assign even = forloop.index0|modulo:2 %}
-    {% if even == 0 %}
-  <div class="row challenge-box equal">
-    {% endif %}
-    <div class="col-lg-6 col-md-6">
-      <h3>{{ project.name }}</h3>
-        <div class="box">
-          {% if project.image != "" %}
-             <img src="{{ project.image }}" alt="{{ project.name }}" class="img-responsive center-block">
-          {% endif %}
-          <p>
-           {{ project.description }}
-          </p>
-          <p>
-            <strong>Zu finden auf:</strong><br/>
-            {{ project.links }}
-          </p>
-          <p>
-          <strong>Datengrundlage:</strong><br/>
-            {{ project.data }}
-          </p>
-          <p>
-            <strong>Team:</strong><br/>
-            {{ project.team }}
-          </p>
-        </div>
-      </div>
-    {% if even == 1 %}
-    </div>
-    {% endif %}
-  {% endfor %}
-  </div>
 </div>
