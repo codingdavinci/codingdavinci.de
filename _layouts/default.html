@@ -40,7 +40,7 @@
     <meta name="author" content="Open Knowledge Foundation Deutschland (OKF De)">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar-page">
     {% if page.header %}
     <header class="header">
       <div class="tiles">
@@ -57,7 +57,7 @@
         </div>
 
         <a class="main-signup" href="{{ site.baseurl }}presse/">
-          Zu den Ergebnissen
+          Jetzt anmelden!
         </a>
 
         <a class="smooth-scroll scroll-hint" href="#inhalt">&#9660; &#9660; &#9660; &#9660;</a>
@@ -74,61 +74,67 @@
         </div>
 
         <ul class="nav navbar-nav navbar-right">
-          <li class="separator {% if page.slug == "info" %}active{% endif %}">
-            <a href="{{ site.baseurl }}info/">Info</a>
-          </li>
-          <li class="separator {% if page.slug == "daten" %}active{% endif %}">
-            <a href="{{ site.baseurl }}daten/">Daten</a>
-          </li>
-          <li class="separator {% if page.slug == "programm" %}active{% endif %}">
-            <a href="{{ site.baseurl }}programm/">Programm</a>
-          </li>
-          <li class="separator {% if page.slug == "projekte" %}active{% endif %}">
-            <a href="{{ site.baseurl }}projekte/">Projekte</a>
-          </li>
-          <li class="separator {% if page.slug == "dokumentation" %}active{% endif %}">
-            <a href="{{ site.baseurl }}dokumentation/">Dokumentation</a>
-          </li>
-          <li class="separator {% if page.slug == "partner" %}active{% endif %}">
-            <a href="{{ site.baseurl }}partner/">Partner</a>
-          </li>
-          <li class="separator {% if page.slug == "presse" %}active{% endif %}">
-            <a href="{{ site.baseurl }}presse/">Presse</a>
-          </li>
-          <li class="{% if page.slug == "faq" %}active{% endif %}">
-            <a href="{{ site.baseurl }}faq/">FAQ</a>
-          </li>
-          <li class="image-menu-link">
-            <a class="twitter" href="https://twitter.com/codingdavinci">
-              <span class="sr-only">Twitter</span>
-            </a>
-          </li>
+            <li class="separator {% if page.slug == "mitmachen" %}active{% endif %}">
+              <a href="{{ site.baseurl }}mitmachen/">Mitmachen!</a>
+              <ul class="nav navbar-nav">
+                <li><a class="{% if page.slug == "mitmachen" %}scroll-offset{% endif %}" href="{{ site.baseurl }}mitmachen/#kulturinstitution">Kulturinstitution</a></li>
+                <li><a class="{% if page.slug == "mitmachen" %}scroll-offset{% endif %}" href="{{ site.baseurl }}mitmachen/#teilnehmer">Teilnehmer/innen</a></li>
+                <li><a class="{% if page.slug == "mitmachen" %}scroll-offset{% endif %}" href="{{ site.baseurl }}mitmachen/#challenges">Challenges</a></li>
         </ul>
+            </li>
+            <li class="separator {% if page.slug == "daten" %}active{% endif %}">
+              <a href="{{ site.baseurl }}daten/">Daten</a>
+            </li>
+            <li class="separator {% if page.slug == "programm" %}active{% endif %}">
+              <a href="{{ site.baseurl }}programm/">Programm</a>
+            </li>
+            <li class="separator {% if page.slug == "projekte" %}active{% endif %}">
+              <a href="{{ site.baseurl }}projekte/">Projekte</a>
+            </li>
+            <li class="separator {% if page.slug == "unterstuetzer" %}active{% endif %}">
+              <a href="{{ site.baseurl }}unterstuetzer/">Unterstützer</a>
+            </li>
+            <li class="separator {% if page.slug == "presse" %}active{% endif %}">
+              <a href="{{ site.baseurl }}presse/">Presse</a>
+            </li>
+            <li class="separator {% if page.slug == "dokumentation" %}active{% endif %}">
+              <a href="{{ site.baseurl }}dokumentation/">Dokumentation</a>
+            </li>
+            <li class="image-menu-link">
+              <a class="twitter" href="https://twitter.com/codingdavinci">
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+          </ul>
       </nav>
     </div>
-    <div class="container">
 
       {{ content }}
 
-    </div>
     <footer id="impressum" class="footer">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-5 col-sm-6 col-lg-push-6 col-md-push-7 col-sm-push-6 logos">
             <h5>Ein Projekt von</h5>
             <img src="{{ site.baseurl }}img/logos/ddb.png" alt="Deutsche Digitale Bibliothek" class="img-responsive"/>
-            <img src="{{ site.baseurl }}img/logos/digis.png" alt="Digis Servicestelle Digitalisierung" class="img-responsive"/>
             <img src="{{ site.baseurl }}img/logos/okfn.png" alt="Open Knowledge Foundation Deutschland" class="img-responsive"/>
+            <img src="{{ site.baseurl }}img/logos/digis.png" alt="Digis Servicestelle Digitalisierung" class="img-responsive"/>
             <img src="{{ site.baseurl }}img/logos/wikimedia.png" alt="Wikimedia Deutschland" class="img-responsive"/>
           </div>
           <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6 col-lg-pull-4 col-md-pull-5 col-sm-pull-6">
             <h5><a href="{{ site.baseurl }}kontakt/">Kontakt</a></h5>
+            <p>
+            Helene Hahn</br>
+            Projektleiterin Coding da Vinci</br>
+            Mail: helene.hahn AT okfn.org</br>
+            Tel: +49 30 57703666 2
+            </p>
             <h5><a href="http://www.okfn.de/impressum/">Impressum</a></h5>
             <p>
               Open Knowledge Foundation Deutschland e.V.<br/>
               Singerstr. 109, 10179 Berlin<br/>
               www.okfn.de<br/>
-              info@okfn.de<br/>
+              info AT okfn.de<br/>
               Tel: +49 30 57703666 2<br/>
               Fax: +49 30 57703666 9
             </p>
@@ -151,8 +157,10 @@
     <script src="{{ site.baseurl }}js/jquery-1.11.0.min.js"></script>
     <script src="{{ site.baseurl }}js/bootstrap.min.js"></script>
     <script src="{{ site.baseurl }}js/codingdavinci.js"></script>
-
-    <!-- Piwik -->
+    {% if page.js %}
+    <script src="{{ site.baseurl }}js/{{page.js}}"></script>
+    {% endif %}
+    <!-- Piwik
     <script type="text/javascript">
       var _paq = _paq || [];
       _paq.push(["trackPageView"]);
@@ -166,7 +174,7 @@
         g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
       })();
     </script>
-    <!-- End Piwik Code -->
+     End Piwik Code -->
 
   </body>
 </html>
