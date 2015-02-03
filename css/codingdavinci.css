@@ -192,24 +192,24 @@ a.scroll-hint:hover {
 }
 
 .nav-sub-container {
-	width: 100%;
-	position: relative;
-	background-color: #fff;
-	background-color: rgba(255, 255, 255, 0.95);
-	z-index: 1000;
-	padding: 0;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 1000;
+    padding: 0;
 }
 
 @media (min-width: 768px) {
-	.nav-sub-container {
-		top:50px;
-		width: 100%;
-		position: fixed;
-		padding: 0;
-	}
-	.nav-sub-container .nav {
-		float: right;
-	}
+    .nav-sub-container {
+        top:50px;
+        width: 100%;
+        position: fixed;
+        padding: 0;
+    }
+    .nav-sub-container .nav {
+        float: right;
+    }
 
   .nav-container.affix-top {
     position: absolute;
@@ -226,7 +226,21 @@ a.scroll-hint:hover {
   .nav-container.affix-bottom {
     position: absolute
   }
+}
 
+nav ul li:hover > ul {
+    visibility: visible;
+}
+
+nav ul li ul{
+    visibility: hidden;
+    position: absolute;
+    background-color: #FFF;
+    z-index: 200;
+}
+
+li.active .navsub li a{
+  color: #FFF;
 }
 
 .navbar-davinci {
@@ -256,15 +270,20 @@ a.scroll-hint:hover {
   margin: 0.5em 0;
 }
 
+
+.navbar-davinci .navbar-nav li.active a {
+  color: #00be7b;
+}
+
+.navbar-davinci .navbar-nav-sub li.active a {
+  color: #000;
+}
+
 .navbar-davinci .navbar-nav li a {
   color: #000;
   display: inline;
   font-size: 12pt;
   padding: 15px 5px;
-}
-
-.navbar-davinci .navbar-nav li.active a {
-  color: #00be7b;
 }
 
 .navbar-davinci .navbar-nav li a.text-hide,
@@ -948,8 +967,8 @@ height: 100%;
 
 .nav-filter a.label {
   color: #fff;
-	line-height: 32px;
-	/*font-size: 14px;*/
+    line-height: 32px;
+    /*font-size: 14px;*/
 }
 
 .nav-filter a.active {
@@ -1026,4 +1045,3 @@ height: 100%;
 .data-meta dt {
   margin-top: 0.6em;
 }
-
