@@ -229,6 +229,11 @@ a.scroll-hint:hover {
   }
 }
 
+.widget-text {
+  float: right;
+  width: 70%;
+}
+
 nav ul li:hover > ul {
     visibility: visible;
 }
