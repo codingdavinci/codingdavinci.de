@@ -24,6 +24,10 @@
   }
 }
 
+.widget{
+  max-width: 90%;
+}
+
 .thumbnail {
   border: 0px;
 }
@@ -234,7 +238,7 @@ a.scroll-hint:hover {
   width: 70%;
 }
 
-nav ul li:hover > ul {
+nav ul .submenuShown > ul {
     visibility: visible;
 }
 
@@ -312,6 +316,7 @@ li.active .navsub li a{
   }
   .navbar-davinci .navbar-nav {
     text-align: center;
+    margin: 0 10px 0 0;
   }
   .navbar-davinci .navbar-brand {
     float: none;

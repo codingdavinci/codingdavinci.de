@@ -1,4 +1,43 @@
 /* globals $: false */
+;(function( $, window, document, undefined )
+{
+  $.fn.doubleTapToGo = function( params )
+  {
+    if( !( 'ontouchstart' in window ) &&
+      !navigator.msMaxTouchPoints &&
+      !navigator.userAgent.toLowerCase().match( /windows phone os 7/i ) ) return false;
+
+    this.each( function()
+    {
+      var curItem = false;
+
+      $( this ).on( 'click', function( e )
+      {
+        var item = $( this );
+        if( item[ 0 ] != curItem[ 0 ] )
+        {
+          e.preventDefault();
+          curItem = item;
+        }
+      });
+
+      $( document ).on( 'click touchstart MSPointerDown', function( e )
+      {
+        var resetItem = true,
+          parents   = $( e.target ).parents();
+
+        for( var i = 0; i < parents.length; i++ )
+          if( parents[ i ] == curItem[ 0 ] )
+            resetItem = false;
+
+        if( resetItem )
+          curItem = false;
+      });
+    });
+    return this;
+  };
+})( jQuery, window, document );
+
 (function(){
   'use strict';
 
@@ -22,12 +61,26 @@
       bottom: $('.footer').height()
     }
   });
-  $(document).on('touchstart', '.header-tile', function(){
+
+  $(document).on('touchstart', '.header-tile', function(event){
     $(this).addClass('hover');
   });
   $(document).on('touchend', '.header-tile', function(){
     $(this).removeClass('hover');
   });
+
+  //Show and hide submenu
+  $(document).on('touchstart, click', '.nav li.touchable', function(event) {
+    //event.preventDefault();
+    if ($(event.target).closest('.touchable').hasClass('submenuShown')) {
+      $(event.target).closest('.touchable').removeClass('submenuShown');
+    }
+    else {
+      $(event.target).closest('.touchable').addClass('submenuShown');
+      event.preventDefault();
+     }
+  });
+
   $('.main-signup').on('touchstart mouseover', function(){
     $('.header-tile').addClass('hover');
   }).on('touchend mouseout', function(){
