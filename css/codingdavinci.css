@@ -230,11 +230,10 @@ a.scroll-hint:hover {
   .nav-container.affix-bottom {
     position: absolute
   }
-}
-
-.widget-text {
-  float: right;
-  width: 70%;
+  .widget-text {
+    float: right;
+    width: 70%;
+  }
 }
 
 nav ul .submenuShown > ul {
