@@ -81,6 +81,11 @@
      }
   });
 
+  //TODO: proper implementation with loose focus
+  $('.container').click(function(event) {
+    $('.touchable').removeClass('submenuShown');
+  });
+
   $('.main-signup').on('touchstart mouseover', function(){
     $('.header-tile').addClass('hover');
   }).on('touchend mouseout', function(){
