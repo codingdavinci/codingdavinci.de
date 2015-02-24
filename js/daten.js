@@ -4,7 +4,8 @@ $(document).ready(function () {
 	var filter = {
 		category: null,
 		type: null,
-		license: null
+		license: null,
+		year: null
 	};
 	var all_entries = [];
 
@@ -19,6 +20,8 @@ $(document).ready(function () {
 			if ((filter.categories != null) && (entry.categories.indexOf(filter.categories) < 0)) return false;
 			if ((filter.types != null) && (entry.types.indexOf(filter.types) < 0)) return false;
 			if ((filter.licenses != null) && (entry.licenses.indexOf(filter.licenses) < 0)) return false;
+			if ((filter.years != null) && (entry.years.indexOf(filter.years) < 0)) return false;
+
 			return true;
 		});
 
@@ -51,7 +54,8 @@ $(document).ready(function () {
 				name: $('.data-interlude h3', e).text(),
 				categories: [],
 				licenses: [],
-				types: []
+				types: [],
+				years: []
 			};
 			$('.data-category .label', e).each(function (i, e) {
 				entry.categories.push($(e).text());
@@ -61,6 +65,9 @@ $(document).ready(function () {
 			});
 			$('.data-license .label', e).each(function (i, e) {
 				entry.licenses.push($(e).text());
+			});
+			$('.data-year .label', e).each(function (i, e) {
+				entry.years.push($(e).text());
 			});
 			if (entry.id !== 'start')
 				all_entries.push(entry);
@@ -110,6 +117,7 @@ $(document).ready(function () {
 	fillFilter('categories', 'default');
 	fillFilter('types', 'danger');
 	fillFilter('licenses', 'info');
+	fillFilter('years', 'warning');
 	buildEntryList();
 
 	//show start
