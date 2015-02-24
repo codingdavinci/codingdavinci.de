@@ -346,6 +346,16 @@ li.active .navsub li a{
   background-image: url('../img/twitter_icon.png');
 }
 
+.sponsor {
+  max-height: 200px;
+  max-width: 200px;
+  margin: 0 0 30px 10px;
+}
+
+.paragraph {
+  margin: 50px 0 0 0;
+}
+
 hr {
   border-top: 1px solid #333;
 }

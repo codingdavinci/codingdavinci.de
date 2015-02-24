@@ -1,0 +1,25 @@
+-
+  name: "Projekt Zukunft"
+  image: "/img/supporter/projektzukunft.png"
+  links: "<a href =\"http://www.berlin.de/projektzukunft/\">Projekt   Zukunft</a>"
+  role: 2
+-
+  name: "Berlin Online" 
+  image: "/img/supporter/berlinonline.png"
+  links: "<a href=\"http://www.berlinonline.de\">Berlin Online</a>"
+  role: 1
+-
+  name: "Startnext"
+  image: "/img/supporter/startnext.png"
+  links: "<a href=\"https://www.startnext.com\">Startnext</a>"
+  role: 2
+-
+  name: "Dariah"
+  image: "/img/supporter/dariah.png"
+  links: "<a href=\"https://de.dariah.eu\">Dariah</a>"
+  role: 1
+-
+  name: "logo FU"
+  image: "/img/supporter/fu.png"
+  links: "<a href=\"http://blog.ag-nbi.de/category/news/\">AG   Netzbasierte Informationssysteme</a><br /><a href=\"https://www.mi.fu-  berlin.de/inf/groups/hcc/\">HCC.lab</a>"
+  role: 3

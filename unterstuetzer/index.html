@@ -11,13 +11,46 @@ slug: unterstuetzer
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         
-        <p>
-         Coding da Vinci vernetzt die Kultur- und Technikwelt miteinander und setzt sich dafür ein, dass Digitalisate von Kulturinstitutionen für alle frei zugänglich und nutzbar sind. Wir wollen mit unserer Arbeit das technische Potenzial digitaler Kulturdaten entdecken.
-        </p>
-        <p>
-         Für 2015 sind wir erneut auf der Suche nach Freunden, Förderern und Partnern. Wir freuen uns auf eine Mail an <a href="mailto:helene.hahn@okfn.org">Helene Hahn, Projektleiterin Coding da Vinci</a>
-        </p>
-        
+      <p>
+        Coding da Vinci vernetzt die Kultur- und Technikwelt miteinander und setzt sich dafür ein, dass Digitalisate von Kulturinstitutionen für alle frei zugänglich und nutzbar sind. Wir wollen mit unserer Arbeit das technische Potenzial digitaler Kulturdaten entdecken.
+      </p>
+      <p>
+        Für 2015 sind wir erneut auf der Suche nach Freunden, Förderern und Partnern. Wir freuen uns auf eine Mail an <a href="mailto:helene.hahn@okfn.org">Helene Hahn, Projektleiterin Coding da Vinci</a>
+      </p>
+      <p>
+        Wir bedanken uns bei:
+      </p>
+      <p>
+        <strong>Unterstützern:</strong>
+      </p>
+      <div>
+        {% for supporter in site.data.supporter %}
+          {% if supporter.role == 1 %}
+            <img class="sponsor" src="{{ supporter.image }}" />
+          {% endif %}
+        {% endfor %}
+      </div>
+      <p>
+        <strong>Sponsoren:</strong>
+      </p>
+      <div>
+        {% for supporter in site.data.supporter %}
+          {% if supporter.role == 2 %}
+            <img class="sponsor" src="{{ supporter.image }}" />
+          {% endif %}
+        {% endfor %}
+      </div>
+      <p>
+        <strong>Hochschulpartnern:</strong>
+      </p>
+      <div>
+        {% for supporter in site.data.supporter %}
+          {% if supporter.role == 3 %}
+            <img class="sponsor" src="{{ supporter.image }}" />
+          {% endif %}
+        {% endfor %}
+      </div>
+
 <!--        
         <p>
         Die hier genannten Partner und Organisationen unterstützen Coding da Vinci zum Teil schon das zweite Jahr und setzen sich mit uns für die freie Wissensvermittlung, kulturelle Bildung und innovative Kulturprojekte ein. 
@@ -26,13 +59,9 @@ slug: unterstuetzer
           Für die ideelle und finanzielle Unterstützung möchten wir uns herzlich bedanken!
         </p>
 -->
-        <p>
-  </br>
-  </br>
-  <strong class="cdv">Coding da Vinci</strong> - Der Kultur-Hackathon ist ein Gemeinschaftsprojekt der <a href="https://www.deutsche-digitale-bibliothek.de/">Deutschen Digitalen Bibliothek</a>, der <a href="http://okfn.de/">Open Knowledge Foundation Deutschland</a>,  der <a href="http://www.servicestelle-digitalisierung.de">Servicestelle Digitalisierung Berlin</a> und <a href="http://wikimedia.de/wiki/Hauptseite">Wikimedia Deutschland</a>.
+      <p class="paragraph">
+        <strong class="cdv">Coding da Vinci</strong> - Der Kultur-Hackathon ist ein Gemeinschaftsprojekt der <a href="https://www.deutsche-digitale-bibliothek.de/">Deutschen Digitalen Bibliothek</a>, der <a href="http://okfn.de/">Open Knowledge Foundation Deutschland</a>,  der <a href="http://www.servicestelle-digitalisierung.de">Servicestelle Digitalisierung Berlin</a> und <a href="http://wikimedia.de/wiki/Hauptseite">Wikimedia Deutschland</a>.
       </p>
-
-
     </div>
   </div>
 </div>
