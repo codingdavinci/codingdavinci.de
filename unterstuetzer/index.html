@@ -23,34 +23,42 @@ slug: unterstuetzer
       <p>
         <strong>Unterstützern:</strong>
       </p>
-      <div>
+      <div class="sponsor-container">
         {% for supporter in site.data.supporter %}
           {% if supporter.role == 1 %}
-            <img class="sponsor" src="{{ supporter.image }}" />
+          <figure class="sponsor">
+            <img src="{{ supporter.image }}" />
+            <figcaption>{{ supporter.links }}</figcaption>
+          </figure>
           {% endif %}
         {% endfor %}
       </div>
       <p>
         <strong>Sponsoren:</strong>
       </p>
-      <div>
+      <div class="sponsor-container">
         {% for supporter in site.data.supporter %}
           {% if supporter.role == 2 %}
-            <img class="sponsor" src="{{ supporter.image }}" />
+          <figure class="sponsor">
+            <img src="{{ supporter.image }}" />
+            <figcaption>{{ supporter.links }}</figcaption>
+          </figure>
           {% endif %}
         {% endfor %}
       </div>
       <p>
         <strong>Hochschulpartnern:</strong>
       </p>
-      <div>
+      <div class="sponsor-container">
         {% for supporter in site.data.supporter %}
           {% if supporter.role == 3 %}
-            <img class="sponsor" src="{{ supporter.image }}" />
+          <figure class="sponsor">
+            <img src="{{ supporter.image }}" />
+            <figcaption>{{ supporter.links }}</figcaption>
+          </figure>
           {% endif %}
         {% endfor %}
       </div>
-
 <!--        
         <p>
         Die hier genannten Partner und Organisationen unterstützen Coding da Vinci zum Teil schon das zweite Jahr und setzen sich mit uns für die freie Wissensvermittlung, kulturelle Bildung und innovative Kulturprojekte ein. 

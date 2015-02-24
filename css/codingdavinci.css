@@ -347,9 +347,19 @@ li.active .navsub li a{
 }
 
 .sponsor {
-  max-height: 200px;
-  max-width: 200px;
-  margin: 0 0 30px 10px;
+  display: table-cell;
+  padding: 0 4px;
+  text-align: center
+}
+
+.sponsor > img {
+  height: 70px;
+}
+
+.sponsor-container {
+  
+  display: table;
+  width: 100%
 }
 
 .paragraph {
