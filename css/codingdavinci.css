@@ -188,6 +188,9 @@ a.scroll-hint:hover {
   .logo-text {
     font-size: 13pt;
   }
+  .startext_widget {
+    text-align: center;
+  }
 }
 
 .nav-container {
