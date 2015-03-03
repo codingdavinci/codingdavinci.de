@@ -124,6 +124,7 @@ a.main-signup {
   font-family: "Archive";
   -webkit-transform: translate3d(0px, 0px, 0px);
   transform: translate3d(0px, 0px, 0px);
+  text-align: center;
 }
 
 a.main-signup:hover {
