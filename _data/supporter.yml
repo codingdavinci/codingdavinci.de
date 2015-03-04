@@ -19,7 +19,17 @@
   links: "<a href=\"https://de.dariah.eu\">Dariah</a>"
   role: 1
 -
-  name: "logo FU"
+  name: "FU"
   image: "/img/supporter/fu.png"
   links: "<a href=\"http://blog.ag-nbi.de/category/news/\">AG Netzbasierte Informationssysteme</a><br /><a href=\"https://www.mi.fu-  berlin.de/inf/groups/hcc/\">HCC.lab</a>"
   role: 3
+-
+  name: "Flora Power"
+  image: "/img/supporter/florapower.jpg"
+  links: "<a href=\"http://www.flora-power.de/\">Mate.urban drink - Flora Power</a>"
+  role: 2
+-
+  name: "Rhabarberschorle"
+  image: "/img/supporter/rhabarberschorle.png"
+  links: "<a href=\"http://www.rhabarberschorle.de/\">Rhabarberschorle</a>"
+  role: 2
