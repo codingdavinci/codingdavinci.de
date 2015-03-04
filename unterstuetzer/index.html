@@ -33,20 +33,20 @@ slug: unterstuetzer
           {% endif %}
         {% endfor %}
       </div>
-      <p>
+      <p class="sponser-header">
         <strong>Sponsoren:</strong>
       </p>
       <div class="sponsor-container">
         {% for supporter in site.data.supporter %}
           {% if supporter.role == 2 %}
-          <figure class="sponsor">
+          <div class="sponsor">
             <img src="{{ supporter.image }}" />
             <figcaption>{{ supporter.links }}</figcaption>
-          </figure>
+          </div>
           {% endif %}
         {% endfor %}
       </div>
-      <p>
+      <p class="sponser-header">
         <strong>Hochschulpartnern:</strong>
       </p>
       <div class="sponsor-container">

@@ -353,9 +353,10 @@ li.active .navsub li a{
 }
 
 .sponsor {
-  display: table-cell;
   padding: 0 4px;
-  text-align: center
+  text-align: center;
+  float: left;
+  margin: 20px 40px 0 0;
 }
 
 .sponsor > img {
@@ -366,6 +367,10 @@ li.active .navsub li a{
   
   display: table;
   width: 100%
+}
+
+.sponser-header {
+  margin: 20px 0 0 0px;
 }
 
 .paragraph {
