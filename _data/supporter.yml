@@ -4,11 +4,6 @@
   links: "<a href =\"http://www.berlin.de/projektzukunft/\">Projekt   Zukunft</a>"
   role: 2
 -
-  name: "Berlin Online" 
-  image: "/img/supporter/berlinonline.png"
-  links: "<a href=\"http://www.berlinonline.de\">Berlin Online</a>"
-  role: 1
--
   name: "Startnext"
   image: "/img/supporter/startnext.png"
   links: "<a href=\"https://www.startnext.com\">Startnext</a>"
