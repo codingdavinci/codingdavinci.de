@@ -24,7 +24,17 @@
   links: "<a href=\"http://www.flora-power.de/\">Mate.urban drink - Flora Power</a>"
   role: 2
 -
+  name: "MFG Innovationsagentur Medien- und Kreativwirtschaft Baden-Württemberg"
+  image: "/img/supporter/mfg-innovationsagentur-4c.jpg"
+  links: "<a href=\"http://innovation.mfg.de/\">MFG Innovationsagentur Medien- und Kreativwirtschaft Baden-Württemberg</a>"
+  role: 2
+-
   name: "Rhabarberschorle"
   image: "/img/supporter/rhabarberschorle.png"
   links: "<a href=\"http://www.rhabarberschorle.de/\">Rhabarberschorle</a>"
+  role: 2
+-
+  name: "Open Culture BW"
+  image: "/img/supporter/OC_BW_Logo_4c.jpg"
+  links: "<a href=\"http://www.openculturebw.de/\">Open Culture BW</a>"
   role: 2
