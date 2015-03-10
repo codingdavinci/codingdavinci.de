@@ -357,6 +357,8 @@ li.active .navsub li a{
   text-align: center;
   float: left;
   margin: 20px 40px 0 0;
+  max-width: 40%;
+  font-size: 17px;
 }
 
 .sponsor > img {
