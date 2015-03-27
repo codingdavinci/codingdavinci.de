@@ -573,6 +573,33 @@ only screen and (min-device-pixel-ratio: 2) {
   }
 }
 
+@media (max-width: 768px) {
+  .box-no-arrow {
+    /*margin-bottom: 1em;*/
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box-arrow {
+    margin-bottom: 1em;
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .box-arrow:after{
+    position: relative;
+    content:"";
+    height:0;
+    bottom: -18px;
+    border-left:20px solid transparent;
+    border-right:20px solid transparent;
+    border-top:20px solid #00be7b;
+  }
+}
+
 .image-heading {
   background-color: #18B56B;
   background-repeat: no-repeat;
