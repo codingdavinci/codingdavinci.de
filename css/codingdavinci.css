@@ -598,6 +598,11 @@ only screen and (min-device-pixel-ratio: 2) {
   background-image: url('../img/best_design.png');
 }
 
+.image-content {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .btn-action {
   font-family: "Archive";
   font-size: 28pt;
