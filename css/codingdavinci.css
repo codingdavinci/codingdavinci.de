@@ -352,6 +352,11 @@ li.active .navsub li a{
   background-image: url('../img/twitter_icon.png');
 }
 
+.english {
+  height: 1em;
+  margin-top: -3px;
+}
+
 .sponsor {
   padding: 0 4px;
   text-align: center;
@@ -474,6 +479,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 .mini-interlude {
+  margin-top: 1em;
   margin-bottom: 3em;
   padding: 1.5em 0;
   background-color: #C4F3E6;
@@ -572,6 +578,33 @@ only screen and (min-device-pixel-ratio: 2) {
   }
 }
 
+@media (max-width: 768px) {
+  .box-no-arrow {
+    /*margin-bottom: 1em;*/
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box-arrow {
+    margin-bottom: 1em;
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .box-arrow:after{
+    position: relative;
+    content:"";
+    height:0;
+    bottom: -18px;
+    border-left:20px solid transparent;
+    border-right:20px solid transparent;
+    border-top:20px solid #00be7b;
+  }
+}
+
 .image-heading {
   background-color: #18B56B;
   background-repeat: no-repeat;
@@ -595,6 +628,11 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .image-best-design {
   background-image: url('../img/best_design.png');
+}
+
+.image-content {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .btn-action {
