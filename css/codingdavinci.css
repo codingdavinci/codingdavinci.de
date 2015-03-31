@@ -352,6 +352,11 @@ li.active .navsub li a{
   background-image: url('../img/twitter_icon.png');
 }
 
+.english {
+  height: 1em;
+  margin-top: -3px;
+}
+
 .sponsor {
   padding: 0 4px;
   text-align: center;
