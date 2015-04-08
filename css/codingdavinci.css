@@ -970,6 +970,34 @@ only screen and (min-device-pixel-ratio: 2) {
   border-top: 10px solid #ccf2e4;
 }*/
 
+.table .head {
+  background: #00B984;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table td, .table th{
+  border-bottom: solid white 5px;
+  
+}
+
+.table{
+    border-collapse: separate;
+
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(180deg,  rgb(193,248,236) 0%, rgb(234,253,247) 100%);
+    background: -webkit-linear-gradient(180deg,  rgb(193,248,236) 0%,rgb(234,253,247) 100%);
+    background: -o-linear-gradient(180deg,  rgb(193,248,236) 0%,rgb(234,253,247) 100%);
+    background: -ms-linear-gradient(180deg,  rgb(193,248,236) 0%,rgb(234,253,247) 100%);
+    background: linear-gradient(180deg,  rgb(193,248,236) 0%,rgb(234,253,247) 100%);
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=1 );*/
+}
+
+/*Necessary because of bootstrap*/
+.table>tbody>tr>td {
+  border-top: 0px solid white;
+}
+
 .minutes {
   position: relative;
   font-size: 65%;
