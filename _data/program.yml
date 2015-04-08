@@ -1,0 +1,68 @@
+--- 
+- 
+  entries: 
+    - 
+      content: "Begrüßung durch (alle) Veranstalter"
+      date: "2015-04-25 12:00"
+    - 
+      content: "Daten- und API-Präsentation (Blitzlicht, Barcamp).<br />Im Anschluss Verweis auf Experten am zweiten Tag und Fragerunde"
+      date: "2015-04-25 12:15"
+    - 
+      content: Snacks
+      date: "2015-04-25 14:00"
+    - 
+      content: "Ideenpitch & Hacken"
+      date: "2015-04-25 16:00"
+    - 
+      content: Abendessen
+      date: "2015-04-25 19:00"
+    - 
+      addition: +
+      content: "Open End"
+      date: "2015-04-25 19:00"
+  header: "1. Auftakt"
+  style: 1
+  title: "25. April"
+- 
+  entries: 
+    - 
+      content: "Start des Entwicklertags"
+      date: "2015-04-26 12:00"
+    - 
+      content: "Meet the Data Experts & Best Practice Projects"
+      date: "2015-04-26 12:15"
+    - 
+      content: Snacks
+      date: "2015-04-26 14:00"
+    - 
+      content: Abendessen
+      date: "2015-04-26 19:00"
+    - 
+      content: Ende
+      date: "2015-04-26 21:00"
+  style: 1
+  title: "26. April"
+- 
+  header: "2. Sprint"
+  image: "http://lorempixel.com/450/220/"
+  style: 2
+  title: "Bis zur Preisverleihung habt ihr 10 Wochen Zeit, um euer Projekt voranzutreiben."
+- 
+  entries: 
+    - 
+      content: "Start des Entwicklertags"
+      date: "2015-07-05 12:00"
+    - 
+      content: "Meet the Data Experts & Best Practice Projects"
+      date: "2015-07-05 12:15"
+    - 
+      content: Snacks
+      date: "2015-07-05 14:00"
+    - 
+      content: Abendessen
+      date: "2015-07-05 19:00"
+    - 
+      content: Ende
+      date: "2015-07-05 21:00"
+  style: 1
+  title: "5. Juli"
