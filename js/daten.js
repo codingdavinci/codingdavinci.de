@@ -115,8 +115,8 @@ $(document).ready(function () {
 
 	collectEntries();
 	fillFilter('categories', 'default');
-	fillFilter('types', 'danger');
-	fillFilter('licenses', 'info');
+	fillFilter('types', 'info');
+	fillFilter('licenses', 'danger');
 	fillFilter('years', 'warning');
 	buildEntryList();
 
