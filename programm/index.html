@@ -7,13 +7,80 @@ slug: programm
 
 <!-- Ablauf -->
 
-<div class="container" id="programm">
+ <div class="container" id="programm">
 	<header class="subheader subheader-uhr">
 		<h2>Programm</h2>
 	</header>
-
-
+	{% assign program = site.data.program[0] %}
 	<div class="row">
+		<div class="col-lg-5">
+			<table class="table">
+				<thead>
+					<tr>
+						<td class="head" colspan="2">{{ program.title }}</td>
+					</tr>
+				</thead>
+			
+				{% for entry in program.entries %}
+				<tr>
+					<td>{{ entry.date | date:"%H:%M"}}</td>
+					<td>{{ entry.content }}</td>
+				</tr>
+				{% endfor %}
+			</table>
+		
+			{% assign program = site.data.program[1] %}
+			<table class="table">
+				<thead>
+					<tr>
+						<td class="head" colspan="2">{{ program.title }}</th>
+					</tr>
+				</thead>
+			
+				{% for entry in program.entries %}
+				<tr>
+					<td>{{ entry.date | date:"%H:%M"}}</td>
+					<td>{{ entry.content }}</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</div>
+		<div class="col-lg-2 separator"></div>
+		{% assign program = site.data.program[2] %}
+		<div class="col-lg-5">
+			<table class="table">
+				<thead>
+					<tr>
+						<td class="head">{{ program.title }}</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>
+						<img src="{{ program.image}}" alt="Sprint" />
+					</td>
+				</tr>
+				
+			</table>
+		
+			{% assign program = site.data.program[3] %}
+		
+			<table class="table">
+				<thead>
+					<tr>
+						<td class="head" colspan="2">{{ program.title }}</td>
+					</tr>
+				</thead>
+			
+				{% for entry in program.entries %}
+				<tr>
+					<td>{{ entry.date | date:"%H:%M"}}</td>
+					<td>{{ entry.content }}</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</div>
+	</div>
+<!--	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2">
 			<br><br>
 
@@ -80,7 +147,7 @@ slug: programm
 		</div>
 	</div>
 
-</div>
+</div> -->
 
 <!-- END Ablauf -->
 
@@ -112,9 +179,9 @@ END Orte -->
 
 
 
-<!-- Auftakt 
+ 
 
-<div class="container" id="auftakt">
+<!-- <div class="container" id="auftakt">
 	<header class="subheader subheader-kutsche">
 		<h2>Auftakt</h2>
 	</header>
@@ -332,7 +399,5 @@ END Orte -->
 
 		</div>
 	</div>
-</div>
-
-END Auftakt -->
+</div> -->
 
