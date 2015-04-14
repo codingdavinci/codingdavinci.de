@@ -1,0 +1,348 @@
+{
+  "projects" :
+    [
+      {
+        "name" : "Alt-Berlin – Die iOS App für Geschichten zur historischen Entwicklung Berlins",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/alt-berlin-app.jpg"
+          ],
+        "description" : "Die IOS-App Alt-Berlin widmet sich der historischen Entwicklung der deutschen Hauptstadt. Auf historischen und modernen Karten sind Bilder der Stiftung Stadtmuseum Berlin verortet, die alte Gebäude und historische Plätze zeigen. Im Vorher-Nachher-Vergleich der Bilder und Karten entdeckt man z.B. den ursprünglichen Verlauf der Spree und die Veränderung des Stadtbildes. Der Nutzer kann sich durch die Stadtgeschichte bewegen und sie interaktiv erforschen. Für 2015 wird diese App für alle Geschichtsbegeisterten im App Store zur Verfügung stehen.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-website",
+              "link" : "http://altberlinapp.de",
+              "text" : "Webseite"
+            },
+            {
+               "class" : "github",
+               "link" : "https://github.com/choefele/coding-da-vinci",
+               "text" : "Demo auf github"
+            }
+          ],
+        "data": 
+          [
+            "\"Schichten der Geschichte\" Stadtansichten (Stadtmuseum Berlin)",
+            "Geometrien der Ortsteile von Berlin (Amt für Statistik Berlin-Brandenburg)",
+            "Berliner Karten 1650-1986 (Senatsverwaltung für Stadtentwicklung und Umwelt Berlin)",
+            "Bilder Kreuzberg (Wikipedia)"
+          ],
+        "team": [0]
+      },   
+      { 
+        "name" : "Cyberbeetle",
+        "image" : "/img/projekte/cyberbeetle.jpg",
+        "description" : "Das Projekt Cyberbeetle ist inspiriert von den Insektenscans des Museums für Naturkunde Berlin. Das Projekt möchte dem im Museum ausgestellten Chalcosoma Atlas-Käfer zu neuem Leben verhelfen. Basierend auf dem faszinierenden Aussehen des Käfers, ist ein sich bewegender Roboterkäfer entstanden, der seinen eigenen Insektenkasten besitzt. In diesem neuen Zuhause, der Insektenkastenbox aus Holz, kann der Cyberbeetle über einen Screen Videos von Pflanzen und Tieren anschauen. Sowohl der Käfer als auch die Box funktionieren mittels einem kleinen Arduinos und verschiedener weiterer elektronischer und mechanischer Einzelteile, die Bewegungen des Käfers ermöglichen.",
+        "links": 
+          {
+            "class" : "Webseite",
+            "link" : "http://katihyyppa.com/cyberbeetle",
+            "text" : "Webseite"
+          },
+        "data" : 
+          [
+            "Insect box scans from Museum für Naturkunde Berlin",
+            "Animal sounds from Museum für Naturkunde Berlin",
+            "Plant pictures from Botanischer Garten and Botanisches Museum Berlin-Dahlem"
+          ],
+        "team": [1,2]
+      },
+      {
+        "name" : "Alt-Berlin – Die iOS App für Geschichten zur historischen Entwicklung Berlins",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/alt-berlin-app.jpg"
+          ],
+        "description" : "Die IOS-App Alt-Berlin widmet sich der historischen Entwicklung der deutschen Hauptstadt. Auf historischen und modernen Karten sind Bilder der Stiftung Stadtmuseum Berlin verortet, die alte Gebäude und historische Plätze zeigen. Im Vorher-Nachher-Vergleich der Bilder und Karten entdeckt man z.B. den ursprünglichen Verlauf der Spree und die Veränderung des Stadtbildes. Der Nutzer kann sich durch die Stadtgeschichte bewegen und sie interaktiv erforschen. Für 2015 wird diese App für alle Geschichtsbegeisterten im App Store zur Verfügung stehen.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-website",
+              "link" : "http://altberlinapp.de",
+              "text" : "Webseite"
+            },
+            {
+               "class" : "projects-github",
+               "link" : "https://github.com/choefele/coding-da-vinci",
+               "text" : "Demo auf github"
+            }
+          ],
+        "data": 
+          [
+            "\"Schichten der Geschichte\" Stadtansichten (Stadtmuseum Berlin)",
+            "Geometrien der Ortsteile von Berlin (Amt für Statistik Berlin-Brandenburg)",
+            "Berliner Karten 1650-1986 (Senatsverwaltung für Stadtentwicklung und Umwelt Berlin)",
+            "Bilder Kreuzberg (Wikipedia)"
+          ],
+        "team": [0]
+      },
+      {
+        "name" : "EthnoBand",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/ethnoband.png"
+          ],
+        "description" : "Ethnoband ist eine HTML5-Webapp, mit der Nutzer einige der Musikinstrumente aus dem Archiv des Ethnologischen Museums selbst spielen können. Ein Benutzer kann mit seinem Smartphone einen Eintrag aus einer Liste von Musikinstrumenten wählen und dann selbst durch Taps auf einer virtuellen Tastatur das jeweilige Instrument spielen. Mehrere Personen mit mehreren Smartphones können dann gemeinsam musizieren. Denn selbst Musik zu machen, macht noch viel mehr Spaß als sich die Instrumente nur anzusehen!",
+        "links": 
+          [ 
+            {
+              "class" : "projects-website",
+              "link" : "http://ethnoband.thomasfett.de",
+              "text" : "Webseite"
+            }
+          ],
+        "data": 
+          [
+            "Bilder und Tonaufnahmen des Ethnologischen Museums Berlin"
+          ],
+        "team": [3]
+      },
+      {
+        "name" : "inside - 19xx: Liste des schädlichen und unerwünschten Schrifttums",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/inside-19xx.jpg"
+          ],
+        "description" : "Das Projekt “Inside 19xx” widmet sich der Liste der zwischen 1938 und 1941 von der „Reichsschriftkammer“ erstellten verbannten Bücher. Ziel des Projektes war es, die Metadaten der Liste zu vervollständigen, mit anderen Datensets anzureichern sowie die Einträge mit externen, vornehmlich bibliografischen Datenbanken zu verlinken. Auf der Webseite wurde zu der Liste und deren Einträgen eine verbesserte Such- und Sortierfunktion aufgesetzt. Neben verschiedener Visualisierungen, die die Menge der betroffenen Werke übersichtlich gestaltet, wurden mit Hilfe frei nutzbarer Storytelling-Formate die Lebensläufe zweier betroffener Autoren - Annette Kolb und Erich Kästner - dargestellt.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-website",
+              "link" : "http://verbrannte-und-verbannte.de/",
+              "text" : "Webseite"
+            },
+            {
+              "class" : "projects-github",
+              "link" : "http://github.com/jlewis91/codingdavinci",
+              "text" : "Seite auf github"
+            },
+            {
+              "class" : "projects-github",
+              "link" : "https://github.com/mhinters/BannedBookUtils",
+              "text" : "Zusatz-Seite auf github"
+            }
+          ],
+        "data": 
+          [
+            "NS-Buchverbotsliste",
+            "Wikidata und WikidataQuery API",
+            "DNB / GND"
+          ],
+        "team": [4,5,6,7,8,9]
+      },
+      {
+        "name" : "zzZwitscherwecker",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/wecker.jpg"
+          ],
+        "description" : "Der zzZwitscherwecker ist eine Wecker-App, die dich jeden Morgen mit einem anderen Lied weckt. Um den Wecker auszuschalten, muss der Nutzer aus vier Vorschlägen den Vogel erraten, der ihn gerade geweckt hat. Liegt er richtig, bekommt er weitere Tier-Infos, liegt er falsch, darf er noch einmal raten - doch der Wecker geht erst aus, wenn der richtige Singvogel erkannt wurde. Der Wecker ist nicht unbedingt ein gutes Weckinstrument für (Hobby)Ornithologen, sondern spricht vor allem ein breites Publikum an, das sich ansonsten eher selten mit Tierstimmen beschäftigt.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-website",
+              "link" : "http://www.farbtrommel.de/zwitscherwecker/",
+              "text" : "Webseite"
+            },
+            {
+              "class" : "projects-android",
+              "link" : "http://www.farbtrommel.de/zwitscherwecker/build/zwitscherwecker.apk",
+              "text" : "Android App"
+            },
+            {
+              "class" : "projects-github",
+              "link" : "http://github.com/simonkoennecke/zzZwitscherwecker",
+              "text" : "Seite auf github"
+            },
+            {
+              "class" : "projects-quiz",
+              "link" : "http://www.farbtrommel.de/zwitscherwecker/#demo",
+              "text" : "Quiz URL, klicken auf: Wecker jetzt testen"
+            },
+            {
+              "class" : "projects-settings",
+              "link" : "http://www.farbtrommel.de/zwitscherwecker/#demo",
+              "text" : "Settings Screen"
+            }
+          ],
+        "data": 
+          [
+            "Tierstimmen des Museums für Naturkunde Berlin",
+            "Wikipedia",
+          ],
+        "team": [10,11,12,13,14]
+      },
+      {
+        "name" : "App: Verbotene Autoren",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/app-verbotene-autoren.png"
+          ],
+        "description" : "Im Mai und Juni 1933 wurden während der NS-Zeit sämtliche Autoren verfolgt und zahlreiche Bücher verbrannt. Auch in unsere heutige Zeit hinein fehlt uns der Überblick über diese Artefakte und ihre meist unbekannten Erschaffer. Die App “Verbotene Autoren” möchte diese Zeit mehr beleuchten - und ermöglicht es jedem Interessierten sich gezielt oder per Zufall über die von Nazionalsozialisten verbotenen Werke und ihre Schriftsteller zu informieren. Die App zeigt nicht nur Einzelansichten der Autoren, sonst führt auch in ihre Biographie ein, um so die Personen erneut ins Gedächtnis unserer Zeit zu holen.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-website",
+              "link" : "http://mr-fridge.de/apps/verbotene_autoren/index.php",
+              "text" : "Webseite"
+            },
+            {
+              "class" : "projects-appstore",
+              "link" : "",
+              "text" : "tbd"
+            },
+          ],
+        "data": 
+          [
+            "NS-Buchverbotsliste",
+            "Wikipedia",
+            "GND"
+          ],
+        "team": [15,16]
+      },
+      {
+        "name" : "Berlin - 50 Jahre später",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/berlin-50-jahre.png"
+          ],
+        "description" : "Im Mai und Juni 1933 wurden während der NS-Zeit sämtliche Autoren verfolgt und zahlreiche Bücher verbrannt. Auch in unsere heutige Zeit hinein fehlt uns der Überblick über diese Artefakte und ihre meist unbekannten Erschaffer. Die App “Verbotene Autoren” möchte diese Zeit mehr beleuchten - und ermöglicht es jedem Interessierten sich gezielt oder per Zufall über die von Nazionalsozialisten verbotenen Werke und ihre Schriftsteller zu informieren. Die App zeigt nicht nur Einzelansichten der Autoren, sonst führt auch in ihre Biographie ein, um so die Personen erneut ins Gedächtnis unserer Zeit zu holen.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-website",
+              "link" : "http://mr-fridge.de/apps/verbotene_autoren/index.php",
+              "text" : "Webseite"
+            },
+            {
+              "class" : "projects-appstore",
+              "link" : "",
+              "text" : "tbd"
+            },
+          ],
+        "data": 
+          [
+            "NS-Buchverbotsliste",
+            "Wikipedia",
+            "GND"
+          ],
+        "team": [15,16]
+      }
+    ],
+  "persons" : 
+    [
+      {
+        "id" : 0, 
+        "name" : "Claus Höfele",
+        "mail" : "claus@claushoefele.com",
+        "twitter" : "@claushoefele"
+      },
+      {
+        "id" : 1, 
+        "name" : "Kati Hyyppä (Berlin) / Beetle constructor",
+        "website" : "http://katihyyppa.com"
+      },
+      {
+        "id" : 2, 
+        "name" : "Tomi Hyyppä (Helsinki) / Sound designer"
+      },
+      {
+        "id" : 3, 
+        "name" : "Thomas Fett",
+        "github" : "thomasfett",
+        "twitter" : "@FettThomas"
+      },
+      {
+        "id" : 4, 
+        "name" : "Daniel Burckhardt",
+        "github" : "burki",
+      },
+      {
+        "id" : 5, 
+        "name" : "Dierk Eichel",
+      },
+      {
+        "id" : 4, 
+        "name" : "Michael Hintersonnleitner",
+        "github" : "mhinters",
+      },
+      {
+        "id" : 5, 
+        "name" : "Frederike Kaltheuner",
+        "github" : "fre8de8rike",
+      },
+      {
+        "id" : 6, 
+        "name" : "Jeremy Lewis",
+        "github" : "jlewis91",
+      },
+      {
+        "id" : 7, 
+        "name" : "Jonas Parnow",
+        "github" : "z3to",
+      },
+      {
+        "id" : 7, 
+        "name" : "Kristin Sprechert",
+        "github" : "kaeseoehrchen",
+      },
+      {
+        "id" : 8, 
+        "name" : "Kai Teuber, Ministerialbeamter, Berlin, Potsdam",
+        "github" : "teuberkai",
+        "twitter" : "@teuberkai"
+      },
+      {
+        "id" : 9, 
+        "name" : "Clemens Wilding",
+        "github" : "wigginus"
+      },
+      {
+        "id" : 10, 
+        "name" : "Anne Weißschädel",
+        "mail" : "anne.weissschaedel@gmail.com"
+      },
+      {
+        "id" : 11, 
+        "name" : "Simon Könneke",
+        "mail" : "simonkoennecke@gmail.com"
+      },
+      {
+        "id" : 12, 
+        "name" : "Christoph Hornig",
+        "mail" : "ch.hornig@gmail.com"
+      },
+      {
+        "id" : 13, 
+        "name" : "Stephanie Weber",
+        "mail" : "klimperfee@gmail.com",
+        "twitter" : "@klimperfee"
+      },
+      {
+        "id" : 14, 
+        "name" : "David Gomez",
+        "mail" : "davidogos@hotmail.com",
+        "twitter" : "@dagosarmiento"
+      },
+      {
+        "id" : 15, 
+        "name" : "Anna Neovesky, Digitale Akademie",
+        "mail" : "anna.neovesky@adwmainz.de",
+        "twitter" : "@annavsk"
+      },
+      {
+        "id" : 16, 
+        "name" : "Julius Peinelt, Mr. Fridge Software",
+        "mail" : "julius@mr-fridge.de",
+        "twitter" : "@codingFriends"
+      }
+    ]
+}
