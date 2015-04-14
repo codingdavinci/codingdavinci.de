@@ -14,6 +14,11 @@ slug: programm
 	{% assign program = site.data.program[0] %}
 	<div class="row">
 		<div class="col-lg-5">
+			<div class="programheader">
+				<h2>{{ program.header }}</h2>
+			</div>
+			
+			
 			<table class="table">
 				<thead>
 					<tr>
@@ -46,12 +51,16 @@ slug: programm
 			</table>
 		</div>
 		<div class="col-lg-2 separator"></div>
-		{% assign program = site.data.program[2] %}
+		
 		<div class="col-lg-5">
+			{% assign program = site.data.program[2] %}
+			<div class="programheader">
+				<h2>{{ program.header }}</h2>
+			</div>
 			<table class="table">
 				<thead>
 					<tr>
-						<td class="head">{{ program.title }}</td>
+						<td colspan="2" class="head">{{ program.title }}</td>
 					</tr>
 				</thead>
 				<tr>
@@ -63,7 +72,9 @@ slug: programm
 			</table>
 		
 			{% assign program = site.data.program[3] %}
-		
+			<div class="programheader">
+				<h2>{{ program.header }}</h2>
+			</div>
 			<table class="table">
 				<thead>
 					<tr>
