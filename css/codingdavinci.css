@@ -414,6 +414,14 @@ hr {
   bottom: -25px;
 }
 
+.programheader h2{
+  color: #000;
+  font-family: "Archive";
+  font-size: 32pt;
+  background-color: #fff;
+  text-align: center;
+}
+
 .subheader-interlude h2 {
   background-color: #C4F3E6;
 }
@@ -978,7 +986,11 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .table td, .table th{
   border-bottom: solid white 5px;
-  
+}
+
+.table > tbody > tr > td > img {
+  width: 100%;
+  height: 100%;
 }
 
 .table{
