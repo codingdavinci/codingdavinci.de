@@ -709,7 +709,7 @@ h5 {
   -webkit-transform: translate3d(0px, 0px, 0px);
      -moz-transform: translate3d(0px, 0px, 0px);
       -ms-transform: translate3d(0px, 0px, 0px);
-      - o-transform: translate3d(0px, 0px, 0px);
+      -o-transform: translate3d(0px, 0px, 0px);
           transform: translate3d(0px, 0px, 0px);
 }
 
@@ -1008,6 +1008,14 @@ only screen and (min-device-pixel-ratio: 2) {
 /*Necessary because of bootstrap*/
 .table>tbody>tr>td {
   border-top: 0px solid white;
+}
+
+.sep {
+  background-image: url("../img/cdv_linie_h.png");
+  background-repeat: repeat-y;
+  background-position: center;
+  margin-top: 3.6em;
+  height: 69.5em
 }
 
 .minutes {
