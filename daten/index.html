@@ -50,14 +50,14 @@ js: daten.js
 			<p>
 				Kulturinstitutionen, die 2015 an Coding da Vinci teilnehmen:
 			</p>
-			<div class="sponsor-container">
+			<div class="glam-container">
         	{% for glam in site.data.glams %}
-          		
-          			<figure class="sponsor">
+          		<a href="{{ glam.link }}">
+          			<figure class="glam">
             			<img src="{{ glam.image }}" />
             				<figcaption>{{ glam.name }}</figcaption>
           			</figure>
-          		
+          		</a>
         	{% endfor %}
       </div>
 		</div>
