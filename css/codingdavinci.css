@@ -1018,6 +1018,13 @@ only screen and (min-device-pixel-ratio: 2) {
   height: 69.5em
 }
 
+@media (max-width: 1299px) {
+  .sep {
+    visibility: hidden;
+    height : 0;
+  }
+}
+
 .minutes {
   position: relative;
   font-size: 65%;
