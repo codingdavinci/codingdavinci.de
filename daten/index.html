@@ -44,6 +44,16 @@ js: daten.js
 				Wir danken allen teilnehmenden Kulturinstitutionen, die durch die Bereitstellung dieser Daten kulturelle Bildung, Kreativität und freies Wissen fördern. 
 			</p>
 			<p>Daten können in der Auswahl gefiltert oder <a href class="navigation-all">komplett angezeigt werden</a></p>
+			<div class="sponsor-container">
+        	{% for glam in site.data.glams %}
+          		
+          			<figure class="sponsor">
+            			<img src="{{ glam.image }}" />
+            				<figcaption>{{ glam.name }}</figcaption>
+          			</figure>
+          		
+        	{% endfor %}
+      </div>
 		</div>
 
 		<div class="data-entry" id="stadtarchiv-speyer">
@@ -51,11 +61,11 @@ js: daten.js
 				<h3>Abteilung Kulturelles Erbe  - Stadtarchiv Speyer</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/ostberliner_fotoarchiv.jpg" alt="Ostberliner Fotoarchiv"/>
+						<img src="{{ site.baseurl }}img/daten/stadtarchivspeyer_nachlasskarllutz.jpg" alt="Stadtarchiv Speyer Nachlass Karl Lutz"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 
 					<h4>Fotografien aus dem Ersten und vor allem Zweiten Weltkrieg, hauptsächlich von der Ostfront und Italien. Alltag und Kriegsgeschehen werden gleichermaßen abgebildet.</h4>
@@ -66,7 +76,7 @@ js: daten.js
 				<div class="data-meta">
 					<dl>
 						<dt>Namensnennung</dt>
-						<dd>Abteilung Kulturelles Erbe  - Stadtarchiv Speyer</dd>
+						<dd>Stadtarchiv Speyer</dd>
 <!--
 						<dt>Kategorien</dt>
 						<dd class="data-category">
@@ -104,11 +114,11 @@ js: daten.js
 				
 			
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/ostberliner_fotoarchiv.jpg" alt="Ostberliner Fotoarchiv"/>
+						<img src="{{ site.baseurl }}img/daten/bayerischestaatsbibliothek-B3Kat.jpg" alt="Bayerische Staatsbibliothek"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>Titeldaten und Bestandsnachweise der Bibliotheken in Bayern, Berlin und Brandenburg</h4>
 					<p>
@@ -123,8 +133,9 @@ js: daten.js
 				</div>
 				<div class="data-meta">
 					<dl>
-						<dt>Bayerische Staatsbibliothek</dt>
-						<dd></dd>
+						<dt>Namensnennung</dt>
+						<dd>Bayerische Staatsbibliothek</dd>
+						
 <!--
 						<dt>Kategorien</dt>
 						<dd class="data-category">
@@ -133,7 +144,7 @@ js: daten.js
 -->
 						<dt>Lizenz</dt>
 						<dd class="data-license">
-							<span class="label label-danger">CC 0</span>
+							<span class="label label-danger">CC0</span>
 						</dd>
 						<dt>Dateityp</dt>
 						<dd class="data-type">
@@ -160,11 +171,11 @@ js: daten.js
 				<h3>Berlinische Galerie</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/ostberliner_fotoarchiv.jpg" alt="Ostberliner Fotoarchiv"/>
+						<img src="{{ site.baseurl }}img/daten/berlinischegalerie-sammlungthiede.jpg" alt="Berlinische Galerie Sammlung Thiede"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>Kunst um 1900, Berliner Secession, Sammlung Dr. Jörg Thiede</h4>
 					<p>
@@ -174,7 +185,7 @@ js: daten.js
 				<div class="data-meta">
 					<dl>
 						<dt>Namensnennung</dt>
-						<dd>Berlinische Galerie</dd>
+						<dd>Berlinische Galerie - Zustiftung der Dr. Jörg Thiede-Stiftung</dd>
 <!--
 						<dt>Kategorien</dt>
 						<dd class="data-category">
@@ -203,11 +214,11 @@ js: daten.js
 				</div>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/ostberliner_fotoarchiv.jpg" alt="Ostberliner Fotoarchiv"/>
+						<img src="{{ site.baseurl }}img/daten/berlinischegalerie-sammlunghausmann.jpg" alt="Berlinische Galerie Sammlung Hausmann"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>Briefe und Texte aus dem Nachlass von Raoul Hausmann (Dadaismus, Bauhaus, Konstruktivismus, Liebe, Sexualität, Fotografie, Fotomontage, Optik, Optophonetik, Tanz)</h4>
 					<p>
@@ -217,7 +228,7 @@ js: daten.js
 				<div class="data-meta">
 					<dl>
 						<dt>Namensnennung</dt>
-						<dd>Berlinische Galerie</dd>
+						<dd>Berlinische Galerie - Nachlass Raoul Hausmann</dd>
 <!--
 						<dt>Kategorien</dt>
 						<dd class="data-category">
@@ -329,7 +340,7 @@ js: daten.js
 				<div class="data-meta">
 					<dl>
 						<dt>Namensnennung</dt>
-						<dd>Botanischer Garten und Botanisches Museum Berlin-Dahlem</dd>
+						<dd>Röpert D. (ed.): Digital specimen images at the Herbarium Berolinense.</dd>
 						<!--
 						<dt>Kategorien</dt>
 						<dd class="data-category">
@@ -365,11 +376,11 @@ js: daten.js
 				<h3>Computerspielemuseum</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/computerspielemuseum.jpg" alt="Computerspielemuseum"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>Computer- und Videospiele, Spielkonsolen</h4>
 					<p>
@@ -405,6 +416,7 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
+							Metadaten:<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">API der DDB</a><br/>
 							<a href="https://www.flickr.com/photos/132548293@N02/sets/72157651530982788/">Bilder</a>
 						</dd>
 					</dl>
@@ -580,11 +592,11 @@ js: daten.js
 				<h3>Deutsches Museum</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/deutschesmuseum-klavierrollen.jpg" alt="Deutsches Museum Klavierrollen"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>Die Notenrollen für selbstspielende Klaviere des Deutschen Museums</h4>
 					<p>
@@ -802,11 +814,11 @@ js: daten.js
 				<h3>GRIPS Theater Berlin</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/grips-spielplan.jpg" alt="GRIPS Theater Spielplan"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>Politische Karikatur für Kinder</h4>
 					<p>
@@ -816,7 +828,7 @@ js: daten.js
 				<div class="data-meta">
 					<dl>
 						<dt>Namensnennung</dt>
-						<dd>GRIPS Theater Berlin</dd>
+						<dd>Rainer Hachfeld | GRIPSTheater Berlin)</dd>
 						<!--
 						<dt>Kategorien</dt>
 						<dd class="data-category">
@@ -1019,6 +1031,7 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
+							<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">API der DDB</a><br/>
 							<a href="http://oai.hab.de">http://oai.hab.de</a>, <a href="http://diglib.hab.de/?db=mss">http://diglib.hab.de/?db=mss</a>
 						</dd>
 					</dl>
@@ -1031,11 +1044,11 @@ js: daten.js
 				<h3>Hochschule für Technik und Wirtschaft Berlin, Historisches Archiv</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/htw-stoffmuster.jpg" alt="HTW Stoffmuster"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>Stoffmusterbücher aus dem Historischen Archiv der HTW</h4>
 					<p>
@@ -1081,16 +1094,16 @@ js: daten.js
 				</div>
 			</div>
 		</div>
-		<div class="data-entry" id="internationales-theaterinstitut">
+		<!-- <div class="data-entry" id="internationales-theaterinstitut">
 			<div class="data-interlude">
 				<h3>Internationales Theaterinstitut (ITI) Deutschland / Mime Centrum Berlin</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				 <div class="data-media">
 					<div class="thumbnail">
 						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>
 						Daten zu Videoaufzeichnungen von Tanz- und Theateraufführungen. Erfasst werden Informationen zur dokumentierten Aufführung (Zeit/Ort, Regisseur/Choreograf/Autor; Mitwirkende etc.) sowie zur Aufzeichnung selbst (Kamera, Format).
@@ -1108,12 +1121,7 @@ js: daten.js
 					<dl>
 						<dt>Namensnennung</dt>
 						<dd>Internationales Theaterinstitut (ITI) Deutschland / Mime Centrum Berlin</dd>
-						<!--
-						<dt>Kategorien</dt>
-						<dd class="data-category">
-							<span class="label label-default">Flora & Fauna</span>
-						</dd>
-						-->
+						
 						<dt>Lizenz</dt>
 						<dd class="data-license">
 							<span class="label label-danger">missing</span><br/>
@@ -1133,7 +1141,7 @@ js: daten.js
 					</dl>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<div class="data-entry" id="justus-liebig-universitaet">
 			<div class="data-interlude">
@@ -1213,7 +1221,7 @@ js: daten.js
 				<div class="data-meta">
 					<dl>
 						<dt>Namensnennung</dt>
-						<dd>Jüdisches Museum</dd>
+						<dd>Jüdisches Museum Berlin; für die Mediendateien: Hermann Struck / Jüdisches Museum Berlin</dd>
 						<!--
 						<dt>Kategorien</dt>
 						<dd class="data-category">
@@ -1235,7 +1243,7 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							missing
+							tbd
 						</dd>
 					</dl>
 				</div>
@@ -1391,7 +1399,7 @@ js: daten.js
 						<dt>Links</dt>
 						<dd>
 							<a href="https://github.com/langsci/lsp­-xml">Metadaten</a><br />
-							<a href="https://github.com/langsci/lsp­xml">Bilder</a>
+							<a href="https://github.com/langsci/lsp­-xml">Bilder</a>
 						</dd>
 						<dt>Weiterf&uuml;hrende Links</dt>
 						<dd>
@@ -1462,6 +1470,7 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
+							<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">API der DDB</a><br/>
 							<a href="https://offenedaten.de/group/quellensammlung-mpiwg">Metadaten</a>
 						</dd>
 					</dl>
@@ -1473,64 +1482,14 @@ js: daten.js
 			<div class="data-interlude">
 				<h3>Museum für Naturkunde Berlin</h3>
 			</div>
+			
 			<div class="data-point">
-				<div class="data-media">
+				 <div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/insektenkasten.jpg" alt="Insektenkasten"/>
-					</div>
-
-				</div>
-				<div class="data-content">
-					<h4>Insektenkästen</h4>
-
-					<p>Für <strong>Coding da Vinci</strong> stellt das Museum für Naturkunde Berlin Gigapixel-Scans von Insektenkästen für die breite Öffentlichkeit und für die Forschungsgemeinschaft zur Verfügung. Diese Insektenkästen umfassen Schmetterlingen, Käfern, Bienen, Heuschrecken, Wanzen usw.. Es gibt eine Liste der Arten in jedem Insektenkasten, allerdings auch Kästen mit unbestimmten Material. Alle Insektenkästen liegen als krpano-Objekte (Flash oder HTML5) vor, wobei jedes krpano-Objekt sich aus ca. 1400 Einzelbildern (JPG) zusammensetzt und insgesamt eine Auflösung von ca.
-						18.400 x
-						14.800 Pixel hat sowie eine Dateigröße von 35 Mb umfasst. <a href="http://gbif.naturkundemuseum-berlin.de/hackathon/">50 dieser Bilder</a> sind unter einer <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0-Lizenz</a> verfügbar, eine Erweiterung der krpano-Objekte ist über eine API möglich.</p>
-
-					<p>
-						Hintergrund: <a href="http://eos.naturkundemuseum-berlin.de/">Insektenkastenportal</a> mit mehr als 3.000 Insektenkästen (jeden Monat kommen ca. 500 weitere hinzu), Beispielsuche: <a href="http://eos.naturkundemuseum-berlin.de/search?fullScientificName_search=Scarabaeidae">Scarabaeidae</a>.
-					</p>
-
-					<a href="http://biowikifarm.net/meta/Open_GLAM_Hackathon_2014#Analyse_von_Gigapixel-Scans_von_Insektenk.C3.A4sten">Weitere Infos gibt es im Wiki</a>
-				</div>
-				<div class="data-meta">
-					<dl>
-						<dt>Namensnennung</dt>
-						<dd>Museum für Naturkunde Berlin</dd>
-						<!--
-						<dt>Kategorien</dt>
-						<dd class="data-category">
-							<span class="label label-default">Flora & Fauna</span>
-						</dd>
-						-->
-						<dt>Lizenz</dt>
-						<dd class="data-license">
-							<span class="label label-danger">CC-BY</span>
-							
-						</dd>
-						<dt>Dateityp</dt>
-						<dd class="data-type">
-							<span class="label label-info">JPEG</span>
-							DDB-<span class="label label-info">API</span>
-						</dd>
-						<dt>Jahr</dt>
-						<dd class="data-year">
-							<span class="label label-warning">2014</span>
-						</dd>
-						<dt>Links</dt>
-						<dd>
-							<a href="http://gbif.naturkundemuseum-berlin.de/hackathon/">Bilder und Metadaten</a>
-						</dd>
-					</dl>
-				</div>
-			</div>
-			<div class="data-point">
-				<!-- <div class="data-media">
-					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/insektenkasten.jpg" alt="Insektenkasten"/>
+						<img src="{{ site.baseurl }}img/daten/naturkundemuseum_1_papageien.jpg" alt="Papageien"/>
 					</div> 
 
-				</div>-->
+				</div>
 				<div class="data-content">
 					<h4>Bilder von Belegexemplaren aus der Vogelsammlung</h4>
 
@@ -1571,12 +1530,12 @@ js: daten.js
 				</div>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				 <div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/insektenkasten.jpg" alt="Insektenkasten"/>
+						<img src="{{ site.baseurl }}img/daten/naturkundemuseum_2_fliegen.jpg" alt="Raubfliegen"/>
 					</div> 
 
-				</div>-->
+				</div>
 				<div class="data-content">
 					<h4>Bilder von Raubfliegen (Asilidae)</h4>
 
@@ -1617,12 +1576,12 @@ js: daten.js
 				</div>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				 <div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/insektenkasten.jpg" alt="Insektenkasten"/>
+						<img src="{{ site.baseurl }}img/daten/naturkundemuseum_3_ehrenberg.jpg" alt="Sammlung Ehrenberg"/>
 					</div> 
 
-				</div>-->
+				</div>
 				<div class="data-content">
 					<h4>Zeichnungen von Christian Gottfried Ehrenberg</h4>
 
@@ -1663,12 +1622,12 @@ js: daten.js
 				</div>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				 <div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/insektenkasten.jpg" alt="Insektenkasten"/>
+						<img src="{{ site.baseurl }}img/daten/naturkundemuseum_4_gesteine.jpg" alt="Gesteine"/>
 					</div> 
 
-				</div>-->
+				</div>
 				<div class="data-content">
 					<h4>Fotos von Sammlungsobjekten der Schmetterlingsfamilien Schwalbenschwänze und Weißlinge</h4>
 
@@ -1703,18 +1662,18 @@ js: daten.js
 						<dt>Links</dt>
 						<dd>
 							<a href="https://offenedaten.de/dataset/globis/resource/1469d860-9008-4e66-a216-456c5adaa219">Metadaten</a><br />
-							<a href="">missing</a>
+							<a href="">tbd</a>
 						</dd>
 					</dl>
 				</div>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				 <div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/insektenkasten.jpg" alt="Insektenkasten"/>
+						<img src="{{ site.baseurl }}img/daten/naturkundemuseum_5_verhoeff.jpg" alt="Sammlung Verhoeff"/>
 					</div> 
 
-				</div>-->
+				</div>
 				<div class="data-content">
 					<h4>Bilder von Mineralogischen Sammlungsobjekten</h4>
 
@@ -1794,7 +1753,7 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							missing
+							tbd
 						</dd>
 					</dl>
 				</div>
@@ -1834,6 +1793,58 @@ js: daten.js
 						<dd>
 							<a href="https://offenedaten.de/dataset/verhoeff/resource/b6d1ebd4-d4e4-4976-bf53-71a3f181a7a6">Metadaten</a><br />
 							<a href="http://gbif.naturkundemuseum%c2%adberlin.de/CDV2015/mfn_myriapoda_verhoeff/">Bilder</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/insektenkasten.jpg" alt="Insektenkasten"/>
+					</div>
+
+				</div>
+				<div class="data-content">
+					<h4>Insektenkästen</h4>
+
+					<p>Für <strong>Coding da Vinci</strong> stellt das Museum für Naturkunde Berlin Gigapixel-Scans von Insektenkästen für die breite Öffentlichkeit und für die Forschungsgemeinschaft zur Verfügung. Diese Insektenkästen umfassen Schmetterlingen, Käfern, Bienen, Heuschrecken, Wanzen usw.. Es gibt eine Liste der Arten in jedem Insektenkasten, allerdings auch Kästen mit unbestimmten Material. Alle Insektenkästen liegen als krpano-Objekte (Flash oder HTML5) vor, wobei jedes krpano-Objekt sich aus ca. 1400 Einzelbildern (JPG) zusammensetzt und insgesamt eine Auflösung von ca.
+						18.400 x
+						14.800 Pixel hat sowie eine Dateigröße von 35 Mb umfasst. <a href="http://gbif.naturkundemuseum-berlin.de/hackathon/">50 dieser Bilder</a> sind unter einer <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0-Lizenz</a> verfügbar, eine Erweiterung der krpano-Objekte ist über eine API möglich.</p>
+
+					<p>
+						Hintergrund: <a href="http://eos.naturkundemuseum-berlin.de/">Insektenkastenportal</a> mit mehr als 3.000 Insektenkästen (jeden Monat kommen ca. 500 weitere hinzu), Beispielsuche: <a href="http://eos.naturkundemuseum-berlin.de/search?fullScientificName_search=Scarabaeidae">Scarabaeidae</a>.
+					</p>
+
+					<a href="http://biowikifarm.net/meta/Open_GLAM_Hackathon_2014#Analyse_von_Gigapixel-Scans_von_Insektenk.C3.A4sten">Weitere Infos gibt es im Wiki</a>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Museum für Naturkunde Berlin</dd>
+						<!--
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Flora & Fauna</span>
+						</dd>
+						-->
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY</span>
+							
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">JPEG</span>
+							DDB-<span class="label label-info">API</span>
+						</dd>
+						<dt>Jahr</dt>
+						<dd class="data-year">
+							<span class="label label-warning">2014</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">API der DDB</a><br/>
+							<a href="http://gbif.naturkundemuseum-berlin.de/hackathon/">Bilder und Metadaten</a>
 						</dd>
 					</dl>
 				</div>
@@ -1897,6 +1908,7 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
+							<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">API der DDB</a><br/>
 							<a href="http://species-id.net/openmedia/Category:Media_by_Tierstimmenarchiv_MfN">Sounds</a>
 						</dd>
 					</dl>
@@ -1951,7 +1963,7 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							missing
+							tbd
 						</dd>
 					</dl>
 				</div>
@@ -2112,6 +2124,7 @@ js: daten.js
 						<dt>Links</dt>
 						<dd>
 							Die Erst-Weltkriegsdigitalisate der SBB sind über die OAI-Schnittstelle der SBB ist über diesen Link aufrufbar: <a href="http://digital.staatsbibliothek-berlin.de/oai/?verb=ListRecords&metadataPrefix=oai_dc&set=DC_krieg.1914.1918">OAI-DC</a><br/>
+							<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">API der DDB</a><br/>
 							<a href="http://digital.staatsbibliothek-berlin.de/oai/?verb=ListRecords&metadataPrefix=mets&set=DC_krieg.1914.1918 ">METS (umfangreicherer Datensatz)</a>
 						</dd>
 					</dl>
@@ -2341,67 +2354,18 @@ js: daten.js
 					</dl>
 				</div>
 			</div>
-			<div class="data-point">
-				<div class="data-media">
-					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/slub_.jpg" alt="SLUB Dresden - Codex Boernerianus"/>
-					</div>
-				</div>
-				<div class="data-content">
-					<h4>Codex Boernerianus</h4>
-
-					<p>
-						Der 1778 aus dem Nachlass des Leipziger Theologieprofessors Christian Friedrich Boerner erworbene Codex Boernerianus wurde um die Mitte des 9. Jahrhunderts im iro-schottischen Kloster St. Gallen geschrieben und enthält im Wesentlichen die Briefe des Apostels Paulus in griechischer Majuskel mit einer wortgetreuen lateinischen Interlinearübersetzung in irischer Minuskel. Signifikante Abweichungen von der kanonischen Überlieferung machen die Handschrift zu einem herausragenden Dokument für die Textgeschichte der Paulusbriefsammlung.
-					</p>
-					<p>
-						Zusammen mit einer Evangelienhandschrift in der Stiftsbibliothek St. Gallen (<a href="http://www.e-codices.unifr.ch/en/description/csg/0048">Cod. Sang. 48</a>) und einer Psalmenhandschrift in der Universitätsbibliothek Basel (<a href="http://www.e-codices.unifr.ch/de/description/ubb/A-VII-0003">A VII 3</a>) zeugt der Codex Boernerianus von einer zweisprachigen Bibelausgabe, deren Entstehung vermutlich bis ins 2. Jahrhundert n. Chr. zurückreicht. Außer den Paulusbriefen enthält die Handschrift zu Beginn und am Ende einen lateinischen Kommentar zum Matthäusevangelium und auf Blatt 23r zwei Strophen eines altirischen Gedichtes (Bl. 23r).
-					</p>
-				</div>
-				<div class="data-meta">
-					<dl>
-						<dt>Namensnennung</dt>
-						<dd>
-							SLUB Dresden
-						</dd>
-						<!--
-						<dt>Kategorien</dt>
-						<dd class="data-category">
-							<span class="label label-default">Geschichte</span>
-						</dd>
-						-->
-						<dt>Lizenz</dt>
-						<dd class="data-license">
-							<span class="label label-danger">Public Domain</span>
-						</dd>
-						<dt>Dateityp</dt>
-						<dd class="data-type">
-							METS/MODS-<span class="label label-info">XML</span>
-							<span class="label label-info">JPEG</span>
-						</dd>
-						<dt>Jahr</dt>
-						<dd class="data-year">
-							<span class="label label-warning">2015</span>
-						</dd>
-						<dt>Links</dt>
-						<dd>
-							<a href="http://digital.slub-dresden.de/oai/?verb=GetRecord&amp;metadataPrefix=mets&amp;identifier=oai:de:slub-dresden:db:id-274591448">Metadaten (METS/MODS-XML, JPEG-Links)</a><br/>
-							<a href="http://digital.slub-dresden.de/werkansicht/dlf/2966/">Vorschau der Digitalisate</a>
-						</dd>
-					</dl>
-				</div>
-			</div>
 		</div>
 
-		<div class="data-entry" id="carl-von-ossietzky">
+		<!--<div class="data-entry" id="carl-von-ossietzky">
 			<div class="data-interlude">
 				<h3>Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky</h3>
 			</div>
-			<div class="data-point">
-				<!-- <div class="data-media">
+			 <div class="data-point">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/ossietzky_hamburg_elbkarten.jpg" alt="Elbkarten"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>
 						Historische Hamburg- und Elb-Karten 1588 – 1939 
@@ -2419,12 +2383,7 @@ js: daten.js
 					<dl>
 						<dt>Namensnennung</dt>
 						<dd>Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky</dd>
-						<!--
-						<dt>Kategorien</dt>
-						<dd class="data-category">
-							<span class="label label-default">Flora & Fauna</span>
-						</dd>
-						-->
+						
 						<dt>Lizenz</dt>
 						<dd class="data-license">
 							<span class="label label-danger">missing</span><br/>
@@ -2444,13 +2403,13 @@ js: daten.js
 						</dd>
 					</dl>
 				</div>
-			</div>
-			<div class="data-point">
-				<!-- <div class="data-media">
+			</div> -->
+			<!-- <div class="data-point">
+				 <div class="data-media">
 					<div class="thumbnail">
 						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
 					</div>
-				</div> -->
+				</div> 
 				<div class="data-content">
 					<h4>
 						Manier, Mythos und Moral – Niederländische Druckgraphik um 1600
@@ -2465,12 +2424,7 @@ js: daten.js
 					<dl>
 						<dt>Namensnennung</dt>
 						<dd>Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky</dd>
-						<!--
-						<dt>Kategorien</dt>
-						<dd class="data-category">
-							<span class="label label-default">Flora & Fauna</span>
-						</dd>
-						-->
+						
 						<dt>Lizenz</dt>
 						<dd class="data-license">
 							<span class="label label-danger">missing</span><br/>
@@ -2491,18 +2445,18 @@ js: daten.js
 					</dl>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<div class="data-entry" id="stiftung-haus-der-geschichte">
 			<div class="data-interlude">
 				<h3>Stiftung Haus der Geschichte der Bundesrepublik Deutschland</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/hausdergeschichte.jpg" alt="Haus der Geschichter - Binder"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>Studentenrevolte 1967/68</h4>
 					<p>
@@ -2550,11 +2504,11 @@ js: daten.js
 				<h3>Stiftung Stadtmuseum Berlin</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/stadtmuseum_zille.jpg" alt="Stadtmuseum Zille"/>
+						<img src="{{ site.baseurl }}img/daten/stadtmuseumberlin.jpg" alt="Stadtmuseum Zille"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>Naturwissenschaftliche Sammlung, Sammlungsbereich Geologie</h4>
 					<p>
@@ -2568,7 +2522,7 @@ js: daten.js
 					<dl>
 						<dt>Namensnennung</dt>
 						<dd>
-							Stiftung Stadtmuseum Berlin
+							Stadtmuseum Berlin
 						</dd>
 						<!--
 						<dt>Kategorien</dt>
@@ -2859,11 +2813,11 @@ js: daten.js
 				<h3>Universität Leipzig, Humboldt Lehrstuhl für Digital Humanities</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/unileipzig.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>Texte klassischer Philologien</h4>
 					<p>
@@ -2911,11 +2865,11 @@ js: daten.js
 				<h3>Universitätsbibliothek der Bauhaus-Universität Weimar</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/bauhausuniweimar.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>
 						Bücher und Zeitschriften aus den Bereichen Kunst,Kunstausbildung, Kunstgewerbe, Architektur als Bilddigitalisate und teilweise imVolltext; vorrangig in deutscher Sprache; vor allem aus dem 19. und 20. Jahrhundert.
@@ -2957,16 +2911,16 @@ js: daten.js
 				</div>
 			</div>
 		</div>
-		<div class="data-entry" id="veikkosarchiv">
+		<!-- <div class="data-entry" id="veikkosarchiv">
 			<div class="data-interlude">
 				<h3>veikkos­archiv</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				 <div class="data-media">
 					<div class="thumbnail">
 						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>
 						Bilder von historischen Siegelmarken aus der Zeit von ca. 1850­-1945
@@ -2981,12 +2935,7 @@ js: daten.js
 					<dl>
 						<dt>Namensnennung</dt>
 						<dd>veikkos­archiv</dd>
-						<!--
-						<dt>Kategorien</dt>
-						<dd class="data-category">
-							<span class="label label-default">Flora & Fauna</span>
-						</dd>
-						-->
+	
 						<dt>Lizenz</dt>
 						<dd class="data-license">
 							<span class="label label-danger">missing</span><br/>
@@ -3006,18 +2955,18 @@ js: daten.js
 					</dl>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<div class="data-entry" id="viz-charlottenburg">
 			<div class="data-interlude">
 				<h3>Verwaltungsinformationszentrum des Bezirksamtes Charlottenburg­ Wilmersdorf von Berlin</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/buergerverzeichnis_charlottenburg-namensliste.jpg" alt="Bürgerverxeichnis Charlottenburg"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>
 						Handschriften aus der Königlichen Magistratsbibliothek zu Charlottenburg im Verwaltungsinformationszentrum des Bezirksamtes Charlottenburg­-Wilmersdorf
@@ -3129,9 +3078,9 @@ js: daten.js
 			<div class="data-point">
 				<div class="data-media">
 
-					<!-- <div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/zlb_juedisches_adressbuch.jpg" alt="Adressbucheinträge des Jüdischen Adressbuchs von Groß-Berlin von 1931"/>
-					</div> -->
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/zentral-landesbibliothek_berlin.jpg" alt="Grossstadtgeschichten"/>
+					</div>
 
 				</div>
 				<div class="data-content">
@@ -3185,7 +3134,7 @@ js: daten.js
 						<dt>Lizenz</dt>
 						<dd class="data-license">
 							Abhängig vom Objekt: <br />
-							Medienobjekte und Orte <span class="label label-danger">CC-0</span><br />
+							Medienobjekte und Orte <span class="label label-danger">CC0</span><br />
 							Geschichten <span class="label label-danger">CC-BY-SA</span><br />
 
 						</dd>
@@ -3249,6 +3198,7 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
+							<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">API der DDB</a><br/>
 							<a href="https://offenedaten.de/dataset/adressbuchdaten-des-judischen-adressbuchs-fur-grob-berlin-von-1931">Metadaten</a>
 						</dd>
 					</dl>
@@ -3336,6 +3286,7 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
+							<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">API der DDB</a><br/>
 							<a href="https://offenedaten.de/dataset/ns-raubgut-aus-den-bestanden-der-zentral-und-landesbibliothek-berlin">Metadaten</a>
 						</dd>
 					</dl>
