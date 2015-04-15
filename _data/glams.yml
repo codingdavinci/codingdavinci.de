@@ -1,7 +1,7 @@
 -
   name:  "Stadtarchiv Speyer"
   image: "/img/logos-2015/Logo-Stadt-Speyer.jpg"
-  link:  "www.stadtarchiv.speyer.de"
+  link:  "http://www.stadtarchiv.speyer.de"
 -
   name:  "Bayerische Staatsbibliothek"
   image: "/img/logos-2015/bsb_logo.gif"
@@ -11,13 +11,13 @@
   image: "/img/logos-2015/BG_ClaimDE_Schwarz_sRGB_jpg_NL_300x96.jpg"
   link:  "http://www.berlinischegalerie.de/"
 -
-  name:  "Botanischer  Garten & Botanisches Museum Berlin"
+  name:  "Botanischer Garten & Botanisches Museum Berlin"
   image: "/img/logos-2015/BGBM_Logo_Arbeitsfassung_IIa_RGB.png"
-  link:  "www.bgm.org"
+  link:  "http://www.bgbm.org/"
 -
   name:  "Computerspielemuseum"
   image: "/img/logos-2015/CSM-logo-new.png"
-  link:  "www.computerspielemuseum.de"
+  link:  "http://www.computerspielemuseum.de"
 -
   name:  "Deutsche Nationalbibliothek"
   image: "/img/logos-2015/dnb.jpg"
@@ -25,11 +25,11 @@
 -
   name:  "Deutsche Nationalbibliothek / Deutsches Buch- und Schriftmuseum"
   image: "/img/logos-2015/dnb_DBuSM_RGB.jpg"
-  link:  "www.dnb.de"
+  link:  "http://www.dnb.de"
 -
   name:  "Deutsches Filminstitut"
   image: "/img/logos-2015/logo_dif_dfm1024.jpg"
-  link:  "deutsches-filminstitut.de"
+  link:  "http://deutsches-filminstitut.de"
 -
   name:  "Deutsches Museum"
   image: "/img/logos-2015/Logo_Deutsches_Museum.jpg"
@@ -37,27 +37,27 @@
 -
   name:  "GRIPS Theater Berlin"
   image: "/img/logos-2015/GRIPS_Logo_Kiste_rot.jpg"
-  link:  "www.grips-theater.de"
+  link:  "http://www.grips-theater.de"
 -
   name:  "Hochschule für Technik und Wirtschaft Berlin, Historisches Archiv"
   image: "/img/logos-2015/HTW_Logo_rgb.png"
-  link:  "www.htw­berlin.de"
+  link:  "http://www.htw­berlin.de"
 -
   name:  "Internationales Theaterinstitut Deutschland"
   image: "/img/logos-2015/070172 ITI-Logo.png"
-  link:  "www.iti-germany.de"
+  link:  "http://www.iti-germany.de"
 -
   name:  "Jüdisches Museum Berlin"
   image: "/img/logos-2015/jmb.jpg"
-  link:  "www.jmberlin.de"
+  link:  "http://www.jmberlin.de"
 -
   name:  "Landesarchiv Baden-Württemberg"
   image: "/img/logos-2015/labw.jpg"
-  link:  "www.landesarchiv­bw.de"
+  link:  "http://www.landesarchiv­bw.de"
 -
   name:  "Language Science Press"
   image: "/img/logos-2015/langsci_logo_black.png"
-  link:  "www.langsci-press.org"
+  link:  "http://www.langsci-press.org"
 -
   name:  "Museum für Naturkunde Berlin"
   image: "/img/logos-2015/mfnb_logo_light_backgrounds_cmyk_300dpi.jpg"
@@ -65,11 +65,11 @@
 -
   name:  "Museumsdorf Cloppenburg"
   image: "/img/logos-2015/Signet Museumsdorf 2010 D.jpg"
-  link:  "www.museumsdorf.de"
+  link:  "http://www.museumsdorf.de"
 -
   name:  "Regesta Imperii"
   image: "/img/logos-2015/ri-logo.jpg"
-  link:  "www.regesta-imperii.de"
+  link:  "http://www.regesta-imperii.de"
 -
   name:  "SLUB Dresden"
   image: "/img/logos-2015/slub_logo.jpg"
@@ -81,23 +81,23 @@
 -
   name:  "Haus der Geschichte"
   image: "/img/logos-2015/logo_hdg_klein_rgb (1).jpg"
-  link:  "www.hdg.de"
+  link:  "http://www.hdg.de"
 -
   name:  "Stiftung Stadtmuseum"
   image: "/img/logos-2015/stiftung_stadtmuseum.png"
-  link:  "www.stadtmuseum.de"
+  link:  "http://www.stadtmuseum.de"
 -
   name:  "Universitätsbibliothek Leipzig"
   image: "/img/logos-2015/mfnb_logo_light_backgrounds_cmyk_300dpi.jpg"
-  link:  "www.dh.uni­-leipzig.de"
+  link:  "http://www.dh.uni­-leipzig.de"
 -
   name:  "Universitätsbibliothek der Bauhaus-Universität Weimar"
   image: "/img/logos-2015/Logo_Universitätsbibliothek_R183_G26_B73.png"
-  link:  "www.uni-weimar.de/ub"
+  link:  "http://www.uni-weimar.de/ub"
 -
   name:  "Universitätsbibliothek Leipzig"
   image: "/img/logos-2015/logo_opp.png"
-  link:  "www.uni-leipzig.de"
+  link:  "http://www.uni-leipzig.de"
 -
   name:  "Veikkosarchiv"
   image: "/img/logos-2015/Veikkos-Comic18.jpg"
