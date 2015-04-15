@@ -148,7 +148,7 @@ $(document).ready(function () {
 	// show all - link
 	$(".navigation-all").click(function (e) {
 		$('.data-entry').removeClass('hidden');
-		$("#navigation-entries li").removeClass('active');
+		$("#start").addClass('hidden');
 		e.stopPropagation();
 		return false;
 	});

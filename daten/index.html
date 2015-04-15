@@ -39,21 +39,22 @@ js: daten.js
 
 		<div class="data-entry" id="start">
 			<p>
-				Diese Kulturdaten und Inhalte stehen unter einer offenen Lizenz und sind daher für jede Person frei nutzbar.</br>
-				</br>
+				Diese Kulturdaten und Inhalte stehen unter einer offenen Lizenz und sind daher für jede Person frei nutzbar.
+			</p>
+			<p>
 				Wir danken allen teilnehmenden Kulturinstitutionen, die durch die Bereitstellung dieser Daten kulturelle Bildung, Kreativität und freies Wissen fördern. 
 			</p>
-			<p>Daten können in der Auswahl gefiltert oder <a href class="navigation-all">komplett angezeigt werden</a></p>
+			<p>Daten können in der Auswahl gefiltert oder <a href="#" class="navigation-all">komplett angezeigt werden</a></p>
 			<div class="sponsor-container">
-        	{% for glam in site.data.glams %}
-          		
-          			<figure class="sponsor">
-            			<img src="{{ glam.image }}" />
-            				<figcaption>{{ glam.name }}</figcaption>
-          			</figure>
-          		
-        	{% endfor %}
-      </div>
+			{% for glam in site.data.glams %}
+				
+					<figure class="sponsor">
+						<img src="{{ glam.image }}" />
+							<figcaption>{{ glam.name }}</figcaption>
+					</figure>
+				
+			{% endfor %}
+			</div>
 		</div>
 
 		<div class="data-entry" id="stadtarchiv-speyer">
@@ -110,9 +111,6 @@ js: daten.js
 			<div class="data-interlude">
 				<h3>Bayerische Staatsbibliothek</h3>
 			</div>
-			
-				
-			
 			<div class="data-point">
 				<div class="data-media">
 					<div class="thumbnail">
@@ -122,20 +120,21 @@ js: daten.js
 				<div class="data-content">
 					<h4>Titeldaten und Bestandsnachweise der Bibliotheken in Bayern, Berlin und Brandenburg</h4>
 					<p>
-						Der Gemeinsame Verbundkatalog der wissenschaftlichen Bibliotheken Bayerns, Berlins und Brandenburgs enthält die Metadaten aller dort verfügbaren Medien. Die Daten der rund 22 Mio. Titel umfassen grundlegende bibliographische Informationen wie Autoren, Titel und Erscheinungsjahre, aber auch deren sachliche und klassifikatorische Erschließung. Zusätzlich sind die im Verbundkatalog vorhandenen Bestandsnachweise nutzbar. Mit ihnen können Sie abfragen, in welchen Bibliotheken die Medien erhältlich sind. Die Daten sind mit zahlreichen Links auf weitere Linked Open Data­ Angebote versehen:­ 
-						<ul>
-						<li>Gemeinsame Normdatei (u.a. sachliche Erschließung mit Schlagworten, Personennormdaten zu Urhebern und Beitragenden)­ </li>
+						Der Gemeinsame Verbundkatalog der wissenschaftlichen Bibliotheken Bayerns, Berlins und Brandenburgs enthält die Metadaten aller dort verfügbaren Medien. Die Daten der rund 22 Mio. Titel umfassen grundlegende bibliographische Informationen wie Autoren, Titel und Erscheinungsjahre, aber auch deren sachliche und klassifikatorische Erschließung. Zusätzlich sind die im Verbundkatalog vorhandenen Bestandsnachweise nutzbar. Mit ihnen können Sie abfragen, in welchen Bibliotheken die Medien erhältlich sind. Die Daten sind mit zahlreichen Links auf weitere Linked Open Data­ Angebote versehen:­
+					</p>
+					<ul>
+						<li>Gemeinsame Normdatei (u.a. sachliche Erschließung mit Schlagworten, Personennormdaten zu Urhebern undBeitragenden)­ </li>
 						<li>Dewey Decimal Classification (klassifikatorische Erschließung mit der DDC)­ </li>
 						<li>Titelaufnahmen in den anderen deutschen Verbünden­ Bibliotheks­ Metadaten auf lobid.org (u.a. Geokoordinaten und Adressen der Bibliotheken)</li>
-						</ul>
-						Die verwendeten Prädikate folgen den Empfehlungen der DINI AG KIM Titeldaten, die die deutschen Bibliotheksverbünde gemeinsam erstellt haben und umsetzen. Die Daten liegen als RDF vor, so dass u.a. alle verlinkten direkt zusammen mit dem angebotenen Datenset verwendbar sind. Die B3Kat­Daten können sie im Format RDF/Turtle von https://lod.b3kat.de/doc/downloadherunterladen, oder über http://lod.b3kat.de/sparql abfragen.
+					</ul>
+					<p>
+						Die verwendeten Prädikate folgen den Empfehlungen der DINI AG KIM Titeldaten, die die deutschen Bibliotheksverbünde gemeinsam erstellt haben und umsetzen.Die Daten liegen als RDF vor, so dass u.a. alle verlinkten direkt zusammen mit dem angebotenen Datensetverwendbar sind. Die B3Kat­Daten können sie im Format RDF/Turtle von https://lod.b3kat.de/doc/downloadherunterladen, oder über http://lod.b3kat.de/sparql abfragen.
 					</p>
 				</div>
 				<div class="data-meta">
 					<dl>
 						<dt>Namensnennung</dt>
-						<dd>Bayerische Staatsbibliothek</dd>
-						
+						<dd>Bayerische Staatsbibliothek</dd>			
 <!--
 						<dt>Kategorien</dt>
 						<dd class="data-category">
@@ -448,15 +447,16 @@ js: daten.js
 					</p>
 					<ul>
 						<li>Access token: 6cbd1c81144369ed601f4e9c56b07c</li>
-						<ul>
-							<li><a href="https://services.dnb.de/sru/dnb?version=1.1&operation=searchRetrieve&query=catalog=dnb.wk1&recordSchema=RDFxml&accessToken=6cbd1c81144369ed601f4e9c56b07c">Bsp.: Abfrage für die Metadaten zur Sammlung Erster Weltkrieg im Format RDF - XML</a></li>
-							<li><a href="https://services.dnb.de/sru/dnb?version=1.1&operation=searchRetrieve&query=cod=d008%20and%20location=onlinefree&recordSchema=RDFxml&accessToken=6cbd1c81144369ed601f4e9c56b07c">Bsp.: Abfrage für die Metadaten zu den freien Digitalisaten im Format RDFxml (1.043):</a></li>
-						</ul>
+						<li>
+							<ul>
+								<li><a href="https://services.dnb.de/sru/dnb?version=1.1&amp;operation=searchRetrieve&amp;query=catalog=dnb.wk1&amp;recordSchema=RDFxml&amp;accessToken=6cbd1c81144369ed601f4e9c56b07c">Bsp.: Abfrage für die Metadaten zur Sammlung Erster Weltkrieg im Format RDF - XML</a></li>
+								<li><a href="https://services.dnb.de/sru/dnb?version=1.1&amp;operation=searchRetrieve&amp;query=cod=d008%20and%20location=onlinefree&amp;recordSchema=RDFxml&amp;accessToken=6cbd1c81144369ed601f4e9c56b07c">Bsp.: Abfrage für die Metadaten zu den freien Digitalisaten im Format RDFxml (1.043):</a></li>
+							</ul>
+						</li>
 					</ul>
 					<p>
-						Die Digitalisate sind immer unter dem Archiv-Link in Zusammenhang mit dem Identifier (IDN) abruf- und downloadbar http://d-nb.info/[IDN]/34  (führt zum ZIP-Container)</p>
+						Die Digitalisate sind immer unter dem Archiv-Link in Zusammenhang mit dem Identifier (IDN) abruf- und downloadbar http://d-nb.info/[IDN]/34  (führt zum ZIP-Container)
 					</p>
-					
 				</div>
 				<div class="data-meta">
 					<dl>
@@ -630,8 +630,8 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							<a href="https://wolke.deutsches-museum.de/public.php?service=files&t=42266b05715b75a8863487ca601ef1dd">Metadaten</a><br />
-							<a href="https://wolke.deutsches-museum.de/public.php?service=files&t=ce7d6d94e25d34b102f9ab807b359254">Bilder</a>
+							<a href="https://wolke.deutsches-museum.de/public.php?service=files&amp;t=42266b05715b75a8863487ca601ef1dd">Metadaten</a><br />
+							<a href="https://wolke.deutsches-museum.de/public.php?service=files&amp;t=ce7d6d94e25d34b102f9ab807b359254">Bilder</a>
 						</dd>
 					</dl>
 				</div>
@@ -651,14 +651,14 @@ js: daten.js
 				<div class="data-content">
 					<p>
 						Das <a href="http://www.ehh.uni-jena.de/">Ernst-Haeckel-Haus der Friedrich-Schiller-Universität Jena</a> hat ein ganz spezifisches Profil. Historisch gewachsen ist die Doppelfunktion als Museum und als wissenschaftshistorisches Universitätsinstitut mit angeschlossenen Archiv- und Sammlungsbeständen. Ein neuer Sammlungsschwerpunkt ist die <i>Experimentelle Wissenschaftsgeschichte</i>. 
-						</br>
-						</br>
-						Die Sammlung <i>Experimentelle Wissenschaftsgeschichte</i> des Ernst-Haeckel-Hauses umfasst derzeit 31 Instrumente. Als Ergebnis eines studentischen Seminars kann die Sammlung im Portal <a href="http://www.museen.thueringen.de/Objektsuche/|Einrichtung|DE-MUS-873516|">museen.thueringen.de</a> präsentiert werden.
 					</p>
 
 					<p>
-						Die Metadaten der Instrumentensammlung liegen im LIDO XML Format vor und sind unter CC-BY-SA Lizenz verfügbar. Die Sachbegriffe, die Personen und Körperschaften und die Orte enthalten jeweils URIs auf die <a href="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">GND der Deutschen Nationalbibliothek</a>. Die Sachbegriffe sind außerdem auf den <a href="http://vocab.getty.edu/aat/">AAT-LOD Dienst</a> von <a href="http://www.getty.edu/research/tools/vocabularies/aat/">Getty</a> gemappt. Die Orte haben zusätzlich Verknüpfungen nach <a
-							href="http://www.geonames.org">Geonames</a> und zu dem <a href="https://www.getty.edu/research/tools/vocabularies/tgn/">TGN von Getty</a>.
+						Die Sammlung <i>Experimentelle Wissenschaftsgeschichte</i> des Ernst-Haeckel-Hauses umfasst derzeit 31 Instrumente. Als Ergebnis eines studentischen Seminars kann die Sammlung im Portal <a href="http://www.museen.thueringen.de/Objektsuche/%7CEinrichtung%7CDE-MUS-873516%7C">museen.thueringen.de</a> präsentiert werden.
+					</p>
+
+					<p>
+						Die Metadaten der Instrumentensammlung liegen im LIDO XML Format vor und sind unter CC-BY-SA Lizenz verfügbar. Die Sachbegriffe, die Personen und Körperschaften und die Orte enthalten jeweils URIs auf die <a href="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">GND der Deutschen Nationalbibliothek</a>. Die Sachbegriffe sind außerdem auf den <a href="http://vocab.getty.edu/aat/">AAT-LOD Dienst</a> von <a href="http://www.getty.edu/research/tools/vocabularies/aat/">Getty</a> gemappt. Die Orte haben zusätzlich Verknüpfungen nach <a href="http://www.geonames.org">Geonames</a> und zu dem <a href="https://www.getty.edu/research/tools/vocabularies/tgn/">TGN von Getty</a>.
 					</p>
 				</div>
 				<div class="data-meta">
@@ -688,7 +688,7 @@ js: daten.js
 						<dt>Links</dt>
 						<dd>
 							Bilder: JPGs mit max. 1600 Pixeln und Link auf den <a href="http://www.mycore.de">myCore Viewer</a> der <a href="http://www.thulb.uni-jena.de">ThULB Jena</a><br/>
-							Metadaten: <a href="https://www.deutsche-digitale-bibliothek.de/searchresults?query=*&facetValues[]=provider_fct%3DFriedrich-Schiller-Universit%C3%A4t+Jena%3A+Ernst-Haeckel-Haus&offset=0">DDB API</a>
+							Metadaten: <a href="https://www.deutsche-digitale-bibliothek.de/searchresults?query=*&amp;facetValues%5B%5D=provider_fct%3DFriedrich-Schiller-Universit%C3%A4t+Jena%3A+Ernst-Haeckel-Haus&amp;offset=0">DDB API</a>
 						</dd>
 					</dl>
 				</div>
@@ -999,8 +999,8 @@ js: daten.js
 					<p>
 						Bildanzeige: <a href="http://diglib.hab.de/mss/1-gud-lat/start.htm">http://diglib.hab.de/mss/1-gud-lat/start.htm</a><br/>
 						Liste der Bilder: <a href="http://diglib.hab.de/mss/1-gud-lat/facsimile.xml">http://diglib.hab.de/mss/1-gud-lat/facsimile.xml</a><br/>
-						Beschreibung: <a href="http://diglib.hab.de/?db=mss&list=ms&id=1-gud-lat">http://diglib.hab.de/?db=mss&list=ms&id=1-gud-lat</a><br/>
-						Beschreibung als XML: <a href="http://diglib.hab.de/?db=mss&list=ms&id=1-gud-lat&mode=xml">http://diglib.hab.de/?db=mss&list=ms&id=1-gud-lat&mode=xml</a><br/>
+						Beschreibung: <a href="http://diglib.hab.de/?db=mss&amp;list=ms&amp;id=1-gud-lat">http://diglib.hab.de/?db=mss&amp;list=ms&amp;id=1-gud-lat</a><br/>
+						Beschreibung als XML: <a href="http://diglib.hab.de/?db=mss&amp;list=ms&amp;id=1-gud-lat&amp;mode=xml">http://diglib.hab.de/?db=mss&amp;list=ms&amp;id=1-gud-lat&amp;mode=xml</a><br/>
 					</p>
 				</div>
 				<div class="data-meta">
@@ -1053,14 +1053,12 @@ js: daten.js
 					<h4>Stoffmusterbücher aus dem Historischen Archiv der HTW</h4>
 					<p>
 						Das Historische Archiv der HTW Berlin bewahrt unter anderem rund 50 großformatige Stoffmusterbücher bzw. ­Mappen (mit einzelnen Tafeln, sog. Tafelkonvolute) aus der Zeit um 1830­-1930. Sie bilden den (vermutlich) kleineren Teil einer umfangreichen Lehr­- und Studiensammlung der ehemaligen Städtischen Höheren Webeschule (einer Vorgängereinrichtung der HTW). Der Großteil dieser Sammlung ist 1956 an das Kunstgewerbemuseum SMB­PK abgegeben worden. Der gesamte Bestand stellt eine vielschichtige Quelle für die Textilstadt Berlin dar und hat große Bedeutung für die kulturhistorische Textil­ und Modeforschung. Die Bücher liegen als Kollektionsmusterbücher, Konkurrenzmusterbücher oder Tafelkonvolute vor. Für Coding da Vinci haben wir einen Teil der Stoffmuster ausgewählt: Baumwolldruck, Webmuster, Borten. Sie sind wegen ihrer großen Vielfalt an Strukturen, Mustern und Farben formal und ästhetisch interessant. Unklar sind bislang die genaue Datierung, die Hersteller sowie mögliche Vorbilder für die Muster. Daher enthalten die Metadaten nur wenige Angaben, vor allem zur Kategorisierung der einzelnen Bücher und zu ihrem Zustand. Die einzelnen Datensätze lassen sich über die Inventarnummern mit den Mediendateien in der Wikimedia Commons verknüpfen.
-						<ul>
-							<li>Art der Mediendateien: 2D­-Scans der Stoffmuster</li>
-							<li>Georeferenzen: liegen bislang nicht vor.</li>
-							<li>Kontrolliertes Vokabular: keines</li>
-						</ul>
 					</p>
-
-					
+					<ul>
+						<li>Art der Mediendateien: 2D­-Scans der Stoffmuster</li>
+						<li>Georeferenzen: liegen bislang nicht vor.</li>
+						<li>Kontrolliertes Vokabular: keines</li>
+					</ul>
 				</div>
 				<div class="data-meta">
 					<dl>
@@ -1257,7 +1255,7 @@ js: daten.js
 			<div class="data-point">
 				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/labw.jpg" alt="Militärhistorische Bildsammlung"/>
+						<img src="{{ site.baseurl }}img/logos-2015/labw.jpg" alt="Militärhistorische Bildsammlung"/>
 					</div>
 				</div>
 				<div class="data-content">
@@ -1431,14 +1429,16 @@ js: daten.js
 					<p>
 						URLs für "Videos" stehen in "/archive-path", z.B.:
 					</p>
-					<pre>&lt;archive-path&gt;http://einstein-virtuell.mpiwg-berlin.mpg.de/VEA/SC-1816523987_MOD355385129_SEQ-610673245_SL2060416494_de.html&lt;/archive-path&gt;</pre>
+					<pre>
+						&lt;archive-path&gt;http://einstein-virtuell.mpiwg-berlin.mpg.de/VEA/SC-1816523987_MOD355385129_SEQ-610673245_SL2060416494_de.html&lt;/archive-path&gt;
+					</pre>
 					<p>
 						Für "Book" setzt sich die URL aus der Serveradresse und der Pfadangabe unter "/archive-path" zusammen:
 					</p>
-<pre>
-"http://echo.mpiwg-berlin.mpg.de/ECHOdocuView?url=" + "/archive-path", z.B.:
-&lt;archive-path&gt;/mpiwg/online/permanent/archimedes_repository/large/monte_mecha_037_it_1581&lt;/archive-path&gt;
-</pre>
+					<pre>
+						"http://echo.mpiwg-berlin.mpg.de/ECHOdocuView?url=" + "/archive-path", z.B.:
+						&lt;archive-path&gt;/mpiwg/online/permanent/archimedes_repository/large/monte_mecha_037_it_1581&lt;/archive-path&gt;
+					</pre>
 
 					<p>Die URL ist dann wie folgt:</p>
 					<pre>http://echo.mpiwg-berlin.mpg.de/ECHOdocuView?url=/mpiwg/online/permanent/archimedes_repository/large/monte_mecha_037_it_1581</pre>
@@ -2123,9 +2123,9 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							Die Erst-Weltkriegsdigitalisate der SBB sind über die OAI-Schnittstelle der SBB ist über diesen Link aufrufbar: <a href="http://digital.staatsbibliothek-berlin.de/oai/?verb=ListRecords&metadataPrefix=oai_dc&set=DC_krieg.1914.1918">OAI-DC</a><br/>
+							Die Erst-Weltkriegsdigitalisate der SBB sind über die OAI-Schnittstelle der SBB ist über diesen Link aufrufbar: <a href="http://digital.staatsbibliothek-berlin.de/oai/?verb=ListRecords&amp;metadataPrefix=oai_dc&amp;set=DC_krieg.1914.1918">OAI-DC</a><br/>
 							<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">API der DDB</a><br/>
-							<a href="http://digital.staatsbibliothek-berlin.de/oai/?verb=ListRecords&metadataPrefix=mets&set=DC_krieg.1914.1918 ">METS (umfangreicherer Datensatz)</a>
+							<a href="http://digital.staatsbibliothek-berlin.de/oai/?verb=ListRecords&amp;metadataPrefix=mets&amp;set=DC_krieg.1914.1918 ">METS (umfangreicherer Datensatz)</a>
 						</dd>
 					</dl>
 				</div>
@@ -2174,7 +2174,8 @@ js: daten.js
 						-->
 						<dt>Lizenz</dt>
 						<dd class="data-license">
-							<span class="label label-danger">Public Domain</span>
+							Digitalisate: <span class="label label-danger">Public Domain</span><br/>
+							Metadaten: <span class="label label-danger">CC0</span>
 						</dd>
 						<dt>Dateityp</dt>
 						<dd class="data-type">
@@ -2284,7 +2285,8 @@ js: daten.js
 						-->
 						<dt>Lizenz</dt>
 						<dd class="data-license">
-							<span class="label label-danger">Public Domain</span>
+							Digitalisate: <span class="label label-danger">Public Domain</span><br/>
+							Metadaten: <span class="label label-danger">CC0</span>
 						</dd>
 						<dt>Dateityp</dt>
 						<dd class="data-type">
@@ -2334,7 +2336,8 @@ js: daten.js
 						-->
 						<dt>Lizenz</dt>
 						<dd class="data-license">
-							<span class="label label-danger">Public Domain</span>
+							Digitalisate: <span class="label label-danger">Public Domain</span><br/>
+							Metadaten: <span class="label label-danger">CC0</span>
 						</dd>
 						<dt>Dateityp</dt>
 						<dd class="data-type">
@@ -2376,8 +2379,6 @@ js: daten.js
 					<p>
 						Die Metadaten enthalten in aller Regel Angaben zu Maßstab, Format und ggf. Farbigkeit der Karten und Pläne. Kontrolliertes Vokabular: über den Kataloglink als Erschließungselemente erreichbar."
 					</p>
-
-					
 				</div>
 				<div class="data-meta">
 					<dl>
@@ -2417,8 +2418,6 @@ js: daten.js
 					<p>
 						Mit dem von Prof. Iris Wenderholm an der Universität Hamburg durchgeführten Lehr- und Ausstellungsprojekt „Manier, Mythos und Moral“ wurde einer der wertvollsten und für Hamburger Sammlungen der Frühen Neuzeit aussagekräftigsten Teilbestände der Kupferstichsammlung wissenschaftlich erschlossen und digitalisiert. Mit „Manier“ ist der epochengebundene Stil des Manierismus gemeint, mit „Mythos“ wird auf die beliebten Motive aus der antiken Mythologie angespielt und mit „Moral“ werden die durch Bildinschriften zugewiesenen, meist moralischen Deutungen beschrieben. Der Wert der Stiche liegt ohne Zweifel in ihrer künstlerischen Qualität, bei einigen zusätzlich in ihrer Seltenheit. Zugleich spiegelt dieser Teilbestand den Schwerpunkt Hamburger Privatsammlungen wieder, die sich vornehmlich durch niederländische Kunstwerke auszeichneten. Die 161 digitalisierten Kupferstiche zeigen vor allem Allegorien, d.h. Symbole und Personifizierungen, z.B. für verschiedene Charaktere, die fünf Sinne, Tugenden und Sünden der Menschen oder auch für die vier Elemente, Planeten und Kontinente, in einem kunstsinnigen Zusammenspiel von Wort und Bild. Dabei lassen sich die Blätter insog. Denkräume clustern. Darstellungen zum Einfluss der Götter oder Sterne auf die Menschen gehören zu der für die Frühe Neuzeit zentralen Vorstellung einer gegenseitigen Bedingtheit von Mikrokosmos und Makrokosmos. Ordnungssysteme wie Jahres- und Tagzeiten, die Kontinente oder die hier immer wiederkehrende Zahl „vier“ sowie die Allegorisierung menschlicher Fähigkeiten und der Vergänglichkeit des Lebens gehören ebenfalls dazu. Interessant sind die unterschiedlichsten, mitunter sehr ideenreichen und doch ähnlichen Darstellungen der sieben Tugenden und Todsünden. Und schließlich sind da die mythologischen Szenen, die vor allem mit der Darstellung der Götterliebschaften das Wohl und Weh der Liebe visualisieren. Beinahe jedes Detail, und sei es noch so klein, jede Figur, jedes Objekt, jede Szene ist in diesen Stichen bedeutungsschwanger und damit beachtenswert. Deutungshilfe geben die Texte in den Kupferstichen, die alle übersetzt und publiziert wurden in: Manier, Mythos und Moral: niederländische Druckgraphik um 1600 aus den Beständender Staats- und Universitätsbibliothek Hamburg / Iris Wenderholm (Hg.). Petersberg: Imhof,2014. (Publikationen der Staats- und Universitätsbibliothek Carl von Ossietzky; 6). Die Publikation wird zur Verfügung gestellt. Die Metadaten enthalten in aller Regel Angaben zu den Künstlern, Titeln, Titelreihen, Format und Entstehungsdaten. Kontrolliertes Vokabular: über den Kataloglink als Erschließungselemente erreichbar.
 					</p>
-
-					
 				</div>
 				<div class="data-meta">
 					<dl>
@@ -2772,7 +2771,7 @@ js: daten.js
 					</p>
 
 					<p>
-						Mittels unserer OAI-PMH Schnittstelle können zunächst die Metadaten aus dem TextGrid Repository abegholt werden. Zum Beispiel: <a href="http://textgrid-esx2.gwdg.de/1.0/tgoaipmh/oai?verb=GetRecord&identifier=wr71.0&metadataPrefix=oai_dc">http://textgrid-esx2.gwdg.de/1.0/tgoaipmh/oai?verb=GetRecord&identifier=wr71.0&metadataPrefix=oai_dc</a>
+						Mittels unserer OAI-PMH Schnittstelle können zunächst die Metadaten aus dem TextGrid Repository abegholt werden. Zum Beispiel: <a href="http://textgrid-esx2.gwdg.de/1.0/tgoaipmh/oai?verb=GetRecord&amp;identifier=wr71.0&amp;metadataPrefix=oai_dc">http://textgrid-esx2.gwdg.de/1.0/tgoaipmh/oai?verb=GetRecord&amp;identifier=wr71.0&amp;metadataPrefix=oai_dc</a>
 
 						In einem der Relations-Felder ist eine URL hinterlegt, welcher direkt zum TEI-Objekt.
 						In diesem Fall also: <a href="http://textgrid-esx1.gwdg.de/1.0/aggregator/teicorpus/textgrid:wr71.0">http://textgrid-esx1.gwdg.de/1.0/aggregator/teicorpus/textgrid:wr71.0</a>
@@ -3020,7 +3019,7 @@ js: daten.js
 						<dd>
 							<a href="https://offenedaten.de/storage/f/2015-04-09T09%3A33%3A53.577Z/metadaten-dressel-lebensbeschreibung-1751-1773.csv">Metadaten</a>
 							<a href="http://commons.wikimedia.org/wiki/Category:B%C3%BCrgerverzeichnis_Charlottenburg?uselang=de">Handschrift 1</a><br />
-							Link 2­ - 4 sind noch nicht hochgeladen<br>
+							Link 2­ - 4 sind noch nicht hochgeladen<br/>
 							<a href="http://commons.wikimedia.org/wiki/Category:Armenhaus­Akte_Charlottenburg?uselang=de">Handschrift 5</a>
 						</dd>
 					</dl>
@@ -3091,33 +3090,29 @@ js: daten.js
 					</p>
 					<p>
 						Beispielhaft sind hier die Kern-Metadatenfelder für Medienobjekte aufgeführt, in der Dokumentation sind weiterführende Informationen enthalten: 
-						<ul>
-							<li>Titel | Bsp.: Blick in die Dennewitzstraße an der Einmündung in die Bülowstraße</li>
-							Urheber | Waldemar Titzenthaler
-							<li>Urheber GND | 119164329</li>
-							<li>Datierung | 1905</li>
-							<liu>Date-ISO-8601 | 1905-01-01</liu>
-							<li>Periode | Jahrhundertwende (1890-1914) (Auswahlliste)</li>
-							<li>Kurztext | Blick in die Dennewitzstraße an der Einmündung in die Bülowstraße (vorn). Hausdurchfahrt der Hochbahnlinie in Richtung </li>
-							<li>Gleisdreieck. Die Gebäude wurden im November 1943 bei einem Luftangriff zerstört. Scan aus dem Buch: Antonia Meiners (Ed.), Berlin. </li>
-							<li>Photographien 1880-1930, Berlin 2002, S. 95.</li>
-							<li>Nutzungsinformationen | Public Domain (Auswahlliste)</li>
-							<li>Datenanbieter | Wikimedia Commons</li>
-							<li>Quelle | http://commons.wikimedia.org/wiki/File:Dennewitzstra%C3%9Fe_Berlin_1905.jpg </li>
-							<li>Thema | Berliner Straßenansichten</li>
-							<li>Ort:ID (linked_locations_to_object .id) | 333</li>
-							<li>Ort:URL (linked_locations_to_object .url) | http://grossstadtgeschichten-berlin.de/api/items/333</li>
-							<li>Ort:Titel (linked_locations_to_object .title) | Dennewitzstraße / Ecke Bülowstraße</li>
-							<li>→ nach API-Anfrage http://grossstadtgeschichten-berlin.de/api/items/333
-							   Postleitzahl: 10783; Bezirk: Tempelhof-Schöneberg; geolocations.url: http://grossstadtgeschichten-berlin.de/api/geolocations/34 
-							<li>→ nach API-Anfrage: http://grossstadtgeschichten-berlin.de/api/geolocations/34:</li>
-							       ""latitude"": 52.496928543872; ""longitude"": 13.365919589996,; „zoom_level"": 15; etc.</li>
-
-							<li>Mediendateien (files.url) | http://grossstadtgeschichten-berlin.de/api/files?item=332</li>
-							<li>→ nach API-Anfrage http://grossstadtgeschichten-berlin.de/api/files?item=332:
-							   LINK zur Mediendatei (file.urls.(original|fullsize|thumbnail|square_thumbnail)), z.B.: 
-							   http://grossstadtgeschichten-berlin.de/files/original/8066d2192297d580c1b5f749a07451b1.jpg"</li>
 					</p>
+					<ul>
+						<li>Titel | Bsp.: Blick in die Dennewitzstraße an der Einmündung in die Bülowstraße</li>
+						<li>Urheber | Waldemar Titzenthaler</li>
+						<li>Urheber GND | 119164329</li>
+						<li>Datierung | 1905</li>
+						<li>Date-ISO-8601 | 1905-01-01</li>
+						<li>Periode | Jahrhundertwende (1890-1914) (Auswahlliste)</li>
+						<li>Kurztext | Blick in die Dennewitzstraße an der Einmündung in die Bülowstraße (vorn). Hausdurchfahrt der Hochbahnlinie in Richtung</li>
+						<li>Gleisdreieck. Die Gebäude wurden im November 1943 bei einem Luftangriff zerstört. Scan aus dem Buch: Antonia Meiners (Ed.), Berlin.</li>
+						<li>Photographien 1880-1930, Berlin 2002, S. 95.</li>
+						<li>Nutzungsinformationen | Public Domain (Auswahlliste)</li>
+						<li>Datenanbieter | Wikimedia Commons</li>
+						<li>Quelle | http://commons.wikimedia.org/wiki/File:Dennewitzstra%C3%9Fe_Berlin_1905.jpg</li>
+						<li>Thema | Berliner Straßenansichten</li>
+						<li>Ort:ID (linked_locations_to_object .id) | 333</li>
+						<li>Ort:URL (linked_locations_to_object .url) | http://grossstadtgeschichten-berlin.de/api/items/333</li>
+						<li>Ort:Titel (linked_locations_to_object .title) | Dennewitzstraße / Ecke Bülowstraße</li>
+						<li>→ nach API-Anfrage http://grossstadtgeschichten-berlin.de/api/items/333: Postleitzahl: 10783; Bezirk: Tempelhof-Schöneberg; geolocations.url: http://grossstadtgeschichten-berlin.de/api/geolocations/34</li>
+						<li>→ nach API-Anfrage: http://grossstadtgeschichten-berlin.de/api/geolocations/34: ""latitude"": 52.496928543872; ""longitude"": 13.365919589996,; „zoom_level"": 15; etc.</li>
+						<li>Mediendateien (files.url) | http://grossstadtgeschichten-berlin.de/api/files?item=332</li>
+						<li>→ nach API-Anfrage http://grossstadtgeschichten-berlin.de/api/files?item=332: LINK zur Mediendatei (file.urls.(original|fullsize|thumbnail|square_thumbnail)), z.B.: http://grossstadtgeschichten-berlin.de/files/original/8066d2192297d580c1b5f749a07451b1.jpg"</li>
+					</ul>
 				</div>
 				<div class="data-meta">
 					<dl>
