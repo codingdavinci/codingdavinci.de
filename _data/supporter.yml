@@ -43,3 +43,8 @@
   image: "/img/supporter/anynines-logo-orange.png"
   links: "<a href=\"http://www.anynines.com/\">Anynines</a>"
   role: 1
+-
+  name: "Senatskanzlei Berlin - Kulturelle Angelegenheiten"
+  image: "/img/supporter/senatskanzlei.png"
+  links: "<a href=\"http://www.berlin.de/sen/kultur/\">Senatskanzlei Berlin - Kulturelle Angelegenheiten</a>"
+  role: 2
