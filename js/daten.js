@@ -1,5 +1,8 @@
 $(document).ready(function () {
-	$('.data-entry').addClass('hidden');
+	if(!window.location.hash) {
+  		$('.data-entry').addClass('hidden');
+	}
+	
 
 	var filter = {
 		category: null,
