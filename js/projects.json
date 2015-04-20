@@ -219,22 +219,68 @@
           [ 
             {
               "class" : "projects-website",
-              "link" : "http://mr-fridge.de/apps/verbotene_autoren/index.php",
+              "link" : "http://cdv.sourcloud.com/berlin",
               "text" : "Webseite"
-            },
-            {
-              "class" : "projects-appstore",
-              "link" : "",
-              "text" : "tbd"
-            },
+            }          
           ],
         "data": 
           [
-            "NS-Buchverbotsliste",
+            "Ostberliner Fotoarchiv der Berlinischen Galerie",
+            "Google Maps / Google Street View + APIs",
             "Wikipedia",
-            "GND"
+            "selbsterfasste Aufnahmen + Geodaten"
           ],
-        "team": [15,16]
+        "team": [17]
+      },
+      {
+        //TODO: Links for offener Naturfuehrer
+        "name" : "Bestimmungsschlüssel",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/bestimmungsschluessel.png"
+          ],
+        "description" : "Aufmerksame Beobachter finden in der Natur viele spannende Pflanzen- und Tierarten. Nicht selten fragt man sich jedoch bei einem Spaziergang, welche Pflanze oder welches Tier man gerade gesehen hat. Käfer ist nicht gleich Käfer und Blume ist nicht gleich Blume. Mit einer Pflanzen- und Tierbestimmungsapp wird das Finden des richtigen Namens einfacher, denn der Nutzer muss nur wenige Fragen beantworten, um die Lösung zu finden. Ziel des Projekts Bestimmungsschlüssel ist es, eine moderne, einfach zu bedienende Variante für eine bereits bestehende App zu entwickeln, die auf allen wichtigen mobilen Plattformen funktioniert.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-website",
+              "link" : "http://b-content.com/projects/davinci/fulllist_Haeufige_Voegel_in_Gaerten_und_Siedlungen.php",
+              "text" : "Webseite"
+            },
+            {
+              "class" : "projects-github",
+              "link" : "https://github.com/Pedder/Haeufige-Voegel-in-Gaerten-und-Siedlungen/",
+              "text" : "Seite auf github"
+            }        
+          ],
+        "data": 
+          [
+            "Daten aus dem offenen Naturführer (http://biowikifarm.net/meta/Open_GLAM_Hackathon_2014#Analyse_von_Gigapixel-Scans_von_Insektenk.C3.A4sten)",
+          ],
+        "team": [18,19,20]
+      },
+      {
+        "name" : "DDBRest - javascript client for the DDB rest API",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/ddbrest.png"
+          ],
+        "description" : "Die Datenbank der Deutschen Digitalen Bibliothek gibt Zugang zu zahlreichen kulturellen und wissenschaftlichen Artefakten wie Büchern, Archiven, Bildern, Musik und Videos. Mit der API (Programmierschnitstelle) der DDB können Entwickler auf diese Daten und Inhalte zugreifen, um bspw. Webseiten und andere Dienste bauen zu können. Die Inhalte und Daten der DDB sind über viele Plattformen verfügbar sind - bis auf Javascript. Das DDBRest-Projekt verbindet alle API Schnittstellen in kleine handliche Pakete und erleichtert somit den Zugang zu allen verfügbaren Datenstrukturen in Node.js und den Browser. Damit haben Web-Entwickler es einfacher auf die DDB-Inhalte für ihre Webanwendungen zuzugreifen.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-github",
+              "link" : "http://github.com/kollektivpp/ddbrest",
+              "text" : "Seite auf github"
+            }        
+          ],
+        "data": 
+          [
+            "API der Deutschen Digitalen Bibliothek",
+          ],
+        "team": [21]
       }
     ],
   "persons" : 
@@ -343,6 +389,34 @@
         "name" : "Julius Peinelt, Mr. Fridge Software",
         "mail" : "julius@mr-fridge.de",
         "twitter" : "@codingFriends"
+      },
+      {
+        "id" : 17, 
+        "name" : "Erik Woitschig",
+        "github" : "iambnz",
+        "twitter" : "@iam_bnz",
+        "stackOverflow" : "http://stackoverflow.com/users/1816139/bnz"
+      },
+      {
+        "id" : 18, 
+        "name" : "Peter Pötsch"
+      },
+      ,
+      {
+        "id" : 19, 
+        "name" : "Stephan Klinger"
+      },
+      {
+        "id" : 20, 
+        "name" : "Thomas Tursics"
+      },
+      {
+        "id" : 21, 
+        "name" : "Christian Bromann",
+        "mail" : "mail@christian-bromann.com",
+        "twitter" : "@bromann",
+        "github" : "christian-bromann"
       }
+
     ]
 }

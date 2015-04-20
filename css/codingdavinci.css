@@ -357,6 +357,7 @@ li.active .navsub li a{
   margin-top: -3px;
 }
 
+
 .sponsor {
   padding: 0 4px;
   text-align: center;
@@ -366,14 +367,33 @@ li.active .navsub li a{
   font-size: 17px;
 }
 
+.glam {
+  padding: 0 4px;
+  text-align: center;
+  float: left;
+  margin: 20px 40px 0 0;
+  max-width: 25%;
+  font-size: 14px;
+}
+
 .sponsor > img {
   height: 70px;
+}
+
+.glam > img {
+  height: 50px;
 }
 
 .sponsor-container {
   
   display: table;
   width: 100%
+}
+
+.glam-container {
+  
+  display: table;
+  width: 130%
 }
 
 .sponser-header {

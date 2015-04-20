@@ -39,19 +39,25 @@ js: daten.js
 
 		<div class="data-entry" id="start">
 			<p>
-				Diese Kulturdaten und Inhalte stehen unter einer offenen Lizenz und sind daher für jede Person frei nutzbar.</br>
-				</br>
-				Wir danken allen teilnehmenden Kulturinstitutionen, die durch die Bereitstellung dieser Daten kulturelle Bildung, Kreativität und freies Wissen fördern. 
+				Diese Kulturdaten und Inhalte stehen unter einer offenen Lizenz und sind daher für jede Person frei nutzbar. Die Daten können in der Auswahl gefiltert oder komplett angezeigt werden. Auf der Suche nach ergänzenden, offenen Datensets? <a href="https://docs.google.com/spreadsheets/d/1DpcS3JDRcVsPfXZs5hdi4HFe4deTZCvRhX9sdEvNEfQ/edit?usp=sharing">Hier lang</a>.
 			</p>
-			<p>Daten können in der Auswahl gefiltert oder <a href class="navigation-all">komplett angezeigt werden</a></p>
-			<div class="sponsor-container">
+			<p>
+				Dieses Jahr nehmen 33 Kulturinstitutionen aus ganz Deutschland an Coding da Vinci teil - das sind doppelt so viele wie im letzten Jahr.
+			</p> 
+			<p>
+				Wir danken allen teilnehmenden Einrichtungen, die durch die Bereitstellung dieser Daten zur kulturellen Bildung beitragen, Kreativität und freies Wissen fördern.
+			</p>
+			<p>
+				Kulturinstitutionen, die 2015 an Coding da Vinci teilnehmen:
+			</p>
+			<div class="glam-container">
         	{% for glam in site.data.glams %}
-          		
-          			<figure class="sponsor">
+          		<a href="{{ glam.link }}">
+          			<figure class="glam">
             			<img src="{{ glam.image }}" />
             				<figcaption>{{ glam.name }}</figcaption>
           			</figure>
-          		
+          		</a>
         	{% endfor %}
       </div>
 		</div>
@@ -477,10 +483,17 @@ js: daten.js
 						<dd class="data-type">
 							MARC-21<span class="label label-info">XML</span>
 							<span class="label label-info">TIFF</span>
+							RDF<span class="label label-info">XML</span>
+							<span class="label label-info">Turtle</span>
+							<span class="label label-info">CSV</span>
 						</dd>
 						<dt>Jahr</dt>
 						<dd class="data-year">
 							<span class="label label-warning">2015</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href=" http://files.dnb.de/CodingDaVinci/Coding_da_Vinci_Titel.zip">Metadaten</a><br/>
 						</dd>
 					</dl>
 				</div>
@@ -553,7 +566,39 @@ js: daten.js
 						30 Amateurfilme des frühen 20. Jahrhunderts; darunter Aufnahmen zum Alltag der Familie Neubronner sowie Aufnahmen zu Sketchen mit eigener Bühne als auch Aufnahmen zu historischen Ereignissen 
 					</h4>
 					<p>
-						Der Kronberger Apotheker und Erfinder Julius Neubronner (1852-1932) war einer der ersten, der in der Rhein-Main-Region Filme drehte. Im Jahre 1903 erwarb er seine erste Kamera, ein "Kino", die die Dresdner Foto-Firma herstellte. Mit ihr nahm er historische Ereignisse auf und hielt den Alltag seiner Familie fest. Julius Neubronner drehte aber auch kleine Sketche, von ihm selbst mit seiner Familie auf einer im Garten seines Hauses errichteten Bühne in Szene gesetzt.
+						Der Kronberger Apotheker und Erfinder Julius Neubronner (1852-1932) war einer der ersten, der in der Rhein-Main-Region Filme drehte. Im Jahre 1903 erwarb er seine erste Kamera, eine „Kino“, die die Dresdner Foto-Firma Ernemann herstellte. Mit ihr nahm er historische Ereignisse auf und hielt den Alltag seiner Familie fest. Julius Neubronner drehte aber auch kleine Sketche, von ihm selbst mit seiner Familie auf einer im Garten seines Hauses errichteten Bühne in Szene gesetzt.
+						<ul>
+							<li><a href="https://www.youtube.com/watch?v=dKv1bBdXhK8">Julius Neubronner zaubert</a></li>
+							<li><a href="https://www.youtube.com/watch?v=9hwdfR13R28">Kaiser Wilhelm II. im Auto</a></li>
+							<li><a href="https://www.youtube.com/watch?v=z5n_s4Hl1uo">Julius Neubronner mit Enkelkindern</a></li>
+							<li><a href="https://www.youtube.com/watch?v=c9PfZfLbqmE">Gordon-Bennett-Autorennen (17.6.1904)</a></li>
+							<li><a href="https://www.youtube.com/watch?v=l4LBN9Mpt1w">Familie Neubronner geht spazieren</a></li>
+							<li><a href="https://www.youtube.com/watch?v=eoG-w4yqs7Y">Der Zehnender</a></li>
+							<li><a href="https://www.youtube.com/watch?v=yGwY7Iebb_Q">Hochzeit Dodo Neubronner in Kronberg</a></li>
+							<li><a href="https://www.youtube.com/watch?v=CwpxiRDUtkI">Carl Neubronner mit Tochter Ilse</a></li>
+							<li><a href="https://www.youtube.com/watch?v=ruwGjxyuu5g">Kaiser Wilhelm II. weiht eine Gedenktafel [...]</a></li>
+							<li><a href="https://www.youtube.com/watch?v=kmigXF-0XsQ">Luftnummer</a></li>
+							<li><a href="https://www.youtube.com/watch?v=ub1ZGR1FGXs">Ankunft von König Eduard VII. von England in Kronberg</a></li>
+							<li><a href="https://www.youtube.com/watch?v=X10mOwnJXHw">Kaiserpreis-Autorennen (13.6.1907)</a></li>
+							<li><a href="https://www.youtube.com/watch?v=8Rcp24wBMxM">Schneeschuhlaufen auf dem Feldberg</a></li>
+							<li><a href="https://www.youtube.com/watch?v=BsJy9dt7Fr8">Rodelbahn Schwarzer Weg Kronberg</a></li>
+							<li><a href="https://www.youtube.com/watch?v=kN7lxyUCpn4">Eislauf auf dem Kronberger Teich</a></li>
+							<li><a href="https://www.youtube.com/watch?v=7FcDVu4c2Pg">Moren tanzt</a></li>
+							<li><a href="https://www.youtube.com/watch?v=7pyjhcj7dZ8">Kronberger Eisenbahn</a></li>
+							<li><a href="https://www.youtube.com/watch?v=Ihm9-WKH6ug">Rodeln</a></li>
+							<li><a href="https://www.youtube.com/watch?v=KuWGnHsvKFw">Karnevalszug</a></li>
+							<li><a href="https://www.youtube.com/watch?v=5Chz-b6B_Ac">Bei Onkel Willi Lindheimer in Schwalbach</a></li>
+							<li><a href="https://www.youtube.com/watch?v=J3sNC4JFYYg">Willi geigt</a></li>
+							<li><a href="https://www.youtube.com/watch?v=3iqvPFdViF4">Kronberger Automobil-Jugendrennen 18.8.1907</a></li>
+							<li><a href="https://www.youtube.com/watch?v=vODeo0Y0CG4">Hund und Bär im Zirkus</a></li>
+							<li><a href="https://www.youtube.com/watch?v=vjeuV3yIItw">Festzug in Hessen</a></li>
+							<li><a href="https://www.youtube.com/watch?v=umVcQj1oDDc">Kaisers Karussell in Kronberg</a></li>
+							<li><a href="https://www.youtube.com/watch?v=PFKd_OQrZCo">Hochzeit des Forstmeisters Niederstadt in Hachenburg</a></li>
+							<li><a href="https://www.youtube.com/watch?v=GM4Cno8fxdo">Umzug des Schützenvereins in Kronberg</a></li>
+							<li><a href=" https://www.youtube.com/watch?v=M33l07ZO8sE">Drei Geishas</a></li>
+							<li><a href="https://www.youtube.com/watch?v=vFHS06Dvi60">Eislauf</a></li>
+							<li><a href="https://www.youtube.com/watch?v=I5JZw3wwu5Y">Des Jägers Traum</a></li>
+						</ul>
 					</p>	
 				</div>
 				<div class="data-meta">
@@ -568,7 +613,8 @@ js: daten.js
 						-->
 						<dt>Lizenz</dt>
 						<dd class="data-license">
-							<span class="label label-danger">CC0</span><br/>
+							Metadaten:<span class="label label-danger">CC0</span><br/>
+							Mediendateien:<span class="label label-danger">CC-BY-SA</span><br/>
 						</dd>
 						<dt>Dateityp</dt>
 						<dd class="data-type">
@@ -580,7 +626,7 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							<a href="https://offenedaten.de/dataset/topographie-des-leipziger-buchgewerbes-im-jahre-1913/resource/3eaf9dc0-99a1-4e10-9fd1-b908e90ab1c8">Metadaten</a>
+							<a href=" http://136.243.4.67/index.php/apps/files/?dir=%2FCdV_2015_Daten%2FDeutsches%20Filminstitut%2FSammlung%20Julius%20Neubronner">Metadaten und Videos (Benutzername: gast, Passwort gast)</a>
 						</dd>
 					</dl>
 				</div>
@@ -638,7 +684,7 @@ js: daten.js
 			</div>
 		</div>
 
-		<div class="data-entry" id="ernst-haeckel-haus">
+		<div class="data-entry" id="ernst-haeckel-haus-der-friedrich-Schiller-Universität-jena">
 			<div class="data-interlude">
 				<h3>Ernst-Haeckel-Haus der Friedrich-Schiller-Universität Jena</h3>
 			</div>
@@ -695,7 +741,7 @@ js: daten.js
 			</div>
 		</div>
 
-		<div class="data-entry" id="ethnologisches-museum">
+		<div class="data-entry" id="ethnologisches-museum-berlin">
 			<div class="data-interlude">
 				<h3>Ethnologisches Museum Berlin</h3>
 			</div>
@@ -802,14 +848,14 @@ js: daten.js
 						</dd>
 						<dt>Jahr</dt>
 						<dd class="data-year">
-							<span class="label label-warning">2014</span>
+							<span class="label label-warning">2015</span>
 						</dd>
 					</dl>
 				</div>
 			</div>
 		</div>
 
-		<div class="data-entry" id="grips-theater">
+		<div class="data-entry" id="grips-theater-berlin">
 			<div class="data-interlude">
 				<h3>GRIPS Theater Berlin</h3>
 			</div>
@@ -922,7 +968,7 @@ js: daten.js
 			</div>
 		</div>
 
-		<div class="data-entry" id="georg-eckert-institut">
+		<div class="data-entry" id="georg-eckert-institut-fuer-internationale-schulbuchforschung">
 			<div class="data-interlude">
 				<h3>Georg-Eckert-Institut für internationale Schulbuchforschung</h3>
 			</div>
@@ -934,7 +980,7 @@ js: daten.js
 				</div>
 				<div class="data-content">
 					<p>
-						Ein Großteil der Werke stammt aus der Zeit des Deutschen Kaiserreichs. Einen besonderen Teil der Sammlung bilden digitalisierten Geschichtsatlanten aus dem 19. und vom Beginn des 20. Jahrhunderts. Geschichtsatlanten stellen als systematisches Werk der Kartographie einen eigenen Typus dar, der zur Visualisierung historischer Ereignisse, Zustände und Entwicklungen dient.
+						Ein Großteil der Werke stammt aus der Zeit des Deutschen Kaiserreichs. Einen besonderen Teil der Sammlung bilden digitalisierte Geschichtsatlanten aus dem 19. und vom Beginn des 20. Jahrhunderts. Geschichtsatlanten stellen als systematisches Werk der Kartographie einen eigenen Typus dar, der zur Visualisierung historischer Ereignisse, Zustände und Entwicklungen dient.
 					</p>
 				</div>
 				<div class="data-meta">
@@ -961,12 +1007,12 @@ js: daten.js
 						</dd>
 						<dt>Jahr</dt>
 						<dd class="data-year">
-							<span class="label label-warning">2014</span>
+							<span class="label label-warning">2015</span>
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							Metadaten: <a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">API der DDB</a><br/>
-							Bilder: <a href="http://gei-digital.gei.de/viewer/browse/">http://gei-digital.gei.de/viewer/browse/</a>
+							Metadaten: <a href="https://www.deutsche-digitale- bibliothek.de/searchresults?query=*&facet Values[]=provider_fct%3DGeorg-Eckert- Institut+f%C3%BCr+internationale+Schulb uchforschung&offset=0">Link zur DDB</a><br/>
+							Bilder: <a href="http://gei-digital.gei.de">http://gei-digital.gei.de/viewer/browse/</a>
 						</dd>
 					</dl>
 				</div>
@@ -1039,7 +1085,7 @@ js: daten.js
 			</div>
 		</div>
 
-		<div class="data-entry" id="htw-historisches-archiv">
+		<div class="data-entry" id="hochschule-für-technik-und-wirtschaft-berlin-historisches-archiv">
 			<div class="data-interlude">
 				<h3>Hochschule für Technik und Wirtschaft Berlin, Historisches Archiv</h3>
 			</div>
@@ -1094,15 +1140,15 @@ js: daten.js
 				</div>
 			</div>
 		</div>
-		<!-- <div class="data-entry" id="internationales-theaterinstitut">
+		<div class="data-entry" id="internationales-theaterinstitut">
 			<div class="data-interlude">
 				<h3>Internationales Theaterinstitut (ITI) Deutschland / Mime Centrum Berlin</h3>
 			</div>
 			<div class="data-point">
 				 <div class="data-media">
-					<div class="thumbnail">
+					<!-- <div class="thumbnail">
 						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
-					</div>
+					</div> -->
 				</div>
 				<div class="data-content">
 					<h4>
@@ -1124,7 +1170,7 @@ js: daten.js
 						
 						<dt>Lizenz</dt>
 						<dd class="data-license">
-							<span class="label label-danger">missing</span><br/>
+							<span class="label label-danger">CC0</span><br/>
 						</dd>
 						<dt>Dateityp</dt>
 						<dd class="data-type">
@@ -1141,9 +1187,9 @@ js: daten.js
 					</dl>
 				</div>
 			</div>
-		</div> -->
+		</div>
 
-		<div class="data-entry" id="justus-liebig-universitaet">
+		<div class="data-entry" id="justus-liebig-universitaet-giessen">
 			<div class="data-interlude">
 				<h3>Justus­-Liebig Universität Gießen</h3>
 			</div>
@@ -1155,10 +1201,10 @@ js: daten.js
 				</div> -->
 				<div class="data-content">
 					<h4>
-						Frühe deutsch­- bzw. polnischsprachige Holocaust­ und Lagerliteratur (1933­-1949) ­annotierte und georeferenzierte Online­ Bibliographie 
+						Frühe deutsch­- bzw. polnischsprachige Holocaust­ und Lagerliteratur (1933­ - 1949) ­annotierte und georeferenzierte Online­ Bibliographie 
 					</h4>
 					<p>
-						Bereits in der Frühphase des Nationalsozialismus ist eine Fülle an deutsch-­ und polnischsprachiger Holocaust-und Lagerliteratur entstanden – ein von der Öffentlichkeit weitgehend unbemerkter und von der Forschung bislang vernachlässigter Sachverhalt. Ein Großteil dieser historisch wichtigen Quellen, die als erste die Verbrechen des Holocaust und der Konzentrationslager aufgreifen, kann heute nur mit größtem Aufwand beschafft werden – wenn überhaupt. Die Erfassung und Katalogisierung dieser versprengten Literatur ist eines der Hauptziele des vom Bundesministerium für Bildung und Forschung (BMBF) mit rund einer Million Euro geförderten Projekts "Frühe deutsch­- bzw. polnischsprachige Holocaust­ und Lagerliteratur (1933­1949) ­annotierte und georeferenzierte Online­ Bibliographie zur Erforschung von Erinnerungsnarrativen", kurz: GeoBib. Das Projekt ist Anfang Juli am Zentrum für Medien und Interaktivität (ZMI) und an der Arbeitsstelle Holocaustliteratur der Justus­ Liebig-Universität Gießen (JLU) in Kooperation mit dem Herder­ Institut Marburg angelaufen.
+						Bereits in der Frühphase des Nationalsozialismus ist eine Fülle an deutsch-­ und polnischsprachiger Holocaust-und Lagerliteratur entstanden – ein von der Öffentlichkeit weitgehend unbemerkter und von der Forschung bislang vernachlässigter Sachverhalt. Ein Großteil dieser historisch wichtigen Quellen, die als erste die Verbrechen des Holocaust und der Konzentrationslager aufgreifen, kann heute nur mit größtem Aufwand beschafft werden – wenn überhaupt. Die Erfassung und Katalogisierung dieser versprengten Literatur ist eines der Hauptziele des vom Bundesministerium für Bildung und Forschung (BMBF) mit rund einer Million Euro geförderten Projekts "Frühe deutsch­- bzw. polnischsprachige Holocaust­ und Lagerliteratur (1933­ - 1949) ­annotierte und georeferenzierte Online­ Bibliographie zur Erforschung von Erinnerungsnarrativen", kurz: GeoBib. Das Projekt ist Anfang Juli am Zentrum für Medien und Interaktivität (ZMI) und an der Arbeitsstelle Holocaustliteratur der Justus­ Liebig-Universität Gießen (JLU) in Kooperation mit dem Herder­ Institut Marburg angelaufen.
 					</p>
 
 					
@@ -1195,9 +1241,9 @@ js: daten.js
 			</div>
 		</div>
 
-			<div class="data-entry" id="juedisches-museum">
+			<div class="data-entry" id="juedisches-museum-berlin">
 			<div class="data-interlude">
-				<h3>Jüdisches Museum</h3>
+				<h3>Jüdisches Museum Berlin</h3>
 			</div>
 			<div class="data-point">
 				<!-- <div class="data-media">
@@ -1207,7 +1253,7 @@ js: daten.js
 				</div> -->
 				<div class="data-content">
 					<h4>
-						Druckgrafiken zu den Themenbereichen Erster Weltkrieg, Zionismus, Reisen, Porträts
+						Druckgrafische Arbeiten von Hermann Struck (1876-1944), Druckgrafiken zu den Themenbereichen Erster Weltkrieg, Zionismus, Reisen, Porträts
 					</h4>
 					<p>
 						Struck stand künstlerisch dem Impressionismus und der Berliner Secession nahe. Als Orthodoxer Jude engagierte er sich in der religiös-zionistischen Bewegung. Bedeutend ist seine druckgraphischen Arbeiten. seine Serien von Radierungen und Lithographien zeigen Landschaften (Schlesien, Palästina, Venedig, Amerika), Porträts (Juden, Kriegsgefangene, berühmte Persönlichkeiten) oder Eindrücke aus dem Baltikum während des Ersten Weltkrieges („Ober-Ost“).
@@ -1254,6 +1300,56 @@ js: daten.js
 			<div class="data-interlude">
 				<h3>Landesarchiv Baden-Württemberg</h3>
 			</div>
+			<div class="data-point">
+					<div class="data-media">
+						<div class="thumbnail">
+							<img src="{{ site.baseurl }}img/daten/landesarchivbw.jpeg" alt="Patentbeschreibung"/>
+						</div>
+					</div>
+					<div class="data-content">
+						<h4>Patentbeschreibungen und ­zeichnungen aus den Jahren 1840­ - 1877</h4>
+
+						<p>
+							Der Bestand umfasst eine Sammlung an Patenten aus der Frühzeit der Industrialisierung, die einen guten Einblick in Erfindungsreichtum und Problemstellungen des 19. Jh. im Raum Baden­-Württemberg bietet. Es handelt sich dabei um rund 3.500 Digitalisate. Die Patente wurden weitgehend mit Ortsnormdaten und der ehemaligen Schlagwortnormdatei (später GND) erschlossen. Zur Relevanz und Geschichte des Bestands bzw. auch zur Digitalisierung und Erschließung siehe ebenfalls den dazu publizierten Artikel: Norbert Hofmann und Gerald Maier: Patentakten im Netz: Erschließung und Online­ Präsentation des Bestandes E170a Württembergische Patentkommission der Zentralstelle für Gewerbe und Handel. In: Kulturgut aus Archiven, Bibliotheken und Museen im Internet. Neue Ansätze und Techniken (Werkhefte der Staatlichen Archivverwaltung Baden­-Württemberg). Stuttgart 2004.
+						</p>
+
+						<p>
+							Unter seiner Federführung entsteht außerdem das <a href="http://www.landesarchiv-bw.de/web/54267">Archivportal-D</a> als DFG-gefördertes Teilprojekt der Deutschen Digitalen Bibliothek, das auf das API der DDB aufbaut.
+						</p>
+					</div>
+					<div class="data-meta">
+						<dl>
+							<dt>Namensnennung</dt>
+							<dd>Landesarchiv Baden-Württemberg</dd>
+							<!--
+							<dt>Kategorien</dt>
+							<dd class="data-category">
+								<span class="label label-default">Geschichte</span>
+							</dd>
+							-->
+							<dt>Lizenz</dt>
+							<dd class="data-license">
+								Metadaten:<span class="label label-danger">CC0</span><br/>
+								Bilder:<span class="label label-danger">CC-BY</span>3.0<br/>
+							</dd>
+							<dt>Dateityp</dt>
+							<dd class="data-type">
+								<span class="label label-info">JPEG</span>
+								RDF-<span class="label label-info">XML</span>
+								DDB-<span class="label label-info">API</span>
+							</dd>
+							<dt>Jahr</dt>
+							<dd class="data-year">
+								<span class="label label-warning">2015</span>
+							</dd>
+							<dt>Links</dt>
+							<dd>
+								<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">DDB API</a><br />
+								<a href="https://offenedaten.de/dataset/patentkommission-der-zentralstelle-fur-gewerbe-und-handel/resource/1e9297ef-34b2-4cc6-8c15-f314fa65b284">Metadaten</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
 			<div class="data-point">
 				<div class="data-media">
 					<div class="thumbnail">
@@ -1308,49 +1404,7 @@ js: daten.js
 						</dd>
 					</dl>
 				</div>
-				<div class="data-content">
-					<h4>Patentbeschreibungen und ­zeichnungen aus den Jahren 1840­ - 1877</h4>
-
-					<p>
-						Der Bestand umfasst eine Sammlung an Patenten aus der Frühzeit der Industrialisierung, die einen guten Einblick in Erfindungsreichtum und Problemstellungen des 19. Jh. im Raum Baden­-Württemberg bietet. Es handelt sich dabei um rund 3.500 Digitalisate. Die Patente wurden weitgehend mit Ortsnormdaten und der ehemaligen Schlagwortnormdatei (später GND) erschlossen. Zur Relevanz und Geschichte des Bestands bzw. auch zur Digitalisierung und Erschließung siehe ebenfalls den dazu publizierten Artikel: Norbert Hofmann und Gerald Maier: Patentakten im Netz: Erschließung und Online­ Präsentation des Bestandes E170a Württembergische Patentkommission der Zentralstelle für Gewerbe und Handel. In: Kulturgut aus Archiven, Bibliotheken und Museen im Internet. Neue Ansätze und Techniken (Werkhefte der Staatlichen Archivverwaltung Baden­-Württemberg). Stuttgart 2004.
-					</p>
-
-					<p>
-						Unter seiner Federführung entsteht außerdem das <a href="http://www.landesarchiv-bw.de/web/54267">Archivportal-D</a> als DFG-gefördertes Teilprojekt der Deutschen Digitalen Bibliothek, das auf das API der DDB aufbaut.
-					</p>
-				</div>
-				<div class="data-meta">
-					<dl>
-						<dt>Namensnennung</dt>
-						<dd>Landesarchiv Baden-Württemberg</dd>
-						<!--
-						<dt>Kategorien</dt>
-						<dd class="data-category">
-							<span class="label label-default">Geschichte</span>
-						</dd>
-						-->
-						<dt>Lizenz</dt>
-						<dd class="data-license">
-							Metadaten:<span class="label label-danger">CC0</span><br/>
-							Bilder:<span class="label label-danger">CC-BY</span>3.0<br/>
-						</dd>
-						<dt>Dateityp</dt>
-						<dd class="data-type">
-							<span class="label label-info">JPEG</span>
-							RDF-<span class="label label-info">XML</span>
-							DDB-<span class="label label-info">API</span>
-						</dd>
-						<dt>Jahr</dt>
-						<dd class="data-year">
-							<span class="label label-warning">2015</span>
-						</dd>
-						<dt>Links</dt>
-						<dd>
-							<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">DDB API</a><br />
-							<a href="https://offenedaten.de/dataset/patentkommission-der-zentralstelle-fur-gewerbe-und-handel/resource/1e9297ef-34b2-4cc6-8c15-f314fa65b284">Metadaten</a>
-						</dd>
-					</dl>
-				</div>
+				
 			</div>
 		</div>
 
@@ -1410,7 +1464,7 @@ js: daten.js
 			</div>
 		</div>
 
-		<div class="data-entry" id="max-planck-institut">
+		<div class="data-entry" id="max-planck-institut-fuer-wissenschaftsgeschichte-berlin">
 			<div class="data-interlude">
 				<h3>Max-Planck-Institut für Wissenschaftsgeschichte Berlin</h3>
 			</div>
@@ -1570,7 +1624,7 @@ js: daten.js
 						<dt>Links</dt>
 						<dd>
 							<a href="https://offenedaten.de/dataset/diptera/resource/918c5f34-5c50-4c42-9e0d-2731a77e9427">Metadaten</a><br />
-							<a href="http://gbif.naturkundemuseumberlin.de/CDV2015/mfn_Diptera/">Bilder</a>
+							<a href="http://gbif.naturkundemuseum-berlin.de/CDV2015/mfn_Diptera/">Bilder</a>
 						</dd>
 					</dl>
 				</div>
@@ -1616,7 +1670,7 @@ js: daten.js
 						<dt>Links</dt>
 						<dd>
 							<a href="https://offenedaten.de/dataset/ehrenberg/resource/0dff0f41-4c12-4c85-b7c8-7ab33d161b41">Metadaten</a><br />
-							<a href="http://gbif.naturkundemuseum­berlin.de/CDV2015/mfn_Ehrenberg_D/">Bilder</a>
+							<a href="http://gbif.naturkundemuseum-berlin.de/CDV2015/mfn_Ehrenberg_D/">Bilder</a>
 						</dd>
 					</dl>
 				</div>
@@ -1624,7 +1678,7 @@ js: daten.js
 			<div class="data-point">
 				 <div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/naturkundemuseum_4_gesteine.jpg" alt="Gesteine"/>
+						<img src="{{ site.baseurl }}img/daten/naturkundemuseum_1_schmetterlinge.jpg" alt="Schmetterlinge"/>
 					</div> 
 
 				</div>
@@ -1662,7 +1716,7 @@ js: daten.js
 						<dt>Links</dt>
 						<dd>
 							<a href="https://offenedaten.de/dataset/globis/resource/1469d860-9008-4e66-a216-456c5adaa219">Metadaten</a><br />
-							<a href="">tbd</a>
+							<a href=" http://gbif.naturkundemuseum-berlin.de/CDV2015/GloBIS/">Bilder</a>
 						</dd>
 					</dl>
 				</div>
@@ -1670,7 +1724,7 @@ js: daten.js
 			<div class="data-point">
 				 <div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/naturkundemuseum_5_verhoeff.jpg" alt="Sammlung Verhoeff"/>
+						<img src="{{ site.baseurl }}img/daten/naturkundemuseum_4_gesteine.jpg" alt="Gesteine"/>
 					</div> 
 
 				</div>
@@ -1699,7 +1753,7 @@ js: daten.js
 						<dt>Dateityp</dt>
 						<dd class="data-type">
 							<span class="label label-info">JPEG</span>
-							<span class="label label-info">TIF</span>
+							<span class="label label-info">TIFF</span>
 							<span class="label label-info">XML</span>
 						</dd>
 						<dt>Jahr</dt>
@@ -1709,23 +1763,36 @@ js: daten.js
 						<dt>Links</dt>
 						<dd>
 							<a href="https://offenedaten.de/dataset/mineralogie-mfn/resource/97f7dc65-b673-48c5-b080-fa37be4e98cc">Metadaten</a><br />
-							<a href="http://gbif.naturkundemuseumberlin.de/CDV2015/mfn_Mineralogy/">Bilder</a>
+							<a href="http://gbif.naturkundemuseum-berlin.de/CDV2015/mfn_Mineralogy/">Bilder</a>
 						</dd>
 					</dl>
 				</div>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				 <div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/insektenkasten.jpg" alt="Insektenkasten"/>
+						<img src="{{ site.baseurl }}img/daten/Beispielbild_zoosphere.png" alt="ZooSphere"/>
 					</div> 
 
-				</div>-->
+				</div>
 				<div class="data-content">
 					<h4>Hochauflösende, sphärische Bildsequenzen von biologischen Sammlungsobjekten</h4>
 
 					<p>
 						Die sphärischen Bildsequenzen sind für die taxonomische Forschung und Wissensvermittlung sehr relevant. Da Zoo-Sphere ein aktuelles Forschungsprojekt ist, variieren die bereits verfügbaren Objekte und zugrundeliegenden Daten und Bilder in ihrer Qualität. Weitere Informationen unter http://www.zoosphere.net
+					</p>
+					<p>
+						Für die Nutzung der API sind folgende Methoden hilfreich:
+						<ul>
+							<li>
+								<p>Für eine Liste an Sequenzmetadaten</p>
+								<pre>http://www.zoosphere.net/api/v1/sequences?offset=&lt;page&gt;&count=&lt;number of items&gt;</pre>
+							</li>
+							<li>
+								<p>Für ein einzelnes Objekt</p>
+								<pre>http://www.zoosphere.net/api/v1/sequence/&lt;id&gt;</pre>
+							</li>
+						</ul>
 					</p>
 				</div>
 				<div class="data-meta">
@@ -1753,10 +1820,18 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							tbd
+							<a href="http://www.zoosphere.net">Bilder</a>
 						</dd>
 					</dl>
 				</div>
+				<div class="data-point">
+					<div class="data-media">
+						<div class="thumbnail">
+							<img src="{{ site.baseurl }}img/daten/naturkundemuseum_5_verhoeff.jpg" alt="Sammlung Verhoeff"/>
+						</div> 
+					</div>
+				</div>
+				
 				<div class="data-content">
 					<h4>Mikroskopische Tausendfüßer Präparate von Karl­ Wilhelm Verhoeff</h4>
 
@@ -1782,7 +1857,7 @@ js: daten.js
 						<dt>Dateityp</dt>
 						<dd class="data-type">
 							<span class="label label-info">JPEG</span>
-							<span class="label label-info">TIF</span>
+							<span class="label label-info">TIFF</span>
 							<span class="label label-info">XML</span>
 						</dd>
 						<dt>Jahr</dt>
@@ -1792,7 +1867,7 @@ js: daten.js
 						<dt>Links</dt>
 						<dd>
 							<a href="https://offenedaten.de/dataset/verhoeff/resource/b6d1ebd4-d4e4-4976-bf53-71a3f181a7a6">Metadaten</a><br />
-							<a href="http://gbif.naturkundemuseum%c2%adberlin.de/CDV2015/mfn_myriapoda_verhoeff/">Bilder</a>
+							<a href="http://gbif.naturkundemuseum-berlin.de/CDV2015/mfn_myriapoda_verhoeff/">Bilder</a>
 						</dd>
 					</dl>
 				</div>
@@ -1829,7 +1904,7 @@ js: daten.js
 						-->
 						<dt>Lizenz</dt>
 						<dd class="data-license">
-							<span class="label label-danger">CC-BY</span>
+							<span class="label label-danger">CC0</span>
 							
 						</dd>
 						<dt>Dateityp</dt>
@@ -1921,21 +1996,19 @@ js: daten.js
 				<h3>Museumsdorf Cloppenburg – Niedersächsisches Freilichtmuseum</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/17213_jpg.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>Blumenmoden, Zeitgeschmack und Weltbezug in der Zeit von 1700 bis 1900 </h4>
 					<p>
-						Das Datenset besteht aus insgesamt 296 Sammlungsobjekten, die mit jeweils 15 Datenfeldern beschrieben werden und zu denen es in der Regel 1 bis 2 Fotos gibt. Die Sammlungsobjekte sind dabei Geschiebe, d.h. verschiedene Gesteinsmaterialien. Diese Gesteine haben in den Zeiträumen von vor 1 Mrd. Jahren bis vor 60 Mio. Jahren ihren Weg aus Skandinavien u.a. nach Berlin und Brandenburg gefunden. Bei Grabungsreisen durch die Kiesgruben und Seelandschaften Brandenburgs und auch in Berlin wurden diese Gesteine gesammelt, von den Museumsmitarbeitern bestimmt und werden nun verfügbar gemacht. Die Bestimmungsdaten zu den Objekten setzen sich aus 3 Bereichen zusammen: 1. Es finden sich die grundlegenden Informationen zum Objekt wie Titel, Maße und Datierung. 2. Es finden sich Titel und Geokoordinaten des Ursprungsortes des Gesteins, also z.B. den Aland­-Inseln vor Schweden sowie der Titel und die Geokoordinate des Fundortes in Berlin, also z.B. der Kiesgrube in Berlin-Spandau. 3. Es findet sich ein Erklärungstext, der das Gestein beschreibt und die Informationen gut lesbar zusammenfasst.
+						Das Museumsdorf hat aus seinen Sammlungen – Keramik, Grafik, Kleidung, Möbel, Zinn - Objekte mit floralen Motiven aus der Zeit zwischen 1700 und 1900 ausgewählt. Diese Dekore stellen die markanten Pflanzen aufeinander folgender zeitgenössischer Garten- und Blumenmoden vor und verweisen zugleich damit auf den Niederschlag weltumspannenden Handelns und Entdeckens in der Ausgestaltung privater Lebensumgebungen. 
 					</p>
 					<p>
-						Die geologische Sammlung ist eine Schau­ und Lehrsammlung zur Darstellung der naturräumlichen Grundlagen von Berlin. Zahlreiche geologische Modelle, Gesteine und Fossilien bieten die Möglichkeit, die Entstehung der Landschaft, die Beschaffenheit des Berliner Untergrundes, die Herkunft und Zusammensetzung der Geschiebe sowie den Ursprung der Berliner Bausteine und Baustoffe darzustellen. Ergänzt werden diese Themenkomplexe mit Schauobjekten zur Erdgeschichte, Gesteinsbildung, Mineralogie, und Paläontologie. Ein Schwerpunkt der Sammlung liegt im Themenbereich „Eiszeit“. Geomorphologische Modelle und Karten, Knochen quartärer Großsäuger und eine umfangreiche Geschiebesammlung können zur Vermittlung der Landschaftsentwicklung vom Beginn der Eiszeiten bis zur heutigen Situation eingesetzt werden.
-					</p>
-
-					
+						Die Auswahl lädt zu einer zeitgeschichtlichen Weltreise ein: mit den Tulpen in die Türkei und in die Niederlande, mit den Nelken ans Mittelmeer, mit der Dahlie/Georgine und Alexander von Humboldt nach Mexiko, mit der Pelargonie nach Afrika ans Kap der Guten Hoffnung, mit der Amaryllis in die peruanischen Anden, mit den Rhododendren sowohl in die Rocky Mountains wie in den Himalaya usw. Gleichzeitig spiegelt sie die Aneignung dieser Blumenpracht in Gestalt von modischen Objekten und ihren Dekoren auf Gegenständen des privaten Alltags – vom Barock über Klassizismus und Biedermeier bis hin zur Gründerzeit
+					</p>	
 				</div>
 				<div class="data-meta">
 					<dl>
@@ -1963,7 +2036,8 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							tbd
+							<a href="http://136.243.4.67/index.php/s/RROeuFzeeCmlSKG/download">Metadaten</a><br />
+							<a href="http://136.243.4.67/index.php/s/jVTyEFBsyTTJLER">Bilder</a>
 						</dd>
 					</dl>
 				</div>
@@ -1984,7 +2058,7 @@ js: daten.js
 						Die Regesten (Inhaltsangaben) von Urkunden der Kaiser, Könige und einiger Päpste des Mittelalters (800 bis 1500). Ein Regest fasst den rechtlich relevanten Inhalt sowie die handelnden Personen einer Urkunde zusammen.
 					</h4>
 					<p>
-						Die Regesta Imperii bieten mittelalterliche Herrscherurkunden in deutschsprachigen Zusammenfassungen. Die Gliederung der RI teilt das Mittelalter in dynastie- oder herrscherbezogene Abteilungen ein, beginnt mit Abteilunge 1 im 8. Jahrhundert bei den Karolingern und endet mit Abteilung 14 im Jahre 1518 bei Maximilian I. Ein Regest gibt den Herrscher an, das Datum der Urkunde und den Ausstellungsort. Im Regestentext sind die rechtlich relevanten Inhalte und die handelnden Personen genannt. Anschließend gibt es je nach Abteilung noch zusätzliche Informationen zur Überlieferung der Urkunde und Kommentare.
+						Die Regesta Imperii bieten mittelalterliche Herrscherurkunden in deutschsprachigen Zusammenfassungen. Die Gliederung der RI teilt das Mittelalter in dynastie- oder herrscherbezogene Abteilungen ein, beginnt mit Abteilung 1 im 8. Jahrhundert bei den Karolingern und endet mit Abteilung 14 im Jahre 1518 bei Maximilian I. Ein Regest gibt den Herrscher an, das Datum der Urkunde und den Ausstellungsort. Im Regestentext sind die rechtlich relevanten Inhalte und die handelnden Personen genannt. Anschließend gibt es je nach Abteilung noch zusätzliche Informationen zur Überlieferung der Urkunde und Kommentare.
 					</p>
 
 					
@@ -2119,7 +2193,7 @@ js: daten.js
 						</dd>
 						<dt>Jahr</dt>
 						<dd class="data-year">
-							<span class="label label-warning">2014</span>
+							<span class="label label-warning">2015</span>
 						</dd>
 						<dt>Links</dt>
 						<dd>
@@ -2356,7 +2430,7 @@ js: daten.js
 			</div>
 		</div>
 
-		<!--<div class="data-entry" id="carl-von-ossietzky">
+		<div class="data-entry" id="carl-von-ossietzky">
 			<div class="data-interlude">
 				<h3>Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky</h3>
 			</div>
@@ -2386,12 +2460,12 @@ js: daten.js
 						
 						<dt>Lizenz</dt>
 						<dd class="data-license">
-							<span class="label label-danger">missing</span><br/>
+							<span class="label label-danger">CC-BY</span>4.0<br/>
 						</dd>
 						<dt>Dateityp</dt>
 						<dd class="data-type">
 							METS-<span class="label label-info">XML</span>
-							<span class="label label-info">TIF</span>
+							<span class="label label-info">TIFF</span>
 						</dd>
 						<dt>Jahr</dt>
 						<dd class="data-year">
@@ -2403,13 +2477,13 @@ js: daten.js
 						</dd>
 					</dl>
 				</div>
-			</div> -->
-			<!-- <div class="data-point">
-				 <div class="data-media">
+			</div>
+			<div class="data-point">
+				 <!-- <div class="data-media">
 					<div class="thumbnail">
 						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
 					</div>
-				</div> 
+				</div>  -->
 				<div class="data-content">
 					<h4>
 						Manier, Mythos und Moral – Niederländische Druckgraphik um 1600
@@ -2427,12 +2501,12 @@ js: daten.js
 						
 						<dt>Lizenz</dt>
 						<dd class="data-license">
-							<span class="label label-danger">missing</span><br/>
+							<span class="label label-danger">CC-BY</span>4.0<br/>
 						</dd>
 						<dt>Dateityp</dt>
 						<dd class="data-type">
 							METS-<span class="label label-info">XML</span>
-							<span class="label label-info">TIF</span>
+							<span class="label label-info">TIFF</span>
 						</dd>
 						<dt>Jahr</dt>
 						<dd class="data-year">
@@ -2440,12 +2514,12 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							<a href="https://mmp.sub.uni-hamburg.de/davinci/">tbd</a>
+							<a href="https://mmp.sub.uni-hamburg.de/davinci/">Metadaten und Bilder</a>
 						</dd>
 					</dl>
 				</div>
 			</div>
-		</div> -->
+		</div>
 
 		<div class="data-entry" id="stiftung-haus-der-geschichte">
 			<div class="data-interlude">
@@ -2460,7 +2534,7 @@ js: daten.js
 				<div class="data-content">
 					<h4>Studentenrevolte 1967/68</h4>
 					<p>
-						Die Stiftung Haus der Geschichte der Bundesrepublik Deutschland beteiligt sich am Hackathon „Coding da Vinci“ 2015 mit einem Auszug aus dem Fotobestand Ludwig Binders, der u.a. die Studentenrevolte in Berlin 1967/68 als Fotojournalist dokumentiert hat. Bei den zur Verfügung gestellten Bildern handelt es sich um Presseabzüge, die in dem Bestand überliefert sind, damit also um Material, das der Fotografselbst für weitere Verwendungen in Betracht gezogen hat. Ludwig Binder ist einer der bekannten, aber bisher unerforschten Fotojournalisten der Bundesrepublik.
+						Die Stiftung Haus der Geschichte der Bundesrepublik Deutschland beteiligt sich am Hackathon „Coding da Vinci“ 2015 mit einem Auszug aus dem Fotobestand Ludwig Binders, der u.a. die Studentenrevolte in Berlin 1967/68 als Fotojournalist dokumentiert hat. Bei den zur Verfügung gestellten Bildern handelt es sich um Presseabzüge, die in dem Bestand überliefert sind, damit also um Material, das der Fotograf selbst für weitere Verwendungen in Betracht gezogen hat. Ludwig Binder ist einer der bekannten, aber bisher unerforschten Fotojournalisten der Bundesrepublik.
 					</p>
 
 					
@@ -2491,7 +2565,7 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							<a href="https://offenedaten.de/dataset/binder/resource/4b4a1a1b-9895-4e78-9b8d-865d10bdf781">Metadaten</a><br />
+							<a href="https://offenedaten.de/dataset/ludwig-binder-1968-stiftung-haus-der-geschichte">Metadaten</a><br />
 							<a href="https://www.flickr.com/photos/132468467@N06/sets/72157651767368156/">Bilder</a>
 						</dd>
 					</dl>
@@ -2911,16 +2985,66 @@ js: daten.js
 				</div>
 			</div>
 		</div>
-		<!-- <div class="data-entry" id="veikkosarchiv">
+		<div class="data-entry" id="universitaetsbibliothek-leipzig">
 			<div class="data-interlude">
-				<h3>veikkos­archiv</h3>
+				<h3>Universitätsbibliothek Leipzig</h3>
 			</div>
 			<div class="data-point">
 				 <div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/potraitindex.jpg" alt="Potraitindex"/>
 					</div>
 				</div>
+				<div class="data-content">
+					<h4>Digitaler Portraitindex der Universitätsbibliothek Leipzig</h4>
+					<p>
+						Die UB Leipzig verwaltet in ihrer Porträtstichsammlung knapp 15.000 Porträts. Zum Grundstock der Sammlung gehören ca. 11.000 Porträts von Adeligen, Geistlichen, Gelehrten und Künstlern meist aus dem deutschen Sprachgebiet. Den zeitlichen Schwerpunkt bilden dabei das 17. und 18. Jh. Im Rahmen eines von der DFG geförderten Projektes wurden alle Porträtstiche in dem vom Bildarchiv Foto Marburg geleiteten Projekt Digitaler Portraitindex digitalisiert und erschlossen. Die Metadaten besitzen auf verschiedenen Ebenen Verknüpfungen mit der GND, was es ermöglicht, sie in Beziehung zu bibliographischen Daten und via DBpedia mit zahlreichen weiteren Linked Data Pools zu setzen. Die Digitalisate wurden zudem nahezu vollständig auf die Website Flickr geladen.
+					</p>
+					<p>
+						Zum Portraitstichindex der Universitätsbibliothek Leipzig ist ein <a href="http://nbn-resolving.de/urn:nbn:de:bsz:14-qucosa-85109">Artikel</a>  von Prof. Dr. Thomas Fuchs im BIS Magazin erschienen.
+					</p>
+
+					
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Universitätsbibliothek Leipzig</dd>
+	
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							Metadaten:<span class="label label-danger">CC0</span><br/>
+							Bilder:<span class="label label-danger">Public Domain</span><br />
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">JPEG</span>
+							<span class="label label-info">TIFF</span>
+							<span class="label label-info">XML</span>
+							<span class="label label-info">CSV</span>
+						</dd>
+						<dt>Jahr</dt>
+						<dd class="data-year">
+							<span class="label label-warning">2015</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="https://offenedaten.de/dataset/ubleipzig-portraitstichsammlung">Metadaten</a><br />
+							<a href="https://www.flickr.com/photos/ubleipzig/sets/72157651743888131/">Bilder</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="data-entry" id="veikkos-archiv">
+			<div class="data-interlude">
+				<h3>veikkos-­archiv</h3>
+			</div>
+			<div class="data-point">
+				 <!-- <div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+					</div> -->
 				<div class="data-content">
 					<h4>
 						Bilder von historischen Siegelmarken aus der Zeit von ca. 1850­-1945
@@ -2938,7 +3062,7 @@ js: daten.js
 	
 						<dt>Lizenz</dt>
 						<dd class="data-license">
-							<span class="label label-danger">missing</span><br/>
+							<span class="label label-danger">Public Domain</span><br/>
 						</dd>
 						<dt>Dateityp</dt>
 						<dd class="data-type">
@@ -2950,16 +3074,16 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							missing
+							<a href="https://commons.wikimedia.org/wiki/Category:Images_from_the_Veikkos_Archive">Bilder und Metadaten</a>
 						</dd>
 					</dl>
 				</div>
 			</div>
-		</div> -->
+		</div>
 
 		<div class="data-entry" id="viz-charlottenburg">
 			<div class="data-interlude">
-				<h3>Verwaltungsinformationszentrum des Bezirksamtes Charlottenburg­ Wilmersdorf von Berlin</h3>
+				<h3>Verwaltungsinformationszentrum des Bezirksamtes Charlottenburg­ - Wilmersdorf von Berlin</h3>
 			</div>
 			<div class="data-point">
 				<div class="data-media">
@@ -3018,10 +3142,12 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							<a href="https://offenedaten.de/storage/f/2015-04-09T09%3A33%3A53.577Z/metadaten-dressel-lebensbeschreibung-1751-1773.csv">Metadaten</a>
-							<a href="http://commons.wikimedia.org/wiki/Category:B%C3%BCrgerverzeichnis_Charlottenburg?uselang=de">Handschrift 1</a><br />
-							Link 2­ - 4 sind noch nicht hochgeladen<br>
-							<a href="http://commons.wikimedia.org/wiki/Category:Armenhaus­Akte_Charlottenburg?uselang=de">Handschrift 5</a>
+							<a href="https://offenedaten.de/storage/f/2015-04-09T09%3A33%3A53.577Z/metadaten-dressel-lebensbeschreibung-1751-1773.csv">Metadaten</a><br />
+							<a href="http://commons.wikimedia.org/wiki/Category:Armenhaus-Akte_Charlottenburg?uselang=de">Acta des Magistrats in Charlottenburg betr. der Anlegung eines Armenhauses, 1798-1820</a><br />
+							<a href="http://commons.wikimedia.org/wiki/Category:Stadtchronik_Charlottenburg_1695-1816?uselang=de">Aufgezeichnete Nachrichten vom Ursprunge, Anbau und Vergrößerung des Königlichen Schlosses und der Stadt Charlottenburg von Johann Christian Gottfried Dressel, 1816</a><br />
+							<a href="http://commons.wikimedia.org/wiki/Category:Johann_Christian_Gottfried_Dressel,_Lebensbeschreibung_1751_-_1773?uselang=de">Lebensbeschreibung von Johann Christian Gottfried Dressel, 1751-1773</a><br />
+							<a href="http://commons.wikimedia.org/wiki/Category:Johann_Christian_Gottfried_Dressel,_Lebensbeschreibung_1773_-_1778?uselang=de">Lebensbeschreibung von Johann Christian Gottfried Dressel, 1773-1778</a><br />
+							<a href="http://commons.wikimedia.org/wiki/Category:B%C3%BCrgerverzeichnis_Charlottenburg?uselang=de">Protocoll und Register der in Eyd und Pflicht genommenen Bürgerschaft in Charlottenburg, 1711-1790</a>
 						</dd>
 					</dl>
 				</div>
@@ -3030,9 +3156,14 @@ js: daten.js
 
 		<div class="data-entry" id="wikidata">
 			<div class="data-interlude">
-				<h3>Wikidata </h3>
+				<h3>Wikidata</h3>
 			</div>
 			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Wikidata-logo-en.svg" alt="Wikidata"/>
+					</div>
+				</div>
 				<div class="data-content">
 					<p>
 						Wikidata ist die freie Wissensdatenbank der Wikimedia Bewegung.Wikidata enthält strukturierte Daten über die Welt und deckt eine Vielzahl an Themen ab wie zum Beispiel Personen, Orte, Ereignisse und viele mehr. Wikidata dient einerseits als zentrale Wissensdatenbank für Wikipedia und ihre Schwesterprojekte und andererseits als frei zugängliche Ressource für jeden außerhalb von Wikimedia der freie Daten nutzen möchte. Wikidata wird von einer großen Community aufgebaut und gepflegt. Wikidatas Daten zeichnen sich durch 4 Merkmale aus: Mehrsprachigkeit (alle Daten sind in vielen Sprachen verfügbar), Verknüpfung zu einer Vielzahl anderer Datenbanken, die enge Verzahnung mit Wikipedia sowie ein Datenmodell, das mit Widersprüchen und Mehrdeutigkeiten umgehen kann.
@@ -3065,6 +3196,10 @@ js: daten.js
 						<dt>Jahr</dt>
 						<dd class="data-year">
 							<span class="label label-warning">2015</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>
 						</dd>
 					</dl>
 				</div>

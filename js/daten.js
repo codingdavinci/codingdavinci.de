@@ -1,5 +1,8 @@
 $(document).ready(function () {
-	$('.data-entry').addClass('hidden');
+	if(!window.location.hash) {
+  		$('.data-entry').addClass('hidden');
+	}
+	
 
 	var filter = {
 		category: null,
@@ -8,6 +11,7 @@ $(document).ready(function () {
 		year: null
 	};
 	var all_entries = [];
+	var default_entry;
 
 	function scrollToAnchor(aid) {
 		var aTag = $("#" + aid);
@@ -47,6 +51,7 @@ $(document).ready(function () {
 
 	function collectEntries() {
 		// collect data entries´
+		console.log("collect entries called");
 		$('.data-entry').each(function (i, e) {
 			e = $(e);
 			var entry = {
@@ -74,13 +79,14 @@ $(document).ready(function () {
 		});
 		all_entries.sort(function (a, b) {
 			if (a.name > b.name) return 1;
-			if (a.name < b.name) return -1;
+			if (a.name < b.name) return - 1;
 			return 0;
 		});
 	}
 
 	function fillFilter(mode, labeltype) {
 		//collect filter properties
+
 		var list = [];
 		all_entries.forEach(function (entry) {
 			entry[mode].forEach(function (cat) {
@@ -89,12 +95,14 @@ $(document).ready(function () {
 		});
 		list.sort(function (a, b) {
 			if (a > b) return 1;
-			if (a < b) return -1;
+			if (a < b) return - 1;
 			return 0;
 		});
 		var htm = list.map(function (entry) {
+			console.log(entry);
 			return '<a href value="' + entry + '" class="label label-' + labeltype + '">' + entry + '</a>';
 		}).join(' – ');
+		console.log(htm);
 		$(".nav-filter-" + mode).html(htm);
 		//toggle filter properties
 		$(".nav-filter-" + mode + " a").click(function (e) {
@@ -118,10 +126,17 @@ $(document).ready(function () {
 	fillFilter('types', 'info');
 	fillFilter('licenses', 'danger');
 	fillFilter('years', 'warning');
+	
+	//HACK: Set filter for 2015
+	filter['years'] = '2015';
 	buildEntryList();
+
 
 	//show start
 	$('#start').removeClass('hidden');
+
+	$('#default_entry').addClass('active');
+	console.log($('#default_entry'));
 
 	//expand/collapse filtersection
 	$(".nav-filter-toggle").click(function (e) {
@@ -152,5 +167,7 @@ $(document).ready(function () {
 		e.stopPropagation();
 		return false;
 	});
+
+
 
 });
