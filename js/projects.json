@@ -281,7 +281,233 @@
             "API der Deutschen Digitalen Bibliothek",
           ],
         "team": [21]
-      }
+      },
+      {
+        "name" : "DNB - Data Explorer — Generous Interfaces for Visual Exploration",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/dnb-explorer1.png"
+          ],
+        "description" : "Die Deutsche Nationalbibliothek bietet einen reichhaltigen Fundus an Daten. Über das gedruckte Medium hinaus finden sich z.B. auch Informationen zu Personen und Orten. All diese Daten stehen in Relation zu einander, die bisher nur über eine klassische Textsuche bzw. Hyperlinks erschlossen werden kann. Der DNB Data Explorer soll die Zusammenhänge in den Datensätzen der DNB sichtbar und durch Visualisierung verständlicher machen. Beispielsweise kann der Nutzer herausfinden, wie viele Menschen zu welcher Zeit in welcher Stadt gelebt haben und diese untereinander vergleichen. Alle Visualisierungen sind auf der Webseite des Projekts verfügbar.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-github",
+              "link" : "http://github.com/sebastian-meier/dnb-visualization",
+              "text" : "Seite auf github"
+            },
+            {
+              "class" : "projects-website",
+              "link" : "http://www.sebastianmeier.eu/2014/06/21/deutsche-national-bibliothek-data-explorer/",
+              "text" : "Webseite"
+            }        
+          ],
+        "data": 
+          [
+            "DNB / GND",
+          ],
+        "team": [22]
+      },
+      {
+        "name" : "EthnoTier",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/ethnotier.png"
+          ],
+        "description" : "Das EthnoTier ist eine Musikapp, die sich an Kinder richtet und über einen Tabletcomputer einfach bedient werden kann. Auf einer Waltbühne können junge Nutzer selbst Dirigent spielen und ein Orchester mit Vögel, Fröschen und anderen heimischen Tieren erstellen. Mit den integrierten Sounds lernen sie spielerisch wie Instrumente und Tiere klingen - außerdem können sie mit der App auch richtig Krach machen.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-github",
+              "link" : "https://github.com/thatbettina/ethnotier",
+              "text" : "Seite auf github"
+            },
+            {
+              "class" : "projects-website",
+              "link" : "http://tursics.de/sample/ethnotier/",
+              "text" : "Webseite (Preview)"
+            }        
+          ],
+        "data": 
+          [
+            "Audiodateien", "Musikinstrumentensammlung des Ethnologischen Museums","Tierstimmenarchiv des Naturkundemuseum"
+          ],
+        "team": [23,20]
+      },
+      {
+        "name" : "Kulturchronologie | decode the heritage",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/kulturchronologie.jpg"
+          ],
+        "description" : "Die Software des Projekts Kulturchronologie dient der anschaulichen Aufbereitung umfangreicher Chronologien und Historien von Ausstellungsobjekten. Das Projekt dient in erster Linie der Präsentation digitaler Bestände. Die Software kann sowohl im musealen und im schulischen Kontext eingesetzt werden, um einen schnellen, interaktiven Überblick über zeitliche Abfolgen oder Zusammenhänge verschiedener Datenbestände zu ermöglichen. Historische Ereignisse werden entsprechend definierter Filterkriterien auf einen Zeitstrahl projiziert und erklärt. Der Bezug auf Daten der DDB sichert hierbei die Qualität und Reliabilität der Informationen.",
+        "links": [],
+        "data": 
+          [
+            "API der Deutschen Digitalen Bibliothek"
+          ],
+        "team": [24,25,26]
+      },
+      {
+        "name" : "Lebendige Liste",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/lebendige-liste.png"
+          ],
+        "description" : "Viele Autoren und Werke wurden während der NS-Zeit verboten. Sie verschwanden aus Bibliotheken, Archiven, Verlagen und Buchhandlungen. Auch nach Ende des 2. Weltkrieges wurden viele Werke nicht wieder verlegt. Und so wirkt dieses NS-Verbrechen bis heute. Die Aktion Lebendige Liste will erinnern. Eine Liste, die dazu geschaffen wurde, die Werke so vieler Autoren zum Schweigen zu bringen, hilft nun, ihnen wieder eine Stimme zu geben. Auf Twitter wird jeden Tag ein Eintrag der NS-Verbotsliste veröffentlicht. Eine Liste des Vergessens beginnt zu sprechen und zu erinnern.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-website",
+              "link" : "http://www.lebendigeliste.de/",
+              "text" : "Webseite"
+            },  
+            {
+              "class" : "projects-twitter",
+              "link" : "@lebendigeliste",
+              "text" : "Twitter"
+            }        
+          ],
+        "data": 
+          [
+            "NS-Buchverbotsliste",
+          ],
+        "team": [21,3,27,28]
+      },
+      {
+        "name" : "Lebendige Liste",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/lebendige-liste.png"
+          ],
+        "description" : "Viele Autoren und Werke wurden während der NS-Zeit verboten. Sie verschwanden aus Bibliotheken, Archiven, Verlagen und Buchhandlungen. Auch nach Ende des 2. Weltkrieges wurden viele Werke nicht wieder verlegt. Und so wirkt dieses NS-Verbrechen bis heute. Die Aktion Lebendige Liste will erinnern. Eine Liste, die dazu geschaffen wurde, die Werke so vieler Autoren zum Schweigen zu bringen, hilft nun, ihnen wieder eine Stimme zu geben. Auf Twitter wird jeden Tag ein Eintrag der NS-Verbotsliste veröffentlicht. Eine Liste des Vergessens beginnt zu sprechen und zu erinnern.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-website",
+              "link" : "http://www.lebendigeliste.de/",
+              "text" : "Webseite"
+            },  
+            {
+              "class" : "projects-twitter",
+              "link" : "http://www.twitter.com/lebendigeliste",
+              "text" : "Twitter"
+            }        
+          ],
+        "data": 
+          [
+            "NS-Buchverbotsliste",
+          ],
+        "team": [21,3,27,28]
+      },
+      {
+        "name" : "Mnemosyne",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/mnemosyne.png"
+          ],
+        "description" : "Archive werden mit steigender Komplexität spannender aber auch schwieriger zugänglich. Wie kann ich nach etwas suchen, dass ich nicht kenne? Wie können Inhalte dargestellt werden, die den Nutzer animieren feste Denkstrukturen zu überwinden? MNEMOSYNE hat das Ziel, dem Betrachter ein Stöbern zu ermöglichen und Schätze aus dem Archiv ins Gedächtnis zu rufen. Wie in der Bibliothek wahllos ins Regal greifen und eine Kostbarkeit finden, oder das Wikipedia-Hyperlink-Hopping.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-website",
+              "link" : "http://mnemosyne-app.de",
+              "text" : "Webseite"
+            },  
+            {
+              "class" : "projects-github",
+              "link" : "http://github.com/kollektivpp/CodingDaVinci-Mnemosyne",
+              "text" : "Seite auf github"
+            }        
+          ],
+        "data": 
+          [
+            "API der Deutschen Digitalen Bibliothek",
+          ],
+        "team": [21,3,27,28]
+      },
+      {
+        "name" : "Poetic Relief - תבליט פיוטי",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/poetic-relief-1.png"
+          ],
+        "description" : "Oft bleiben Fragen nach der Bedeutung der Grabinschriften, bei der Betrachtung von jüdischen Gräbern, offen - sei es von literarischer Natur oder sprachlichen Barrieren. Auf der „Poetic Relief“-Website findet der Nutzer die hebräische und deutsche Version der Grabinschriften und kann diese somit besser nachvollziehen. Im Zentrum steht die Lyrik der Inschriften, welche Geschichten aus den jüdischen Leben erzählen. Die Inschriften geben dir die Möglichkeit die Grabsteine von einem anderen Blickwinkel betrachten zu können, denn sie lassen Biografien lebendig werden und bringen vergangene jüdische Lebens- und Denkweisen ins 21. Jahrhundert.",
+        "links": 
+          [ 
+            {
+              "class" : "projects-website",
+              "link" : "http://www.poeticrelief.org",
+              "text" : "Webseite"
+            },  
+            {
+              "class" : "projects-github",
+              "link" : "http://github.com/step21/poerelief/",
+              "text" : "Seite auf github"
+            }        
+          ],
+        "data": 
+          [
+            "Datenbank zur jüdischen Grabsteinepigraphik des Steinheim-Instituts"
+          ],
+        "team": [29,30,31,32]
+      },
+      {
+        "name" : "SnatchTheCultureGame",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/snatch-the-culture-game.jpg"
+          ],
+        "description" : "Snatch the Culture Game ist ein Computerspiel für Ausstellungskurator/innen. Der Spieler kann dabei Wände und Ausstellungsflächen selbst bestimmen und modifizieren. Anschließend kann er ein eigenes Museum mit einer individuellen Ausstellung mit Werken aus dem Spielarchiv aufbauen und gestalten. Ziel der Spiels ist es, möglichst viele Besucher in seine Ausstellung zu locken und auf ihre Fragen richtig zu antworten. Diese beziehen sich nämlich auf die ausgestellten Stücke selbst.",
+        "links": 
+          [  
+            {
+              "class" : "projects-github",
+              "link" : "http://github.com/2P3H8131C1CP4/SnatchTheCultureGame",
+              "text" : "Seite auf github"
+            }        
+          ],
+        "data": 
+          [
+            "NS-Buchverbotsliste","Stolpersteinen in Berlin", "Daten des Botanischen Gartens und des Botanischen Museums Berlin-Dahlem", "Herzog August Bibliothek Wolfenbüttel"
+          ],
+        "team": [33,34]
+      },
+      {
+        "name" : "Soundwall-App",
+        "tile" : "/img/tiles/cdv_tiles.jpg",
+        "images" : 
+          [
+            "/img/projekte/soundwall.jpg"
+          ],
+        "description" : "Die Soundwall-App basiert auf der Musikinstrumentensammlung des Ethnologischen Museum Berlins und möchte es dem Besucher ermöglichen, sich die Instrumente nicht nur anzusehen, sondern sie mit allen Sinnen zu erleben. Die App registriert durch die Augmented Reality-Technologie das Musikinstrument in der Ausstellungsvitrine und spielt dem Nutzer dazugehörige Sounds und Videos ab, die die Spielweise der Instrumente dokumentieren.",
+        "links": 
+          [  
+            {
+              "class" : "projects-github",
+              "link" : "http://github.com/mCRUMBS/Soundwall/",
+              "text" : "Seite auf github"
+            },
+            {
+              "class" : "projects-website",
+              "link" : "http://mcrumbs.com/portfolio/soundwall-app/ ",
+              "text" : "Webseite"
+            }       
+          ],
+        "data": 
+          [
+            "Digitale Klang- und Videobeispiele aus der Instrumentensammlung des Ethnologischen Museums Berlin"
+          ],
+        "team": [33,34]
+      },
     ],
   "persons" : 
     [
@@ -408,7 +634,9 @@
       },
       {
         "id" : 20, 
-        "name" : "Thomas Tursics"
+        "name" : "Thomas Tursics",
+        "twitter" : "@tursics",
+        "github" : "tursics"
       },
       {
         "id" : 21, 
@@ -416,7 +644,83 @@
         "mail" : "mail@christian-bromann.com",
         "twitter" : "@bromann",
         "github" : "christian-bromann"
+      },
+      {
+        "id" : 22, 
+        "name" : "Sebastian Meier",
+        "twitter" : "@seb_meier",
+        "github" : "sebastian-meier"
+      },
+      {
+        "id" : 23, 
+        "name" : "Annika Blohm",
+        "twitter" : "@e_kunst",
+      },
+      {
+        "id" : 24, 
+        "name" : "Andrè Karliczek"
+      },
+      {
+        "id" : 25, 
+        "name" : "Andreas Christoph"
+      },
+      {
+        "id" : 26, 
+        "name" : "Carsten Resch"
+      },
+      {
+        "id" : 27, 
+        "name" : "Marius Förster",
+        "website" : "http://www.mezla.de"
+      },
+      {
+        "id" : 28, 
+        "name" : "Knut Perseke",
+        "twitter" : "@knutator",
+        "github" : "knutator2"
+      },
+      {
+        "id" : 29, 
+        "name" : "Noa Rave",
+        "twitter" : "@chukarave",
+      },
+      {
+        "id" : 30, 
+        "name" : "Florian Idelberger",
+        "twitter" : "@windrush",
+      },
+      {
+        "id" : 31, 
+        "name" : "Ruperta M. Steinwender",
+        "twitter" : "@rupertast",
+      },
+      {
+        "id" : 32, 
+        "name" : "Tatiana Potetinova"
+      },
+      {
+        "id" : 33, 
+        "name" : "Rebecca Kuliga"
+      },
+      {
+        "id" : 34, 
+        "name" : "Philip Wellnitz"
+      },
+      {
+        "id" : 35, 
+        "name" : "Martha Friedrich"
+      },
+      {
+        "id" : 36, 
+        "name" : "Peggy Sylopp"
+      },
+      {
+        "id" : 37, 
+        "name" : "Martin Adam"
+      },
+      {
+        "id" : 38, 
+        "name" : "Peter Pötsch"
       }
-
     ]
 }
