@@ -430,6 +430,76 @@ js: daten.js
 			</div>
 		</div>
 
+		<div class="data-entry" id="ddb">
+			<div class="data-interlude">
+				<h3>Deutsche Digitale Bibliothek</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/DDB_Logo_2012_CMYK_R_300dpi_3201x1831.png" alt="DDB Logo"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<h4>API der DDB</h4>
+					<p>
+						Die Deutsche Digitale Bibliothek (DDB) vernetzt die digitalen Bestände der Kultur- und Wissenschaftseinrichtungen und macht sie zentral zugänglich, für menschliche Nutzerinnen und Nutzer in Ihrem <a href="https://www.deutsche-digitale-bibliothek.de">Portal</a> und für maschinellen Zugriff über ihr <a href="https://api.deutsche-digitale-bibliothek.de">API</a>.
+					</p>
+					
+
+					<p>
+						Die Deutsche Digitale Bibliothek arbeitet spartenübergreifend, ihre Partner sind Archive, Bibliotheken, Denkmalämter, Forschungseinrichtungen, Mediatheken und Museen. Zur Zeit - Stand April 2015 - umfasst die DDB über <a href="https://www.deutsche-digitale-bibliothek.de/searchresults?query=*">12 Millionen Datensätze</a> von 188 <a href="https://www.deutsche-digitale-bibliothek.de/about-us/institutions#list">datengebenden Einrichtungen</a>. Jeden Monat kommen neue Datengeber hinzu. Von den bei Coding da Vinci teilnehmenden Kultureinrichtungen ist die Hälfte mit ihren Daten in der DDB vertreten.</p>
+
+						<p>
+							Ein Datensatz in der Deutschen Digitalen Bibliothek besteht aus Metadaten und, in der Hälfte der Fälle, aus Bild-, PDF-, Audio- oder Videodateien, die eine Vorschau auf das beim Datengeber verfügbare Digitalisat bieten. Das interne Metadatenformat der DDB ermöglicht die semantische Verknüpfung der Datensätze sowohl untereinander, beispielsweise über Personen, die als Schöpfer oder Gegenstand von Werken vorkommen können, als auch mit externen Datenbanken wie der <a href="http://codingdavinci.de/daten/#gemeinsame-normdatei">Gemeinsamen Normdatei</a> oder der Wikipedia. Alle Datensätze enthalten maschinenlesbare <a href="https://www.deutsche-digitale-bibliothek.de/content/lizenzen/">Rechteauszeichnungen</a>, die die rechtskonforme Weiterverwendung der in der DDB verzeichneten digitalen Objekte ermöglichen. Die Metadaten in der Deutschen Digitalen Bibliothek stehen grundsätzlich unter der <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0-Lizenz</a>, bei ca. 140.000 Objekten gibt es umfangreichere Beschreibungstexte, deren urheberrechtlicher Status nicht mit vertretbarem Aufwand geklärt werden kann und die deshalb nicht über das API ausgeliefert werden.
+						</p>
+
+						<p>
+							Eine detaillierte Dokumentation des API inklusive einiger Codebeispiele findet sich auf <a href="https://api.deutsche-digitale-bibliothek.de/doku">api.deutsche-digitale-bibliothek.de/doku</a>. Komplette Beispielanwendungen des API finden sich u.a. im <a href="https://github.com/Deutsche-Digitale-Bibliothek">github-Repositorium</a> der Deutschen Digitalen Bibliothek, darunter eine <a href="https://github.com/Deutsche-Digitale-Bibliothek/ddb-mapshowcase">kartenbasierte Suche in der DDB</a> und der von Studenten der FU Berlin adaptierte <a href="https://github.com/Deutsche-Digitale-Bibliothek/ddb-pdc">Public Domain Calculator</a>. Weitere Beispiele sind der Twitter-Bot <a href="https://twitter.com/ddbkatzen">DDB Katzen</a> und eine <a href="http://infovis.fh-potsdam.de/ddb/">interaktive Visualisierung der DDB-Bestände</a> durch die FH Potsdam. Auch bei Coding da Vinci 2014 sind mehrere auf dem DDB-API aufsetzende Projekte entstanden, z.B. der JavaScript-Wrapper<a href="https://github.com/kollektivpp/ddbrest">DDBRest</a>, die <a href="codingdavinci.de/projekte-2014/">Kulturchronologie</a> und <a href="http://mnemosyne-app.de/">Mnemosyne</a>.
+						</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Deutsche Digitale Bibliothek</dd>
+						<!--
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Flora & Fauna</span>
+						</dd>
+						-->
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							Bilder: verschiedene offene Lizenzen (<a href="https://www.deutsche-digitale-bibliothek.de/content/lizenzen/">Details</a>)<br />
+							Metadaten: <span class="label label-danger">CC0</span><br/>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">XML</span>
+							<span class="label label-info">JSON</span>
+							<span class="label label-info">EDM</span>
+						</dd>
+						<dt>Jahr</dt>
+						<dd class="data-year">
+							<span class="label label-warning">2015</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="https://www.deutsche-digitale-bibliothek.de">Portal der Deutschen Digitalenbibliothek</a><br />
+							<a href="https://api.deutsche-digitale-bibliothek.de/doku">API-Dokumentation</a><br />
+							<a href="https://www.deutsche-digitale-bibliothek.de/content/terms/api">API-Nutzungsbedingungen</a><br />
+							<a href="https://github.com/Deutsche-Digitale-Bibliothek">github-Repositorium</a><br />
+						</dd>
+						<dt>Weiterführende Links</dt>
+						<dd>
+							<a href="http://pro.europeana.eu/share-your-data/data-guidelines/edm-documentation">Beschreibung des EDM Formats</a><br />
+							<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/Datenmodell">weitere Metadatenstandards der DDB</a><br />
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
 		<div class="data-entry" id="deutsche-nationalbibliothek">
 			<div class="data-interlude">
 				<h3>Deutsche Nationalbibliothek</h3>
