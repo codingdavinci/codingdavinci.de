@@ -1200,3 +1200,7 @@ height: 100%;
 .data-meta dt {
   margin-top: 0.6em;
 }
+
+#project-image {
+  width: 100%;
+}
