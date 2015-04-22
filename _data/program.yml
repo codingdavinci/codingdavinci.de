@@ -46,13 +46,13 @@
       content: "Arbeitszeit"
       date: "2015-04-26 10:15"
     - 
-      content: "Inputsession 1: Schnittstellen-Workshop"
+      content: '<a href="/downloads/workshops/ALPHABET-Schnittstellen.odt.pdf">Inputsession 1: Workshop DDB API</a>'
       date: "2015-04-26 10:30"
     - 
-      content: "Inputsession 2: Metafacture-Workshop"
+      content: '<a href="/downloads/workshops/ALPHABET-Metafacture.odt.pdf">Inputsession 2: Metafacture-Workshop</a>'
       date: "2015-04-26 11:30"
     - 
-      content: "Inputsession 3: Hardware-Workshop"
+      content: '<a href="/downloads/workshops/SYNKOPE-Hardware.odt.pdf">Inputsession 3: Hardware-Workshop</a>'
       date: "2015-04-26 11:30"
     - 
       content: "Pitch \"Projekte weiterentwickeln\""
@@ -61,19 +61,19 @@
       content: "Lunch"
       date: "2015-04-26 13:00"
     - 
-      content: "Inputsession 4: Förderprogramme "
+      content: 'Inputsession 4: Förderprogramme mit <a href="/downloads/workshops/ALPHABET-Foerderprogramme_Franz.pdf">Christel Franz</a> und <a href="/downloads/workshops/ALPHABET-Foerderprogramme_Mueller.pdf">Amelie Müller</a>'
       date: "2015-04-26 14:00"
     - 
       content: "Beratung: Projekte weiterentwickeln"
       date: "2015-04-26 14:00"
     - 
-      content: "Inputsession 5: Wikidata-Workshop"
+      content: 'Inputsession 5: Wikidata-Workshop'
       date: "2015-04-26 15:00"
     - 
       content: "Kaffeepause"
       date: "2015-04-26 15:30"
     - 
-      content: "Inputsession 6: Workshop Datenvisualisierung"
+      content: '<a href="/downloads/workshops/ALPHABET-Datenvisualisierung.odt.pdf">Inputsession 6: Workshop Datenvisualisierung'
       date: "2015-04-26 16:00"
     - 
       content: "Wrap up des Wochenendes"
