@@ -31,7 +31,9 @@
         },
         {
             "name": "Cyberbeetle",
-            "image": "/img/projekte/cyberbeetle.jpg",
+            "images": [
+                "/img/projekte/cyberbeetle.jpg"
+            ],
             "description": "Das Projekt Cyberbeetle ist inspiriert von den Insektenscans des Museums für Naturkunde Berlin. Das Projekt möchte dem im Museum ausgestellten Chalcosoma Atlas-Käfer zu neuem Leben verhelfen. Basierend auf dem faszinierenden Aussehen des Käfers, ist ein sich bewegender Roboterkäfer entstanden, der seinen eigenen Insektenkasten besitzt. In diesem neuen Zuhause, der Insektenkastenbox aus Holz, kann der Cyberbeetle über einen Screen Videos von Pflanzen und Tieren anschauen. Sowohl der Käfer als auch die Box funktionieren mittels einem kleinen Arduinos und verschiedener weiterer elektronischer und mechanischer Einzelteile, die Bewegungen des Käfers ermöglichen.",
             "links": {
                 "class": "Webseite",
@@ -46,35 +48,6 @@
             "team": [
                 1,
                 2
-            ]
-        },
-        {
-            "name": "Alt-Berlin – Die iOS App für Geschichten zur historischen Entwicklung Berlins",
-            "tile": "/img/tiles/cdv_tiles.jpg",
-            "images": [
-                "/img/projekte/alt-berlin-app.jpg"
-            ],
-            "description": "Die IOS-App Alt-Berlin widmet sich der historischen Entwicklung der deutschen Hauptstadt. Auf historischen und modernen Karten sind Bilder der Stiftung Stadtmuseum Berlin verortet, die alte Gebäude und historische Plätze zeigen. Im Vorher-Nachher-Vergleich der Bilder und Karten entdeckt man z.B. den ursprünglichen Verlauf der Spree und die Veränderung des Stadtbildes. Der Nutzer kann sich durch die Stadtgeschichte bewegen und sie interaktiv erforschen. Für 2015 wird diese App für alle Geschichtsbegeisterten im App Store zur Verfügung stehen.",
-            "links": [
-                {
-                    "class": "projects-website",
-                    "link": "http://altberlinapp.de",
-                    "text": "Webseite"
-                },
-                {
-                    "class": "projects-github",
-                    "link": "https://github.com/choefele/coding-da-vinci",
-                    "text": "Demo auf github"
-                }
-            ],
-            "data": [
-                "\"Schichten der Geschichte\" Stadtansichten (Stadtmuseum Berlin)",
-                "Geometrien der Ortsteile von Berlin (Amt für Statistik Berlin-Brandenburg)",
-                "Berliner Karten 1650-1986 (Senatsverwaltung für Stadtentwicklung und Umwelt Berlin)",
-                "Bilder Kreuzberg (Wikipedia)"
-            ],
-            "team": [
-                0
             ]
         },
         {
@@ -576,163 +549,163 @@
             "github": "z3to"
         },
         {
-            "id": 7,
+            "id": 8,
             "name": "Kristin Sprechert",
             "github": "kaeseoehrchen"
         },
         {
-            "id": 8,
+            "id": 9,
             "name": "Kai Teuber, Ministerialbeamter, Berlin, Potsdam",
             "github": "teuberkai",
             "twitter": "@teuberkai"
         },
         {
-            "id": 9,
+            "id": 10,
             "name": "Clemens Wilding",
             "github": "wigginus"
         },
         {
-            "id": 10,
+            "id": 11,
             "name": "Anne Weißschädel",
             "mail": "anne.weissschaedel@gmail.com"
         },
         {
-            "id": 11,
+            "id": 12,
             "name": "Simon Könneke",
             "mail": "simonkoennecke@gmail.com"
         },
         {
-            "id": 12,
+            "id": 13,
             "name": "Christoph Hornig",
             "mail": "ch.hornig@gmail.com"
         },
         {
-            "id": 13,
+            "id": 14,
             "name": "Stephanie Weber",
             "mail": "klimperfee@gmail.com",
             "twitter": "@klimperfee"
         },
         {
-            "id": 14,
+            "id": 15,
             "name": "David Gomez",
             "mail": "davidogos@hotmail.com",
             "twitter": "@dagosarmiento"
         },
         {
-            "id": 15,
+            "id": 16,
             "name": "Anna Neovesky, Digitale Akademie",
             "mail": "anna.neovesky@adwmainz.de",
             "twitter": "@annavsk"
         },
         {
-            "id": 16,
+            "id": 17,
             "name": "Julius Peinelt, Mr. Fridge Software",
             "mail": "julius@mr-fridge.de",
             "twitter": "@codingFriends"
         },
         {
-            "id": 17,
+            "id": 18,
             "name": "Erik Woitschig",
             "github": "iambnz",
             "twitter": "@iam_bnz",
             "stackOverflow": "http://stackoverflow.com/users/1816139/bnz"
         },
         {
-            "id": 18,
+            "id": 19,
             "name": "Peter Pötsch"
         },
         {
-            "id": 19,
+            "id": 20,
             "name": "Stephan Klinger"
         },
         {
-            "id": 20,
+            "id": 21,
             "name": "Thomas Tursics",
             "twitter": "@tursics",
             "github": "tursics"
         },
         {
-            "id": 21,
+            "id": 22,
             "name": "Christian Bromann",
             "mail": "mail@christian-bromann.com",
             "twitter": "@bromann",
             "github": "christian-bromann"
         },
         {
-            "id": 22,
+            "id": 23,
             "name": "Sebastian Meier",
             "twitter": "@seb_meier",
             "github": "sebastian-meier"
         },
         {
-            "id": 23,
+            "id": 24,
             "name": "Annika Blohm",
             "twitter": "@e_kunst"
         },
         {
-            "id": 24,
+            "id": 25,
             "name": "Andrè Karliczek"
         },
         {
-            "id": 25,
+            "id": 26,
             "name": "Andreas Christoph"
         },
         {
-            "id": 26,
+            "id": 27,
             "name": "Carsten Resch"
         },
         {
-            "id": 27,
+            "id": 28,
             "name": "Marius Förster",
             "website": "http://www.mezla.de"
         },
         {
-            "id": 28,
+            "id": 29,
             "name": "Knut Perseke",
             "twitter": "@knutator",
             "github": "knutator2"
         },
         {
-            "id": 29,
+            "id": 30,
             "name": "Noa Rave",
             "twitter": "@chukarave"
         },
         {
-            "id": 30,
+            "id": 31,
             "name": "Florian Idelberger",
             "twitter": "@windrush"
         },
         {
-            "id": 31,
+            "id": 32,
             "name": "Ruperta M. Steinwender",
             "twitter": "@rupertast"
         },
         {
-            "id": 32,
+            "id": 33,
             "name": "Tatiana Potetinova"
         },
         {
-            "id": 33,
+            "id": 34,
             "name": "Rebecca Kuliga"
         },
         {
-            "id": 34,
+            "id": 35,
             "name": "Philip Wellnitz"
         },
         {
-            "id": 35,
+            "id": 36,
             "name": "Martha Friedrich"
         },
         {
-            "id": 36,
+            "id": 37,
             "name": "Peggy Sylopp"
         },
         {
-            "id": 37,
+            "id": 38,
             "name": "Martin Adam"
         },
         {
-            "id": 38,
+            "id": 39,
             "name": "Peter Pötsch"
         }
     ]
