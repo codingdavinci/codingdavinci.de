@@ -128,13 +128,13 @@ js: daten.js
 				<div class="data-content">
 					<h4>Titeldaten und Bestandsnachweise der Bibliotheken in Bayern, Berlin und Brandenburg</h4>
 					<p>
-						Der Gemeinsame Verbundkatalog der wissenschaftlichen Bibliotheken Bayerns, Berlins und Brandenburgs enthält die Metadaten aller dort verfügbaren Medien. Die Daten der rund 22 Mio. Titel umfassen grundlegende bibliographische Informationen wie Autoren, Titel und Erscheinungsjahre, aber auch deren sachliche und klassifikatorische Erschließung. Zusätzlich sind die im Verbundkatalog vorhandenen Bestandsnachweise nutzbar. Mit ihnen können Sie abfragen, in welchen Bibliotheken die Medien erhältlich sind. Die Daten sind mit zahlreichen Links auf weitere Linked Open Data­ Angebote versehen:­ 
+						Der Gemeinsame Verbundkatalog der wissenschaftlichen Bibliotheken Bayerns, Berlins und Brandenburgs enthält die Metadaten aller dort verfügbaren Medien. Die Daten der rund 26 Mio. Titel umfassen grundlegende bibliographische Informationen wie Autoren, Titel und Erscheinungsjahre, aber auch deren sachliche und klassifikatorische Erschließung. Zusätzlich sind die im Verbundkatalog vorhandenen Bestandsnachweise nutzbar. Mit ihnen können Sie abfragen, in welchen Bibliotheken die Medien erhältlich sind. Die Daten sind mit zahlreichen Links auf weitere Linked Open Data­ Angebote versehen:­ 
 						<ul>
 						<li>Gemeinsame Normdatei (u.a. sachliche Erschließung mit Schlagworten, Personennormdaten zu Urhebern und Beitragenden)­ </li>
 						<li>Dewey Decimal Classification (klassifikatorische Erschließung mit der DDC)­ </li>
 						<li>Titelaufnahmen in den anderen deutschen Verbünden­ Bibliotheks­ Metadaten auf lobid.org (u.a. Geokoordinaten und Adressen der Bibliotheken)</li>
 						</ul>
-						Die verwendeten Prädikate folgen den Empfehlungen der DINI AG KIM Titeldaten, die die deutschen Bibliotheksverbünde gemeinsam erstellt haben und umsetzen. Die Daten liegen als RDF vor, so dass u.a. alle verlinkten direkt zusammen mit dem angebotenen Datenset verwendbar sind. Die B3Kat­Daten können sie im Format RDF/Turtle von https://lod.b3kat.de/doc/downloadherunterladen, oder über http://lod.b3kat.de/sparql abfragen.
+						Die verwendeten Prädikate folgen den Empfehlungen der DINI AG KIM Titeldaten, die die deutschen Bibliotheksverbünde gemeinsam erstellt haben und umsetzen. Die Daten liegen als RDF vor, so dass u.a. alle verlinkten Daten direkt zusammen mit dem angebotenen Datenset verwendbar sind. Die B3Kat-­Daten können sie im Format RDF/Turtle von <a href="https://lod.b3kat.de/doc/download">https://lod.b3kat.de/doc/download</a> herunterladen, oder über <a href="http://lod.b3kat.de/sparql">http://lod.b3kat.de/sparql</a> abfragen.
 					</p>
 				</div>
 				<div class="data-meta">
@@ -154,7 +154,7 @@ js: daten.js
 						</dd>
 						<dt>Dateityp</dt>
 						<dd class="data-type">
-							RDF<span class="label label-info">Turtle</span>
+							RDF-<span class="label label-info">Turtle</span>
 						</dd>
 						<dt>Jahr</dt>
 						<dd class="data-year">
@@ -327,7 +327,7 @@ js: daten.js
 							href="http://www.biocase.org/">BioCASe</a> und <a href="http://www.gbif.org/">GBIF</a> geliefert.
 					</p>
 
-					<p>Derzeit sind 170,000 Bilder digital über das Web verfügbar: die Digitalisate über einen Imageviewer (auch als jpeg) und die zugehörigen Metadaten in RDF/XML:</p>
+					<p>Derzeit sind 200,000 Belege digital über das Web verfügbar. Die Metadaten liegen in RDF/XML vor, die Digitalisate über einen Imageviewer in hoher Auflösung sowie als JPEGs in mittlerer Auflösung:</p>
 					<ul>
 						<li>
 							Über die <a href="http://herbarium.bgbm.org/object">Basis-URL</a> erhält man Zugriff auf einen Katalog aller verfügbaren Objekte (g-zipptes RDF/XML-Dokument). Für jedes Objekt sind Titel sowie eine URL aufgeführt, z.B. <a href="http://herbarium.bgbm.org/object/BW06960010">„Loranthus tubulosus Willd.“</a>.
@@ -339,7 +339,7 @@ js: daten.js
 							Nutzt eine Software diese URL, erhält sie die <a href="http://herbarium.bgbm.org/data/rdf/BW06960010">Metadaten im maschinenlesbaren RDF-Format</a>.
 						</li>
 						<li>
-							Die ca. 10.500 Bilder der Farne sind über den Imageviewer hinaus auch komplett als JPG verfügbar. Diese Objekte lassen sich am führenden „B20“ in der Objekt-ID erkennen und enthalten in den Metadaten ein zusätzliches Feld associatedMedia, das die URL zum Bild enthält (<a href="http://herbarium.bgbm.org/data/rdf/B200049849">Beispiel</a>).
+							Die Digitalisate sind über den Imageviewer hinaus auch komplett als JPEG verfügbar, die URL zum Bild findet sich im Feld <i>associatedMedia</i> der Metadaten (<a href="http://herbarium.bgbm.org/data/rdf/B200049849">Beispiel</a>). 
 						</li>
 					</ul>
 				</div>
@@ -424,6 +424,76 @@ js: daten.js
 						<dd>
 							Metadaten:<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/API+der+Deutschen+Digitalen+Bibliothek">API der DDB</a><br/>
 							<a href="https://www.flickr.com/photos/132548293@N02/sets/72157651530982788/">Bilder</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div class="data-entry" id="ddb">
+			<div class="data-interlude">
+				<h3>Deutsche Digitale Bibliothek</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-media">
+					<div class="thumbnail">
+						<img src="{{ site.baseurl }}img/daten/DDB_Logo_2012_CMYK_R_300dpi_3201x1831.png" alt="DDB Logo"/>
+					</div>
+				</div>
+				<div class="data-content">
+					<h4>API der DDB</h4>
+					<p>
+						Die Deutsche Digitale Bibliothek (DDB) vernetzt die digitalen Bestände der Kultur- und Wissenschaftseinrichtungen und macht sie zentral zugänglich, für menschliche Nutzerinnen und Nutzer in Ihrem <a href="https://www.deutsche-digitale-bibliothek.de">Portal</a> und für maschinellen Zugriff über ihr <a href="https://api.deutsche-digitale-bibliothek.de">API</a>.
+					</p>
+					
+
+					<p>
+						Die Deutsche Digitale Bibliothek arbeitet spartenübergreifend, ihre Partner sind Archive, Bibliotheken, Denkmalämter, Forschungseinrichtungen, Mediatheken und Museen. Zur Zeit - Stand April 2015 - umfasst die DDB über <a href="https://www.deutsche-digitale-bibliothek.de/searchresults?query=*">12 Millionen Datensätze</a> von 188 <a href="https://www.deutsche-digitale-bibliothek.de/about-us/institutions#list">datengebenden Einrichtungen</a>. Jeden Monat kommen neue Datengeber hinzu. Von den bei Coding da Vinci teilnehmenden Kultureinrichtungen ist die Hälfte mit ihren Daten in der DDB vertreten.</p>
+
+						<p>
+							Ein Datensatz in der Deutschen Digitalen Bibliothek besteht aus Metadaten und, in der Hälfte der Fälle, aus Bild-, PDF-, Audio- oder Videodateien, die eine Vorschau auf das beim Datengeber verfügbare Digitalisat bieten. Das interne Metadatenformat der DDB ermöglicht die semantische Verknüpfung der Datensätze sowohl untereinander, beispielsweise über Personen, die als Schöpfer oder Gegenstand von Werken vorkommen können, als auch mit externen Datenbanken wie der <a href="http://codingdavinci.de/daten/#gemeinsame-normdatei">Gemeinsamen Normdatei</a> oder der Wikipedia. Alle Datensätze enthalten maschinenlesbare <a href="https://www.deutsche-digitale-bibliothek.de/content/lizenzen/">Rechteauszeichnungen</a>, die die rechtskonforme Weiterverwendung der in der DDB verzeichneten digitalen Objekte ermöglichen. Die Metadaten in der Deutschen Digitalen Bibliothek stehen grundsätzlich unter der <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0-Lizenz</a>, bei ca. 140.000 Objekten gibt es umfangreichere Beschreibungstexte, deren urheberrechtlicher Status nicht mit vertretbarem Aufwand geklärt werden kann und die deshalb nicht über das API ausgeliefert werden.
+						</p>
+
+						<p>
+							Eine detaillierte Dokumentation des API inklusive einiger Codebeispiele findet sich auf <a href="https://api.deutsche-digitale-bibliothek.de/doku">api.deutsche-digitale-bibliothek.de/doku</a>. Komplette Beispielanwendungen des API finden sich u.a. im <a href="https://github.com/Deutsche-Digitale-Bibliothek">github-Repositorium</a> der Deutschen Digitalen Bibliothek, darunter eine <a href="https://github.com/Deutsche-Digitale-Bibliothek/ddb-mapshowcase">kartenbasierte Suche in der DDB</a> und der von Studenten der FU Berlin adaptierte <a href="https://github.com/Deutsche-Digitale-Bibliothek/ddb-pdc">Public Domain Calculator</a>. Weitere Beispiele sind der Twitter-Bot <a href="https://twitter.com/ddbkatzen">DDB Katzen</a> und eine <a href="http://infovis.fh-potsdam.de/ddb/">interaktive Visualisierung der DDB-Bestände</a> durch die FH Potsdam. Auch bei Coding da Vinci 2014 sind mehrere auf dem DDB-API aufsetzende Projekte entstanden, z.B. der JavaScript-Wrapper<a href="https://github.com/kollektivpp/ddbrest">DDBRest</a>, die <a href="http://codingdavinci.de/projekte-2014/">Kulturchronologie</a> und <a href="http://mnemosyne-app.de/">Mnemosyne</a>.
+						</p>
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Deutsche Digitale Bibliothek</dd>
+						<!--
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Flora & Fauna</span>
+						</dd>
+						-->
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							Mediendateien: verschiedene offene Lizenzen (<a href="https://www.deutsche-digitale-bibliothek.de/content/lizenzen/">Details</a>)<br />
+							Metadaten: <span class="label label-danger">CC0</span><br/>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">XML</span>
+							<span class="label label-info">JSON</span>
+							<span class="label label-info">EDM</span>
+						</dd>
+						<dt>Jahr</dt>
+						<dd class="data-year">
+							<span class="label label-warning">2015</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="https://www.deutsche-digitale-bibliothek.de">Portal der Deutschen Digitalen Bibliothek</a><br />
+							<a href="https://api.deutsche-digitale-bibliothek.de/doku">API-Dokumentation</a><br />
+							<a href="https://www.deutsche-digitale-bibliothek.de/content/terms/api">API-Nutzungsbedingungen</a><br />
+							<a href="https://github.com/Deutsche-Digitale-Bibliothek">github-Repositorium</a><br />
+						</dd>
+						<dt>Weiterführende Links</dt>
+						<dd>
+							<a href="http://pro.europeana.eu/share-your-data/data-guidelines/edm-documentation">Beschreibung des intern verwendeten Metadatenstandards EDM</a><br />
+							<a href="https://api.deutsche-digitale-bibliothek.de/doku/display/ADD/Datenmodell">weitere Metadatenstandards der DDB</a><br />
 						</dd>
 					</dl>
 				</div>
@@ -568,36 +638,36 @@ js: daten.js
 					<p>
 						Der Kronberger Apotheker und Erfinder Julius Neubronner (1852-1932) war einer der ersten, der in der Rhein-Main-Region Filme drehte. Im Jahre 1903 erwarb er seine erste Kamera, eine „Kino“, die die Dresdner Foto-Firma Ernemann herstellte. Mit ihr nahm er historische Ereignisse auf und hielt den Alltag seiner Familie fest. Julius Neubronner drehte aber auch kleine Sketche, von ihm selbst mit seiner Familie auf einer im Garten seines Hauses errichteten Bühne in Szene gesetzt.
 						<ul>
-							<li><a href="https://www.youtube.com/watch?v=dKv1bBdXhK8">Julius Neubronner zaubert</a></li>
-							<li><a href="https://www.youtube.com/watch?v=9hwdfR13R28">Kaiser Wilhelm II. im Auto</a></li>
-							<li><a href="https://www.youtube.com/watch?v=z5n_s4Hl1uo">Julius Neubronner mit Enkelkindern</a></li>
-							<li><a href="https://www.youtube.com/watch?v=c9PfZfLbqmE">Gordon-Bennett-Autorennen (17.6.1904)</a></li>
-							<li><a href="https://www.youtube.com/watch?v=l4LBN9Mpt1w">Familie Neubronner geht spazieren</a></li>
-							<li><a href="https://www.youtube.com/watch?v=eoG-w4yqs7Y">Der Zehnender</a></li>
-							<li><a href="https://www.youtube.com/watch?v=yGwY7Iebb_Q">Hochzeit Dodo Neubronner in Kronberg</a></li>
-							<li><a href="https://www.youtube.com/watch?v=CwpxiRDUtkI">Carl Neubronner mit Tochter Ilse</a></li>
-							<li><a href="https://www.youtube.com/watch?v=ruwGjxyuu5g">Kaiser Wilhelm II. weiht eine Gedenktafel [...]</a></li>
-							<li><a href="https://www.youtube.com/watch?v=kmigXF-0XsQ">Luftnummer</a></li>
-							<li><a href="https://www.youtube.com/watch?v=ub1ZGR1FGXs">Ankunft von König Eduard VII. von England in Kronberg</a></li>
-							<li><a href="https://www.youtube.com/watch?v=X10mOwnJXHw">Kaiserpreis-Autorennen (13.6.1907)</a></li>
-							<li><a href="https://www.youtube.com/watch?v=8Rcp24wBMxM">Schneeschuhlaufen auf dem Feldberg</a></li>
-							<li><a href="https://www.youtube.com/watch?v=BsJy9dt7Fr8">Rodelbahn Schwarzer Weg Kronberg</a></li>
-							<li><a href="https://www.youtube.com/watch?v=kN7lxyUCpn4">Eislauf auf dem Kronberger Teich</a></li>
-							<li><a href="https://www.youtube.com/watch?v=7FcDVu4c2Pg">Moren tanzt</a></li>
-							<li><a href="https://www.youtube.com/watch?v=7pyjhcj7dZ8">Kronberger Eisenbahn</a></li>
-							<li><a href="https://www.youtube.com/watch?v=Ihm9-WKH6ug">Rodeln</a></li>
-							<li><a href="https://www.youtube.com/watch?v=KuWGnHsvKFw">Karnevalszug</a></li>
-							<li><a href="https://www.youtube.com/watch?v=5Chz-b6B_Ac">Bei Onkel Willi Lindheimer in Schwalbach</a></li>
-							<li><a href="https://www.youtube.com/watch?v=J3sNC4JFYYg">Willi geigt</a></li>
-							<li><a href="https://www.youtube.com/watch?v=3iqvPFdViF4">Kronberger Automobil-Jugendrennen 18.8.1907</a></li>
-							<li><a href="https://www.youtube.com/watch?v=vODeo0Y0CG4">Hund und Bär im Zirkus</a></li>
-							<li><a href="https://www.youtube.com/watch?v=vjeuV3yIItw">Festzug in Hessen</a></li>
-							<li><a href="https://www.youtube.com/watch?v=umVcQj1oDDc">Kaisers Karussell in Kronberg</a></li>
-							<li><a href="https://www.youtube.com/watch?v=PFKd_OQrZCo">Hochzeit des Forstmeisters Niederstadt in Hachenburg</a></li>
-							<li><a href="https://www.youtube.com/watch?v=GM4Cno8fxdo">Umzug des Schützenvereins in Kronberg</a></li>
-							<li><a href=" https://www.youtube.com/watch?v=M33l07ZO8sE">Drei Geishas</a></li>
-							<li><a href="https://www.youtube.com/watch?v=vFHS06Dvi60">Eislauf</a></li>
-							<li><a href="https://www.youtube.com/watch?v=I5JZw3wwu5Y">Des Jägers Traum</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/gQA6UvfxNRaULOV">Julius Neubronner zaubert</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/se6rwKr0A7iplQ7">Kaiser Wilhelm II. im Auto</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/GKxjp9P8pBwkGyM">Julius Neubronner mit Enkelkindern</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/laarzjgsvDlha65">Gordon-Bennett-Autorennen (17.6.1904)</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/eaauDUpbpxJGhnX">Familie Neubronner geht spazieren</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/5WaeOt5gQrpunZe">Der Zehnender</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/1d3WipBMRHnY4BP">Hochzeit Dodo Neubronner in Kronberg</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/FLh5y7Doqr6pvEo">Carl Neubronner mit Tochter Ilse</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/al9YwBqPQ5ltrgG">Kaiser Wilhelm II. weiht eine Gedenktafel [...]</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/e34oqkJYMtoeQyB">Luftnummer</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/bc7IkoPvOdO09vn">Ankunft von König Eduard VII. von England in Kronberg</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/7ozmhobHQDLEGiv">Kaiserpreis-Autorennen (13.6.1907)</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/PXiBO4Jxm1RYSRA">Schneeschuhlaufen auf dem Feldberg</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/zNc0Gl8CKTrLOH6">Rodelbahn Schwarzer Weg Kronberg</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/KHgtunbqSD2hVtx">Eislauf auf dem Kronberger Teich</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/0s5sJ6yVCrf6iLy">Moren tanzt</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/5WaeOt5gQrpunZe">Kronberger Eisenbahn</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/lk4KPOjfMsong04">Rodeln</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/fnlQHaG7p9CgsPp">Karnevalszug</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/IC7t9uGzRhfsfX2">Bei Onkel Willi Lindheimer in Schwalbach</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/7xcrpqwngoNgLsN">Willi geigt</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/Wny40FBYXOCAKjt">Kronberger Automobil-Jugendrennen 18.8.1907</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/EZZwaLG2JPssIQC">Hund und Bär im Zirkus</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/oJyPGIYgxOl3Tlc">Festzug in Hessen</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/ghWiynh8rXfQWFN">Kaisers Karussell in Kronberg</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/w8vjsDNDOUVzvqn">Hochzeit des Forstmeisters Niederstadt in Hachenburg</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/EUBxVTU3gqJ5gBV">Umzug des Schützenvereins in Kronberg</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/OGWtOMZkcQfMxis">Drei Geishas</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/COgcXD8RmP4b5v0">Eislauf</a></li>
+							<li><a href="http://136.243.4.67/index.php/s/IN7h9TXm0D2kzr9">Des Jägers Traum</a></li>
 						</ul>
 					</p>	
 				</div>
@@ -626,7 +696,7 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							<a href=" http://136.243.4.67/index.php/apps/files/?dir=%2FCdV_2015_Daten%2FDeutsches%20Filminstitut%2FSammlung%20Julius%20Neubronner">Metadaten und Videos (Benutzername: gast, Passwort gast)</a>
+							<a href="http://136.243.4.67/index.php/s/NbRTs6HB6YdicOB">Metadaten und Videos</a>
 						</dd>
 					</dl>
 				</div>
@@ -676,8 +746,52 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							<a href="https://wolke.deutsches-museum.de/public.php?service=files&t=42266b05715b75a8863487ca601ef1dd">Metadaten</a><br />
-							<a href="https://wolke.deutsches-museum.de/public.php?service=files&t=ce7d6d94e25d34b102f9ab807b359254">Bilder</a>
+							<a href="http://136.243.4.67/index.php/s/9jj8t9uZiPqjXzd">Metadaten</a><br />
+							<a href="http://136.243.4.67/index.php/s/phVW8mej8MsbDDf">Bilder</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div class="data-entry" id="ns-zwangsarbeit">
+			<div class="data-interlude">
+				<h3>Dokumentationszentrum NS-­Zwangsarbeit</h3>
+			</div>
+			<div class="data-point">
+				<div class="data-content">
+					<h4>Zwangsarbeiterlager in Berlin</h4>
+					<p>
+						Die Vorliegende Datenbank ist noch immer ein „Work in Progress“. Im Rahmen der Forschungsarbeit in Vorbereitung zur Dauerausstellung des Dokumentationszentrums NS­Zwangsarbeit wurden alle bekannten Lagerstandorte noch einmal geographisch verifiziert. Die verifizierten Standorte finden sich in der Datei Die Arbeit ist noch nicht abgeschlossen. Im Bereich „Camp Old“ befinden sich unsere Ausgangsdateien. Geotags sind,soweit wir die Standorte bereits verifizieren konnten vorhanden. Wir dokumentieren hiermit das Ausmaß, das zivile Zwangsarbeit in Berlin hatte. Die Freigabe beschränken wirderzeit auf Berlin, weitere Daten sind allerdings vorhanden.
+					</p>
+
+					
+				</div>
+				<div class="data-meta">
+					<dl>
+						<dt>Namensnennung</dt>
+						<dd>Dokumentationszentrum NS-­Zwangsarbeit</dd>
+						<!--
+						<dt>Kategorien</dt>
+						<dd class="data-category">
+							<span class="label label-default">Flora & Fauna</span>
+						</dd>
+						-->
+						<dt>Lizenz</dt>
+						<dd class="data-license">
+							<span class="label label-danger">CC-BY-SA</span> 4.0<br/>
+						</dd>
+						<dt>Dateityp</dt>
+						<dd class="data-type">
+							<span class="label label-info">CSV</span>
+						</dd>
+						<dt>Jahr</dt>
+						<dd class="data-year">
+							<span class="label label-warning">2015</span>
+						</dd>
+						<dt>Links</dt>
+						<dd>
+							<a href="https://offenedaten.de/storage/f/2015-04-21T09%3A53%3A35.834Z/ns-zwangsarbeit.zip">Metadaten</a>
 						</dd>
 					</dl>
 				</div>
@@ -895,7 +1009,7 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							<a href="https://offenedaten.de/dataset/grips/resource/4f87a6b9-402c-4fbb-9f94-2857f8dacb5e">Metadaten</a><br />
+							<a href="https://offenedaten.de/storage/f/2015-04-22T13%3A14%3A03.059Z/grips.csv">Metadaten</a><br />
 							<a href="https://www.flickr.com/photos/132310938@N06/sets/72157651368488988/">Bilder</a>
 						</dd>
 					</dl>
@@ -1289,7 +1403,9 @@ js: daten.js
 						</dd>
 						<dt>Links</dt>
 						<dd>
-							tbd
+							<a href="https://commons.wikimedia.org/wiki/Category:Lithographs_by_Hermann_Struck?uselang=de
+https://commons.wikimedia.org/wiki/Category:Etchings_by_Hermann_Struck?uselang=de
+https://commons.wikimedia.org/wiki/Category:Prints_by_Hermann_Struck?uselang=de">Bilder und Metadaten</a>
 						</dd>
 					</dl>
 				</div>
@@ -1413,11 +1529,11 @@ js: daten.js
 				<h3>Language Science Press</h3>
 			</div>
 			<div class="data-point">
-				<!-- <div class="data-media">
+				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/wals-sov.png" alt="Language Science Press"/>
 					</div>
-				</div> -->
+				</div>
 				<div class="data-content">
 					<h4>
 						Linguistische Beispielsätze aus vielen Sprachen 
@@ -1453,11 +1569,17 @@ js: daten.js
 						<dt>Links</dt>
 						<dd>
 							<a href="https://github.com/langsci/lsp­-xml">Metadaten</a><br />
-							<a href="https://github.com/langsci/lsp­-xml">Bilder</a>
+							<a href="https://github.com/langsci/lsp­-xml">Bilder</a><br />
+							<a href="https://github.com/langsci/lsp-xml/blob/master/doc/user-guide.md">User Guide</a><br />
+							<a href="https://github.com/langsci/lsp-xml/blob/clld-doc/doc/clld-datasets.md">Clid Datasets</a>
 						</dd>
 						<dt>Weiterf&uuml;hrende Links</dt>
 						<dd>
-							<a href="">tbd</a>
+							<a href="https://github.com/clld/glottolog-data/tree/master/languoids">Liste von Sprachen mit geographischen und genealogischen Daten sowie Namen und Abkürzungen</a><br />
+							<a href="https://github.com/clld/glottolog-data/tree/master/references/bibtex">Literaturmetadaten zu kleinen Sprachen</a><br />
+							<a href="http://glottolog.org/resource/languoid/id/comm1245">Bereits bestehende Anwendung</a><br />
+							<a href="http://wals.info/feature/13A#3/5.45/142.04">Daten zu grammatikalischen Eigenschaften (WALS)</a><br />
+							<a href="http://th-mayer.de/wals/#30A/">Beispiel der Nutzung von WALS</a>
 						</dd>
 					</dl>
 				</div>
@@ -1998,7 +2120,7 @@ js: daten.js
 			<div class="data-point">
 				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/17213_jpg.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/17213_jpg.jpg" alt="Museumsdorf Cloppenburg"/>
 					</div>
 				</div>
 				<div class="data-content">
@@ -2437,7 +2559,7 @@ js: daten.js
 			 <div class="data-point">
 				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/ossietzky_hamburg_elbkarten.jpg" alt="Elbkarten"/>
+						<img src="{{ site.baseurl }}img/daten/hist-hh-karte-subhh.jpg" alt="Elbkarten"/>
 					</div>
 				</div>
 				<div class="data-content">
@@ -2479,11 +2601,11 @@ js: daten.js
 				</div>
 			</div>
 			<div class="data-point">
-				 <!-- <div class="data-media">
+				 <div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bgbm.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/kupferstiche-subhh.jpg" alt="Kupferstich"/>
 					</div>
-				</div>  -->
+				</div> 
 				<div class="data-content">
 					<h4>
 						Manier, Mythos und Moral – Niederländische Druckgraphik um 1600
@@ -2551,8 +2673,7 @@ js: daten.js
 						-->
 						<dt>Lizenz</dt>
 						<dd class="data-license">
-							Metadaten:<span class="label label-danger">CC0</span><br/>
-							Bilder:<span class="label label-danger">CC-BY-SA</span>3.0 DE<br/>
+							<span class="label label-danger">CC-BY-SA</span>3.0 DE<br/>
 						</dd>
 						<dt>Dateityp</dt>
 						<dd class="data-type">
@@ -2889,7 +3010,7 @@ js: daten.js
 			<div class="data-point">
 				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/unileipzig.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/unileipzig.jpg" alt="Universität Leipzig, Digital Humanities"/>
 					</div>
 				</div>
 				<div class="data-content">
@@ -2941,7 +3062,7 @@ js: daten.js
 			<div class="data-point">
 				<div class="data-media">
 					<div class="thumbnail">
-						<img src="{{ site.baseurl }}img/daten/bauhausuniweimar.jpg" alt="Botanischer Garten und Botanisches Museum Berlin-Dahlem"/>
+						<img src="{{ site.baseurl }}img/daten/bauhausuniweimar.jpg" alt="UB Weimar"/>
 					</div>
 				</div>
 				<div class="data-content">
@@ -2979,7 +3100,9 @@ js: daten.js
 						<dt>Links</dt>
 						<dd>
 							<a href="https://offenedaten.de/dataset/digitale-sammlung-ubweimar/resource/21222c17-38ea-4e7c-b666-1c4db22ec85d">Metadaten</a><br />
-							<a href="https://www.flickr.com/photos/130762863@N05/sets/">Bilder</a>
+							<a href="https://www.flickr.com/photos/130762863@N05/sets/">Bilder</a><br />
+							<a href="https://offenedaten.de/storage/f/2015-04-21T11%3A03%3A40.281Z/lehfeldt-metadaten.zip">Metadaten Lehfeldt Datensatz</a><br />
+							<a href="https://offenedaten.de/storage/f/2015-04-21T11%3A05%3A58.991Z/lehfeldt-volltexte.zip">Volltexte Lehfeldt Datensatz</a><br />
 						</dd>
 					</dl>
 				</div>

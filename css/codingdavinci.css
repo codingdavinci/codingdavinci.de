@@ -127,6 +127,7 @@ a.main-signup {
   -webkit-transform: translate3d(0px, 0px, 0px);
   transform: translate3d(0px, 0px, 0px);
   text-align: center;
+  display: none;
 }
 
 a.main-signup:hover {
@@ -393,7 +394,7 @@ li.active .navsub li a{
 .glam-container {
   
   display: table;
-  width: 130%
+  width: 100%
 }
 
 .sponser-header {

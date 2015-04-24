@@ -35,6 +35,10 @@
   image: "/img/logos-2015/Logo_Deutsches_Museum.jpg"
   link:  "http://www.deutsches-museum.de/"
 -
+  name:  "Dokumentationszentrum NS-­Zwangsarbeit"
+  image: "/img/logos-2015/Logo NSZ 2010cmyk-3.tif"
+  link:  "http://www.dz-ns-zwangsarbeit.de"
+-
   name:  "Ethnologisches Museum"
   image: "/img/logos-2015/ethnologisches_museum.png"
   link:  "http://www.smb.museum/museen-und-einrichtungen/ethnologisches-museum/home.html"
@@ -81,7 +85,7 @@
 -
   name:  "SLUB Dresden"
   image: "/img/logos-2015/slub_logo.jpg"
-  link:  "http://www.sub.uni-hamburg.de/home.html"
+  link:  "http://www.slub-dresden.de/startseite/"
 -
   name:  "Staats- und Universitätsbibliothek Carl von Ossietzky"
   image: "/img/logos-2015/StabiLogo-gr.jpg"
