@@ -5,8 +5,22 @@ $(document).ready(function () {
 	var projects = {};
 	var persons = {};
 
-	currentProject = 0;
+	var currentProject = 0;
 
+	function fillAllProjectsSection() {
+		var entrystring = '';
+		$('#all-projects').html('');
+		$.each(projects, function(index, val) {
+			if (index % 6 == 0) {
+				entrystring += '<div class="row">'
+			}
+			entrystring += '<div class="col-md-1 project-tile"><img src="' + val.tile + '"/><p>' + val.name + '</p></div>';
+			if (index % 6 == 5) {
+				entrystring += '</div>'
+			}
+		});
+		$('#all-projects').html(entrystring);
+	}
 
 	function getSymbolByLinktype(type) {
 		return "S";
@@ -19,7 +33,7 @@ $(document).ready(function () {
 	function fillProjectInformation(currentProject) {
 		$('#projectlinks').html('');
 		$.each(currentProject.links, function(index, val) {
-			var symbol = getSymbolByLinktype(val.class)
+			var symbol = getSymbolByLinktype(val.class);
 			$('#projectlinks').append(val.text + ' <a href="' + val.link + '">' + symbol + '</a><br />');
 		});
 
@@ -32,13 +46,13 @@ $(document).ready(function () {
 	function updateTeam(member) {
 		$('#team').html('');
 		$.each(member, function(index, val) {
-			currentMember = persons[val];
+			var currentMember = persons[val];
 			$('#team').append(currentMember.name + '<br />');
 		});
 	}
 
 	function setProject(index) {
-		var currentProject = projects[index];
+		currentProject = projects[index];
 		console.log(currentProject);
 		$('#project-name').html(currentProject.name);
 		$('#project-description').html(currentProject.description);
@@ -53,23 +67,26 @@ $(document).ready(function () {
 		}
 		
 		fillProjectInformation(currentProject);
-		updateTeam(currentProject.team)
+		updateTeam(currentProject.team);
 		console.log(currentProject);
 	}
 
 	$.getJSON('/js/projects.json', function(data) {
-		projects = data['projects'];
-		persons = data['persons'];
+		projects = data.projects;
+		persons = data.persons;
 		setProject(0);
+		fillAllProjectsSection();
 	});
 
 	$('#next-project').click(function() {
 		currentProject++;
 		setProject(currentProject);
-	})
+	});
 
 	$('#previous-project').click(function() {
 		currentProject--;
 		setProject(currentProject);
-	})
+	});
+
+	
 });
