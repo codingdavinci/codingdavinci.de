@@ -2,7 +2,7 @@
     "projects": [
         {
             "name": "Alt-Berlin – Die iOS App für Geschichten zur historischen Entwicklung Berlins",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -31,6 +31,7 @@
         },
         {
             "name": "Cyberbeetle",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/cyberbeetle.jpg"
             ],
@@ -52,7 +53,7 @@
         },
         {
             "name": "EthnoBand",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/ethnoband.png"
             ],
@@ -73,7 +74,7 @@
         },
         {
             "name": "inside - 19xx: Liste des schädlichen und unerwünschten Schrifttums",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/inside-19xx.jpg"
             ],
@@ -106,12 +107,15 @@
                 6,
                 7,
                 8,
-                9
+                9,
+                10,
+                11,
+                12
             ]
         },
         {
             "name": "zzZwitscherwecker",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/wecker.jpg"
             ],
@@ -148,16 +152,16 @@
                 "Wikipedia"
             ],
             "team": [
-                10,
-                11,
-                12,
                 13,
-                14
+                14,
+                15,
+                16,
+                17
             ]
         },
         {
             "name": "App: Verbotene Autoren",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/app-verbotene-autoren.png"
             ],
@@ -180,13 +184,13 @@
                 "GND"
             ],
             "team": [
-                15,
-                16
+                18,
+                19
             ]
         },
         {
             "name": "Berlin - 50 Jahre später",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/berlin-50-jahre.png"
             ],
@@ -205,11 +209,12 @@
                 "selbsterfasste Aufnahmen + Geodaten"
             ],
             "team": [
-                17
+                20
             ]
         },
         {
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "name": "Bestimmungsschlüssel",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/bestimmungsschluessel.png"
             ],
@@ -230,14 +235,14 @@
                 "Daten aus dem offenen Naturführer (http://biowikifarm.net/meta/Open_GLAM_Hackathon_2014#Analyse_von_Gigapixel-Scans_von_Insektenk.C3.A4sten)"
             ],
             "team": [
-                18,
-                19,
-                20
+                21,
+                22,
+                23
             ]
         },
         {
             "name": "DDBRest - javascript client for the DDB rest API",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/ddbrest.png"
             ],
@@ -253,12 +258,12 @@
                 "API der Deutschen Digitalen Bibliothek"
             ],
             "team": [
-                21
+                24
             ]
         },
         {
             "name": "DNB - Data Explorer — Generous Interfaces for Visual Exploration",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/dnb-explorer1.png"
             ],
@@ -279,12 +284,12 @@
                 "DNB / GND"
             ],
             "team": [
-                22
+                25
             ]
         },
         {
             "name": "EthnoTier",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/ethnotier.png"
             ],
@@ -307,13 +312,13 @@
                 "Tierstimmenarchiv des Naturkundemuseum"
             ],
             "team": [
-                23,
-                20
+                26,
+                23
             ]
         },
         {
             "name": "Kulturchronologie | decode the heritage",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/kulturchronologie.jpg"
             ],
@@ -323,43 +328,14 @@
                 "API der Deutschen Digitalen Bibliothek"
             ],
             "team": [
-                24,
-                25,
-                26
-            ]
-        },
-        {
-            "name": "Lebendige Liste",
-            "tile": "/img/tiles/cdv_tiles.jpg",
-            "images": [
-                "/img/projekte/lebendige-liste.png"
-            ],
-            "description": "Viele Autoren und Werke wurden während der NS-Zeit verboten. Sie verschwanden aus Bibliotheken, Archiven, Verlagen und Buchhandlungen. Auch nach Ende des 2. Weltkrieges wurden viele Werke nicht wieder verlegt. Und so wirkt dieses NS-Verbrechen bis heute. Die Aktion Lebendige Liste will erinnern. Eine Liste, die dazu geschaffen wurde, die Werke so vieler Autoren zum Schweigen zu bringen, hilft nun, ihnen wieder eine Stimme zu geben. Auf Twitter wird jeden Tag ein Eintrag der NS-Verbotsliste veröffentlicht. Eine Liste des Vergessens beginnt zu sprechen und zu erinnern.",
-            "links": [
-                {
-                    "class": "projects-website",
-                    "link": "http://www.lebendigeliste.de/",
-                    "text": "Webseite"
-                },
-                {
-                    "class": "projects-twitter",
-                    "link": "@lebendigeliste",
-                    "text": "Twitter"
-                }
-            ],
-            "data": [
-                "NS-Buchverbotsliste"
-            ],
-            "team": [
-                21,
-                3,
                 27,
-                28
+                28,
+                29
             ]
         },
         {
             "name": "Lebendige Liste",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/lebendige-liste.png"
             ],
@@ -380,15 +356,15 @@
                 "NS-Buchverbotsliste"
             ],
             "team": [
-                21,
+                24,
                 3,
-                27,
-                28
+                30,
+                31
             ]
         },
         {
             "name": "Mnemosyne",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/mnemosyne.png"
             ],
@@ -409,15 +385,15 @@
                 "API der Deutschen Digitalen Bibliothek"
             ],
             "team": [
-                21,
+                24,
                 3,
-                27,
-                28
+                30,
+                31
             ]
         },
         {
             "name": "Poetic Relief - תבליט פיוטי",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/poetic-relief-1.png"
             ],
@@ -438,15 +414,15 @@
                 "Datenbank zur jüdischen Grabsteinepigraphik des Steinheim-Instituts"
             ],
             "team": [
-                29,
-                30,
-                31,
-                32
+                32,
+                33,
+                34,
+                35
             ]
         },
         {
             "name": "SnatchTheCultureGame",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/snatch-the-culture-game.jpg"
             ],
@@ -465,13 +441,13 @@
                 "Herzog August Bibliothek Wolfenbüttel"
             ],
             "team": [
-                33,
-                34
+                36,
+                37
             ]
         },
         {
             "name": "Soundwall-App",
-            "tile": "/img/tiles/cdv_tiles.jpg",
+            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
             "images": [
                 "/img/projekte/soundwall.jpg"
             ],
@@ -492,8 +468,10 @@
                 "Digitale Klang- und Videobeispiele aus der Instrumentensammlung des Ethnologischen Museums Berlin"
             ],
             "team": [
-                33,
-                34
+                38,
+                39,
+                40,
+                21
             ]
         }
     ],
@@ -529,184 +507,180 @@
             "name": "Dierk Eichel"
         },
         {
-            "id": 4,
+            "id": 6,
             "name": "Michael Hintersonnleitner",
             "github": "mhinters"
         },
         {
-            "id": 5,
+            "id": 7,
             "name": "Frederike Kaltheuner",
             "github": "fre8de8rike"
         },
         {
-            "id": 6,
+            "id": 8,
             "name": "Jeremy Lewis",
             "github": "jlewis91"
         },
         {
-            "id": 7,
+            "id": 9,
             "name": "Jonas Parnow",
             "github": "z3to"
         },
         {
-            "id": 8,
+            "id": 10,
             "name": "Kristin Sprechert",
             "github": "kaeseoehrchen"
         },
         {
-            "id": 9,
+            "id": 11,
             "name": "Kai Teuber, Ministerialbeamter, Berlin, Potsdam",
             "github": "teuberkai",
             "twitter": "@teuberkai"
         },
         {
-            "id": 10,
+            "id": 12,
             "name": "Clemens Wilding",
             "github": "wigginus"
         },
         {
-            "id": 11,
+            "id": 13,
             "name": "Anne Weißschädel",
             "mail": "anne.weissschaedel@gmail.com"
         },
         {
-            "id": 12,
+            "id": 14,
             "name": "Simon Könneke",
             "mail": "simonkoennecke@gmail.com"
         },
         {
-            "id": 13,
+            "id": 15,
             "name": "Christoph Hornig",
             "mail": "ch.hornig@gmail.com"
         },
         {
-            "id": 14,
+            "id": 16,
             "name": "Stephanie Weber",
             "mail": "klimperfee@gmail.com",
             "twitter": "@klimperfee"
         },
         {
-            "id": 15,
+            "id": 17,
             "name": "David Gomez",
             "mail": "davidogos@hotmail.com",
             "twitter": "@dagosarmiento"
         },
         {
-            "id": 16,
+            "id": 18,
             "name": "Anna Neovesky, Digitale Akademie",
             "mail": "anna.neovesky@adwmainz.de",
             "twitter": "@annavsk"
         },
         {
-            "id": 17,
+            "id": 19,
             "name": "Julius Peinelt, Mr. Fridge Software",
             "mail": "julius@mr-fridge.de",
             "twitter": "@codingFriends"
         },
         {
-            "id": 18,
+            "id": 20,
             "name": "Erik Woitschig",
             "github": "iambnz",
             "twitter": "@iam_bnz",
             "stackOverflow": "http://stackoverflow.com/users/1816139/bnz"
         },
         {
-            "id": 19,
+            "id": 21,
             "name": "Peter Pötsch"
         },
         {
-            "id": 20,
+            "id": 22,
             "name": "Stephan Klinger"
         },
         {
-            "id": 21,
+            "id": 23,
             "name": "Thomas Tursics",
             "twitter": "@tursics",
             "github": "tursics"
         },
         {
-            "id": 22,
+            "id": 24,
             "name": "Christian Bromann",
             "mail": "mail@christian-bromann.com",
             "twitter": "@bromann",
             "github": "christian-bromann"
         },
         {
-            "id": 23,
+            "id": 25,
             "name": "Sebastian Meier",
             "twitter": "@seb_meier",
             "github": "sebastian-meier"
         },
         {
-            "id": 24,
+            "id": 26,
             "name": "Annika Blohm",
             "twitter": "@e_kunst"
         },
         {
-            "id": 25,
+            "id": 27,
             "name": "Andrè Karliczek"
         },
         {
-            "id": 26,
+            "id": 28,
             "name": "Andreas Christoph"
         },
         {
-            "id": 27,
+            "id": 29,
             "name": "Carsten Resch"
         },
         {
-            "id": 28,
+            "id": 30,
             "name": "Marius Förster",
             "website": "http://www.mezla.de"
         },
         {
-            "id": 29,
+            "id": 31,
             "name": "Knut Perseke",
             "twitter": "@knutator",
             "github": "knutator2"
         },
         {
-            "id": 30,
+            "id": 32,
             "name": "Noa Rave",
             "twitter": "@chukarave"
         },
         {
-            "id": 31,
+            "id": 33,
             "name": "Florian Idelberger",
             "twitter": "@windrush"
         },
         {
-            "id": 32,
+            "id": 34,
             "name": "Ruperta M. Steinwender",
             "twitter": "@rupertast"
         },
         {
-            "id": 33,
+            "id": 35,
             "name": "Tatiana Potetinova"
         },
         {
-            "id": 34,
+            "id": 36,
             "name": "Rebecca Kuliga"
         },
         {
-            "id": 35,
+            "id": 37,
             "name": "Philip Wellnitz"
         },
         {
-            "id": 36,
+            "id": 38,
             "name": "Martha Friedrich"
         },
         {
-            "id": 37,
+            "id": 39,
             "name": "Peggy Sylopp"
         },
         {
-            "id": 38,
+            "id": 40,
             "name": "Martin Adam"
-        },
-        {
-            "id": 39,
-            "name": "Peter Pötsch"
         }
     ]
 }
