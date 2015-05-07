@@ -1201,6 +1201,13 @@ height: 100%;
   margin-top: 0.6em;
 }
 
+.project-tile > img {
+  height : 10em;
+}
+
+.project-tile {
+}
+
 #project-image {
   width: 100%;
 }
