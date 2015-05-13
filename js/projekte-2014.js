@@ -49,7 +49,8 @@ $(document).ready(function () {
 		var currentProject; 
 		if (index >= 0) {
 			if (index < projects.length) {
-				currentProject = projects[index];	
+				currentProject = projects[index];
+				currentProjectIndex = index;	
 			} 
 			else{
 				currentProject = projects[0];
@@ -86,12 +87,15 @@ $(document).ready(function () {
 	$('#next-project').click(function(event) {
 		currentProjectIndex++;
 		setProject(currentProjectIndex);
+		insertParam("project_id", currentProjectIndex);
 		event.preventDefault();
 	});
 
 	$('#previous-project').click(function() {
 		currentProjectIndex--;
 		setProject(currentProjectIndex);
+		insertParam("project_id", currentProjectIndex);
+		event.preventDefault();
 	});
 
 	$('.projectlink').click(function() {
@@ -112,26 +116,39 @@ $(document).ready(function () {
 	}
 
 	function insertParam(key, value)
-{
-    key = encodeURI(key); value = encodeURI(value);
+	{
+    	key = encodeURI(key); 
+    	value = encodeURI(value);
+    	
+    	var url = document.location.href;
+    	console.log(url);
+    	var urlparts = url.split('?');
+    	var parameterlist = urlparts[1].split('&');
+    	console.log(urlparts);
+    	console.log(parameterlist);
 
-    var kvp = document.location.search.substr(1).split('&');
+    	var set = false;
+    	$.each(parameterlist, function(index, param) {
+    		var pair = param.split('=');
+    	     if (pair[0]==key)
+	         {
+	            pair[1] = value;
+	            parameterlist[index] = pair.join('=');
+	            set = true;
+	        }
+    	});
+    	if (!set) {
+    		parameterlist[parameterlist.length] = [key,value].join('=');
+    	}
 
-    var i=kvp.length; var x; while(i--) 
-    {
-        x = kvp[i].split('=');
+    	urlparts[1] = parameterlist.join('&');
+    	url = urlparts.join('?');
+    	console.log(url);
+	    history.pushState(null, null, url);
 
-        if (x[0]==key)
-        {
-            x[1] = value;
-            kvp[i] = x.join('=');
-            break;
-        }
-    }
+	    // if(i<0) {kvp[kvp.length] = [key,value].join('=');}
 
-    if(i<0) {kvp[kvp.length] = [key,value].join('=');}
-
-    //this will reload the page, it's likely better to store this until finished
-    document.location.search = kvp.join('&'); 
-}
+	    //this will reload the page, it's likely better to store this until finished
+	    //console.log(kvp.join('&')); 
+	}
 });
