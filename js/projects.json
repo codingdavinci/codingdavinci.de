@@ -2,7 +2,7 @@
     "projects": [
         {
             "name": "Alt-Berlin – Die iOS App für Geschichten zur historischen Entwicklung Berlins",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/altberlin.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -31,7 +31,7 @@
         },
         {
             "name": "Cyberbeetle",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/cyberbeetle.png",
             "images": [
                 "/img/projekte/cyberbeetle.jpg"
             ],
@@ -53,7 +53,7 @@
         },
         {
             "name": "EthnoBand",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/ethnoband.png",
             "images": [
                 "/img/projekte/ethnoband.png"
             ],
@@ -74,7 +74,7 @@
         },
         {
             "name": "inside - 19xx: Liste des schädlichen und unerwünschten Schrifttums",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/Verbrannte.png",
             "images": [
                 "/img/projekte/inside-19xx.jpg"
             ],
@@ -115,7 +115,7 @@
         },
         {
             "name": "zzZwitscherwecker",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/zzzwitscherwecker.png",
             "images": [
                 "/img/projekte/wecker.jpg"
             ],
@@ -161,7 +161,7 @@
         },
         {
             "name": "App: Verbotene Autoren",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/verboteneautoren.png",
             "images": [
                 "/img/projekte/app-verbotene-autoren.png"
             ],
@@ -190,7 +190,7 @@
         },
         {
             "name": "Berlin - 50 Jahre später",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/berlin50jahre.png",
             "images": [
                 "/img/projekte/berlin-50-jahre.png"
             ],
@@ -214,7 +214,7 @@
         },
         {
             "name": "Bestimmungsschlüssel",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/bestimmungsschluessel.png",
             "images": [
                 "/img/projekte/bestimmungsschluessel.png"
             ],
@@ -242,7 +242,7 @@
         },
         {
             "name": "DDBRest - javascript client for the DDB rest API",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/ddbrest.png",
             "images": [
                 "/img/projekte/ddbrest.png"
             ],
@@ -263,7 +263,7 @@
         },
         {
             "name": "DNB - Data Explorer — Generous Interfaces for Visual Exploration",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/dnbexplorer.png",
             "images": [
                 "/img/projekte/dnb-explorer1.png"
             ],
@@ -289,7 +289,7 @@
         },
         {
             "name": "EthnoTier",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/ethnotier.png",
             "images": [
                 "/img/projekte/ethnotier.png"
             ],
@@ -318,7 +318,7 @@
         },
         {
             "name": "Kulturchronologie | decode the heritage",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/kultchrono.png",
             "images": [
                 "/img/projekte/kulturchronologie.jpg"
             ],
@@ -335,7 +335,7 @@
         },
         {
             "name": "Lebendige Liste",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/Lebendigeliste.png",
             "images": [
                 "/img/projekte/lebendige-liste.png"
             ],
@@ -364,7 +364,7 @@
         },
         {
             "name": "Mnemosyne",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/Mnemosyne.png",
             "images": [
                 "/img/projekte/mnemosyne.png"
             ],
@@ -393,7 +393,7 @@
         },
         {
             "name": "Poetic Relief - תבליט פיוטי",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/PoeticRelief.png",
             "images": [
                 "/img/projekte/poetic-relief-1.png"
             ],
@@ -422,7 +422,7 @@
         },
         {
             "name": "SnatchTheCultureGame",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/snatchtheculturegame.png",
             "images": [
                 "/img/projekte/snatch-the-culture-game.jpg"
             ],
@@ -447,7 +447,7 @@
         },
         {
             "name": "Soundwall-App",
-            "tile": "/img/projekte-tiles/CDV_Projekte_Alt-Berlin1.png",
+            "tile": "/img/projekte-tiles/Soundwwall.png",
             "images": [
                 "/img/projekte/soundwall.jpg"
             ],
