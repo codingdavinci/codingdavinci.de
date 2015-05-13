@@ -526,6 +526,13 @@ only screen and (min-device-pixel-ratio: 2) {
   background-color: transparent;
 }
 
+.light-interlude {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 1.5em 0;
+  background-color: #EAFCF8;
+}
+
 .subheader-interlude {
   padding-top: 0;
 }
@@ -1254,4 +1261,9 @@ height: 100%;
 .mail-glyph:after {
   font-family: "Fontello";
   content: "\e805";
+}
+
+.project-footer {
+  font-size: 30pt;
+  color: #1fb286;
 }
