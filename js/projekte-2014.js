@@ -5,19 +5,13 @@ $(document).ready(function () {
 	var projects = {};
 	var persons = {};
 
-	var currentProject = 0;
+	var currentProjectIndex = 0;
 
 	function fillAllProjectsSection() {
 		var entrystring = '';
 		$('#all-projects').html('');
 		$.each(projects, function(index, val) {
-			if (index % 6 == 0) {
-				entrystring += '<div class="row">'
-			}
-			entrystring += '<div class="col-md-1 project-tile"><img src="' + val.tile + '"/><p>' + val.name + '</p></div>';
-			if (index % 6 == 5) {
-				entrystring += '</div>'
-			}
+			entrystring += '<div class="col-md-3 project-tile"><img src="' + val.tile + '"/><p>' + val.name + '</p></div>';
 		});
 		$('#all-projects').html(entrystring);
 	}
@@ -52,19 +46,23 @@ $(document).ready(function () {
 	}
 
 	function setProject(index) {
-		currentProject = projects[index];
-		console.log(currentProject);
+		var currentProject; 
+		if (index >= 0) {
+			if (index < projects.length) {
+				currentProject = projects[index];	
+			} 
+			else{
+				currentProject = projects[0];
+				currentProjectIndex = 0;
+			}
+		} else {
+			currentProject = projects[projects.length - 1];
+			currentProjectIndex = projects.length - 1;
+		}
+
 		$('#project-name').html(currentProject.name);
 		$('#project-description').html(currentProject.description);
 		$('#project-image').attr('src', currentProject.images[0]);
-
-		if (index < projects.length) {
-			$('#next-project').html('<a href="#?project_id=' + ++index + '">Nächstes Projekt</a>');
-		}
-
-		if (index > 0) {
-			$('#previous-project').html('<a href="#?project_id=' + --index + '">Vorheriges Projekt</a>');
-		}
 		
 		fillProjectInformation(currentProject);
 		updateTeam(currentProject.team);
@@ -74,19 +72,66 @@ $(document).ready(function () {
 	$.getJSON('/js/projects.json', function(data) {
 		projects = data.projects;
 		persons = data.persons;
-		setProject(0);
+		
 		fillAllProjectsSection();
+		var projectId = getQueryVariable("project_id");
+		 if (projectId) {
+		 	setProject(parseInt(projectId));
+		 }
+		 else {
+		 	setProject(0);
+		 }
 	});
 
-	$('#next-project').click(function() {
-		currentProject++;
-		setProject(currentProject);
+	$('#next-project').click(function(event) {
+		currentProjectIndex++;
+		setProject(currentProjectIndex);
+		event.preventDefault();
 	});
 
 	$('#previous-project').click(function() {
-		currentProject--;
-		setProject(currentProject);
+		currentProjectIndex--;
+		setProject(currentProjectIndex);
 	});
 
-	
+	$('.projectlink').click(function() {
+
+	})
+
+	//helper
+	function getQueryVariable(variable) {
+	  var query = window.location.search.substring(1);
+	  var vars = query.split("&");
+	  var i = 0;
+	  for (i; i < vars.length; i++) {
+	    var pair = vars[i].split("=");
+	    if (pair[0] == variable) {
+	      return pair[1];
+	    }
+	  } 
+	}
+
+	function insertParam(key, value)
+{
+    key = encodeURI(key); value = encodeURI(value);
+
+    var kvp = document.location.search.substr(1).split('&');
+
+    var i=kvp.length; var x; while(i--) 
+    {
+        x = kvp[i].split('=');
+
+        if (x[0]==key)
+        {
+            x[1] = value;
+            kvp[i] = x.join('=');
+            break;
+        }
+    }
+
+    if(i<0) {kvp[kvp.length] = [key,value].join('=');}
+
+    //this will reload the page, it's likely better to store this until finished
+    document.location.search = kvp.join('&'); 
+}
 });
