@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Fontello';
+  src: url('../fonts/fontello.eot');
+  src: local('☺'), url('../fonts/fontello.woff') format('woff'), url('../fonts/fontello.ttf') format('truetype'), url('../fonts/fontello.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* May I be forgiven */
 @media (min-width: 768px) {
   .col-sm-offset-1-5 {
@@ -1210,4 +1218,40 @@ height: 100%;
 
 #project-image {
   width: 100%;
+}
+
+.people-glyph:after {
+  font-family: "Fontello";
+  content: "\e800";
+}
+
+.house-glyph:after {
+  font-family: "Fontello";
+  content: "\e801";
+}
+
+.points-glyph:after {
+  font-family: "Fontello";
+  content: "\e802";
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.twitter-glyph:after {
+  font-family: "Fontello";
+  content: "\e803";
+}
+
+.git-glyph:after {
+  font-family: "Fontello";
+  content: "\e804";
+}
+
+.mail-glyph:after {
+  font-family: "Fontello";
+  content: "\e805";
 }
