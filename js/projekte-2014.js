@@ -52,11 +52,38 @@ $(document).ready(function () {
 		});
 	}
 
+	function getContactHTMLString(entitytype, value) {
+		var typestring = getSymbolByType(entitytype);
+		var result = '<a href="';
+		switch(entitytype) {
+			case "mail" :
+				result += 'mailto:' + value;
+				break;
+			case "twitter" :
+				result += 'http://twitter.com/' + value;
+				break;
+			case "github" :
+				result += 'https://github.com/' + value;
+		}
+		result += '">' + typestring + '</a>';
+		return result;
+	}
+
 	function updateTeam(member) {
 		$('#team').html('');
 		$.each(member, function(index, val) {
 			var currentMember = persons[val];
-			$('#team').append(currentMember.name + '<br />');
+			var memberstring = currentMember.name;
+			if (currentMember.contact) {
+				$.each(currentMember.contact, function(index, el) {
+					memberstring += getContactHTMLString(index, el);
+				});
+			}
+			console.log(memberstring);
+			if (index !== 0) {
+				memberstring = '<br />' + memberstring;
+			} 
+			$('#team').append(memberstring);
 		});
 	}
 
