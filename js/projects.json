@@ -232,7 +232,7 @@
                 }
             ],
             "data": [
-                "Daten aus dem offenen Naturführer (http://biowikifarm.net/meta/Open_GLAM_Hackathon_2014#Analyse_von_Gigapixel-Scans_von_Insektenk.C3.A4sten)"
+                "Daten aus dem offenen Naturführer (http://biowikifarm.net/)"
             ],
             "team": [
                 21,
@@ -241,7 +241,7 @@
             ]
         },
         {
-            "name": "DDBRest - javascript client for the DDB rest API",
+            "name": "DDBRest",
             "tile": "/img/projekte-tiles/ddbrest.png",
             "images": [
                 "/img/projekte/ddbrest.png"
@@ -262,7 +262,7 @@
             ]
         },
         {
-            "name": "DNB - Data Explorer — Generous Interfaces for Visual Exploration",
+            "name": "DNB - Data Explorer",
             "tile": "/img/projekte-tiles/dnbexplorer.png",
             "images": [
                 "/img/projekte/dnb-explorer1.png"
@@ -318,7 +318,7 @@
         },
         {
             "name": "Kulturchronologie | decode the heritage",
-            "tile": "/img/projekte-tiles/kultchrono.png",
+            "tile": "/img/projekte-tiles/Lebendigeliste.png",
             "images": [
                 "/img/projekte/kulturchronologie.jpg"
             ],
@@ -479,13 +479,18 @@
         {
             "id": 0,
             "name": "Claus Höfele",
-            "mail": "claus@claushoefele.com",
-            "twitter": "@claushoefele"
+            "contact" : {
+                "mail": "claus@claushoefele.com",
+                "twitter": "@claushoefele"
+            }
+            
         },
         {
             "id": 1,
             "name": "Kati Hyyppä (Berlin) / Beetle constructor",
-            "website": "http://katihyyppa.com"
+            "contact" : {
+                "website": "http://katihyyppa.com"
+            }
         },
         {
             "id": 2,
@@ -494,13 +499,17 @@
         {
             "id": 3,
             "name": "Thomas Fett",
-            "github": "thomasfett",
-            "twitter": "@FettThomas"
+            "contact" : {
+                "github": "thomasfett",
+                "twitter": "@FettThomas"
+            }
         },
         {
             "id": 4,
             "name": "Daniel Burckhardt",
-            "github": "burki"
+            "contact" : {
+                "github": "burki"
+            }
         },
         {
             "id": 5,
@@ -509,84 +518,114 @@
         {
             "id": 6,
             "name": "Michael Hintersonnleitner",
-            "github": "mhinters"
+            "contact" : {
+                "github": "mhinters"
+            }
         },
         {
             "id": 7,
             "name": "Frederike Kaltheuner",
-            "github": "fre8de8rike"
+            "contact" : {
+                "github": "fre8de8rike"
+            }
         },
         {
             "id": 8,
             "name": "Jeremy Lewis",
-            "github": "jlewis91"
+            "contact" : {
+                "github": "jlewis91"
+            }
         },
         {
             "id": 9,
             "name": "Jonas Parnow",
-            "github": "z3to"
+            "contact" : {
+                "github": "z3to"
+            }
         },
         {
             "id": 10,
             "name": "Kristin Sprechert",
-            "github": "kaeseoehrchen"
+            "contact" : {
+                "github": "kaeseoehrchen"
+            }
         },
         {
             "id": 11,
             "name": "Kai Teuber, Ministerialbeamter, Berlin, Potsdam",
-            "github": "teuberkai",
-            "twitter": "@teuberkai"
+            "contact" : {
+                "github": "teuberkai",
+                "twitter": "@teuberkai"
+            }
         },
         {
             "id": 12,
             "name": "Clemens Wilding",
-            "github": "wigginus"
+            "contact" : {
+                "github": "wigginus"
+            }
         },
         {
             "id": 13,
             "name": "Anne Weißschädel",
-            "mail": "anne.weissschaedel@gmail.com"
+            "contact" : {
+                "mail": "anne.weissschaedel@gmail.com"
+            }
         },
         {
             "id": 14,
             "name": "Simon Könneke",
-            "mail": "simonkoennecke@gmail.com"
+            "contact" : {
+                "mail": "simonkoennecke@gmail.com"
+            }
         },
         {
             "id": 15,
             "name": "Christoph Hornig",
-            "mail": "ch.hornig@gmail.com"
+            "contact" : { 
+                "mail": "ch.hornig@gmail.com"
+            }
         },
         {
             "id": 16,
             "name": "Stephanie Weber",
-            "mail": "klimperfee@gmail.com",
-            "twitter": "@klimperfee"
+            "contact" : {
+                "mail": "klimperfee@gmail.com",
+                "twitter": "@klimperfee"
+            }
         },
         {
             "id": 17,
             "name": "David Gomez",
-            "mail": "davidogos@hotmail.com",
-            "twitter": "@dagosarmiento"
+            "contact" : {
+                "mail": "davidogos@hotmail.com",
+                "twitter": "@dagosarmiento"
+            }
         },
         {
             "id": 18,
             "name": "Anna Neovesky, Digitale Akademie",
-            "mail": "anna.neovesky@adwmainz.de",
-            "twitter": "@annavsk"
+            "contact" : {
+                "mail": "anna.neovesky@adwmainz.de",
+                "twitter": "@annavsk"
+            }
         },
         {
             "id": 19,
             "name": "Julius Peinelt, Mr. Fridge Software",
-            "mail": "julius@mr-fridge.de",
-            "twitter": "@codingFriends"
+            "contact" : {
+                "mail": "julius@mr-fridge.de",
+                "twitter": "@codingFriends"
+            }
         },
         {
             "id": 20,
             "name": "Erik Woitschig",
-            "github": "iambnz",
-            "twitter": "@iam_bnz",
-            "stackOverflow": "http://stackoverflow.com/users/1816139/bnz"
+            "contact" : {
+                "github": "iambnz",
+                "twitter": "@iam_bnz",
+                "stackOverflow": "http://stackoverflow.com/users/1816139/bnz"
+            }
         },
         {
             "id": 21,
@@ -599,26 +638,34 @@
         {
             "id": 23,
             "name": "Thomas Tursics",
-            "twitter": "@tursics",
-            "github": "tursics"
+            "contact" : {
+                "twitter": "@tursics",
+                "github": "tursics"
+            }
         },
         {
             "id": 24,
             "name": "Christian Bromann",
             "mail": "mail@christian-bromann.com",
-            "twitter": "@bromann",
-            "github": "christian-bromann"
+            "contact" : {
+                "twitter": "@bromann",
+                "github": "christian-bromann"
+            }
         },
         {
             "id": 25,
             "name": "Sebastian Meier",
-            "twitter": "@seb_meier",
-            "github": "sebastian-meier"
+            "contact" : {
+                "twitter": "@seb_meier",
+                "github": "sebastian-meier"
+            }
         },
         {
             "id": 26,
             "name": "Annika Blohm",
-            "twitter": "@e_kunst"
+            "contact" : {
+                "twitter": "@e_kunst"
+            }
         },
         {
             "id": 27,
@@ -635,28 +682,38 @@
         {
             "id": 30,
             "name": "Marius Förster",
-            "website": "http://www.mezla.de"
+            "contact" : {
+                "website": "http://www.mezla.de"
+            }
         },
         {
             "id": 31,
             "name": "Knut Perseke",
-            "twitter": "@knutator",
-            "github": "knutator2"
+            "contact" : {
+                "twitter": "@knutator",
+                "github": "knutator2"
+            }
         },
         {
             "id": 32,
             "name": "Noa Rave",
-            "twitter": "@chukarave"
+            "contact" : {
+                "twitter": "@chukarave"
+            }
         },
         {
             "id": 33,
             "name": "Florian Idelberger",
-            "twitter": "@windrush"
+            "contact" : {
+                "twitter": "@windrush"
+            }
         },
         {
             "id": 34,
             "name": "Ruperta M. Steinwender",
-            "twitter": "@rupertast"
+            "contact" : {
+                "twitter": "@rupertast"
+            }
         },
         {
             "id": 35,
