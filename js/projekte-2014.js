@@ -20,8 +20,23 @@ $(document).ready(function () {
 		return "S";
 	}
 
-	function getSymbolForContactType(type) {
-		return '#';
+	function getSymbolByType(type) {
+		var result = 'glyph ';
+		switch(type) {
+			case "projects-website":
+				result += 'house-glyph';
+				break;
+			case "github" :
+				result += 'git-glyph';
+				break;
+			case "mail":
+				result += 'mail-glyph';
+				break;
+			case "twitter" :
+				result += 'twitter-glyph';
+				break;
+		}
+		return '<span class="' + result + '" />';
 	}
 
 	function fillProjectInformation(currentProject) {

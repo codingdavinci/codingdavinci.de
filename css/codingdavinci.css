@@ -1227,6 +1227,9 @@ height: 100%;
   width: 100%;
 }
 
+.glyph {
+  margin-left: 10px;
+}
 .project-header {
   border: 0px;
   border-bottom: 7px solid; 
