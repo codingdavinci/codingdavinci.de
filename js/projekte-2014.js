@@ -11,13 +11,12 @@ $(document).ready(function () {
 		var entrystring = '';
 		$('#all-projects').html('');
 		$.each(projects, function(index, val) {
-			entrystring += '<div class="col-md-3 project-tile"><img src="' + val.tile + '"/><p>' + val.name + '</p></div>';
+			entrystring += '<div class="col-md-3 project-tile">' +
+				'<a href="' + window.location.pathname + '?project_id=' + index + '">' +
+				'<img src="' + val.tile + '"/><p>' + val.name + '</p></a></div>';
+				console.log(entrystring);
 		});
 		$('#all-projects').html(entrystring);
-	}
-
-	function getSymbolByLinktype(type) {
-		return "S";
 	}
 
 	function getSymbolByType(type) {
@@ -42,7 +41,7 @@ $(document).ready(function () {
 	function fillProjectInformation(currentProject) {
 		$('#projectlinks').html('');
 		$.each(currentProject.links, function(index, val) {
-			var symbol = getSymbolByLinktype(val.class);
+			var symbol = getSymbolByType(val.class);
 			$('#projectlinks').append(val.text + ' <a href="' + val.link + '">' + symbol + '</a><br />');
 		});
 
@@ -159,28 +158,31 @@ $(document).ready(function () {
 
 	function insertParam(key, value)
 	{
+		var parameterlist = [];
     	key = encodeURI(key); 
     	value = encodeURI(value);
     	
     	var url = document.location.href;
     	console.log(url);
     	var urlparts = url.split('?');
-    	var parameterlist = urlparts[1].split('&');
-    	console.log(urlparts);
-    	console.log(parameterlist);
-
+    	
     	var set = false;
-    	$.each(parameterlist, function(index, param) {
-    		var pair = param.split('=');
-    	     if (pair[0]==key)
-	         {
-	            pair[1] = value;
-	            parameterlist[index] = pair.join('=');
-	            set = true;
-	        }
-    	});
+
+    	if (urlparts.length > 1) {
+    		parameterlist = urlparts[1].split('&');
+    		$.each(parameterlist, function(index, param) {
+    			var pair = param.split('=');
+    	     	if (pair[0]==key)
+	         	{
+	            	pair[1] = value;
+	            	parameterlist[index] = pair.join('=');
+	            	set = true;
+	        	}
+    		});
+    	}
+    	
     	if (!set) {
-    		parameterlist[parameterlist.length] = [key,value].join('=');
+    		parameterlist.push([key,value].join('='));
     	}
 
     	urlparts[1] = parameterlist.join('&');
