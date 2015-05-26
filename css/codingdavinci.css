@@ -1230,6 +1230,11 @@ height: 100%;
 .glyph {
   margin-left: 10px;
 }
+
+.project-subheader {
+  font-weight: bold;
+}
+
 .project-header {
   border: 0px;
   border-bottom: 7px solid; 
@@ -1239,6 +1244,20 @@ height: 100%;
   border-image-slice : fill;
   height: 100px;
 }
+
+.project-header h2 {
+  bottom: 13px;
+}
+
+.project-interlude {
+  margin-top : 20px;
+}
+
+.project-link:visited, 
+.project-link:focus {
+  text-decoration: none;
+}
+
 .people-glyph:after {
   font-family: "Fontello";
   content: "\e800";
