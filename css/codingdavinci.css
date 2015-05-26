@@ -1227,6 +1227,15 @@ height: 100%;
   width: 100%;
 }
 
+.project-header {
+  border: 0px;
+  border-bottom: 7px solid; 
+  /*border-image-source : url(../img/cdv_linie_v.png);
+  border-image-repeat : repeat;*/
+  border-image : url(../img/cdv_linie_v.png) 5 repeat; 
+  border-image-slice : fill;
+  height: 100px;
+}
 .people-glyph:after {
   font-family: "Fontello";
   content: "\e800";
