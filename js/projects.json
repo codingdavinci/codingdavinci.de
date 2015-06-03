@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "name": "Alt-Berlin – Die iOS App für Geschichten zur historischen Entwicklung Berlins",
+            "name": "Alt-Berlin",
             "tile": "/img/projekte-tiles/altberlin.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
@@ -73,7 +73,7 @@
             ]
         },
         {
-            "name": "inside - 19xx: Liste des schädlichen und unerwünschten Schrifttums",
+            "name": "inside - 19xx",
             "tile": "/img/projekte-tiles/Verbrannte.png",
             "images": [
                 "/img/projekte/inside-19xx.jpg"
@@ -317,7 +317,7 @@
             ]
         },
         {
-            "name": "Kulturchronologie | decode the heritage",
+            "name": "Kulturchronologie",
             "tile": "/img/projekte-tiles/Lebendigeliste.png",
             "images": [
                 "/img/projekte/kulturchronologie.jpg"
