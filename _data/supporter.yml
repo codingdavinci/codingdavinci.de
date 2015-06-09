@@ -48,3 +48,9 @@
   image: "/img/supporter/senatskanzlei.png"
   links: "<a href=\"http://www.berlin.de/sen/kultur/\">Senatskanzlei Berlin - Kulturelle Angelegenheiten</a>"
   role: 2
+-
+  name: "O'Reilly"
+  image: "/img/supporter/oreilly_logo_neu_rot_web.jpg"
+  links: "<a href=\"http://www.oreilly.com/\">O'Reilly</a>"
+  role: 1
+
