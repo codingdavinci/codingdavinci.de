@@ -1,0 +1,16 @@
+<div class="row">
+		<header class="subheader subheader-preis">
+			<h2>Preise</h2>
+		</header>
+	<div class="row additional-text">
+		{% for price in site.data.prices %}
+		    <div class="col-lg-2 col-md-2 col-sm-3 prizes-profile">
+		      <div>
+		        <img src="{{ site.baseurl }}{{ price.image }}" alt="" class="img-responsive"/>
+		      </div>
+		      <h5></h5>
+		      <p>{{ price.description }}</p>
+		    </div>
+		 {% endfor %}
+	</div>
+</div>
