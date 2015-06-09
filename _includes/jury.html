@@ -1,0 +1,21 @@
+<div class="row">
+	<header class="subheader subheader-buch">
+		<h2>Jury</h2>
+	</header>
+	<div class="row additional-text centered">
+		{% for member in site.data.jury %}
+		    <div class="{%if forloop.index == 1%}col-lg-offset-1 col-md-offset-1{% endif %} col-lg-2  col-md-2 jury-profile">
+		      <div>
+		        <img src="{{ site.baseurl }}{{member.image}}" alt="{{ member.name }}" class="img-responsive"/>
+		      </div>
+		      <h5>{{ member.name }}</h5>
+		      <p>
+		        {{ member.position }}
+		      </p>
+		      <p><a href="{{ member.organisation-link }}">{{ member.organisation}}</a></p>
+			</div>
+		{% endfor %}
+	</div>
+</div>
+	
+	
