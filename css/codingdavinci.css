@@ -435,12 +435,11 @@ hr {
   color: #000;
   font-family: "Archive";
   font-size: 32pt;
-  margin: 1em auto 0;
+  margin: -0.01em 1em auto 0;
   position: relative;
   background-color: #fff;
-  display: inline;
+  display: inline-block;
   padding: 0 15px;
-  bottom: -25px;
 }
 
 .programheader h2{
