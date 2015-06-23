@@ -1,726 +1,745 @@
 {
-  "projects" :
-    [
-      {
-        "name" : "Alt-Berlin – Die iOS App für Geschichten zur historischen Entwicklung Berlins",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/alt-berlin-app.jpg"
-          ],
-        "description" : "Die IOS-App Alt-Berlin widmet sich der historischen Entwicklung der deutschen Hauptstadt. Auf historischen und modernen Karten sind Bilder der Stiftung Stadtmuseum Berlin verortet, die alte Gebäude und historische Plätze zeigen. Im Vorher-Nachher-Vergleich der Bilder und Karten entdeckt man z.B. den ursprünglichen Verlauf der Spree und die Veränderung des Stadtbildes. Der Nutzer kann sich durch die Stadtgeschichte bewegen und sie interaktiv erforschen. Für 2015 wird diese App für alle Geschichtsbegeisterten im App Store zur Verfügung stehen.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-website",
-              "link" : "http://altberlinapp.de",
-              "text" : "Webseite"
-            },
-            {
-               "class" : "github",
-               "link" : "https://github.com/choefele/coding-da-vinci",
-               "text" : "Demo auf github"
-            }
-          ],
-        "data": 
-          [
-            "\"Schichten der Geschichte\" Stadtansichten (Stadtmuseum Berlin)",
-            "Geometrien der Ortsteile von Berlin (Amt für Statistik Berlin-Brandenburg)",
-            "Berliner Karten 1650-1986 (Senatsverwaltung für Stadtentwicklung und Umwelt Berlin)",
-            "Bilder Kreuzberg (Wikipedia)"
-          ],
-        "team": [0]
-      },   
-      { 
-        "name" : "Cyberbeetle",
-        "image" : "/img/projekte/cyberbeetle.jpg",
-        "description" : "Das Projekt Cyberbeetle ist inspiriert von den Insektenscans des Museums für Naturkunde Berlin. Das Projekt möchte dem im Museum ausgestellten Chalcosoma Atlas-Käfer zu neuem Leben verhelfen. Basierend auf dem faszinierenden Aussehen des Käfers, ist ein sich bewegender Roboterkäfer entstanden, der seinen eigenen Insektenkasten besitzt. In diesem neuen Zuhause, der Insektenkastenbox aus Holz, kann der Cyberbeetle über einen Screen Videos von Pflanzen und Tieren anschauen. Sowohl der Käfer als auch die Box funktionieren mittels einem kleinen Arduinos und verschiedener weiterer elektronischer und mechanischer Einzelteile, die Bewegungen des Käfers ermöglichen.",
-        "links": 
-          {
-            "class" : "Webseite",
-            "link" : "http://katihyyppa.com/cyberbeetle",
-            "text" : "Webseite"
-          },
-        "data" : 
-          [
-            "Insect box scans from Museum für Naturkunde Berlin",
-            "Animal sounds from Museum für Naturkunde Berlin",
-            "Plant pictures from Botanischer Garten and Botanisches Museum Berlin-Dahlem"
-          ],
-        "team": [1,2]
-      },
-      {
-        "name" : "Alt-Berlin – Die iOS App für Geschichten zur historischen Entwicklung Berlins",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/alt-berlin-app.jpg"
-          ],
-        "description" : "Die IOS-App Alt-Berlin widmet sich der historischen Entwicklung der deutschen Hauptstadt. Auf historischen und modernen Karten sind Bilder der Stiftung Stadtmuseum Berlin verortet, die alte Gebäude und historische Plätze zeigen. Im Vorher-Nachher-Vergleich der Bilder und Karten entdeckt man z.B. den ursprünglichen Verlauf der Spree und die Veränderung des Stadtbildes. Der Nutzer kann sich durch die Stadtgeschichte bewegen und sie interaktiv erforschen. Für 2015 wird diese App für alle Geschichtsbegeisterten im App Store zur Verfügung stehen.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-website",
-              "link" : "http://altberlinapp.de",
-              "text" : "Webseite"
-            },
-            {
-               "class" : "projects-github",
-               "link" : "https://github.com/choefele/coding-da-vinci",
-               "text" : "Demo auf github"
-            }
-          ],
-        "data": 
-          [
-            "\"Schichten der Geschichte\" Stadtansichten (Stadtmuseum Berlin)",
-            "Geometrien der Ortsteile von Berlin (Amt für Statistik Berlin-Brandenburg)",
-            "Berliner Karten 1650-1986 (Senatsverwaltung für Stadtentwicklung und Umwelt Berlin)",
-            "Bilder Kreuzberg (Wikipedia)"
-          ],
-        "team": [0]
-      },
-      {
-        "name" : "EthnoBand",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/ethnoband.png"
-          ],
-        "description" : "Ethnoband ist eine HTML5-Webapp, mit der Nutzer einige der Musikinstrumente aus dem Archiv des Ethnologischen Museums selbst spielen können. Ein Benutzer kann mit seinem Smartphone einen Eintrag aus einer Liste von Musikinstrumenten wählen und dann selbst durch Taps auf einer virtuellen Tastatur das jeweilige Instrument spielen. Mehrere Personen mit mehreren Smartphones können dann gemeinsam musizieren. Denn selbst Musik zu machen, macht noch viel mehr Spaß als sich die Instrumente nur anzusehen!",
-        "links": 
-          [ 
-            {
-              "class" : "projects-website",
-              "link" : "http://ethnoband.thomasfett.de",
-              "text" : "Webseite"
-            }
-          ],
-        "data": 
-          [
-            "Bilder und Tonaufnahmen des Ethnologischen Museums Berlin"
-          ],
-        "team": [3]
-      },
-      {
-        "name" : "inside - 19xx: Liste des schädlichen und unerwünschten Schrifttums",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/inside-19xx.jpg"
-          ],
-        "description" : "Das Projekt “Inside 19xx” widmet sich der Liste der zwischen 1938 und 1941 von der „Reichsschriftkammer“ erstellten verbannten Bücher. Ziel des Projektes war es, die Metadaten der Liste zu vervollständigen, mit anderen Datensets anzureichern sowie die Einträge mit externen, vornehmlich bibliografischen Datenbanken zu verlinken. Auf der Webseite wurde zu der Liste und deren Einträgen eine verbesserte Such- und Sortierfunktion aufgesetzt. Neben verschiedener Visualisierungen, die die Menge der betroffenen Werke übersichtlich gestaltet, wurden mit Hilfe frei nutzbarer Storytelling-Formate die Lebensläufe zweier betroffener Autoren - Annette Kolb und Erich Kästner - dargestellt.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-website",
-              "link" : "http://verbrannte-und-verbannte.de/",
-              "text" : "Webseite"
-            },
-            {
-              "class" : "projects-github",
-              "link" : "http://github.com/jlewis91/codingdavinci",
-              "text" : "Seite auf github"
-            },
-            {
-              "class" : "projects-github",
-              "link" : "https://github.com/mhinters/BannedBookUtils",
-              "text" : "Zusatz-Seite auf github"
-            }
-          ],
-        "data": 
-          [
-            "NS-Buchverbotsliste",
-            "Wikidata und WikidataQuery API",
-            "DNB / GND"
-          ],
-        "team": [4,5,6,7,8,9]
-      },
-      {
-        "name" : "zzZwitscherwecker",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/wecker.jpg"
-          ],
-        "description" : "Der zzZwitscherwecker ist eine Wecker-App, die dich jeden Morgen mit einem anderen Lied weckt. Um den Wecker auszuschalten, muss der Nutzer aus vier Vorschlägen den Vogel erraten, der ihn gerade geweckt hat. Liegt er richtig, bekommt er weitere Tier-Infos, liegt er falsch, darf er noch einmal raten - doch der Wecker geht erst aus, wenn der richtige Singvogel erkannt wurde. Der Wecker ist nicht unbedingt ein gutes Weckinstrument für (Hobby)Ornithologen, sondern spricht vor allem ein breites Publikum an, das sich ansonsten eher selten mit Tierstimmen beschäftigt.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-website",
-              "link" : "http://www.farbtrommel.de/zwitscherwecker/",
-              "text" : "Webseite"
-            },
-            {
-              "class" : "projects-android",
-              "link" : "http://www.farbtrommel.de/zwitscherwecker/build/zwitscherwecker.apk",
-              "text" : "Android App"
-            },
-            {
-              "class" : "projects-github",
-              "link" : "http://github.com/simonkoennecke/zzZwitscherwecker",
-              "text" : "Seite auf github"
-            },
-            {
-              "class" : "projects-quiz",
-              "link" : "http://www.farbtrommel.de/zwitscherwecker/#demo",
-              "text" : "Quiz URL, klicken auf: Wecker jetzt testen"
-            },
-            {
-              "class" : "projects-settings",
-              "link" : "http://www.farbtrommel.de/zwitscherwecker/#demo",
-              "text" : "Settings Screen"
-            }
-          ],
-        "data": 
-          [
-            "Tierstimmen des Museums für Naturkunde Berlin",
-            "Wikipedia",
-          ],
-        "team": [10,11,12,13,14]
-      },
-      {
-        "name" : "App: Verbotene Autoren",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/app-verbotene-autoren.png"
-          ],
-        "description" : "Im Mai und Juni 1933 wurden während der NS-Zeit sämtliche Autoren verfolgt und zahlreiche Bücher verbrannt. Auch in unsere heutige Zeit hinein fehlt uns der Überblick über diese Artefakte und ihre meist unbekannten Erschaffer. Die App “Verbotene Autoren” möchte diese Zeit mehr beleuchten - und ermöglicht es jedem Interessierten sich gezielt oder per Zufall über die von Nazionalsozialisten verbotenen Werke und ihre Schriftsteller zu informieren. Die App zeigt nicht nur Einzelansichten der Autoren, sonst führt auch in ihre Biographie ein, um so die Personen erneut ins Gedächtnis unserer Zeit zu holen.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-website",
-              "link" : "http://mr-fridge.de/apps/verbotene_autoren/index.php",
-              "text" : "Webseite"
-            },
-            {
-              "class" : "projects-appstore",
-              "link" : "",
-              "text" : "tbd"
-            },
-          ],
-        "data": 
-          [
-            "NS-Buchverbotsliste",
-            "Wikipedia",
-            "GND"
-          ],
-        "team": [15,16]
-      },
-      {
-        "name" : "Berlin - 50 Jahre später",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/berlin-50-jahre.png"
-          ],
-        "description" : "Im Mai und Juni 1933 wurden während der NS-Zeit sämtliche Autoren verfolgt und zahlreiche Bücher verbrannt. Auch in unsere heutige Zeit hinein fehlt uns der Überblick über diese Artefakte und ihre meist unbekannten Erschaffer. Die App “Verbotene Autoren” möchte diese Zeit mehr beleuchten - und ermöglicht es jedem Interessierten sich gezielt oder per Zufall über die von Nazionalsozialisten verbotenen Werke und ihre Schriftsteller zu informieren. Die App zeigt nicht nur Einzelansichten der Autoren, sonst führt auch in ihre Biographie ein, um so die Personen erneut ins Gedächtnis unserer Zeit zu holen.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-website",
-              "link" : "http://cdv.sourcloud.com/berlin",
-              "text" : "Webseite"
-            }          
-          ],
-        "data": 
-          [
-            "Ostberliner Fotoarchiv der Berlinischen Galerie",
-            "Google Maps / Google Street View + APIs",
-            "Wikipedia",
-            "selbsterfasste Aufnahmen + Geodaten"
-          ],
-        "team": [17]
-      },
-      {
-        //TODO: Links for offener Naturfuehrer
-        "name" : "Bestimmungsschlüssel",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/bestimmungsschluessel.png"
-          ],
-        "description" : "Aufmerksame Beobachter finden in der Natur viele spannende Pflanzen- und Tierarten. Nicht selten fragt man sich jedoch bei einem Spaziergang, welche Pflanze oder welches Tier man gerade gesehen hat. Käfer ist nicht gleich Käfer und Blume ist nicht gleich Blume. Mit einer Pflanzen- und Tierbestimmungsapp wird das Finden des richtigen Namens einfacher, denn der Nutzer muss nur wenige Fragen beantworten, um die Lösung zu finden. Ziel des Projekts Bestimmungsschlüssel ist es, eine moderne, einfach zu bedienende Variante für eine bereits bestehende App zu entwickeln, die auf allen wichtigen mobilen Plattformen funktioniert.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-website",
-              "link" : "http://b-content.com/projects/davinci/fulllist_Haeufige_Voegel_in_Gaerten_und_Siedlungen.php",
-              "text" : "Webseite"
-            },
-            {
-              "class" : "projects-github",
-              "link" : "https://github.com/Pedder/Haeufige-Voegel-in-Gaerten-und-Siedlungen/",
-              "text" : "Seite auf github"
-            }        
-          ],
-        "data": 
-          [
-            "Daten aus dem offenen Naturführer (http://biowikifarm.net/meta/Open_GLAM_Hackathon_2014#Analyse_von_Gigapixel-Scans_von_Insektenk.C3.A4sten)",
-          ],
-        "team": [18,19,20]
-      },
-      {
-        "name" : "DDBRest - javascript client for the DDB rest API",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/ddbrest.png"
-          ],
-        "description" : "Die Datenbank der Deutschen Digitalen Bibliothek gibt Zugang zu zahlreichen kulturellen und wissenschaftlichen Artefakten wie Büchern, Archiven, Bildern, Musik und Videos. Mit der API (Programmierschnitstelle) der DDB können Entwickler auf diese Daten und Inhalte zugreifen, um bspw. Webseiten und andere Dienste bauen zu können. Die Inhalte und Daten der DDB sind über viele Plattformen verfügbar sind - bis auf Javascript. Das DDBRest-Projekt verbindet alle API Schnittstellen in kleine handliche Pakete und erleichtert somit den Zugang zu allen verfügbaren Datenstrukturen in Node.js und den Browser. Damit haben Web-Entwickler es einfacher auf die DDB-Inhalte für ihre Webanwendungen zuzugreifen.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-github",
-              "link" : "http://github.com/kollektivpp/ddbrest",
-              "text" : "Seite auf github"
-            }        
-          ],
-        "data": 
-          [
-            "API der Deutschen Digitalen Bibliothek",
-          ],
-        "team": [21]
-      },
-      {
-        "name" : "DNB - Data Explorer — Generous Interfaces for Visual Exploration",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/dnb-explorer1.png"
-          ],
-        "description" : "Die Deutsche Nationalbibliothek bietet einen reichhaltigen Fundus an Daten. Über das gedruckte Medium hinaus finden sich z.B. auch Informationen zu Personen und Orten. All diese Daten stehen in Relation zu einander, die bisher nur über eine klassische Textsuche bzw. Hyperlinks erschlossen werden kann. Der DNB Data Explorer soll die Zusammenhänge in den Datensätzen der DNB sichtbar und durch Visualisierung verständlicher machen. Beispielsweise kann der Nutzer herausfinden, wie viele Menschen zu welcher Zeit in welcher Stadt gelebt haben und diese untereinander vergleichen. Alle Visualisierungen sind auf der Webseite des Projekts verfügbar.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-github",
-              "link" : "http://github.com/sebastian-meier/dnb-visualization",
-              "text" : "Seite auf github"
-            },
-            {
-              "class" : "projects-website",
-              "link" : "http://www.sebastianmeier.eu/2014/06/21/deutsche-national-bibliothek-data-explorer/",
-              "text" : "Webseite"
-            }        
-          ],
-        "data": 
-          [
-            "DNB / GND",
-          ],
-        "team": [22]
-      },
-      {
-        "name" : "EthnoTier",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/ethnotier.png"
-          ],
-        "description" : "Das EthnoTier ist eine Musikapp, die sich an Kinder richtet und über einen Tabletcomputer einfach bedient werden kann. Auf einer Waltbühne können junge Nutzer selbst Dirigent spielen und ein Orchester mit Vögel, Fröschen und anderen heimischen Tieren erstellen. Mit den integrierten Sounds lernen sie spielerisch wie Instrumente und Tiere klingen - außerdem können sie mit der App auch richtig Krach machen.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-github",
-              "link" : "https://github.com/thatbettina/ethnotier",
-              "text" : "Seite auf github"
-            },
-            {
-              "class" : "projects-website",
-              "link" : "http://tursics.de/sample/ethnotier/",
-              "text" : "Webseite (Preview)"
-            }        
-          ],
-        "data": 
-          [
-            "Audiodateien", "Musikinstrumentensammlung des Ethnologischen Museums","Tierstimmenarchiv des Naturkundemuseum"
-          ],
-        "team": [23,20]
-      },
-      {
-        "name" : "Kulturchronologie | decode the heritage",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/kulturchronologie.jpg"
-          ],
-        "description" : "Die Software des Projekts Kulturchronologie dient der anschaulichen Aufbereitung umfangreicher Chronologien und Historien von Ausstellungsobjekten. Das Projekt dient in erster Linie der Präsentation digitaler Bestände. Die Software kann sowohl im musealen und im schulischen Kontext eingesetzt werden, um einen schnellen, interaktiven Überblick über zeitliche Abfolgen oder Zusammenhänge verschiedener Datenbestände zu ermöglichen. Historische Ereignisse werden entsprechend definierter Filterkriterien auf einen Zeitstrahl projiziert und erklärt. Der Bezug auf Daten der DDB sichert hierbei die Qualität und Reliabilität der Informationen.",
-        "links": [],
-        "data": 
-          [
-            "API der Deutschen Digitalen Bibliothek"
-          ],
-        "team": [24,25,26]
-      },
-      {
-        "name" : "Lebendige Liste",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/lebendige-liste.png"
-          ],
-        "description" : "Viele Autoren und Werke wurden während der NS-Zeit verboten. Sie verschwanden aus Bibliotheken, Archiven, Verlagen und Buchhandlungen. Auch nach Ende des 2. Weltkrieges wurden viele Werke nicht wieder verlegt. Und so wirkt dieses NS-Verbrechen bis heute. Die Aktion Lebendige Liste will erinnern. Eine Liste, die dazu geschaffen wurde, die Werke so vieler Autoren zum Schweigen zu bringen, hilft nun, ihnen wieder eine Stimme zu geben. Auf Twitter wird jeden Tag ein Eintrag der NS-Verbotsliste veröffentlicht. Eine Liste des Vergessens beginnt zu sprechen und zu erinnern.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-website",
-              "link" : "http://www.lebendigeliste.de/",
-              "text" : "Webseite"
-            },  
-            {
-              "class" : "projects-twitter",
-              "link" : "@lebendigeliste",
-              "text" : "Twitter"
-            }        
-          ],
-        "data": 
-          [
-            "NS-Buchverbotsliste",
-          ],
-        "team": [21,3,27,28]
-      },
-      {
-        "name" : "Lebendige Liste",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/lebendige-liste.png"
-          ],
-        "description" : "Viele Autoren und Werke wurden während der NS-Zeit verboten. Sie verschwanden aus Bibliotheken, Archiven, Verlagen und Buchhandlungen. Auch nach Ende des 2. Weltkrieges wurden viele Werke nicht wieder verlegt. Und so wirkt dieses NS-Verbrechen bis heute. Die Aktion Lebendige Liste will erinnern. Eine Liste, die dazu geschaffen wurde, die Werke so vieler Autoren zum Schweigen zu bringen, hilft nun, ihnen wieder eine Stimme zu geben. Auf Twitter wird jeden Tag ein Eintrag der NS-Verbotsliste veröffentlicht. Eine Liste des Vergessens beginnt zu sprechen und zu erinnern.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-website",
-              "link" : "http://www.lebendigeliste.de/",
-              "text" : "Webseite"
-            },  
-            {
-              "class" : "projects-twitter",
-              "link" : "http://www.twitter.com/lebendigeliste",
-              "text" : "Twitter"
-            }        
-          ],
-        "data": 
-          [
-            "NS-Buchverbotsliste",
-          ],
-        "team": [21,3,27,28]
-      },
-      {
-        "name" : "Mnemosyne",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/mnemosyne.png"
-          ],
-        "description" : "Archive werden mit steigender Komplexität spannender aber auch schwieriger zugänglich. Wie kann ich nach etwas suchen, dass ich nicht kenne? Wie können Inhalte dargestellt werden, die den Nutzer animieren feste Denkstrukturen zu überwinden? MNEMOSYNE hat das Ziel, dem Betrachter ein Stöbern zu ermöglichen und Schätze aus dem Archiv ins Gedächtnis zu rufen. Wie in der Bibliothek wahllos ins Regal greifen und eine Kostbarkeit finden, oder das Wikipedia-Hyperlink-Hopping.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-website",
-              "link" : "http://mnemosyne-app.de",
-              "text" : "Webseite"
-            },  
-            {
-              "class" : "projects-github",
-              "link" : "http://github.com/kollektivpp/CodingDaVinci-Mnemosyne",
-              "text" : "Seite auf github"
-            }        
-          ],
-        "data": 
-          [
-            "API der Deutschen Digitalen Bibliothek",
-          ],
-        "team": [21,3,27,28]
-      },
-      {
-        "name" : "Poetic Relief - תבליט פיוטי",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/poetic-relief-1.png"
-          ],
-        "description" : "Oft bleiben Fragen nach der Bedeutung der Grabinschriften, bei der Betrachtung von jüdischen Gräbern, offen - sei es von literarischer Natur oder sprachlichen Barrieren. Auf der „Poetic Relief“-Website findet der Nutzer die hebräische und deutsche Version der Grabinschriften und kann diese somit besser nachvollziehen. Im Zentrum steht die Lyrik der Inschriften, welche Geschichten aus den jüdischen Leben erzählen. Die Inschriften geben dir die Möglichkeit die Grabsteine von einem anderen Blickwinkel betrachten zu können, denn sie lassen Biografien lebendig werden und bringen vergangene jüdische Lebens- und Denkweisen ins 21. Jahrhundert.",
-        "links": 
-          [ 
-            {
-              "class" : "projects-website",
-              "link" : "http://www.poeticrelief.org",
-              "text" : "Webseite"
-            },  
-            {
-              "class" : "projects-github",
-              "link" : "http://github.com/step21/poerelief/",
-              "text" : "Seite auf github"
-            }        
-          ],
-        "data": 
-          [
-            "Datenbank zur jüdischen Grabsteinepigraphik des Steinheim-Instituts"
-          ],
-        "team": [29,30,31,32]
-      },
-      {
-        "name" : "SnatchTheCultureGame",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/snatch-the-culture-game.jpg"
-          ],
-        "description" : "Snatch the Culture Game ist ein Computerspiel für Ausstellungskurator/innen. Der Spieler kann dabei Wände und Ausstellungsflächen selbst bestimmen und modifizieren. Anschließend kann er ein eigenes Museum mit einer individuellen Ausstellung mit Werken aus dem Spielarchiv aufbauen und gestalten. Ziel der Spiels ist es, möglichst viele Besucher in seine Ausstellung zu locken und auf ihre Fragen richtig zu antworten. Diese beziehen sich nämlich auf die ausgestellten Stücke selbst.",
-        "links": 
-          [  
-            {
-              "class" : "projects-github",
-              "link" : "http://github.com/2P3H8131C1CP4/SnatchTheCultureGame",
-              "text" : "Seite auf github"
-            }        
-          ],
-        "data": 
-          [
-            "NS-Buchverbotsliste","Stolpersteinen in Berlin", "Daten des Botanischen Gartens und des Botanischen Museums Berlin-Dahlem", "Herzog August Bibliothek Wolfenbüttel"
-          ],
-        "team": [33,34]
-      },
-      {
-        "name" : "Soundwall-App",
-        "tile" : "/img/tiles/cdv_tiles.jpg",
-        "images" : 
-          [
-            "/img/projekte/soundwall.jpg"
-          ],
-        "description" : "Die Soundwall-App basiert auf der Musikinstrumentensammlung des Ethnologischen Museum Berlins und möchte es dem Besucher ermöglichen, sich die Instrumente nicht nur anzusehen, sondern sie mit allen Sinnen zu erleben. Die App registriert durch die Augmented Reality-Technologie das Musikinstrument in der Ausstellungsvitrine und spielt dem Nutzer dazugehörige Sounds und Videos ab, die die Spielweise der Instrumente dokumentieren.",
-        "links": 
-          [  
-            {
-              "class" : "projects-github",
-              "link" : "http://github.com/mCRUMBS/Soundwall/",
-              "text" : "Seite auf github"
-            },
-            {
-              "class" : "projects-website",
-              "link" : "http://mcrumbs.com/portfolio/soundwall-app/ ",
-              "text" : "Webseite"
-            }       
-          ],
-        "data": 
-          [
-            "Digitale Klang- und Videobeispiele aus der Instrumentensammlung des Ethnologischen Museums Berlin"
-          ],
-        "team": [33,34]
-      },
+    "projects": [
+        {
+            "name": "Alt-Berlin",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Die IOS-App Alt-Berlin widmet sich der historischen Entwicklung der deutschen Hauptstadt. Auf historischen und modernen Karten sind Bilder der Stiftung Stadtmuseum Berlin verortet, die alte Gebäude und historische Plätze zeigen. Im Vorher-Nachher-Vergleich der Bilder und Karten entdeckt man z.B. den ursprünglichen Verlauf der Spree und die Veränderung des Stadtbildes. Der Nutzer kann sich durch die Stadtgeschichte bewegen und sie interaktiv erforschen. Für 2015 wird diese App für alle Geschichtsbegeisterten im App Store zur Verfügung stehen.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://altberlinapp.de",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/choefele/coding-da-vinci",
+                    "text": "Demo auf github"
+                }
+            ],
+            "data": [
+                "\"Schichten der Geschichte\" Stadtansichten (Stadtmuseum Berlin)",
+                "Geometrien der Ortsteile von Berlin (Amt für Statistik Berlin-Brandenburg)",
+                "Berliner Karten 1650-1986 (Senatsverwaltung für Stadtentwicklung und Umwelt Berlin)",
+                "Bilder Kreuzberg (Wikipedia)"
+            ],
+            "team": [
+                0
+            ]
+        },
+        {
+            "name": "Cyberbeetle",
+            "tile": "/img/projekte-tiles/cyberbeetle.png",
+            "images": [
+                "/img/projekte/cyberbeetle.jpg"
+            ],
+            "description": "Das Projekt Cyberbeetle ist inspiriert von den Insektenscans des Museums für Naturkunde Berlin. Das Projekt möchte dem im Museum ausgestellten Chalcosoma Atlas-Käfer zu neuem Leben verhelfen. Basierend auf dem faszinierenden Aussehen des Käfers, ist ein sich bewegender Roboterkäfer entstanden, der seinen eigenen Insektenkasten besitzt. In diesem neuen Zuhause, der Insektenkastenbox aus Holz, kann der Cyberbeetle über einen Screen Videos von Pflanzen und Tieren anschauen. Sowohl der Käfer als auch die Box funktionieren mittels einem kleinen Arduinos und verschiedener weiterer elektronischer und mechanischer Einzelteile, die Bewegungen des Käfers ermöglichen.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://katihyyppa.com/cyberbeetle",
+                    "text": "Webseite"
+                }
+            ],
+            "data": [
+                "Insect box scans from Museum für Naturkunde Berlin",
+                "Animal sounds from Museum für Naturkunde Berlin",
+                "Plant pictures from Botanischer Garten and Botanisches Museum Berlin-Dahlem"
+            ],
+            "team": [
+                1,
+                2
+            ]
+        },
+        {
+            "name": "EthnoBand",
+            "tile": "/img/projekte-tiles/ethnoband.png",
+            "images": [
+                "/img/projekte/ethnoband.png"
+            ],
+            "description": "Ethnoband ist eine HTML5-Webapp, mit der Nutzer einige der Musikinstrumente aus dem Archiv des Ethnologischen Museums selbst spielen können. Ein Benutzer kann mit seinem Smartphone einen Eintrag aus einer Liste von Musikinstrumenten wählen und dann selbst durch Taps auf einer virtuellen Tastatur das jeweilige Instrument spielen. Mehrere Personen mit mehreren Smartphones können dann gemeinsam musizieren. Denn selbst Musik zu machen, macht noch viel mehr Spaß als sich die Instrumente nur anzusehen!",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://ethnoband.thomasfett.de",
+                    "text": "Webseite"
+                }
+            ],
+            "data": [
+                "Bilder und Tonaufnahmen des Ethnologischen Museums Berlin"
+            ],
+            "team": [
+                3
+            ]
+        },
+        {
+            "name": "inside - 19xx",
+            "tile": "/img/projekte-tiles/Verbrannte.png",
+            "images": [
+                "/img/projekte/inside-19xx.jpg"
+            ],
+            "description": "Das Projekt “Inside 19xx” widmet sich der Liste der zwischen 1938 und 1941 von der „Reichsschriftkammer“ erstellten verbannten Bücher. Ziel des Projektes war es, die Metadaten der Liste zu vervollständigen, mit anderen Datensets anzureichern sowie die Einträge mit externen, vornehmlich bibliografischen Datenbanken zu verlinken. Auf der Webseite wurde zu der Liste und deren Einträgen eine verbesserte Such- und Sortierfunktion aufgesetzt. Neben verschiedener Visualisierungen, die die Menge der betroffenen Werke übersichtlich gestaltet, wurden mit Hilfe frei nutzbarer Storytelling-Formate die Lebensläufe zweier betroffener Autoren - Annette Kolb und Erich Kästner - dargestellt.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://verbrannte-und-verbannte.de/",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "projects-github",
+                    "link": "http://github.com/jlewis91/codingdavinci",
+                    "text": "Seite auf github"
+                },
+                {
+                    "class": "projects-github",
+                    "link": "https://github.com/mhinters/BannedBookUtils",
+                    "text": "Zusatz-Seite auf github"
+                }
+            ],
+            "data": [
+                "NS-Buchverbotsliste",
+                "Wikidata und WikidataQuery API",
+                "DNB / GND"
+            ],
+            "team": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "name": "zzZwitscherwecker",
+            "tile": "/img/projekte-tiles/zzzwitscherwecker.png",
+            "images": [
+                "/img/projekte/wecker.jpg"
+            ],
+            "description": "Der zzZwitscherwecker ist eine Wecker-App, die dich jeden Morgen mit einem anderen Lied weckt. Um den Wecker auszuschalten, muss der Nutzer aus vier Vorschlägen den Vogel erraten, der ihn gerade geweckt hat. Liegt er richtig, bekommt er weitere Tier-Infos, liegt er falsch, darf er noch einmal raten - doch der Wecker geht erst aus, wenn der richtige Singvogel erkannt wurde. Der Wecker ist nicht unbedingt ein gutes Weckinstrument für (Hobby)Ornithologen, sondern spricht vor allem ein breites Publikum an, das sich ansonsten eher selten mit Tierstimmen beschäftigt.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://www.farbtrommel.de/zwitscherwecker/",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "projects-android",
+                    "link": "http://www.farbtrommel.de/zwitscherwecker/build/zwitscherwecker.apk",
+                    "text": "Android App"
+                },
+                {
+                    "class": "projects-github",
+                    "link": "http://github.com/simonkoennecke/zzZwitscherwecker",
+                    "text": "Seite auf github"
+                },
+                {
+                    "class": "projects-quiz",
+                    "link": "http://www.farbtrommel.de/zwitscherwecker/#demo",
+                    "text": "Quiz URL, klicken auf: Wecker jetzt testen"
+                },
+                {
+                    "class": "projects-settings",
+                    "link": "http://www.farbtrommel.de/zwitscherwecker/#demo",
+                    "text": "Settings Screen"
+                }
+            ],
+            "data": [
+                "Tierstimmen des Museums für Naturkunde Berlin",
+                "Wikipedia"
+            ],
+            "team": [
+                13,
+                14,
+                15,
+                16,
+                17
+            ]
+        },
+        {
+            "name": "Verbotene Autoren",
+            "tile": "/img/projekte-tiles/verboteneautoren.png",
+            "images": [
+                "/img/projekte/app-verbotene-autoren.png"
+            ],
+            "description": "Im Mai und Juni 1933 wurden während der NS-Zeit sämtliche Autoren verfolgt und zahlreiche Bücher verbrannt. Auch in unsere heutige Zeit hinein fehlt uns der Überblick über diese Artefakte und ihre meist unbekannten Erschaffer. Die App “Verbotene Autoren” möchte diese Zeit mehr beleuchten - und ermöglicht es jedem Interessierten sich gezielt oder per Zufall über die von Nazionalsozialisten verbotenen Werke und ihre Schriftsteller zu informieren. Die App zeigt nicht nur Einzelansichten der Autoren, sonst führt auch in ihre Biographie ein, um so die Personen erneut ins Gedächtnis unserer Zeit zu holen.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://mr-fridge.de/apps/verbotene_autoren/index.php",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "projects-appstore",
+                    "link": "",
+                    "text": "tbd"
+                }
+            ],
+            "data": [
+                "NS-Buchverbotsliste",
+                "Wikipedia",
+                "GND"
+            ],
+            "team": [
+                18,
+                19
+            ]
+        },
+        {
+            "name": "Berlin - 50 Jahre später",
+            "tile": "/img/projekte-tiles/berlin50jahre.png",
+            "images": [
+                "/img/projekte/berlin-50-jahre.png"
+            ],
+            "description": "Im Mai und Juni 1933 wurden während der NS-Zeit sämtliche Autoren verfolgt und zahlreiche Bücher verbrannt. Auch in unsere heutige Zeit hinein fehlt uns der Überblick über diese Artefakte und ihre meist unbekannten Erschaffer. Die App “Verbotene Autoren” möchte diese Zeit mehr beleuchten - und ermöglicht es jedem Interessierten sich gezielt oder per Zufall über die von Nazionalsozialisten verbotenen Werke und ihre Schriftsteller zu informieren. Die App zeigt nicht nur Einzelansichten der Autoren, sonst führt auch in ihre Biographie ein, um so die Personen erneut ins Gedächtnis unserer Zeit zu holen.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://cdv.sourcloud.com/berlin",
+                    "text": "Webseite"
+                }
+            ],
+            "data": [
+                "Ostberliner Fotoarchiv der Berlinischen Galerie",
+                "Google Maps / Google Street View + APIs",
+                "Wikipedia",
+                "selbsterfasste Aufnahmen + Geodaten"
+            ],
+            "team": [
+                20
+            ]
+        },
+        {
+            "name": "Bestimmungsschlüssel",
+            "tile": "/img/projekte-tiles/bestimmungsschluessel.png",
+            "images": [
+                "/img/projekte/bestimmungsschluessel.png"
+            ],
+            "description": "Aufmerksame Beobachter finden in der Natur viele spannende Pflanzen- und Tierarten. Nicht selten fragt man sich jedoch bei einem Spaziergang, welche Pflanze oder welches Tier man gerade gesehen hat. Käfer ist nicht gleich Käfer und Blume ist nicht gleich Blume. Mit einer Pflanzen- und Tierbestimmungsapp wird das Finden des richtigen Namens einfacher, denn der Nutzer muss nur wenige Fragen beantworten, um die Lösung zu finden. Ziel des Projekts Bestimmungsschlüssel ist es, eine moderne, einfach zu bedienende Variante für eine bereits bestehende App zu entwickeln, die auf allen wichtigen mobilen Plattformen funktioniert.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://b-content.com/projects/davinci/fulllist_Haeufige_Voegel_in_Gaerten_und_Siedlungen.php",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "projects-github",
+                    "link": "https://github.com/Pedder/Haeufige-Voegel-in-Gaerten-und-Siedlungen/",
+                    "text": "Seite auf github"
+                }
+            ],
+            "data": [
+                "Daten aus dem offenen Naturführer (http://biowikifarm.net/)"
+            ],
+            "team": [
+                21,
+                22,
+                23
+            ]
+        },
+        {
+            "name": "DDBRest",
+            "tile": "/img/projekte-tiles/ddbrest.png",
+            "images": [
+                "/img/projekte/ddbrest.png"
+            ],
+            "description": "Die Datenbank der Deutschen Digitalen Bibliothek gibt Zugang zu zahlreichen kulturellen und wissenschaftlichen Artefakten wie Büchern, Archiven, Bildern, Musik und Videos. Mit der API (Programmierschnitstelle) der DDB können Entwickler auf diese Daten und Inhalte zugreifen, um bspw. Webseiten und andere Dienste bauen zu können. Die Inhalte und Daten der DDB sind über viele Plattformen verfügbar sind - bis auf Javascript. Das DDBRest-Projekt verbindet alle API Schnittstellen in kleine handliche Pakete und erleichtert somit den Zugang zu allen verfügbaren Datenstrukturen in Node.js und den Browser. Damit haben Web-Entwickler es einfacher auf die DDB-Inhalte für ihre Webanwendungen zuzugreifen.",
+            "links": [
+                {
+                    "class": "projects-github",
+                    "link": "http://github.com/kollektivpp/ddbrest",
+                    "text": "Seite auf github"
+                }
+            ],
+            "data": [
+                "API der Deutschen Digitalen Bibliothek"
+            ],
+            "team": [
+                24
+            ]
+        },
+        {
+            "name": "DNB - Data Explorer",
+            "tile": "/img/projekte-tiles/dnbexplorer.png",
+            "images": [
+                "/img/projekte/dnb-explorer1.png"
+            ],
+            "description": "Die Deutsche Nationalbibliothek bietet einen reichhaltigen Fundus an Daten. Über das gedruckte Medium hinaus finden sich z.B. auch Informationen zu Personen und Orten. All diese Daten stehen in Relation zu einander, die bisher nur über eine klassische Textsuche bzw. Hyperlinks erschlossen werden kann. Der DNB Data Explorer soll die Zusammenhänge in den Datensätzen der DNB sichtbar und durch Visualisierung verständlicher machen. Beispielsweise kann der Nutzer herausfinden, wie viele Menschen zu welcher Zeit in welcher Stadt gelebt haben und diese untereinander vergleichen. Alle Visualisierungen sind auf der Webseite des Projekts verfügbar.",
+            "links": [
+                {
+                    "class": "projects-github",
+                    "link": "http://github.com/sebastian-meier/dnb-visualization",
+                    "text": "Seite auf github"
+                },
+                {
+                    "class": "projects-website",
+                    "link": "http://www.sebastianmeier.eu/2014/06/21/deutsche-national-bibliothek-data-explorer/",
+                    "text": "Webseite"
+                }
+            ],
+            "data": [
+                "DNB / GND"
+            ],
+            "team": [
+                25
+            ]
+        },
+        {
+            "name": "EthnoTier",
+            "tile": "/img/projekte-tiles/ethnotier.png",
+            "images": [
+                "/img/projekte/ethnotier.png"
+            ],
+            "description": "Das EthnoTier ist eine Musikapp, die sich an Kinder richtet und über einen Tabletcomputer einfach bedient werden kann. Auf einer Waltbühne können junge Nutzer selbst Dirigent spielen und ein Orchester mit Vögel, Fröschen und anderen heimischen Tieren erstellen. Mit den integrierten Sounds lernen sie spielerisch wie Instrumente und Tiere klingen - außerdem können sie mit der App auch richtig Krach machen.",
+            "links": [
+                {
+                    "class": "projects-github",
+                    "link": "https://github.com/thatbettina/ethnotier",
+                    "text": "Seite auf github"
+                },
+                {
+                    "class": "projects-website",
+                    "link": "http://tursics.de/sample/ethnotier/",
+                    "text": "Webseite (Preview)"
+                }
+            ],
+            "data": [
+                "Audiodateien",
+                "Musikinstrumentensammlung des Ethnologischen Museums",
+                "Tierstimmenarchiv des Naturkundemuseum"
+            ],
+            "team": [
+                26,
+                23
+            ]
+        },
+        {
+            "name": "Kulturchronologie",
+            "tile": "/img/projekte-tiles/Lebendigeliste.png",
+            "images": [
+                "/img/projekte/kulturchronologie.jpg"
+            ],
+            "description": "Die Software des Projekts Kulturchronologie dient der anschaulichen Aufbereitung umfangreicher Chronologien und Historien von Ausstellungsobjekten. Das Projekt dient in erster Linie der Präsentation digitaler Bestände. Die Software kann sowohl im musealen und im schulischen Kontext eingesetzt werden, um einen schnellen, interaktiven Überblick über zeitliche Abfolgen oder Zusammenhänge verschiedener Datenbestände zu ermöglichen. Historische Ereignisse werden entsprechend definierter Filterkriterien auf einen Zeitstrahl projiziert und erklärt. Der Bezug auf Daten der DDB sichert hierbei die Qualität und Reliabilität der Informationen.",
+            "links": [],
+            "data": [
+                "API der Deutschen Digitalen Bibliothek"
+            ],
+            "team": [
+                27,
+                28,
+                29
+            ]
+        },
+        {
+            "name": "Lebendige Liste",
+            "tile": "/img/projekte-tiles/Lebendigeliste.png",
+            "images": [
+                "/img/projekte/lebendige-liste.png"
+            ],
+            "description": "Viele Autoren und Werke wurden während der NS-Zeit verboten. Sie verschwanden aus Bibliotheken, Archiven, Verlagen und Buchhandlungen. Auch nach Ende des 2. Weltkrieges wurden viele Werke nicht wieder verlegt. Und so wirkt dieses NS-Verbrechen bis heute. Die Aktion Lebendige Liste will erinnern. Eine Liste, die dazu geschaffen wurde, die Werke so vieler Autoren zum Schweigen zu bringen, hilft nun, ihnen wieder eine Stimme zu geben. Auf Twitter wird jeden Tag ein Eintrag der NS-Verbotsliste veröffentlicht. Eine Liste des Vergessens beginnt zu sprechen und zu erinnern.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://www.lebendigeliste.de/",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "projects-twitter",
+                    "link": "http://www.twitter.com/lebendigeliste",
+                    "text": "Twitter"
+                }
+            ],
+            "data": [
+                "NS-Buchverbotsliste"
+            ],
+            "team": [
+                24,
+                3,
+                30,
+                31
+            ]
+        },
+        {
+            "name": "Mnemosyne",
+            "tile": "/img/projekte-tiles/Mnemosyne.png",
+            "images": [
+                "/img/projekte/mnemosyne.png"
+            ],
+            "description": "Archive werden mit steigender Komplexität spannender aber auch schwieriger zugänglich. Wie kann ich nach etwas suchen, dass ich nicht kenne? Wie können Inhalte dargestellt werden, die den Nutzer animieren feste Denkstrukturen zu überwinden? MNEMOSYNE hat das Ziel, dem Betrachter ein Stöbern zu ermöglichen und Schätze aus dem Archiv ins Gedächtnis zu rufen. Wie in der Bibliothek wahllos ins Regal greifen und eine Kostbarkeit finden, oder das Wikipedia-Hyperlink-Hopping.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://mnemosyne-app.de",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "projects-github",
+                    "link": "http://github.com/kollektivpp/CodingDaVinci-Mnemosyne",
+                    "text": "Seite auf github"
+                }
+            ],
+            "data": [
+                "API der Deutschen Digitalen Bibliothek"
+            ],
+            "team": [
+                24,
+                3,
+                30,
+                31
+            ]
+        },
+        {
+            "name": "Poetic Relief - תבליט פיוטי",
+            "tile": "/img/projekte-tiles/PoeticRelief.png",
+            "images": [
+                "/img/projekte/poetic-relief-1.png"
+            ],
+            "description": "Oft bleiben Fragen nach der Bedeutung der Grabinschriften, bei der Betrachtung von jüdischen Gräbern, offen - sei es von literarischer Natur oder sprachlichen Barrieren. Auf der „Poetic Relief“-Website findet der Nutzer die hebräische und deutsche Version der Grabinschriften und kann diese somit besser nachvollziehen. Im Zentrum steht die Lyrik der Inschriften, welche Geschichten aus den jüdischen Leben erzählen. Die Inschriften geben dir die Möglichkeit die Grabsteine von einem anderen Blickwinkel betrachten zu können, denn sie lassen Biografien lebendig werden und bringen vergangene jüdische Lebens- und Denkweisen ins 21. Jahrhundert.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://www.poeticrelief.org",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "projects-github",
+                    "link": "http://github.com/step21/poerelief/",
+                    "text": "Seite auf github"
+                }
+            ],
+            "data": [
+                "Datenbank zur jüdischen Grabsteinepigraphik des Steinheim-Instituts"
+            ],
+            "team": [
+                32,
+                33,
+                34,
+                35
+            ]
+        },
+        {
+            "name": "SnatchTheCultureGame",
+            "tile": "/img/projekte-tiles/snatchtheculturegame.png",
+            "images": [
+                "/img/projekte/snatch-the-culture-game.jpg"
+            ],
+            "description": "Snatch the Culture Game ist ein Computerspiel für Ausstellungskurator/innen. Der Spieler kann dabei Wände und Ausstellungsflächen selbst bestimmen und modifizieren. Anschließend kann er ein eigenes Museum mit einer individuellen Ausstellung mit Werken aus dem Spielarchiv aufbauen und gestalten. Ziel der Spiels ist es, möglichst viele Besucher in seine Ausstellung zu locken und auf ihre Fragen richtig zu antworten. Diese beziehen sich nämlich auf die ausgestellten Stücke selbst.",
+            "links": [
+                {
+                    "class": "projects-github",
+                    "link": "http://github.com/2P3H8131C1CP4/SnatchTheCultureGame",
+                    "text": "Seite auf github"
+                }
+            ],
+            "data": [
+                "NS-Buchverbotsliste",
+                "Stolpersteinen in Berlin",
+                "Daten des Botanischen Gartens und des Botanischen Museums Berlin-Dahlem",
+                "Herzog August Bibliothek Wolfenbüttel"
+            ],
+            "team": [
+                36,
+                37
+            ]
+        },
+        {
+            "name": "Soundwall-App",
+            "tile": "/img/projekte-tiles/Soundwwall.png",
+            "images": [
+                "/img/projekte/soundwall.jpg"
+            ],
+            "description": "Die Soundwall-App basiert auf der Musikinstrumentensammlung des Ethnologischen Museum Berlins und möchte es dem Besucher ermöglichen, sich die Instrumente nicht nur anzusehen, sondern sie mit allen Sinnen zu erleben. Die App registriert durch die Augmented Reality-Technologie das Musikinstrument in der Ausstellungsvitrine und spielt dem Nutzer dazugehörige Sounds und Videos ab, die die Spielweise der Instrumente dokumentieren.",
+            "links": [
+                {
+                    "class": "projects-github",
+                    "link": "http://github.com/mCRUMBS/Soundwall/",
+                    "text": "Seite auf github"
+                },
+                {
+                    "class": "projects-website",
+                    "link": "http://mcrumbs.com/portfolio/soundwall-app/ ",
+                    "text": "Webseite"
+                }
+            ],
+            "data": [
+                "Digitale Klang- und Videobeispiele aus der Instrumentensammlung des Ethnologischen Museums Berlin"
+            ],
+            "team": [
+                38,
+                39,
+                40,
+                21
+            ]
+        }
     ],
-  "persons" : 
-    [
-      {
-        "id" : 0, 
-        "name" : "Claus Höfele",
-        "mail" : "claus@claushoefele.com",
-        "twitter" : "@claushoefele"
-      },
-      {
-        "id" : 1, 
-        "name" : "Kati Hyyppä (Berlin) / Beetle constructor",
-        "website" : "http://katihyyppa.com"
-      },
-      {
-        "id" : 2, 
-        "name" : "Tomi Hyyppä (Helsinki) / Sound designer"
-      },
-      {
-        "id" : 3, 
-        "name" : "Thomas Fett",
-        "github" : "thomasfett",
-        "twitter" : "@FettThomas"
-      },
-      {
-        "id" : 4, 
-        "name" : "Daniel Burckhardt",
-        "github" : "burki",
-      },
-      {
-        "id" : 5, 
-        "name" : "Dierk Eichel",
-      },
-      {
-        "id" : 4, 
-        "name" : "Michael Hintersonnleitner",
-        "github" : "mhinters",
-      },
-      {
-        "id" : 5, 
-        "name" : "Frederike Kaltheuner",
-        "github" : "fre8de8rike",
-      },
-      {
-        "id" : 6, 
-        "name" : "Jeremy Lewis",
-        "github" : "jlewis91",
-      },
-      {
-        "id" : 7, 
-        "name" : "Jonas Parnow",
-        "github" : "z3to",
-      },
-      {
-        "id" : 7, 
-        "name" : "Kristin Sprechert",
-        "github" : "kaeseoehrchen",
-      },
-      {
-        "id" : 8, 
-        "name" : "Kai Teuber, Ministerialbeamter, Berlin, Potsdam",
-        "github" : "teuberkai",
-        "twitter" : "@teuberkai"
-      },
-      {
-        "id" : 9, 
-        "name" : "Clemens Wilding",
-        "github" : "wigginus"
-      },
-      {
-        "id" : 10, 
-        "name" : "Anne Weißschädel",
-        "mail" : "anne.weissschaedel@gmail.com"
-      },
-      {
-        "id" : 11, 
-        "name" : "Simon Könneke",
-        "mail" : "simonkoennecke@gmail.com"
-      },
-      {
-        "id" : 12, 
-        "name" : "Christoph Hornig",
-        "mail" : "ch.hornig@gmail.com"
-      },
-      {
-        "id" : 13, 
-        "name" : "Stephanie Weber",
-        "mail" : "klimperfee@gmail.com",
-        "twitter" : "@klimperfee"
-      },
-      {
-        "id" : 14, 
-        "name" : "David Gomez",
-        "mail" : "davidogos@hotmail.com",
-        "twitter" : "@dagosarmiento"
-      },
-      {
-        "id" : 15, 
-        "name" : "Anna Neovesky, Digitale Akademie",
-        "mail" : "anna.neovesky@adwmainz.de",
-        "twitter" : "@annavsk"
-      },
-      {
-        "id" : 16, 
-        "name" : "Julius Peinelt, Mr. Fridge Software",
-        "mail" : "julius@mr-fridge.de",
-        "twitter" : "@codingFriends"
-      },
-      {
-        "id" : 17, 
-        "name" : "Erik Woitschig",
-        "github" : "iambnz",
-        "twitter" : "@iam_bnz",
-        "stackOverflow" : "http://stackoverflow.com/users/1816139/bnz"
-      },
-      {
-        "id" : 18, 
-        "name" : "Peter Pötsch"
-      },
-      ,
-      {
-        "id" : 19, 
-        "name" : "Stephan Klinger"
-      },
-      {
-        "id" : 20, 
-        "name" : "Thomas Tursics",
-        "twitter" : "@tursics",
-        "github" : "tursics"
-      },
-      {
-        "id" : 21, 
-        "name" : "Christian Bromann",
-        "mail" : "mail@christian-bromann.com",
-        "twitter" : "@bromann",
-        "github" : "christian-bromann"
-      },
-      {
-        "id" : 22, 
-        "name" : "Sebastian Meier",
-        "twitter" : "@seb_meier",
-        "github" : "sebastian-meier"
-      },
-      {
-        "id" : 23, 
-        "name" : "Annika Blohm",
-        "twitter" : "@e_kunst",
-      },
-      {
-        "id" : 24, 
-        "name" : "Andrè Karliczek"
-      },
-      {
-        "id" : 25, 
-        "name" : "Andreas Christoph"
-      },
-      {
-        "id" : 26, 
-        "name" : "Carsten Resch"
-      },
-      {
-        "id" : 27, 
-        "name" : "Marius Förster",
-        "website" : "http://www.mezla.de"
-      },
-      {
-        "id" : 28, 
-        "name" : "Knut Perseke",
-        "twitter" : "@knutator",
-        "github" : "knutator2"
-      },
-      {
-        "id" : 29, 
-        "name" : "Noa Rave",
-        "twitter" : "@chukarave",
-      },
-      {
-        "id" : 30, 
-        "name" : "Florian Idelberger",
-        "twitter" : "@windrush",
-      },
-      {
-        "id" : 31, 
-        "name" : "Ruperta M. Steinwender",
-        "twitter" : "@rupertast",
-      },
-      {
-        "id" : 32, 
-        "name" : "Tatiana Potetinova"
-      },
-      {
-        "id" : 33, 
-        "name" : "Rebecca Kuliga"
-      },
-      {
-        "id" : 34, 
-        "name" : "Philip Wellnitz"
-      },
-      {
-        "id" : 35, 
-        "name" : "Martha Friedrich"
-      },
-      {
-        "id" : 36, 
-        "name" : "Peggy Sylopp"
-      },
-      {
-        "id" : 37, 
-        "name" : "Martin Adam"
-      },
-      {
-        "id" : 38, 
-        "name" : "Peter Pötsch"
-      }
+    "persons": [
+        {
+            "id": 0,
+            "name": "Claus Höfele",
+            "contact" : {
+                "mail": "claus@claushoefele.com",
+                "twitter": "@claushoefele"
+            }
+            
+        },
+        {
+            "id": 1,
+            "name": "Kati Hyyppä (Berlin) / Beetle constructor",
+            "contact" : {
+                "website": "http://katihyyppa.com"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Tomi Hyyppä (Helsinki) / Sound designer"
+        },
+        {
+            "id": 3,
+            "name": "Thomas Fett",
+            "contact" : {
+                "github": "thomasfett",
+                "twitter": "@FettThomas"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Daniel Burckhardt",
+            "contact" : {
+                "github": "burki"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Dierk Eichel"
+        },
+        {
+            "id": 6,
+            "name": "Michael Hintersonnleitner",
+            "contact" : {
+                "github": "mhinters"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Frederike Kaltheuner",
+            "contact" : {
+                "github": "fre8de8rike"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Jeremy Lewis",
+            "contact" : {
+                "github": "jlewis91"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Jonas Parnow",
+            "contact" : {
+                "github": "z3to"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Kristin Sprechert",
+            "contact" : {
+                "github": "kaeseoehrchen"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Kai Teuber, Ministerialbeamter, Berlin, Potsdam",
+            "contact" : {
+                "github": "teuberkai",
+                "twitter": "@teuberkai"
+            }
+        },
+        {
+            "id": 12,
+            "name": "Clemens Wilding",
+            "contact" : {
+                "github": "wigginus"
+            }
+        },
+        {
+            "id": 13,
+            "name": "Anne Weißschädel",
+            "contact" : {
+                "mail": "anne.weissschaedel@gmail.com"
+            }
+        },
+        {
+            "id": 14,
+            "name": "Simon Könneke",
+            "contact" : {
+                "mail": "simonkoennecke@gmail.com"
+            }
+        },
+        {
+            "id": 15,
+            "name": "Christoph Hornig",
+            "contact" : { 
+                "mail": "ch.hornig@gmail.com"
+            }
+        },
+        {
+            "id": 16,
+            "name": "Stephanie Weber",
+            "contact" : {
+                "mail": "klimperfee@gmail.com",
+                "twitter": "@klimperfee"
+            }
+        },
+        {
+            "id": 17,
+            "name": "David Gomez",
+            "contact" : {
+                "mail": "davidogos@hotmail.com",
+                "twitter": "@dagosarmiento"
+            }
+        },
+        {
+            "id": 18,
+            "name": "Anna Neovesky, Digitale Akademie",
+            "contact" : {
+                "mail": "anna.neovesky@adwmainz.de",
+                "twitter": "@annavsk"
+            }
+        },
+        {
+            "id": 19,
+            "name": "Julius Peinelt, Mr. Fridge Software",
+            "contact" : {
+                "mail": "julius@mr-fridge.de",
+                "twitter": "@codingFriends"
+            }
+        },
+        {
+            "id": 20,
+            "name": "Erik Woitschig",
+            "contact" : {
+                "github": "iambnz",
+                "twitter": "@iam_bnz",
+                "stackOverflow": "http://stackoverflow.com/users/1816139/bnz"
+            }
+        },
+        {
+            "id": 21,
+            "name": "Peter Pötsch"
+        },
+        {
+            "id": 22,
+            "name": "Stephan Klinger"
+        },
+        {
+            "id": 23,
+            "name": "Thomas Tursics",
+            "contact" : {
+                "twitter": "@tursics",
+                "github": "tursics"
+            }
+        },
+        {
+            "id": 24,
+            "name": "Christian Bromann",
+            "mail": "mail@christian-bromann.com",
+            "contact" : {
+                "twitter": "@bromann",
+                "github": "christian-bromann"
+            }
+        },
+        {
+            "id": 25,
+            "name": "Sebastian Meier",
+            "contact" : {
+                "twitter": "@seb_meier",
+                "github": "sebastian-meier"
+            }
+        },
+        {
+            "id": 26,
+            "name": "Annika Blohm",
+            "contact" : {
+                "twitter": "@e_kunst"
+            }
+        },
+        {
+            "id": 27,
+            "name": "Andrè Karliczek"
+        },
+        {
+            "id": 28,
+            "name": "Andreas Christoph"
+        },
+        {
+            "id": 29,
+            "name": "Carsten Resch"
+        },
+        {
+            "id": 30,
+            "name": "Marius Förster",
+            "contact" : {
+                "website": "http://www.mezla.de"
+            }
+        },
+        {
+            "id": 31,
+            "name": "Knut Perseke",
+            "contact" : {
+                "twitter": "@knutator",
+                "github": "knutator2"
+            }
+        },
+        {
+            "id": 32,
+            "name": "Noa Rave",
+            "contact" : {
+                "twitter": "@chukarave"
+            }
+        },
+        {
+            "id": 33,
+            "name": "Florian Idelberger",
+            "contact" : {
+                "twitter": "@windrush"
+            }
+        },
+        {
+            "id": 34,
+            "name": "Ruperta M. Steinwender",
+            "contact" : {
+                "twitter": "@rupertast"
+            }
+        },
+        {
+            "id": 35,
+            "name": "Tatiana Potetinova"
+        },
+        {
+            "id": 36,
+            "name": "Rebecca Kuliga"
+        },
+        {
+            "id": 37,
+            "name": "Philip Wellnitz"
+        },
+        {
+            "id": 38,
+            "name": "Martha Friedrich"
+        },
+        {
+            "id": 39,
+            "name": "Peggy Sylopp"
+        },
+        {
+            "id": 40,
+            "name": "Martin Adam"
+        }
     ]
 }
