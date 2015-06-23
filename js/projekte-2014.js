@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
 
 	var projects = {};
@@ -11,7 +9,7 @@ $(document).ready(function () {
 		var entrystring = '';
 		$('#all-projects').html('');
 		$.each(projects, function(index, val) {
-			entrystring += '<div class="col-md-3 project-tile">' +
+			entrystring += '<div class="project-tile">' +
 				'<a href="' + window.location.pathname + '?project_id=' + index + '">' +
 				'<img src="' + val.tile + '"/><p>' + val.name + '</p></a></div>';
 				console.log(entrystring);
@@ -78,7 +76,6 @@ $(document).ready(function () {
 					memberstring += getContactHTMLString(index, el);
 				});
 			}
-			console.log(memberstring);
 			if (index !== 0) {
 				memberstring = '<br />' + memberstring;
 			} 
