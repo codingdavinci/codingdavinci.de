@@ -1060,6 +1060,33 @@ only screen and (min-device-pixel-ratio: 2) {
   }
 }
 
+@media (max-width: 991px) {
+  .light-interlude {
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  .project-footer {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 991px) {
+  .project-tile {
+      float: left;
+      margin-left: 20px;
+      width: 20%;
+      margin: 0 20px 0 auto;
+  }
+
+  #all-projects {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: auto;
+  }
+}
+
 .minutes {
   position: relative;
   font-size: 65%;
@@ -1218,9 +1245,11 @@ height: 100%;
 
 .project-tile  img {
   height : 10em;
+  text-align: center;
 }
 
 .project-tile {
+  text-align: center;
 }
 
 #project-image {
@@ -1231,8 +1260,17 @@ height: 100%;
   margin-left: 10px;
 }
 
+.glyphicon {
+  color: black;
+  top: 2px;
+}
+
 .project-subheader {
   font-weight: bold;
+}
+
+.project-navigation {
+  margin-top: 60px;
 }
 
 .project-header {
@@ -1263,20 +1301,19 @@ height: 100%;
   content: "\e800";
 }
 
+.monitor-glyph:after {
+  font-family: "Fontello";
+  content: "\e804";
+}
+
 .house-glyph:after {
   font-family: "Fontello";
   content: "\e801";
 }
 
-.points-glyph:after {
+.dataset-glyph:after {
   font-family: "Fontello";
-  content: "\e802";
-  display: inline-block;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
+  content: "\e806";
 }
 
 .twitter-glyph:after {
@@ -1286,7 +1323,7 @@ height: 100%;
 
 .git-glyph:after {
   font-family: "Fontello";
-  content: "\e804";
+  content: "\e802";
 }
 
 .mail-glyph:after {
