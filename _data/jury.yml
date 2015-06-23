@@ -1,9 +1,9 @@
 -
-  name: "Thorsten Koch"
-  position: "Mathematiker, Entwickler"
-  organisation: "Leiter der Servicestelle Digitalisierung Berlin"
-  organisation-link: "http://www.zib.de/de/menschen/mitarbeiter/member.html?mail=koch&L=0"
-  image: "img/jury/koch.jpg"
+  name: "Isabella Groegor-Cechowicz"
+  position: "Global General Manager Public Services GCO Industry Cloud"
+  organisation: "SAP SE"
+  organisation-link : "http://www.sap.com/germany/about.html"
+  image: "img/jury/groeger.jpg"
 -
   name: "Uwe Müller"
   position: "Leiter Projektkoordination"
@@ -17,14 +17,14 @@
   organisation-link : "http://www.okfn.de/"
   image: "img/jury/jentzsch.jpg"
 -
+  name: "Thorsten Koch"
+  position: "Mathematiker, Entwickler"
+  organisation: "Leiter der Servicestelle Digitalisierung Berlin"
+  organisation-link: "http://www.zib.de/de/menschen/mitarbeiter/member.html?mail=koch&L=0"
+  image: "img/jury/koch.jpg"
+-
   name: "Tim Moritz Hector"
   position: "Vorsitzender Wikimedia Deutschland e. V."
   organisation: "Wikimedia Deutschland"
   organisation-link : "https://www.wikimedia.de/"
   image: "img/jury/hector.jpg"
--
-  name: "Isabella Groegor-Cechowicz"
-  position: "Global General Manager Public Services GCO Industry Cloud"
-  organisation: "SAP SE"
-  organisation-link : "http://www.sap.com/germany/about.html"
-  image: "img/jury/groeger.jpg"
