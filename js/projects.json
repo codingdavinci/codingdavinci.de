@@ -36,11 +36,13 @@
                 "/img/projekte/cyberbeetle.jpg"
             ],
             "description": "Das Projekt Cyberbeetle ist inspiriert von den Insektenscans des Museums für Naturkunde Berlin. Das Projekt möchte dem im Museum ausgestellten Chalcosoma Atlas-Käfer zu neuem Leben verhelfen. Basierend auf dem faszinierenden Aussehen des Käfers, ist ein sich bewegender Roboterkäfer entstanden, der seinen eigenen Insektenkasten besitzt. In diesem neuen Zuhause, der Insektenkastenbox aus Holz, kann der Cyberbeetle über einen Screen Videos von Pflanzen und Tieren anschauen. Sowohl der Käfer als auch die Box funktionieren mittels einem kleinen Arduinos und verschiedener weiterer elektronischer und mechanischer Einzelteile, die Bewegungen des Käfers ermöglichen.",
-            "links": {
-                "class": "Webseite",
-                "link": "http://katihyyppa.com/cyberbeetle",
-                "text": "Webseite"
-            },
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://katihyyppa.com/cyberbeetle",
+                    "text": "Webseite"
+                }
+            ],
             "data": [
                 "Insect box scans from Museum für Naturkunde Berlin",
                 "Animal sounds from Museum für Naturkunde Berlin",
@@ -160,7 +162,7 @@
             ]
         },
         {
-            "name": "App: Verbotene Autoren",
+            "name": "Verbotene Autoren",
             "tile": "/img/projekte-tiles/verboteneautoren.png",
             "images": [
                 "/img/projekte/app-verbotene-autoren.png"
