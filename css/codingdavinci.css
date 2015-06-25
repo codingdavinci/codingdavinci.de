@@ -1071,19 +1071,66 @@ only screen and (min-device-pixel-ratio: 2) {
   }
 }
 
-@media (min-width: 991px) {
-  .project-tile {
-      float: left;
-      margin-left: 20px;
-      width: 20%;
-      margin: 0 20px 0 auto;
-  }
+/* Projects Container */
+.projects-container {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-  #all-projects {
-    display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-    margin: auto;
+.projects-container p{
+  font-size: 20px;
+}
+
+.projects-container p:last-child{
+  margin-bottom: 0;
+}
+
+.projects-container{
+  padding: 2% 2% 0;
+  text-align: justify;
+  font-size: 0;
+}
+
+.projects-container {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.projects-container:before {
+  content: none;
+}
+
+.projects-container .project-tile,
+.projects-container .gap{
+  display: inline-block;
+  width: 300px;
+  
+}
+
+.projects-container .project-tile{
+  text-align: left;
+  /*background: #03899c;*/
+  margin-bottom: 2%;
+  padding: 2%;
+  vertical-align: top;
+  /*display: none; <-- uncomment this rule for use with MixItUp*/
+}
+
+/* Flex box progressive enhancements: */
+
+.projects-container{
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  -webkit-justify-content: space-between;
+  /*-webkit-align-content: flex-start;*/
+}
+
+@media all and (min-width: 420px){
+  .projects-container .project-tile,
+  .projects-container .gap{
+    width: 250px;
   }
 }
 
@@ -1244,12 +1291,11 @@ height: 100%;
 }
 
 .project-tile  img {
-  height : 10em;
-  text-align: center;
+  width: 100%;
 }
 
 .project-tile {
-  text-align: center;
+  margin: auto;
 }
 
 #project-image {
