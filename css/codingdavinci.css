@@ -1069,6 +1069,10 @@ only screen and (min-device-pixel-ratio: 2) {
   .project-footer {
     margin-top: 1em;
   }
+
+  .project-image-container {
+    max-width: 100% !important;
+  }
 }
 
 /* Projects Container */
@@ -1100,6 +1104,13 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .projects-container:before {
   content: none;
+}
+
+.project-image-container {
+    
+    float: left;
+    max-width: 50%;
+    margin-right: 24px;
 }
 
 .projects-container .project-tile,
