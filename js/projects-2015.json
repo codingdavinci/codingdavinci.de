@@ -67,7 +67,7 @@
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
-            "description": "Ein autonomes Gerät, das von Person zu Person weitergegeben wird,  Geschichten audiovisuell aufnimmt, speichert und an eine zentrale Plattform sendet.",
+            "description": "Der Großstadtziegel ist ein autonomes Gerät, das von Person zu Person weitergegeben wird, Geschichten audiovisuell aufnimmt, speichert und an eine zentrale Plattform sendet.<br /><br />Unser Gadget hat die Form eines Ziegels. Ein Baustein, der zum Errichten eines ganzen dient. Als kleinstes architektonisches Element versinnbildlicht er die \"kleine Geschichte\", die jeder zu erzählen hat - die zusammengefügt - die Berliner Großstadtgeschichte schreiben. Archiviert werden die Geschichten auf der Webseite \"Berliner Großstadtgeschichten\" der Zentral- und Landesbibliothek Berlin.",
             "links": [
                 {
                     "class": "projects-website",
@@ -94,18 +94,9 @@
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
-            "description": "Geschichte lebt, wenn wir sie lebendig machen und am Leben halten. Ein modernes Erscheinungsbild auf Smartphone und Grossbildschirm haucht Geschichte digitales Leben ein – egal wo wir sie antreffen. FLEXT@cdv zeigt das an ausgewählten Bildbeständen aus dem codingdavinci Repertoire. Und nicht nur außen wird es schöner, auch innen – under the hood. HTML für jedes Digitalisat wird mit schema.org RDFa angereichert, sodass Suchmaschinen-Ergebnisse strukturierte Daten anzeigen können. Auch die Handhabung ist einfach: Datensätze jedweder Art können im Handumdrehen eingelesen und angezeigt werden. So haucht FLEXT Kulturgütern digitales Leben ein.",
+            "description": "Geschichte lebt, wenn wir sie lebendig machen und am Leben halten. Ein modernes Erscheinungsbild auf Smartphone und Großbildschirm haucht Geschichte digitales Leben ein – egal wo wir sie antreffen. FLEXT@cdv zeigt das an ausgewählten Bildbeständen aus dem codingdavinci Repertoire. Und nicht nur außen wird es schöner, auch innen – under the hood. HTML für jedes Digitalisat wird mit schema.org RDFa angereichert, sodass Suchmaschinen-Ergebnisse strukturierte Daten anzeigen können. Auch die Handhabung ist einfach: Datensätze jedweder Art können im Handumdrehen eingelesen und angezeigt werden. So haucht FLEXT Kulturgütern digitales Leben ein.",
             "links": [
-                {
-                    "class": "projects-website",
-                    "link": "http://bilder-der-revolte.de",
-                    "text": "Webseite"
-                },
-                {
-                    "class": "github",
-                    "link": "https://github.com/thsneumann/cdv_bilder-der-revolte",
-                    "text": "github"
-                }
+                
             ],
             "data": [
                 "\"Studentenrevolte 1967/68\" (Stiftung Haus der Geschichte)",
@@ -122,7 +113,7 @@
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
-            "description": "floradex ist eine spielerische App zur Pflanzenbestimmung für Leien",
+            "description": "Wir, Anne Lange (KHB Produktdesign), Philipp Schröter (FU Berlin Informatik), Immanuel Pelzer (HU Berlin Informatik), Paul Michaelis (FU Berlin Informatik) wollten als interdisziplinäres Team den schwer zugänglichen Herbariums-Daten des Botanischen Museums und Botanischen Gartens Berlin neues Leben einhauchen. Bei unserer Recherche sind wir auf die Tatsache gestoßen, dass die Pflanzenbestimmung sehr umständlich und die meisten wissenschaftlich korrekten Bestimmungsmedien (vor allem Bücher) nur von Experten benutzt werden können. Für Laien ist eine eindeutige Bestimmung oft frustrierend: Aufgrund ihres fehlenden Fachwissens können sie meist die entscheidenden Fragen nur unzureichend beantworten. Das führt dazu, dass sie zu keinem eindeutigen oder einem völlig falschen Ergebnis kommen. Wir haben deshalb eine App konzipiert und programmiert, die es dem Benutzer unterwegs ermöglicht, die Pflanze, die er sucht, intuitiv anhand von Symbolen in einem Baukasten nachzubauen und mittels dieser Kriterien bestimmen zu lassen. Er kann dabei die gesetzten Filter immer wieder verändern und somit die Menge und Treffsicherheit der Ergebnisse verfolgen und beeinflussen. Fachbegriffe und den trockenen wissenschaftlichen Inhalt binden wir direkt in die spielerischen Elemente ein. Deshalb hat floradex das Potenzial, als Lehrmittel in der Schule eingesetzt zu werden. Projektarbeit mit selbstbestimmtem Lernen durch Anfassen und Ausprobieren ist eine gute Alternative zum klassischen Frontalunterricht und sturem Auswendiglernen. So kann auch Interesse für Themen geweckt werden, die Jugendliche vielleicht zunächst ablehnen. Aber auch für interessierte Laien bietet floradex leichten Zugang zur Botanik. Durch die Optimierung für mobile Geräte können Pflanzen beim Spaziergang, beim Besuch im Botanischen Garten oder im heimischen Garten ohne Eingriff in die Natur bestimmt werden.",
             "links": [
                 {
                     "class": "projects-website",
@@ -155,24 +146,24 @@
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
-            "description": "Das Projekt richtet sich in erster Linie an das Grips Theater selbst, soll es ihm doch im Ergebnis einen erweiterten Metadatensatz zu den Plakaten geben und Beispiele zur Visualisierung der Plakate selbst sowie der Metadatensätze.",
+            "description": "Das Projekt richtet sich in erster Linie an das Grips Theater selbst, soll es ihm doch im Ergebnis einen erweiterten Metadatensatz zu den Plakaten und Beispiele zur Visualisierung der Plakate selbst sowie der Metadatensätze geben.<br /><br /> Das Projekt kam zu Stande, da ich eine zeitlang in der Nähe des Grips Theaters in Moabit gewohnt habe. Auch hat Paul, mein ältester Sohn, im letzten Jahr eine wunderbare Vorstellung im Grips Theater gesehen. Es sind also in erster Linie private emotionale Verbindungen, die zum Grips Theater bestehen, weshalb wir diesen Datensatz ausgewählt haben. Auch wollte ich mich mit Visualisierungsformaten beschäftigen und Paul sollte ein wenig Bildanalyse und Webseitenprogrammierung kennenlernen.",
             "links": [
                 {
                     "class": "projects-website",
-                    "link": "http://elab-kh-berlin.de/courses/cod1ng_dav1nc1/?cat=11",
+                    "link": "http://ktbr.de",
                     "text": "Webseite"
                 },
                 {
                     "class": "github",
-                    "link": "https://github.com/juffel/SimpleAudioRecorder",
+                    "link": "https://github.com/teuberkai/cdv2015",
                     "text": "github"
                 }
             ],
             "data": [
-                "ZLB"
+                "Plakatedaten von Rainer Hachfeld/Grips Theater"
             ],
             "team": [
-                54,55,56
+                57,58
             ]
         },
         {
@@ -182,7 +173,7 @@
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
-            "description": "imperii-vis visualisiert die unglaublich großen Datenmengen der Regesta Imperii des Historisches Instituts der Uni Gießen auf einer Karte. Dabei kann ein spezieller Herrscher ausgewählt werden, zu dem dann entsprechend die Regesten auf einer Heatmap visualisiert werden. Wir möchten dabei herausfinden, wie weit die Herrschaftsgebiete der Herrscher gereicht haben.",
+            "description": "Der Datensatz \"Regesta Imperii\" besteht aus Regesten (Inhaltsangaben) von Urkunden der Kaiser, Könige und einiger Päpste des Mittelalters (800 bis 1500). Ein Regest fasst den rechtlich relevanten Inhalt sowie die handelnden Personen einer Urkunde zusammen. Die Daten wurden von uns aufbereitet und in Datenbanken gespeichert, sodass wir auf diese über unsere Website besser zugreifen können. So besteht zunächst die Möglichkeit einen Papst oder Herrscher auf der Startseite auszuwählen und bekommt für diesen dann auf einer Karte in Form einer Heatmap angezeigt. So ist für Forscher und Interessierte schneller ersichtlich, woher diese Daten kommen und wie weit die Herrschaftsgebiete der einzelnen Herrscher in Wirklichkeit reichten. Wie verliefen die Landesgrenzen, die wir heute kennen, damals? Wer war der einflussreichste Herrscher in unserer Liste? Mit wenigen Klicks kann man über die intuitive Benutzeroberfläche unserer Website navigieren und findet sich schnell zurecht. Wir benutzten ein Python-Backend, das eine REST-API zur Verfügung stellt, die dann von einem Javascript-Frontend abgefragt und visualisiert wird.",
             "links": [
                 {
                     "class": "github",
@@ -200,13 +191,42 @@
             ]
         },
         {
+            "name": "Klangvisualisierung",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Unser Idee ist die Notenrollen des Deutschen Museums visuell erfahrbar zu machen. Hierbei verfolgen wir zur Zeit verschiedene Ansätze. Im nicht digitalen Zeitalter wurden auch bei anderen Maschinen Lochkarten zur Automatisierung verwendet. Bekannt sind uns aktuell Strick-, Stick & Webmaschinen. Die Musikstücke klassischer Komponisten könnten auf diesem Wege z.B. als Schal gestrickt werden. (Danke für die Idee von Georg)  Weiterhin sind bisherige Notationen sehr komplex und für Unerfahrene kaum lesbar. Mit der einfachen Visualisierung ist es möglich Muster in den Stücken zu vergleichen und Verbindungen sichtbar zu erfahren. So ist es vielleicht möglich, Gemeinsamkeiten und Einflüsse zwischen Mozart und seinem Lehrmeister zu erkennen. Es sind viele weitere Szenarien denkbar.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://hackdash.org/projects/553bb67cb15f8b87140cb882",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/getYourOwnTicket/pixelPiano/blob/master/sketch_2D_ArrayMidi09.pde",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "<a href=\"http://www.deutsches-museum.de/ausstellungen/musikinstrumente/projekte/notenrollen/\">Notenrollen</a>",
+                "www.processing.org", 
+                "<a href=\"http://www.sengpielaudio.com/Rechner-notennamen.htm\">Notennamen Rechner</a>"
+            ],
+            "team": [
+                60,61,62
+            ]
+        },
+        {
             "name": "Kurbelkamera",
             "tile": "/img/projekte-tiles/default.png",
             "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
-            "description": "Unsere Idee: Wir entwickeln ein interaktives Exponat, welches sich vor allem an Jugendliche und Gruppen richtet soll, welche Das Deutsche Filmmuseum besuchen.",
+            "description": "Mit diesem Exponat kann eine Gruppe ein Gefühl für die Anfänge der Filmkamera entwickeln, indem sie einen alten Film über Kurbeln auf einer Leinwand abspielen, mit diesem interagieren, ihn aufnehmen und den neu entstandenen Film teilen. Fokus liegt dabei auf der intuitiven Bedienbarkeit und Einfachheit des Exponates. Das Team: Wir sind vier Studenten von der Freien Universität Berlin und der Kunsthochschule Weißensee: Lukas (FU Berlin, Informatik), Kaja (FU Berlin, Informatik), Fanny (Kunsthochschule Weißensee, Produkt Design) und Alexa (FU Berlin, Informatik). Technische Umsetzung: Verwendung findet ein RaspberryPi mit Kamera, ein Arduino mit Taster und Drehgeber, Beamer (Rückprojektion) und Leinwand. Programmiert wird in Python. Die Abspielgeschwindigkeit des Films und Aufnahmegeschwindigkeit des neu produzierten Films wird über die Kurbel beeinflusst. Der fertig aufgenommene Film kann über einen QR-Code auf das Handy geladen werden, wer möchte kann es mit Freunden teilen.",
             "links": [
                 {
                     "class": "projects-website",
@@ -220,8 +240,8 @@
                 }
             ],
             "data": [
-                "Deutsches Filminstitut (http://codingdavinci.de/daten/#deutsches-filminstitut) Film \"Moren tanzt\" (http://136.243.4.67/index.php/s/0s5sJ6yVCrf6iLy)",
-                "https://vimeo.com/74328710", 
+                "Deutsches Filminstitut, Film \"Moren tanzt\"",
+                "<a href=\"https://vimeo.com/74328710\">Vimeo</a>", 
                 "Dropbox API"
             ],
             "team": [
@@ -235,7 +255,7 @@
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
-            "description": "Der Datensatz von LanguageScience Press enthält zu ca  8000 Sprachen linguistische Informationen, Beispielsätze und geografische Informationen die wir mit unserer App einem breiteren Publikum zugänglich machen wollen. Dabei wollen wir auf spielerische Art und Weise die Neugier fördern sich mit Linguistik auseinanderzusetzen und so ein Bewusstsein für die sprachliche Vielfalt schaffen.  In einer Übersicht können alle Sprachen mit ihren zugehörigen Informationen abgerufen werden. Anschließen kann der Nutzer in zwei unterschiedlichen Modi sein Wissen testen: im Geomodus muss er anhand eines Beispielsatzes auf einer Weltkarte die zugehörige Sprache einordnen, im Quizmodus den Beispielsatz der richtigen Sprache zuordnen.",
+            "description": "Der Datensatz von LanguageScience Press enthält zu ca. 8000 Sprachen linguistische Informationen, Beispielsätze und geografische Informationen, die wir mit unserer App einem breiteren Publikum zugänglich machen wollen. Dabei wollen wir auf spielerische Art und Weise die Neugier fördern, sich mit Linguistik auseinanderzusetzen und so ein Bewusstsein für die sprachliche Vielfalt schaffen. In einer Übersicht können alle Sprachen mit ihren zugehörigen Informationen abgerufen werden. Anschließen kann der Nutzer in zwei unterschiedlichen Modi sein Wissen testen: Im Geomodus muss er anhand eines Beispielsatzes auf einer Weltkarte die zugehörige Sprache einordnen, im Quizmodus den Beispielsatz der richtigen Sprache zuordnen.",
             "links": [
                 {
                     "class": "projects-website",
@@ -249,7 +269,7 @@
                 }
             ],
             "data": [
-                "http://codingdavinci.de/daten/#language-science-press",
+                "Language Science Press",
                 "(Glottolog)"
             ],
             "team": [
@@ -263,7 +283,7 @@
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
-            "description": "Hinsetzen, Radio an und Musik hören. Das ist kinderleicht. Aber wie funktionierte das vor der Erfindung des Radios? Z.B mit einem Grammophon ... oder einem selbstspielenden Klavier. Verwandle dein Handy in so ein Klavier und lausche den Klängen längst vergangener Zeiten.",
+            "description": "Hinsetzen, Radio an und Musik hören. Das ist kinderleicht. Aber wie funktionierte das vor der Erfindung des Radios? Z.B mit einem Grammophon ... oder einem selbstspielenden Klavier. Verwandle dein Handy in so ein Klavier und lausche den Klängen längst vergangener Zeiten.<br /><br />Als ich das erste Mal von Notenrollen für selbstspielende Klaviere gehört habe, war ich überrascht, dass es so etwas überhaupt gibt - eine Rolle, die die Noten vorgibt. Aber dann fiel mir ein, dass ein Leierkasten nach dem gleichen Prinzip funktioniert. Und gesteuert wird der Leierkasten mit einer Kurbel, die die Geschwindigkeit bestimmt. Selbstspielende Klaviere funktionieren ohne Kurbel, aber in den Patentzeichnungen des Landesmuseums Baden-Württemberg finden sich tatsächlich Zeichnungen für Klaviere mit Notenrollen, die per Kurbel bedient werden. Somit war die Idee geboren: Die Notenrollen des Deutschen Museums aus München sollen mit einer Kurbel abgespielt werden können. Als Kurbel soll ein Handy dienen. Dreht man es auf der Stelle, fängt die Musik an zu spielen. Dreht man es schneller, erhöht sich auch die Geschwindigkeit der Musik. Dreht man das Handy andersherum, wird die Musik rückwärts gespielt. Daraus ergeben sich viele Möglichkeiten und spannende Fragen: Schafft man es, sein Handy konstant zu drehen, um die Musik in normaler Geschwindigkeit zu hören? Wie klingt es, wenn man schnell die Richtungen hin und her ändert? Um das herauszufinden, braucht man also nur sein eigenes Handy. Und eine Webseite. Die modernen Webseiten sind in der Lage, beliebige Klänge abzuspielen und die Drehung des Handys mit dem eingebauten Lagesensor zu bestimmen. Es reicht ein wenig HTML, JavaScript und CSS und schon ist das Projekt fertig. Die Notenrollen werden zurzeit noch vom Museum digitalisiert. Viele Bilder sind bereits verfügbar, aber abgespielte Klänge wurden noch nicht aufgezeichnet. Somit muss zur Präsentation auf anderes Tonmaterial zurückgegriffen werden. Das Ziel des Projekts ist es jedoch, die Musik aus den aufgezeichneten Notenrollen aus dem Museum zu verwenden. Daher werden diese, sobald sie verfügbar sind, auch eingebaut.",
             "links": [
                 {
                     "class": "projects-website",
@@ -291,7 +311,7 @@
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
-            "description": "MIDIOLA ist eine Smartphone-App, die sich den Notenrollen für selbstspielende Klaviere aus dem frühen 20. Jahrhundert widmet. Mit unserem Programm können die digitalisierten Notenrollen aus der Sammlung des Deutschen Museums München abgespielt werden, weiterhin lassen sich auch physische Notenrollen mit der Handykamera abfilmen, um damit live zu musizieren. Unser Ziel ist es, dem antiquierten Medium der Pianola-Notenrollen zu einer neuen Aktualität zu verhelfen. Die historische Technik soll für eine breite Öffentlichkeit zugänglich gemacht und als audiovisuelles Ereignis erfahrbar werden.\"Beweisfoto\" vom entsprechenden Ort machen und es findet ein einmaliger Positionsabgleich zur Verifizierung des Fundes statt. Die Bilder der Benutzer können anschließend hochgeladen werden und es entstehen interessante Gegenüberstellungen früherer und aktueller Aufnahmen.",
+            "description": "MIDIOLA ist eine Smartphone-App, die sich den Notenrollen für selbstspielende Klaviere aus dem frühen 20. Jahrhundert widmet. Mit unserem Programm können die digitalisierten Notenrollen aus der Sammlung des Deutschen Museums München abgespielt werden, weiterhin lassen sich auch physische Notenrollen mit der Handykamera abfilmen, um damit live zu musizieren. Unser Ziel ist es, dem antiquierten Medium der Pianola-Notenrollen zu einer neuen Aktualität zu verhelfen. Die historische Technik soll für eine breite Öffentlichkeit zugänglich gemacht und als audiovisuelles Ereignis erfahrbar werden.<br /><br />Hinter MIDIOLA steht ein vierköpfiges Team aus Programmierern, Designern und Kunsthistorikern. In den digitalisierten Notenrollen aus dem Deutschen Museum sahen wir eine gute Möglichkeit, unser Interesse für historische Kultur und Technik mit zeitgenössischer digitaler Technologie zusammenzubringen. Die Algorithmen zur Bilderkennung tasten die Notenrollen in Echtzeit ab, die digitale Tonsynthese erfolgt live. MIDIOLA ist somit eine flexible und dynamische Software zur Erkennung und Wiedergabe der Notenrollen-Notation und lässt sich problemlos erweitern oder anpassen. Unsere App ist in HTML5 und JavaScript programmiert und benutzt das Ionic Framework und AngularJS.",
             "links": [
                 {
                     "class": "projects-website",
@@ -319,7 +339,7 @@
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
-            "description": "Das Ziel des Projektes ist es Kultur auch unseren jüngeren Mitmenschen zu versüßen. Die Idee ist es die Humboldt Entdeckungsreise durch die Pflanzen nachzuspielen. Durch die Herbariumsdaten haben wir eine Strecke von Brotkrümeln mit denen wir seine Expedition verfolgen können. Dabei versuchen wir einen guten Mix aus Spielspaß und Kultur zu vereinbaren.",
+            "description": "Das Ziel des Projektes ist es, Kultur auch unseren jüngeren Mitmenschen zu versüßen. Die Idee ist es, die Humboldt Entdeckungsreise durch die Pflanzen nachzuspielen. Durch die Herbariumsdaten haben wir eine Strecke von Brotkrümeln, mit denen wir seine Expedition verfolgen können. Dabei versuchen wir einen guten Mix aus Spielspaß und Kultur zu vereinbaren.",
             "links": [
                 {
                     "class": "github",
@@ -342,7 +362,7 @@
             "images": [
                 "/img/projekte/musikus_logo.png"
             ],
-            "description": "Musikus wird eine App, die als Museumsführer und Spielzeug zugleich dienen soll.  Zum aktuellen Zeitpunkt sind Museen kein Ort der Jugendliche besonders lockt  – wenn sie dort sind  wird meist das immer anwesende Smartphone als interessanter empfunden  als die ausgestellten  Objekte. Die Musikus App soll hier einen neuen Zugang bieten  – pas send zu r aktuellen Gesellschaft  und insbesondere , aber nicht ausschließlich für Jugendliche.  Musikus versteht sich hierbei als interaktiver Museumsführer für die Musikinstrumente - Sammlung  des  Ethnologischen Museum Berlin sowie als Spielzeug  – zum Beispiel zur Nutzung auf der Busfahrt  zum Museum  – zugleich.",
+            "description": "Musikus wird eine App, die als Museumsführer und Spielzeug zugleich dienen soll. Zum aktuellen Zeitpunkt sind Museen kein Ort der Jugendliche besonders lockt  – wenn sie dort sind, wird meist das immer anwesende Smartphone als interessanter empfunden als die ausgestellten Objekte. Die Musikus App soll hier einen neuen Zugang bieten – passend zur aktuellen Gesellschaft und insbesondere, aber nicht ausschließlich für Jugendliche.  Musikus versteht sich hierbei als interaktiver Museumsführer für die Musikinstrumenten-Sammlung des Ethnologischen Museums Berlin sowie als Spielzeug – zum Beispiel zur Nutzung auf der Busfahrt zum Museum – zugleich. ",
             "links": [
                 {
                     "class": "projects-website",
@@ -384,10 +404,37 @@
                 }
             ],
             "data": [
-                "http://digital.slub-dresden.de/werkansicht/dlf/12327/"
+                "<a href=\"http://digital.slub-dresden.de/werkansicht/dlf/12327/\">SLUB Dresden</a>"
             ],
             "team": [
                 4
+            ]
+        },
+        {
+            "name": "Pyanola",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Die Klavierrollen vom deutschen Museum sollen analysiert, in MIDI Dateien gewandelt und danach auf einer Website präsentiert werden. Dadurch sollen sie einer breiten Öffentlichkeit verfügbar gemacht werden.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://pyanola.de",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/misterdanb/pyanola",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "Deutsches Museum"
+            ],
+            "team": [
+                63,64,65
             ]
         },
         {
@@ -397,7 +444,7 @@
             "images": [
                 "/img/projekte/rolling_stone_logo.png"
             ],
-            "description": "Das Projekt Rolling Stone befasst sich mit Steinen aus der geologischen Sammlung des Stadtmuseums Berlin. Die Funde sind mehrere Millionen Jahre alt und wurden in den Eiszeiten von Gletschern aus Skandinavien nach Norddeutschland transportiert. Diese Spur der Steine soll auf einer Webseite veranschaulicht werden. Im Zentrum steht eine Karte, auf der der Ausgangs- und der Fundort der Gesteine eingezeichnet sind. Zu jedem Stein werden Fotos und geschätztes Alter, sowie Informationen zur Entstehungsgeschichte angezeigt. Der Nutzer kann außerdem nach Erdzeitalter und Gesteinsart filtern. Ein weiteres Feature ist der integrierte Graph. Darüber lassen sich Steine mit ähnlichen Eigenschaften entdecken. Die User können somit explorativ das Steinarchiv des Stadtmuseums erkunden.",
+            "description": "Die geologische Sammlung des Stadtmuseums Berlin stellte unserem Team einen Datensatz aus Fotos und Informationen zu fast 300 Steinen aus ihrem Archiv zur Verfügung. Die Funde sind mehrere Millionen Jahre alt und wurden in den Eiszeiten von Gletschern aus Skandinavien nach Norddeutschland transportiert. Der älteste Stein ist vor geschätzt 1,8 Milliarden Jahren entstanden. Um diese zeitlich sowie räumlich schwer zu fassenden Dimensionen nachvollziehbar zu machen, hat unser Team das Projekt Rolling Stone ins Leben gerufen und eine dazugehörige Webseite entwickelt. Durch die Kombination aus informativem und spielerischem Anteil soll die “Spur der Steine” den Besuchern näher gebracht werden. Im Zentrum steht eine Karte, auf der der Ausgangs- und der Fundort der Gesteine eingezeichnet sind. Der Nutzer kann die dargestellten Steine interakttiv nach Erdzeitalter und Gesteinsart filtern. In der Detailansicht werden Fotos und Alter des ausgewählten Exemplars angezeigt. Um den Zugang zu erleichtern, werden zudem die Entstehungsgeschichte der Steine erklärt sowie interessante Merkmale erläutert. Als weiteres Feature sollen die Nutzer - mithilfe eines Graphen - Steine mit ähnlichen Eigenschaften spielerisch entdecken können. Das Spiel kann bei jedem Stein über einen Button gestartet werden. Zunächst erscheint nur das Foto des ausgewählten Steins. Klickt man auf die rechte Kante des Bildes, werden z. B. Fundstücke aus dem gleichen Erdzeitalter angezeigt; mit einem Klick auf der unteren Seite gelangt man zum Stein, der den nächstgelegenen Fundort hat. Die User können somit explorativ das Steinarchiv des Stadtmuseums erkunden. Bei der Anwendung handelt es sich um eine Angular-App. Der CSV-Datensatz wurde in ein JSON-Format umgewandelt und leicht angepasst. Um den Graphen darzustellen, haben wir das D3-Framework benutzt. Der Code zu der Anwendung liegt auf Github unter der MIT Lizenz; die Seite selbst liegt als Github-Page vor. Zur Anzeige der Karte wurde das Leaflet-Framework in Verbindung mit Mapbox genutzt.  Das Team setzt sich aus zwei Programmieren, einer Designerin und einer Medienwissenschaftlerin zusammen. Und vor zehn Wochen hätten wir wohl keiner von uns gedacht, dass wir uns mal so für Steine begeistern könnten.",
             "links": [
                 {
                     "class": "projects-website",
@@ -460,7 +507,7 @@
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
-            "description": "Mit dieser Website wird versucht den Fotonachlass des Soldaten Karl Lutz visuell greifbarer zu machen.Auf einer Karte wird, soweit wie möglich, eine Verknüpfung zwischen den Orten und der Zeit, an denen die Fotos aufgenommen wurden, hergestellt. Dadurch soll die Möglichkeit gegeben werden die Spur der Entstehung der Fotos zu verfolgen und die Fotos besser in ihren historischen Kontext einordnen zu können.",
+            "description": "Mit dieser Website wird versucht den Fotonachlass des Soldaten Karl Lutz visuell greifbarer zu machen. Auf einer Karte wird, soweit wie möglich, eine Verknüpfung zwischen den Orten und der Zeit, an denen die Fotos aufgenommen wurden, hergestellt. Dadurch soll die Möglichkeit gegeben werden, die Spur der Entstehung der Fotos zu verfolgen und die Fotos besser in ihren historischen Kontext einordnen zu können. <br /><br />Die Website wurde hauptsächlich in HTML/CSS/Javascript erstellt. Es kamen dabei folgende Frameworks zu Verwendung: React, Leaflet js, D3 js.",
             "links": [
                 {
                     "class": "projects-website",
@@ -488,7 +535,7 @@
             "images": [
                 "/img/projekte/wiederaufbau_ost_logo.png"
             ],
-            "description": "Unsere Webseite richtet sich an architektur- und geschichtsinteressierte Bewohner und Besucher Berlins. Wir haben ausgehend von den Fotografien Gisela Dutschmanns eine Rekonstruktion der Hauptstadtpläne der DDR-Regierung in Texten und Bildern angestrebt. Die aus den Fotografien gefilterten 27 Gebäude sind in ihren architektonischen Charakteristika beschrieben und wo möglich, hinsichtlich der politischen Situation kontextualisiert sowie mit weiterem Bild, Text und Video-Material angereichert verfügbar.",
+            "description": "Unsere Webseite richtet sich an architektur- und geschichtsinteressierte Bewohner und Besucher Berlins. Wir haben ausgehend von den Fotografien Gisela Dutschmanns eine Rekonstruktion der Hauptstadtpläne der DDR-Regierung in Texten und Bildern angestrebt. Die aus den Fotografien gefilterten 27 Gebäude sind in ihren architektonischen Charakteristika beschrieben und wo möglich, hinsichtlich der politischen Situation kontextualisiert sowie mit weiterem Bild, Text und Video-Material angereichert verfügbar.<br /><br />Uns hat zunächst einmal das tolle Foto-Material fasziniert, wovon noch viel mehr ungesehen im Ostberliner Fotoarchiv seiner Entdeckung harrt. Überlegen mussten wir dann, wie wir diese Fotos aufbereiten können – und das im Team zweier Kunsthistorikerinnen, einer Entwicklerin und eines zeitlich sehr eingespannten Soziologen. Da verlässliche und anspruchsvolle architektonische Infos bisher zumeist in Buch-Form verfügbar sind, man solche \"Schinken\" bei der Entdeckung der Stadt aber nicht immer bei sich haben möchte, haben wir eine responsive Webseite aufgesetzt. Diese stellt nun mit den Fotos erstmal drei ortsbezogene Touren zur Verfügung, die jedoch in Zukunft einerseits um weitere wichtige Objekte erweitert werden, aber auch über sinnvolle Verschlagwortungen wie beispielsweise \"Kunst am Bau\" oder \"sozialistische Moderne\" gezieltere Touren möglich machen soll. Besonders freute es uns, wenn wir Videomaterial aus der Zeit finden konnten, was die Seite noch mehr illustriert und abrundet. Wir sind natürlich auch daran interessiert, die Menschen für die Baukunst der Nachkriegsmoderne zu begeistern und deren ästhetisches Potential, was sich nicht immer gleich zeigt, aufzuschlüsseln.",
             "links": [
                 {
                     "class": "projects-website",
@@ -497,7 +544,7 @@
                 },
                 {
                     "class": "github",
-                    "link": "github.com/zfhui",
+                    "link": "https://github.com/zfhui/CodingDaVinci",
                     "text": "github"
                 }
             ],
@@ -894,6 +941,45 @@
         {
             "id" : 59,
             "name" : "Veikko Jungbluth"
+        },
+        {
+            "id": 60,
+            "name": "Marcel Kohnz",
+            "contact" : {
+                "mail" : "kohnzm@intermedia-art.de"
+            }
+        },
+        {
+            "id": 61,
+            "name": "Sarah Kirsch",
+            "contact" : {
+                "mail" : "s.kirsch@intermedia-art.de"
+            }
+        },
+        {
+            "id": 62,
+            "name": "Katharina Pflüger"
+        },
+        {
+            "id": 63,
+            "name": "Felix Potthast",
+            "contact" : {
+                "mail" : "felix.potthast@student.uni-siegen.de"
+            }
+        },
+        {
+            "id": 64,
+            "name": "Daniel Busch",
+            "contact" : {
+                "mail" : "daniel.busch@student.uni-siegen.de"
+            }
+        },
+        {
+            "id": 65,
+            "name": "Jonas Pöhler",
+            "contact" : {
+                "mail" : "jonas.poehler@student.uni-siegen.de"
+            }
         }
         
     ]
