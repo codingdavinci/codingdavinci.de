@@ -35,7 +35,8 @@
         },
         {
             "name": "Little Piano",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -62,7 +63,8 @@
         },
         {
             "name": "Nürnberger Lebkuchen",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -89,7 +91,8 @@
         },
         {
             "name": "Nürnberger Lebkuchen",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -115,7 +118,8 @@
         },
         {
             "name": "Wiederaufbau Ost-Berlin",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -144,7 +148,8 @@
         },
         {
             "name": "Chasing Pictures",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -173,7 +178,8 @@
         },
         {
             "name": "MIDIOLA",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -199,7 +205,8 @@
         },
         {
             "name": "Languini",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -226,7 +233,8 @@
         },
         {
             "name": "Wasserspeyer",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -253,7 +261,8 @@
         },
         {
             "name": "Kurbelkamera",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -281,7 +290,8 @@
         },
         {
             "name": "Musikus",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -308,7 +318,8 @@
         },
         {
             "name": "Historischer Berlin Stadtführer",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -342,7 +353,8 @@
         },
         {
             "name": "Bilder der Revolte",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -371,7 +383,8 @@
         },
         {
             "name": "FLEXT@cdv",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -398,7 +411,8 @@
         },
         {
             "name": "Rolling Stone",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -425,7 +439,8 @@
         },
         {
             "name": "imperii-vis",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -448,7 +463,8 @@
         },
         {
             "name": "Munhwa",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -470,7 +486,8 @@
         },
         {
             "name": "Der Großstadtziegel",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -496,7 +513,8 @@
         },
         {
             "name": "Grips Theater Plakatarchiv",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
