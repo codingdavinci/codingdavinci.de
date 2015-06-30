@@ -121,7 +121,28 @@ $(document).ready(function () {
 		 else {
 		 	setProject(0);
 		 }
+
+		 var getProjectByProjectTile = function(tile) {
+		 	var href = $($(tile).children('a')[0]).attr("href");
+		 	var parameters = href.split('?')[1]
+			projectid = getQueryVariable('project_id', parameters);
+			return projects[projectid];
+		 }
+
+		 $('.project-tile').hover(function(elem) {
+
+			//console.log($(this).attr("src", projects[]));
+			var img = $(this).find('img')[0];
+			$(img).attr('src', getProjectByProjectTile(this).tile_active);
+			
+		}, function() {
+			var img = $(this).find('img')[0];
+			$(img).attr('src', getProjectByProjectTile(this).tile);
+		});
 	});
+	}
+
+	
 
 	$('#next-project').click(function(event) {
 		currentProjectIndex++;
@@ -141,17 +162,17 @@ $(document).ready(function () {
 
 	})
 
-	//helper
-	function getQueryVariable(variable) {
-	  var query = window.location.search.substring(1);
-	  var vars = query.split("&");
-	  var i = 0;
-	  for (i; i < vars.length; i++) {
-	    var pair = vars[i].split("=");
-	    if (pair[0] == variable) {
-	      return pair[1];
-	    }
-	  } 
+	function getQueryVariable(variable, query) {
+		if (!query)
+			query = window.location.search.substring(1);
+		var vars = query.split("&");
+	  	var i = 0;
+	  	for (i; i < vars.length; i++) {
+	    	var pair = vars[i].split("=");
+	    	if (pair[0] == variable) {
+	      		return pair[1];
+	    	}
+	  	} 
 	}
 
 	function insertParam(key, value)
