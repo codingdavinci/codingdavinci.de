@@ -1131,6 +1131,7 @@ only screen and (min-device-pixel-ratio: 2) {
   .projects-container .project-tile,
   .projects-container .gap{
     width: 250px;
+    margin-top: 1em;
   }
 }
 
