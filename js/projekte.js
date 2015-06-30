@@ -10,7 +10,7 @@ $(document).ready(function () {
 		$('#all-projects').html('');
 		$.each(projects, function(index, val) {
 			entrystring += '<div class="project-tile">' +
-				'<a href="' + window.location.pathname + '?project_id=' + index + '">' +
+				'<a href="' + window.location.pathname + '?project_id=' + index + '#projects">' +
 				'<img src="' + val.tile + '"/><p>' + val.name + '</p></a></div>';
 				console.log(entrystring);
 		});
@@ -45,7 +45,10 @@ $(document).ready(function () {
 
 		$('#data').html('');
 		$.each(currentProject.data, function(index, val){
-			$('#data').append(val + ",<br />");
+			if (index < currentProject.data.length - 1)
+				$('#data').append(val + ",<br />");
+			else
+				$('#data').append(val + '<br />');
 		});
 	}
 
@@ -125,6 +128,7 @@ $(document).ready(function () {
 		 var getProjectByProjectTile = function(tile) {
 		 	var href = $($(tile).children('a')[0]).attr("href");
 		 	var parameters = href.split('?')[1]
+		 	parameters = parameters.split('#')[0];
 			projectid = getQueryVariable('project_id', parameters);
 			return projects[projectid];
 		 }
