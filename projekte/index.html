@@ -1,6 +1,7 @@
 ---
 layout: default
 slug: projekte
+js: projekte.js
 ---
 
 <div class="container" id="projekte">
@@ -18,11 +19,67 @@ slug: projekte
       <p>
         Im Hackdash sammeln wir Projekte, die mit den bereitgestellten offenen Daten arbeiten. Wir sind noch auf der Suche nach weiteren Teilnehmer/innen! Im Hackdash könnt ihr eure eigene Idee eintragen oder euch bestehenden Projekten anschließen. <a href="{{ site.baseurl }}">Meldet euch für Coding da Vinci an.</a>
       </p>
-      <iframe src="http://hackdash.org/embed/dashboards/cdv15?" width="100%" height="3200" frameborder="0" allowtransparency="true" title="Hackdash"></iframe>
+      <!-- <iframe src="http://hackdash.org/embed/dashboards/cdv15?" width="100%" height="3200" frameborder="0" allowtransparency="true" title="Hackdash"></iframe> -->
       <p>
       Alle entwickelten <a href="{{ site.baseurl }}projekte-2014/">Projekte aus 2014</a> können hier eingesehen werden. 
       </p>
     </div>
   </div>
+  <div class="container">
+    <div class="row project-navigation">
+        <a class="project-link" id="previous-project" href=""><span class="glyphicon glyphicon-triangle-left"></span>Vorheriges Projekt</a>
+        <a class="project-link pull-right" id="next-project" href="">nächstes Projekt<span class="glyphicon glyphicon-triangle-right"></a>
+    </div>
+    <div class="row">
+      <header class="subheader project-header">
+        <h2 id="project-name" class="project-name">
+        </h2>
+      </header>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="" alt="" id="project-image">
+      </div>
+      <div class="col-md-6" id="project-description">
+        
+      </div>
+    </div>
+  </div>
+  <div class="light-interlude project-interlude">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-3">
+        <p class="monitor-glyph project-footer" />
+        <p class="project-subheader">
+          Zu finden auf:
+        </p>
+        <div id="projectlinks">
 
+        </div>
+      </div>
+      <div class="col-md-3">
+      <p class="dataset-glyph project-footer" />
+        <p class="project-subheader">
+          Datengrundlage:
+        </p>
+        <div id="data">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <p class="people-glyph project-footer" />
+        <p class="project-subheader">
+          Team:
+        </p>
+        <div id="team">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">  
+    <div class="row">
+      <header class="subheader">
+        <h2>Alle Projekte 2014</h2>
+      </header>
+    </div>
+    <div class="row projects-container" id="all-projects" />
+  </div>
 </div>
