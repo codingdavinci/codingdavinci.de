@@ -1,0 +1,904 @@
+{
+    "projects": [
+        {
+            "name": "floradex",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "floradex ist eine spielerische App zur Pflanzenbestimmung für Leien",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://wesuku.de/floradex/www/",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/Floradex/Floradex",
+                    "text": "github"
+                },
+                {
+                    "class": "projects-website",
+                    "link": "http://elab-kh-berlin.de/courses/cod1ng_dav1nc1/?cat=4",
+                    "text": "Blog"
+                }
+            ],
+            "data": [
+                "botanischer garten herbarium",
+                "tropicos.org" 
+            ],
+            "team": [
+                0,1,2,3
+            ]
+        },
+        {
+            "name": "Little Piano",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Hinsetzen, Radio an und Musik hören. Das ist kinderleicht. Aber wie funktionierte das vor der Erfindung des Radios? Z.B mit einem Grammophon ... oder einem selbstspielenden Klavier. Verwandle dein Handy in so ein Klavier und lausche den Klängen längst vergangener Zeiten.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://tursics.de/sample/piano/",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/tursics/LittlePiano",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "Notenrollen",
+                "evtl. Patentbeschreibungen- und zeichnungen" 
+            ],
+            "team": [
+                4
+            ]
+        },
+        {
+            "name": "Nürnberger Lebkuchen",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Das Spielprinzip ist bekannt, denn man sieht es täglich in Bus und Bahn: Fleißig werden Zuckerdrops und bunte Bonbons zu 3er-, 4er- oder 5er-Kombinationen zusammengeschoben, um sich die Zeit zu vertreiben und das nächsthöhere Level zu erklimmen. Aber statt mit Zuckerdrops und Bonbons hantiert man in dieser online spielbaren App mit Zucker, Mehl und Zimt – diese sollen zu leckeren Lebkuchen, Makronen und Pfeffernüssen verschoben, äh, gebacken werden. In den sich im Schwierigkeitsgrad steigernden Leveln bäckt man über 100 Jahre alte Originalrezepte von Nürnberger Lebkuchen nach. Und natürlich darf man Spielfreude und Rezepte auch mit seinen Freunden teilen.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://tursics.de/sample/gingerbread/",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/tursics/GingerbreadGame",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "http://digital.slub-dresden.de/werkansicht/dlf/12327/",
+                "evtl. Patentbeschreibungen- und zeichnungen" 
+            ],
+            "team": [
+                4
+            ]
+        },
+        {
+            "name": "Nürnberger Lebkuchen",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Das Spielprinzip ist bekannt, denn man sieht es täglich in Bus und Bahn: Fleißig werden Zuckerdrops und bunte Bonbons zu 3er-, 4er- oder 5er-Kombinationen zusammengeschoben, um sich die Zeit zu vertreiben und das nächsthöhere Level zu erklimmen. Aber statt mit Zuckerdrops und Bonbons hantiert man in dieser online spielbaren App mit Zucker, Mehl und Zimt – diese sollen zu leckeren Lebkuchen, Makronen und Pfeffernüssen verschoben, äh, gebacken werden. In den sich im Schwierigkeitsgrad steigernden Leveln bäckt man über 100 Jahre alte Originalrezepte von Nürnberger Lebkuchen nach. Und natürlich darf man Spielfreude und Rezepte auch mit seinen Freunden teilen.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://tursics.de/sample/gingerbread/",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/tursics/GingerbreadGame",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "http://digital.slub-dresden.de/werkansicht/dlf/12327/"
+            ],
+            "team": [
+                4
+            ]
+        },
+        {
+            "name": "Wiederaufbau Ost-Berlin",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Unsere Webseite richtet sich an architektur- und geschichtsinteressierte Bewohner und Besucher Berlins. Wir haben ausgehend von den Fotografien Gisela Dutschmanns eine Rekonstruktion der Hauptstadtpläne der DDR-Regierung in Texten und Bildern angestrebt. Die aus den Fotografien gefilterten 27 Gebäude sind in ihren architektonischen Charakteristika beschrieben und wo möglich, hinsichtlich der politischen Situation kontextualisiert sowie mit weiterem Bild, Text und Video-Material angereichert verfügbar.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://cdv-staging.herokuapp.com/",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "github.com/zfhui",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "Berlinische Galerie Fotodatensatz von 2014 aus dem Ostberliner Fotorchiv",
+                "Links zu den Berliner Großstadtgeschichten", 
+                "Wikipedia und Wikimedia Commons", 
+                "frei verfügbare Videos von youtube"
+            ],
+            "team": [
+                5,6,7,8
+            ]
+        },
+        {
+            "name": "Chasing Pictures",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Wir entwickeln eine Smartphone-Anwendung, die Benutzer mithilfe der Bilder aus dem Stadtmuseum Berlin dazu animiert, die Stadt zu erkunden. Hierbei wird der Benutzerin zunächst ein Bild aus dem Datensatz „Schichten der Geschichte“, sowie ein ungefährer Standort gezeigt, mit dem sie sich auf die Suche nach dem abgebildeten Ort begeben kann. Sobald sie fündig geworden ist, kann sie mithilfe unserer App ein \"Beweisfoto\" vom entsprechenden Ort machen und es findet ein einmaliger Positionsabgleich zur Verifizierung des Fundes statt. Die Bilder der Benutzer können anschließend hochgeladen werden und es entstehen interessante Gegenüberstellungen früherer und aktueller Aufnahmen.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "https://github.com/kaltsimon/Chasing-Pictures-front-end/commit/dbe0817c27f33133f47496e4365d328ee68c8740",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/kaltsimon/Chasing-Pictures-front-end",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "Stiftung Stadtmuseum Berlin (Schichten der Geschichte)",
+                "Geodaten der ALT-Berlin App (Claus Höfele)", 
+                "eigene Aufnahmen", 
+                "Wikipedia"
+            ],
+            "team": [
+                9,10,11,12
+            ]
+        },
+        {
+            "name": "MIDIOLA",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "MIDIOLA ist eine Smartphone-App, die sich den Notenrollen für selbstspielende Klaviere aus dem frühen 20. Jahrhundert widmet. Mit unserem Programm können die digitalisierten Notenrollen aus der Sammlung des Deutschen Museums München abgespielt werden, weiterhin lassen sich auch physische Notenrollen mit der Handykamera abfilmen, um damit live zu musizieren. Unser Ziel ist es, dem antiquierten Medium der Pianola-Notenrollen zu einer neuen Aktualität zu verhelfen. Die historische Technik soll für eine breite Öffentlichkeit zugänglich gemacht und als audiovisuelles Ereignis erfahrbar werden.\"Beweisfoto\" vom entsprechenden Ort machen und es findet ein einmaliger Positionsabgleich zur Verifizierung des Fundes statt. Die Bilder der Benutzer können anschließend hochgeladen werden und es entstehen interessante Gegenüberstellungen früherer und aktueller Aufnahmen.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "https://git.urgs.org/codingdavinci2015_fu_khb_notenrollen/midiola",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://git.urgs.org/codingdavinci2015_fu_khb_notenrollen/midiola",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "Notenrollen für selbstspielende Klaviere des Deutschen Museums"
+            ],
+            "team": [
+                13,14,15,16
+            ]
+        },
+        {
+            "name": "Languini",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Der Datensatz von LanguageScience Press enthält zu ca  8000 Sprachen linguistische Informationen, Beispielsätze und geografische Informationen die wir mit unserer App einem breiteren Publikum zugänglich machen wollen. Dabei wollen wir auf spielerische Art und Weise die Neugier fördern sich mit Linguistik auseinanderzusetzen und so ein Bewusstsein für die sprachliche Vielfalt schaffen.  In einer Übersicht können alle Sprachen mit ihren zugehörigen Informationen abgerufen werden. Anschließen kann der Nutzer in zwei unterschiedlichen Modi sein Wissen testen: im Geomodus muss er anhand eines Beispielsatzes auf einer Weltkarte die zugehörige Sprache einordnen, im Quizmodus den Beispielsatz der richtigen Sprache zuordnen.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://hackdash.org/projects/553bb07ab15f8b87140cb86c",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/lennet/languini",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "http://codingdavinci.de/daten/#language-science-press",
+                "(Glottolog)"
+            ],
+            "team": [
+                17,18,19
+            ]
+        },
+        {
+            "name": "Wasserspeyer",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Mit dieser Website wird versucht den Fotonachlass des Soldaten Karl Lutz visuell greifbarer zu machen.Auf einer Karte wird, soweit wie möglich, eine Verknüpfung zwischen den Orten und der Zeit, an denen die Fotos aufgenommen wurden, hergestellt. Dadurch soll die Möglichkeit gegeben werden die Spur der Entstehung der Fotos zu verfolgen und die Fotos besser in ihren historischen Kontext einordnen zu können.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://drfaust.github.io/KarlLutzDemo/",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/Dumbaz/KarlLutz",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "Abteilung Kulturelles Erbe - Stadtarchiv Speyer Fotonachlass Karl Lutz",
+                "wikipedia"
+            ],
+            "team": [
+                20,21,22,23
+            ]
+        },
+        {
+            "name": "Kurbelkamera",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Unsere Idee: Wir entwickeln ein interaktives Exponat, welches sich vor allem an Jugendliche und Gruppen richtet soll, welche Das Deutsche Filmmuseum besuchen.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://elab-kh-berlin.de/courses/cod1ng_dav1nc1/?cat=6",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/aschle/magicKurbelKamera",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "Deutsches Filminstitut (http://codingdavinci.de/daten/#deutsches-filminstitut) Film \"Moren tanzt\" (http://136.243.4.67/index.php/s/0s5sJ6yVCrf6iLy)",
+                "https://vimeo.com/74328710", 
+                "Dropbox API"
+            ],
+            "team": [
+                24,25,26,27
+            ]
+        },
+        {
+            "name": "Musikus",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Musikus wird eine App, die als Museumsführer und Spielzeug zugleich dienen soll.  Zum aktuellen Zeitpunkt sind Museen kein Ort der Jugendliche besonders lockt  – wenn sie dort sind  wird meist das immer anwesende Smartphone als interessanter empfunden  als die ausgestellten  Objekte. Die Musikus App soll hier einen neuen Zugang bieten  – pas send zu r aktuellen Gesellschaft  und insbesondere , aber nicht ausschließlich für Jugendliche.  Musikus versteht sich hierbei als interaktiver Museumsführer für die Musikinstrumente - Sammlung  des  Ethnologischen Museum Berlin sowie als Spielzeug  – zum Beispiel zur Nutzung auf der Busfahrt  zum Museum  – zugleich.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "https://slack-files.com/T04EGNWDV-F06U9TP8V-2e2be4f426",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/PascalEsemann/musikus_01",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "Ethnologisches Museum Berlin",
+                "Wikipedia"
+            ],
+            "team": [
+                28,29,30,31,32,33
+            ]
+        },
+        {
+            "name": "Historischer Berlin Stadtführer",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "tbd",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://www.veikkos-archiv.com/index.php",
+                    "text": "Webseite"
+                }
+            ],
+            "data": [
+                "Fotos von Ludwig Binder aus der Stiftung Haus der Geschichte der BRD",
+                "Berliner Großstadtgeschichten“ der Zentral- und Landesbibliothek Berlin",
+                "Stiftung Stadtmuseum Berlin",
+                "Baugeschichtliches Archiv Stadt Zürich ",
+                "Archiv Ortsgeschichte der Stadt Wetzikon ",
+                "Deutsche Digitale Bibliothek",
+                "Landesarchiv Baden-Württemberg", 
+                "Staatsarchiv Freiburg", 
+                "Europeana",
+                "Stadtarchiv Speyer",
+                "Deutsches Buch und Schriftmuseum",
+                "Deutsche Fotothek",
+                "Wikipedia",
+                "EFEU e.V., Zwölf-Apostel-Gemeinde"
+            ],
+            "team": [
+                
+            ]
+        },
+        {
+            "name": "Bilder der Revolte",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Die Website möchte die Fotos von Ludwig Binder ansprechend präsentieren und so die Zeit der Studentenrevolte erfahrbar machen. Die Fotos werden übersichtlich und mit zahlreichen Filtermöglichkeiten präsentiert, vorhandene Metadaten mit Verknüpfungen zur GND und zum Zeitungsarchiv von medienarchiv68.de angereichert. Die Chronik macht die zeitliche Abfolge der Ereignisse und ihren historischen Kontext nachvollziehbar, mit den Stadtspaziergängen kann man sich selbst auf historische Spurensuche durch Berlin begeben. Das Projekt richtet sich somit sowohl an wissenschaftlich mit dem Thema Befasste als auch an die historisch interessierte Öffentlichkeit und Schulen.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://bilder-der-revolte.de",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/thsneumann/cdv_bilder-der-revolte",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "Studentenrevolte 1967/18 (Stiftung Haus der Geschichte)",
+                "GND", 
+                "LeMO Jahreschroniken", 
+                "Medienarchiv68"
+            ],
+            "team": [
+                34,35,36,37,38,39
+            ]
+        },
+        {
+            "name": "FLEXT@cdv",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Geschichte lebt, wenn wir sie lebendig machen und am Leben halten. Ein modernes Erscheinungsbild auf Smartphone und Grossbildschirm haucht Geschichte digitales Leben ein – egal wo wir sie antreffen. FLEXT@cdv zeigt das an ausgewählten Bildbeständen aus dem codingdavinci Repertoire. Und nicht nur außen wird es schöner, auch innen – under the hood. HTML für jedes Digitalisat wird mit schema.org RDFa angereichert, sodass Suchmaschinen-Ergebnisse strukturierte Daten anzeigen können. Auch die Handhabung ist einfach: Datensätze jedweder Art können im Handumdrehen eingelesen und angezeigt werden. So haucht FLEXT Kulturgütern digitales Leben ein.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://bilder-der-revolte.de",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/thsneumann/cdv_bilder-der-revolte",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "\"Studentenrevolte 1967/68\" (Stiftung Haus der Geschichte)",
+                "angedacht war mittels Fusepool P3 mit Linked Data zu verknüpfen, in der aktuellen Version wird daher ein weiterer codingdavinci Datensatz verwendet"
+            ],
+            "team": [
+                40
+            ]
+        },
+        {
+            "name": "Rolling Stone",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Das Projekt Rolling Stone befasst sich mit Steinen aus der geologischen Sammlung des Stadtmuseums Berlin. Die Funde sind mehrere Millionen Jahre alt und wurden in den Eiszeiten von Gletschern aus Skandinavien nach Norddeutschland transportiert. Diese Spur der Steine soll auf einer Webseite veranschaulicht werden. Im Zentrum steht eine Karte, auf der der Ausgangs- und der Fundort der Gesteine eingezeichnet sind. Zu jedem Stein werden Fotos und geschätztes Alter, sowie Informationen zur Entstehungsgeschichte angezeigt. Der Nutzer kann außerdem nach Erdzeitalter und Gesteinsart filtern. Ein weiteres Feature ist der integrierte Graph. Darüber lassen sich Steine mit ähnlichen Eigenschaften entdecken. Die User können somit explorativ das Steinarchiv des Stadtmuseums erkunden.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://knutator2.github.io/Rolling-Stone/#/",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/knutator2/Rolling-Stone",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "Stiftung Stadtmuseum, Naturwissenschaftliche Sammlung, Sammlungsbereich Geologie",
+                "Informationstexte des Stadtmuseums"
+            ],
+            "team": [
+                41,42,43,44
+            ]
+        },
+        {
+            "name": "imperii-vis",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "imperii-vis visualisiert die unglaublich großen Datenmengen der Regesta Imperii des Historisches Instituts der Uni Gießen auf einer Karte. Dabei kann ein spezieller Herrscher ausgewählt werden, zu dem dann entsprechend die Regesten auf einer Heatmap visualisiert werden. Wir möchten dabei herausfinden, wie weit die Herrschaftsgebiete der Herrscher gereicht haben.",
+            "links": [
+                {
+                    "class": "github",
+                    "link": "https://github.com/danielbaak/imperii-viz",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "Regesta Imperii",
+                "Wikipedia",
+                "Wikimedia"
+            ],
+            "team": [
+                45,46,47,48,49
+            ]
+        },
+        {
+            "name": "Munhwa",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Das Ziel des Projektes ist es Kultur auch unseren jüngeren Mitmenschen zu versüßen. Die Idee ist es die Humboldt Entdeckungsreise durch die Pflanzen nachzuspielen. Durch die Herbariumsdaten haben wir eine Strecke von Brotkrümeln mit denen wir seine Expedition verfolgen können. Dabei versuchen wir einen guten Mix aus Spielspaß und Kultur zu vereinbaren.",
+            "links": [
+                {
+                    "class": "github",
+                    "link": "https://github.com/ktugan/munhwa",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "Herbariumsdaten",
+                "Alexander von Humboldts Biografie"
+            ],
+            "team": [
+                50,51,52,53
+            ]
+        },
+        {
+            "name": "Der Großstadtziegel",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Ein autonomes Gerät, das von Person zu Person weitergegeben wird,  Geschichten audiovisuell aufnimmt, speichert und an eine zentrale Plattform sendet.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://elab-kh-berlin.de/courses/cod1ng_dav1nc1/?cat=11",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/juffel/SimpleAudioRecorder",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "ZLB"
+            ],
+            "team": [
+                54,55,56
+            ]
+        },
+        {
+            "name": "Grips Theater Plakatarchiv",
+            "tile": "/img/projekte-tiles/altberlin.png",
+            "images": [
+                "/img/projekte/alt-berlin-app.jpg"
+            ],
+            "description": "Das Projekt richtet sich in erster Linie an das Grips Theater selbst, soll es ihm doch im Ergebnis einen erweiterten Metadatensatz zu den Plakaten geben und Beispiele zur Visualisierung der Plakate selbst sowie der Metadatensätze.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://elab-kh-berlin.de/courses/cod1ng_dav1nc1/?cat=11",
+                    "text": "Webseite"
+                },
+                {
+                    "class": "github",
+                    "link": "https://github.com/juffel/SimpleAudioRecorder",
+                    "text": "github"
+                }
+            ],
+            "data": [
+                "ZLB"
+            ],
+            "team": [
+                54,55,56
+            ]
+        }
+    ],
+    "persons": [
+        {
+            "id": 0,
+            "name": "Anne Lange",
+            "contact" : {
+                "mail": "langeanne@gmx.net"
+            }
+            
+        },
+        {
+            "id": 1,
+            "name": "Philipp Schröter"
+        },
+        {
+            "id": 2,
+            "name": "Paul Michaelis"
+        },
+        {
+            "id": 3,
+            "name": "Immanuel Pelzer",
+            "contact" : {
+                "twitter": "@immnoel"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Thomas Tursics",
+            "contact" : {
+                "mail" : "thomas@tursics.de",
+                "twitter" : "@tursics",
+                "github" : "tursics"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Lina Rehork",
+            "contact" : {
+                "mail" : "Lina.Rehork@gmx.de"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Anne Heichler",
+            "contact" : {
+                "mail" : "anne.heichler@googlemail.com"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Zhou-Fei Hui",
+            "contact" : {
+                "mail" : "zhfhui@gmail.com"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Christian Knop",
+            "contact" : {
+                "mail" : "knop.christian@googlemail.com"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Jakob Warkotsch",
+            "contact" : {
+                "mail" : "j.warkotsch@gmail.com"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Simon Kalt",
+            "contact" : {
+                "mail" : "simon.kalt@fu-berlin.de"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Katharina Stärck",
+            "contact" : {
+                "mail" : "katharinastaerck@web.de"
+            }
+        },
+        {
+            "id": 12,
+            "name": "Miri Wieseke",
+            "contact" : {
+                "mail" : "miri.wieseke@gmail.com"
+            }
+        },
+        {
+            "id": 13,
+            "name": "Tom Brewe",
+            "contact" : {
+                "mail" : "tom.brewe@fu-berlin.de",
+                "github" : "nylki"
+            }
+        },
+        {
+            "id": 14,
+            "name": "Joscha Lausch",
+            "contact" : {
+                "mail" : "jo.lausch@fu-berlin.de"
+            }
+        },
+        {
+            "id": 15,
+            "name": "Momo Moradi",
+            "contact" : {
+                "mail" : "moradi.berlin@gmail.com"
+            }
+        },
+        {
+            "id": 16,
+            "name": "Luca Beisel",
+            "contact" : {
+                "mail" : "mail@lucabeisel.de"
+            }
+        },
+        {
+            "id": 17,
+            "name": "Leonard Thomas",
+            "contact" : {
+                "mail" : "leo.thomas@me.com"
+            }
+        },
+        {
+            "id": 18,
+            "name": "Daniel Steinmetz",
+            "contact" : {
+                "mail" : "daniel.steinmetz@posteo.de"
+            }
+        },
+        {
+            "id": 19,
+            "name": "Nils Risse"
+        },
+        {
+            "id": 20,
+            "name": "Ethan Zane Miller"
+        },
+        {
+            "id": 21,
+            "name": "Dorian"
+        },
+        {
+            "id": 22,
+            "name": "Sandra Trostel"
+        },
+        {
+            "id": 23,
+            "name": "Max Zimmermann",
+            "contact" : {
+                "mail" : "max.jakob.zimmermann@gmx.de"
+            }
+        },
+        {
+            "id": 24,
+            "name": "Lukas Benedix",
+            "contact" : {
+                "mail" : "lukas.benedix@fu-berlin.de"
+            }
+        },
+        {
+            "id": 25,
+            "name": "Alexa Schlegel",
+            "contact" : {
+                "mail" : "alexa.schlegel@gmail.com"
+            }
+        },
+        {
+            "id": 26,
+            "name": "Fanny Steingräber",
+            "contact" : {
+                "mail" : "hallo@fannysteingraeber.de"
+            }
+        },
+        {
+            "id": 27,
+            "name": "Katjuscha-Kaja Tömmler",
+            "contact" : {
+                "mail" : "k.toemmler@gmx.de"
+            }
+        },
+        {
+            "id": 28,
+            "name": "Pascal Esemann",
+            "contact" : {
+                "mail" : "pascal.esemann@elgmedienscouts.de"
+            }
+        },
+        {
+            "id": 29,
+            "name": "Maximilian Satter",
+            "contact" : {
+                "mail" : "maxi.satter@elgmedienscouts.de"
+            }
+        },
+        {
+            "id": 30,
+            "name": "Christian Gerharz",
+            "contact" : {
+                "mail" : "christian.gerharz@elgmedienscouts.de"
+            }
+        },
+        {
+            "id": 31,
+            "name": "Luis Dreyer",
+            "contact" : {
+                "mail" : "luis.dreyer@elgmedienscouts.de"
+            }
+        },
+        {
+            "id": 32,
+            "name": "Martin Rulsch",
+            "contact" : {
+                "mail" : "martin.rulsch@wikipedia.de"
+            }
+        },
+        {
+            "id": 33,
+            "name": "Sabina Eckenfels",
+            "contact" : {
+                "mail" : "sabina.eckenfels@googlemail.com"
+            }
+        },
+        {
+            "id": 34,
+            "name": "Thomas Neumann",
+            "contact" : {
+                "mail" : "thsneumann@gmail.com"
+            }
+        },
+        {
+            "id": 35,
+            "name": "Johannes Hercher",
+            "contact" : {
+                "mail" : "hercher@ub.fu-berlin.de"
+            }
+        },
+        {
+            "id": 36,
+            "name": "Tina Poethe",
+            "contact" : {
+                "mail" : "tinapoethe@gmail.com"
+            }
+        },
+        {
+            "id": 37,
+            "name": "Michael Franke-Meier",
+            "contact" : {
+                "mail" : "franke@ub.fu-berlin.de"
+            }
+        },
+        {
+            "id": 38,
+            "name": "Cécilia Antoni",
+            "contact" : {
+                "mail" : "cecilia.antoni@yahoo.de"
+            }
+        },
+        {
+            "id": 39,
+            "name": "Sina Latza",
+            "contact" : {
+                "mail" : "latza@zedat.fu-berlin.de"
+            }
+        },
+        {
+            "id": 40,
+            "name": "Michael Kaschesky",
+            "contact" : {
+                "mail" : "michael.kaschesky@fusepool.net"
+            }
+        },
+        {
+            "id": 41,
+            "name": "Anika Schulz",
+            "contact" : {
+                "mail" : "mail@anikaschultz.de"
+            }
+        },
+        {
+            "id": 42,
+            "name": "Knut Perseke",
+            "contact" : {
+                "mail" : "knut.perseke@gmail.com",
+                "twitter" : "knutator",
+                "github" : "knutator2"
+            }
+        },
+        {
+            "id": 43,
+            "name": "Ulrika Müller",
+            "contact" : {
+                "mail" : "mail@ulrikamueller.de"
+            }
+        },
+        {
+            "id": 44,
+            "name": "Thomas Fett",
+            "contact" : {
+                "mail" : "mail@thomasfett.de"
+            }
+        },
+        {
+            "id": 45,
+            "name": "Frederik Riedel",
+            "contact" : {
+                "twitter" : "frederikriedel"
+            }
+        },
+        {
+            "id": 46,
+            "name": "Larissa Laich",
+            "contact" : {
+                "twitter" : "larissalaich"
+            }
+        },
+        {
+            "id": 47,
+            "name": "Fritz Otlinghaus"
+        },
+        {
+            "id": 48,
+            "name": "Timo Müssig"
+        },
+        {
+            "id": 49,
+            "name": "Daniel Baak"
+        },
+        {
+            "id": 50,
+            "name": "Daria Rüttimann"
+        },
+        {
+            "id": 51,
+            "name": "Johannes Berding"
+        },
+        {
+            "id": 52,
+            "name": "Kadir Tugan"
+        },
+        {
+            "id": 53,
+            "name": "Saskia Lindner"
+        },
+        {
+            "id": 54,
+            "name": "Julian Dobmann",
+            "contact" : {
+                "mail" : "julian.dobmann@gmail.com"
+            }
+        },
+        {
+            "id": 55,
+            "name": "Kai Kruschel",
+            "contact" : {
+                "mail" : "kaikruschel@posteo.de"
+            }
+        },
+        {
+            "id": 56,
+            "name": "Stefan Brüning",
+            "contact" : {
+                "mail" : "stefan@ozoncyclery.com"
+            }
+        },
+        {
+            "id": 57,
+            "name": "Kai Teuber",
+            "contact" : {
+                "mail" : "teuberkai@icloud.com",
+                "twitter" : "@teuberkai"
+            }
+        },
+        {
+            "id": 58,
+            "name": "Paul Kasperki"
+        }
+        
+    ]
+}
