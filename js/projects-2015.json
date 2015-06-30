@@ -2,7 +2,8 @@
     "projects": [
         {
             "name": "floradex",
-            "tile": "/img/projekte-tiles/altberlin.png",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
