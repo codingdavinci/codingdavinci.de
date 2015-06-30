@@ -108,7 +108,8 @@ $(document).ready(function () {
 		console.log(currentProject);
 	}
 
-	$.getJSON('/js/projects.json', function(data) {
+	function loadProjects(file) {
+		$.getJSON(file, function(data) {
 		projects = data.projects;
 		persons = data.persons;
 		
@@ -191,5 +192,10 @@ $(document).ready(function () {
 
 	    //this will reload the page, it's likely better to store this until finished
 	    //console.log(kvp.join('&')); 
+	}
+	if (window.location.pathname.indexOf("projekte-2014") > -1) {
+		loadProjects('/js/projects.json')
+	} else {
+		loadProjects('/js/projects-2015.json')
 	}
 });
