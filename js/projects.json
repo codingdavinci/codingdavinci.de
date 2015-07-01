@@ -3,6 +3,7 @@
         {
             "name": "Alt-Berlin",
             "tile": "/img/projekte-tiles/altberlin.png",
+            "tile_active": "/img/projekte-tiles/altberlin-active.png",
             "images": [
                 "/img/projekte/alt-berlin-app.jpg"
             ],
@@ -32,6 +33,7 @@
         {
             "name": "Cyberbeetle",
             "tile": "/img/projekte-tiles/cyberbeetle.png",
+            "tile_active": "/img/projekte-tiles/cyberbeetle-active.png",
             "images": [
                 "/img/projekte/cyberbeetle.jpg"
             ],
@@ -56,6 +58,7 @@
         {
             "name": "EthnoBand",
             "tile": "/img/projekte-tiles/ethnoband.png",
+            "tile_active": "/img/projekte-tiles/ethnoband-active.png",
             "images": [
                 "/img/projekte/ethnoband.png"
             ],
@@ -77,6 +80,7 @@
         {
             "name": "inside - 19xx",
             "tile": "/img/projekte-tiles/Verbrannte.png",
+            "tile_active": "/img/projekte-tiles/Verbrannte-active.png",
             "images": [
                 "/img/projekte/inside-19xx.jpg"
             ],
@@ -118,6 +122,7 @@
         {
             "name": "zzZwitscherwecker",
             "tile": "/img/projekte-tiles/zzzwitscherwecker.png",
+            "tile_active": "/img/projekte-tiles/zzzwitscherwecker-active.png",
             "images": [
                 "/img/projekte/wecker.jpg"
             ],
@@ -164,6 +169,7 @@
         {
             "name": "Verbotene Autoren",
             "tile": "/img/projekte-tiles/verboteneautoren.png",
+            "tile_active": "/img/projekte-tiles/verboteneautoren.png",
             "images": [
                 "/img/projekte/app-verbotene-autoren.png"
             ],
@@ -193,6 +199,7 @@
         {
             "name": "Berlin - 50 Jahre später",
             "tile": "/img/projekte-tiles/berlin50jahre.png",
+            "tile_active": "/img/projekte-tiles/berlin50jahre-active.png",
             "images": [
                 "/img/projekte/berlin-50-jahre.png"
             ],
@@ -217,6 +224,7 @@
         {
             "name": "Bestimmungsschlüssel",
             "tile": "/img/projekte-tiles/bestimmungsschluessel.png",
+            "tile_active": "/img/projekte-tiles/bestimmungsschluessel-active.png",
             "images": [
                 "/img/projekte/bestimmungsschluessel.png"
             ],
@@ -245,6 +253,7 @@
         {
             "name": "DDBRest",
             "tile": "/img/projekte-tiles/ddbrest.png",
+            "tile_active": "/img/projekte-tiles/ddbrest-active.png",
             "images": [
                 "/img/projekte/ddbrest.png"
             ],
@@ -266,6 +275,7 @@
         {
             "name": "DNB - Data Explorer",
             "tile": "/img/projekte-tiles/dnbexplorer.png",
+            "tile_active": "/img/projekte-tiles/dnbexplorer-active.png",
             "images": [
                 "/img/projekte/dnb-explorer1.png"
             ],
@@ -292,6 +302,7 @@
         {
             "name": "EthnoTier",
             "tile": "/img/projekte-tiles/ethnotier.png",
+            "tile_active": "/img/projekte-tiles/ethnotier-active.png",
             "images": [
                 "/img/projekte/ethnotier.png"
             ],
@@ -320,7 +331,8 @@
         },
         {
             "name": "Kulturchronologie",
-            "tile": "/img/projekte-tiles/Lebendigeliste.png",
+            "tile": "/img/projekte-tiles/kultchrono.png",
+            "tile_active": "/img/projekte-tiles/kultchrono-active.png",
             "images": [
                 "/img/projekte/kulturchronologie.jpg"
             ],
@@ -338,6 +350,7 @@
         {
             "name": "Lebendige Liste",
             "tile": "/img/projekte-tiles/Lebendigeliste.png",
+            "tile_active": "/img/projekte-tiles/Lebendigeliste-active.png",
             "images": [
                 "/img/projekte/lebendige-liste.png"
             ],
@@ -367,6 +380,7 @@
         {
             "name": "Mnemosyne",
             "tile": "/img/projekte-tiles/Mnemosyne.png",
+            "tile_active": "/img/projekte-tiles/Mnemosyne-active.png",
             "images": [
                 "/img/projekte/mnemosyne.png"
             ],
@@ -396,6 +410,7 @@
         {
             "name": "Poetic Relief - תבליט פיוטי",
             "tile": "/img/projekte-tiles/PoeticRelief.png",
+            "tile_active": "/img/projekte-tiles/PoeticRelief-active.png",
             "images": [
                 "/img/projekte/poetic-relief-1.png"
             ],
@@ -425,6 +440,7 @@
         {
             "name": "SnatchTheCultureGame",
             "tile": "/img/projekte-tiles/snatchtheculturegame.png",
+            "tile_active": "/img/projekte-tiles/snatchtheculturegame-active.png",
             "images": [
                 "/img/projekte/snatch-the-culture-game.jpg"
             ],
@@ -450,6 +466,7 @@
         {
             "name": "Soundwall-App",
             "tile": "/img/projekte-tiles/Soundwwall.png",
+            "tile_active": "/img/projekte-tiles/Soundwwall-active.png",
             "images": [
                 "/img/projekte/soundwall.jpg"
             ],
