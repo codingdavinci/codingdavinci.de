@@ -422,10 +422,10 @@ hr {
 }
 
 .subheader {
-  padding-top: 90px;
+  padding-top: 45px;
   border-bottom: 1px solid;
-  margin-top: 0.25em;
-  margin-bottom: 3.5em;
+  margin-top: 1em;
+  margin-bottom: 1.4em;
   text-align: center;
   background-repeat: no-repeat;
   background-position: center top;
@@ -435,12 +435,14 @@ hr {
   color: #000;
   font-family: "Archive";
   font-size: 32pt;
-  margin: -0.01em 1em auto 0;
+  /*margin: -0.01em 1em auto 0;*/
   position: relative;
   background-color: #fff;
   display: inline-block;
-  padding: 0 15px;
+  top : 0.9em;
+  padding-top: 20px;
 }
+
 
 .programheader h2{
   color: #000;
@@ -1069,10 +1071,6 @@ only screen and (min-device-pixel-ratio: 2) {
   .project-footer {
     margin-top: 1em;
   }
-
-  .project-image-container {
-    max-width: 100% !important;
-  }
 }
 
 /* Projects Container */
@@ -1143,6 +1141,29 @@ only screen and (min-device-pixel-ratio: 2) {
   .projects-container .gap{
     width: 250px;
     margin-top: 1em;
+  }
+}
+
+@media(print) {
+  
+  .project-intro {
+    display: none !important;
+  }
+
+  .nav-container {
+    /*display: none;*/
+  }
+  
+  #projekte {
+    display: none ;
+  }
+
+  .project-description {
+    display: none;
+  }
+
+  .other-projects {
+    display:none;
   }
 }
 
@@ -1338,7 +1359,9 @@ height: 100%;
   border-image-repeat : repeat;*/
   border-image : url(../img/cdv_linie_v.png) 5 repeat; 
   border-image-slice : fill;
-  height: 100px;
+  /*height: 100px;*/
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .project-header h2 {
