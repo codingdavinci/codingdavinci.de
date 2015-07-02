@@ -35,7 +35,7 @@
             "tile": "/img/projekte-tiles/default.png",
             "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
-                "/img/projekte-tiles/default-active.png"
+                "/img/projekte/chasingpictures_logo.jpg"
             ],
             "description": "Wir entwickeln eine Smartphone-Anwendung, die Benutzer mithilfe der Bilder aus dem Stadtmuseum Berlin dazu animiert, die Stadt zu erkunden. Hierbei wird der Benutzerin zunächst ein Bild aus dem Datensatz „Schichten der Geschichte“, sowie ein ungefährer Standort gezeigt, mit dem sie sich auf die Suche nach dem abgebildeten Ort begeben kann. Sobald sie fündig geworden ist, kann sie mithilfe unserer App ein \"Beweisfoto\" vom entsprechenden Ort machen und es findet ein einmaliger Positionsabgleich zur Verifizierung des Fundes statt. Die Bilder der Benutzer können anschließend hochgeladen werden und es entstehen interessante Gegenüberstellungen früherer und aktueller Aufnahmen.",
             "links": [
