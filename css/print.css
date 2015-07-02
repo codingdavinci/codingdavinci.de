@@ -1,0 +1,27 @@
+.project-intro {
+    display: none;
+}
+  
+.project-description {
+    display: none;
+}
+
+.other-projects {
+    display:none;
+}
+
+.footer {
+  display:none;
+}
+
+.project-navigation {
+  display:none;
+}
+
+.proj-subh {
+  display:none;
+}
+
+.project-header {
+  border: 0px;
+}
