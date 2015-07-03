@@ -169,7 +169,7 @@
         {
             "name": "Verbotene Autoren",
             "tile": "/img/projekte-tiles/verboteneautoren.png",
-            "tile_active": "/img/projekte-tiles/verboteneautoren.png",
+            "tile_active": "/img/projekte-tiles/verboteneautoren-active.png",
             "images": [
                 "/img/projekte/app-verbotene-autoren.png"
             ],
