@@ -714,6 +714,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .additional-text p {
   font-size: 12pt;
+  margin-left: 15px;
 }
 
 .footer {
@@ -1415,4 +1416,25 @@ height: 100%;
 .project-footer {
   font-size: 30pt;
   color: #1fb286;
+}
+
+.prizes-profile {
+  text-align: center;
+  display: inline;
+}
+
+.prizes-profile img {
+  max-height: 200px;
+  margin: auto;
+}
+
+@media (max-width: 991px) {
+  .light-interlude {
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  .project-footer {
+    margin-top: 1em;
+  }
 }

@@ -36,7 +36,7 @@
   link:  "http://www.deutsches-museum.de/"
 -
   name:  "Dokumentationszentrum NS-­Zwangsarbeit"
-  image: "/img/logos-2015/Logo NSZ 2010cmyk-3.tif"
+  image: "/img/logos-2015/Logo NSZ 2010cmyk-3.jpg"
   link:  "http://www.dz-ns-zwangsarbeit.de"
 -
   name:  "Ethnologisches Museum"
@@ -62,6 +62,10 @@
   name:  "Jüdisches Museum Berlin"
   image: "/img/logos-2015/jmb.jpg"
   link:  "http://www.jmberlin.de"
+-
+  name:  "Justus-Liebig-Universität Giessen"
+  image: "/img/logos-2015/jlu-logo.png"
+  link:  "http://www.uni-giessen.de/cms/"
 -
   name:  "Landesarchiv Baden-Württemberg"
   image: "/img/logos-2015/labw.jpg"
