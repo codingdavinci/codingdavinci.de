@@ -5,7 +5,7 @@
             "tile": "/img/projekte-tiles/default.png",
             "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
-                "/img/projekte-tiles/default-active.png"
+                "/img/projekte/bilder-der-revolte_logo.jpg"
             ],
             "description": "Die Website möchte die Fotos von Ludwig Binder ansprechend präsentieren und so die Zeit der Studentenrevolte erfahrbar machen. Die Fotos werden übersichtlich und mit zahlreichen Filtermöglichkeiten präsentiert, vorhandene Metadaten mit Verknüpfungen zur GND und zum Zeitungsarchiv von medienarchiv68.de angereichert. Die Chronik macht die zeitliche Abfolge der Ereignisse und ihren historischen Kontext nachvollziehbar, mit den Stadtspaziergängen kann man sich selbst auf historische Spurensuche durch Berlin begeben. Das Projekt richtet sich somit sowohl an wissenschaftlich mit dem Thema Befasste als auch an die historisch interessierte Öffentlichkeit und Schulen.",
             "links": [
@@ -224,7 +224,7 @@
             "tile": "/img/projekte-tiles/default.png",
             "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
-                "/img/projekte-tiles/default-active.png"
+                "/img/projekte/kurbelkamera_logo.png"
             ],
             "description": "Mit diesem Exponat kann eine Gruppe ein Gefühl für die Anfänge der Filmkamera entwickeln, indem sie einen alten Film über Kurbeln auf einer Leinwand abspielen, mit diesem interagieren, ihn aufnehmen und den neu entstandenen Film teilen. Fokus liegt dabei auf der intuitiven Bedienbarkeit und Einfachheit des Exponates. Das Team: Wir sind vier Studenten von der Freien Universität Berlin und der Kunsthochschule Weißensee: Lukas (FU Berlin, Informatik), Kaja (FU Berlin, Informatik), Fanny (Kunsthochschule Weißensee, Produkt Design) und Alexa (FU Berlin, Informatik). Technische Umsetzung: Verwendung findet ein RaspberryPi mit Kamera, ein Arduino mit Taster und Drehgeber, Beamer (Rückprojektion) und Leinwand. Programmiert wird in Python. Die Abspielgeschwindigkeit des Films und Aufnahmegeschwindigkeit des neu produzierten Films wird über die Kurbel beeinflusst. Der fertig aufgenommene Film kann über einen QR-Code auf das Handy geladen werden, wer möchte kann es mit Freunden teilen.",
             "links": [
@@ -415,7 +415,7 @@
             "tile": "/img/projekte-tiles/default.png",
             "tile_active": "/img/projekte-tiles/default-active.png",
             "images": [
-                "/img/projekte-tiles/patentsinmotion_logo.png"
+                "/img/projekte/patentsinmotion_logo.png"
             ],
             "description": "Das Landesarchiv Baden-Württemberg schafft mit seinem Vorrat an Patentzeichnungen aus dem 19. Jahrhundert Einblick in den erstaunlichen Reichtum menschlichen Einfallsgeists. Im Angesicht der Aufgabe, mit den gegebenen Naturgesetzen und vorhandenen Ressourcen neuen Nutzen zu schaffen, präsentieren die Erfinder Genie und faszinierende Ideen für neuartige Maschinen und Mechanismen. <br /><br /> Diese Ideen möchte Patents in Motion nachempfindbar machen: Die in den Patentzeichnungen ruhenden Maschinen setzt es wieder in Bewegung und macht jedes wesentliche Teil fassbar. Es will zeigen, wie mit Hilfe von in der Geisteswissenschaft unüblicher Technologie ein Zugewinn an Lehrnutzen erzielbar ist. Patents in Motion wird mit der Unity Physik-Engine und C# realisiert. Es ist modular erweiterbar und wird als Stand-Alone- und WebGL-Anwendung bereitgestellt.",
             "links": [
@@ -1007,19 +1007,17 @@
             "contact" : {
                 "mail" : "jonas.poehler@student.uni-siegen.de"
             }
-        }
+        },
         {
             "id": 66,
             "name": "Annika Blohm",
             "contact" : {
-                "twitter" : "e_kunst",
+                "twitter" : "e_kunst"
             }
         },
-                {
+        {
             "id": 67,
-            "name": "Michael Karg",
-            }
-        },
-        
+            "name": "Michael Karg"
+        }
     ]
 }
