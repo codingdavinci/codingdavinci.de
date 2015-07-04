@@ -1017,7 +1017,10 @@
         },
         {
             "id": 67,
-            "name": "Michael Karg"
+            "name": "Michael Karg",
+            "contact" : {
+                "github" : "mgmeier"
+            }
         }
     ]
 }
