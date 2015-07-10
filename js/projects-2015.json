@@ -388,13 +388,13 @@
                 },
                 {
                     "class" : "video",
-                    "link" : "/downloads/projekte-2015/munhwa/HumboldReiseTrailer.mp4",
+                    "link" : "http://136.243.4.67/index.php/s/Nha2CmDokJvFIvn/download",
                     "text" : "Trailer"
                 },
                 {
                     "class" : "game",
-                    "link" : "/downloads/projekte-2015/munhwa/humboldt/humboldt.exe",
-                    "text" : "Spiel (Windows)"
+                    "link" : "http://136.243.4.67/index.php/s/O9QzHjZd07O4KQm/download",
+                    "text" : "Spiel"
                 },
                 {
                     "class" : "pdf",
@@ -428,6 +428,11 @@
                     "class": "github",
                     "link": "https://github.com/PascalEsemann/musikus_01",
                     "text": "github"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "/downloads/projekte-2015/musikus.pdf",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -486,7 +491,7 @@
                 },
                 {
                     "class" : "pdf",
-                    "link" : "/downloads/projekte-2015/patentsinmotion_presentation_hd.pdf",
+                    "link" : "http://136.243.4.67/index.php/s/26gVHVWmTfirKsi/download",
                     "text" : "Teampräsentation"
                 }
             ],
