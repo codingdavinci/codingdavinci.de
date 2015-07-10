@@ -32,6 +32,18 @@ $(document).ready(function () {
 			case "twitter" :
 				result += 'twitter-glyph';
 				break;
+			case "pdf":
+				result += 'pdf-glyph';
+				break;
+			case "video":
+				result += 'film-glyph';
+				break;
+			case "audio":
+				result += 'audio-glyph';
+				break;
+			case "game":
+				result += 'game-glyph';
+				break;
 		}
 		return '<span class="' + result + '" />';
 	}
@@ -40,7 +52,8 @@ $(document).ready(function () {
 		$('#projectlinks').html('');
 		$.each(currentProject.links, function(index, val) {
 			var symbol = getSymbolByType(val.class);
-			$('#projectlinks').append(val.text + ' <a href="' + val.link + '">' + symbol + '</a><br />');
+			$('#projectlinks').append('<p>' + val.text + ' <a href="' + val.link + '">' + 
+				symbol + '</a><br /></p>');
 		});
 
 		$('#data').html('');

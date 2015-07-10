@@ -14,6 +14,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Icomoon';
+  src: url('../fonts/icomoon.eot');
+  src: local('☺'), url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* May I be forgiven */
 @media (min-width: 768px) {
   .col-sm-offset-1-5 {
@@ -1411,6 +1419,26 @@ height: 100%;
 .mail-glyph:after {
   font-family: "Fontello";
   content: "\e805";
+}
+
+.game-glyph:after {
+  font-family: "Icomoon";
+  content: "\e602";
+}
+
+.audio-glyph:after {
+  font-family: "Icomoon";
+  content: "\e600";
+}
+
+.pdf-glyph:after {
+  font-family: "Icomoon";
+  content: "\e603";
+}
+
+.film-glyph:after {
+  font-family: "Icomoon";
+  content: "\e601";
 }
 
 .project-footer {
