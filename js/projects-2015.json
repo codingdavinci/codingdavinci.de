@@ -303,6 +303,11 @@
                     "text": "github"
                 },
                 {
+                    "class": "game",
+                    "link": "https://itunes.apple.com/de/app/languini/id1010870756?mt=8",
+                    "text": "App Store"
+                },
+                {
                     "class" : "pdf",
                     "link" : "/downloads/projekte-2015/languini_final.pdf",
                     "text" : "Teampräsentation"
