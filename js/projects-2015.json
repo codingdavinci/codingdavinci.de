@@ -2,8 +2,8 @@
     "projects": [
         {
             "name": "Bilder der Revolte",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/bilderderrevolte.png",
+            "tile_active": "/img/projekte-tiles/2015/bilderderrevolte-active.png",
             "images": [
                 "/img/projekte/bilder-der-revolte_logo.jpg"
             ],
@@ -37,8 +37,8 @@
         },
         {
             "name": "Chasing Pictures",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/chasingpics.png",
+            "tile_active": "/img/projekte-tiles/2015/chasingpics-active.png",
             "images": [
                 "/img/projekte/chasingpictures_logo.jpg"
             ],
@@ -67,8 +67,8 @@
         },
         {
             "name": "Der Großstadtziegel",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/grosstadtziegel.png",
+            "tile_active": "/img/projekte-tiles/2015/grosstadtziegel-active.png",
             "images": [
                 "/img/projekte-tiles/default-active.png"
             ],
@@ -99,8 +99,8 @@
         },
         {
             "name": "FLEXT@cdv",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/flext.png",
+            "tile_active": "/img/projekte-tiles/2015/flext-active.png",
             "images": [
                 "/img/projekte-tiles/default-active.png"
             ],
@@ -118,8 +118,8 @@
         },
         {
             "name": "floradex",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/floradex.png",
+            "tile_active": "/img/projekte-tiles/2015/floradex-active.png",
             "images": [
                 "/img/projekte/floradex_logo.png"
             ],
@@ -156,8 +156,8 @@
         },
         {
             "name": "Grips Theater Plakatarchiv",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/grips.png",
+            "tile_active": "/img/projekte-tiles/2015/grips-active.png",
             "images": [
                 "/img/projekte-tiles/default-active.png"
             ],
@@ -183,8 +183,8 @@
         },
         {
             "name": "imperii-vis",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/imperiii.png",
+            "tile_active": "/img/projekte-tiles/2015/imperiii-active.png",
             "images": [
                 "/img/projekte-tiles/default-active.png"
             ],
@@ -212,8 +212,8 @@
         },
         {
             "name": "Klangvisualisierung",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/klangvisualisierung.png",
+            "tile_active": "/img/projekte-tiles/2015/klangvisualisierung-active.png",
             "images": [
                 "/img/projekte/klangvisualisierung_logo.png"
             ],
@@ -251,8 +251,8 @@
         },
         {
             "name": "Kurbelkamera",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/kurbelkamera.png",
+            "tile_active": "/img/projekte-tiles/2015/kurbelkamera-active.png",
             "images": [
                 "/img/projekte/kurbelkamera_logo.png"
             ],
@@ -285,8 +285,8 @@
         },
         {
             "name": "Languini",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/linguini.png",
+            "tile_active": "/img/projekte-tiles/2015/linguini-active.png",
             "images": [
                 "/img/projekte/languini_logo.png"
             ],
@@ -323,8 +323,8 @@
         },
         {
             "name": "Little Piano",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/little_piano.png",
+            "tile_active": "/img/projekte-tiles/2015/little_piano-active.png",
             "images": [
                 "/img/projekte/little-piano_logo.png"
             ],
@@ -351,8 +351,8 @@
         },
         {
             "name": "MIDIOLA",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/midiola.png",
+            "tile_active": "/img/projekte-tiles/2015/midiola-active.png",
             "images": [
                 "/img/projekte-tiles/default-active.png"
             ],
@@ -379,8 +379,8 @@
 
         {
             "name": "Munhwa",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/munhwa.png",
+            "tile_active": "/img/projekte-tiles/2015/munhwa-active.png",
             "images": [
                 "/img/projekte/munhwa-logo.png"
             ],
@@ -417,8 +417,8 @@
         },
         {
             "name": "Musikus",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/musikus.png",
+            "tile_active": "/img/projekte-tiles/2015/musikus-active.png",
             "images": [
                 "/img/projekte/musikus_logo.png"
             ],
@@ -450,8 +450,8 @@
         },
         {
             "name": "Nürnberger Lebkuchen",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/nurnberger.png",
+            "tile_active": "/img/projekte-tiles/2015/nurnberger-active.png",
             "images": [
                 "/img/projekte/nuernberger-lebkuchen_logo.png"
             ],
@@ -477,8 +477,8 @@
         },
         {
             "name": "Patents in Motion",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/patentisinmotion.png",
+            "tile_active": "/img/projekte-tiles/2015/patentisinmotion-active.png",
             "images": [
                 "/img/projekte/patentsinmotion_logo.png"
             ],
@@ -509,8 +509,8 @@
         },
         {
             "name": "Pyanola",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/pyanola.png",
+            "tile_active": "/img/projekte-tiles/2015/pyanola-active.png",
             "images": [
                 "/img/projekte/pyanola_logo.png"
             ],
@@ -551,8 +551,8 @@
         },
         {
             "name": "Rolling Stone",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/rollingstone.png",
+            "tile_active": "/img/projekte-tiles/2015/rollingstone-active.png",
             "images": [
                 "/img/projekte/rolling_stone_logo.png"
             ],
@@ -584,8 +584,8 @@
         },
         {
             "name": "veikkos-archiv / Geschichte 2.0",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/veikkos.png",
+            "tile_active": "/img/projekte-tiles/2015/veikkos-active.png",
             "images": [
                 "/img/projekte/Veikkos-Comic18.jpg"
             ],
@@ -647,8 +647,8 @@
         },
         {
             "name": "Wiederaufbau Ost-Berlin",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/wiederaufbau_ost.png",
+            "tile_active": "/img/projekte-tiles/2015/wiederaufbau_ost-active.png",
             "images": [
                 "/img/projekte/wiederaufbau_ost_logo.png"
             ],
