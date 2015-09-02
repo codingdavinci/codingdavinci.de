@@ -2,8 +2,8 @@
     "projects": [
         {
             "name": "Bilder der Revolte",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/bilderderrevolte.png",
+            "tile_active": "/img/projekte-tiles/2015/bilderderrevolte-active.png",
             "images": [
                 "/img/projekte/bilder-der-revolte_logo.jpg"
             ],
@@ -18,6 +18,11 @@
                     "class": "github",
                     "link": "https://github.com/thsneumann/cdv_bilder-der-revolte",
                     "text": "github"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "/downloads/projekte-2015/bilderderrevolte_cvd.pdf",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -32,8 +37,8 @@
         },
         {
             "name": "Chasing Pictures",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/chasingpics.png",
+            "tile_active": "/img/projekte-tiles/2015/chasingpics-active.png",
             "images": [
                 "/img/projekte/chasingpictures_logo.jpg"
             ],
@@ -62,8 +67,8 @@
         },
         {
             "name": "Der Großstadtziegel",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/grosstadtziegel.png",
+            "tile_active": "/img/projekte-tiles/2015/grosstadtziegel-active.png",
             "images": [
                 "/img/projekte-tiles/default-active.png"
             ],
@@ -78,6 +83,11 @@
                     "class": "github",
                     "link": "https://github.com/juffel/SimpleAudioRecorder",
                     "text": "github"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "/downloads/projekte-2015/grosstadtziegel_presentation.pdf",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -89,8 +99,8 @@
         },
         {
             "name": "FLEXT@cdv",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/flext.png",
+            "tile_active": "/img/projekte-tiles/2015/flext-active.png",
             "images": [
                 "/img/projekte-tiles/default-active.png"
             ],
@@ -108,10 +118,10 @@
         },
         {
             "name": "floradex",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/floradex.png",
+            "tile_active": "/img/projekte-tiles/2015/floradex-active.png",
             "images": [
-                "/img/projekte-tiles/default-active.png"
+                "/img/projekte/floradex_logo.png"
             ],
             "description": "Wir, Anne Lange (KHB Produktdesign), Philipp Schröter (FU Berlin Informatik), Immanuel Pelzer (HU Berlin Informatik), Paul Michaelis (FU Berlin Informatik) wollten als interdisziplinäres Team den schwer zugänglichen Herbariums-Daten des Botanischen Museums und Botanischen Gartens Berlin neues Leben einhauchen. Bei unserer Recherche sind wir auf die Tatsache gestoßen, dass die Pflanzenbestimmung sehr umständlich und die meisten wissenschaftlich korrekten Bestimmungsmedien (vor allem Bücher) nur von Experten benutzt werden können. Für Laien ist eine eindeutige Bestimmung oft frustrierend: Aufgrund ihres fehlenden Fachwissens können sie meist die entscheidenden Fragen nur unzureichend beantworten. Das führt dazu, dass sie zu keinem eindeutigen oder einem völlig falschen Ergebnis kommen. Wir haben deshalb eine App konzipiert und programmiert, die es dem Benutzer unterwegs ermöglicht, die Pflanze, die er sucht, intuitiv anhand von Symbolen in einem Baukasten nachzubauen und mittels dieser Kriterien bestimmen zu lassen. Er kann dabei die gesetzten Filter immer wieder verändern und somit die Menge und Treffsicherheit der Ergebnisse verfolgen und beeinflussen. Fachbegriffe und den trockenen wissenschaftlichen Inhalt binden wir direkt in die spielerischen Elemente ein. Deshalb hat floradex das Potenzial, als Lehrmittel in der Schule eingesetzt zu werden. Projektarbeit mit selbstbestimmtem Lernen durch Anfassen und Ausprobieren ist eine gute Alternative zum klassischen Frontalunterricht und sturem Auswendiglernen. So kann auch Interesse für Themen geweckt werden, die Jugendliche vielleicht zunächst ablehnen. Aber auch für interessierte Laien bietet floradex leichten Zugang zur Botanik. Durch die Optimierung für mobile Geräte können Pflanzen beim Spaziergang, beim Besuch im Botanischen Garten oder im heimischen Garten ohne Eingriff in die Natur bestimmt werden.",
             "links": [
@@ -129,6 +139,11 @@
                     "class": "projects-website",
                     "link": "http://elab-kh-berlin.de/courses/cod1ng_dav1nc1/?cat=4",
                     "text": "Blog"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "/downloads/projekte-2015/floradex-praesentation.pdf",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -141,8 +156,8 @@
         },
         {
             "name": "Grips Theater Plakatarchiv",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/grips.png",
+            "tile_active": "/img/projekte-tiles/2015/grips-active.png",
             "images": [
                 "/img/projekte-tiles/default-active.png"
             ],
@@ -168,8 +183,8 @@
         },
         {
             "name": "imperii-vis",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/imperiii.png",
+            "tile_active": "/img/projekte-tiles/2015/imperiii-active.png",
             "images": [
                 "/img/projekte-tiles/default-active.png"
             ],
@@ -179,6 +194,11 @@
                     "class": "github",
                     "link": "https://github.com/danielbaak/imperii-viz",
                     "text": "github"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "/downloads/projekte-2015/imperii-viz-praesentation.pdf",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -192,10 +212,10 @@
         },
         {
             "name": "Klangvisualisierung",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/klangvisualisierung.png",
+            "tile_active": "/img/projekte-tiles/2015/klangvisualisierung-active.png",
             "images": [
-                "/img/projekte-tiles/default-active.png"
+                "/img/projekte/klangvisualisierung_logo.png"
             ],
             "description": "Unser Idee ist die Notenrollen des Deutschen Museums visuell erfahrbar zu machen. Hierbei verfolgen wir zur Zeit verschiedene Ansätze. Im nicht digitalen Zeitalter wurden auch bei anderen Maschinen Lochkarten zur Automatisierung verwendet. Bekannt sind uns aktuell Strick-, Stick & Webmaschinen. Die Musikstücke klassischer Komponisten könnten auf diesem Wege z.B. als Schal gestrickt werden. (Danke für die Idee von Georg)  Weiterhin sind bisherige Notationen sehr komplex und für Unerfahrene kaum lesbar. Mit der einfachen Visualisierung ist es möglich Muster in den Stücken zu vergleichen und Verbindungen sichtbar zu erfahren. So ist es vielleicht möglich, Gemeinsamkeiten und Einflüsse zwischen Mozart und seinem Lehrmeister zu erkennen. Es sind viele weitere Szenarien denkbar.",
             "links": [
@@ -208,6 +228,16 @@
                     "class": "github",
                     "link": "https://github.com/getYourOwnTicket/pixelPiano/blob/master/sketch_2D_ArrayMidi09.pde",
                     "text": "github"
+                },
+                {
+                    "class" : "audio",
+                    "link" : "/downloads/projekte-2015/Klangvisualisierung_Midi08_02_.mp4",
+                    "text" : "Demo"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "/downloads/projekte-2015/Klangvisualisierung_praesentation.pdf",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -221,8 +251,8 @@
         },
         {
             "name": "Kurbelkamera",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/kurbelkamera.png",
+            "tile_active": "/img/projekte-tiles/2015/kurbelkamera-active.png",
             "images": [
                 "/img/projekte/kurbelkamera_logo.png"
             ],
@@ -237,6 +267,11 @@
                     "class": "github",
                     "link": "https://github.com/aschle/magicKurbelKamera",
                     "text": "github"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "/downloads/projekte-2015/kurbelkamera_150702_endpraesentation.pdf",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -250,10 +285,10 @@
         },
         {
             "name": "Languini",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/linguini.png",
+            "tile_active": "/img/projekte-tiles/2015/linguini-active.png",
             "images": [
-                "/img/projekte-tiles/default-active.png"
+                "/img/projekte/languini_logo.png"
             ],
             "description": "Der Datensatz von LanguageScience Press enthält zu ca. 8000 Sprachen linguistische Informationen, Beispielsätze und geografische Informationen, die wir mit unserer App einem breiteren Publikum zugänglich machen wollen. Dabei wollen wir auf spielerische Art und Weise die Neugier fördern, sich mit Linguistik auseinanderzusetzen und so ein Bewusstsein für die sprachliche Vielfalt schaffen. In einer Übersicht können alle Sprachen mit ihren zugehörigen Informationen abgerufen werden. Anschließen kann der Nutzer in zwei unterschiedlichen Modi sein Wissen testen: Im Geomodus muss er anhand eines Beispielsatzes auf einer Weltkarte die zugehörige Sprache einordnen, im Quizmodus den Beispielsatz der richtigen Sprache zuordnen.",
             "links": [
@@ -266,6 +301,16 @@
                     "class": "github",
                     "link": "https://github.com/lennet/languini",
                     "text": "github"
+                },
+                {
+                    "class": "game",
+                    "link": "https://itunes.apple.com/de/app/languini/id1010870756?mt=8",
+                    "text": "App Store"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "/downloads/projekte-2015/languini_final.pdf",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -278,8 +323,8 @@
         },
         {
             "name": "Little Piano",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/little_piano.png",
+            "tile_active": "/img/projekte-tiles/2015/little_piano-active.png",
             "images": [
                 "/img/projekte/little-piano_logo.png"
             ],
@@ -306,8 +351,8 @@
         },
         {
             "name": "MIDIOLA",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/midiola.png",
+            "tile_active": "/img/projekte-tiles/2015/midiola-active.png",
             "images": [
                 "/img/projekte-tiles/default-active.png"
             ],
@@ -334,8 +379,8 @@
 
         {
             "name": "Munhwa",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/munhwa.png",
+            "tile_active": "/img/projekte-tiles/2015/munhwa-active.png",
             "images": [
                 "/img/projekte/munhwa-logo.png"
             ],
@@ -345,6 +390,21 @@
                     "class": "github",
                     "link": "https://github.com/ktugan/HumboldtsPflantastischeReise",
                     "text": "github"
+                },
+                {
+                    "class" : "video",
+                    "link" : "http://136.243.4.67/index.php/s/Nha2CmDokJvFIvn/download",
+                    "text" : "Trailer"
+                },
+                {
+                    "class" : "game",
+                    "link" : "http://136.243.4.67/index.php/s/O9QzHjZd07O4KQm/download",
+                    "text" : "Spiel"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "/downloads/projekte-2015/munhwa-final.pdf",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -357,8 +417,8 @@
         },
         {
             "name": "Musikus",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/musikus.png",
+            "tile_active": "/img/projekte-tiles/2015/musikus-active.png",
             "images": [
                 "/img/projekte/musikus_logo.png"
             ],
@@ -373,6 +433,11 @@
                     "class": "github",
                     "link": "https://github.com/PascalEsemann/musikus_01",
                     "text": "github"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "/downloads/projekte-2015/musikus.pdf",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -385,8 +450,8 @@
         },
         {
             "name": "Nürnberger Lebkuchen",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/nurnberger.png",
+            "tile_active": "/img/projekte-tiles/2015/nurnberger-active.png",
             "images": [
                 "/img/projekte/nuernberger-lebkuchen_logo.png"
             ],
@@ -412,8 +477,8 @@
         },
         {
             "name": "Patents in Motion",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/patentisinmotion.png",
+            "tile_active": "/img/projekte-tiles/2015/patentisinmotion-active.png",
             "images": [
                 "/img/projekte/patentsinmotion_logo.png"
             ],
@@ -428,6 +493,11 @@
                     "class": "github",
                     "link": "https://github.com/emilyTK/patentsinmotion",
                     "text": "github"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "http://136.243.4.67/index.php/s/26gVHVWmTfirKsi/download",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -439,10 +509,10 @@
         },
         {
             "name": "Pyanola",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/pyanola.png",
+            "tile_active": "/img/projekte-tiles/2015/pyanola-active.png",
             "images": [
-                "/img/projekte-tiles/default-active.png"
+                "/img/projekte/pyanola_logo.png"
             ],
             "description": "Die Klavierrollen vom deutschen Museum sollen analysiert, in MIDI Dateien gewandelt und danach auf einer Website präsentiert werden. Dadurch sollen sie einer breiten Öffentlichkeit verfügbar gemacht werden.",
             "links": [
@@ -455,6 +525,21 @@
                     "class": "github",
                     "link": "https://github.com/misterdanb/pyanola",
                     "text": "github"
+                },
+                {
+                    "class" : "audio",
+                    "link" : "/downloads/projekte-2015/pyanola_bach.mp4",
+                    "text" : "Beispel: Bach"
+                },
+                {
+                    "class" : "audio",
+                    "link" : "/downloads/projekte-2015/pyanola_elise.mp4",
+                    "text" : "Beispel: Für Elise"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "/downloads/projekte-2015/pyanola_pr.pdf",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -466,8 +551,8 @@
         },
         {
             "name": "Rolling Stone",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/rollingstone.png",
+            "tile_active": "/img/projekte-tiles/2015/rollingstone-active.png",
             "images": [
                 "/img/projekte/rolling_stone_logo.png"
             ],
@@ -482,6 +567,11 @@
                     "class": "github",
                     "link": "https://github.com/knutator2/Rolling-Stone",
                     "text": "github"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "/downloads/projekte-2015/rolling-stone.pdf",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -494,8 +584,8 @@
         },
         {
             "name": "veikkos-archiv / Geschichte 2.0",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/veikkos.png",
+            "tile_active": "/img/projekte-tiles/2015/veikkos-active.png",
             "images": [
                 "/img/projekte/Veikkos-Comic18.jpg"
             ],
@@ -557,8 +647,8 @@
         },
         {
             "name": "Wiederaufbau Ost-Berlin",
-            "tile": "/img/projekte-tiles/default.png",
-            "tile_active": "/img/projekte-tiles/default-active.png",
+            "tile": "/img/projekte-tiles/2015/wiederaufbau_ost.png",
+            "tile_active": "/img/projekte-tiles/2015/wiederaufbau_ost-active.png",
             "images": [
                 "/img/projekte/wiederaufbau_ost_logo.png"
             ],
@@ -573,6 +663,11 @@
                     "class": "github",
                     "link": "https://github.com/zfhui/CodingDaVinci",
                     "text": "github"
+                },
+                {
+                    "class" : "pdf",
+                    "link" : "/downloads/projekte-2015/wiederaufbau_ostberlin_-_cdV_projektpraesentation.pdf",
+                    "text" : "Teampräsentation"
                 }
             ],
             "data": [
@@ -635,7 +730,7 @@
         },
         {
             "id": 7,
-            "name": "Zhou-Fei Hui",
+            "name": "Zhuo-Fei Hui",
             "contact" : {
                 "mail" : "zhfhui@gmail.com"
             }
@@ -692,7 +787,7 @@
         },
         {
             "id": 15,
-            "name": "Momo Moradi",
+            "name": "Mohammad Moradi",
             "contact" : {
                 "mail" : "moradi.berlin@gmail.com"
             }
