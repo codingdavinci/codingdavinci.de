@@ -1,3 +1,6 @@
 baseurl: /
 registerurl: /anmeldung/
 markdown: kramdown
+
+sass:
+  style: compressed

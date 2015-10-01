@@ -1,3 +1,6 @@
+---
+---
+
 @font-face {
   font-family: 'Archive';
   src: url('../fonts/archive.eot');
@@ -1466,3 +1469,27 @@ height: 100%;
     margin-top: 1em;
   }
 }
+
+.box {
+    background-color: #fff;
+    display: block;
+    flex-grow: 1;
+    margin: $grid-margin 0;
+}
+
+.box .inner, .box-inner {
+    padding: 2rem;
+}
+
+.box h1, .box h2, .box h3 {
+    margin: 1rem auto 1rem;
+}
+
+.box p:last-child {
+    margin-bottom: 0;
+}
+
+.mini .box .inner, .mini .box .inner h3 {
+    font-size: 0.9em;
+}
+
