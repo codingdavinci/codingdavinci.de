@@ -13,7 +13,8 @@
           display: none
         }
       </style>
-    <![endif]-->
+
+      <![endif]-->
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="{{ site.baseurl }}img/favicon.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}img/apple-touch-icon-57x57.png">
@@ -74,31 +75,24 @@
         </div>
 
         <ul class="nav navbar-nav navbar-right">
-            <li class="touchable separator {% if page.slug == "mitmachen" %}active{% endif %}">
-              <a href="{{ site.baseurl }}mitmachen/">Mitmachen!&nbsp;&#x25BE;</span></a>
-              <ul class="nav navbar-nav">
-                <li><a {% if page.slug == "mitmachen" %}class="scroll-offset"{% endif %} href="{{ site.baseurl }}mitmachen/#kulturinstitution">Kulturinstitution</a></li>
-                <li><a class="{% if page.slug == "mitmachen" %}scroll-offset{% endif %}" href="{{ site.baseurl }}mitmachen/#teilnehmer">Teilnehmer/innen</a></li>
-                <li><a class="{% if page.slug == "mitmachen" %}scroll-offset{% endif %}" href="{{ site.baseurl }}mitmachen/#challenges">Challenges</a></li>
-              </ul>
-            </li>
+
             <li class="separator {% if page.slug == "daten" %}active{% endif %}">
               <a href="{{ site.baseurl }}daten/">Daten</a>
             </li>
-            <li class="separator {% if page.slug == "programm" %}active{% endif %}">
-              <a href="{{ site.baseurl }}programm/">Programm</a>
-            </li>
             <li class="separator {% if page.slug == "projekte" %}active{% endif %}">
               <a href="{{ site.baseurl }}projekte/">Projekte</a>
+            </li>
+            <li class="separator {% if page.slug == "dokumentation" %}active{% endif %}">
+            <a href="{{ site.baseurl }}dokumentation/">Dokumentation</a>
+            </li>
+            <li class="separator {% if page.slug == "stimmen" %}active{% endif %}">
+            <a href="{{ site.baseurl }}stimmen/">Stimmen</a>
             </li>
             <li class="separator {% if page.slug == "unterstuetzer" %}active{% endif %}">
               <a href="{{ site.baseurl }}unterstuetzer/">Unterstützer</a>
             </li>
             <li class="separator {% if page.slug == "presse" %}active{% endif %}">
               <a href="{{ site.baseurl }}presse/">Presse</a>
-            </li>
-            <li class="separator {% if page.slug == "dokumentation" %}active{% endif %}">
-              <a href="{{ site.baseurl }}dokumentation/">Dokumentation</a>
             </li>
             <li class="separator {% if page.slug == "dokumentation" %}active{% endif %}">
               <a href="{{ site.baseurl }}english-infos/">

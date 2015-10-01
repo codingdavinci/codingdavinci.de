@@ -1,0 +1,21 @@
+---
+layout: default
+title: stimmen
+---
+
+{% assign stimmen = site.data.stimmen %}
+
+<header id="stimmen" class="subheader">
+    <h2>Stimmen</h2>
+</header>
+
+<div class="container">
+    {% for person in stimmen %}
+    {% assign order=forloop.index0|modulo:2 %}
+    {% include person.html person=person order=order %}
+    {% endfor %}
+
+</div>
+
+
+
