@@ -1478,6 +1478,7 @@ height: 100%;
 
 .box .inner, .box-inner {
     padding: 2rem;
+    background: #e3e3e3;
 }
 
 .box h1, .box h2, .box h3 {
@@ -1492,3 +1493,7 @@ height: 100%;
     font-size: 0.9em;
 }
 
+.row:nth-child(even) {
+ flex-direction: row-reverse;
+
+}
