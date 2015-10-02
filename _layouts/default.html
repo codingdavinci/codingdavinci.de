@@ -160,12 +160,22 @@
     <script src="{{ site.baseurl }}js/bootstrap.min.js"></script>
     <script src="{{ site.baseurl }}js/codingdavinci.js"></script>
     <script src="{{ site.baseurl }}js/lightgallery.min.js"></script>
-    <script src="{{ site.baseurl }}js/lg-thumbnails.min.js"></script>
+    <script src="{{ site.baseurl }}js/lg-thumbnail.min.js"></script>
     <script src="{{ site.baseurl }}js/lg-video.min.js"></script>
 
     {% if page.js %}
     <script src="{{ site.baseurl }}js/{{page.js}}"></script>
     {% endif %}
+
+    {% if page.slug == "dokumentation" %}
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#lightgallery").lightGallery();
+      });
+    </script>
+    {% endif %}
+
+
     <!-- Piwik -->
       <script type="text/javascript">
         var _paq = _paq || [];
