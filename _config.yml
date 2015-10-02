@@ -1,3 +1,7 @@
 baseurl: /
 registerurl: /anmeldung/
 markdown: kramdown
+
+permalink: /news/:year/:month/:day/:title.html
+paginate: 7
+paginate_path: "/news/page:num/"
