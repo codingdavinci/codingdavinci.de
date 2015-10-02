@@ -1535,7 +1535,6 @@ height: 100%;
   float: left;
 }
 
-
 .person-image {
   object-fit: cover;
   width: 100%;
@@ -1546,7 +1545,8 @@ height: 100%;
   padding: 0px;
 }
 
-.stimmen-headline {
+.stimmen-headline h3 {
+  text-align: left;
 }
 
 .linklist{

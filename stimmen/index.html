@@ -3,17 +3,15 @@ layout: default
 title: stimmen
 ---
 
-{% assign stimmen = site.data.stimmen %}
-
 <header id="stimmen" class="subheader">
     <h2>Stimmen</h2>
 </header>
 
 <div class="container">
     <br><br>
-    {% for person in stimmen %}
-    {% assign order=forloop.index0|modulo:2 %}
-    {% include person.html person=person order=order %}
+    {% for stimme in site.data.stimmen %}
+    {% assign order = forloop.index0 | modulo:2 %}
+    {% include stimme.html stimme=stimme order=order %}
     {% endfor %}
 
 </div>
