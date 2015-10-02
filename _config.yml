@@ -5,3 +5,6 @@ markdown: kramdown
 sass:
   style: compressed
   sass_dir: _sass
+permalink: /news/:year/:month/:day/:title.html
+paginate: 7
+paginate_path: "/news/page:num/"
