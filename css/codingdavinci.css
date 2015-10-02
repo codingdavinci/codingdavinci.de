@@ -404,13 +404,13 @@ li.active .navsub li a{
 .sponsor-container {
   
   display: table;
-  width: 100%
+  width: 100%;
 }
 
 .glam-container {
   
   display: table;
-  width: 100%
+  width: 100%;
 }
 
 .sponser-header {
@@ -437,6 +437,28 @@ hr {
   text-align: center;
   background-repeat: no-repeat;
   background-position: center top;
+}
+
+.post-normal img {
+  float:left;
+  margin-right: 10px;
+}
+
+.post-big img {
+  display: block; 
+  margin:auto;
+}
+
+.post-big {
+  margin-bottom: 50px;
+}
+
+.post-date {
+  font-size: 12pt;
+}
+
+.post-more {
+  text-align: right;
 }
 
 .subheader h2 {
