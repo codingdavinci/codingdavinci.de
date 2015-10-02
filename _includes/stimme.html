@@ -1,8 +1,7 @@
 {% assign stimme=include.stimme %}
 <div class="row" id="{{ stimme.name | slugify | uri_escape }}">
     <div class="col-md-4 col-xs-12">
-        <div class="box no-padding">
-            <img class="person-image" src="{{ site.baseurl }}img/stimmen/{{ stimme.img }}.jpg"></img>
+        <div class="box no-padding" style="background-image:url({{ site.baseurl }}img/stimmen/{{ stimme.img }}.jpg); background-size:cover">
         </div>
     </div>
     <div class="col-md-8 col-xs-12">
@@ -10,8 +9,8 @@
             <div class="stimmen-headline">
                 <h3 >{{ stimme.name }}</h3>
             </div>
-            <div class="stimmen-institute">
-                <a href="{{ stimmen.url }}">{{ stimme.institute }} </a><br/><br/>
+            <div class="stimmen-role">
+                <a href="{{ stimmen.url }}">{{ stimme.institute }} </a>
             </div>
             <div class="stimmen-content">
                 <p> "{{ stimme.quote }}"</p><br/>

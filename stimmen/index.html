@@ -2,18 +2,14 @@
 layout: default
 title: stimmen
 ---
-
-<header id="stimmen" class="subheader">
-    <h2>Stimmen</h2>
-</header>
-
 <div class="container">
-    <br><br>
-    {% for stimme in site.data.stimmen %}
-    {% assign order = forloop.index0 | modulo:2 %}
-    {% include stimme.html stimme=stimme order=order %}
-    {% endfor %}
+	<header id="stimmen" class="subheader">
+    	<h2>Stimmen</h2>
+	</header>
 
+    {% for stimme in site.data.stimmen %}
+    	{% include stimme.html stimme=stimme %}
+    {% endfor %}
 </div>
 
 
