@@ -98,7 +98,7 @@
             </li>
             <li class="separator {% if page.slug == "dokumentation" %}active{% endif %}">
               <a href="{{ site.baseurl }}english-infos/">
-                <span>English Infos</span>
+
                 <img class="english" src="{{ site.baseurl }}img/icons/unionflag.png" />
               </a>
             </li>
@@ -170,7 +170,9 @@
     {% if page.slug == "dokumentation" %}
     <script type="text/javascript">
       $(document).ready(function() {
-        $("#lightgallery").lightGallery();
+        $("#lightgallery").lightGallery({
+          thumbnail:true
+        });
       });
     </script>
     {% endif %}
