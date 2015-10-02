@@ -10,6 +10,7 @@ title: stimmen
 </header>
 
 <div class="container">
+    <br><br>
     {% for person in stimmen %}
     {% assign order=forloop.index0|modulo:2 %}
     {% include person.html person=person order=order %}

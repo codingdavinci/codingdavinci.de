@@ -1,15 +1,17 @@
 {% assign stimmen=include.person %}
 <div class="row" id="{{ stimmen.name | slugify | uri_escape }}">
     <div class="col-md-4 col-xs-12">
-        <div class="box person-image" style="background-image:url('{{ site.baseurl }}img/stimmen/{{ person.img }}.jpg')">
+        <div class="box no-padding">
+            <img class="person-image" src="{{ site.baseurl }}img/stimmen/{{ person.img }}.jpg"></img>
         </div>
     </div>
     <div class="col-xs">
         <div class="box box-inner">
-            <h3>{{ stimmen.name }}</h3>
-            {{ stimmen.institute }} <br/>
-            {{ stimmen.quote }} <br/>
-            {{ stimmen.date }}<br/>
+            <div class="floatleft stimmen-headline">
+            <h3 >{{ stimmen.name }}</h3></div>
+            <br/><br/><a href="{{ stimmen.url }}">{{ stimmen.institute }} </a><br/><br/>
+            <p> "{{ stimmen.quote }}"</p><br/>
+            <b>{{ stimmen.date }}</b></br>
         </div>
     </div>
 </div>
