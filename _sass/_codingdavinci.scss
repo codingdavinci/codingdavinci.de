@@ -1497,3 +1497,14 @@ height: 100%;
  flex-direction: row-reverse;
 
 }
+
+#documentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fotobox {
+  display: flex;
+
+}
