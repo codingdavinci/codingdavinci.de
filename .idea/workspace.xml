@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9374d9d4-a633-42f4-bb6d-2f5592ca065b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/e2831b1c7fb78c57bce8d746fd818377060c7022/_codingdavinci.scssc" afterPath="$PROJECT_DIR$/.sass-cache/e2831b1c7fb78c57bce8d746fd818377060c7022/_codingdavinci.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/stimmen/martinreisacher.jpg" afterPath="$PROJECT_DIR$/img/stimmen/martinreisacher.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/stimmen/philipgorki.jpg" afterPath="$PROJECT_DIR$/img/stimmen/philipgorki.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/stimmen/ruthrosenberger.jpg" afterPath="$PROJECT_DIR$/img/stimmen/ruthrosenberger.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/stimmen/sebastianruff.jpg" afterPath="$PROJECT_DIR$/img/stimmen/sebastianruff.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_codingdavinci.scss" afterPath="$PROJECT_DIR$/_sass/_codingdavinci.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stimmen/index.html" afterPath="$PROJECT_DIR$/stimmen/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/person.html" afterPath="$PROJECT_DIR$/_includes/person.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/stimmen.yml" afterPath="$PROJECT_DIR$/_data/stimmen.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dokumentation/index.html" afterPath="$PROJECT_DIR$/dokumentation/index.html" />
     </list>
     <ignored path="codingdavinci.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,50 +24,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stimmen/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2247191">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="person.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/person.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_codingdavinci.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/_codingdavinci.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.730769">
-              <caret line="1480" column="24" selection-start-line="1480" selection-start-column="24" selection-end-line="1480" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stimmen.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_data/stimmen.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dokumentation/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.125">
-              <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.71910113">
+              <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -96,11 +48,11 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/dokumentation/index.html" />
         <option value="$PROJECT_DIR$/_data/stimmen.yml" />
         <option value="$PROJECT_DIR$/_includes/person.html" />
         <option value="$PROJECT_DIR$/_sass/_codingdavinci.scss" />
         <option value="$PROJECT_DIR$/stimmen/index.html" />
+        <option value="$PROJECT_DIR$/dokumentation/index.html" />
       </list>
     </option>
   </component>
@@ -184,35 +136,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codingdavinci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codingdavinci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stimmen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codingdavinci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codingdavinci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dokumentation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codingdavinci" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codingdavinci" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codingdavinci" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codingdavinci" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -601,14 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dokumentation/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.125">
-          <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_data/stimmen.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -635,8 +583,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stimmen/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2247191">
+        <state vertical-scroll-proportion="-7.5">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dokumentation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71910113">
+          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
           <folding />
         </state>
       </provider>
