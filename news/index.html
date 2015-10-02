@@ -1,0 +1,19 @@
+---
+layout: default
+slug: news
+---
+
+<div class="row">
+  	<div class="col-lg-8 col-lg-offset-2">
+
+		{% include post_big.html post=site.posts.first %}
+
+			
+
+		{% for post in paginator.posts offset:1 %}
+		    {% include post_normal.html post=post %}
+	    	
+		{% endfor %}
+	</div>
+</div>
+
