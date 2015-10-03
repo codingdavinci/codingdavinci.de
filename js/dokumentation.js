@@ -4,4 +4,10 @@ $(document).ready(function() {
     		animateThumb: false,
     		showThumbByDefault: false
 	});
+
+	$("#lightgallery-video").lightGallery({
+		 	thumbnail:true,
+    		animateThumb: false,
+    		showThumbByDefault: false
+	});
 });
