@@ -83,6 +83,11 @@ h4 {
   padding: 1em 0 0;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%
+}
+
 .background {
   background-color: white;
   position: relative;
@@ -401,6 +406,10 @@ li.active .navsub li a{
 
 .glam > img {
   height: 50px;
+}
+
+.kulturinstitutionen img {
+  max-width: 100%
 }
 
 .sponsor-container {
@@ -1528,7 +1537,13 @@ height: 100%;
 
 .fotobox {
   display: flex;
+  max-width: 620px;
+  margin: auto;
+  margin-bottom: 20px;
+}
 
+.fotobox img {
+  margin-bottom: 5px;
 }
 
 .floatleft {
