@@ -2,18 +2,22 @@
 layout: default
 slug: news
 ---
+<div id="news" class="container">
+	<header class="subheader ">
+      <h2>News</h2>
+    </header>
+	<div class="row">
+	  	<div class="col-lg-8 col-lg-offset-2">
 
-<div class="row">
-  	<div class="col-lg-8 col-lg-offset-2">
+			{% include post_big.html post=site.posts.first %}
 
-		{% include post_big.html post=site.posts.first %}
+				
 
-			
-
-		{% for post in paginator.posts offset:1 %}
-		    {% include post_normal.html post=post %}
-	    	
-		{% endfor %}
+			{% for post in paginator.posts offset:1 %}
+			    {% include post_normal.html post=post %}
+		    	
+			{% endfor %}
+		</div>
 	</div>
 </div>
 
