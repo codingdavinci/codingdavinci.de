@@ -1,3 +1,6 @@
+---
+---
+
 $grid-margin: 10px;
 
 @font-face {
@@ -1544,6 +1547,10 @@ height: 100%;
 
 .fotobox img {
   margin-bottom: 5px;
+}
+
+.post-image img {
+  margin: auto;
 }
 
 .floatleft {
