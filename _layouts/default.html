@@ -82,6 +82,9 @@
 
         <ul class="nav navbar-nav navbar-right">
 
+            <li class="separator {% if page.slug == "news" %}active{% endif %}">
+              <a href="{{ site.baseurl }}news/">News</a>
+            </li>
             <li class="separator {% if page.slug == "daten" %}active{% endif %}">
               <a href="{{ site.baseurl }}daten/">Daten</a>
             </li>
