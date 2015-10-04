@@ -3,7 +3,7 @@
 <div class="post-big">
 	<h2>{{ post.title }}</h2>
 	<div class="post-date">
-		<span>{{ post.date | date:"%-d.%m.%Y" }}</span> 
+		<span>{{ post.date | date:"%-d.%m.%Y" }} | {{ post.author }}</span> 
 	</div>
 	<img src="{{post.image}}" style="" alt="">
 	<div class="post-content">
