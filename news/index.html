@@ -16,15 +16,5 @@ slug: news
 			{% endfor %}
 	  	</div>
 	</div>
-	<div class="row">
-		<div class="col-md-12">
-			{% if paginator.previous_page %}
-			<a href="{{ paginator.previous_page_path }}">&lt;&lt; Vorherige Seite</a>
-			{% endif %}
-			{% if paginator.next_page %}
-			<a href="{{ paginator.next_page_path }}" class="pull-right">Nächste Seite &gt;&gt;</a>
-			{% endif %}	
-		</div>
-	</div>
 </div>
 
