@@ -3,3 +3,5 @@ _plugins/
 img/src/
 downloads/src/
 .idea/
+
+.sass-cache/
