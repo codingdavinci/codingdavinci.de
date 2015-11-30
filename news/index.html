@@ -9,8 +9,8 @@ slug: news
 	<div class="row">
 	  	<div class="col-lg-8 col-lg-offset-2">
 	  		<div class="row">
-	  		
-	  		{% if paginator.page == 1 %} 
+				{% include blog_navigation.html %}
+	  		{% if paginator.page == 1 %}
 	  			{% include post_big.html post=site.posts.first %}
 	  			{% for post in paginator.posts offset:1 %}
 			    	{% include post_normal.html post=post %}
@@ -20,20 +20,11 @@ slug: news
 			    	{% include post_normal.html post=post %}
 		    	{% endfor %}
 	  		{% endif %}
-			
+				{% include blog_navigation.html %}
 	  		</div>
 	  	</div>
+
 	</div>
-	<div class="row">
-		<div class="col-md-12">
-			{% if paginator.previous_page %}
-			<a href="{{ paginator.previous_page_path }}">&lt;&lt; Vorherige Seite</a>
-			{% endif %}
-			{% if paginator.next_page %}
-			<a href="{{ paginator.next_page_path }}" class="pull-right">Nächste Seite &gt;&gt;</a>
-			{% endif %}	
-		</div>
-	</div>
+
 
 </div>
-

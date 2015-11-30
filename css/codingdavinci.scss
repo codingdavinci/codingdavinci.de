@@ -193,7 +193,7 @@ a.scroll-hint:hover {
 
 
 .lg-video {
-  display:inline-block; 
+  display:inline-block;
   max-width:305px;
   vertical-align: top;
 }
@@ -421,13 +421,13 @@ li.active .navsub li a{
 }
 
 .sponsor-container {
-  
+
   display: table;
   width: 100%;
 }
 
 .glam-container {
-  
+
   display: table;
   width: 100%;
 }
@@ -464,9 +464,9 @@ hr {
 }
 
 .post-big img {
-  display: block; 
+  display: block;
   margin:auto;
-  width:100%
+  width:50%
 }
 
 .post-big {
@@ -480,6 +480,16 @@ hr {
 
 .post-more {
   text-align: right;
+}
+
+.blog-navigation {
+    margin-top: 20px;
+}
+
+.logo-cloud {
+  max-width: 60%;
+  display: block;
+  margin: auto;
 }
 
 .subheader h2 {
@@ -1157,7 +1167,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 .project-image-container {
-    
+
     float: left;
     max-width: 50%;
     margin-right: 24px;
@@ -1167,7 +1177,7 @@ only screen and (min-device-pixel-ratio: 2) {
 .projects-container .gap{
   display: inline-block;
   width: 300px;
-  
+
 }
 
 .projects-container .project-tile{
@@ -1197,7 +1207,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 @media(print) {
-  
+
   .project-intro {
     display: none !important;
   }
@@ -1205,7 +1215,7 @@ only screen and (min-device-pixel-ratio: 2) {
   .nav-container {
     /*display: none;*/
   }
-  
+
   #projekte {
     display: none ;
   }
@@ -1252,10 +1262,10 @@ height: 0;
 margin-bottom: 16px;
 overflow: hidden;
 }
- 
+
 .flex-video.widescreen { padding-bottom: 57.25%; }
 .flex-video.vimeo { padding-top: 0; }
- 
+
 .flex-video iframe,
 .flex-video object,
 .flex-video embed {
@@ -1411,10 +1421,10 @@ height: 100%;
 
 .project-header {
   border: 0px;
-  border-bottom: 7px solid; 
+  border-bottom: 7px solid;
   /*border-image-source : url(../img/cdv_linie_v.png);
   border-image-repeat : repeat;*/
-  border-image : url(../img/cdv_linie_v.png) 5 repeat; 
+  border-image : url(../img/cdv_linie_v.png) 5 repeat;
   border-image-slice : fill;
   /*height: 100px;*/
   padding-top: 0;
@@ -1429,7 +1439,7 @@ height: 100%;
   margin-top : 20px;
 }
 
-.project-link:visited, 
+.project-link:visited,
 .project-link:focus {
   text-decoration: none;
 }
