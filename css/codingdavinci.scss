@@ -2,6 +2,7 @@
 ---
 
 $grid-margin: 10px;
+$color-green: #C4F3E6;
 
 @font-face {
   font-family: 'Archive';
@@ -194,7 +195,7 @@ a.scroll-hint:hover {
 
 .lg-video {
   display:inline-block;
-  max-width:305px;
+  max-width:405px;
   vertical-align: top;
 }
 
@@ -484,6 +485,10 @@ hr {
 
 .blog-navigation {
     margin-top: 20px;
+}
+
+.fotos-description p{
+  text-align: center;
 }
 
 .logo-cloud {
@@ -1538,11 +1543,11 @@ height: 100%;
 }
 
 .box-testimonials {
-  background-color: #19C6F9;
+  background-color: $color-green;
 }
 
 .box-testimonials a {
-  color: white;
+  color: black;
 }
 
 .box h1, .box h2, .box h3 {
@@ -1573,6 +1578,17 @@ height: 100%;
   max-width: 620px;
   margin: auto;
   margin-bottom: 20px;
+}
+
+.videobox {
+  display: flex;
+  max-width: 832px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.videobox > div{
+  text-align: center;
 }
 
 .fotobox img {
