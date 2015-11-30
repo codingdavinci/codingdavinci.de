@@ -27,8 +27,8 @@
             ],
             "data": [
                 "Studentenrevolte 1967/18 (Stiftung Haus der Geschichte)",
-                "GND", 
-                "LeMO Jahreschroniken", 
+                "GND",
+                "LeMO Jahreschroniken",
                 "Medienarchiv68"
             ],
             "team": [
@@ -57,8 +57,8 @@
             ],
             "data": [
                 "Stiftung Stadtmuseum Berlin (Schichten der Geschichte)",
-                "Geodaten der ALT-Berlin App (Claus Höfele)", 
-                "eigene Aufnahmen", 
+                "Geodaten der ALT-Berlin App (Claus Höfele)",
+                "eigene Aufnahmen",
                 "Wikipedia"
             ],
             "team": [
@@ -106,7 +106,7 @@
             ],
             "description": "Geschichte lebt, wenn wir sie lebendig machen und am Leben halten. Ein modernes Erscheinungsbild auf Smartphone und Großbildschirm haucht Geschichte digitales Leben ein – egal wo wir sie antreffen. FLEXT@cdv zeigt das an ausgewählten Bildbeständen aus dem codingdavinci Repertoire. Und nicht nur außen wird es schöner, auch innen – under the hood. HTML für jedes Digitalisat wird mit schema.org RDFa angereichert, sodass Suchmaschinen-Ergebnisse strukturierte Daten anzeigen können. Auch die Handhabung ist einfach: Datensätze jedweder Art können im Handumdrehen eingelesen und angezeigt werden. So haucht FLEXT Kulturgütern digitales Leben ein.",
             "links": [
-                
+
             ],
             "data": [
                 "\"Studentenrevolte 1967/68\" (Stiftung Haus der Geschichte)",
@@ -148,7 +148,7 @@
             ],
             "data": [
                 "botanischer garten herbarium",
-                "tropicos.org" 
+                "tropicos.org"
             ],
             "team": [
                 0,1,2,3
@@ -242,7 +242,7 @@
             ],
             "data": [
                 "<a href=\"http://www.deutsches-museum.de/ausstellungen/musikinstrumente/projekte/notenrollen/\">Notenrollen</a>",
-                "www.processing.org", 
+                "www.processing.org",
                 "<a href=\"http://www.sengpielaudio.com/Rechner-notennamen.htm\">Notennamen Rechner</a>"
             ],
             "team": [
@@ -276,7 +276,7 @@
             ],
             "data": [
                 "Deutsches Filminstitut, Film \"Moren tanzt\"",
-                "<a href=\"https://vimeo.com/74328710\">Vimeo</a>", 
+                "<a href=\"https://vimeo.com/74328710\">Vimeo</a>",
                 "Dropbox API"
             ],
             "team": [
@@ -343,10 +343,32 @@
             ],
             "data": [
                 "Notenrollen",
-                "evtl. Patentbeschreibungen- und zeichnungen" 
+                "evtl. Patentbeschreibungen- und zeichnungen"
             ],
             "team": [
                 4
+            ]
+        },
+        {
+            "name": "Maya Codex in 2,2 Gigapixeln",
+            "tile": "/img/projekte-tiles/default.png",
+            "tile_active": "/img/projekte-tiles/default-active.png",
+            "images": [
+                "/img/projekte/mayakodex.png"
+            ],
+            "description": "Der etwa 800 Jahre alte Codex Dresdensis ist eine der wenigen erhaltenen Maya Handschriften. Für den Kultur-Hackathon Coding da Vinci hat die SLUB Dresden die Scanns des Werkes in voller Auflösung bereit gestellt. Für den Wettbewerb ist es zwar zu spät, aber ich wollte trotzdem etwas mit den Bildern machen. Jede der einzelnen Seiten habe ich als hochauflösende Bilddatei vorgefunden. Das interessante ist, dass die Bilder nicht 100% zugeschnitten waren so dass man an den Rändern noch kleine Teile der angrenzenden Seite sieht. Deswegen habe ich einfach mal probiert, was passiert, wenn man alle diese Dateien in Photoshop zu einem Panorama zusammen rechnen lässt. Das Ergebnis ist ein zoombarer Maya Codex geworden.",
+            "links": [
+                {
+                    "class": "projects-website",
+                    "link": "http://blattspinat.com/index.php/posts/maya-codex-in-2-2-gigapixeln",
+                    "text": "Webseite"
+                }
+            ],
+            "data": [
+                "Maya Codex der SLUB Dresden"
+            ],
+            "team": [
+                68
             ]
         },
         {
@@ -604,8 +626,8 @@
                 "Baugeschichtliches Archiv Stadt Zürich ",
                 "Archiv Ortsgeschichte der Stadt Wetzikon ",
                 "Deutsche Digitale Bibliothek",
-                "Landesarchiv Baden-Württemberg", 
-                "Staatsarchiv Freiburg", 
+                "Landesarchiv Baden-Württemberg",
+                "Staatsarchiv Freiburg",
                 "Europeana",
                 "Stadtarchiv Speyer",
                 "Deutsches Buch und Schriftmuseum",
@@ -614,7 +636,7 @@
                 "EFEU e.V., Zwölf-Apostel-Gemeinde"
             ],
             "team": [
-                59           
+                59
             ]
         },
         {
@@ -672,14 +694,14 @@
             ],
             "data": [
                 "Berlinische Galerie Fotodatensatz von 2014 aus dem Ostberliner Fotorchiv",
-                "Links zu den Berliner Großstadtgeschichten", 
-                "Wikipedia und Wikimedia Commons", 
+                "Links zu den Berliner Großstadtgeschichten",
+                "Wikipedia und Wikimedia Commons",
                 "frei verfügbare Videos von youtube"
             ],
             "team": [
                 5,6,7,8
             ]
-        }     
+        }
     ],
     "persons": [
         {
@@ -688,7 +710,7 @@
             "contact" : {
                 "mail": "langeanne@gmx.net"
             }
-            
+
         },
         {
             "id": 1,
@@ -1115,6 +1137,13 @@
             "name": "Michael Karg",
             "contact" : {
                 "github" : "mgmeier"
+            }
+        },
+        {
+            "id": 68,
+            "name": "Constantin Müller",
+            "contact" : {
+                "twitter" : "ubahnverleih"
             }
         }
     ]
