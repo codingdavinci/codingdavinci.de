@@ -7,11 +7,8 @@ css: flexboxgrid.css
 	<header id="stimmen" class="subheader">
     	<h2>Stimmen</h2>
 	</header>
-
-    {% for stimme in site.data.stimmen %}
+		{% assign stimmen = site.data.stimmen | sort: 'name' %}
+    {% for stimme in stimmen %}
     	{% include stimme.html stimme=stimme %}
     {% endfor %}
 </div>
-
-
-
