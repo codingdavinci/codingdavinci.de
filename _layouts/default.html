@@ -10,7 +10,7 @@
     <link href="{{ site.baseurl }}css/print.css" rel="stylesheet" type="text/css"; media="print">
 
     {% if page.css %}
-      <link href="{{ site.baseurl }}css/{{page.css}}" rel="stylesheet">    
+      <link href="{{ site.baseurl }}css/{{page.css}}" rel="stylesheet">
     {% endif %}
 
     <!--[if IE ]>
@@ -179,13 +179,16 @@
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
         (function() {
-          var u="//148.251.185.45/stats/";
+          var u="//traffic.okfn.de/";
           _paq.push(['setTrackerUrl', u+'piwik.php']);
-          _paq.push(['setSiteId', 2]);
+          _paq.push(['setSiteId', 12]);
           var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
           g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
         })();
       </script>
-      <!-- End Piwik Code -->
+      <noscript><p><img src="//traffic.okfn.de/piwik.php?idsite=12" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
+
+
   </body>
 </html>
