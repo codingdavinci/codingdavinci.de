@@ -74,13 +74,16 @@
         </div>
 
         <ul class="nav navbar-nav navbar-right">
-            <li class="touchable separator {% if page.slug == "mitmachen" %}active{% endif %}">
-              <a href="{{ site.baseurl }}mitmachen/">Mitmachen!&nbsp;&#x25BE;</span></a>
-              <ul class="nav navbar-nav">
-                <li><a {% if page.slug == "mitmachen" %}class="scroll-offset"{% endif %} href="{{ site.baseurl }}mitmachen/#kulturinstitution">Kulturinstitution</a></li>
-                <li><a class="{% if page.slug == "mitmachen" %}scroll-offset{% endif %}" href="{{ site.baseurl }}mitmachen/#teilnehmer">Teilnehmer/innen</a></li>
-                <li><a class="{% if page.slug == "mitmachen" %}scroll-offset{% endif %}" href="{{ site.baseurl }}mitmachen/#challenges">Challenges</a></li>
-              </ul>
+            <!--<li class="touchable separator {% if page.slug == "mitmachen" %}active{% endif %}">-->
+              <!--<a href="{{ site.baseurl }}mitmachen/">Mitmachen!&nbsp;&#x25BE;</span></a>-->
+              <!--<ul class="nav navbar-nav">-->
+                <!--<li><a {% if page.slug == "mitmachen" %}class="scroll-offset"{% endif %} href="{{ site.baseurl }}mitmachen/#kulturinstitution">Kulturinstitution</a></li>-->
+                <!--<li><a class="{% if page.slug == "mitmachen" %}scroll-offset{% endif %}" href="{{ site.baseurl }}mitmachen/#teilnehmer">Teilnehmer/innen</a></li>-->
+                <!--<li><a class="{% if page.slug == "mitmachen" %}scroll-offset{% endif %}" href="{{ site.baseurl }}mitmachen/#challenges">Challenges</a></li>-->
+              <!--</ul>-->
+            <!--</li>-->
+            <li class="separator {% if page.slug == "news" %}active{% endif %}">
+              <a href="{{ site.baseurl }}news/">News</a>
             </li>
             <li class="separator {% if page.slug == "daten" %}active{% endif %}">
               <a href="{{ site.baseurl }}daten/">Daten</a>
