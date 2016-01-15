@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="container" id="programm">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 blogpost">
+            <h1>{{ page.title }}</h1>
+            <div class="post-date">
+                <span>{{ page.date | date:"%-d.%m.%Y" }}</span>
+            </div>
+            <img src="{{page.image}}" class="img-responsive" style="" alt="">
+            <div class="post-content">
+                {{ content}}
+            </div>
+        </div>
+    </div>
+</div>
