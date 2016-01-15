@@ -182,7 +182,27 @@ a.scroll-hint:hover {
   100% { color: #000; }
 }
 
+.blogpost .img-responsive {
+  margin: 0 auto;
+}
 
+.blogpost iframe {
+  margin: 3px auto 30px;
+}
+
+.blogpost .block-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.blogpost .block-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.blogpost .image-caption {
+  font-size: 11pt;
+}
 
 @media (max-width: 768px) {
   .header {
