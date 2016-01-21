@@ -1,0 +1,10 @@
+<div class="row blog-navigation">
+  <div class="col-md-12">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">&lt;&lt; vorherige Seite</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="pull-right">nächste Seite &gt;&gt;</a>
+    {% endif %}
+  </div>
+</div>

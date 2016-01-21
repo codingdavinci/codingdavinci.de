@@ -1,0 +1,25 @@
+{% assign stimme=include.stimme %}
+<div class="row" id="{{ stimme.name | slugify | uri_escape }}">
+    <div class="col-md-4 col-xs-12">
+        <div class="box no-padding stimme-image" style="background-image:url({{ site.baseurl }}img/stimmen/{{ stimme.img }}.jpg);">
+        </div>
+    </div>
+    <div class="col-md-8 col-xs-12">
+        <div class="box box-inner box-testimonials">
+            <div class="stimmen-headline">
+                <h3 >{{ stimme.name }}</h3>
+            </div>
+            <div class="stimmen-role">
+                {% if stimme.url %}
+                    <a href="{{ stimme.url }}">{{ stimme.institute }} </a>
+                {% else %}
+                    {{ stimme.institute }}
+                {% endif %}
+            </div>
+            <div class="stimmen-content">
+                <p> "{{ stimme.quote }}"</p><br/>
+                <p class="pull-right">{{ stimme.date }}</p></br>
+            </div>
+        </div>
+    </div>
+</div>

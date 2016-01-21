@@ -2,6 +2,9 @@ baseurl: /
 registerurl: /anmeldung/
 markdown: kramdown
 
+sass:
+  style: compressed
+
 permalink: /news/:year/:month/:day/:title.html
 
 gems: [jekyll-paginate]

@@ -20,10 +20,12 @@
 	<div class="col-md-8 post-content">
 		<h2>{{ post.title }}</h2>
 		<div class="">
-			{{ post.content | strip_html | truncatewords:30}}<br>
+			{{ post.content | strip_html | truncatewords:60}}<br>
 		</div>
-		<div class="post-more">
-			<a href="{{ post.url }}">Weiterlesen</a><br><br>
+
+			<div class="post-more">
+				<a href="{{ post.url }}">weiterlesen</a><br><br>
+			</div>
 		</div>
 	</div>
 </div>

@@ -1,0 +1,14 @@
+---
+layout: default
+title: stimmen
+css: flexboxgrid.css
+---
+<div class="container">
+	<header id="stimmen" class="subheader">
+    	<h2>Stimmen</h2>
+	</header>
+		{% assign stimmen = site.data.stimmen | sort: 'name' %}
+    {% for stimme in stimmen %}
+    	{% include stimme.html stimme=stimme %}
+    {% endfor %}
+</div>
