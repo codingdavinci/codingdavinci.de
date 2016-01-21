@@ -2,9 +2,10 @@
 author: Barbara Fischer
 date: 2015-06-17 14:25:31
 layout: post
-published: true
+published: false
 status: publish
 title: Von Rodinia nach Berlin
+image: http://lorempixel.com/300/300
 type: post
 ---
 <h2>Ein uraltes Sommermärchen mit digitalen Mitteln erzählt</h2>

@@ -2,9 +2,10 @@
 author: Barbara Fischer
 date: 2015-06-07 10:37:31
 layout: post
-published: true
+published: false
 status: publish
 title: Die fruchtbare Dialektik von Coding da Vinci
+image: http://lorempixel.com/300/300
 type: post
 ---
 <p><strong>Warum man sich bei 34°C an einem Sonntag 20 Apps anschaut und das cool findet.</strong></p>

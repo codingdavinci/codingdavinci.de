@@ -2,9 +2,10 @@
 author: Barbara Fischer
 date: 2015-06-17 14:25:31
 layout: post
-published: true
+published: false
 status: publish
 title: Der Reiz von Löchern und Streifen
+image: http://lorempixel.com/300/300
 type: post
 ---
 <h4>Vom mechanischen Klavier zu Strickmustern – Die Wandlungen der Datensets bei Coding da Vinci.</h4>
