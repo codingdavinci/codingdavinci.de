@@ -87,6 +87,11 @@ h4 {
   padding-top: 105px;
 }
 
+.image-attribution {
+  font-size: 12pt;
+  text-align: center;
+}
+
 .header-above {
   margin-top: 720px;
 }
@@ -183,7 +188,7 @@ a.scroll-hint:hover {
 }
 
 .blogpost .img-responsive {
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .blogpost iframe {
@@ -459,26 +464,45 @@ hr {
   background-position: center top;
 }
 
-.post-normal img {
-  float:left;
-  margin-right: 10px;
+.post-normal {
+  background-color: #F5F4E9;
+  margin-bottom: 5em;
+  padding-top: 10px;
 }
 
-.post-big img {
-  display: block; 
-  margin:auto;
+.post-image img {
+  width:100%;
+  margin-top: 10%;
 }
 
 .post-big {
-  margin-bottom: 50px;
+  margin-bottom: 5em;
+  padding-top: 10px;
 }
 
-.post-date {
+.post-subscription {
   font-size: 12pt;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.post-subscription-left {
+  font-size: 12pt;
+  margin-top: 10px;
+  text-align: left;
 }
 
 .post-more {
   text-align: right;
+  margin-right: 10px;
+}
+
+.post-image {
+  display: inline-block;
+}
+
+.post-content {
+  padding-right: 10%;
 }
 
 .subheader h2 {
@@ -1506,5 +1530,13 @@ height: 100%;
 
   .project-footer {
     margin-top: 1em;
+  }
+
+  .post-meta {
+    text-align: center;
+  }
+
+  .post-content {
+    margin-left: 10%;
   }
 }
