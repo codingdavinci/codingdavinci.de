@@ -1,23 +1,29 @@
 {% assign post = include.post %}
-<div class="post-normal">
+<div class="row post-normal">
 	<div class="col-md-4">
-		<img src="{{post.image}}" alt="" style="">
+		<div class="row">
+			<div class="col-md-12 post-meta">
+				<div class="post-image">
+					<img src="{{post.image}}" />
+				</div>
+				<div class="post-subscription">
+					<div class="post-date">
+						{{ post.date | date:"%-d.%m.%Y" }}
+					</div>
+					<div class="post-author">
+						von {{ post.author }}
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<div class="col-md-8">
+	<div class="col-md-8 post-content">
 		<h2>{{ post.title }}</h2>
-	
-	
-		<div class="post-date">
-			{{ post.date | date:"%-d.%m.%Y" }}
-		</div> 
-		
-		<div class="post-content">
-			{{ post.content | strip_html | truncatewords:75}}<br>
+		<div class="">
+			{{ post.content | strip_html | truncatewords:30}}<br>
 		</div>
 		<div class="post-more">
-			<a href="{{ post.url }}">Weiterlesen</a><br><br>	
+			<a href="{{ post.url }}">Weiterlesen</a><br><br>
 		</div>
-		    
 	</div>
-		
 </div>

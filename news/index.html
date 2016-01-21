@@ -4,13 +4,15 @@ slug: news
 ---
 
 <div class="row">
-  	<div class="col-lg-8 col-lg-offset-2">
-
-		{% include post_big.html post=site.posts.first %}
-
-			
-
-		{% for post in paginator.posts offset:1 %}
+	<div class="col-md-8 col-md-offset-2">
+		<header class="subheader subheader-uhr">
+			<h2>News</h2>
+		</header>
+	</div>
+</div>
+<div class="row">
+  	<div class="col-md-8 col-md-offset-2">
+		{% for post in paginator.posts %}
 		    {% include post_normal.html post=post %}
 	    	
 		{% endfor %}
