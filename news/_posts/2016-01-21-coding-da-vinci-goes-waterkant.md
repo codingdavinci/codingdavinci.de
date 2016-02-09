@@ -5,8 +5,13 @@ layout: post
 published: true
 status: publish
 title: Coding da Vinci goes Waterkant
-image: https://farm6.staticflickr.com/5291/5496629743_888f38d4a4_o_d.png
-image-attribution: CC-BY-SA 2.0 by <a href="http://blog.libbylevi.com">Libby Levi</a> for opensource.com, <a href="https://creativecommons.org/licenses/by-sa/2.0/">https://creativecommons.org/licenses/by-sa/2.0/</a>
+image: 
+    src: https://farm6.staticflickr.com/5291/5496629743_888f38d4a4_o_d.png
+    alt: Coding da Vinci goes Waterkant
+    license: CC-BY-SA 2.0 by <a href="http://blog.libbylevi.com">Libby Levi</a> for opensource.com, <a href="https://creativecommons.org/licenses/by-sa/2.0/">https://creativecommons.org/licenses/by-sa/2.0/</a>
+tags:
+    - Ankündigung
+    - Coding da Vinci Nord
 type: post
 ---
 2016 ist für Coding da Vinci ein Jahr der Weiterentwicklung und des Ausprobierens neuer Dinge. Wir vier Veranstalter haben gleich nach der Preisverleihung 2015 begonnen, uns mit der Frage der Nachhaltigkeit auseinanderzusetzen. 

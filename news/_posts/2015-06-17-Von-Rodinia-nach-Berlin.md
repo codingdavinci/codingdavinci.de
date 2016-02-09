@@ -2,10 +2,16 @@
 author: Barbara Fischer
 date: 2015-06-17 14:25:31
 layout: post
-published: false
+published: true
 status: publish
 title: Von Rodinia nach Berlin
-image: http://lorempixel.com/300/300
+image: 
+    src: "http://blog.wikimedia.de/wp-content/uploads/19494545752_d7fcfe6926_z.jpg"
+    alt: Rolling Stone
+    license: "Rolling Stone on Stage. Bildrechte: CC-BY <a href='https://creativecommons.org/licenses/by/3.0/Coding da Vinci'>Wiki Commons</a>, Foto: Thomas Nitz"
+tags:
+    - Rolling Stone
+    - Coding da Vinci 2015
 type: post
 ---
 <h2>Ein uraltes Sommermärchen mit digitalen Mitteln erzählt</h2>
@@ -14,7 +20,6 @@ type: post
 <h3>Wenn Steine mit Dir flüstern</h3>
 <p>Als die Erde sich vermutlich langsamer drehte, erkalteten die Gasmassen und Steine entstanden. Die Erde drehte sich weiter, <a href="https://de.wikipedia.org/wiki/Kontinentaldrift">Kontinentalplatten</a> verschoben sich, zerbrachen und wanderten über die Planetenoberfläche. So kam unser Stein schließlich in Skandinavien zu liegen. Es wurde <a href="https://de.wikipedia.org/wiki/Eiszeitalter">kälter</a>. Es wurde <a href="https://de.wikipedia.org/wiki/Klimageschichte">wärmer</a>. Und wieder kälter. Unser Fels zerbrach in Steine. Die Steine fingen an zu wandern. Heute – genauer nach 1,3 Milliarden Jahren – liegt einer der Steine im Museum. Genauer gesagt im geologischen Sammlungsdepot der <a href="https://de.wikipedia.org/wiki/Stiftung_Stadtmuseum_Berlin">Stiftung Stadtmuseum</a> in Berlin-Spandau. Wie ist er dort hingekommen? Das ist ein Teil der Poesie, wenn Steine zu flüstern beginnen.</p>
 <p>Der andere Teil ist die Leistung der Entwickler*innen, neben Knut Perseke, Anika Schultz, <a href="https://twitter.com/FettThomas">Thomas Fett</a> und Ulrika Müller, der Webanwendung “<a href="http://knutator2.github.io/Rolling-Stone/#/">Rolling Stone</a>”. Sehr prosaisch ihre Kurzbeschreibung im <a href="http://codingdavinci.de/programm/">Programmheft von Coding da Vinci</a>: “User können explorativ das Steinarchiv des Stadtmuseums erkunden, und so deren Millionen Jahre alte Spuren aufdecken.” Hinter diesen dürren Worten verbirgt sich eine Reise auf dem Zeitschlitten durch Millionen Jahre <a href="https://de.wikipedia.org/wiki/Historische_Geologie">Erdgeschichte</a>. Man folgt auf der Karte direkt den Steinen auf ihrer <i>Grand Tour</i>. Klicke ich auf einen der Felsen im Norden, poppen in Brandenburg und Berlin die Fundstellen der Steine auf, die mit dem Eis nach Süden gewandert sind. Gleichzeitig sehe ich links das Farbfoto des Steins und seine <i>Verwandten</i>. In einer <a href="http://knutator2.github.io/Rolling-Stone/#/graph?stone=481072">Animation</a> kann ich mir die Verwandtschaftsbeziehungen der Steine &nbsp;anzeigen lassen. Noch funktioniert das nicht bei allen Steinen und auch die Beschreibung der Einträge bei <a href="https://commons.wikimedia.org/wiki/File:StadtmuseumBerlin_GeologischeSammlung_SM-2012-2824-1-2.jpg">Commons</a> können noch ergänzt werden. Aber “jeder kann mitmachen”, denn sowohl die Bilder als auch der Code der Anwendung stehen unter <a href="https://de.wikipedia.org/wiki/Freie_Lizenz">Freier Lizenz</a>, und kann so die Spur der Steine weiterzeichnen. Circa <a href="https://commons.wikimedia.org/wiki/Category:Geologische_Sammlung_(Stadtmuseum_Berlin)">300 Fotos umfasst die Sammlung</a> des Berliner Stadtmuseums in der Webanwendung “Rolling Stone”. Ein sehr gelungenes Beispiel, wie digitale Technologien dazu beitragen, unser Wissen zu erweitern und die Sammlungen in den Museen zugänglicher zu machen.</p>
-<div id="attachment_22390" style="width: 725px" class="wp-caption aligncenter"><a href="http://blog.wikimedia.de/wp-content/uploads/19494545752_d7fcfe6926_z.jpg"><img class="wp-image-22390 " src="http://blog.wikimedia.de/wp-content/uploads/19494545752_d7fcfe6926_z.jpg" alt="" width="715" height="476"></a><p class="wp-caption-text">Rolling Stone on Stage. Bildrechte: CC-BY https://creativecommons.org/licenses/by/3.0/ Coding da Vinci, Foto: Thomas Nitz</p></div>
 <p>&nbsp;</p>
 <h3>An das Licht der Öffentlichkeit</h3>
 <p>Das fanden auch die <a href="http://codingdavinci.de/programm/#Jury">Juroren</a> und prämierten diese App mit einem <a href="http://codingdavinci.de/programm/#Preise">Preis</a> in der Kategorie “Out of Competition”. Damit gewann das Entwickler*innen Team den von <a href="https://de.wikipedia.org/wiki/SAP">SAP</a> gestifteten <a href="https://de.wikipedia.org/wiki/Design_Thinking">Design Thinking</a> Workshop am <a href="https://de.wikipedia.org/wiki/Hasso-Plattner-Institut">Hasso Plattner Institut in Potsdam</a>. Eine hoffentlich gute Gelegenheit, die Webanwendung weiter zu entwickeln. Schön wäre es, wenn sie schon bald allgemein zugänglich würde, wohlmöglich als Release des Berliner Stadtmuseums. Wir warten also gespannt auf die Fortsetzung des Sommermärchens.</p>

@@ -2,10 +2,16 @@
 author: Barbara Fischer
 date: 2015-06-07 10:37:31
 layout: post
-published: false
+published: true
 status: publish
 title: Die fruchtbare Dialektik von Coding da Vinci
-image: http://lorempixel.com/300/300
+image: 
+    src: http://blog.wikimedia.de/wp-content/uploads/DSC_3908-300x200.jpg
+    alt: Imerii-viz
+    license: "Das Imperii-viz Team präsentiert auf #codingdavinci, Foto <a href='https://creativecommons.org/licenses/by/3.0/de/'>CC BY</a> Coding da Vinci von Thomas Nitz"
+tags:
+    - imperii-vis
+    - Coding da Vinci 2015
 type: post
 ---
 <p><strong>Warum man sich bei 34°C an einem Sonntag 20 Apps anschaut und das cool findet.</strong></p>
@@ -31,8 +37,6 @@ type: post
 <h1>Die Dialektik greift</h1>
 
 <p>Da entschließt sich die Akademie&nbsp;zu einem Experiment. Was würde passieren, wenn ganz andere Spezialisten, nicht Mediävisten, sondern neugierige “Hacker” anfingen, mit den Daten aus der Datenbank zu&nbsp;spielen? Für Coding da Vinci stellten sie die Daten unter freie Lizenz und machten sie so überhaupt erstmals für eine Verwendung zugänglich.130.000 maschinenlesbare Datensätze sind ein attraktives Angebot für Programmierer. Den Ball fingen fünf junge Informatikstudenten aus Stuttgart und Leipzig auf. Das Ergebnis heißt <a href="http://imperii-viz.de/">imperii-viz</a>.</p>
-
-<div id="attachment_22322" style="width: 310px" class="block-right"><a href="http://blog.wikimedia.de/wp-content/uploads/DSC_3908.jpg"><img class="wp-image-22322 size-medium" src="http://blog.wikimedia.de/wp-content/uploads/DSC_3908-300x200.jpg" alt="" width="300" height="200"></a><p class="wp-caption-text">Das Imperii-viz Team präsentiert auf #codingdavinci, Foto CC BY (https://creativecommons.org/licenses/by/3.0/de/) Coding da Vinci von Thomas Nitz</p></div>
 
 <p>Die Web-App reichert die RI-Datensätze mit <a href="https://commons.wikimedia.org/wiki/File%3AKonrad_III_Miniatur_13_Jahrhundert.jpg">Bildern</a> aus Wikimedia Commons und Wikipedia <a href="https://de.wikipedia.org/wiki/Konrad_III._%28HRR%29">Texten</a> zu den Kaisern und Königen an. Wählt der Nutzer einen König, zeigt eine “<a href="https://de.wikipedia.org/wiki/Heatmap">heatmap</a>” in welchen europäischen Regionen, dieser König besonders häufig Urkunden erlassen hat. <a href="http://mittelalter.hypotheses.org/3492">Dr. Andreas Kuczera</a>, wissenschaftlicher Mitarbeiter der RI, beurteilt den Ausgang des Experiments positiv: “Die Imperii-viz App ist sehr interessant. Sie unterstützt unseren Perspektivwechsel auf unsere Datensammlung. Sie betrachtet sie aus der Perspektive von <a href="https://de.wikipedia.org/wiki/Big_Data">Big Data</a>, das ist neu für uns.&nbsp;Sie erschließt nicht nur Laien die Urkunden, sondern hilft uns Forschern neue Fragestellungen zu entwickeln. Wir wollen unbedingt mit dem Imperii-viz Team weiter zusammenarbeiten. Die erste Lektion, dass wir die Herrschernamen normieren müssen, damit die Datensätze konsistenter adressiert werden können, haben wir gelernt. Jetzt müssen wir sie umsetzen. Für uns war der Austausch mit den Hackern von Coding da Vinci sehr wertvoll.”</p>
 
