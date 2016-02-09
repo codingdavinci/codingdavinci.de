@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="container" id="programm">
+<div class="container">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 blogpost">
             <h1>{{ page.title }}</h1>
@@ -11,11 +11,9 @@ layout: default
                 </div>
             </div>
             <div class="blog-image">
-                <img src="{{page.image}}" class="img-responsive" style="" alt="">
-                <p class="image-attribution">{{page.image-attribution}}</p>
+                <img src="{{page.image.src}}" class="img-responsive" style="" alt="">
+                <p class="image-caption">{{page.image.license}}</p>
             </div>
-
-
             <div class="">
                 {{ content }}
             </div>
