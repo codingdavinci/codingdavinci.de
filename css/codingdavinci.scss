@@ -102,6 +102,19 @@ img {
   text-align: center;
 }
 
+.row-flex:nth-child(even) {
+  display: flex;
+  flex-direction: row !important;
+}
+
+.col-flex {
+  display: flex;
+}
+
+.col-flex-centerv {
+  align-items: center;
+}
+
 .header-above {
   margin-top: 720px;
 }
@@ -222,6 +235,12 @@ a.scroll-hint:hover {
 
 .blogpost .image-caption {
   font-size: 11pt;
+  text-align: center;
+}
+
+.blog-image img {
+  max-width: 100%;
+  max-height: 300px;
 }
 
 @media (max-width: 768px) {
@@ -487,6 +506,7 @@ hr {
   background-color: #F5F4E9;
   margin-bottom: 5em;
   padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .post-image img {
@@ -495,7 +515,6 @@ hr {
 }
 
 .post-big {
-  margin-bottom: 5em;
   padding-top: 10px;
 }
 
@@ -1488,12 +1507,12 @@ height: 100%;
 
 .people-glyph:after {
   font-family: "Fontello";
-  content: "\e800";
+  content: "\e802";
 }
 
 .monitor-glyph:after {
   font-family: "Fontello";
-  content: "\e804";
+  content: "\e805";
 }
 
 .house-glyph:after {
@@ -1503,22 +1522,22 @@ height: 100%;
 
 .dataset-glyph:after {
   font-family: "Fontello";
-  content: "\e806";
+  content: "\e807";
 }
 
 .twitter-glyph:after {
   font-family: "Fontello";
-  content: "\e803";
+  content: "\e804";
 }
 
 .git-glyph:after {
   font-family: "Fontello";
-  content: "\e802";
+  content: "\e803";
 }
 
 .mail-glyph:after {
   font-family: "Fontello";
-  content: "\e805";
+  content: "\e806";
 }
 
 .game-glyph:after {
@@ -1539,6 +1558,12 @@ height: 100%;
 .film-glyph:after {
   font-family: "Icomoon";
   content: "\e601";
+}
+
+.rss-glyph:before {
+  font-family: "Fontello";
+  content: "\e810";
+  margin-right: 10px;
 }
 
 .project-footer {
@@ -1668,4 +1693,27 @@ height: 100%;
 
 a.btn-default, a.btn-default:hover, a.btn-default:visited, a.btn-default:active {
   color: #00be7b;
+}
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #00be7b;
+  border-radius: 10px;
+}
+
+#aktuelles {
+  padding: 0;
+}
+
+#aktuelles header {
+  margin-top: 0;
 }
