@@ -1,7 +1,18 @@
 ---
 ---
 // Colors
+$cdv-light-green: #C4F3E6;
 $cdvn-blue: #0099FF;
+$cdvn-light-blue: #D9F0FF;
+$cdvn-dark-blue: #005990;
+
+.cdvn-blue {
+  color: $cdvn-blue;
+}
+
+/* strong {
+  color: $cdvn-dark-blue;
+} */
 
 .logo-container {
   background: url('../img/header_logo_cdvnord.png') top center no-repeat;
@@ -55,15 +66,42 @@ $cdvn-blue: #0099FF;
 .cdv-tiles8 { background-position: -876px -1090px; width: 214px; height: 214px; }
 .cdv-tiles9 { background-position: -4px -1308px; width: 214px; height: 214px; }
 
+a.main-signup {
+  background-color: $cdvn-blue;
+}
+a.scroll-hint {
+  color: $cdvn-blue;
+}
+
+@keyframes pulse {
+  0% {
+    color: $cdvn-blue;
+  }
+
+  100% {
+    color: black;
+  }
+}
+
+#sponsors {
+  .subheader {
+    padding-top: 0;
+  }
+}
+
+p:first-child {
+  margin-top: 1.6em;
+}
+
 .interlude {
   margin-left: 15px;
   margin-right: 15px;
   padding: 1.5em 0;
-  background-color: #C4F3E6;
+  background-color: $cdvn-light-blue;
 }
 
 .mini-interlude {
-  background-color: #C4F3E6;
+  background-color: $cdvn-light-blue;
 }
 
 .mini-interlude h3 {
@@ -71,5 +109,5 @@ $cdvn-blue: #0099FF;
 }
 
 .light-interlude {
-  background-color: #EAFCF8;
+  background-color: $cdvn-light-blue;
 }
