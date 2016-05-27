@@ -10,9 +10,21 @@ $cdvn-dark-blue: #005990;
   color: $cdvn-blue;
 }
 
+.cdvn-blue-bg {
+  background-color: $cdvn-blue;
+}
+
 /* strong {
   color: $cdvn-dark-blue;
 } */
+
+.center {
+  text-align: center;
+}
+
+a:link {
+  color: $cdvn-blue;
+}
 
 .logo-container {
   background: url('../img/header_logo_cdvnord.png') top center no-repeat;
@@ -83,6 +95,7 @@ a.scroll-hint {
   }
 }
 
+#events-main,
 #sponsors {
   .subheader {
     padding-top: 0;
@@ -109,5 +122,19 @@ p:first-child {
 }
 
 .light-interlude {
+  background-color: $cdvn-light-blue;
+}
+
+.btn-events,
+.btn-events:link,
+.btn-events:hover {
+  font-family: Archive;
+  font-size: 125%;
+  color: white;
+  background-color: $cdvn-blue;
+  border-color: $cdvn-blue;
+}
+
+.jumbotron {
   background-color: $cdvn-light-blue;
 }
