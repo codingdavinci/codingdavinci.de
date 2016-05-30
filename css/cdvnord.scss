@@ -80,6 +80,7 @@ a:link {
 
 a.main-signup {
   background-color: $cdvn-blue;
+  display: none;
 }
 a.scroll-hint {
   color: $cdvn-blue;
@@ -133,6 +134,7 @@ p:first-child {
   color: white;
   background-color: $cdvn-blue;
   border-color: $cdvn-blue;
+  display: none;
 }
 
 .jumbotron {
