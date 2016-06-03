@@ -360,11 +360,6 @@ li.active .navsub li a{
   margin: 0.5em 0;
 }
 
-
-.navbar-davinci .navbar-nav li.active a:active {
-  color: #00be7b;
-}
-
 .navbar-davinci .navbar-nav li.active a > .navsub {
   color: #000;
 }
@@ -374,6 +369,10 @@ li.active .navsub li a{
   display: inline;
   font-size: 12pt;
   padding: 15px 5px;
+}
+
+.navbar-davinci .navbar-nav li.active a {
+  color: #00be7b;
 }
 
 .navbar-davinci .navbar-nav li a.text-hide,
