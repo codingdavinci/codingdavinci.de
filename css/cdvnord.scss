@@ -128,13 +128,13 @@ p:first-child {
 
 .btn-events,
 .btn-events:link,
-.btn-events:hover {
+.btn-events:hover,
+.btn-events:visited {
   font-family: Archive;
   font-size: 125%;
   color: white;
   background-color: $cdvn-blue;
   border-color: $cdvn-blue;
-  display: none;
 }
 
 .jumbotron {
