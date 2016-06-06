@@ -22,8 +22,14 @@ $cdvn-dark-blue: #005990;
   text-align: center;
 }
 
-a:link {
-  color: $cdvn-blue;
+a, a:link, a:hover, a:visited {
+    color: $cdvn-blue;
+}
+
+#impressum {
+  a, a:link, a:hover, a:visited {
+      color: black;
+  }
 }
 
 .logo-container {
@@ -139,4 +145,26 @@ p:first-child {
 
 .jumbotron {
   background-color: $cdvn-light-blue;
+}
+
+#programm {
+  p:first-child {
+    margin-top: 0;
+  }
+  p {
+    margin-bottom: 1em;
+  }
+  .sep {
+    background-image: none;
+  }
+}
+
+/* tables */
+.table {
+  .head {
+    background-color: $cdvn-blue;
+  }
+  td {
+    background-color: $cdvn-light-blue;
+  }
 }

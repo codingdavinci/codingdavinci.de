@@ -1,0 +1,41 @@
+---
+-
+  entries:
+    -
+      content: "Begrüßung durch die Veranstalter"
+      date: "2016-09-17 10:30"
+    -
+      content: "Weitere Programmdetails in Kürze"
+      date: ""
+  header: "1. Kick-Off-Weekend"
+  style: 1
+  title: "17. September"
+-
+  entries:
+    -
+      content: "Start des Entwicklertags"
+      date: "2016-09-18 09:00"
+    -
+      content: "Frühstück"
+      date: "2016-09-18 09:30"
+    -
+      content: "Begrüßung"
+      date: "2016-09-18 10:00"
+    -
+      content: "Weitere Programmdetails in Kürze"
+      date: ""
+  style: 1
+  title: "18. September"
+-
+  header: "2. Entwicklungssprint"
+  image: "/img/programm/cdv_sprint_24.png"
+  style: 2
+  title: "Ihr habt sechs Wochen Zeit, um Euer Projekt zu entwickeln."
+-
+  entries:
+    -
+      content: "Termin und Programmdetails in Kürze"
+      date: ""
+  style: 1
+  title: "Anfang November"
+  header: "3. Abschluss"
