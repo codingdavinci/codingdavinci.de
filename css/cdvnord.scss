@@ -87,6 +87,7 @@ a, a:link, a:hover, a:visited {
 a.main-signup {
   color: white;
   background-color: $cdvn-blue;
+  font-weight: normal;
 
   :link, :hover, :visited {
     color: white;
@@ -173,6 +174,10 @@ p:first-child {
   }
 }
 
+/* lists */
+ul {
+  margin-top: 1em;
+}
 
 /* Responsive Semantic Timeline http://codepen.io/kjohnson/pen/azBvaE */
 $outline-width: 0;
