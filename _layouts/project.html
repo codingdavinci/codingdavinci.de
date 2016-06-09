@@ -8,7 +8,7 @@ slug: projekte
         <h2>Projekte</h2>
     </header>
 
-    <div class="row">
+    <div class="row" id="project">
         <div class="col-lg-8 col-lg-offset-2 project-intro">
             <br><br>
 
@@ -47,12 +47,12 @@ slug: projekte
             {%if page.isFirst != true %}
                 {% assign prev_id = page.identifier | minus: 1 %}
                 {% assign prev_proj = site.projects | where: 'identifier', prev_id | first %}
-                <a class="project-link" id="previous-project" href="{{prev_proj.id}}.html"><span class="glyphicon glyphicon-triangle-left"></span>Vorheriges Projekt</a>
+                <a class="project-link" id="previous-project" href="{{prev_proj.id}}.html#project"><span class="glyphicon glyphicon-triangle-left"></span>Vorheriges Projekt</a>
             {% endif %}
             {% if page.isLast != true %}
                 {% assign next_id = page.identifier | plus: 1 %}
                 {% assign next_proj = site.projects | where: 'identifier', next_id | first %}
-                <a class="project-link pull-right" id="next-project" href="{{next_proj.id}}.html">nächstes Projekt<span class="glyphicon glyphicon-triangle-right"></a>
+                <a class="project-link pull-right" id="next-project" href="{{next_proj.id}}.html#project">nächstes Projekt<span class="glyphicon glyphicon-triangle-right"></a>
             {% endif %}
         </div>
         <div class="row">
