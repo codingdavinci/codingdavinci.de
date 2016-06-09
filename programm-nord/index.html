@@ -1,0 +1,123 @@
+---
+layout: default
+published: false
+slug: programm-nord
+css: cdvnord.css
+---
+
+
+<!-- Ablauf -->
+
+ <div class="container" id="programm">
+  <header class="subheader subheader-uhr">
+    <h2>Programm</h2>
+  </header>
+  {% assign program = site.data.program_nord[0] %}
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <br><br>
+
+      <p><strong class="cdvn-blue">Coding&nbsp;da&nbsp;Vinci&nbsp;Nord</strong> läuft insgesamt sechs Wochen vom 17. September bis Anfang November 2016.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-5">
+      <div class="programheader">
+        <h2>{{ program.header }}</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <p><strong>Veranstaltungsort</strong>: <a href="http://mindspace.me/hamburg">MINDSPACE Hamburg</a>, Rödingsmarkt 9, 20459 Hamburg
+          </p>
+        </div>
+      </div>
+
+
+      <table class="table">
+        <thead>
+          <tr>
+            <td class="head" colspan="2">{{ program.title }}</td>
+          </tr>
+        </thead>
+
+        {% for entry in program.entries %}
+        <tr>
+          <td>{{ entry.date | date:"%H:%M"}}</td>
+          <td>{{ entry.content }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+
+      {% assign program = site.data.program_nord[1] %}
+      <table class="table">
+        <thead>
+          <tr>
+            <td class="head" colspan="2">{{ program.title }}</th>
+          </tr>
+        </thead>
+
+        {% for entry in program.entries %}
+        <tr>
+          <td>{{ entry.date | date:"%H:%M"}}</td>
+          <td>{{ entry.content }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+    <div class="col-lg-2 sep"></div>
+
+    <div class="col-lg-5">
+      {% assign program = site.data.program_nord[2] %}
+      <div class="programheader">
+        <h2>{{ program.header }}</h2>
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <td colspan="2" class="head">{{ program.title }}</td>
+          </tr>
+        </thead>
+        <tr>
+          <td>
+            <img src="{{ program.image}}" alt="Sprint" />
+          </td>
+        </tr>
+
+      </table>
+      <!-- div class="col-lg-2 sep"></div -->
+
+      {% assign program = site.data.program_nord[3] %}
+      <div class="programheader">
+        <h2>{{ program.header }}</h2>
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <td class="head" colspan="2">{{ program.title }}</td>
+          </tr>
+        </thead>
+
+        <!-- div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <p><strong>Veranstaltungsort</strong>: <a href="">tba.</a>, Hamburg
+            </p>
+          </div>
+        </div -->
+
+
+        {% for entry in program.entries %}
+        <tr>
+          <td>{{ entry.date | date:"%H:%M"}}</td>
+          <td>{{ entry.content }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+
+<!--   {  % include prices.html %  }
+
+  {  % include jury.html %  } -->
+</div>
