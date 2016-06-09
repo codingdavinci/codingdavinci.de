@@ -18,10 +18,10 @@ type: post
 <h4>
     <em>
         <span style="font-weight: 400;">
-            Wikimedia Deutschland veranstaltet gemeinsam mit der <a href="https://www.deutsche-digitale-bibliothek.de/">DDB</a>, 
-            der <a href="http://okfn.de/">OKF</a> und 
-            <a href="http://www.servicestelle-digitalisierung.de/confluence/pages/viewpage.action?pageId=917513">digiS</a> 
-            den Programmierwettbewerb <a href="http://codingdavinci.de/">Coding da Vinci</a>&nbsp;mit freien Kulturdaten für freie Apps. 
+            Wikimedia Deutschland veranstaltet gemeinsam mit der <a href="https://www.deutsche-digitale-bibliothek.de/">DDB</a>,
+            der <a href="http://okfn.de/">OKF</a> und
+            <a href="http://www.servicestelle-digitalisierung.de/confluence/pages/viewpage.action?pageId=917513">digiS</a>
+            den Programmierwettbewerb <a href="http://codingdavinci.de/">Coding da Vinci</a>&nbsp;mit freien Kulturdaten für freie Apps.
             Hier greifen wir besondere Aspekte des Hackathons auf und präsentieren sie unseren Lesern.
         </span>
     </em>
