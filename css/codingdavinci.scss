@@ -1676,6 +1676,11 @@ a.btn-default, a.btn-default:hover, a.btn-default:visited, a.btn-default:active 
   border-radius: 10px;
 }
 
+a.btn-default.active {
+  background-color: $color-primary;
+  color: $color-secondary;
+}
+
 #aktuelles {
   padding: 0;
 }
