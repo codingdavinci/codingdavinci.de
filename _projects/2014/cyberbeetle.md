@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/cyberbeetle-active.png"
 image: "/img/projekte/cyberbeetle.jpg"
 links:
     -
-        class: "projects-website"
+        class: "website"
         link: "http://katihyyppa.com/cyberbeetle"
         text: "Webseite"
 data:

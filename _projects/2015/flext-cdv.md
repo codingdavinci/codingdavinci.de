@@ -14,6 +14,11 @@ team:
   -
     name: "Michael Kaschesky"
     contact:
-      mail: "michael.kaschesky@fusepool.net"
+      mail: "mailto:michael.kaschesky@fusepool.net"
 ---
-Geschichte lebt, wenn wir sie lebendig machen und am Leben halten. Ein modernes Erscheinungsbild auf Smartphone und Großbildschirm haucht Geschichte digitales Leben ein – egal wo wir sie antreffen. FLEXT@cdv zeigt das an ausgewählten Bildbeständen aus dem codingdavinci Repertoire. Und nicht nur außen wird es schöner, auch innen – under the hood. HTML für jedes Digitalisat wird mit schema.org RDFa angereichert, sodass Suchmaschinen-Ergebnisse strukturierte Daten anzeigen können. Auch die Handhabung ist einfach: Datensätze jedweder Art können im Handumdrehen eingelesen und angezeigt werden. So haucht FLEXT Kulturgütern digitales Leben ein.
+Geschichte lebt, wenn wir sie lebendig machen und am Leben halten. Ein modernes Erscheinungsbild auf Smartphone und
+Großbildschirm haucht Geschichte digitales Leben ein – egal wo wir sie antreffen. FLEXT@cdv zeigt das an ausgewählten
+Bildbeständen aus dem codingdavinci Repertoire. Und nicht nur außen wird es schöner, auch innen – under the hood. HTML
+für jedes Digitalisat wird mit schema.org RDFa angereichert, sodass Suchmaschinen-Ergebnisse strukturierte Daten
+anzeigen können. Auch die Handhabung ist einfach: Datensätze jedweder Art können im Handumdrehen eingelesen und
+angezeigt werden. So haucht FLEXT Kulturgütern digitales Leben ein.

@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/klangvisualisierung-active.png"
 image: "/img/projekte/klangvisualisierung_logo.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://hackdash.org/projects/553bb67cb15f8b87140cb882"
     text: "Webseite"
   -
@@ -31,11 +31,11 @@ team:
   -
     name: "Marcel Kohnz"
     contact:
-      mail: "kohnzm@intermedia-art.de"
+      mail: "mailto:kohnzm@intermedia-art.de"
   -
     name: "Sarah Kirsch"
     contact:
-      mail: "s.kirsch@intermedia-art.de"
+      mail: "mailto:s.kirsch@intermedia-art.de"
   -
     name: "Katharina Pflüger"
 ---

@@ -8,15 +8,15 @@ year: 2014
 "image": "/img/projekte/inside-19xx.jpg"
 "links":
     -
-        "class": "projects-website"
+        "class": "website"
         "link": "http://verbrannte-und-verbannte.de/"
         "text": "Webseite"
     -
-        "class": "projects-github"
+        "class": "github"
         "link": "http://github.com/jlewis91/codingdavinci"
         "text": "Seite auf github"
     -
-        "class": "projects-github"
+        "class": "github"
         "link": "https://github.com/mhinters/BannedBookUtils"
         "text": "Zusatz-Seite auf github"
 "data":
@@ -27,44 +27,43 @@ year: 2014
     -
         "name": "Daniel Burckhardt"
         "contact" :
-            "github": "burki"
+            "github": "http://github.com/burki"
     -
         "name": "Dierk Eichel"
     -
         "name": "Michael Hintersonnleitner"
         "contact" :
-            "github": "mhinters"
+            "github": "http://github.com/mhinters"
     -
         "name": "Frederike Kaltheuner"
         "contact" :
-            "github": "fre8de8rike"
+            "github": "http://github.com/fre8de8rike"
 
     -
         "name": "Jeremy Lewis"
         "contact" :
-            "github": "jlewis91"
+            "github": "http://github.com/jlewis91"
 
     -
         "name": "Jonas Parnow"
         "contact" :
-            "github": "z3to"
+            "github": "http://github.com/z3to"
 
     -
         "name": "Kristin Sprechert"
         "contact" :
-            "github": "kaeseoehrchen"
+            "github": "http://github.com/kaeseoehrchen"
 
     -
         "name": "Kai Teuber, Ministerialbeamter, Berlin, Potsdam"
         "contact" :
-            "github": "teuberkai"
-            "twitter": "@teuberkai"
+            "github": "http://github.com/teuberkai"
+            "twitter": "http://twitter.com/teuberkai"
 
     -
-        "id": 12
         "name": "Clemens Wilding"
         "contact" :
-            "github": "wigginus"
+            "github": "http://github.com/wigginus"
 ---
 Das Projekt “Inside 19xx” widmet sich der Liste der zwischen 1938 und 1941 von der „Reichsschriftkammer“ erstellten
 verbannten Bücher. Ziel des Projektes war es, die Metadaten der Liste zu vervollständigen, mit anderen Datensets

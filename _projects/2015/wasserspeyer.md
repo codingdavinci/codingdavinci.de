@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/default-active.png"
 image: "/img/projekte-tiles/default-active.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://drfaust.github.io/KarlLutzDemo/"
     text: "Webseite"
   -
@@ -28,7 +28,7 @@ team:
   -
     name: "Max Zimmermann"
     contact:
-      mail: "max.jakob.zimmermann@gmx.de"
+      mail: "mailto:max.jakob.zimmermann@gmx.de"
 ---
 Mit dieser Website wird versucht den Fotonachlass des Soldaten Karl Lutz visuell greifbarer zu machen. Auf einer Karte
 wird, soweit wie möglich, eine Verknüpfung zwischen den Orten und der Zeit, an denen die Fotos aufgenommen wurden,

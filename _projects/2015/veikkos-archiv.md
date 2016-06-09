@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/veikkos-active.png"
 image: "/img/projekte/Veikkos-Comic18.jpg"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://www.veikkos-archiv.com/index.php"
     text: "Webseite"
 data:

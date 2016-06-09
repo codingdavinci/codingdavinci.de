@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/nurnberger-active.png"
 image: "/img/projekte/nuernberger-lebkuchen_logo.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://tursics.de/sample/gingerbread/"
     text: "Webseite"
   -
@@ -21,9 +21,9 @@ team:
   -
     name: "Thomas Tursics"
     contact:
-      mail: "thomas@tursics.de"
-      twitter: "@tursics"
-      github: "tursics"
+      mail: "mailto:thomas@tursics.de"
+      twitter: "http://twitter.com/tursics"
+      github: "http://github.com/tursics"
 ---
 Das Spielprinzip ist bekannt, denn man sieht es täglich in Bus und Bahn: Fleißig werden Zuckerdrops und bunte Bonbons
 zu 3er-, 4er- oder 5er-Kombinationen zusammengeschoben, um sich die Zeit zu vertreiben und das nächsthöhere Level zu

@@ -8,11 +8,11 @@ tile_active: "/img/projekte-tiles/ethnotier-active.png"
 image: "/img/projekte/ethnotier.png"
 links:
     -
-        class: "projects-github"
+        class: "github"
         link: "https://github.com/thatbettina/ethnotier"
         text: "Seite auf github"
     -
-        class: "projects-website"
+        class: "website"
         link: "http://tursics.de/sample/ethnotier/"
         text: "Webseite (Preview)"
 data:
@@ -23,12 +23,12 @@ team:
     -
         name: "Annika Blohm"
         contact:
-            twitter: "@e_kunst"
+            twitter: "http://twitter.com/e_kunst"
     -
         name: "Thomas Tursics"
         contact:
-            twitter: "@tursics"
-            github: "tursics"
+            twitter: "http://twitter.com/tursics"
+            github: "http://github.com/tursics"
 ---
 Das EthnoTier ist eine Musikapp, die sich an Kinder richtet und über einen Tabletcomputer einfach bedient werden kann.
 Auf einer Waltbühne können junge Nutzer selbst Dirigent spielen und ein Orchester mit Vögel, Fröschen und anderen

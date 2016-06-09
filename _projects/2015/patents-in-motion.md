@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/patentisinmotion-active.png"
 image: "/img/projekte/patentsinmotion_logo.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://patentsinmotion.doch.it"
     text: "Webseite"
   -
@@ -25,11 +25,11 @@ team:
   -
     name: "Annika Blohm"
     contact:
-      twitter: "e_kunst"
+      twitter: "http://twitter.com/e_kunst"
   -
     name: "Michael Karg"
     contact:
-      github: "mgmeier"
+      github: "http://twitter.com/mgmeier"
 ---
 Das Landesarchiv Baden-Württemberg schafft mit seinem Vorrat an Patentzeichnungen aus dem 19. Jahrhundert Einblick in
 den erstaunlichen Reichtum menschlichen Einfallsgeists. Im Angesicht der Aufgabe, mit den gegebenen Naturgesetzen und

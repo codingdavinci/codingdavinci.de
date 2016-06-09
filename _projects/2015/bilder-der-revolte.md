@@ -9,7 +9,7 @@ tile_active: "/img/projekte-tiles/2015/bilderderrevolte-active.png"
 image: "/img/projekte/bilder-der-revolte_logo.jpg"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://bilder-der-revolte.de"
     text: "Webseite"
   -
@@ -29,27 +29,27 @@ team:
   -
     name: "Thomas Neumann"
     contact:
-      mail: "thsneumann@gmail.com"
+      mail: "mailto:hsneumann@gmail.com"
   -
     name: "Johannes Hercher"
     contact:
-      mail: "hercher@ub.fu-berlin.de"
+      mail: "mailto:hercher@ub.fu-berlin.de"
   -
     name: "Tina Poethe"
     contact:
-      mail: "tinapoethe@gmail.com"
+      mail: "mailto:tinapoethe@gmail.com"
   -
     name: "Michael Franke-Maier"
     contact:
-      mail: "franke@ub.fu-berlin.de"
+      mail: "mailto:franke@ub.fu-berlin.de"
   -
     name: "Cécilia Antoni"
     contact:
-      mail: "cecilia.antoni@yahoo.de"
+      mail: "mailto:cecilia.antoni@yahoo.de"
   -
     name: "Sina Latza"
     contact:
-      mail: "latza@zedat.fu-berlin.de"
+      mail: "mailto:latza@zedat.fu-berlin.de"
 ---
 Die Website möchte die Fotos von Ludwig Binder ansprechend präsentieren und so die Zeit der Studentenrevolte erfahrbar
 machen. Die Fotos werden übersichtlich und mit zahlreichen Filtermöglichkeiten präsentiert, vorhandene Metadaten mit

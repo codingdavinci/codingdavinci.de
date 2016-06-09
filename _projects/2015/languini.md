@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/linguini-active.png"
 image: "/img/projekte/languini_logo.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://hackdash.org/projects/553bb07ab15f8b87140cb86c"
     text: "Webseite"
   -
@@ -30,11 +30,11 @@ team:
   -
     name: "Leonard Thomas"
     contact:
-      mail: "leo.thomas@me.com"
+      mail: "mailto:leo.thomas@me.com"
   -
     name: "Daniel Steinmetz"
     contact:
-      mail: "daniel.steinmetz@posteo.de"
+      mail: "mailto:daniel.steinmetz@posteo.de"
   -
     name: "Nils Risse"
 ---

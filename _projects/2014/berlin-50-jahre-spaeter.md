@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/berlin50jahre-active.png"
 image: "/img/projekte/berlin-50-jahre.png"
 links:
     -
-        class: "projects-website"
+        class: "website"
         link: "http://cdv.sourcloud.com/berlin"
         text: "Webseite"
 data:
@@ -20,8 +20,8 @@ team:
     -
         name: "Erik Woitschig"
         contact:
-            github: "iambnz"
-            twitter: "@iam_bnz"
+            github: "http://github.com/iambnz"
+            twitter: "http://twitter.com/@iam_bnz"
             stackOverflow: "http://stackoverflow.com/users/1816139/bnz"
 ---
 Im Mai und Juni 1933 wurden während der NS-Zeit sämtliche Autoren verfolgt und zahlreiche Bücher verbrannt. Auch in

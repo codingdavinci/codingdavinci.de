@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/pyanola-active.png"
 image: "/img/projekte/pyanola_logo.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://pyanola.de"
     text: "Webseite"
   -
@@ -33,15 +33,15 @@ team:
   -
     name: "Felix Potthast"
     contact:
-      mail: "felix.potthast@student.uni-siegen.de"
+      mail: "mailto:felix.potthast@student.uni-siegen.de"
   -
     name: "Daniel Busch"
     contact:
-      mail: "daniel.busch@student.uni-siegen.de"
+      mail: "mailto:daniel.busch@student.uni-siegen.de"
   -
     name: "Jonas Pöhler"
     contact:
-      mail: "jonas.poehler@student.uni-siegen.de"
+      mail: "mailto:jonas.poehler@student.uni-siegen.de"
 ---
 Die Klavierrollen vom deutschen Museum sollen analysiert, in MIDI Dateien gewandelt und danach auf einer Website
 präsentiert werden. Dadurch sollen sie einer breiten Öffentlichkeit verfügbar gemacht werden.

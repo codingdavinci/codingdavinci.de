@@ -9,7 +9,7 @@ year: 2014
 "image": "/img/projekte/alt-berlin-app.jpg"
 "links":
     -
-       "class": "projects-website"
+       "class": "website"
        "link": "http://altberlinapp.de"
        "text": "Webseite"
     -
@@ -23,11 +23,10 @@ year: 2014
     - "Bilder Kreuzberg (Wikipedia)"
 "team":
     -
-       "id": 0
        "name": "Claus Höfele"
        "contact" :
-          "mail": "claus@claushoefele.com"
-          "twitter": "@claushoefele"
+          "mail": "mailto:mailtclaus@claushoefele.com"
+          "twitter": "http://twitter.com/@claushoefele"
 ---
 Die IOS-App Alt-Berlin widmet sich der historischen Entwicklung der deutschen Hauptstadt. Auf historischen und modernen
 Karten sind Bilder der Stiftung Stadtmuseum Berlin verortet, die alte Gebäude und historische Plätze zeigen.

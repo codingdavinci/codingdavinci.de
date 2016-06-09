@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/ethnoband-active.png"
 image: "/img/projekte/ethnoband.png"
 links:
     -
-        class: "projects-website"
+        class: "website"
         link: "http://ethnoband.thomasfett.de"
         text: "Webseite"
 data:

@@ -1,6 +1,7 @@
 ---
 layout: default
 js: projekte.js
+slug: projekte
 ---
 <div class="container" id="projekte">
     <header class="proj-subh subheader subheader-uhr">
@@ -18,23 +19,29 @@ js: projekte.js
             </p>
         </div>
     </div>
+
     <div class="row">
-        <div class="btn-group btn-group-justified" role="group" aria-label="...">
-            {% assign first2014 = site.projects | where: 'year', 2014 | where: 'isFirst', true | first %}
-            <div class="btn-group" role="group">
-                <a type="button" class="btn btn-default {% if page.year == 2014 %} active {% endif %}"
-                    href="{{first2014.id}}">2014</a>
-            </div>
-            {% assign first2015 = site.projects | where: 'year', 2015 | where: 'isFirst', true | first %}
-            <div class="btn-group" role="group">
-                <a type="button" class="btn btn-default {% if page.year == 2015 %} active {% endif %}"
-                    href="{{first2015.id}}">2015</a>
-            </div>
-            <!--<div class="btn-group" role="group">-->
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                {% assign first2014 = site.projects | where: 'year', 2014 | where: 'isFirst', true | first %}
+                <div class="btn-group" role="group">
+                    <a type="button" class="btn btn-default {% if page.year == 2014 %} active {% endif %}"
+                       href="{{first2014.id}}">2014</a>
+                </div>
+                {% assign first2015 = site.projects | where: 'year', 2015 | where: 'isFirst', true | first %}
+                <div class="btn-group" role="group">
+                    <a type="button" class="btn btn-default {% if page.year == 2015 %} active {% endif %}"
+                       href="{{first2015.id}}">2015</a>
+                </div>
+                <!--<div class="btn-group" role="group">-->
                 <!--<button type="button" class="btn btn-default">2016</button>-->
-            <!--</div>-->
+                <!--</div>-->
+            </div>
         </div>
     </div>
+
+    {% if page.identifier %}
+
     <div class="container" id="projects">
         <div class="row project-navigation">
             {%if page.isFirst != true %}
@@ -71,14 +78,10 @@ js: projekte.js
                 </p>
                 <div id="projectlinks">
                     {% for link in page.links %}
-                        {% if link.class == "projects-website" %}
-                            {% assign symbol = "glyph house-glyph" %}
-                        {% elsif link.class == "github" %}
-                            {% assign symbol = "glyph git-glyph" %}
-                        {% endif %}
+
                     <p>
                         {{link.text}}
-                        <a href="{{link.link}}"><span class="{{symbol}}"></span></a>
+                        <a href="{{link.link}}"><span class="{{link.class}}-glyph"></span></a>
                     </p>
                     {% endfor %}
                 </div>
@@ -104,12 +107,7 @@ js: projekte.js
                     <p>
                         {{member.name}}
                         {% for contact in member.contact %}
-                            {% if contact[0] == "website" %}
-                                {% assign symbol = "glyph house-glyph" %}
-                            {% elsif contact[0] == "github" %}
-                                {% assign symbol = "glyph git-glyph" %}
-                            {% endif %}
-                            <a href="{{contact[1]}}"><span class="{{symbol}}"></span></a>
+                            <a href="{{contact[1]}}"><span class="{{contact[0]}}-glyph"></span></a>
                         {% endfor %}
                     </p>
                     {% endfor %}
@@ -130,11 +128,13 @@ js: projekte.js
                 {{project.tile}}
                 <div class="project-tile">
                     <a href="{{project.id}}">
-                        <img src="{{project.tile_active}}" class="project-tile-img"/>
+                        <img src="{{project.tile}}" class="project-tile-img" onmouseover="this.src='{{project.tile_active}}'"
+                             onmouseout="this.src='{{project.tile}}'"/>
                         <p>{{project.name}}</p>
                     </a>
                 </div>
             {% endfor %}
         </div>
     </div>
+    {% endif %}
 </div>

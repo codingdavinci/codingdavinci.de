@@ -23,11 +23,11 @@ team:
   -
     name: "Frederik Riedel"
     contact:
-      twitter: "frederikriedel"
+      twitter: "http://twitter.com/frederikriedel"
   -
     name: "Larissa Laich"
     contact:
-      twitter: "larissalaich"
+      twitter: "http://twitter.com/larissalaich"
   -
     name: "Fritz Otlinghaus"
   -

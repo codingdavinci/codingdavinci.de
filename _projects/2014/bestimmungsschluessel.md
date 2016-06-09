@@ -8,11 +8,11 @@ tile_active: "/img/projekte-tiles/bestimmungsschluessel-active.png"
 image: "/img/projekte/bestimmungsschluessel.png"
 links:
     -
-        class: "projects-website"
+        class: "website"
         link: "http://b-content.com/projects/davinci/fulllist_Haeufige_Voegel_in_Gaerten_und_Siedlungen.php"
         text: "Webseite"
     -
-        class: "projects-github"
+        class: "github"
         link: "https://github.com/Pedder/Haeufige-Voegel-in-Gaerten-und-Siedlungen/"
         text: "Seite auf github"
 data:
@@ -25,8 +25,8 @@ team:
     -
         name: "Thomas Tursics"
         contact:
-            twitter: "@tursics"
-            github: "tursics"
+            twitter: "http://twitter.com/tursics"
+            github: "http://github.com/tursics"
 ---
 Aufmerksame Beobachter finden in der Natur viele spannende Pflanzen- und Tierarten. Nicht selten fragt man sich jedoch
 bei einem Spaziergang, welche Pflanze oder welches Tier man gerade gesehen hat. Käfer ist nicht gleich Käfer und Blume

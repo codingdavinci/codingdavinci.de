@@ -8,11 +8,11 @@ tile_active: "/img/projekte-tiles/PoeticRelief-active.png"
 image: "/img/projekte/poetic-relief-1.png"
 links:
     -
-        class: "projects-website"
+        class: "website"
         link: "http://www.poeticrelief.org"
         text: "Webseite"
     -
-        class: "projects-github"
+        class: "github"
         link: "http://github.com/step21/poerelief/"
         text: "Seite auf github"
 data:
@@ -21,15 +21,15 @@ team:
     -
         name: "Noa Rave"
         contact:
-            twitter: "@chukarave"
+            twitter: "http://twitter.com/chukarave"
     -
         name: "Florian Idelberger"
         contact:
-            twitter: "@windrush"
+            twitter: "http://twitter.com/windrush"
     -
         name: "Ruperta M. Steinwender"
         contact:
-            twitter: "@rupertast"
+            twitter: "http://twitter.com/rupertast"
     -
         name: "Tatiana Potetinova"
 ---

@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/chasingpics-active.png"
 image: "/img/projekte/chasingpictures_logo.jpg"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "https://github.com/kaltsimon/Chasing-Pictures-front-end/commit/dbe0817c27f33133f47496e4365d328ee68c8740"
     text: "Webseite"
   -
@@ -22,25 +22,21 @@ data:
   - "Wikipedia"
 team:
   -
-    id: 9
     name: "Jakob Warkotsch"
     contact:
-      mail: "j.warkotsch@gmail.com"
+      mail: "mailto:j.warkotsch@gmail.com"
   -
-    id: 10
     name: "Simon Kalt"
     contact:
-      mail: "simon.kalt@fu-berlin.de"
+      mail: "mailto:simon.kalt@fu-berlin.de"
   -
-    id: 11
     name: "Katharina Stärck"
     contact:
-      mail: "katharinastaerck@web.de"
+      mail: "mailto:katharinastaerck@web.de"
   -
-    id: 12
     name: "Miri Wieseke"
     contact:
-      mail: "miri.wieseke@gmail.com"
+      mail: "mailto:miri.wieseke@gmail.com"
 ---
 Wir entwickeln eine Smartphone-Anwendung, die Benutzer mithilfe der Bilder aus dem Stadtmuseum Berlin dazu animiert,
 die Stadt zu erkunden. Hierbei wird der Benutzerin zunächst ein Bild aus dem Datensatz „Schichten der Geschichte“,

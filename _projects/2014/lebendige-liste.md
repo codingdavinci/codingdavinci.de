@@ -8,11 +8,11 @@ tile_active: "/img/projekte-tiles/Lebendigeliste-active.png"
 image: "/img/projekte/lebendige-liste.png"
 links:
     -
-        class: "projects-website"
+        class: "website"
         link: "http://www.lebendigeliste.de/"
         text: "Webseite"
     -
-        class: "projects-twitter"
+        class: "twitter"
         link: "http://www.twitter.com/lebendigeliste"
         text: "Twitter"
 data:
@@ -22,13 +22,13 @@ team:
         name: "Christian Bromann"
         mail: "mail@christian-bromann.com"
         contact:
-            twitter: "@bromann"
-            github: "christian-bromann"
+            twitter: "http://twitter.com/bromann"
+            github: "http://github.com/christian-bromann"
     -
         name: "Thomas Fett"
         contact:
-            github: "thomasfett"
-            twitter: "@FettThomas"
+            github: "http://github.com/thomasfett"
+            twitter: "http://twitter.com/FettThomas"
     -
         name: "Marius Förster"
         contact:
@@ -36,8 +36,8 @@ team:
     -
         name: "Knut Perseke"
         contact:
-            twitter: "@knutator"
-            github: "knutator2"
+            twitter: "http://twitter.com/knutator"
+            github: "http://github.com/knutator2"
 ---
 Viele Autoren und Werke wurden während der NS-Zeit verboten. Sie verschwanden aus Bibliotheken, Archiven, Verlagen und
 Buchhandlungen. Auch nach Ende des 2. Weltkrieges wurden viele Werke nicht wieder verlegt. Und so wirkt dieses

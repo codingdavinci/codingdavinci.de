@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/musikus-active.png"
 image: "/img/projekte/musikus_logo.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "https://slack-files.com/T04EGNWDV-F06U9TP8V-2e2be4f426"
     text: "Webseite"
   -
@@ -26,27 +26,27 @@ team:
   -
     name: "Pascal Esemann"
     contact:
-      mail: "pascal.esemann@elgmedienscouts.de"
+      mail: "mailto:pascal.esemann@elgmedienscouts.de"
   -
     name: "Maximilian Satter"
     contact:
-      mail: "maxi.satter@elgmedienscouts.de"
+      mail: "mailto:maxi.satter@elgmedienscouts.de"
   -
     name: "Christian Gerharz"
     contact:
-      mail: "christian.gerharz@elgmedienscouts.de"
+      mail: "mailto:christian.gerharz@elgmedienscouts.de"
   -
     name: "Luis Dreyer"
     contact:
-      mail: "luis.dreyer@elgmedienscouts.de"
+      mail: "mailto:luis.dreyer@elgmedienscouts.de"
   -
     name: "Martin Rulsch"
     contact:
-      mail: "martin.rulsch@wikipedia.de"
+      mail: "mailto:martin.rulsch@wikipedia.de"
   -
     name: "Sabina Eckenfels"
     contact:
-      mail: "sabina.eckenfels@googlemail.com"
+      mail: "mailto:sabina.eckenfels@googlemail.com"
 ---
 Musikus wird eine App, die als Museumsführer und Spielzeug zugleich dienen soll. Zum aktuellen Zeitpunkt sind Museen
 kein Ort der Jugendliche besonders lockt  – wenn sie dort sind, wird meist das immer anwesende Smartphone als

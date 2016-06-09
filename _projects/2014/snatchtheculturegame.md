@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/snatchtheculturegame-active.png"
 image: "/img/projekte/snatch-the-culture-game.jpg"
 links:
     -
-        class: "projects-github"
+        class: "github"
         link: "http://github.com/2P3H8131C1CP4/SnatchTheCultureGame"
         text: "Seite auf github"
 data:

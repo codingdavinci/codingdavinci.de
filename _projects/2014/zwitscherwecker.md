@@ -8,11 +8,11 @@ year: 2014
 "image": "/img/projekte/wecker.jpg"
 "links":
     -
-        "class": "projects-website"
+        "class": "website"
         "link": "http://www.farbtrommel.de/zwitscherwecker/"
         "text": "Webseite"
     -
-        "class": "projects-android"
+        "class": "android"
         "link": "http://www.farbtrommel.de/zwitscherwecker/build/zwitscherwecker.apk"
         "text": "Android App"
     -
@@ -34,29 +34,29 @@ year: 2014
     -
         "name": "Anne Weißschädel"
         "contact" :
-            "mail": "anne.weissschaedel@gmail.com"
+            "mail": "mailto:anne.weissschaedel@gmail.com"
 
     -
         "name": "Simon Könneke"
         "contact" :
-            "mail": "simonkoennecke@gmail.com"
+            "mail": "mailto:simonkoennecke@gmail.com"
 
     -
         "name": "Christoph Hornig"
         "contact" :
-            "mail": "ch.hornig@gmail.com"
+            "mail": "mailto:ch.hornig@gmail.com"
 
     -
         "name": "Stephanie Weber"
         "contact" :
-            "mail": "klimperfee@gmail.com"
-            "twitter": "@klimperfee"
+            "mail": "mailto:klimperfee@gmail.com"
+            "twitter": "http://twitter.com/klimperfee"
 
     -
         "name": "David Gomez"
         "contact" :
-            "mail": "davidogos@hotmail.com"
-            "twitter": "@dagosarmiento"
+            "mail": "mailto:davidogos@hotmail.com"
+            "twitter": "http://twitter.com/dagosarmiento"
 ---
 Der zzZwitscherwecker ist eine Wecker-App, die dich jeden Morgen mit einem anderen Lied weckt. Um den Wecker
 auszuschalten, muss der Nutzer aus vier Vorschlägen den Vogel erraten, der ihn gerade geweckt hat. Liegt er richtig,

@@ -9,11 +9,11 @@ tile_active: "/img/projekte-tiles/Soundwwall-active.png"
 image: "/img/projekte/soundwall.jpg"
 links:
     -
-        class: "projects-github"
+        class: "github"
         link: "http://github.com/mCRUMBS/Soundwall/"
         text: "Seite auf github"
     -
-        class: "projects-website"
+        class: "website"
         link: "http://mcrumbs.com/portfolio/soundwall-app/ "
         text: "Webseite"
 data:

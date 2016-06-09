@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/rollingstone-active.png"
 image: "/img/projekte/rolling_stone_logo.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://knutator2.github.io/Rolling-Stone/#/"
     text: "Webseite"
   -
@@ -26,21 +26,21 @@ team:
   -
     name: "Anika Schultz"
     contact:
-      mail: "mail@anikaschultz.de"
+      mail: "mailto:mail@anikaschultz.de"
   -
     name: "Knut Perseke"
     contact:
-      mail: "knut.perseke@gmail.com"
-      twitter: "knutator"
-      github: "knutator2"
+      mail: "mailto:knut.perseke@gmail.com"
+      twitter: "http://twitter.com/knutator"
+      github: "http://github.com/knutator2"
   -
     name: "Ulrika Müller"
     contact:
-      mail: "mail@ulrikamueller.de"
+      mail: "mailto:mail@ulrikamueller.de"
   -
     name: "Thomas Fett"
     contact:
-      mail: "mail@thomasfett.de"
+      mail: "mailto:mail@thomasfett.de"
 ---
 Die geologische Sammlung des Stadtmuseums Berlin stellte unserem Team einen Datensatz aus Fotos und Informationen zu
 fast 300 Steinen aus ihrem Archiv zur Verfügung. Die Funde sind mehrere Millionen Jahre alt und wurden in den

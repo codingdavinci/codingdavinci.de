@@ -8,11 +8,11 @@ tile_active: "/img/projekte-tiles/dnbexplorer-active.png"
 image: "/img/projekte/dnb-explorer1.png"
 links:
     -
-        class: "projects-github"
+        class: "github"
         link: "http://github.com/sebastian-meier/dnb-visualization"
         text: "Seite auf github"
     -
-        class: "projects-website"
+        class: "website"
         link: "http://www.sebastianmeier.eu/2014/06/21/deutsche-national-bibliothek-data-explorer/"
         text: "Webseite"
 data:
@@ -21,8 +21,8 @@ team:
     -
         name: "Sebastian Meier"
         contact:
-            twitter: "@seb_meier"
-            github: "sebastian-meier"
+            twitter: "http://twitter.com/seb_meier"
+            github: "http://github.com/sebastian-meier"
 ---
 Die Deutsche Nationalbibliothek bietet einen reichhaltigen Fundus an Daten. Über das gedruckte Medium hinaus finden sich
 z.B. auch Informationen zu Personen und Orten. All diese Daten stehen in Relation zu einander, die bisher nur über eine

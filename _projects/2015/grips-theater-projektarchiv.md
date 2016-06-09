@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/grips-active.png"
 image: "/img/projekte-tiles/default-active.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://ktbr.de"
     text: "Webseite"
   -
@@ -21,8 +21,8 @@ team:
   -
     name: "Kai Teuber"
     contact:
-      mail: "teuberkai@icloud.com"
-      twitter: "@teuberkai"
+      mail: "mailto:teuberkai@icloud.com"
+      twitter: "http://twitter.com/teuberkai"
   -
     name: "Paul Kasperki"
 ---

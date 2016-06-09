@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/midiola-active.png"
 image: "/img/projekte-tiles/default-active.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "https://git.urgs.org/codingdavinci2015_fu_khb_notenrollen/midiola"
     text: "Webseite"
   -
@@ -21,20 +21,20 @@ team:
   -
     name: "Tom Brewe"
     contact:
-      mail: "tom.brewe@fu-berlin.de"
-      github: "nylki"
+      mail: "mailto:tom.brewe@fu-berlin.de"
+      github: "http://github.com/nylki"
   -
     name: "Joscha Lausch"
     contact:
-      mail: "jo.lausch@fu-berlin.de"
+      mail: "mailto:jo.lausch@fu-berlin.de"
   -
     name: "Mohammad Moradi"
     contact:
-      mail: "moradi.berlin@gmail.com"
+      mail: "mailto:moradi.berlin@gmail.com"
   -
     name: "Luca Beisel"
     contact:
-      mail: "mail@lucabeisel.de"
+      mail: "mailto:mail@lucabeisel.de"
 ---
 MIDIOLA ist eine Smartphone-App, die sich den Notenrollen für selbstspielende Klaviere aus dem frühen 20. Jahrhundert
 widmet. Mit unserem Programm können die digitalisierten Notenrollen aus der Sammlung des Deutschen Museums München

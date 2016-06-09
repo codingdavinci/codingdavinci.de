@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/default-active.png"
 image: "/img/projekte/mayakodex.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://blattspinat.com/index.php/posts/maya-codex-in-2-2-gigapixeln"
     text: "Webseite"
 data:
@@ -17,7 +17,7 @@ team:
   -
     name: "Constantin Müller"
     contact:
-      twitter: "ubahnverleih"
+      twitter: "http://twitter.com/ubahnverleih"
 ---
 Der etwa 800 Jahre alte Codex Dresdensis ist eine der wenigen erhaltenen Maya Handschriften. Für den Kultur-Hackathon
 Coding da Vinci hat die SLUB Dresden die Scanns des Werkes in voller Auflösung bereit gestellt. Für den Wettbewerb ist

@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/kurbelkamera-active.png"
 image: "/img/projekte/kurbelkamera_logo.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://elab-kh-berlin.de/courses/cod1ng_dav1nc1/?cat=6"
     text: "Webseite"
   -
@@ -27,19 +27,19 @@ team:
   -
     name: "Lukas Benedix"
     contact:
-      mail: "lukas.benedix@fu-berlin.de"
+      mail: "mailto:lukas.benedix@fu-berlin.de"
   -
     name: "Alexa Schlegel"
     contact:
-      mail: "alexa.schlegel@gmail.com"
+      mail: "mailto:alexa.schlegel@gmail.com"
   -
     name: "Fanny Steingräber"
     contact:
-      mail: "hallo@fannysteingraeber.de"
+      mail: "mailto:hallo@fannysteingraeber.de"
   -
     name: "Katjuscha-Kaja Tömmler"
     contact:
-      mail: "k.toemmler@gmx.de"
+      mail: "mailto:k.toemmler@gmx.de"
 ---
 Mit diesem Exponat kann eine Gruppe ein Gefühl für die Anfänge der Filmkamera entwickeln, indem sie einen alten Film über
 Kurbeln auf einer Leinwand abspielen, mit diesem interagieren, ihn aufnehmen und den neu entstandenen Film teilen. Fokus

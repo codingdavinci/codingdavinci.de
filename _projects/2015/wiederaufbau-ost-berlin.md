@@ -9,7 +9,7 @@ tile_active: "/img/projekte-tiles/2015/wiederaufbau_ost-active.png"
 images: "/img/projekte/wiederaufbau_ost_logo.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://cdv-staging.herokuapp.com/"
     text: "Webseite"
   -
@@ -30,22 +30,22 @@ team:
     id: 5
     name: "Lina Rehork"
     contact:
-      mail: "Lina.Rehork@gmx.de"
+      mail: "mailto:Lina.Rehork@gmx.de"
   -
     id: 6
     name: "Anne Heichler"
     contact:
-      mail: "anne.heichler@googlemail.com"
+      mail: "mailto:anne.heichler@googlemail.com"
   -
     id: 7
     name: "Zhuo-Fei Hui"
     contact:
-      mail: "zhfhui@gmail.com"
+      mail: "mailto:zhfhui@gmail.com"
   -
     id: 8
     name: "Christian Knop"
     contact:
-      mail: "knop.christian@googlemail.com"
+      mail: "mailto:knop.christian@googlemail.com"
 ---
 Unsere Webseite richtet sich an architektur- und geschichtsinteressierte Bewohner und Besucher Berlins. Wir haben
 ausgehend von den Fotografien Gisela Dutschmanns eine Rekonstruktion der Hauptstadtpläne der DDR-Regierung in Texten

@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/grosstadtziegel-active.png"
 image: "/img/projekte-tiles/default-active.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://elab-kh-berlin.de/courses/cod1ng_dav1nc1/?cat=11"
     text: "Webseite"
   -
@@ -25,15 +25,15 @@ team:
   -
     name: "Julian Dobmann"
     contact:
-      mail: "julian.dobmann@gmail.com"
+      mail: "mailto:julian.dobmann@gmail.com"
   -
     name: "Kai Kruschel"
     contact:
-      mail: "kaikruschel@posteo.de"
+      mail: "mailto:kaikruschel@posteo.de"
   -
     name: "Stefan Brüning"
     contact:
-      mail: "stefan@ozoncyclery.com"
+      mail: "mailto:stefan@ozoncyclery.com"
 ---
 Der Großstadtziegel ist ein autonomes Gerät, das von Person zu Person weitergegeben wird, Geschichten audiovisuell
 aufnimmt, speichert und an eine zentrale Plattform sendet.<br /><br />Unser Gadget hat die Form eines Ziegels. Ein

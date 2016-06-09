@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/little_piano-active.png"
 image: "/img/projekte/little-piano_logo.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://tursics.de/sample/piano/"
     text: "Webseite"
   -
@@ -22,9 +22,9 @@ team:
   -
     name: "Thomas Tursics"
     contact:
-      mail: "thomas@tursics.de"
-      twitter: "@tursics"
-      github: "tursics"
+      mail: "mailto:thomas@tursics.de"
+      twitter: "http://twitter.com/tursics"
+      github: "http://github.com/tursics"
 ---
 Hinsetzen, Radio an und Musik hören. Das ist kinderleicht. Aber wie funktionierte das vor der Erfindung des Radios? Z.B
 mit einem Grammophon ... oder einem selbstspielenden Klavier. Verwandle dein Handy in so ein Klavier und lausche den

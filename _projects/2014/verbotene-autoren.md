@@ -8,13 +8,9 @@ tile_active: "/img/projekte-tiles/verboteneautoren-active.png"
 image: "/img/projekte/app-verbotene-autoren.png"
 links:
     -
-        class: "projects-website"
+        class: "website"
         link: "http://mr-fridge.de/apps/verbotene_autoren/index.php"
         text: "Webseite"
-    -
-        class: "projects-appstore"
-        link: ""
-        text: "tbd"
 data:
     - "NS-Buchverbotsliste"
     - "Wikipedia"
@@ -23,13 +19,13 @@ team:
     -
         name: "Anna Neovesky, Digitale Akademie"
         contact:
-            mail: "anna.neovesky@adwmainz.de"
-            twitter: "@annavsk"
+            mail: "mailto:anna.neovesky@adwmainz.de"
+            twitter: "http://twitter.com/annavsk"
     -
         name: "Julius Peinelt, Mr. Fridge Software"
         contact:
-            mail: "julius@mr-fridge.de"
-            twitter: "@codingFriends"
+            mail: "mailto:julius@mr-fridge.de"
+            twitter: "http://twitter.com/codingFriends"
 ---
 Im Mai und Juni 1933 wurden während der NS-Zeit sämtliche Autoren verfolgt und zahlreiche Bücher verbrannt. Auch in
 unsere heutige Zeit hinein fehlt uns der Überblick über diese Artefakte und ihre meist unbekannten Erschaffer. Die App

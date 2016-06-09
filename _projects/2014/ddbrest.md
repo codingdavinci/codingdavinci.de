@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/ddbrest-active.png"
 image: "/img/projekte/ddbrest.png"
 links:
     -
-        class: "projects-github"
+        class: "github"
         link: "http://github.com/kollektivpp/ddbrest"
         text: "Seite auf github"
 data:
@@ -18,8 +18,8 @@ team:
         name: "Christian Bromann"
         mail: "mail@christian-bromann.com"
         contact:
-            twitter: "@bromann"
-            github: "christian-bromann"
+            twitter: "http://twitter.com/bromann"
+            github: "http://github.com/christian-bromann"
 ---
 Die Datenbank der Deutschen Digitalen Bibliothek gibt Zugang zu zahlreichen kulturellen und wissenschaftlichen
 Artefakten wie Büchern, Archiven, Bildern, Musik und Videos. Mit der API (Programmierschnitstelle) der DDB können

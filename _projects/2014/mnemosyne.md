@@ -8,11 +8,11 @@ tile_active: "/img/projekte-tiles/Mnemosyne-active.png"
 image: "/img/projekte/mnemosyne.png"
 links:
     -
-        class: "projects-website"
+        class: "website"
         link: "http://mnemosyne-app.de"
         text: "Webseite"
     -
-        class: "projects-github"
+        class: "github"
         link: "http://github.com/kollektivpp/CodingDaVinci-Mnemosyne"
         text: "Seite auf github"
 data:
@@ -22,13 +22,13 @@ team:
         name: "Christian Bromann"
         mail: "mail@christian-bromann.com"
         contact:
-            twitter: "@bromann"
-            github: "christian-bromann"
+            twitter: "http://twitter.com/bromann"
+            github: "http://github.com/christian-bromann"
     -
         name: "Thomas Fett"
         contact:
-            github: "thomasfett"
-            twitter: "@FettThomas"
+            github: "http://github.com/thomasfett"
+            twitter: "http://twitter.com/FettThomas"
     -
         name: "Marius Förster"
         contact:
@@ -36,8 +36,8 @@ team:
     -
         name: "Knut Perseke"
         contact:
-            twitter: "@knutator"
-            github: "knutator2"
+            twitter: "http://twitter.com/knutator"
+            github: "http://github.com/knutator2"
 ---
 Archive werden mit steigender Komplexität spannender aber auch schwieriger zugänglich. Wie kann ich nach etwas suchen,
 dass ich nicht kenne? Wie können Inhalte dargestellt werden, die den Nutzer animieren feste Denkstrukturen zu

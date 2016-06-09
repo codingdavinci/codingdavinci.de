@@ -8,7 +8,7 @@ tile_active: "/img/projekte-tiles/2015/floradex-active.png"
 image: "/img/projekte/floradex_logo.png"
 links:
   -
-    class: "projects-website"
+    class: "website"
     link: "http://wesuku.de/floradex/www/"
     text: "Webseite"
   -
@@ -16,7 +16,7 @@ links:
     link: "https://github.com/Floradex/Floradex"
     text: "github"
   -
-    class: "projects-website"
+    class: "website"
     link: "http://elab-kh-berlin.de/courses/cod1ng_dav1nc1/?cat=4"
     text: "Blog"
   -
@@ -30,7 +30,7 @@ team:
   -
     name: "Anne Lange"
     contact:
-      mail: "langeanne@gmx.net"
+      mail: "mailto:langeanne@gmx.net"
   -
     name: "Philipp Schröter"
   -
@@ -38,7 +38,7 @@ team:
   -
     name: "Immanuel Pelzer"
     contact:
-      twitter: "@immnoel"
+      twitter: "http://twitter.com/immnoel"
 ---
 Wir, Anne Lange (KHB Produktdesign), Philipp Schröter (FU Berlin Informatik), Immanuel Pelzer (HU Berlin Informatik), Paul Michaelis
 (FU Berlin Informatik) wollten als interdisziplinäres Team den schwer zugänglichen Herbariums-Daten des Botanischen Museums und
