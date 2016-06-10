@@ -148,8 +148,21 @@ p:first-child {
   border-color: $cdvn-blue;
 }
 
-.jumbotron {
+.container .jumbotron,
+.container-fluid .jumbotron {
   background-color: $cdvn-light-blue;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 1.5em 2em;
+
+  ul {
+    margin-top: 0;
+    padding-left: 0;
+    li {
+      list-style: none;
+      margin-bottom: .25em;
+    }
+  }
 }
 
 #programm {
@@ -171,6 +184,23 @@ p:first-child {
   }
   td {
     background-color: $cdvn-light-blue;
+  }
+}
+
+/* boxes */
+.challenge-box {
+  h3 {
+    background-color: $cdvn-blue;
+  }
+  .box {
+    background-color: $cdvn-light-blue;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+  p {
+    font-size: .9em;
   }
 }
 
