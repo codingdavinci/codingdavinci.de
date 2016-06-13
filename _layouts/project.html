@@ -28,7 +28,7 @@ slug: projekte
                     {% assign firstProject = site.projects | where: 'year', year | where: 'isFirst', true | first %}
                     <div class="btn-group" role="group">
                     <a type="button" class="btn btn-default {% if page.year == year %} active {% endif %}"
-                    href="{{firstProject.id}}">{{year}}</a>
+                    href="{{firstProject.id}}.html">{{year}}</a>
                     </div>
                 {% endfor %}
             </div>
