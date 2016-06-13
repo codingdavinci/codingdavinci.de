@@ -854,6 +854,10 @@ only screen and (min-device-pixel-ratio: 2) {
   padding: 0.25em;
 }
 
+.logos {
+  align-items: flex-start;
+}
+
 h5 {
   font-weight: bold;
 }
