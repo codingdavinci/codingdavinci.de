@@ -10,6 +10,10 @@ permalink: /news/:year/:month/:day/:title.html
 
 gems: [jekyll-paginate]
 
+collections:
+  projects :
+    output: true
+
 
 paginate: 7
 paginate_path: "/news/page:num/"
