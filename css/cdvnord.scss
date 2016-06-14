@@ -148,6 +148,11 @@ p:first-child {
   border-color: $cdvn-blue;
 }
 
+/* fix line-wrap */
+.btn {
+  white-space: normal;
+}
+
 .container .jumbotron,
 .container-fluid .jumbotron {
   background-color: $cdvn-light-blue;
