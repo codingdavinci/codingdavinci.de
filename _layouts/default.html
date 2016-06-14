@@ -63,9 +63,15 @@
           </div>
         </div>
 
-        <a class="main-signup" href="http://eepurl.com/b4EcrX">
+        {% if page.header_nord %}
+        <a class="main-signup signup-nord" href="http://eepurl.com/b4EcrX" target="_blank">
           News/Updates erhalten
         </a>
+        {% else %}
+        <a class="main-signup" href="https://docs.google.com/forms/d/12ZsAOwQ7yTPcYm4i87nWekLZk7k2cQ6Yyt5a2aut60c/viewform" target="_blank">
+          Für CDV&nbsp;Nord anmelden
+        </a>
+        {% endif %}
 
         <a class="smooth-scroll scroll-hint" href="#inhalt">&#9660; &#9660; &#9660; &#9660;</a>
       </div>
