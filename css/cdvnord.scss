@@ -84,7 +84,7 @@ a, a:link, a:hover, a:visited {
 .cdv-tiles8 { background-position: -876px -1090px; width: 214px; height: 214px; }
 .cdv-tiles9 { background-position: -4px -1308px; width: 214px; height: 214px; }
 
-a.main-signup {
+a.signup-nord {
   color: white;
   background-color: $cdvn-blue;
   font-weight: normal;
@@ -146,6 +146,11 @@ p:first-child {
   color: white;
   background-color: $cdvn-blue;
   border-color: $cdvn-blue;
+}
+
+/* fix line-wrap */
+.btn {
+  white-space: normal;
 }
 
 .container .jumbotron,

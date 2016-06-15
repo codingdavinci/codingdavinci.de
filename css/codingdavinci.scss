@@ -158,11 +158,11 @@ img {
 }
 
 a.main-signup {
-  padding: 32px 15px 10px;
+  padding: 24px 15px 10px;
   text-transform: uppercase;
   background-color: #19C6F9;
-  font-size: 24pt;
-  font-weight: bold;
+  font-size: 22pt;
+  font-weight: normal; // bold;
   margin: 75px auto 0;
   z-index: 1001;
   width: 320px;
@@ -175,6 +175,7 @@ a.main-signup {
   transform: translate3d(0px, 0px, 0px);
   text-align: center;
   /*display: none;*/
+
 }
 
 a.main-signup:hover {
