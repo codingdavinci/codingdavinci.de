@@ -59,7 +59,7 @@
   image: "/img/projekte/mnemosyne.png"
   description: "Archive werden mit steigender Komplexität spannender aber auch schwieriger zugänglich. Wie kann ich nach etwas suchen, dass ich nicht kenne? Wie können Inhalte dargestellt werden, die den Nutzer animieren feste Denkstrukturen zu überwinden?
 MNEMOSYNE hat das Ziel, dem Betrachter ein Stöbern zu ermöglichen und Schätze aus dem Archiv ins Gedächtnis zu rufen. Wie in der Bibliothek wahllos ins Regal greifen und eine Kostbarkeit finden, oder das Wikipedia-Hyperlink-Hopping."
-  links: "<a href=\"http://mnemosyne-app.de\">Webseite</a></br><a href=\"http://github.com/kollektivpp/CodingDaVinci-Mnemosyne\">Seite auf github</a><br>"
+  links: "<a href=\"http://mnemosyne-app.de\">Webseite</a><br/><a href=\"http://github.com/kollektivpp/CodingDaVinci-Mnemosyne\">Seite auf github</a><br>"
   data: "API der Deutschen Digitalen Bibliothek"
   team: "<br>Christian Bromann, <a href=\"http://www.christian-bromann.com\">Webseite</a><br>Thomas Fett, <br>Marius Förster, <a href=\"http://www.mezla.de\">Webseite</a><br>Knut Perseke"
 - 

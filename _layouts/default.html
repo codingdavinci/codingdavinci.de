@@ -7,19 +7,14 @@
     <link href="{{ site.baseurl }}css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ site.baseurl }}css/codingdavinci.css" rel="stylesheet">
     <link href="{{ site.baseurl }}css/lightgallery.css" rel="stylesheet">
-    <link href="{{ site.baseurl }}css/print.css" rel="stylesheet" type="text/css"; media="print">
-
+    <link href="{{ site.baseurl }}css/print.css" rel="stylesheet" type="text/css" media="print">
     {% if page.css %}
       <link href="{{ site.baseurl }}css/{{page.css}}" rel="stylesheet">
     {% endif %}
-
     <!--[if IE ]>
       <style type="text/css" media="screen">
-        .tiles {
-          display: none
-        }
+        .tiles {  display: none  }
       </style>
-
       <![endif]-->
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="{{ site.baseurl }}img/favicon.ico">
@@ -72,28 +67,28 @@
     </header>
     {% endif %}
     <div class="background {% if page.header %} header-above{% endif %}">
-    <div class="container-fluid nav-container" id="inhalt">
-      <nav class="navbar navbar-davinci" role="navigation">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="{{ site.baseurl }}">
-            <img src="{{ site.baseurl }}img/nav-logo.png" alt="Coding Da Vinci"/>
-          </a>
-        </div>
+      <div class="container-fluid nav-container" id="inhalt">
+        <nav class="navbar navbar-davinci" role="navigation">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="{{ site.baseurl }}">
+              <img src="{{ site.baseurl }}img/nav-logo.png" alt="Coding Da Vinci"/>
+            </a>
+          </div>
 
-        <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right">
             <!--<li class="touchable separator {% if page.slug == "mitmachen" %}active{% endif %}">-->
-              <!--<a href="{{ site.baseurl }}mitmachen/">Mitmachen!&nbsp;&#x25BE;</span></a>-->
-              <!--<ul class="nav navbar-nav">-->
-                <!--<li><a {% if page.slug == "mitmachen" %}class="scroll-offset"{% endif %} href="{{ site.baseurl }}mitmachen/#kulturinstitution">Kulturinstitution</a></li>-->
-                <!--<li><a class="{% if page.slug == "mitmachen" %}scroll-offset{% endif %}" href="{{ site.baseurl }}mitmachen/#teilnehmer">Teilnehmer/innen</a></li>-->
-                <!--<li><a class="{% if page.slug == "mitmachen" %}scroll-offset{% endif %}" href="{{ site.baseurl }}mitmachen/#challenges">Challenges</a></li>-->
-              <!--</ul>-->
+            <!--<a href="{{ site.baseurl }}mitmachen/">Mitmachen!&nbsp;&#x25BE;</span></a>-->
+            <!--<ul class="nav navbar-nav">-->
+            <!--<li><a {% if page.slug == "mitmachen" %}class="scroll-offset"{% endif %} href="{{ site.baseurl }}mitmachen/#kulturinstitution">Kulturinstitution</a></li>-->
+            <!--<li><a class="{% if page.slug == "mitmachen" %}scroll-offset{% endif %}" href="{{ site.baseurl }}mitmachen/#teilnehmer">Teilnehmer/innen</a></li>-->
+            <!--<li><a class="{% if page.slug == "mitmachen" %}scroll-offset{% endif %}" href="{{ site.baseurl }}mitmachen/#challenges">Challenges</a></li>-->
+            <!--</ul>-->
             <!--</li>-->
             <li class="separator {% if page.slug == 'news' %}active{% endif %}">
               <a href="{{ site.baseurl }}news/">News</a>
             </li>
             <li class="separator {% if page.slug == 'events' %}active{% endif %}">
-            <a href="{{ site.baseurl }}events/">Events</a>
+              <a href="{{ site.baseurl }}events/">Events</a>
             </li>
             <li class="separator {% if page.slug == 'daten' %}active{% endif %}">
               <a href="{{ site.baseurl }}daten/">Daten</a>
@@ -102,24 +97,23 @@
               <a href="{{ site.baseurl }}projekte/">Projekte</a>
             </li>
             <li class="separator {% if page.slug == 'dokumentation' %}active{% endif %}">
-            <a href="{{ site.baseurl }}dokumentation/">Dokumentation</a>
+              <a href="{{ site.baseurl }}dokumentation/">Dokumentation</a>
             </li>
             <li class="separator {% if page.slug == 'stimmen' %}active{% endif %}">
-            <a href="{{ site.baseurl }}stimmen/">Stimmen</a>
+              <a href="{{ site.baseurl }}stimmen/">Stimmen</a>
             </li>
             <!--<li class="separator {% if page.slug == 'unterstuetzer' %}active{% endif %}">-->
-              <!--<a href="{{ site.baseurl }}unterstuetzer/">Unterstützer</a>-->
+            <!--<a href="{{ site.baseurl }}unterstuetzer/">Unterstützer</a>-->
             <!--</li>-->
             <li class="separator {% if page.slug == 'about' %}active{% endif %}">
-            <a href="{{ site.baseurl }}about/">Über uns</a>
+              <a href="{{ site.baseurl }}about/">Über uns</a>
             </li>
             <li class="separator {% if page.slug == 'presse' %}active{% endif %}">
               <a href="{{ site.baseurl }}presse/">Presse</a>
             </li>
             <li class="separator {% if page.slug == 'dokumentation' %}active{% endif %}">
               <a href="{{ site.baseurl }}english-infos/">
-
-                <img class="english" src="{{ site.baseurl }}img/icons/unionflag.png" />
+                <img class="english" alt="English" src="{{ site.baseurl }}img/icons/unionflag.png" />
               </a>
             </li>
             <li class="image-menu-link">
@@ -128,53 +122,53 @@
               </a>
             </li>
           </ul>
-      </nav>
-    </div>
+        </nav>
+      </div>
 
       {{ content }}
 
-    <footer id="impressum" class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">
-            <h5><a href="{{ site.baseurl }}kontakt/">Kontakt</a></h5>
-            <p>
-              Helene Hahn</br>
-              Projektleiterin Coding da Vinci</br>
-              Mail: helene.hahn AT okfn.de</br>
-              Tel: +49 30 57703666 2
-            </p>
-            <h5><a href="http://www.okfn.de/impressum/">Impressum</a></h5>
-            <p>
-              Open Knowledge Foundation Deutschland e.V.<br/>
-              Singerstr. 109, 10179 Berlin<br/>
-              www.okfn.de<br/>
-              info AT okfn.de<br/>
-              Tel: +49 30 57703666 2<br/>
-              Fax: +49 30 57703666 9
-            </p>
-            <h5>Credits</h5>
-            <p>
-              Design: <a href="http://fuklab.org/">FUK Graphic Design Studio</a><br/>
-              Umsetzung: <a href="http://stefanwehrmeyer.com/">Stefan Wehrmeyer</a><br/>
-              Font "Archive" von <a href="http://fontfabric.com/">Svetoslav Simov/Fontfabric</a><br/>
-              Graphic Recording: CC-BY-SA von <a href="http://playability.de/">Julian Kücklich</a><br/>
-              Fotos: CC-BY <a href="http://www.bergervoet-agueras.de/ueber_uns.php">Volker Agueras Gaeng</a>
-            </p>
-            <p>
-              Wenn nicht anders angegeben, sind Textinhalte und bildliche Designelemente unter <a href="https://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a> lizenziert.
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-5 col-sm-6 logos">
-            <h5>Ein Projekt von</h5>
-            <img src="{{ site.baseurl }}img/logos/ddb.png" alt="Deutsche Digitale Bibliothek" class="img-responsive"/>
-            <img src="{{ site.baseurl }}img/logos/okfn.png" alt="Open Knowledge Foundation Deutschland" class="img-responsive"/>
-            <img src="{{ site.baseurl }}img/logos/digis.png" alt="Digis Servicestelle Digitalisierung" class="img-responsive"/>
-            <img src="{{ site.baseurl }}img/logos/wikimedia.png" alt="Wikimedia Deutschland" class="img-responsive"/>
+      <footer id="impressum" class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">
+              <h5><a href="{{ site.baseurl }}kontakt/">Kontakt</a></h5>
+              <p>
+                Helene Hahn<br/>
+                Projektleiterin Coding da Vinci<br/>
+                Mail: helene.hahn AT okfn.de<br/>
+                Tel: +49 30 57703666 2
+              </p>
+              <h5><a href="http://www.okfn.de/impressum/">Impressum</a></h5>
+              <p>
+                Open Knowledge Foundation Deutschland e.V.<br/>
+                Singerstr. 109, 10179 Berlin<br/>
+                www.okfn.de<br/>
+                info AT okfn.de<br/>
+                Tel: +49 30 57703666 2<br/>
+                Fax: +49 30 57703666 9
+              </p>
+              <h5>Credits</h5>
+              <p>
+                Design: <a href="http://fuklab.org/">FUK Graphic Design Studio</a><br/>
+                Umsetzung: Stefan Wehrmeyer, Knut Perseke<br/>
+                Font "Archive" von <a href="http://fontfabric.com/">Svetoslav Simov/Fontfabric</a><br/>
+                Graphic Recording: CC-BY-SA von <a href="http://playability.de/">Julian Kücklich</a><br/>
+                Fotos: CC-BY <a href="http://www.bergervoet-agueras.de/ueber_uns.php">Volker Agueras Gaeng</a>
+              </p>
+              <p>
+                Wenn nicht anders angegeben, sind Textinhalte und bildliche Designelemente unter <a href="https://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a> lizenziert.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-6 logos">
+              <h5>Ein Projekt von</h5>
+              <img src="{{ site.baseurl }}img/logos/ddb.png" alt="Deutsche Digitale Bibliothek" class="img-responsive"/>
+              <img src="{{ site.baseurl }}img/logos/okfn.png" alt="Open Knowledge Foundation Deutschland" class="img-responsive"/>
+              <img src="{{ site.baseurl }}img/logos/digis.png" alt="Digis Servicestelle Digitalisierung" class="img-responsive"/>
+              <img src="{{ site.baseurl }}img/logos/wikimedia.png" alt="Wikimedia Deutschland" class="img-responsive"/>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
     </div>
     <script src="{{ site.baseurl }}js/jquery-1.11.0.min.js"></script>
     <script src="{{ site.baseurl }}js/bootstrap.min.js"></script>
