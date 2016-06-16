@@ -178,6 +178,11 @@ a.main-signup {
 
 }
 
+a.main-signup.signup-img {
+  padding: 0;
+  background-color: #09F;
+}
+
 a.main-signup:hover {
   color: $color-secondary;
 }
