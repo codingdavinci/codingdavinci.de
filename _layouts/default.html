@@ -58,9 +58,15 @@
           </div>
         </div>
 
-        <a class="main-signup" href="http://eepurl.com/b4EcrX">
+        {% if page.header_nord %}
+        <a class="main-signup signup-nord" href="http://eepurl.com/b4EcrX" target="_blank">
           News/Updates erhalten
         </a>
+        {% else %}
+        <a class="main-signup signup-img" href="{{ site.baseurl }}events">
+          <img src="{{ site.baseurl }}img/header_date_cdvnord.png" alt="Coding da Vinci Nord"/>
+        </a>
+        {% endif %}
 
         <a class="smooth-scroll scroll-hint" href="#inhalt">&#9660; &#9660; &#9660; &#9660;</a>
       </div>
