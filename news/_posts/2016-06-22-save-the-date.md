@@ -1,6 +1,6 @@
 ---
 author: Philipp Geisler
-date: 2016-06-22 14:38:00
+date: 2016-06-21 14:38:00
 layout: post
 published: true
 status: publish
@@ -8,7 +8,6 @@ title: Save the date!
 image:
     src: /img/header-blogpost.jpg
     alt: Coding da Vinci Nord
-    license:
 tags:
     - Events
     - Coding da Vinci Nord
