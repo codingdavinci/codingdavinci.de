@@ -186,6 +186,20 @@ p:first-child {
   }
 }
 
+#sponsors, #hosts {
+  img {
+    max-width: 400px;
+
+    .wide {
+      max-width: 800px;
+    }
+
+    .xwide {
+      max-width: 1200px;
+    }
+  }
+}
+
 /* tables */
 .table {
   .head {
