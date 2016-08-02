@@ -84,6 +84,10 @@ a, a:link, a:hover, a:visited {
 .cdv-tiles8 { background-position: -876px -1090px; width: 214px; height: 214px; }
 .cdv-tiles9 { background-position: -4px -1308px; width: 214px; height: 214px; }
 
+.caption-text {
+  font-size: 75%;
+}
+
 a.signup-nord {
   color: white;
   background-color: $cdvn-blue;
@@ -179,6 +183,20 @@ p:first-child {
   }
   .sep {
     background-image: none;
+  }
+}
+
+#sponsors, #hosts {
+  img {
+    max-width: 400px;
+
+    .wide {
+      max-width: 800px;
+    }
+
+    .xwide {
+      max-width: 1200px;
+    }
   }
 }
 
