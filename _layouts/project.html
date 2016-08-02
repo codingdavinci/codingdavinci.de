@@ -119,7 +119,7 @@ slug: projekte
             {% for project in projects %}
                 {{project.tile}}
                 <div class="project-tile">
-                    <a href="{{project.id}}">
+                    <a href="{{project.id}}.html#project-name">
                         <img src="{{project.tile}}" class="project-tile-img" onmouseover="this.src='{{project.tile_active}}'"
                              onmouseout="this.src='{{project.tile}}'"/>
                         <p>{{project.name}}</p>
