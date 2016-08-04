@@ -2,7 +2,7 @@
 author: We Make Known
 date: 2016-08-04 08:00:00
 layout: post
-published: true
+published: false
 status: publish
 title: Die Göttin der Erinnerung Mnemosyne auf ihrem langen Weg zu den Nutzern
 image:
