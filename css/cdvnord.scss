@@ -112,7 +112,9 @@ a.scroll-hint {
 }
 
 #events-main,
-#sponsors {
+#events-tn,
+#sponsors,
+#hosts {
   .subheader {
     padding-top: 0;
   }
@@ -187,6 +189,9 @@ p:first-child {
 }
 
 #sponsors, #hosts {
+  .row:not(:last-child) {
+    margin-bottom: 1em;
+  }
   img {
     max-width: 400px;
 
