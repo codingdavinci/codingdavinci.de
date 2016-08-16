@@ -112,12 +112,15 @@ a.scroll-hint {
 }
 
 #events-main,
-#events-tn,
 #sponsors,
 #hosts {
   .subheader {
     padding-top: 0;
   }
+}
+
+header#teilnahmebedingungen {
+  padding-top: 0;
 }
 
 p:first-child {
