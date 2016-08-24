@@ -2,40 +2,92 @@
 -
   entries:
     -
-      content: "Begrüßung durch die Veranstalter"
+      content: "Willkommen"
+      date: "2016-09-17 10:00"
+    -
+      content: "Begrüßung und Kennenlernen"
       date: "2016-09-17 10:30"
     -
-      content: "Weitere Programmdetails in Kürze"
-      date: ""
-  header: "1. Kick-Off-Weekend"
+      content: "Vorstellung der Kulturdaten"
+      date: "2016-09-17 11:30"
+    -
+      content: "Mittagessen & Ideenfindung"
+      date: "2016-09-17 13:00"
+    -
+      content: "Pitching Eurer Projektideen"
+      date: "2016-09-17 14:35"
+    -
+      content: "Teambildung"
+      date: "2016-09-17 15:45"
+    -
+      content: "Vorstellung Eurer Teams und Projekte"
+      date: "2016-09-17 17:30"
+    -
+      content: "Abendsnack"
+      date: "2016-09-17 18:45"
+    -
+      content: "Open End Projektarbeit"
+      date: "2016-09-17 19:30"
+  header: "1. Kick-Off"
   style: 1
   title: "17. September"
 -
   entries:
     -
-      content: "Start des Entwicklertags"
-      date: "2016-09-18 09:00"
-    -
-      content: "Frühstück"
-      date: "2016-09-18 09:30"
-    -
-      content: "Begrüßung"
+      content: "Begrüßung & Warmmachen"
       date: "2016-09-18 10:00"
     -
-      content: "Weitere Programmdetails in Kürze"
-      date: ""
+      content: "Hacken, Basteln, Entwickeln, Workshops besuchen"
+      date: "2016-09-18 11:15"
+    -
+      content: "Workshop 1"
+      date: "2016-09-18 11:15"
+    -
+      content: "Workshop 2"
+      date: "2016-09-18 12:45"
+    -
+      content: "Mittagessen"
+      date: "2016-09-18 13:30"
+    -
+      content: "Workshops 3 & 4"
+      date: "2016-09-18 14:15"
+    -
+      content: "Workshops 5 & 6"
+      date: "2016-09-18 15:25"
+    -
+      content: "Wrap-Up"
+      date: "2016-09-18 16:40"
   style: 1
   title: "18. September"
 -
-  header: "2. Entwicklungssprint"
+  entries:
+    -
+      content: "Wir unterstützen Euch mit Workshops und bei Meetups, und bringen Euch mit den richtigen Menschen in Kontakt."
+      date: ""
+  header: "2. Sprint"
   image: "/img/programm/cdv_sprint_24.png"
   style: 2
-  title: "Ihr habt sechs Wochen Zeit, um Euer Projekt zu entwickeln."
+  title: "Sechs Wochen Entwicklungszeit"
 -
   entries:
     -
-      content: "Termin und Programmdetails in Kürze"
+      content: "Begrüßung"
+      date: ""
+    -
+      content: "Kurzvorstelllung aller Eurer Projekte"
+      date: ""
+    -
+      content: "Projektstände & Jurygespräche"
+      date: ""
+    -
+      content: "Preise!"
+      date: ""
+    -
+      content: "Party!!!"
+      date: ""
+    -
+      content: "[Alle Uhrzeiten in Kürze]"
       date: ""
   style: 1
-  title: "Anfang November"
-  header: "3. Abschluss"
+  title: "6. November"
+  header: "3. Preisverleihung"

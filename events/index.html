@@ -14,11 +14,11 @@ header_nord: true
       </header>
     </div>
   </div>
-  <div class="row">
+  <!-- div class="row">
     <div class="jumbotron col-lg-6 col-lg-offset-3">
       <p><strong>Die <a href="#events-tn">Anmeldung für Teilnehmer/innen</a> ist ab sofort möglich!</strong></p>
     </div>
-  </div>
+  </div -->
   <div class="row">
     <div class="col-lg-6 col-lg-offset-3">
       <p>
@@ -66,6 +66,187 @@ header_nord: true
   </div>
 </div>
 
+<div id="programm" class="container-fluid">
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+      <header class="subheader subheader-uhr">
+        <h2>&nbsp;Programm&nbsp;</h2>
+      </header>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+      <!-- STEPS Semantic Timeline -->
+      <section id="Steps" class="steps-section">
+        <div class="steps-timeline">
+
+          <div class="steps-one">
+            <img class="steps-img" src="/img/cdvn-blue-45x45.png" alt="" />
+            <h3 class="steps-name">
+              Kick-Off
+            </h3>
+            <p class="steps-description">
+              17. + 18. September
+            </p>
+          </div>
+
+          <div class="steps-two">
+            <img class="steps-img" src="/img/cdvn-blue-45x45.png" alt="" />
+            <h3 class="steps-name">
+              Sprint
+            </h3>
+            <p class="steps-description">
+               6 Wochen Entwicklungszeit
+            </p>
+          </div>
+
+          <div class="steps-three">
+            <img class="steps-img" src="/img/cdvn-blue-45x45.png" alt="" />
+            <h3 class="steps-name">
+              Preisverleihung & Party
+            </h3>
+            <p class="steps-description">
+               6. November
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <div class="row challenge-box equal">
+        <div class="col-lg-4 col-md-5">
+          <h3>Kick-Off<br/>Wochenende</h3>
+
+          <div class="box">
+            <p>
+              Am 17./18. September stellen die teilnehmenden Kultur&shy;insti&shy;tu&shy;tionen ihre Daten vor, daraufhin werden Teams gebildet und erste Projektvorschläge gesammelt. Bei Talks und Workshops könnt ihr euch Inspirationen holen und an euren Projekten schrauben.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-5">
+          <h3>Sprint<br/>&nbsp;</h3>
+
+          <div class="box">
+            <p>
+              Innerhalb von sechs Wochen setzen die Teams und Kulturinstitutionen ihre Projekte um. Code for Hamburg bietet regelmäßige Meetups an, bei denen ihr euch vernetzen und unterstützen könnt.
+            </p>
+
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-5">
+          <h3>Preisverleihung<br/>und Party</h3>
+
+          <div class="box">
+            <p>
+              Stellt eure Projekte bei einer öffentlichen Preisverleihung Anfang November vor (Termin wird noch bekanntgegeben). Unsere Jury zeichnet die besten Projekte mit einem Preis aus. Danach wollen wir mit euch feiern!
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div -->
+
+  <div class="container" id="schedule">
+     {% assign program = site.data.program_nord[0] %}
+
+     <div class="row">
+       <div class="col-lg-5 col-lg-offset-1">
+         <div class="programheader">
+           <h2>{{ program.header }}</h2>
+         </div>
+
+
+         <table class="table">
+           <thead>
+             <tr>
+               <td class="head" colspan="2">{{ program.title }}</td>
+             </tr>
+           </thead>
+
+           {% for entry in program.entries %}
+           <tr>
+             <td>{{ entry.date | date:"%H:%M"}}</td>
+             <td>{{ entry.content }}</td>
+           </tr>
+           {% endfor %}
+         </table>
+
+         {% assign program = site.data.program_nord[1] %}
+         <table class="table">
+           <thead>
+             <tr>
+               <td class="head" colspan="2">{{ program.title }}</th>
+             </tr>
+           </thead>
+
+           {% for entry in program.entries %}
+           <tr>
+             <td>{{ entry.date | date:"%H:%M"}}</td>
+             <td>{{ entry.content }}</td>
+           </tr>
+           {% endfor %}
+         </table>
+       </div>
+
+       <div class="col-lg-5">
+         {% assign program = site.data.program_nord[2] %}
+         <div class="programheader">
+           <h2>{{ program.header }}</h2>
+         </div>
+         <table class="table">
+           <thead>
+             <tr>
+               <td colspan="2" class="head">{{ program.title }}</td>
+             </tr>
+           </thead>
+           <tr>
+             <td>
+               <img src="{{ program.image}}" alt="Sprint" />
+             </td>
+           </tr>
+           {% for entry in program.entries %}
+           <tr>
+             <td>{{ entry.content }}</td>
+           </tr>
+           {% endfor %}
+
+         </table>
+
+         {% assign program = site.data.program_nord[3] %}
+         <div class="programheader">
+           <h2>{{ program.header }}</h2>
+         </div>
+         <table class="table">
+           <thead>
+             <tr>
+               <td class="head" colspan="2">{{ program.title }}</td>
+             </tr>
+           </thead>
+
+           {% for entry in program.entries %}
+           <tr>
+             <td>{{ entry.date | date:"%H:%M"}}</td>
+             <td>{{ entry.content }}</td>
+           </tr>
+           {% endfor %}
+         </table>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-lg-8 col-lg-offset-2">
+         <p>Natürlich ist für Euer leibliches Wohl während des Kick-Off-Wochenends bei Mindspace gesorgt.</p>
+         <p>Vielen Dank dafür an unsere <a href="sponsors">Unterstützer und Sponsoren!</a></p>
+       </div>
+     </div>
+  </div>
+</div>
+
 <div id="events-tn" class="container-fluid">
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
@@ -94,7 +275,7 @@ header_nord: true
         Eure Ergebnisse könnt ihr zur großen <strong>Abschlussveranstaltung am 6. November</strong> der Öffentlichkeit präsentieren. Besonders hervorragende Beispiele werden von unserer Jury mit Preisen ausgezeichnet.
       </p>
       <p>
-        Den genauen Ablauf findet ihr im <a href="#events-schedule">Programm</a>.
+        Den genauen Ablauf findet ihr im <a href="#programm">Programm</a>.
       </p>
     </div>
     <div class="col-lg-6 col-lg-offset-3">
@@ -153,103 +334,6 @@ header_nord: true
       <p>
         Wir freuen uns über jede Kultur&shy;insti&shy;tu&shy;tion, die an <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> teilnehmen möchten. Die Datensätze der teilnehmenden Kultur&shy;insti&shy;tu&shy;tionen müssen unter einer offenen Lizenz (in der Regel CC0, CC-BY oder CC-BY-SA) oder gemeinfrei verfügbar sein, um als Institutionen teilnehmen zu können. Idealtypisch handelt es sich um Digitalisate und dazugehörige Metadaten oder eine offene API.
       </p>
-    </div>
-  </div>
-</div>
-
-<div id="events-schedule" class="container-fluid">
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1">
-      <header class="subheader subheader-uhr">
-        <h2>&nbsp;Programm&nbsp;</h2>
-      </header>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 col-lg-offset-3">
-      <p>Das Programm, die Preise und unsere Jury veröffentlichen wir zeitnah an dieser Stelle.</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1">
-      <!-- STEPS Semantic Timeline -->
-      <section id="Steps" class="steps-section">
-        <div class="steps-timeline">
-
-          <div class="steps-one">
-            <img class="steps-img" src="/img/cdvn-blue-45x45.png" alt="" />
-            <h3 class="steps-name">
-              Kick-Off
-            </h3>
-            <p class="steps-description">
-              17. + 18. September
-            </p>
-          </div>
-
-          <div class="steps-two">
-            <img class="steps-img" src="/img/cdvn-blue-45x45.png" alt="" />
-            <h3 class="steps-name">
-              Sprint
-            </h3>
-            <p class="steps-description">
-               6 Wochen Entwicklungszeit
-            </p>
-          </div>
-
-          <div class="steps-three">
-            <img class="steps-img" src="/img/cdvn-blue-45x45.png" alt="" />
-            <h3 class="steps-name">
-              Preisverleihung & Party
-            </h3>
-            <p class="steps-description">
-               6. November
-            </p>
-          </div>
-        </div>
-      </section>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2">
-      <div class="row challenge-box equal">
-        <div class="col-lg-4 col-md-5">
-          <h3>Kick-Off<br/>Wochenende</h3>
-
-          <div class="box">
-            <p>
-              Am 17./18. September stellen die teilnehmenden Kultur&shy;insti&shy;tu&shy;tionen ihre Daten vor, daraufhin werden Teams gebildet und erste Projektvorschläge gesammelt. Bei Talks und Workshops könnt ihr euch Inspirationen holen und an euren Projekten schrauben.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-5">
-          <h3>Sprint<br/>&nbsp;</h3>
-
-          <div class="box">
-            <p>
-              Innerhalb von sechs Wochen setzen die Teams und Kulturinstitutionen ihre Projekte um. Code for Hamburg bietet regelmäßige Meetups an, bei denen ihr euch vernetzen und unterstützen könnt.
-            </p>
-
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-5">
-          <h3>Preisverleihung<br/>und Party</h3>
-
-          <div class="box">
-            <p>
-              Stellt eure Projekte bei einer öffentlichen Preisverleihung Anfang November vor (Termin wird noch bekanntgegeben). Unsere Jury zeichnet die besten Projekte mit einem Preis aus. Danach wollen wir mit euch feiern!
-            </p>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-lg-6 col-lg-offset-3">
-      <p>Für Verpflegung ist gesorgt.</p>
     </div>
   </div>
 </div>
