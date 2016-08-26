@@ -37,8 +37,8 @@
       content: "Begrüßung & Warmmachen"
       date: "2016-09-18 10:00"
     -
-      content: "Hacken, Basteln, Entwickeln, Workshops besuchen"
-      date: "2016-09-18 11:15"
+      content: "durchgängig Hacken, Basteln, Entwickeln, Workshops besuchen, Spaß haben :-)"
+      date: ""
     -
       content: "Workshop 1"
       date: "2016-09-18 11:15"
@@ -55,8 +55,11 @@
       content: "Workshops 5 & 6"
       date: "2016-09-18 15:25"
     -
-      content: "Wrap-Up"
+      content: "Projektvorstellungen"
       date: "2016-09-18 16:40"
+    -
+      content: "Wrap-Up & Verabschiedung"
+      date: "2016-09-18 18:10"
   style: 1
   title: "18. September"
 -
@@ -74,19 +77,13 @@
       content: "Begrüßung"
       date: ""
     -
-      content: "Kurzvorstelllung aller Eurer Projekte"
-      date: ""
-    -
-      content: "Projektstände & Jurygespräche"
+      content: "Vorstelllung aller Eurer Projekte sowohl auf der Bühne als auch im persönlichen Gespräch an Projektständen"
       date: ""
     -
       content: "Preise!"
       date: ""
     -
       content: "Party!!!"
-      date: ""
-    -
-      content: "[Alle Uhrzeiten in Kürze]"
       date: ""
   style: 1
   title: "6. November"
