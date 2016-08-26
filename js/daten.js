@@ -128,7 +128,7 @@ $(document).ready(function () {
 	fillFilter('years', 'warning');
 	
 	//HACK: Set filter for 2015
-	filter['years'] = '2015';
+	//filter['years'] = '2015';
 	buildEntryList();
 
 
