@@ -2,11 +2,8 @@
 -
   entries:
     -
-      content: "Willkommen"
+      content: "Begrüßung & Kennenlernen"
       date: "2016-09-17 10:00"
-    -
-      content: "Begrüßung und Kennenlernen"
-      date: "2016-09-17 10:30"
     -
       content: "Vorstellung der Kulturdaten"
       date: "2016-09-17 11:30"
@@ -14,19 +11,16 @@
       content: "Mittagessen & Ideenfindung"
       date: "2016-09-17 13:00"
     -
-      content: "Pitching Eurer Projektideen"
+      content: "Pitching eurer Projektideen; Teambildung"
       date: "2016-09-17 14:35"
     -
-      content: "Teambildung"
-      date: "2016-09-17 15:45"
-    -
-      content: "Vorstellung Eurer Teams und Projekte"
+      content: "Vorstellung eurer Teams und Projekte"
       date: "2016-09-17 17:30"
     -
       content: "Abendsnack"
       date: "2016-09-17 18:45"
     -
-      content: "Open End Projektarbeit"
+      content: "Open End"
       date: "2016-09-17 19:30"
   header: "1. Kick-Off"
   style: 1
@@ -39,21 +33,6 @@
     -
       content: "durchgängig Hacken, Basteln, Entwickeln, Workshops besuchen, Spaß haben :-)"
       date: ""
-    -
-      content: "Workshop 1"
-      date: "2016-09-18 11:15"
-    -
-      content: "Workshop 2"
-      date: "2016-09-18 12:45"
-    -
-      content: "Mittagessen"
-      date: "2016-09-18 13:30"
-    -
-      content: "Workshops 3 & 4"
-      date: "2016-09-18 14:15"
-    -
-      content: "Workshops 5 & 6"
-      date: "2016-09-18 15:25"
     -
       content: "Projektvorstellungen"
       date: "2016-09-18 16:40"
@@ -74,16 +53,7 @@
 -
   entries:
     -
-      content: "Begrüßung"
-      date: ""
-    -
-      content: "Vorstelllung aller Eurer Projekte sowohl auf der Bühne als auch im persönlichen Gespräch an Projektständen"
-      date: ""
-    -
-      content: "Preise!"
-      date: ""
-    -
-      content: "Party!!!"
+      content: "Vorstelllung aller eurer Projekte auf der Bühne und im persönlichen Gespräch an Projektständen</br>Preisverleihung und Abschlussfeier"
       date: ""
   style: 1
   title: "6. November"
