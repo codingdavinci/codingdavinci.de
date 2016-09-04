@@ -58,3 +58,24 @@
   style: 1
   title: "6. November"
   header: "3. Preisverleihung"
+-
+  entries:
+    -
+      content: "Interpretation von NS-Biografien und der richtige Umgang mit Quellenmaterial aus der NS-Zeit"
+      date: "2016-09-18 10:00"
+      moderator: "Karen Bruhn, CAU Kiel"
+    -
+      content: "DDB-API"
+      date: ""
+      moderator: "Stephan Bartholmei, Deutsche Digitale Bibliothek"
+    -
+      content: "IBM Watson"
+      date: ""
+      moderator: ""
+    -
+      content: ""
+      date: ""
+      moderator: ""
+  style: 1
+  title: "18. September"
+  header: "Die Workshops"
