@@ -58,3 +58,28 @@
   style: 1
   title: "6. November"
   header: "3. Preisverleihung"
+-
+  entries:
+    -
+      content: "Cognitive Computing Meets Cultural Data"
+      date: "2016-09-18 11:00"
+      moderator: ""
+    -
+      content: "Visualisierung der Besucher, Guides und Museen von Hamburg"
+      date: "2016-09-18 12:45"
+      moderator: "Lion Vollnhals, Giant Monkey"
+    -
+      content: "Zugang zum kulturellen und wissenschaftlichen Erbe Deutschlands: die DDB-API"
+      date: "2016-09-18 14:15"
+      moderator: "Stephan Bartholmei, Deutsche Digitale Bibliothek, Europeana"
+    -
+      content: "Interpretation von NS-Biografien und der richtige Umgang mit Quellenmaterial aus der NS-Zeit"
+      date: "2016-09-18 15:25"
+      moderator: "Karen Bruhn, CAU Kiel"
+    -
+      content: "…und weitere! (Ankündigung in Kürze)"
+      date: ""
+      moderator: ""
+  style: 1
+  title: "18. September"
+  header: "Die Workshops"

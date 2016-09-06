@@ -151,44 +151,6 @@ header_nord: true
     </div>
   </div>
 
-  <!-- div class="row">
-    <div class="col-lg-8 col-lg-offset-2">
-      <div class="row challenge-box equal">
-        <div class="col-lg-4 col-md-5">
-          <h3>Kick-Off<br/>Wochenende</h3>
-
-          <div class="box">
-            <p>
-              Am 17./18. September stellen die teilnehmenden Kultur&shy;insti&shy;tu&shy;tionen ihre Daten vor, daraufhin werden Teams gebildet und erste Projektvorschläge gesammelt. Bei Talks und Workshops könnt ihr euch Inspirationen holen und an euren Projekten schrauben.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-5">
-          <h3>Sprint<br/>&nbsp;</h3>
-
-          <div class="box">
-            <p>
-              Innerhalb von sechs Wochen setzen die Teams und Kulturinstitutionen ihre Projekte um. Code for Hamburg bietet regelmäßige Meetups an, bei denen ihr euch vernetzen und unterstützen könnt.
-            </p>
-
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-5">
-          <h3>Preisverleihung<br/>und Party</h3>
-
-          <div class="box">
-            <p>
-              Stellt eure Projekte bei einer öffentlichen Preisverleihung Anfang November vor (Termin wird noch bekanntgegeben). Unsere Jury zeichnet die besten Projekte mit einem Preis aus. Danach wollen wir mit euch feiern!
-            </p>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div -->
-
   <div class="container" id="schedule">
      {% assign program = site.data.program_nord[0] %}
 
@@ -273,8 +235,31 @@ header_nord: true
            </tr>
            {% endfor %}
          </table>
+
        </div>
      </div>
+
+     <div class="row">
+       <div class="col-lg-10 col-lg-offset-1">
+         {% assign program = site.data.program_nord[4] %}
+         <table class="table">
+           <thead>
+             <tr>
+               <td class="head" colspan="3">{{ program.title }}: {{ program.header }}</td>
+             </tr>
+           </thead>
+
+           {% for entry in program.entries %}
+           <tr>
+             <td>{{ entry.date | date:"%H:%M"}}</td>
+             <td>{{ entry.content }}</td>
+             <td>{{ entry.moderator}}</td>
+           </tr>
+           {% endfor %}
+         </table>
+       </div>
+     </div>
+
   </div>
 </div>
 
