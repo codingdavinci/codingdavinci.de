@@ -61,24 +61,24 @@
 -
   entries:
     -
-      content: "Cognitive Computing mit IBM Watson"
-      date: "2016-09-18 11:00"
-      moderator: ""
-    -
-      content: "Visualisierung der Besucher, Guides und Museen von Hamburg"
-      date: "2016-09-18 12:45"
-      moderator: "Marco Tralles, Giant Monkey"
-    -
-      content: "Zugang zum kulturellen und wissenschaftlichen Erbe Deutschlands: die DDB-API"
-      date: "2016-09-18 14:15"
-      moderator: "Stephan Bartholmei, Deutsche Digitale Bibliothek, Europeana"
-    -
       content: "Der Prototype-Fund: mit Eurem Kulturprojekt richtig bewerben"
-      date: "2016-09-18 15:25"
+      date: "2016-09-18 11:00"
       moderator: "Helene Hahn, Knut Perseke, Open Knowledge Foundation Deutschland"
     -
+      content: "Cognitive Computing mit IBM Watson"
+      date: "2016-09-18 11:30"
+      moderator: "Olaf Hahn, IBM, Kay Hartkopf, eCulture.info"
+    -
+      content: "Visualisierung der Besucher, Guides und Museen von Hamburg"
+      date: "2016-09-18 13:45"
+      moderator: "Marco Tralles, Giant Monkey"
+    -
+      content: "Die DDB-API: Zugang zum kulturellen und wissenschaftlichen Erbe Deutschlands"
+      date: "2016-09-18 14:30"
+      moderator: "Stephan Bartholmei, Deutsche Digitale Bibliothek, Europeana"
+    -
       content: "Interpretation von NS-Biografien und der richtige Umgang mit Quellenmaterial aus der NS-Zeit"
-      date: "2016-09-18 15:25"
+      date: "2016-09-18 15:30"
       moderator: "Karen Bruhn, CAU Kiel"
   style: 1
   title: "18. September"
