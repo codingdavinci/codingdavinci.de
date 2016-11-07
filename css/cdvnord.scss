@@ -170,6 +170,22 @@ p:first-child {
   margin-bottom: 1.5em;
   padding: 1.5em 2em;
 
+  h4 {
+    text-align: center;
+    font-family: Archive;
+    font-size: 1.2em;
+    padding-top: 0.5em;
+    margin-bottom: 0;
+  }
+  
+  p.winner {
+    text-align: center;
+    font-size: 1.5em;
+    strong {
+     font-family: Archive; 
+    }
+  }
+
   ul {
     margin-top: 0;
     padding-left: 0;
