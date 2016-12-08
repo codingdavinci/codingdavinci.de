@@ -2,39 +2,42 @@
 identifier: 51
 layout: project
 year: 2016
-"name": "Unser modernes Hamburg // Fritz Schumacher"
-"tile": "/img/projekte-tiles/…"
-"tile_active": "/img/projekte-tiles/…-active.png"
-"image": "/img/projekte/…"
+name: "Unser modernes Hamburg // Fritz Schumacher"
+tile: "/img/projekte-tiles/2016/schumacher.png"
+tile_active: "/img/projekte-tiles/2016/schumacher-active.png"
+image: "/img/projekte/Unser_modernes_Hamburg.png"
 "links":
     -
         "class": "github"
         "link": "http://github.com/codeforhamburg/unsermoderneshamburg"
         "text": "GitHub"
-"data":
+data:
     - ""
     - ""
-"team":
+team:
     -
-        "name": "Ina Brockmann"
-        "contact":
-            "mail": ""
-            "twitter": "http://twitter.com/…"
+      name: "Ina Brockmann"
+      contact:
+          twitter: "http://twitter.com/…"
     -
-        "name": "Timo Lundelius"
-        "contact":
-            "mail": ""
-            "twitter": "http://twitter.com/…"
+      name: "Timo Lundelius"
+      contact:
+          mail: "mailto:timo@codeforhamburg.org"
+          twitter: "http://twitter.com/timo_lundelius"
     -
-        "name": "Ulrike Spree"
-        "contact":
-            "mail": ""
-            "twitter": "http://twitter.com/…"
+      name: "Ulrike Spree"
+      contact:
+         twitter: "http://twitter.com/…"
     -
-        "name": "Umut Tas"
-        "contact":
-            "mail": ""
-            "twitter": "http://twitter.com/…"
+      name: "Umut Tas"
+      contact:
+          mail: "mailto:umut.tas@we-build.city"
+          twitter: "http://twitter.com/…"
+    -
+      name: "Lukas Kebel"
+      contact:
+          mail: "mailto:kebel@we-build.city"
+          twitter: "http://twitter.com/…"
 ---
 Fritz Schumacher, Architekt und Stadtentwickler von 1909-1933, schuf die bis heute sichtbare  Baukultur des kommunalen Zweck- und Wohnungsbaus Hamburgs. Seine Architektur und seine städtebauliche Planung gab Antworten auf die gesellschaftspolitischen und wirtschaftlichen Herausforderungen, die sich der Senat der schnell gewachsenen Metropole auf ihrem Weg in die Moderne stellen musste.
 
