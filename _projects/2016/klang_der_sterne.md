@@ -9,16 +9,12 @@ year: 2016
 "links":
     -
         "class": "website"
-        "link": "http://mprove.de/script/16/codingdavinci/klang_der_sterne.html"
+        "link": "http://mprove.de/script/16/cdvnord/klangdersterne/index.html"
         "text": "Webseite"
     -
         "class": "github"
         "link": "https://github.com/AMertgens/KlangderSterne"
         "text": "GitHub"
-    -
-        "class": "video"
-        "link": "https://vimeo.com/188189559"
-        "text": "Video"
 "data":
     - "Archives of Photographic Plates for Astronomical USE (APPLAUSE), Leibnitz-Institut für Astrophysik Potsdam"
 "team":
@@ -27,7 +23,7 @@ year: 2016
     -
         "name": "Matthias Müller-Prove"
         "contact":
-            "link": "http://mprove.de/about/contact.html"
+            "website": "http://mprove.de/about/contact.html"
             "twitter": "http://twitter.com/mprove"
     -
         "name": "Andreas Mertgens"
