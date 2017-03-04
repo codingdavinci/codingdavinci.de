@@ -1,3 +1,26 @@
+- name: Sabine Schulz
+  img:
+  institute: Museum für Kunst und Gewerbe Hamburg
+  url: http://www.mkg-hamburg.de/
+  quote: 'Das Museum für Kunst und Gewerbe Hamburg wurde 1877 eröffnet, um zu neuen kreativen Schöpfungen zu inspirieren und um Wissen weiterzugeben. Die freie Weitergabe von Daten und Mediendateien der digitalisierten Sammlungsobjekte erweitert unseren Gründungsauftrag nun in den digitalen Raum. Wir freuen uns ganz besonders, dass durch Coding da Vinci Nord diese Mission unterstützt wird, und aufgezeigt wird, welche Potenziale unser gemeinsames kulturelles Erbe für kreative Prozesse, Lernen und Innovation bietet.'
+  date: 'Coding da Vinci Nord-Partner 2016'
+
+
+- name: Gabriele Beger
+  img:
+  institute: 'Staats- und Universitätsbibliothek Hamburg'
+  url: 'http://www.sub.uni-hamburg.de/'
+  quote: 'Nach den positiven Erfahrungen aus unserer Teilnahme 2015 in Berlin haben wir nicht gezögert, auch bei Coding da Vinci Nord mitzumachen. Was kann uns Besseres passieren, als dass Kreative mit bei uns archiviertem Kulturgut voller Enthusiasmus Neues schaffen?'
+  date: 'Coding da Vinci Nord-Partner 2016'
+
+
+- name: Boris C.
+  img: borisc
+  institute: Teilnehmer
+  quote: 'Am Hackathon teilzunehmen hat riesig Spaß gemacht und sehr inspiriert, und über den Wettbewerb hinaus auch viele wertvolle Kontakte gebracht.'
+  date: 'Coding da Vinci Nord 2016'
+
+
 - name: Martin Reisacher
   img: martinreisacher
   institute: Landesarchiv Baden-Württemberg
