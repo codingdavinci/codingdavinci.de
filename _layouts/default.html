@@ -45,39 +45,30 @@
 
   <body data-spy="scroll" data-target=".navbar-page">
     {% if page.header %}
-    <header class="header">
-      <div class="tiles">
-      </div>
-      <div class="container header-container">
-        <div class="logo-container">
-          <div class="logo-text">
-            <h1 class="sr-only">Coding Da Vinci</h1>
-            <p>
-              Der Kultur-Hackathon<br/>
-            </p>
-          </div>
-        </div>
-
-        {% if page.header_nord %}
-        <a class="main-signup signup-nord" href="http://eepurl.com/b4EcrX" target="_blank">
-          Newsletter</br>abonnieren!
-        </a>
-        {% else %}
-        <a class="main-signup signup-img" href="{{ site.baseurl }}events">
-          <img src="{{ site.baseurl }}img/header_preistraeger_cdvnord.jpg" alt="Coding da Vinci Nord"/>
-        </a>
-        {% endif %}
-
-        <a class="smooth-scroll scroll-hint" href="#inhalt">&#9660; &#9660; &#9660; &#9660;</a>
-      </div>
-    </header>
+	<header class="header">
+	      <div class="tiles">
+	      </div>
+	      <div class="container header-container">
+	
+    	{% if page.header_events %}
+		    <div class="logo-container-events">
+    	{% else %}
+		    <div class="logo-container">
+		    	<div class="logo-text">
+		    	    	<h1 class="sr-only">Coding Da Vinci</h1>
+			    	Der Kultur-Hackathon
+    	{% endif %}
+		        </div>
+		    </div>
+		<a class="smooth-scroll scroll-hint" href="#inhalt">&#9660; &#9660; &#9660; &#9660;</a>
+	      </div>
+	    </header>
     {% endif %}
     <div class="background {% if page.header %} header-above{% endif %}">
       <div class="container-fluid nav-container" id="inhalt">
         <nav class="navbar navbar-davinci" role="navigation">
           <div class="navbar-header">
             <a class="navbar-brand" href="{{ site.baseurl }}">
-              <img src="{{ site.baseurl }}img/nav-logo.png" alt="Coding Da Vinci"/>
             </a>
           </div>
 
