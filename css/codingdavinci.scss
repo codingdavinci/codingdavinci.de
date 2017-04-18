@@ -7,6 +7,10 @@ $color-primary: #00BE7B;
 $color-secondary: white;
 $color-black: black;
 
+.cdv-green {
+  color: $color-primary;
+} 
+
 @font-face {
   font-family: 'Archive';
   src: url('../fonts/archive.eot');
@@ -152,20 +156,6 @@ img {
   z-index: 1001;
   -webkit-transform: translate3d(0px, 0px, 0px);
   transform: translate3d(0px, 0px, 0px);
-}
-.logo-container-events {
-  background: url('../img/header_logo.png') top center no-repeat;
-  background-color: white;
-  width: 456px;
-  height: 265px;
-  padding-top: 180px;
-  padding-bottom: 14px; 
-  margin: 0 auto;
-  z-index: 1001;
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
-  font-size: 40pt;
-  font-family: "Archive";
 }
 
 
@@ -518,7 +508,7 @@ hr {
   padding-top: 45px;
   border-bottom: 1px solid;
   margin-top: 1em;
-  margin-bottom: 1.4em;
+  margin-bottom: 2.5em;
   text-align: center;
   background-repeat: no-repeat;
   background-position: center top;

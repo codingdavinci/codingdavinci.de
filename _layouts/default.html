@@ -46,12 +46,11 @@
   <body data-spy="scroll" data-target=".navbar-page">
     {% if page.header %}
 	<header class="header">
-	      <div class="tiles">
-	      </div>
+	      <div class="tiles"> </div>
 	      <div class="container header-container">
 	
     	{% if page.header_events %}
-		    <div class="logo-container-events">
+		    <div class="logo-container" style="background-color: white; font-size: 40pt; font-family: Archive;">
 			Berlin 2017
     	{% else %}
 		    <div class="logo-container">
@@ -59,10 +58,9 @@
 		    	    	<h1 class="sr-only">Coding Da Vinci</h1>
 			    	Der Kultur-Hackathon
     	{% endif %}
-		        </div>
-		    </div>
+	            </div>
+	    </div>
 		<a class="smooth-scroll scroll-hint" href="#inhalt">&#9660; &#9660; &#9660; &#9660;</a>
-	      </div>
 	    </header>
     {% endif %}
     <div class="background {% if page.header %} header-above{% endif %}">
@@ -70,6 +68,7 @@
         <nav class="navbar navbar-davinci" role="navigation">
           <div class="navbar-header">
             <a class="navbar-brand" href="{{ site.baseurl }}">
+		<img src="/img/nav-logo.png" alt="Coding Da Vinci"/>
             </a>
           </div>
 
