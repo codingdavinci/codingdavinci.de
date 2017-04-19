@@ -157,6 +157,20 @@ img {
   -webkit-transform: translate3d(0px, 0px, 0px);
   transform: translate3d(0px, 0px, 0px);
 }
+.logo-container-events {
+  background: url('../img/header_logo_2017.png') top center no-repeat;
+  width: 455px;
+  height: 265px;
+  padding-top: 180px;
+  padding-bottom: 14px; 
+  margin: 0 auto;
+  z-index: 1001;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  font-size: 40pt;
+  font-family: Archive;
+}
+
 
 
 .logo-text {
@@ -166,7 +180,7 @@ img {
 a.main-signup {
   padding: 24px 15px 10px;
   text-transform: uppercase;
-  background-color: #19C6F9;
+  background-color: #00BE7B;
   font-size: 22pt;
   font-weight: normal; // bold;
   margin: 75px auto 0;
