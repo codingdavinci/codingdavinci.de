@@ -1140,7 +1140,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 .table td, .table th{
-  border-bottom: solid white 5px;
+  border: solid white 5px;
 }
 
 .table > tbody > tr > td > img {
@@ -1150,13 +1150,16 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .table{
     border-collapse: separate;
-
     background: $color-black;
     background: -moz-linear-gradient(180deg,  rgb(193,248,236) 0%, rgb(234,253,247) 100%);
     background: -webkit-linear-gradient(180deg,  rgb(193,248,236) 0%,rgb(234,253,247) 100%);
     background: -o-linear-gradient(180deg,  rgb(193,248,236) 0%,rgb(234,253,247) 100%);
     background: -ms-linear-gradient(180deg,  rgb(193,248,236) 0%,rgb(234,253,247) 100%);
     background: linear-gradient(180deg,  rgb(193,248,236) 0%,rgb(234,253,247) 100%);
+    table-layout: fixed;
+    border-padding: 2em;
+    margin-top: 3em;
+
 }
 
 /*Necessary because of bootstrap*/
