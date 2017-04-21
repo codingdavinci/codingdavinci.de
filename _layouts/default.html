@@ -45,39 +45,33 @@
 
   <body data-spy="scroll" data-target=".navbar-page">
     {% if page.header %}
-    <header class="header">
-      <div class="tiles">
-      </div>
-      <div class="container header-container">
-        <div class="logo-container">
-          <div class="logo-text">
-            <h1 class="sr-only">Coding Da Vinci</h1>
-            <p>
-              Der Kultur-Hackathon<br/>
-            </p>
-          </div>
-        </div>
-
-        {% if page.header_nord %}
-        <a class="main-signup signup-nord" href="http://eepurl.com/b4EcrX" target="_blank">
-          Newsletter</br>abonnieren!
-        </a>
-        {% else %}
-        <a class="main-signup signup-img" href="{{ site.baseurl }}events">
-          <img src="{{ site.baseurl }}img/header_preistraeger_cdvnord.jpg" alt="Coding da Vinci Nord"/>
-        </a>
-        {% endif %}
-
-        <a class="smooth-scroll scroll-hint" href="#inhalt">&#9660; &#9660; &#9660; &#9660;</a>
-      </div>
-    </header>
+	<header class="header">
+	      <div class="tiles"> </div>
+	      <div class="container header-container">
+	
+    	{% if page.header_events %}
+		    <div class="logo-container-events">
+			Berlin 2017
+	            </div>
+	    	  </div>
+    	{% else %}
+		    <div class="logo-container">
+		    	<div class="logo-text">
+		    	    	<h1 class="sr-only">Coding Da Vinci</h1>
+			    	Der Kultur-Hackathon
+	            	</div>
+	    	  </div>
+		<a class="main-signup"  style="color: black;" href="/news/2017/04/15/cdv-berlin-2017.html">2017 BERLIN<br/>SAVE THE DATE</a>
+    	{% endif %}
+		<a class="smooth-scroll scroll-hint" href="#inhalt">&#9660; &#9660; &#9660; &#9660;</a>
+	    </header>
     {% endif %}
     <div class="background {% if page.header %} header-above{% endif %}">
       <div class="container-fluid nav-container" id="inhalt">
         <nav class="navbar navbar-davinci" role="navigation">
           <div class="navbar-header">
             <a class="navbar-brand" href="{{ site.baseurl }}">
-              <img src="{{ site.baseurl }}img/nav-logo.png" alt="Coding Da Vinci"/>
+		<img src="/img/nav-logo.png" alt="Coding Da Vinci"/>
             </a>
           </div>
 
@@ -111,16 +105,17 @@
             <!--<li class="separator {% if page.slug == 'unterstuetzer' %}active{% endif %}">-->
             <!--<a href="{{ site.baseurl }}unterstuetzer/">Unterstützer</a>-->
             <!--</li>-->
-            <li class="separator {% if page.slug == 'about' %}active{% endif %}">
-              <a href="{{ site.baseurl }}about/">Über uns</a>
+            <li class="separator {% if page.slug == 'gruender' %}active{% endif %}">
+              <a href="{{ site.baseurl }}gruender/">Gründer</a>
             </li>
             <li class="separator {% if page.slug == 'presse' %}active{% endif %}">
               <a href="{{ site.baseurl }}presse/">Presse</a>
             </li>
-            <li class="separator {% if page.slug == 'dokumentation' %}active{% endif %}">
-              <a href="{{ site.baseurl }}english-infos/">
-                <img class="english" alt="English" src="{{ site.baseurl }}img/icons/unionflag.png" />
-              </a>
+            <li class="separator {% if page.slug == 'about' %}active{% endif %}">
+              <a href="{{ site.baseurl }}about/index-de.html">Über</a>
+            </li>
+            <li class="separator {% if page.slug == 'about' %}active{% endif %}">
+              <a href="{{ site.baseurl }}about/">About</a>
             </li>
             <li class="image-menu-link">
               <a class="twitter" href="https://twitter.com/codingdavinci">
@@ -140,17 +135,17 @@
               <h5><a href="{{ site.baseurl }}kontakt/">Kontakt</a></h5>
               <p>
                 Barbara Fischer<br/>
-                Projektkoordinatorin Coding da Vinci<br/>
+                Projektleitung Coding da Vinci<br/>
                 Mail: barbara.fischer AT wikimedia.de<br/>
-                Tel: +49 30 289158260
+                Tel: <a href="tel:+4930219158260">+49 30 289158260</a>
               </p>
               <h5>Impressum</h5>
               <p>
                 Wikimedia Deutschland e.V.<br/>
                 Tempelhofer Ufer 23-24, 10963 Berlin<br/>
                 www.wikimedia.de<br/>
-                Tel: +49 30 219158260<br/>
-                Fax: +49 30 219158269
+                Tel: <a href="tel:+4930219158260">+49 30 219158260</a><br/>
+                Fax: <a href="tel:+4930219158269">+49 30 219158269</a>
               </p>
               <h5>Credits</h5>
               <p>
@@ -164,7 +159,7 @@
                 Wenn nicht anders angegeben, sind Textinhalte und bildliche Designelemente unter <a href="https://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a> lizenziert.
               </p>
             </div>
-            <div class="col-lg-4 col-md-5 col-sm-6 logos">
+            <div class="col-lg-3 col-md-5 col-sm-6 logos">
               <h5>Ein Projekt von</h5>
               <img src="{{ site.baseurl }}img/logos/ddb.png" alt="Deutsche Digitale Bibliothek" class="img-responsive"/>
               <img src="{{ site.baseurl }}img/logos/okfn.png" alt="Open Knowledge Foundation Deutschland" class="img-responsive"/>
@@ -186,21 +181,22 @@
     {% endif %}
 
     <!-- Piwik -->
-      <script type="text/javascript">
-        var _paq = _paq || [];
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-          var u="//traffic.okfn.de/";
-          _paq.push(['setTrackerUrl', u+'piwik.php']);
-          _paq.push(['setSiteId', 12]);
-          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-          g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-        })();
-      </script>
-      <noscript><p><img src="//traffic.okfn.de/piwik.php?idsite=12" style="border:0;" alt="" /></p></noscript>
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["setCookieDomain", "*.codingdavinci.de"]);
+      _paq.push(["setDomains", ["*.codingdavinci.de"]]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//stat.kobv.de/piwik/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 40]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="//stat.kobv.de/piwik/piwik.php?idsite=40" style="border:0;" alt="" /></p></noscript>
     <!-- End Piwik Code -->
-
 
   </body>
 </html>
