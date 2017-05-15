@@ -16,7 +16,10 @@ header_nord: true
   </div>
    <div class="row">
     <div class="col-lg-6 col-lg-offset-3">
-      <p><strong>Entwickler*innen, Designer*innen, Geistes&shy;wissen&shy;schaft&shy;ler und Kultur&shy;interes&shy;sierte</strong> aus Nord&shy;deutschland und Dänemark entwickelten im Rahmen des Kultur&shy;hackathons <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> in den letzten sechs Wochen in inter&shy;diszi&shy;plinären Projekten neue Apps, Webseiten und andere digitale Ausdrucks&shy;formen auf der Grundlage offener Kulturdaten.</p>
+      <p>
+        <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> ist ein Kulturhackathon mit regionalem Fokus auf den Norden Europas, der sich für die freie Verfügbarkeit und Nutzbarkeit von Kulturdaten einsetzt, mit dem Ziel, Teilnehmern und Kulturinstitutionen das Potenzial frei verfügbarer Daten zu zeigen und einen Raum für Experimente bereitzustellen, die Innovationen hervorbringen können.
+      </p>
+      <p>2016 entwickelten <strong>Entwickler*innen, Designer*innen, Geistes&shy;wissen&shy;schaft&shy;ler und Kultur&shy;interes&shy;sierte</strong> aus Nord&shy;deutschland und Dänemark im Rahmen des Kultur&shy;hackathons <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> innerhalb von sechs Wochen in inter&shy;diszi&shy;plinären Projekten neue Apps, Webseiten und andere digitale Ausdrucks&shy;formen auf der Grundlage offener Kulturdaten.</p>
       <p>Bei der <strong>Preisverleihung am 6. November 2016</strong> wurden die Ergebnisse ihrer Entwicklungs&shy;arbeit im ausverkauften <em>resonanzraum</em> <strong>über 150 Gästen</strong> präsentiert und von einer Jury in fünf unterschiedlichen Kategorien gekürt.</p>
     </div>
   </div>
@@ -84,7 +87,7 @@ header_nord: true
    <div class="row">
      <div class="col-lg-6 col-lg-offset-3">
        <p>
-         Mit <strong>über 100 Teilnehmer*innen</strong> aus Softwareentwicklung, Design und Geisteswissenschaften, und aus <strong>19 teilnehmenden Kulturinstitutionen aus dem Norden Deutschlands, aus Aarhus und  Stockholm</strong>, war <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> am 17. und 18. September in Hamburg fulminant gestartet.
+         Mit <strong>über 100 Teilnehmer*innen</strong> aus Softwareentwicklung, Design und Geisteswissenschaften, und aus <strong>19 teilnehmenden Kulturinstitutionen aus dem Norden Deutschlands, aus Aarhus und  Stockholm</strong>, war <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> am 17. und 18. September 2016 in Hamburg fulminant gestartet.
        </p>
      </div>
    </div>
@@ -136,9 +139,6 @@ header_nord: true
        <p>
          <a href="{{site.baseurl}}daten">Die Daten stehen dauerhaft auch allen anderen Interessierten unter offenen Lizenzen frei zur Verfügung.</a>
        </p>
-       <!-- p>
-         Nach dem großen Kick-Off zum Start von Coding da Vinci Nord im Mindspace Hamburg am 17. und 18. September hatten die Teams, die sich dort um die <a href="{{site.baseurl}}daten">Daten aus 19 teilnehmenden Kulturinstitutionen</a> <strong>sechs Wochen Entwicklungszeit</strong>, um an ihren Projekten zu arbeiten. Wir unterstützten sie dabei in Kooperation mit <a href="http://codeforhamburg.org">Code for Hamburg</a> bei wöchentlichen Meetups. Bei der abschließenden <strong>Preisverleihung am 6. November</strong> wurden die Ergebnisse – insgesamt 17 Projekte – der Öffentlichkei und unserer hochkarätigen Jury präsentiert. In vier Kategorien wurden herausragende Projekte mit Preisen prämiert. Das Projekt <em>Zeitblick</em> erhielt den Hauptpreis als „Best of Show“.
-       </p -->
      </div>
    </div>
    <div class="row">
@@ -187,7 +187,7 @@ header_nord: true
          <table class="table">
            <thead>
              <tr>
-               <td class="head" colspan="2">{{ program.title }}</th>
+               <td class="head" colspan="2">{{ program.title }}</td>
              </tr>
            </thead>
 
@@ -231,13 +231,12 @@ header_nord: true
          <table class="table">
            <thead>
              <tr>
-               <td class="head" colspan="2">{{ program.title }}</td>
+               <td class="head">{{ program.title }}</td>
              </tr>
            </thead>
 
            {% for entry in program.entries %}
            <tr>
-             <td>{{ entry.date | date:"%H:%M"}}</td>
              <td>{{ entry.content }}</td>
            </tr>
            {% endfor %}
@@ -281,119 +280,16 @@ header_nord: true
   <div class="row">
     <div class="col-lg-6 col-lg-offset-3">
       <p>
-        <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> ist ein Kulturhackathon mit regionalem Fokus auf den Norden Europas, der sich für die freie Verfügbarkeit und Nutzbarkeit von Kulturdaten einsetzt, mit dem Ziel, Teilnehmern und Kulturinstitutionen das Potenzial frei verfügbarer Daten zu zeigen und einen Raum für Experimente bereitzustellen, die Innovationen hervorbringen können. Der Kulturhackathon wird gemeinschaftlich vom Archäologischen Museum Hamburg, Code for Hamburg, eCulture.info, der Hamburg Kreativ Gesellschaft, Projekte&Seminare – Sabine Heydenbluth, der Stiftung Historische Museen Hamburg, We-Build.City und Wikipedia Hamburg veranstaltet.
+        <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> ist ein Kulturhackathon mit regionalem Fokus auf den Norden Europas, der sich für die freie Verfügbarkeit und Nutzbarkeit von Kulturdaten einsetzt, mit dem Ziel, Teilnehmern und Kulturinstitutionen das Potenzial frei verfügbarer Daten zu zeigen und einen Raum für Experimente bereitzustellen, die Innovationen hervorbringen können.
+      </p>
+      <p>
+        Der Kulturhackathon wurde 2016 gemeinschaftlich vom Archäologischen Museum Hamburg, Code for Hamburg, eCulture.info, der Hamburg Kreativ Gesellschaft, Projekte&amp;Seminare – Sabine Heydenbluth, der Stiftung Historische Museen Hamburg, We-Build.City und Wikipedia Hamburg veranstaltet.
       </p>
       <p>
         2014 war <strong>Coding da Vinci</strong> in Berlin als deutschlandweites Event von der Deutschen Digitalen Bibliothek, der Open Knowledge Foundation Deutschland, Wikimedia Deutschland und der Servicestelle Digitalisierung Berlin gegründet worden.
       </p>
     </div>
   </div>
- <!--div class="row">
-    <div class="col-lg-6 col-lg-offset-3">
-      <p>
-        In den Archiven unserer Museen, Galerien und Bibliotheken schlummern Daten – Gemälde, Buchdrucke, Fotos, Objekte, Ton- und Videoaufnahmen in digitalisierter Form. Der neue digitale Zugang zu unserem kulturellen Erbe bleibt der Öffentlichkeit aber sehr häufig noch verschlossen. <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> holt diese Daten ans Tageslicht und macht sie erfahrbar.
-      </p>
-      <p>
-        Kulturinteressierte, Geisteswissenschaftler/innen, Künstler/innen und Designer/innen treffen auf Entwickler/innen und Hacker, um interdisziplinär mit den Daten zu experimentieren und sie in neue Zusammenhänge zu stellen. <a href="https://hackdash.org/dashboards/cdvnord">Dabei entstehen neue Formate, Installationen, Apps und Webseiten</a>, die Informationen und Werke aus den Archiven unserer Kulturinstitutionen zeitgemäß interpretieren und vermitteln.
-      </p>
-    </div>
-    <div class="row">
-      <div class="col-lg-10 col-lg-offset-1">
-        <img class="img-rounded" style="margin: 6px 0;" src="{{site.baseurl}}img/events/CDV-Nord-Kick-Off-16-pan-xs.jpg" />
-        <p class="caption-text">Coding da Vinci Nord in vollem Gange!</p>
-      </div>
-    </div>
-    <div class="col-lg-6 col-lg-offset-3">
-      <p>
-        Renommierte Kulturinstitutionen wie u.a. das Archäologische Museum Hamburg, das Museum für Kunst und Gewerbe, die Staats- und Universitätsbibliothek Hamburg, das Museum für Arbeit, das Altonaer Museum oder auch das virtuelle Münzkabinett KENOM öffnen Euch ihre Datenschatzkammern.
-      </p>
-      <p>
-        Die Teilnehmer*innen bilden interdisziplinäre Teams um Fotos, Gemälde, Audioaufnahmen und viele andere Medien und zugehörige Metadaten, um gleich loszulegen, Ideen zu entwickeln und diese umzusetzen. Die Kollaboration mit Menschen aus unterschiedlichsten Disziplinen setzt eine kreative Energie frei, die ein intensives Wochenende und originelle Projektideen versprechen. Experten unterstützen sie in Workshops und als Ansprechpartner mit ihrer Expertise.
-      </p>
-    </div>
-  </div-->
-  <!--div class="row">
-    <div class="col-lg-6 col-lg-offset-3">
-      <p>
-        Mit <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> findet dieses Jahr das erste Regionalevent von <a href="{{site.baseurl}}">Coding da Vinci</a> mit Fokus auf den Norden Deutschlands und Europas in Hamburg statt.
-      </p>
-      <p>
-        Der Kultur-Hackathon vernetzt technikaffine und kulturbegeisterte Communities mit den norddeutschen Kultur&shy;insti&shy;tu&shy;tionen, um gemeinsam das kreative Potential, das in unserem digitalen Kulturerbe schlummert, zu wecken und zu entfalten.
-      </p>
-      <p>
-        <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> wird von einem regionalen Team von Freiwilligen veranstaltet und durch die Gründer von <strong>Coding da Vinci</strong>, die <a href="https://www.deutsche-digitale-bibliothek.de/">Deutsche Digitale Bibliothek</a>, die <a href="https://okfn.de/">Open Knowledge Foundation Deutschland</a>, die <a href="http://www.servicestelle-digitalisierung.de/">Servicestelle Digitalisierung Berlin</a> und <a href="https://wikimedia.de">Wikimedia Deutschland</a>, begleitet und unterstützt.
-      </p>
-      <p>
-        Bei Fragen erreicht ihr uns unter <a href="mailto:nord@codingdavinci.de">nord@codingdavinci.de</a>. Das Projektmanagement übernimmt <a href="mailto:philippgeisler@mailbox.org">Philipp Geisler</a>.
-      </p>
-    </div>
-  </div-->
-</div>
-
-<!-- div id="events-tn" class="container-fluid">
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1">
-      <header class="subheader subheader-haende">
-        <h2>&nbsp;Infos für Teilnehmende&nbsp;</h2>
-      </header>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 col-lg-offset-3">
-      <p>Registrierung und Teilnahme an <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> ist für euch kostenlos. Während des Kick-Off-Wochenendes wird natürlich auch für Euer leibliches Wohl gesorgt. Vielen Dank dafür an unsere <a href="#sponsors">Unterstützer und Sponsoren!</a></p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 col-lg-offset-3">
-      <header class="subheader" id="teilnahmebedingungen">
-        <h3>&nbsp;Teilnahmebedingungen&nbsp;</h3>
-      </header>
-      <p>
-        Um an <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> teilnehmen zu können, müsst ihr diese Bedingungen erfüllen:
-      </p>
-      <ul>
-        <li>Ihr müsst Euch vollständig registriert haben.</li>
-        <li>Eure Projekte müssen die zur Verfügung gestellten offenen Kulturdaten nutzen.</li>
-        <li>Ihr präsentiert euer Projekt auf der öffentlichen Preisverleihung.</li>
-        <li>Euer Projekt muss unter einer freien Lizenz (bspw. Open Source oder Open Definition) veröffentlicht werden.</li>
-      </ul>
-    </div>
-  </div>
-</div-->
-
-<!-- div id="events-ki" class="container-fluid">
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1">
-      <header class="subheader subheader-buch">
-        <h2>&nbsp;Infos für Kultur&shy;insti&shy;tu&shy;tionen&nbsp;</h2>
-      </header>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 col-lg-offset-3">
-      <p>
-        Für die teilnehmenden Kultur&shy;insti&shy;tu&shy;tionen bietet <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> die Gelegenheit, im Gespräch mit enthusiastischen Programmierer/innen, Designer/innen, Hardware-Bastlern, Wissenschaftler/innen, Künstler/innen und technikaffinen Kulturbegeisterten einen anderen Blick auf den eigenen digitalen Bestand zu werfen und neue Zielgruppen und Interessierte sowie Förder/innen für das digitale kulturelle Erbe zu gewinnen.
-      </p>
-      <h4>Weiterführende Informationen:</h4>
-      <ul>
-
-        <li>Hinweise zum <a href="{{site.baseurl}}downloads/Daten-Merkblatt_Coding_da_Vinci_Nord.pdf">Vorgehen bei der Datenwahl und -vorbereitung</a></li>
-        <li>Hinweise zu <a href="{{site.baseurl}}downloads/datenformate.pdf">offenen, maschinenlesbaren Datenformaten</a></li>
-        <li>Hinweise zu <a href="https://wikimedia.de/w/images.homepage/a/a2/IRights_CC-NC_Leitfaden_web.pdf">Folgen der NC-(non commercial)-Lizenzen</a></li>
-        <li><a href="https://upload.wikimedia.org/wikipedia/commons/3/34/Open_Content_A_Practical_Guide_to_Using_Creative_Commons_Licences_web.pdf">A Practical Guide to Using Creative Commons Licences</a></li>
-        <li><a href="https://opus4.kobv.de/opus4-zib/frontdoor/index/index/docId/5913">Handbuch zu technischen und rechtlichen Aspekten von Kulturdaten</a></li>
-        <li><a href="https://pro.deutsche-digitale-bibliothek.de/">DDBpro – Das Portal für Datenpartner der Deutschen Digitalen Bibliothek</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 col-lg-offset-3">
-      <p>
-      <Wir freuen uns über jede Kultur&shy;insti&shy;tu&shy;tion, die an <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> teilnehmen möchte.>Die Datensätze der teilnehmenden Kultur&shy;insti&shy;tu&shy;tionen müssen unter einer offenen Lizenz (in der Regel CC0, CC-BY oder CC-BY-SA) oder gemeinfrei verfügbar sein, um als Institutionen teilnehmen zu können. Idealtypisch handelt es sich um Digitalisate und dazugehörige Metadaten oder eine offene API.
-      </p>
-    </div>
-  </div>
-</div-->
 
 <div id="sponsors" class="container-fluid">
   <div class="row">
@@ -403,27 +299,7 @@ header_nord: true
       </header>
     </div>
   </div>
-  <!-- div class="row">
-    <div class="col-lg-6 col-lg-offset-3">
-      <p><strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> ist ein Regionalevent von <a href="{{site.baseurl}}">Coding da Vinci – der Kultur-Hackathon</a>.
 
-      <p>
-        <strong class="cdvn-blue">Coding da&nbsp;Vinci Nord</strong> vernetzt die Kultur- und Technikwelt miteinander und ergründet neue Möglichkeiten der Kulturvermittlung. Wir setzen uns dafür ein, dass digitales Kulturerbe frei zugänglich ist, vielfältig, breit und aktiv in der Gesellschaft genutzt wird.
-      </p>
-    </div>
-  </div -->
-
-  <!--
-  <div class="col-lg-6 col-lg-offset-3">
-    <header class="subheader">
-      <h3>&nbsp;Partner&nbsp;</h3>
-    </header>
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-      </div>
-    </div>
-  </div>
-  -->
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2">
       <header class="subheader">
@@ -466,16 +342,6 @@ header_nord: true
       </div>
     </div>
   </div>
-  <!--
-  <div class="col-lg-6 col-lg-offset-3">
-    <header class="subheader">
-      <h3>&nbsp;Kulturstädte&nbsp;</h3>
-    </header>
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-      </div>
-    </div>
-  </div-->
   <div class="row">
     <div class="col-lg-6 col-lg-offset-3">
       <header class="">
