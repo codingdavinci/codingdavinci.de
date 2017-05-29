@@ -147,22 +147,24 @@ img {
 }
 
 .logo-container {
-  background: url('../img/header_logo.png') top center no-repeat;
   width: 455px;
   height: 265px;
   padding-top: 180px;
   padding-bottom: 14px; 
   margin: 0 auto;
-  z-index: 1001;
   -webkit-transform: translate3d(0px, 0px, 0px);
   transform: translate3d(0px, 0px, 0px);
 }
 
-
+.logo-container-default {
+  @extend .logo-container;
+  background: url('../img/header_logo.png') top center no-repeat;
+  z-index: 1001;
+}
 
 .logo-container-events-berlin {
   @extend .logo-container;
-  font-size: 40pt;
+  font-size: 2.5em;
   font-family: Archive;
   z-index: 99;
 }
@@ -170,7 +172,7 @@ img {
 .logo-container-events-nord {
   @extend .logo-container;
   background: url('/img/nord/header_logo_nord_events.png') top center no-repeat;
-  font-size: 40pt;
+  font-size: 200%;
   font-family: Archive;
   z-index: 99;
 }
@@ -291,6 +293,9 @@ a.scroll-hint:hover {
     background: url('../img/header_logo_320.png') top center no-repeat;
     padding-top: 120px;
     width: 320px;
+  font-size: 2.5em;
+  font-family: Archive;
+    
   }
   .header-container {
     padding-left: 0;
