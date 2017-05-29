@@ -56,8 +56,23 @@
             </li>
 	{% endif %}
 	   </ul>
-
         </nav>
+
+	       {% if page.header_events %}
+	                <nav class="navbar navbar-davinci" role="navigation">
+
+				           <ul class="nav navbar-nav navbar-center">
+						               <li class="separator {% if page.slug == 'events-berlin' %}active{% endif %}">
+								                     <a href="{{ site.baseurl }}events/berlin">Berlin</a>
+										                 </li>
+												             <li class="separator {% if page.slug == 'events-nord' %}active{% endif %}">
+														                   <a href="{{ site.baseurl }}events/nord">Hamburg</a>
+																               </li>
+																	                  </ul>
+																			            </nav>
+																				           
+																				            {% endif %}
+
       </div>
 
 

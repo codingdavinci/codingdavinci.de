@@ -351,9 +351,13 @@ a.scroll-hint:hover {
 }
 
 @media (min-width: 768px) {
-  .navbar-nav.navbar-center {
-    text-align: center;
-  }
+
+ .navbar-nav.navbar-center {
+	     position: absolute;
+	         left: 50%;
+		     transform: translatex(-50%);
+		       }
+
 }
 
 nav ul .submenuShown > ul {
