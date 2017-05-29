@@ -158,29 +158,28 @@ img {
   transform: translate3d(0px, 0px, 0px);
 }
 
-.logo-container-events {
-  width: 455px;
-  height: 265px;
-  padding-top: 180px;
-  padding-bottom: 14px; 
-  margin: 0 auto;
-  z-index: 1001;
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
-  font-size: 40pt;
-  font-family: Archive;
-}
+
 
 .logo-container-events-berlin {
   @extend .logo-container;
-  background: url('/img/berlin/header_logo_2017.png') top center no-repeat;
   font-size: 40pt;
   font-family: Archive;
+  z-index: 99;
 }
+
+.logo-container-events-nord {
+  @extend .logo-container;
+  background: url('/img/nord/header_logo_nord_events.png') top center no-repeat;
+  font-size: 40pt;
+  font-family: Archive;
+  z-index: 99;
+}
+
 
 
 .logo-text {
   padding: 0 35px;
+  text-align: center;
 }
 
 a.main-signup {
@@ -353,9 +352,7 @@ a.scroll-hint:hover {
 
 @media (min-width: 768px) {
   .navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
+    text-align: center;
   }
 }
 
@@ -456,9 +453,6 @@ li.active .navsub li a{
   display: block;
 }
 
-.navbar-center {
-  text-align: center;
-}
 
 .image-menu-link > a {
   display: inline-block !important;
