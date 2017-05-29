@@ -157,8 +157,8 @@ img {
   -webkit-transform: translate3d(0px, 0px, 0px);
   transform: translate3d(0px, 0px, 0px);
 }
+
 .logo-container-events {
-  background: url('../img/header_logo_2017.png') top center no-repeat;
   width: 455px;
   height: 265px;
   padding-top: 180px;
@@ -171,6 +171,12 @@ img {
   font-family: Archive;
 }
 
+.logo-container-events-berlin {
+  @extend .logo-container;
+  background: url('/img/berlin/header_logo_2017.png') top center no-repeat;
+  font-size: 40pt;
+  font-family: Archive;
+}
 
 
 .logo-text {
@@ -342,6 +348,14 @@ a.scroll-hint:hover {
   .widget-text {
     float: right;
     width: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
   }
 }
 
