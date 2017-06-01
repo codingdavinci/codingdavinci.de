@@ -47,12 +47,12 @@
               </a>
             </li>
     	{% if page.header_events %}
-	    <br/>
-            <li class="separator {% if page.slug == 'berlin' %}active{% endif %}">
+	    <hr class="style-seven"/>
+            <li class="separator {% if page.slug2 == 'berlin' %}active{% endif %}">
               <a href="{{ site.baseurl }}events/berlin">Berlin</a>
             </li>
-            <li class="menu-link {% if page.slug == 'nord' %}active{% endif %}">
-              <a href="{{ site.baseurl }}events/nord">Hamburg</a>
+            <li class="menu-link {% if page.slug2 == 'nord' %}active{% endif %}">
+              <a href="{{ site.baseurl }}events/nord">Nord</a>
             </li>
 	{% endif %}
 	   </ul>

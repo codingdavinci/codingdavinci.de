@@ -164,6 +164,7 @@ img {
 
 .logo-container-events-berlin {
   @extend .logo-container;
+  background: url('/img/berlin/header_logo_2017.png') top center no-repeat;
   font-size: 2.5em;
   font-family: Archive;
   z-index: 99;
@@ -172,7 +173,7 @@ img {
 .logo-container-events-nord {
   @extend .logo-container;
   background: url('/img/nord/header_logo_nord_events.png') top center no-repeat;
-  font-size: 200%;
+  font-size: 2.5em;
   font-family: Archive;
   z-index: 99;
 }
@@ -280,33 +281,59 @@ a.scroll-hint:hover {
 }
 
 @media (max-width: 768px) {
-  .header {
-    position: static;
-  }
-  .header-above {
-    margin-top: 0;
-  }
-  .header-container {
-    padding-top: 60px
-  }
-  .logo-container {
-    background: url('../img/header_logo_320.png') top center no-repeat;
-    padding-top: 120px;
-    width: 320px;
-  font-size: 2.5em;
-  font-family: Archive;
-    
-  }
-  .header-container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .logo-text {
-    font-size: 13pt;
-  }
-  .startext_widget {
-    text-align: center;
-  }
+	.navbar-davinci .navbar-nav {
+	    font-size: 16pt;
+	    text-align: right;
+	    padding-left: 15px;
+	}
+	.header {
+	position: static;
+	}
+	.header-above {
+	margin-top: 0;
+	}
+	.header-container {
+	padding-top: 60px
+	}
+	.logo-container-small {
+	  width: 320px;
+	  padding-top: 120px;
+	  -webkit-transform: translate3d(0px, 0px, 0px);
+	  transform: translate3d(0px, 0px, 0px);
+	}
+
+	.logo-container-default {
+	  @extend .logo-container-small;
+	  background: url('../img/header_logo.png') top center no-repeat;
+	  z-index: 1001;
+	}
+
+	.logo-container-events-berlin {
+	  @extend .logo-container-small;
+	  background: url('/img/header_logo_320.png') top center no-repeat;
+	  font-size: 2.5em;
+	  font-family: Archive;
+	  z-index: 99;
+	}
+
+	.logo-container-events-nord {
+	  @extend .logo-container-small;
+	  background: url('/img/nord/header_logo_nord_320.png') top center no-repeat;
+	  font-size: 2.5em;
+	  font-family: Archive;
+	  z-index: 99;
+	}
+
+	.header-container {
+	padding-left: 0;
+	padding-right: 0;
+	}
+	.logo-text {
+	font-size: 40px;
+	}
+	.startext_widget {
+	text-align: center;
+	}
 }
 
 .nav-container {
@@ -344,7 +371,8 @@ a.scroll-hint:hover {
     top: 0px;
   }
   .nav-container.affix .navbar-davinci {
-    border-bottom: 0;
+    border-bottom: 10px;
+    border-color: #000000;
   }
   .nav-container.affix-bottom {
     position: absolute
@@ -355,15 +383,7 @@ a.scroll-hint:hover {
   }
 }
 
-@media (min-width: 768px) {
 
- .navbar-nav.navbar-center {
-	     position: absolute;
-	         left: 50%;
-		     transform: translatex(-50%);
-		       }
-
-}
 
 nav ul .submenuShown > ul {
     visibility: visible;
@@ -531,9 +551,7 @@ li.active .navsub li a{
   margin: 50px 0 0 0;
 }
 
-hr {
-  border-top: 1px solid #333;
-}
+hr.menu { height: 300px; border-style: solid; border-color: black;}
 
 .top-separator {
   margin-top: 50px;
