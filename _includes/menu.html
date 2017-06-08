@@ -6,7 +6,7 @@
 		<img src="/img/nav-logo.png" alt="Coding Da Vinci"/>
             </a>
           </div>
-
+	  <div class="cdv-nav-right">
           <ul class="nav navbar-nav navbar-right">
             <li class="separator {% if page.slug == 'news' %}active{% endif %}">
               <a href="{{ site.baseurl }}news/">News</a>
@@ -47,7 +47,9 @@
               </a>
             </li>
     	{% if page.header_events %}
-	    <hr class="style-seven"/>
+	   </ul>
+	    <hr class="menu"/>
+          <ul class="nav navbar-nav">
             <li class="separator {% if page.slug2 == 'berlin' %}active{% endif %}">
               <a href="{{ site.baseurl }}events/berlin">Berlin</a>
             </li>
@@ -56,6 +58,7 @@
             </li>
 	{% endif %}
 	   </ul>
+	</div>
         </nav>
       </div>
 

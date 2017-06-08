@@ -147,7 +147,6 @@ img {
 }
 
 .logo-container {
-  width: 455px;
   height: 265px;
   padding-top: 180px;
   padding-bottom: 14px; 
@@ -165,6 +164,7 @@ img {
 .logo-container-events-berlin {
   @extend .logo-container;
   background: url('/img/berlin/header_logo_2017.png') top center no-repeat;
+  background-size: 100% auto;
   font-size: 2.5em;
   font-family: Archive;
   z-index: 99;
@@ -173,6 +173,7 @@ img {
 .logo-container-events-nord {
   @extend .logo-container;
   background: url('/img/nord/header_logo_nord_events.png') top center no-repeat;
+  background-size: 100% auto;
   font-size: 2.5em;
   font-family: Archive;
   z-index: 99;
@@ -351,6 +352,7 @@ a.scroll-hint:hover {
 }
 
 @media (min-width: 768px) {
+
     .nav-sub-container {
         top:50px;
         width: 100%;
@@ -422,6 +424,13 @@ li.active .navsub li a{
   padding-right: 15px;
 }
 
+
+.cdv-nav-right {
+  width: "80%";
+  float: right;
+  text-align: left;
+
+}
 .navbar-davinci .navbar-nav li {
   display: inline;
   margin: 0.5em 0;
@@ -472,6 +481,7 @@ li.active .navsub li a{
   .background {
     padding-top: 0;
   }
+
 }
 
 .navbar-davinci .navbar-nav .image-menu-link {
@@ -551,7 +561,7 @@ li.active .navsub li a{
   margin: 50px 0 0 0;
 }
 
-hr.menu { height: 300px; border-style: solid; border-color: black;}
+hr.menu { clear: both; border-style: solid; border-color: black; margin-bottom: 0; padding-bottom: 0;}
 
 .top-separator {
   margin-top: 50px;
@@ -1215,6 +1225,7 @@ only screen and (min-device-pixel-ratio: 2) {
     visibility: hidden;
     height : 0;
   }
+
 }
 
 @media (max-width: 991px) {
@@ -1222,6 +1233,16 @@ only screen and (min-device-pixel-ratio: 2) {
     text-align: center;
     margin-left: 20px;
   }
+.logo-container {
+  height: 265px;
+  padding-top: 180px;
+  padding-bottom: 14px; 
+  margin: 0 auto;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  font-size: 0.8em;
+}
+
 
   .project-footer {
     margin-top: 1em;
