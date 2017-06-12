@@ -149,7 +149,6 @@ img {
 .logo-container {
   height: 265px;
   padding-top: 180px;
-  padding-bottom: 14px; 
   margin: 0 auto;
   -webkit-transform: translate3d(0px, 0px, 0px);
   transform: translate3d(0px, 0px, 0px);
@@ -297,6 +296,7 @@ a.scroll-hint:hover {
 	padding-top: 60px
 	}
 	.logo-container-small {
+  margin: 0 auto;
 	  width: 320px;
 	  padding-top: 120px;
 	  -webkit-transform: translate3d(0px, 0px, 0px);
@@ -304,6 +304,7 @@ a.scroll-hint:hover {
 	}
 
 	.logo-container-default {
+  margin: 0 auto;
 	  @extend .logo-container-small;
 	  background: url('../img/header_logo.png') top center no-repeat;
 	  z-index: 1001;
@@ -328,9 +329,6 @@ a.scroll-hint:hover {
 	.header-container {
 	padding-left: 0;
 	padding-right: 0;
-	}
-	.logo-text {
-	font-size: 40px;
 	}
 	.startext_widget {
 	text-align: center;
@@ -1234,13 +1232,11 @@ only screen and (min-device-pixel-ratio: 2) {
     margin-left: 20px;
   }
 .logo-container {
-  height: 265px;
-  padding-top: 180px;
-  padding-bottom: 14px; 
+	  width: 320px;
+	  padding-top: 120px;
   margin: 0 auto;
   -webkit-transform: translate3d(0px, 0px, 0px);
   transform: translate3d(0px, 0px, 0px);
-  font-size: 0.8em;
 }
 
 
