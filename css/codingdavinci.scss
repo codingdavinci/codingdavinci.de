@@ -768,12 +768,6 @@ only screen and (min-device-pixel-ratio: 2) {
   content: " ";
 }
 
-.box {
-  background-color: $color-primary;
-  padding: 15px;
-  font-size: 13pt;
-}
-
 .time-box {
   background-color: $color-primary;
   padding: 15px;
@@ -1254,6 +1248,14 @@ only screen and (min-device-pixel-ratio: 2) {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  padding: 2% 2% 0;
+  text-align: justify;
+  font-size: 0;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  -webkit-justify-content: space-between;
 }
 
 .projects-container p{
@@ -1264,17 +1266,6 @@ only screen and (min-device-pixel-ratio: 2) {
   margin-bottom: 0;
 }
 
-.projects-container{
-  padding: 2% 2% 0;
-  text-align: justify;
-  font-size: 0;
-}
-
-.projects-container {
-  content: '';
-  display: inline-block;
-  width: 100%;
-}
 
 .projects-container:before {
   content: none;
@@ -1303,14 +1294,7 @@ only screen and (min-device-pixel-ratio: 2) {
   /*display: none; <-- uncomment this rule for use with MixItUp*/
 }
 
-/* Flex box progressive enhancements: */
 
-.projects-container{
-  display: -webkit-flex;
-  -webkit-flex-flow: row wrap;
-  -webkit-justify-content: space-between;
-  /*-webkit-align-content: flex-start;*/
-}
 
 @media all and (min-width: 420px){
   .projects-container .project-tile,
@@ -1487,16 +1471,13 @@ height: 100%;
   margin-top: 1.5em;
 }
 
-.data-meta {
-  border-top: 1px solid #e5e5f9;
-  border-bottom: 1px solid #e5e5f9;
-}
-
 .data-content {
   margin-bottom: 1.5em;
 }
 
 .data-meta {
+  border-top: 1px solid #e5e5f9;
+  border-bottom: 1px solid #e5e5f9;
   padding-top: 1em;
 }
 
@@ -1513,8 +1494,7 @@ height: 100%;
 }
 
 
-
-#project-image {
+.project-image {
   width: 100%;
 }
 
@@ -1655,11 +1635,15 @@ height: 100%;
   }
 }
 
+
+
 .box {
     background-color: $color-secondary;
     display: block;
     flex-grow: 1;
     margin: $grid-margin 0;
+  padding: 15px;
+  font-size: 13pt;
 }
 
 .box .inner, .box-inner {
