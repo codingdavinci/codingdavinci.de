@@ -143,7 +143,7 @@ img {
 }
 
 .header-container {
-  padding-top: 100px
+  padding-top: 100px;
 }
 
 .logo-container {
@@ -282,21 +282,21 @@ a.scroll-hint:hover {
 
 @media (max-width: 768px) {
 	.navbar-davinci .navbar-nav {
-	    font-size: 16pt;
-	    text-align: right;
-	    padding-left: 15px;
+	  font-size: 16pt;
+	  text-align: right;
+	  padding-left: 15px;
 	}
 	.header {
-	position: static;
+	  position: static;
 	}
 	.header-above {
-	margin-top: 0;
+	  margin-top: 0;
 	}
 	.header-container {
-	padding-top: 60px
+	  padding-top: 60px
 	}
 	.logo-container-small {
-  margin: 0 auto;
+          margin: 0 auto;
 	  width: 320px;
 	  padding-top: 120px;
 	  -webkit-transform: translate3d(0px, 0px, 0px);
@@ -304,7 +304,7 @@ a.scroll-hint:hover {
 	}
 
 	.logo-container-default {
-  margin: 0 auto;
+  	  margin: 0 auto;
 	  @extend .logo-container-small;
 	  background: url('../img/header_logo.png') top center no-repeat;
 	  z-index: 1001;
@@ -361,26 +361,31 @@ a.scroll-hint:hover {
         float: right;
     }
 
-  .nav-container.affix-top {
-    position: absolute;
-    top: 0;
-  }
+    .nav-container.affix-top {
+        top: 0;
+    }
 
-  .nav-container.affix {
-    position: fixed;
-    top: 0px;
-  }
-  .nav-container.affix .navbar-davinci {
-    border-bottom: 10px;
-    border-color: #000000;
-  }
-  .nav-container.affix-bottom {
-    position: absolute
-  }
-  .widget-text {
-    float: right;
-    width: 70%;
-  }
+    .nav-container.affix {
+        position: fixed;
+        top: 0px;
+    }
+    .nav-container.affix .navbar-davinci {
+        border-bottom: 10px;
+        border-color: #000000;
+    }
+    .nav-container.affix-bottom {
+        position: absolute
+    }
+    .widget-text {
+        float: right;
+        width: 70%;
+    }
+    .logo-container-events-nord {
+        margin-left: 20px;
+    }
+    .logo-container-events-berlin {
+        margin-right: 20px;
+    }
 }
 
 
@@ -568,7 +573,7 @@ hr.menu { clear: both; border-style: solid; border-color: black; margin-bottom: 
 .subheader {
   padding-top: 45px;
   border-bottom: 1px solid;
-  margin-top: 1em;
+  margin-top: 3em;
   margin-bottom: 2.5em;
   text-align: center;
   background-repeat: no-repeat;
