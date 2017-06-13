@@ -101,7 +101,6 @@ img {
 .background {
   background-color: $color-secondary;
   position: relative;
-  padding-top: 105px;
 }
 
 .image-attribution {
@@ -147,17 +146,15 @@ img {
 }
 
 .logo-container {
+background: url('../img/header_logo.png') top center no-repeat;
+  width: 455px;
   height: 265px;
   padding-top: 180px;
+  padding-bottom: 14px; 
   margin: 0 auto;
+  z-index: 1001;
   -webkit-transform: translate3d(0px, 0px, 0px);
   transform: translate3d(0px, 0px, 0px);
-}
-
-.logo-container-default {
-  @extend .logo-container;
-  background: url('../img/header_logo.png') top center no-repeat;
-  z-index: 1001;
 }
 
 .logo-container-events-berlin {
@@ -167,6 +164,7 @@ img {
   font-size: 2.5em;
   font-family: Archive;
   z-index: 99;
+  width: auto;
 }
 
 .logo-container-events-nord {
@@ -176,6 +174,7 @@ img {
   font-size: 2.5em;
   font-family: Archive;
   z-index: 99;
+  width: auto;
 }
 
 
@@ -297,33 +296,35 @@ a.scroll-hint:hover {
 	}
 	.logo-container-small {
           margin: 0 auto;
-	  width: 320px;
-	  padding-top: 120px;
+	  width: auto;
+	  padding-top: 125px;
 	  -webkit-transform: translate3d(0px, 0px, 0px);
 	  transform: translate3d(0px, 0px, 0px);
 	}
 
-	.logo-container-default {
-  	  margin: 0 auto;
+	.logo-container {
 	  @extend .logo-container-small;
-	  background: url('../img/header_logo.png') top center no-repeat;
+	  background: url('../img/header_logo_320.png') top center no-repeat;
 	  z-index: 1001;
+	  font-size: 0.8em;
 	}
 
 	.logo-container-events-berlin {
 	  @extend .logo-container-small;
 	  background: url('/img/header_logo_320.png') top center no-repeat;
-	  font-size: 2.5em;
+	  font-size: 2em;
 	  font-family: Archive;
 	  z-index: 99;
+	padding-top: 110px;
 	}
 
 	.logo-container-events-nord {
 	  @extend .logo-container-small;
 	  background: url('/img/nord/header_logo_nord_320.png') top center no-repeat;
-	  font-size: 2.5em;
+	  font-size: 2em;
 	  font-family: Archive;
 	  z-index: 99;
+	padding-top: 110px;
 	}
 
 	.header-container {
@@ -382,9 +383,11 @@ a.scroll-hint:hover {
     }
     .logo-container-events-nord {
         margin-left: 20px;
+	padding-top: 110px;
     }
     .logo-container-events-berlin {
         margin-right: 20px;
+	padding-top: 110px;
     }
 }
 
@@ -1236,13 +1239,6 @@ only screen and (min-device-pixel-ratio: 2) {
     text-align: center;
     margin-left: 20px;
   }
-.logo-container {
-	  width: 320px;
-	  padding-top: 120px;
-  margin: 0 auto;
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
-}
 
 
   .project-footer {
@@ -1635,6 +1631,15 @@ height: 100%;
 .prizes-profile img {
   max-height: 200px;
   margin: auto;
+}
+
+@media (min-width: 991px) {
+    .logo-container-events-berlin {
+	padding-top: 190px;
+    }
+    .logo-container-events-nord {
+	padding-top: 190px;
+    }
 }
 
 @media (max-width: 991px) {
