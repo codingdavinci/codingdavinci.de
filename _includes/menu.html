@@ -1,0 +1,65 @@
+    <div class="background {% if page.header %} header-above{% endif %}">
+      <div class="container-fluid nav-container" id="inhalt">
+        <nav class="navbar navbar-davinci">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="{{ site.baseurl }}">
+		<img src="/img/nav-logo.png" alt="Coding Da Vinci"/>
+            </a>
+          </div>
+	  <div class="cdv-nav-right">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="separator {% if page.slug == 'news' %}active{% endif %}">
+              <a href="{{ site.baseurl }}news/">News</a>
+            </li>
+            <li class="separator {% if page.slug == 'events' %}active{% endif %}">
+              <a href="{{ site.baseurl }}events/">Events</a>
+            </li>
+            <li class="separator {% if page.slug == 'daten' %}active{% endif %}">
+              <a href="{{ site.baseurl }}daten/">Daten</a>
+            </li>
+            <li class="separator {% if page.slug == 'projekte' %}active{% endif %}">
+              <a href="{{ site.baseurl }}projekte/">Projekte</a>
+            </li>
+            <li class="separator {% if page.slug == 'dokumentation' %}active{% endif %}">
+              <a href="{{ site.baseurl }}dokumentation/">Dokumentation</a>
+            </li>
+            <li class="separator {% if page.slug == 'stimmen' %}active{% endif %}">
+              <a href="{{ site.baseurl }}stimmen/">Stimmen</a>
+            </li>
+            <!--<li class="separator {% if page.slug == 'unterstuetzer' %}active{% endif %}">-->
+            <!--<a href="{{ site.baseurl }}unterstuetzer/">Unterstützer</a>-->
+            <!--</li>-->
+            <li class="separator {% if page.slug == 'gruender' %}active{% endif %}">
+              <a href="{{ site.baseurl }}gruender/">Gründer</a>
+            </li>
+            <li class="separator {% if page.slug == 'presse' %}active{% endif %}">
+              <a href="{{ site.baseurl }}presse/">Presse</a>
+            </li>
+            <li class="separator {% if page.slug == 'about' %}active{% endif %}">
+              <a href="{{ site.baseurl }}about/index-de.html">Über</a>
+            </li>
+            <li class="separator {% if page.slug == 'about' %}active{% endif %}">
+              <a href="{{ site.baseurl }}about/">About</a>
+            </li>
+            <li class="image-menu-link">
+              <a class="twitter" href="https://twitter.com/codingdavinci">
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+    	{% if page.header_events %}
+	   </ul>
+	    <hr class="menu"/>
+          <ul class="nav navbar-nav">
+            <li class="separator {% if page.slug2 == 'berlin' %}active{% endif %}">
+              <a href="{{ site.baseurl }}events/berlin">Berlin</a>
+            </li>
+            <li class="menu-link {% if page.slug2 == 'nord' %}active{% endif %}">
+              <a href="{{ site.baseurl }}events/nord">Nord</a>
+            </li>
+	{% endif %}
+	   </ul>
+	</div>
+        </nav>
+      </div>
+
+

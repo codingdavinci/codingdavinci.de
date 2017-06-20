@@ -6,7 +6,7 @@ published: true
 status: publish
 title: Save the date!
 image:
-    src: /img/header-blogpost.jpg
+    src: /img/nord/header-blogpost.jpg
     alt: Coding da Vinci Nord
 tags:
     - Events
