@@ -149,7 +149,7 @@ img {
 background: url('../img/header_logo.png') top center no-repeat;
   width: 455px;
   height: 265px;
-  padding-top: 35%;
+  padding-top: 180px;
   padding-bottom: 14px; 
   margin: 0 auto;
   z-index: 1001;
@@ -297,7 +297,7 @@ a.scroll-hint:hover {
 	.logo-container-small {
           margin: 0 auto;
 	  width: auto;
-	  padding-top: 35%;
+	  padding-top: 125px;
 	  -webkit-transform: translate3d(0px, 0px, 0px);
 	  transform: translate3d(0px, 0px, 0px);
 	}
@@ -1188,10 +1188,6 @@ only screen and (min-device-pixel-ratio: 2) {
   margin-top: 0;
 }
 
-.remove-all-styles {
-    all: revert;
-}
-
 .table .head {
   background: #00B984;
   font-weight: bold;
@@ -1639,10 +1635,10 @@ height: 100%;
 
 @media (min-width: 991px) {
     .logo-container-events-berlin {
-	  padding-top: 35%;
+	padding-top: 190px;
     }
     .logo-container-events-nord {
-	  padding-top: 35%;
+	padding-top: 190px;
     }
 }
 
