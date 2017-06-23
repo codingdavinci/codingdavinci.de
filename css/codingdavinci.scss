@@ -149,7 +149,7 @@ img {
 background: url('../img/header_logo.png') top center no-repeat;
   width: 455px;
   height: 265px;
-  padding-top: 35%;
+  padding-top: 180px;
   padding-bottom: 14px; 
   margin: 0 auto;
   z-index: 1001;
@@ -306,6 +306,7 @@ a.scroll-hint:hover {
 	  @extend .logo-container-small;
 	  background: url('../img/header_logo_320.png') top center no-repeat;
 	  z-index: 1001;
+	  padding-top: 120px;
 	  font-size: 0.8em;
 	}
 
