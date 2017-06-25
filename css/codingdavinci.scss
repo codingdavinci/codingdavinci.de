@@ -161,7 +161,7 @@ background: url('../img/header_logo.png') top center no-repeat;
   @extend .logo-container;
   background: url('/img/berlin/header_logo_2017.png') top center no-repeat;
   background-size: 100% auto;
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-family: Archive;
   z-index: 99;
   width: auto;
@@ -171,7 +171,7 @@ background: url('../img/header_logo.png') top center no-repeat;
   @extend .logo-container;
   background: url('/img/nord/header_logo_nord_events.png') top center no-repeat;
   background-size: 100% auto;
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-family: Archive;
   z-index: 99;
   width: auto;
@@ -297,9 +297,10 @@ a.scroll-hint:hover {
 	.logo-container-small {
           margin: 0 auto;
 	  width: auto;
-	  padding-top: 35%;
 	  -webkit-transform: translate3d(0px, 0px, 0px);
 	  transform: translate3d(0px, 0px, 0px);
+	padding-top: 135px;
+         font-size: 1.5em;
 	}
 
 	.logo-container {
@@ -313,19 +314,11 @@ a.scroll-hint:hover {
 	.logo-container-events-berlin {
 	  @extend .logo-container-small;
 	  background: url('/img/header_logo_320.png') top center no-repeat;
-	  font-size: 2em;
-	  font-family: Archive;
-	  z-index: 99;
-	padding-top: 110px;
 	}
 
 	.logo-container-events-nord {
 	  @extend .logo-container-small;
 	  background: url('/img/nord/header_logo_nord_320.png') top center no-repeat;
-	  font-size: 2em;
-	  font-family: Archive;
-	  z-index: 99;
-	padding-top: 110px;
 	}
 
 	.header-container {
@@ -383,12 +376,11 @@ a.scroll-hint:hover {
         width: 70%;
     }
     .logo-container-events-nord {
-        margin-left: 20px;
-	padding-top: 110px;
+	padding-top: 125px;
+
     }
     .logo-container-events-berlin {
-        margin-right: 20px;
-	padding-top: 110px;
+	padding-top: 125px;
     }
 }
 
@@ -1640,10 +1632,10 @@ height: 100%;
 
 @media (min-width: 991px) {
     .logo-container-events-berlin {
-	  padding-top: 35%;
+	  padding-top: 38%;
     }
     .logo-container-events-nord {
-	  padding-top: 35%;
+	  padding-top: 38%;
     }
 }
 

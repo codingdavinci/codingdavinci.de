@@ -38,8 +38,12 @@ a, a:link, a:hover, a:visited {
   height: 230px;
 }
 
+
 .logo-text {
-  display: none;
+ z-index: 99;
+ font-family: Archive;
+ font-size: 1.5em;
+
 }
 
 .cdv-tiles1, .cdv-tiles10, .cdv-tiles11, .cdv-tiles12, .cdv-tiles13,
