@@ -1908,3 +1908,10 @@ $brand-primary: $color-black;
 
 }
 
+@media screen and (min-width:856px) { 
+	.cdv-nav-right .navbar-nav:nth-of-type(2) { width:856px; float:right; } } 
+
+@media screen and(min-width:856px){
+	 .cdv-nav-right .navbar-nav:nth-of-type(2) { width:100%; } }
+
+
