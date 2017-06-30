@@ -8,7 +8,7 @@ title: "Der Kultur-Hackathon Coding da Vinci 2017 in Berlin"
 image:
     src: /img/news/2017/06-30-1.jpg
     alt: Coding da Vinci Kick Off
-    license: 'Bild: <a href="https://commons.wikimedia.org/wiki/File:Coding_da_Vinci_Kick_Off_%2825_&_26-04-2015%29_028.jpg">Coding da Vinci Kick Off</a> von <a href="http://www.frischefotos.de/"> Heiko Marquardt</a> unter <a href="https://creativecommons.org/licenses/by/3.0/deed.en">CC BY 3.0</a>' 
+    license: 'Kick-Off von Coding da Vinci Nord, der Kultur-Hackathon in Hamburg,  Bild: <a href="https://www.flickr.com/people/99896278@N06">Open Knowledge Foundation Deutschland</a>, <a href="https://commons.wikimedia.org/wiki/File:Coding_da_Vinci_Nord_2016_-_Kick-Off_in_Hamburg_%2832760433212%29.jpg">Coding da Vinci Nord 2016 - Kick-Off in Hamburg (32760433212)</a>, <a href="https://creativecommons.org/licenses/by/2.0/legalcode">CC BY 2.0</a>'
 tags:
     - Events
     - Coding da Vinci Berlin
