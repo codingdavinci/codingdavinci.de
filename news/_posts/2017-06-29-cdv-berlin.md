@@ -2,7 +2,7 @@
 date: 2017-06-29 10:30:00
 author: Lucy Patterson
 layout: post
-published: false
+published: true
 status: publish
 title: "Der Kultur-Hackathon Coding da Vinci 2017 in Berlin"
 image:
