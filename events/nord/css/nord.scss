@@ -33,13 +33,20 @@ a, a:link, a:hover, a:visited {
 }
 
 .logo-container {
-  background: url('../img/header_logo_cdvnord.png') top center no-repeat;
+  background: url('/img/nord/header_logo_cdvnord.png') top center no-repeat;
   background-size: contain;
   height: 230px;
 }
 
+
 .logo-text {
-  display: none;
+ z-index: 99;
+ font-family: Archive;
+ font-size: 1.5em;
+ width:100%; 
+ position:absolute; 
+ bottom:10px;
+
 }
 
 .cdv-tiles1, .cdv-tiles10, .cdv-tiles11, .cdv-tiles12, .cdv-tiles13,
@@ -49,7 +56,7 @@ a, a:link, a:hover, a:visited {
 .cdv-tiles28, .cdv-tiles29, .cdv-tiles3, .cdv-tiles30, .cdv-tiles31,
 .cdv-tiles4, .cdv-tiles5, .cdv-tiles6, .cdv-tiles7, .cdv-tiles8,
 .cdv-tiles9
-{ display: block; background: url('../img/tiles/cdv_tiles_nord.jpg') no-repeat; }
+{ display: block; background: url('/img/nord/cdv_tiles_nord.jpg') no-repeat; }
 
 
 .cdv-tiles1 { background-position: -4px -0px; width: 214px; height: 214px; }
