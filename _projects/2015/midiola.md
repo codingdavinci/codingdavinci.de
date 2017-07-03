@@ -9,12 +9,9 @@ image: "/img/projekte-tiles/default-active.png"
 links:
   -
     class: "website"
-    link: "https://git.urgs.org/codingdavinci2015_fu_khb_notenrollen/midiola"
+    link: "http://www.deutsches-museum.de/ausstellungen/naturwissenschaft/musikinstrumente/projekte/projekte/notenrollen/"
     text: "Webseite"
   -
-    class: "github"
-    link: "https://git.urgs.org/codingdavinci2015_fu_khb_notenrollen/midiola"
-    text: "github"
 data:
   - "Notenrollen für selbstspielende Klaviere des Deutschen Museums"
 team:
