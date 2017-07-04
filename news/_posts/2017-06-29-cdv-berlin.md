@@ -8,7 +8,6 @@ title: "Hacken für das Kulturerbe"
 image:
     src: /img/news/2017/06-30-1.jpg
     alt: Coding da Vinci Kick Off
-
     license: 'In der schon legendären One Minute Madness von Coding da Vinci machen die Kultur- und Gedächtnisinstitutionen Reklame für ihre Datenpräsentation im Anschluss.  Bild: <a href="https://www.flickr.com/people/99896278@N06">Open Knowledge Foundation Deutschland</a>, <a href="https://commons.wikimedia.org/wiki/File:Coding_da_Vinci_Nord_2016_-_Kick-Off_in_Hamburg_%2832760433212%29.jpg">Coding da Vinci Nord 2016 - Kick-Off in Hamburg (32760433212)</a>, <a href="https://creativecommons.org/licenses/by/2.0/legalcode">CC BY 2.0</a>'
 tags:
     - Events
@@ -16,8 +15,8 @@ tags:
 type: post
 ---
  
+<p><a href="https://codingdavinci.de">Coding da Vinci</a> – der erste und größte Kultur-Hackathon Deutschlands – kehrt 2017 nach Berlin zurück. Entstanden aus einer gemeinsamen Initiative der <a href="https://www.deutsche-digitale-bibliothek.de/">Deutschen Digitalen Bibliothek (DDB)</a>, der <a href="http://okfn.de/">Open Knowledge Foundation Germany e.V. (OKF DE)</a>, der <a href="http://www.servicestelle-digitalisierung.de">Servicestelle Digitalisierung Berlin (digiS)</a> und <a href="https://www.wikimedia.de/">Wikimedia Deutschland e.V. (WMDE)</a> zeigt Coding da Vinci seit 2014, welche Potentiale in offenen Kulturdaten stecken.</p>
 
-<p><a href="https://codingdavinci.de/">Coding da Vinci</a> – der erste und größte Kultur-Hackathon Deutschlands – kehrt 2017 nach Berlin zurück. Entstanden aus einer gemeinsamen Initiative der <a href="https://www.deutsche-digitale-bibliothek.de/">Deutschen Digitalen Bibliothek (DDB)</a>, der <a href="http://okfn.de/">Open Knowledge Foundation Germany e.V. (OKF DE)</a>, der <a href="http://www.servicestelle-digitalisierung.de">Servicestelle Digitalisierung Berlin (digiS)</a> und <a href="https://www.wikimedia.de/">Wikimedia Deutschland e.V. (WMDE)</a> zeigt Coding da Vinci seit 2014, welche Potentiale in offenen Kulturdaten stecken.</p>
 <p>In den zurückliegenden Jahren hat Coding da Vinci bereits mit über 60 Kulturinstitutionen zusammengearbeitet und konnte über 100 offene Datensätze <a href="https://codingdavinci.de/daten/">Datensätze</a> für die Öffentlichkeit verfügbar machen. 54 interdisziplinäre Teams haben im Rahmen von Coding da Vinci aus diesen Daten beeindruckende und überraschende Kulturanwendungen geschaffen von <a href="https://codingdavinci.de/projekte/">mobilen Websites bis zu interaktiven Hardware-Prototypen</a>.</p>
 <p>Coding da Vinci sieht sich als Teil der weltweit wachsenden OpenGLAM*-Bewegung, in der sich Menschen in und außerhalb von Kultureinrichtungen für den freien Zugang zu und die offene Nachnutzung von digitalisierten Kulturgütern einsetzen.</p>
 
