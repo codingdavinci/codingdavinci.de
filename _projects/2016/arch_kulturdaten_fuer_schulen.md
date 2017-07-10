@@ -21,12 +21,12 @@ year: 2016
     -
         "name": "Matthias Hupfer"
         "contact":
-            "mail": "hupfer@edu-sharing-network.org"
+            "mail": "mailto:hupfer@edu-sharing-network.org"
             "twitter": "https://twitter.com/Jumper701"
     -
         "name": "Annett Zobel"
         "contact":
-            "mail": "zobel@edu-sharing-network.org"
+            "mail": "mailto:zobel@edu-sharing-network.org"
             "twitter": "https://twitter.com/AnnettZobel"
     -
         "name": "Henry Freye"
@@ -35,12 +35,12 @@ year: 2016
     -
         "name": "Christian"
         "contact":
-            "mail": "rotzoll@edu-sharing-network.org"
+            "mail": "mailto:rotzoll@edu-sharing-network.org"
             "twitter": "https://twitter.com/rootzoll"
     -
         "name": "Tobias Westphal"
         "contact":
-            "mail": "westphal@edu-sharing-network.org"
+            "mail": "mailto:westphal@edu-sharing-network.org"
             "twitter": "https://twitter.com/Wessi_"
     -
         "name": "Daniel"

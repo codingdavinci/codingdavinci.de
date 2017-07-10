@@ -24,7 +24,7 @@ year: 2016
     -
         "name": "Roman Glaß"
         "contact":
-            "mail": "roman.glass@gmx.net"
+            "mail": "mailto:roman.glass@gmx.net"
             "twitter": "http://twitter.com/_glass"
 ---
 Wie lassen sich Kulturen verknüpfen? Zwei schwedische und zwei dänische Sammlungen haben ihre Bilder freigegeben. Ein Anlass sie zusammen zu sehen.

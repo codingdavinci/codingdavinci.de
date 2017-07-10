@@ -26,25 +26,21 @@ year: 2016
     -
         "name": "Ulrike Baumert"
         "contact":
-            "mail": "ulrike.baumert@gmail.com"
-            "twitter": "http://twitter.com/…"
+            "mail": "mailto:ulrike.baumert@gmail.com"
             "website": "https://de.linkedin.com/in/ulrike-baumert-b6534689"
     -
         "name": "Gaby Gietzelt"
         "contact":
-            "mail": "gietzeltsgaby@web.de"
-            "twitter": "http://twitter.com/…"
+            "mail": "mailto:gietzeltsgaby@web.de"
             "website": "https://de.linkedin.com/in/gaby-gietzelt-a44a3756"
     -
         "name": "Hauke Hansen"
         "contact":
-            "mail": "hauke.hansen@gmail.com"
-            "twitter": "http://twitter.com/…"
+            "mail": "mailto:hauke.hansen@gmail.com"
     -
         "name": "Melanie Ucke"
         "contact":
-            "mail": "melanie.ucke@kultourfreu.de"
-            "twitter": "http://twitter.com/…"
+            "mail": "mailto:melanie.ucke@kultourfreu.de"
             "website": "https://de.linkedin.com/in/melanie-ucke-6b35a87a"
 ---
 KollekTOURmat – (gern) unterwegs ins Hamburg.

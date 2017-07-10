@@ -21,7 +21,7 @@ year: 2016
     -
         "name": "Birgit Lippeck"
         "contact":
-            "mail": "birgit@nowandtomorrow.de"
+            "mail": "mailto:birgit@nowandtomorrow.de"
             "twitter": "http://twitter.com/BirgitLippeck"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SHs6G6zdhqg" frameborder="0" allowfullscreen></iframe>

@@ -18,7 +18,6 @@ team:
     -
       name: "Ina Brockmann"
       contact:
-          twitter: "http://twitter.com/…"
     -
       name: "Timo Lundelius"
       contact:
@@ -27,17 +26,14 @@ team:
     -
       name: "Ulrike Spree"
       contact:
-         twitter: "http://twitter.com/…"
     -
       name: "Umut Tas"
       contact:
           mail: "mailto:umut.tas@we-build.city"
-          twitter: "http://twitter.com/…"
     -
       name: "Lukas Kebel"
       contact:
           mail: "mailto:kebel@we-build.city"
-          twitter: "http://twitter.com/…"
 ---
 Fritz Schumacher, Architekt und Stadtentwickler von 1909-1933, schuf die bis heute sichtbare  Baukultur des kommunalen Zweck- und Wohnungsbaus Hamburgs. Seine Architektur und seine städtebauliche Planung gab Antworten auf die gesellschaftspolitischen und wirtschaftlichen Herausforderungen, die sich der Senat der schnell gewachsenen Metropole auf ihrem Weg in die Moderne stellen musste.
 
