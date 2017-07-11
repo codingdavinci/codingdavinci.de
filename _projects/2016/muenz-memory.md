@@ -26,7 +26,7 @@ year: 2016
         "name": "Sven-S. Porst"
         "contact":
             "mail": "mailto:ssp-web@earthlingsoft.net"
-            "twitter": "@ssp"
+            "twitter": "https://twitter.com/ssp"
 ---
 Wie der Name schon sagt, geht es in diesem Projekt um ein Memory-Spiel. Dabei kann man die schöne Welt der Numismatik für sich entdecken, da wir mit der KENOM-Münzensammlung gearbeitet haben. Demnächst wird das Projekt auch direkt auf der
 KENOM Webseite zugänglich sein.
