@@ -29,8 +29,7 @@ year: 2016
     -
         "name": "Ines Jarchow"
         "contact":
-            "mail": "ines.jarchow@t-online.de"
-            "twitter": "http://twitter.com/…"
+            "mail": "mailto:ines.jarchow@t-online.de"
     -
         "name": "Samuel Marfo"
 ---
