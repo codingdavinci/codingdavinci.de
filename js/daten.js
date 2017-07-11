@@ -25,6 +25,7 @@ $(document).ready(function () {
 			if ((filter.types != null) && (entry.types.indexOf(filter.types) < 0)) return false;
 			if ((filter.licenses != null) && (entry.licenses.indexOf(filter.licenses) < 0)) return false;
 			if ((filter.years != null) && (entry.years.indexOf(filter.years) < 0)) return false;
+			if ((filter.region != null) && (entry.region.indexOf(filter.region) < 0)) return false;
 
 			return true;
 		});
@@ -60,7 +61,8 @@ $(document).ready(function () {
 				categories: [],
 				licenses: [],
 				types: [],
-				years: []
+				years: [],
+				region: []
 			};
 			$('.data-category .label', e).each(function (i, e) {
 				entry.categories.push($(e).text());
@@ -74,6 +76,10 @@ $(document).ready(function () {
 			$('.data-year .label', e).each(function (i, e) {
 				entry.years.push($(e).text());
 			});
+			$('.data-region .label', e).each(function (i, e) {
+				entry.region.push($(e).text());
+			});
+
 			if (entry.id !== 'start')
 				all_entries.push(entry);
 		});
@@ -126,6 +132,7 @@ $(document).ready(function () {
 	fillFilter('types', 'info');
 	fillFilter('licenses', 'danger');
 	fillFilter('years', 'warning');
+	fillFilter('region', 'primary');
 	
 	//HACK: Set filter for 2015
 	//filter['years'] = '2015';
