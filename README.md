@@ -1,4 +1,4 @@
-# Coding Davinci Webseite
+# Coding da Vinci Webseite
 
 ## Credits
 
