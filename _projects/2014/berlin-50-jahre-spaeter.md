@@ -7,10 +7,7 @@ tile: "/img/projekte-tiles/berlin50jahre.png"
 tile_active: "/img/projekte-tiles/berlin50jahre-active.png"
 image: "/img/projekte/berlin-50-jahre.png"
 links:
-    -
-        class: "website"
-        link: "http://cdv.sourcloud.com/berlin"
-        text: "Webseite"
+    - "Dieses Projekt ist leider nicht mehr online."
 data:
     - "Ostberliner Fotoarchiv der Berlinischen Galerie"
     - "Google Maps / Google Street View + APIs"
