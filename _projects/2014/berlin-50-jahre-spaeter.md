@@ -18,7 +18,7 @@ team:
         name: "Erik Woitschig"
         contact:
             github: "http://github.com/iambnz"
-            twitter: "http://twitter.com/@iam_bnz"
+            twitter: "https://twitter.com/devbnz"
             stackOverflow: "http://stackoverflow.com/users/1816139/bnz"
 ---
 Im Mai und Juni 1933 wurden während der NS-Zeit sämtliche Autoren verfolgt und zahlreiche Bücher verbrannt. Auch in
