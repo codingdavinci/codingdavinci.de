@@ -7,10 +7,7 @@ tile: "/img/projekte-tiles/2015/rollingstone.png"
 tile_active: "/img/projekte-tiles/2015/rollingstone-active.png"
 image: "/img/projekte/rolling_stone_logo.png"
 links:
-  -
-    class: "website"
-    link: "http://knutator2.github.io/Rolling-Stone/#/"
-    text: "Webseite"
+  - "Webseite nicht mehr verfugbar"
   -
     class: "github"
     link: "https://github.com/knutator2/Rolling-Stone"
