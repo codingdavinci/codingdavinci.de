@@ -24,7 +24,6 @@ year: 2016
         "name": "David Elvers"
         "contact":
             "mail": "mailto:davide135@gmail.com"
-            "twitter": "https://twitter.com/d4v1d31v325"
     -
         "name": "Lisa-Marie Eckardt"
         "contact":
