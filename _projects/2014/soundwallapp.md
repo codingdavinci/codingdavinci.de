@@ -14,7 +14,7 @@ links:
         text: "Seite auf github"
     -
         class: "website"
-        link: "http://mcrumbs.com/portfolio/soundwall-app/ "
+        link: "http://soundwall-app.com/"
         text: "Webseite"
 data:
     - "Digitale Klang- und Videobeispiele aus der Instrumentensammlung des Ethnologischen Museums Berlin"

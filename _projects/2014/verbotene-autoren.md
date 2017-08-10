@@ -9,7 +9,7 @@ image: "/img/projekte/app-verbotene-autoren.png"
 links:
     -
         class: "website"
-        link: "http://mr-fridge.de/apps/verbotene_autoren/index.php"
+        link: "https://itunes.apple.com/de/app/verbotene-autoren/id896260116?mt=8"
         text: "Webseite"
 data:
     - "NS-Buchverbotsliste"

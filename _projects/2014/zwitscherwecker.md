@@ -13,7 +13,7 @@ year: 2014
         "text": "Webseite"
     -
         "class": "android"
-        "link": "http://www.farbtrommel.de/zwitscherwecker/build/zwitscherwecker.apk"
+        "link": "http://www.farbtrommel.de/zwitscherwecker/"
         "text": "Android App"
     -
         "class": "projects-github"
