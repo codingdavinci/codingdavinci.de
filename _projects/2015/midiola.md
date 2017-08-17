@@ -9,7 +9,7 @@ image: "/img/projekte-tiles/default-active.png"
 links:
   -
     class: "website"
-    link: "http://www.deutsches-museum.de/ausstellungen/naturwissenschaft/musikinstrumente/projekte/projekte/notenrollen/"
+    link: "https://urgs.org/midiola/"
     text: "Webseite"
   -
 data:
