@@ -18,14 +18,14 @@ type: post
  
 <br/> 
 --- <i>For English, please scroll down</i> ---
-<br/>
+<br/><br/>
 
  
 <h2>In die Zukunft auf den Spuren der Vergangenheit</h2>
 
 Der Kultur-Hackathon Coding da Vinci kommt 2017 zurück nach Berlin! Diesen Herbst steigen wir tief ein in die Archive und Sammlungen von einigen von Berlins beliebtesten Kulturinstitutionen. Du bist ein/e Entwickler/in, Designer/in, Künstler/in, Spieleentwickler/in, Hardwarehacker/in, Wissenschaftler/in, ein Daten-Nerd oder einfach nur an Kultur interessiert? Dann bietet Coding da Vinci Dir die Chance, mit den Kulturinstitutionen und ihren Daten in Kontakt zu kommen und in Zusammenarbeit mit ihnen den Zugang zu unserem Kulturerbe neu zu erfinden mit Apps, Websites, VR/AR-Umsetzungen, Installationen oder anderen überraschenden kreativen Arbeiten. Wir sind sehr gespannt darauf, was eure Vorstellungskraft alles hervorbringen kann!   
 
-Gerade bereiten wir mit den Kuratoren und Daten-Managern der Institutionen eine große Anzahl neuer Datensets für die Veröffentlichung unter einer freien Lizenz vor. Ob digitalisierte Fotoserien, Illustrationen, Gemälde, Film- und Sounddateien oder Archiv-Metadaten alle im Rahmen von Coding da Vinci präsentierten Datensets stehen unter einer CC-BY-SA, CC-BY oder CC0-Lizenz oder sind bereits gemeinfrei (PDM). So kann jede/r sie nach eigenen Vorstellungen frei verwenden, rekontextualisieren oder remixen ohne Grenzen! Die vorbereiteten Datensets werden im September veröffentlicht. Wer sich jetzt schon einen Eindruck verschaffen möchte, worauf man sich freuen kann, kann in [unserem Archiv](https://codingdavinci.de/daten/) in den Daten der Vorjahre stöbern.<br/>
+Gerade bereiten wir mit den Kuratoren und Daten-Managern der Institutionen eine große Anzahl neuer Datensets für die Veröffentlichung unter einer freien Lizenz vor. Ob digitalisierte Fotoserien, Illustrationen, Gemälde, Film- und Sounddateien oder Archiv-Metadaten alle im Rahmen von Coding da Vinci präsentierten Datensets stehen unter einer CC-BY-SA, CC-BY oder CC0-Lizenz oder sind bereits gemeinfrei (PDM). So kann jede/r sie nach eigenen Vorstellungen frei verwenden, rekontextualisieren oder remixen ohne Grenzen! Die vorbereiteten Datensets werden im September veröffentlicht. Wer sich jetzt schon einen Eindruck verschaffen möchte, worauf man sich freuen kann, kann in [unserem Archiv](https://codingdavinci.de/daten/) in den Daten der Vorjahre stöbern.<br/><br/>
 
 
 <h2>Was gibt es zu erwarten?</h2><br/>
@@ -37,7 +37,7 @@ Beim Kick-off stellen Repräsentanten der Kulturinstitutionen ihre Datensets vor
 Nach dem Kick-off habt ihr 6 Wochen für die Entwicklung eurer Projekte. Wie ihr euch in eurem Team in dieser Zeit organisiert, bleibt euch überlassen. Aber dank des OK-Labs der Open Knowledge Foundation Deutschland können wir euch diesmal reguläre Community-Hack-Sessions in den Räumen der Wikimedia anbieten innerhalb des Montags-Meetups der OK-Labs.  
 
 <strong>2. Dezember | Preisverleihung | Jüdisches Museum Berlin (JMB)</strong><br/>
-Nach Ablauf der Sprintphase laden wir alle Teams ins Jüdische Museum Berlin ein, wo ihr eure Projekte der Öffentlichkeit und unserer Jury vorstellt. Wir werden mit euch und den Kulturinstitutionen feiern und die besten Projekte prämieren in den Kategorien „Most Technical“, „Most Useful“, „Best Design“, „Funniest Hack“, „Out of Competition“ und „Publikumspreis“.<br/>
+Nach Ablauf der Sprintphase laden wir alle Teams ins Jüdische Museum Berlin ein, wo ihr eure Projekte der Öffentlichkeit und unserer Jury vorstellt. Wir werden mit euch und den Kulturinstitutionen feiern und die besten Projekte prämieren in den Kategorien „Most Technical“, „Most Useful“, „Best Design“, „Funniest Hack“, „Out of Competition“ und „Publikumspreis“.<br/><br/>
  
  
 Wenn Du Lust hast, 2017 Teil von Coding da Vinci Berlin zu sein, freuen wir uns sehr auf Dich! Alle, die mehr über das Projekt Coding da Vinci lernen möchten – z.B. darüber wie das Event funktioniert, welche Daten dieses Jahr neu sind und welche Erfahrungen die Teilnehmer der letzten Jahre gemacht haben – laden wir [am 21. September zu einer offenen Informationsveranstaltung ein](https://www.meetup.com/Coding-da-Vinci-Berlin/events/242717888/). Die Teilnehmerregistrierung für unser Hauptevent startet am 25. September. Wenn Du eine Erinnerungsmail zum Registrierungsstart erhalten möchtest, trage Dich in [unsere Mailingliste](http://eepurl.com/cTI-ov) ein.<br/><br/> 
@@ -45,7 +45,8 @@ Wenn Du Lust hast, 2017 Teil von Coding da Vinci Berlin zu sein, freuen wir uns 
  
  
  
---- <i>English</i> ---<br/>
+--- <i>English</i> ---
+<br/><br/>
  
   
 <h2>Facing the future without losing connection to the past</h2>
@@ -58,7 +59,7 @@ Right now we are working closely with the institutions’ curators and data mana
 Mastigocerca Peitschenschwanz. Illustrations of microscopic aquatic life from Christian Gottfried Ehrenberg (1795 - 1876) the first scientist to systematically study living and fossil microscopic, mostly single-celled organisms. / Mikroskopie-Zeichnungen aquatischen Lebens von Christian Gottfried Ehrenberg (1795 - 1876), dem ersten Wissenschaftler der systematisch mit Hilfe von Mikroskopen lebende und fossile Einzeller erforschte. Ehrenberg Collection (CC-BY-SA), Museum für Naturkunde, Berlin.
 
 
-<h2>What to expect:</h2>
+<h2>What to expect:</h2><br/><br/>
 
 <strong>21-22nd October | Kick-off | Hochschule für Technik und Wirtschaft (HTW)</strong><br/>
 Representatives of cultural institutions will pitch their datasets, explain context and technical specifications, and answer questions. After that we open the stage for project pitches. Whether you pitch your own idea or join another’s team you’ll have the rest of the weekend to get together, ideate, ask more questions of the cultural institutions, plan and get hacking. We’ll make sure you are well looked after with coffee, tasty food, and some mini-workshop offers on the side to upskill and entertain you.
@@ -67,10 +68,10 @@ Representatives of cultural institutions will pitch their datasets, explain cont
 After the Kick-Off weekend you will have 6 weeks to develop your projects together with your team. It’s up to you how you organise your time during this phase but, thanks to Open Knowledge Foundation Germany and OK Lab Berlin, this year we can offer community hack-sessions at Wikimedia alongside the OK Lab’s regular Monday evening meetups. 
 
 <strong>2nd December | Award ceremony | Jüdisches Museum Berlin (JMB)</strong><br/>
-At the end of the sprint we’ll invite all teams to present their projects before a public audience and panel of judges at our final award ceremony. We’ll celebrate all the projects and award prizes for different categories.<br/>
+At the end of the sprint we’ll invite all teams to present their projects before a public audience and panel of judges at our final award ceremony. We’ll celebrate all the projects and award prizes for different categories.<br/><br/>
   
  
 If you’re interested to take part in this year’s Coding da VInci - great! If you’d like to learn more about the project – how the event works, which new datasets we can look forward to this year, hear from participants of previous editions about their experience – come along to our information event, 21st September. Participant registration will open on 25th September. Sign up to our mailing list for a registration reminder in your inbox.
  
-<strong>Please be aware, Coding da Vinci events will be held primarily in German, including moderation and dataset presentations. However, English-speaking participants are very welcome and we are happy to hear pitches and presentations in English where appropriate.</strong>
+<strong>*** Please be aware, Coding da Vinci events will be held primarily in German, including moderation and dataset presentations. However, English-speaking participants are very welcome and we are happy to hear pitches and presentations in English where appropriate. ***</strong>
 
