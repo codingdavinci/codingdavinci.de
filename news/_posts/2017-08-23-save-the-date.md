@@ -14,11 +14,11 @@ tags:
     - Coding da Vinci Berlin
 type: post
 ---
-
-
+ 
+ 
 --- <i>For English, please scroll down</i> ---
-
-
+ 
+ 
 <h2>In die Zukunft auf den Spuren der Vergangenheit</h2>
 
 Der Kultur-Hackathon Coding da Vinci kommt 2017 zurück nach Berlin! Diesen Herbst steigen wir tief ein in die Archive und Sammlungen von einigen von Berlins beliebtesten Kulturinstitutionen. Du bist ein/e Entwickler/in, Designer/in, Künstler/in, Spieleentwickler/in, Hardwarehacker/in, Wissenschaftler/in, ein Daten-Nerd oder einfach nur an Kultur interessiert? Dann bietet Coding da Vinci Dir die Chance, mit den Kulturinstitutionen und ihren Daten in Kontakt zu kommen und in Zusammenarbeit mit ihnen den Zugang zu unserem Kulturerbe neu zu erfinden mit Apps, Websites, VR/AR-Umsetzungen, Installationen oder anderen überraschenden kreativen Arbeiten. Wir sind sehr gespannt darauf, was eure Vorstellungskraft alles hervorbringen kann!   
@@ -36,15 +36,16 @@ Nach dem Kick-off habt ihr 6 Wochen für die Entwicklung eurer Projekte. Wie ihr
 
 <strong>2. Dezember | Preisverleihung | Jüdisches Museum Berlin (JMB)</strong><br/>
 Nach Ablauf der Sprintphase laden wir alle Teams ins Jüdische Museum Berlin ein, wo ihr eure Projekte der Öffentlichkeit und unserer Jury vorstellt. Wir werden mit euch und den Kulturinstitutionen feiern und die besten Projekte prämieren in den Kategorien „Most Technical“, „Most Useful“, „Best Design“, „Funniest Hack“, „Out of Competition“ und „Publikumspreis“.
-
-
+ 
+ 
 Wenn Du Lust hast, 2017 Teil von Coding da Vinci Berlin zu sein, freuen wir uns sehr auf Dich! Alle, die mehr über das Projekt Coding da Vinci lernen möchten – z.B. darüber wie das Event funktioniert, welche Daten dieses Jahr neu sind und welche Erfahrungen die Teilnehmer der letzten Jahre gemacht haben – laden wir [am 21. September zu einer offenen Informationsveranstaltung ein](https://www.meetup.com/Coding-da-Vinci-Berlin/events/242717888/). Die Teilnehmerregistrierung für unser Hauptevent startet am 25. September. Wenn Du eine Erinnerungsmail zum Registrierungsstart erhalten möchtest, trage Dich in [unsere Mailingliste](http://eepurl.com/cTI-ov) ein.  
-
-
-
-
+ 
+ 
+ 
+ 
 --- <i>English</i> --- 
-
+ 
+  
 <h2>Facing the future without losing connection to the past</h2>
 
 Coding da Vinci, the culture hackathon, is back in Berlin for 2017! This autumn will be your chance to take a deep dive into the archives and collections of some of Berlin’s best-loved cultural institutions. If you’re a developer, designer, artist, game designer, hardware hacker, scientist, data nerd, or generally interested in cultural heritage, Coding da Vinci is your chance to get in contact with these institutions and their data, and together create new connections to it through apps, websites, VR/AR experiences, installations, and other new creative works.. we are really excited to see what your imagination can turn out.
@@ -65,8 +66,9 @@ After the Kick-Off weekend you will have 6 weeks to develop your projects togeth
 
 <strong>2nd December | Award ceremony | Jüdisches Museum Berlin (JMB)</strong><br/>
 At the end of the sprint we’ll invite all teams to present their projects before a public audience and panel of judges at our final award ceremony. We’ll celebrate all the projects and award prizes for different categories. 
-
+  
+ 
 If you’re interested to take part in this year’s Coding da VInci - great! If you’d like to learn more about the project – how the event works, which new datasets we can look forward to this year, hear from participants of previous editions about their experience – come along to our information event, 21st September. Participant registration will open on 25th September. Sign up to our mailing list for a registration reminder in your inbox.
  
-Please be aware, Coding da Vinci events will be held primarily in German, including moderation and dataset presentations. However, English-speaking participants are very welcome and we are happy to hear pitches and presentations in English where appropriate.
+<strong>Please be aware, Coding da Vinci events will be held primarily in German, including moderation and dataset presentations. However, English-speaking participants are very welcome and we are happy to hear pitches and presentations in English where appropriate.</strong>
 
