@@ -8,7 +8,7 @@ title:  "Save-the-date: Coding da Vinci Berlin 2017"
 image:
     src: /img/news/2017/08-23-1.jpg
     alt: 'Fotos aus dem Stadtarchiv Speyer'
-    license: 'Fotografien aus dem Ersten und vor allem Zweiten Weltkrieg aus dem Nachlass des Archivaren und Fotografen Karl Lutz. [Bilddownload hier](https://www.google.com/url?q=https://www.flickr.com/photos/132154516@N03/19664013251/in/photostream/&sa=D&ust=1503145411552000&usg=AFQjCNHJaovTd_-pYaZvokeEsIHD2-M85w). / Photograph from a collection of images dated around the 1st and 2nd World Wars from archivist and photographer Karl Lutz. Stadtarchiv Speyer (CC-BY-SA)'
+    license: 'Fotografien aus dem Ersten und vor allem Zweiten Weltkrieg aus dem Nachlass des Archivaren und Fotografen Karl Lutz. <a href="https://www.google.com/url?q=https://www.flickr.com/photos/132154516@N03/19664013251/in/photostream/&sa=D&ust=1503145411552000&usg=AFQjCNHJaovTd_-pYaZvokeEsIHD2-M85w">Bilddownload hier</a>. / Photograph from a collection of images dated around the 1st and 2nd World Wars from archivist and photographer Karl Lutz. Stadtarchiv Speyer (CC-BY-SA)'
 tags:
     - Events
     - Coding da Vinci Berlin
