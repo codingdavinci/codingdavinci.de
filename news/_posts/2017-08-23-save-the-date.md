@@ -15,7 +15,9 @@ tags:
 type: post
 ---
 
-FOR ENGLISH, PLEASE SCROLL DOWN 
+
+--- <i>For English, please scroll down</i> ---
+
 
 <h2>In die Zukunft auf den Spuren der Vergangenheit</h2>
 
@@ -26,13 +28,13 @@ Gerade bereiten wir mit den Kuratoren und Daten-Managern der Institutionen eine 
 
 <h2>Was gibt es zu erwarten?</h2>
 
-21.-22. Oktober | Kick-off | Hochschule für Technik und Wirtschaft (HTW)
+<strong>21.-22. Oktober | Kick-off | Hochschule für Technik und Wirtschaft (HTW)</strong><br/>
 Beim Kick-off stellen Repräsentanten der Kulturinstitutionen ihre Datensets vor, erklären deren Kontexte sowie technische Details und beantworten Fragen dazu. Danach öffnen wir die Bühne für Projektideen: Du kannst eine eigene Idee vorstellen und ein Team darum bilden oder Dich einem der entstehenden Teams anschließen. Den Rest des Wochenendes arbeitet ihr in eurem Team und gemeinsam mit den Vertretern der Kulturinstitutionen Projektideen aus, schmiedet Pläne und hackt gemeinsam! Wir stellen sicher, dass ihr gut versorgt seid mit Kaffee, Kaltgetränken und gutem Essen sowie einigen kurzen Workshops zu Open Data und Creative Tech, die eure Fähigkeiten fördern sollen und euch unterhalten wollen.  
 
-Die darauffolgenden 6 Wochen | Projekt-Entwicklungs-Sprintphase
+<strong>Die darauffolgenden 6 Wochen | Projekt-Entwicklungs-Sprintphase</strong><br/>
 Nach dem Kick-off habt ihr 6 Wochen für die Entwicklung eurer Projekte. Wie ihr euch in eurem Team in dieser Zeit organisiert, bleibt euch überlassen. Aber dank des OK-Labs der Open Knowledge Foundation Deutschland können wir euch diesmal reguläre Community-Hack-Sessions in den Räumen der Wikimedia anbieten innerhalb des Montags-Meetups der OK-Labs.  
 
-2. Dezember | Preisverleihung | Jüdisches Museum Berlin (JMB)
+<strong>2. Dezember | Preisverleihung | Jüdisches Museum Berlin (JMB)</strong><br/>
 Nach Ablauf der Sprintphase laden wir alle Teams ins Jüdische Museum Berlin ein, wo ihr eure Projekte der Öffentlichkeit und unserer Jury vorstellt. Wir werden mit euch und den Kulturinstitutionen feiern und die besten Projekte prämieren in den Kategorien „Most Technical“, „Most Useful“, „Best Design“, „Funniest Hack“, „Out of Competition“ und „Publikumspreis“.
 
 
@@ -41,7 +43,7 @@ Wenn Du Lust hast, 2017 Teil von Coding da Vinci Berlin zu sein, freuen wir uns 
 
 
 
-ENGLISH 
+--- <i>English</i> --- 
 
 <h2>Facing the future without losing connection to the past</h2>
 
@@ -55,16 +57,16 @@ Mastigocerca Peitschenschwanz. Illustrations of microscopic aquatic life from Ch
 
 <h2>What to expect:</h2>
 
-21-22nd October | Kick-off | Hochschule für Technik und Wirtschaft (HTW)
+<strong>21-22nd October | Kick-off | Hochschule für Technik und Wirtschaft (HTW)</strong><br/>
 Representatives of cultural institutions will pitch their datasets, explain context and technical specifications, and answer questions. After that we open the stage for project pitches. Whether you pitch your own idea or join another’s team you’ll have the rest of the weekend to get together, ideate, ask more questions of the cultural institutions, plan and get hacking. We’ll make sure you are well looked after with coffee, tasty food, and some mini-workshop offers on the side to upskill and entertain you.
 
-Following 6-weeks | Project development sprint
+<strong>Following 6-weeks | Project development sprint</strong><br/>
 After the Kick-Off weekend you will have 6 weeks to develop your projects together with your team. It’s up to you how you organise your time during this phase but, thanks to Open Knowledge Foundation Germany and OK Lab Berlin, this year we can offer community hack-sessions at Wikimedia alongside the OK Lab’s regular Monday evening meetups. 
 
-2nd December | Award ceremony | Jüdisches Museum Berlin (JMB)
+<strong>2nd December | Award ceremony | Jüdisches Museum Berlin (JMB)</strong><br/>
 At the end of the sprint we’ll invite all teams to present their projects before a public audience and panel of judges at our final award ceremony. We’ll celebrate all the projects and award prizes for different categories. 
 
 If you’re interested to take part in this year’s Coding da VInci - great! If you’d like to learn more about the project – how the event works, which new datasets we can look forward to this year, hear from participants of previous editions about their experience – come along to our information event, 21st September. Participant registration will open on 25th September. Sign up to our mailing list for a registration reminder in your inbox.
  
-Please be aware, Coding da VInci events will be held primarily in German, including moderation and dataset presentations. However, English-speaking participants are very welcome and we are happy to hear pitches and presentations in English where appropriate.
+Please be aware, Coding da Vinci events will be held primarily in German, including moderation and dataset presentations. However, English-speaking participants are very welcome and we are happy to hear pitches and presentations in English where appropriate.
 
