@@ -55,9 +55,10 @@ Coding da Vinci, the culture hackathon, is back in Berlin for 2017! This autumn 
 
 Right now we are working closely with the institutions’ curators and data managers to help prepare new datasets for publication under open license. From digitised photographs, illustrations and paintings, to sound files, to film, to archival metadata – every dataset featured in Coding da Vinci is either already in the public domain or will be available under a CC-BY-SA, CC-BY, or CC0 license, meaning that you are free to reuse, re-contextualise, and remix them as you wish. This year’s selection will be released in September – take a look through datasets from previous years to get a sense for what could be on offer. 
 
-
-Mastigocerca Peitschenschwanz. Illustrations of microscopic aquatic life from Christian Gottfried Ehrenberg (1795 - 1876) the first scientist to systematically study living and fossil microscopic, mostly single-celled organisms. / Mikroskopie-Zeichnungen aquatischen Lebens von Christian Gottfried Ehrenberg (1795 - 1876), dem ersten Wissenschaftler der systematisch mit Hilfe von Mikroskopen lebende und fossile Einzeller erforschte. Ehrenberg Collection (CC-BY-SA), Museum für Naturkunde, Berlin.<br/><br/>
-
+<div class="container-fluid" style="margin-top: 3em;">
+<img class="img-responsive center-block image-content" src="/img/news/2017/08-23-2.jpg" />
+<p class="image-caption"> Mastigocerca Peitschenschwanz. Illustrations of microscopic aquatic life from Christian Gottfried Ehrenberg (1795 - 1876) the first scientist to systematically study living and fossil microscopic, mostly single-celled organisms. / Mikroskopie-Zeichnungen aquatischen Lebens von Christian Gottfried Ehrenberg (1795 - 1876), dem ersten Wissenschaftler der systematisch mit Hilfe von Mikroskopen lebende und fossile Einzeller erforschte. Ehrenberg Collection (CC-BY-SA), Museum für Naturkunde, Berlin.</p>
+</div>
 
 <h2>What to expect</h2><br/>
 
