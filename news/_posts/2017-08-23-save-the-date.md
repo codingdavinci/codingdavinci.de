@@ -72,7 +72,7 @@ After the Kick-Off weekend you will have 6 weeks to develop your projects togeth
 At the end of the sprint we’ll invite all teams to present their projects before a public audience and panel of judges at our final award ceremony. We’ll celebrate all the projects and award prizes for different categories.<br/><br/>
   
  
-If you’re interested to take part in this year’s Coding da VInci - great! If you’d like to learn more about the project – how the event works, which new datasets we can look forward to this year, hear from participants of previous editions about their experience – come along to our [information event, 21st September](https://www.meetup.com/Coding-da-Vinci-Berlin/events/242717888/). Participant registration will open on 25th September. [Sign up to our mailing list](http://eepurl.com/cTI-ov) for a registration reminder in your inbox.
+If you’re interested to take part in this year’s Coding da Vinci - great! If you’d like to learn more about the project – how the event works, which new datasets we can look forward to this year, hear from participants of previous editions about their experience – come along to our [information event, 21st September](https://www.meetup.com/Coding-da-Vinci-Berlin/events/242717888/). Participant registration will open on 25th September. [Sign up to our mailing list](http://eepurl.com/cTI-ov) for a registration reminder in your inbox.
  
 <strong>Please be aware, Coding da Vinci events will be held primarily in German, including moderation and dataset presentations. However, English-speaking participants are very welcome and we are happy to hear pitches and presentations in English where appropriate.</strong>
 
