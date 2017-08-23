@@ -4,7 +4,7 @@ author: Coding da Vinci Team Berlin
 layout: post
 published: true
 status: publish
-title:  Save-the-date: Coding da Vinci Berlin 2017
+title:  "Save-the-date: Coding da Vinci Berlin 2017"
 image:
     src: /img/news/2017/08-23-1.jpg
     alt: 'Fotos aus dem Stadtarchiv Speyer'
