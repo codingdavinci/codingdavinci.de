@@ -56,10 +56,10 @@ Coding da Vinci, the culture hackathon, is back in Berlin for 2017! This autumn 
 Right now we are working closely with the institutions’ curators and data managers to help prepare new datasets for publication under open license. From digitised photographs, illustrations and paintings, to sound files, to film, to archival metadata – every dataset featured in Coding da Vinci is either already in the public domain or will be available under a CC-BY-SA, CC-BY, or CC0 license, meaning that you are free to reuse, re-contextualise, and remix them as you wish. This year’s selection will be released in September – take a look through datasets from previous years to get a sense for what could be on offer. 
 
 
-Mastigocerca Peitschenschwanz. Illustrations of microscopic aquatic life from Christian Gottfried Ehrenberg (1795 - 1876) the first scientist to systematically study living and fossil microscopic, mostly single-celled organisms. / Mikroskopie-Zeichnungen aquatischen Lebens von Christian Gottfried Ehrenberg (1795 - 1876), dem ersten Wissenschaftler der systematisch mit Hilfe von Mikroskopen lebende und fossile Einzeller erforschte. Ehrenberg Collection (CC-BY-SA), Museum für Naturkunde, Berlin.
+Mastigocerca Peitschenschwanz. Illustrations of microscopic aquatic life from Christian Gottfried Ehrenberg (1795 - 1876) the first scientist to systematically study living and fossil microscopic, mostly single-celled organisms. / Mikroskopie-Zeichnungen aquatischen Lebens von Christian Gottfried Ehrenberg (1795 - 1876), dem ersten Wissenschaftler der systematisch mit Hilfe von Mikroskopen lebende und fossile Einzeller erforschte. Ehrenberg Collection (CC-BY-SA), Museum für Naturkunde, Berlin.<br/><br/>
 
 
-<h2>What to expect:</h2><br/><br/>
+<h2>What to expect</h2><br/>
 
 <strong>21-22nd October | Kick-off | Hochschule für Technik und Wirtschaft (HTW)</strong><br/>
 Representatives of cultural institutions will pitch their datasets, explain context and technical specifications, and answer questions. After that we open the stage for project pitches. Whether you pitch your own idea or join another’s team you’ll have the rest of the weekend to get together, ideate, ask more questions of the cultural institutions, plan and get hacking. We’ll make sure you are well looked after with coffee, tasty food, and some mini-workshop offers on the side to upskill and entertain you.
@@ -73,5 +73,5 @@ At the end of the sprint we’ll invite all teams to present their projects befo
  
 If you’re interested to take part in this year’s Coding da VInci - great! If you’d like to learn more about the project – how the event works, which new datasets we can look forward to this year, hear from participants of previous editions about their experience – come along to our information event, 21st September. Participant registration will open on 25th September. Sign up to our mailing list for a registration reminder in your inbox.
  
-<strong>*** Please be aware, Coding da Vinci events will be held primarily in German, including moderation and dataset presentations. However, English-speaking participants are very welcome and we are happy to hear pitches and presentations in English where appropriate. ***</strong>
+<strong>Please be aware, Coding da Vinci events will be held primarily in German, including moderation and dataset presentations. However, English-speaking participants are very welcome and we are happy to hear pitches and presentations in English where appropriate.</strong>
 
