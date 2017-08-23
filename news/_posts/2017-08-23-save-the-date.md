@@ -8,7 +8,7 @@ title:  "Save-the-date: Coding da Vinci Berlin 2017"
 image:
     src: /img/news/2017/08-23-1.jpg
     alt: 'Fotos aus dem Stadtarchiv Speyer'
-    license: '<a href="https://www.google.com/url?q=https://www.flickr.com/photos/132154516@N03/19664013251/in/photostream/&sa=D&ust=1503145411552000&usg=AFQjCNHJaovTd_-pYaZvokeEsIHD2-M85w">Bild</a>. Fotografien aus dem Ersten und vor allem Zweiten Weltkrieg aus dem Nachlass des Archivaren und Fotografen Karl Lutz. / Collection of photographs dated around the 1st and 2nd World Wars from archivist and photographer Karl Lutz. [Stadtarchiv Speyer](http://www.speyer.de/sv_speyer/de/Bildung/Abteilung%20Kulturelles%20Erbe%20-%20Stadtarchiv/) ([CC-BY-SA](http://creativecommons.org/licenses/by-sa/3.0/))'
+    license: '<a href="https://www.google.com/url?q=https://www.flickr.com/photos/132154516@N03/19664013251/in/photostream/&sa=D&ust=1503145411552000&usg=AFQjCNHJaovTd_-pYaZvokeEsIHD2-M85w">Bild</a>. Fotografien aus dem Ersten und vor allem Zweiten Weltkrieg aus dem Nachlass des Archivaren und Fotografen Karl Lutz. / Collection of photographs dated around the 1st and 2nd World Wars from archivist and photographer Karl Lutz. <a href="http://www.speyer.de/sv_speyer/de/Bildung/Abteilung%20Kulturelles%20Erbe%20-%20Stadtarchiv/">Stadtarchiv Speyer</a> (<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
 tags:
     - Events
     - Coding da Vinci Berlin
@@ -57,7 +57,7 @@ Right now we are working closely with the institutions’ curators and data mana
 
 <div class="container-fluid" style="margin-top: 3em;">
 <img class="img-responsive center-block image-content" src="/img/news/2017/08-23-2.jpg" />
-<p class="image-caption"> [Mastigocerca Peitschenschwanz](http://coll.mfn-berlin.de/u/MB_ED_2646.html). Illustrations of microscopic aquatic life from Christian Gottfried Ehrenberg (1795 - 1876) the first scientist to systematically study living and fossil microscopic, mostly single-celled organisms. / Mikroskopie-Zeichnungen aquatischen Lebens von Christian Gottfried Ehrenberg (1795 - 1876), dem ersten Wissenschaftler der systematisch mit Hilfe von Mikroskopen lebende und fossile Einzeller erforschte. [Ehrenberg Collection](https://www.naturkundemuseum.berlin/de/einblicke/sammlungen/mikropalaeontologie) ([CC-BY-SA](http://creativecommons.org/licenses/by-sa/3.0/)), Museum für Naturkunde, Berlin.</p>
+<p class="image-caption"> <a href="http://coll.mfn-berlin.de/u/MB_ED_2646.html">Mastigocerca Peitschenschwanz</a>. Illustrations of microscopic aquatic life from Christian Gottfried Ehrenberg (1795 - 1876) the first scientist to systematically study living and fossil microscopic, mostly single-celled organisms. / Mikroskopie-Zeichnungen aquatischen Lebens von Christian Gottfried Ehrenberg (1795 - 1876), dem ersten Wissenschaftler der systematisch mit Hilfe von Mikroskopen lebende und fossile Einzeller erforschte. <a href="https://www.naturkundemuseum.berlin/de/einblicke/sammlungen/mikropalaeontologie">Ehrenberg Collection</a> (<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>), Museum für Naturkunde, Berlin.</p>
 </div>
 
 <h2>What to expect</h2><br/>
