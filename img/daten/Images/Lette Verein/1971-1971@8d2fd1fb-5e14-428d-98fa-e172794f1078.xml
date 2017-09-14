@@ -1,0 +1,241 @@
+<lido:lidoWrap xmlns:lido="http://www.lido-schema.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+  <lido:lido>
+    <lido:lidoRecID lido:type="local" lido:source="info:isil/DE-2380">DE-2380/1971</lido:lidoRecID>
+    <lido:descriptiveMetadata xml:lang="de">
+      <lido:objectClassificationWrap>
+        <lido:objectWorkTypeWrap>
+          <lido:objectWorkType>
+            <lido:conceptID lido:type="URI">http://vocab.getty.edu/aat/300015578</lido:conceptID>
+            <lido:term>Abbildung</lido:term>
+          </lido:objectWorkType>
+        </lido:objectWorkTypeWrap>
+      </lido:objectClassificationWrap>
+      <lido:objectIdentificationWrap>
+        <lido:titleWrap>
+          <lido:titleSet>
+            <lido:appellationValue lido:pref="preferred" xml:lang="de">Die Metallographin</lido:appellationValue>
+          </lido:titleSet>
+        </lido:titleWrap>
+        <lido:repositoryWrap>
+          <lido:repositorySet lido:type="current">
+            <lido:repositoryName>
+              <lido:legalBodyID lido:type="URI" lido:source="ISIL (ISO 15511)">info:isil/DE-2380</lido:legalBodyID>
+              <lido:legalBodyName>
+                <lido:appellationValue>Archiv des Lette-Vereins Stiftung des öffentlichen Rechts</lido:appellationValue>
+              </lido:legalBodyName>
+              <lido:legalBodyWeblink>http://www.letteverein.berlin/ueber-uns/lette-archiv/</lido:legalBodyWeblink>
+            </lido:repositoryName>
+            <lido:workID lido:type="Inventarnummer">LV_Archiv_B_12_F2_31</lido:workID>
+            <lido:repositoryLocation>
+              <lido:namePlaceSet>
+                <lido:appellationValue>Berlin</lido:appellationValue>
+              </lido:namePlaceSet>
+            </lido:repositoryLocation>
+          </lido:repositorySet>
+        </lido:repositoryWrap>
+        <lido:objectDescriptionWrap>
+          <lido:objectDescriptionSet>
+            <lido:descriptiveNoteValue>Bildlegende: Die Metallographin erzeugt auf einer Fläche des zu prüfenden Metallstücks mit Hilfe der elektrisch betriebenen Schleifmaschine Hochpolitur (linkes Bild), um alsdann durch Aetzung auf der polierten Fläche mikroskopisch kleine Strukturformen zu erhalten und diese durch den mikroskopischen Apparat bildlich festzulegen (rechtes Bild). - hier: rechtes Bild. - Bildquelle: Der Lette-Verein und seine Unterrichtsanstalten / redigiert im Auftrage der Vorsitzenden des Lette-Vereins von D. Schultz-Hencke. Aufnahmen und Klischees ausgeführt in der Photographischen Lehranstalt des Lette-Vereins. Vorwort Richard Stettiner. - Berlin : Lette-Verein, 1912. - 10 S., 35 Bildtafeln, unpaginiert, 24,5 x 20,5 cm</lido:descriptiveNoteValue>
+          </lido:objectDescriptionSet>
+        </lido:objectDescriptionWrap>
+      </lido:objectIdentificationWrap>
+      <lido:eventWrap>
+        <lido:eventSet>
+          <lido:event>
+            <lido:eventType>
+              <lido:conceptID lido:type="URI">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+              <lido:term>Herstellung</lido:term>
+            </lido:eventType>
+            <lido:eventActor>
+              <lido:displayActorInRole>Richard Stettiner (1865-1927) (Verfasser)</lido:displayActorInRole>
+              <lido:actorInRole>
+                <lido:actor lido:type="Person">
+                  <lido:actorID lido:type="URI">http://d-nb.info/gnd/117236012</lido:actorID>
+                  <lido:nameActorSet>
+                    <lido:appellationValue>Stettiner, Richard</lido:appellationValue>
+                  </lido:nameActorSet>
+                  <lido:vitalDatesActor>
+                    <lido:earliestDate>1865</lido:earliestDate>
+                    <lido:latestDate>1927</lido:latestDate>
+                  </lido:vitalDatesActor>
+                </lido:actor>
+                <lido:roleActor>
+                  <lido:conceptID lido:type="URI">http://vocab.getty.edu/aat/300025492</lido:conceptID>
+                  <lido:term>Verfasser</lido:term>
+                </lido:roleActor>
+              </lido:actorInRole>
+            </lido:eventActor>
+            <lido:eventActor>
+              <lido:displayActorInRole>Unbekannt (Fotografin)</lido:displayActorInRole>
+              <lido:actorInRole>
+                <lido:actor lido:type="Person">
+                  <lido:nameActorSet>
+                    <lido:appellationValue>Unbekannt</lido:appellationValue>
+                  </lido:nameActorSet>
+                </lido:actor>
+                <lido:roleActor>
+                  <lido:conceptID lido:type="URI">http://vocab.getty.edu/aat/300025687</lido:conceptID>
+                  <lido:term>Fotografin</lido:term>
+                </lido:roleActor>
+              </lido:actorInRole>
+            </lido:eventActor>
+            <lido:eventActor>
+              <lido:displayActorInRole>Dankmar Carl Sigbert Schultz-Hencke (1857-1913) (Redaktion)</lido:displayActorInRole>
+              <lido:actorInRole>
+                <lido:actor lido:type="Person">
+                  <lido:actorID lido:type="URI">http://d-nb.info/gnd/127969446</lido:actorID>
+                  <lido:nameActorSet>
+                    <lido:appellationValue>Schultz-Hencke, Dankmar Carl Sigbert</lido:appellationValue>
+                  </lido:nameActorSet>
+                  <lido:vitalDatesActor>
+                    <lido:earliestDate>1857</lido:earliestDate>
+                    <lido:latestDate>1913</lido:latestDate>
+                  </lido:vitalDatesActor>
+                </lido:actor>
+                <lido:roleActor>
+                  <lido:conceptID lido:type="URI">http://vocab.getty.edu/aat/300026004</lido:conceptID>
+                  <lido:term>Redaktion</lido:term>
+                </lido:roleActor>
+              </lido:actorInRole>
+            </lido:eventActor>
+            <lido:eventDate>
+              <lido:displayDate>vor 1912</lido:displayDate>
+            </lido:eventDate>
+            <lido:eventMaterialsTech>
+              <lido:displayMaterialsTech>Papier, gedruckt, auf Karton montiert / Autotypie</lido:displayMaterialsTech>
+              <lido:materialsTech>
+                <lido:termMaterialsTech lido:type="Material">
+                  <lido:conceptID lido:type="URI">http://vocab.getty.edu/aat/300014109</lido:conceptID>
+                  <lido:term>Papier, gedruckt, auf Karton montiert</lido:term>
+                </lido:termMaterialsTech>
+                <lido:termMaterialsTech lido:type="Technik">
+                  <lido:conceptID lido:type="URI">http://vocab.getty.edu/aat/300127138</lido:conceptID>
+                  <lido:term>Autotypie</lido:term>
+                </lido:termMaterialsTech>
+              </lido:materialsTech>
+            </lido:eventMaterialsTech>
+          </lido:event>
+        </lido:eventSet>
+      </lido:eventWrap>
+      <lido:objectRelationWrap>
+        <lido:subjectWrap>
+          <lido:subjectSet>
+            <lido:displaySubject>Lette-Verein</lido:displaySubject>
+          </lido:subjectSet>
+          <lido:subjectSet>
+            <lido:displaySubject>Metallographie</lido:displaySubject>
+          </lido:subjectSet>
+          <lido:subjectSet>
+            <lido:displaySubject>Frauenausbildung</lido:displaySubject>
+          </lido:subjectSet>
+          <lido:subjectSet>
+            <lido:displaySubject>Frauenerwerbstätigkeit</lido:displaySubject>
+          </lido:subjectSet>
+          <lido:subjectSet>
+            <lido:displaySubject>Mikrophotographie</lido:displaySubject>
+          </lido:subjectSet>
+          <lido:subjectSet>
+            <lido:displaySubject>Metallographin</lido:displaySubject>
+          </lido:subjectSet>
+          <lido:subjectSet>
+            <lido:displaySubject>Frauenschule</lido:displaySubject>
+          </lido:subjectSet>
+          <lido:subjectSet>
+            <lido:displaySubject>Photographische Lehranstalt</lido:displaySubject>
+          </lido:subjectSet>
+          <lido:subjectSet>
+            <lido:subject>
+              <lido:subjectActor>
+                <lido:displayActor>Lette-Verein, Berlin (1866-1944)</lido:displayActor>
+                <lido:actor lido:type="Organisation">
+                  <lido:actorID lido:type="URI">http://d-nb.info/gnd/1087162432</lido:actorID>
+                  <lido:nameActorSet>
+                    <lido:appellationValue>Lette-Verein, Berlin</lido:appellationValue>
+                  </lido:nameActorSet>
+                  <lido:vitalDatesActor>
+                    <lido:earliestDate>1866</lido:earliestDate>
+                    <lido:latestDate>1944</lido:latestDate>
+                  </lido:vitalDatesActor>
+                </lido:actor>
+              </lido:subjectActor>
+            </lido:subject>
+          </lido:subjectSet>
+          <lido:subjectSet>
+            <lido:subject>
+              <lido:subjectPlace>
+                <lido:displayPlace>Berlin; Viktoria-Luise-Platz 6</lido:displayPlace>
+                <lido:place>
+                  <lido:namePlaceSet>
+                    <lido:appellationValue>Viktoria-Luise-Platz 6</lido:appellationValue>
+                  </lido:namePlaceSet>
+                  <lido:partOfPlace>
+                    <lido:namePlaceSet>
+                      <lido:appellationValue>Berlin</lido:appellationValue>
+                    </lido:namePlaceSet>
+                  </lido:partOfPlace>
+                </lido:place>
+              </lido:subjectPlace>
+            </lido:subject>
+          </lido:subjectSet>
+        </lido:subjectWrap>
+      </lido:objectRelationWrap>
+    </lido:descriptiveMetadata>
+    <lido:administrativeMetadata xml:lang="de">
+      <lido:rightsWorkWrap>
+        <lido:rightsWorkSet>
+          <lido:rightsType>
+            <lido:term>Nutzungsrechte</lido:term>
+          </lido:rightsType>
+          <lido:rightsHolder>
+            <lido:legalBodyName>
+              <lido:appellationValue>Archiv des Lette-Vereins Stiftung des öffentlichen Rechts</lido:appellationValue>
+            </lido:legalBodyName>
+          </lido:rightsHolder>
+        </lido:rightsWorkSet>
+      </lido:rightsWorkWrap>
+      <lido:recordWrap>
+        <lido:recordID lido:type="local">1971</lido:recordID>
+        <lido:recordType>
+          <lido:term>Serie</lido:term>
+        </lido:recordType>
+        <lido:recordSource>
+          <lido:legalBodyName>
+            <lido:appellationValue>Archiv des Lette-Vereins Stiftung des öffentlichen Rechts</lido:appellationValue>
+          </lido:legalBodyName>
+          <lido:legalBodyWeblink>http://www.letteverein.berlin/ueber-uns/lette-archiv/</lido:legalBodyWeblink>
+        </lido:recordSource>
+        <lido:recordRights>
+          <lido:rightsType>
+            <lido:conceptID lido:type="URI" lido:source="http://creativecommons.org">http://creativecommons.org/publicdomain/zero/1.0/</lido:conceptID>
+            <lido:term>CC0 1.0 Public Domain Dedication</lido:term>
+          </lido:rightsType>
+        </lido:recordRights>
+        <lido:recordInfoSet>
+          <lido:recordInfoLink lido:formatResource="html">http://easydb.lette-verein.de/detail/1971</lido:recordInfoLink>
+        </lido:recordInfoSet>
+      </lido:recordWrap>
+      <lido:resourceWrap>
+        <lido:resourceSet>
+          <lido:resourceID lido:type="local">LV_Archiv_B_12_F2_31</lido:resourceID>
+          <lido:resourceRepresentation lido:type="image_master">
+            <lido:linkResource>http://easydb.lette-verein.de/eas/partitions/2/0/0/901/ba5435b2484012bf8e4d46df389494df364010cd/image/png/LV_Archiv_B_12_F2_31-huge.png</lido:linkResource>
+          </lido:resourceRepresentation>
+          <lido:resourceType>
+            <lido:term>Digitalfoto</lido:term>
+          </lido:resourceType>
+          <lido:rightsResource>
+            <lido:rightsType>
+              <lido:conceptID lido:type="URI">https://creativecommons.org/publicdomain/mark/1.0/</lido:conceptID>
+              <lido:term>Public Domain Mark 1.0</lido:term>
+            </lido:rightsType>
+            <lido:rightsHolder>
+              <lido:legalBodyName>
+                <lido:appellationValue>Archiv des Lette-Vereins Stiftung des öffentlichen Rechts</lido:appellationValue>
+              </lido:legalBodyName>
+            </lido:rightsHolder>
+          </lido:rightsResource>
+        </lido:resourceSet>
+      </lido:resourceWrap>
+    </lido:administrativeMetadata>
+  </lido:lido>
+</lido:lidoWrap>
