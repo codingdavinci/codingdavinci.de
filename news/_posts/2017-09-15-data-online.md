@@ -8,7 +8,7 @@ title:  "Die neuen Datensets für 2017 sind online!"
 image:
     src: /img/daten/berl-gal-zille.jpg
     alt: 'Markt auf dem Friedrich Karl Platz, Sommer 1898'
-    license: 'Markt auf dem Friedrich Karl Platz, Sommer 1898. [Heinrich Zille Konvolut](http://sammlung-online.berlinischegalerie.de/eMuseumPlus?service=ExternalSearch&module=collection&fieldValue=[Obj_SpareSField01_S|Heinrich%20Zille-Konvolut]), (CC0) Berlinische Galerie.'
+    license: 'Markt auf dem Friedrich Karl Platz, Sommer 1898. <a href="http://sammlung-online.berlinischegalerie.de/eMuseumPlus?service=ExternalSearch&module=collection&fieldValue=[Obj_SpareSField01_S|Heinrich%20Zille-Konvolut]">Heinrich-Zille-Konvolut</a>, (CC0) Berlinische Galerie.'
 tags:
     - Events
     - Coding da Vinci Berlin
