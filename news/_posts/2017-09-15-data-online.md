@@ -16,7 +16,7 @@ type: post
 ---
  
 
-Coding da Vinci Berlin 2017 rückt näher und der erste wichtige Punkt auf unserer To-Do-Liste und der To-Do-Liste der dieses Jahr teilnehmenden Kulturinstitutionen ist erledigt: Alle neuen Datensets sind eingereicht, hochgeladen und stehen nun auf unserem [Datenportal](https://codingdavinci.de/daten/) unter freien Lizenzen zur Verfügung. Vielen Dank an alle Institutionen für den Enthusiasmus und die Auswahl und Aufbereitung der Daten! 
+Coding da Vinci Berlin 2017 rückt näher und der erste wichtige Punkt auf unserer To-Do-Liste und der To-Do-Liste der dieses Jahr teilnehmenden Kulturinstitutionen ist erledigt: Alle neuen Datensets sind eingereicht, hochgeladen und stehen nun auf unserem [Datenportal](https://codingdavinci.de/daten/) (Datenauswahl: Jahr 2017) unter freien Lizenzen zur Verfügung. Vielen Dank an alle Institutionen für den Enthusiasmus und die Auswahl und Aufbereitung der Daten! 
 
 Insgesamt sind es 30 neue Datensets von 19 Institutionen. 17 davon haben ihren Sitz in Berlin oder Brandenburg, 2 davon sitzen anderswo in Deutschland. Praktisch die Hälfte der Datensets legt dieses Jahr einen Fokus auf Berlin. Diese Datensets reichen von historischen Stadtansichten (Berlinische Galerie) über Heinrich Zille-Zeichnungen (Stadtmuseum Berlin) und -Fotografien (Berlinische Galerie), Mauer-Fotos (Stiftung Berliner Mauer), Bildern und Wirkorten der „Kreuzberger Boheme“ der 50er und 60er Jahre (FHXB Friedrichshain-Kreuzberg Museum) bis zu 700 Jahre alten Münzfunden zur Handelsgeschichte Berlins (Landesdenkmalamt Berlin). Sie alle geben die Gelegenheit, tief in die Geschichte Berlins einzusteigen, Beziehungen darin herzustellen und mit digitalen Werkzeugen den Zugang zur Stadt neu aufzuschließen. 
 
