@@ -23,7 +23,12 @@
 			{{ post.content | strip_html | truncatewords:30}}<br>
 		</div>
 		<div class="post-more">
-			<a href="{{ post.url }}">Weiterlesen</a><br><br>
+		 {% if post.exturl %}
+			<a target=_blank href="{{post.exturl}}">weiterlesen</a><br><br>
+		 {% else %}
+			<a href="{{ post.url }}">weiterlesen</a><br><br>
+                 {% endif %}
 		</div>
+
 	</div>
 </div>
