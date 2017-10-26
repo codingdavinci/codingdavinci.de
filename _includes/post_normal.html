@@ -29,7 +29,12 @@
 		</div>
 
 		<div class="post-more">
+		 {% if post.exturl %}
+			<a target=_blank href="{{post.exturl}}">weiterlesen</a><br><br>
+		 {% else %}
 			<a href="{{ post.url }}">weiterlesen</a><br><br>
+                 {% endif %}
+
 		</div>
 	</div>
 </div>
