@@ -1,7 +1,15 @@
 ---
 ---
-.logo-container-berlin {
-background: url('/img/berlin/header_logo_2017.png') top center no-repeat;
+//Colors
+$cdvn-red: #D8413E;
+$cdvn-dark-red: #B02F2C;
+
+.cdvn-blue {
+  color: $cdvn-red;
+}
+
+.logo-container-ost {
+background: url('/img/ost/header_logo_2018.png') top center no-repeat;
   width: auto;
   padding-top: 180px;
   padding-bottom: 14px; 
