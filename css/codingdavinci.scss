@@ -329,6 +329,11 @@ a.scroll-hint:hover {
 	.logo-container-events-nord {
 	  @extend .logo-container-small;
 	  background: url('/img/nord/header_logo_nord_320.png') top center no-repeat;
+  }
+  
+	.logo-container-events-ost {
+	  @extend .logo-container-small;
+	  background: url('/img/ost/header_logo_ost_320.png') top center no-repeat;
 	}
 
 	.header-container {
@@ -391,6 +396,9 @@ a.scroll-hint:hover {
     }
     .logo-container-events-berlin {
 	padding-top: 125px;
+    }
+    .logo-container-events-ost {
+  padding-top: 125px;
     }
 }
 
@@ -1645,6 +1653,9 @@ height: 100%;
     }
     .logo-container-events-nord {
 	  padding-top: 38%;
+    }
+    .logo-container-events-ost {
+      padding-top: 38%;
     }
 }
 
