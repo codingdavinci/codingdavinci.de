@@ -8,7 +8,7 @@ $cdvn-dark-red: #B02F2C;
   color: $cdvn-red;
 }
 
-.logo-container-ost {
+.logo-container {
 background: url('/img/ost/header_logo_2018.png') top center no-repeat;
   width: auto;
   padding-top: 180px;
@@ -21,4 +21,12 @@ background: url('/img/ost/header_logo_2018.png') top center no-repeat;
   font-family: Archive;
 }
 
-
+.logo-container-events-ost {
+  @extend .logo-container;
+  background: url('/img/ost/header_logo_2018.png') top center no-repeat;
+  background-size: 100% auto;
+  font-size: 1.5em;
+  font-family: Archive;
+  z-index: 99;
+  width: auto;
+}
