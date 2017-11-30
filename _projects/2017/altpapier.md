@@ -4,9 +4,9 @@ layout: project
 isFirst: true
 year: 2017
 name: "Altpapier"
-tile: "/img/projekte-tiles/2017/xxx.png"
-tile_active: "/img/projekte-tiles/2017/xxx-active.png"
-image: "/img/projekte/xxx.jpg"
+tile: "/img/projekte-tiles/2017/altpapier.png"
+tile_active: "/img/projekte-tiles/2017/altpapier-active.png"
+image: "/img/projekte/altpapier.png"
 links:
   - 
     class: "website"

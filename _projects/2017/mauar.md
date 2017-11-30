@@ -6,7 +6,7 @@ year: 2017
 name: "Berliner MauAr"
 tile: "/img/projekte-tiles/2017/mauar.png"
 tile_active: "/img/projekte-tiles/2017/mauar-active.png"
-image: "/img/projekte/2017/mauar.jpg"
+image: "/img/projekte/mauar.png"
 links:
   -
     class: "website"

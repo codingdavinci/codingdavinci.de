@@ -6,7 +6,7 @@ year: 2017
 name: "Berliner Schlagzeilen"
 tile: "/img/projekte-tiles/2017/ber_schlagzeilen.png"
 tile_active: "/img/projekte-tiles/2017/ber_schlagzeilen-active.png"
-image: "/img/projekte/2017/ber_schlagzeilen.jpg"
+image: "/img/projekte/ber_schlagzeilen.png"
 links:
   -
     class: "twitter"
