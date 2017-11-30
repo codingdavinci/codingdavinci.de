@@ -3,7 +3,7 @@ identifier: 64
 layout: project
 year: 2017
 isFirst: false
-"name": "Haxorpode Collective: “Bug-cruncher”, “Bug-feed”, “wOgus”"
+"name": "Haxorpoda Collective: “Bug-cruncher”, “Bug-feed”, “wOgus”"
 tile: "/img/projekte-tiles/2017/haxorpode.png"
 tile_active: "/img/projekte-tiles/2017/haxorpode-active.png"
 image: "/img/projekte/haxorpode.jpg"
@@ -35,5 +35,5 @@ Aus der ursprünglichen Idee die Insekten des Naturkunde Museums zu sortieren, s
  
 „wOgus“: Mit der Anwendung wOgus kann der Nutzer einen eigenen, farblich sortierten Insektenkasten designen, modifizieren und als hochauflösendes Poster ausdrucken. Der Nutzer entscheidet ob seine Insektensammlung vielfältig und abwechslungsreich oder ganz spezielle Farben, Formen und Insektenarten haben soll. Der persönliche Insektenkasten füllt sich automatisch und ist zu jeder Zeit nach Farbe sortiert.
  
-„Bug-Feed“ twittert jeden Tag ein neues Insekt und verlinkt dabei sowohl die Originaldaten als auch die anderen Projekte des Haxorpode-Kollektivs. 
+„Bug-Feed“ twittert jeden Tag ein neues Insekt und verlinkt dabei sowohl die Originaldaten als auch die anderen Projekte des Haxorpoda-Kollektivs. 
 
