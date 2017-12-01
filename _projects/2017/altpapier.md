@@ -39,11 +39,16 @@ data:
   - "Staatsbibliothek zu Berlin – Preußischer Kulturbesitz: Berliner Volks-Zeitung (BVZ)"
 team:
   -
+    name: "Team"
+    contact:
+     mail: "mailto:kontakt@altpapier-app.de"
+  -
     name: "Maria Becker"
     contact:
-     mail: "mailto:maria@lilax-solutions.de"
+     mail: "mailto:altpapier@mariabecker.de" 
      twitter: “@meckerbecker”
      github: “https://github.com/mariabecker”
+
   -
     name: "Maike Orlikowski"
     contact:

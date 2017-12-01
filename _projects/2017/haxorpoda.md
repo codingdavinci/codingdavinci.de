@@ -4,9 +4,9 @@ layout: project
 year: 2017
 isFirst: false
 "name": "Haxorpoda Collective: “Bug-cruncher”, “Bug-feed”, “wOgus”"
-tile: "/img/projekte-tiles/2017/haxorpode.png"
-tile_active: "/img/projekte-tiles/2017/haxorpode-active.png"
-image: "/img/projekte/haxorpode.jpg"
+tile: "/img/projekte-tiles/2017/haxorpoda.png"
+tile_active: "/img/projekte-tiles/2017/haxorpoda-active.png"
+image: "/img/projekte/haxorpoda.jpg"
 links:
   -
     class: "github"
