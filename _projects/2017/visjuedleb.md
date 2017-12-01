@@ -40,7 +40,8 @@ team:
 
 Das Projekt “Visualisierung jüdischen Lebens” erstellte eine Website, welche die soziale Struktur der jüdischen Bevölkerung Berlins und die Veränderungen derselben durch die Deportationen visualisiert. So werden die Ausmaße hinter den Zahlen der Transportlisten anschaulicher und verständlicher.
 
-Dabei wurden die Informationen des jüdischen Adressbuches von 1931, den Minderheitencensus von 1939, Teile der Karteikarten der Reichsvereinigung der Juden und das Gedenkbuch vom Bundesarchiv miteinander kombiniert und statistisch ausgewertet sowie einige Aspekte davon auf einer Berlin Karte visualisiert. 
+Dabei wurden die Daten und Informationen des jüdischen Adressbuches von 1931 (ZLB), der Minderheitencensus von 1939, Teile der Karteikarten der Reichsvereinigung der Juden (ITS) und das Gedenkbuch vom Bundesarchiv miteinander kombiniert und statistisch ausgewertet sowie einige Aspekte davon auf einer Berlin Karte visualisiert. 
 
-Über 100 000 Einträge wurden ausgewertet und teilweise auch interaktiv gestaltet.
+Über 100 000 Einträge wurden bearbeitet und teils interaktiv aufbereitet.
+
 
