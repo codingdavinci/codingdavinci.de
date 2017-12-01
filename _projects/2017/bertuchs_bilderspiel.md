@@ -33,11 +33,11 @@ team:
   -
     name: "Norman Mahendra"
     contact:
-     github: “https://github.com/normandra”
+     github: https://github.com/normandra
   -
     name: "Niko Joop"
     contact:
-     twitter: “https://twitter.com/nitodoodles”
+     twitter: https://twitter.com/nitodoodles
   -
     name: "Jakob J. Retman"
     contact:
