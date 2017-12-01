@@ -46,5 +46,15 @@ Zu den Vorlesungen existiert kein von Humboldt autorisiertes Skript, jedoch gibt
 
 1. Die Scans und Umschriften der Nachschriften können mit einem Tool dargestellt werden, welches vergleichendes Lesen ermöglicht. So können die teils starken inhaltlichen Abweichungen in den Nachschriften besser erfasst werden und Rückschlüsse über die Lebensvielfalt wissenschaftlich interessierter Berliner der 1820er geben. 
  
-2. Wir laden die Besucher der Seite ein, sich mit einzelnen Themen der Vorlesung spielerisch auseinander zu setzen und nachzuvollziehen, wie das damalige Wissen entstand und vermittelt wurde im Kontrast zu den digitalen Mitteln, die uns heute dafür zur Verfügung stehen. Um die Fantasie der Leser anzuregen, haben wir exemplarisch die Entstehung der Insel Sabrina auf den Azoren aufgearbeitet, die Humboldt in der vierten öffentlichen Vorlesung 
+2. Wir laden die Besucher der Seite ein, sich mit einzelnen Themen der Vorlesung spielerisch auseinander zu setzen und nachzuvollziehen, wie das damalige Wissen entstand und vermittelt wurde im Kontrast zu den digitalen Mitteln, die uns heute dafür zur Verfügung stehen. Um die Fantasie der Leser anzuregen, haben wir exemplarisch die Entstehung der Insel Sabrina auf den Azoren aufgearbeitet, die Humboldt in der vierten öffentlichen Vorlesung thematisiert. Dazu haben wir: 
+
+    a) Aus den unterschiedlichen Nachschriften einen fiktiven Dialog erarbeitet, der als Hörspiel (Audio-File) auf unserer Seite als liegt. 
+
+    b) Die Entstehung der Vulkaninsel in einen größeren Kontext eingeordnet und die
+Ergebnisse mit dem Stand der heutigen Forschung und aktuellen politischen Prozessen gegenübergestellt. 
+
+    c) Einen Wikipedia-Eintrag zur Insel erstellt und mit dem deutschen Textarchiv und unserer Website verlinkt: https://de.wikipedia.org/wiki/Sabrina_(Azoren)
+
+So möchten wir die Community einladen, sich weiter mit den spannenden Inhalten der Kosmos Vorlesungen auseinanderzusetzen.
+
 
