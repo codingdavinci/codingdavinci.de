@@ -14,7 +14,7 @@ links:
     text: "Webseite"
   -
     class: "website"
-    link: "http://mauar.de/"
+    link: "https://hackdash.org/projects/59ec668287d0970a0e0a3ca4"
     text: "Hackdash Projekt-Seite"
   -
     class: "github"
@@ -28,13 +28,12 @@ team:
   -
     name: "Peter Kolski"
     contact:
-     mail: "mailto:max@muster.de"
-     twitter: “https://twitter.com/bildpeter”
-     github: “https://github.com/bildpeter”
+      twitter: “https://twitter.com/bildpeter”
+      github: “https://github.com/bildpeter”
   -
     name: "Jörg Reichert"
     contact:
-     github: “https://github.com/joergreichert”
+     "github": “https://github.com/joergreichert”
   -
     name: "Gottfried von Recum"
     contact:
