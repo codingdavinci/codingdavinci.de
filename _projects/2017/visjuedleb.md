@@ -12,7 +12,7 @@ image: "/img/projekte/visjuedleb.png"
 links:
   -
     class: "website"
-    link: "http://jewishberlin.urbanhistory.de/"
+    link: "https://urbanhistory.de/"
     text: "Webseite"
   -
     class: "github"

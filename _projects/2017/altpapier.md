@@ -45,7 +45,7 @@ team:
   -
     name: "Maria Becker"
     contact:
-     mail: "mailto:altpapier@mariabecker.de" 
+     mail: "mailto:altpapier@mariabecker.de"
      twitter: “@meckerbecker”
      github: “https://github.com/mariabecker”
 
