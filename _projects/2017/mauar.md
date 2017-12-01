@@ -28,6 +28,7 @@ team:
   -
     name: "Peter Kolski"
     contact:
+      mail: "mailto:peter@bildpeter.de"
       twitter: https://twitter.com/bildpeter
       github: https://github.com/bildpeter
   -
