@@ -5,7 +5,7 @@ isFirst: false
 year: 2017
 name: "Skelex"
 tile: "/img/projekte-tiles/2017/skelex.png"
-tile_active: "/img/projekte-tiles/2017/skelex.png"
+tile_active: "/img/projekte-tiles/2017/skelex-active.png"
 image: "/img/projekte/skelex.png"
 links:
   -
