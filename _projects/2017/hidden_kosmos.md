@@ -53,7 +53,7 @@ Zu den Vorlesungen existiert kein von Humboldt autorisiertes Skript, jedoch gibt
     b) Die Entstehung der Vulkaninsel in einen größeren Kontext eingeordnet und die
 Ergebnisse mit dem Stand der heutigen Forschung und aktuellen politischen Prozessen gegenübergestellt. 
 
-    c) Einen Wikipedia-Eintrag zur Insel erstellt und mit dem deutschen Textarchiv und unserer Website verlinkt: https://de.wikipedia.org/wiki/Sabrina_(Azoren)
+    c) Einen Wikipedia-Eintrag zur Insel erstellt und mit dem deutschen Textarchiv und unserer Website verlinkt: [https://de.wikipedia.org/wiki/Sabrina_(Azoren)](https://de.wikipedia.org/wiki/Sabrina_(Azoren))
 
 So möchten wir die Community einladen, sich weiter mit den spannenden Inhalten der Kosmos Vorlesungen auseinanderzusetzen.
 
