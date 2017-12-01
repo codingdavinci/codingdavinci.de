@@ -21,7 +21,7 @@ data:
   - <a href="https://digitalcollections.its-arolsen.org/">https://digitalcollections.its-arolsen.org</a>
   - <a href="http://www.bundesarchiv.de/">http://www.bundesarchiv.de</a>
   - <a href="http://www.holocaust.cz/">http://www.holocaust.cz</a>
-  - <a href="https://www.ushmm.org/online/">https://www.ushmm.org/online</a>
+  - <a href="https://www.ushmm.org/">https://www.ushmm.org</a>
   - <a href="http://www.yadvashem.org/">http://www.yadvashem.org</a>
   - <a href="http://e-kartoteka.net/index">http://e-kartoteka.net/index</a>
   - <a href="http://www.dokin.nl/Default">http://www.dokin.nl/Default</a>
