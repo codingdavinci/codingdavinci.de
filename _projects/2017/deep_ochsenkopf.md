@@ -26,15 +26,15 @@ links:
     text: "github (deep-ochsenkopf-generator)"
 data:
   - "Wasserzeichensammlung (UB Leipzig)"
-  - "Künstlerkreis Kreuzberger Boheme (FHXB Museum)
-  - “Pre-trained VGG19 on Imagenet"
+  - "Künstlerkreis Kreuzberger Boheme (FHXB Museum)"
+  - "Pre-trained VGG19 on Imagenet"
 team:
   -
     name: "Johannes Filter"
     contact:
      mail: "mailto:hi@jfilterde"
-     twitter: “https://twitter.com/fil_ter”
-     github: “https://github.com/jfilter”
+     twitter: https://twitter.com/fil_ter
+     github: https://github.com/jfilter
 
 
 ---
