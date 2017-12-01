@@ -46,8 +46,8 @@ team:
     name: "Maria Becker"
     contact:
      mail: "mailto:altpapier@mariabecker.de"
-     twitter: “@meckerbecker”
-     github: “https://github.com/mariabecker”
+     twitter: https://twitter.com/meckerbecker
+     github: https://github.com/mariabecker
 
   -
     name: "Maike Orlikowski"

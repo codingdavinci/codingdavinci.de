@@ -28,12 +28,12 @@ team:
   -
     name: "Peter Kolski"
     contact:
-      twitter: “https://twitter.com/bildpeter”
-      github: “https://github.com/bildpeter”
+      twitter: https://twitter.com/bildpeter
+      github: https://github.com/bildpeter
   -
     name: "Jörg Reichert"
     contact:
-     "github": “https://github.com/joergreichert”
+     "github": https://github.com/joergreichert
   -
     name: "Gottfried von Recum"
     contact:
