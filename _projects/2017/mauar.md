@@ -31,6 +31,10 @@ team:
       twitter: https://twitter.com/bildpeter
       github: https://github.com/bildpeter
   -
+    name: "Maimi von Mirbach"
+    contact:
+     mail: "mailto:mirbach@googlemail.com"
+  -
     name: "Jörg Reichert"
     contact:
      "github": https://github.com/joergreichert
