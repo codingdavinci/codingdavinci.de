@@ -20,7 +20,7 @@ team:
     name: "Anna Costalonga"
     contact:
      mail: "mailto:annamaria.costalonga@gmail.com"
-     twitter: “https://twitter.com/adsidera”
+     twitter: https://twitter.com/adsidera
   -
     name: "Carole Wai Hai"
     contact:
