@@ -14,7 +14,7 @@ links:
     text: "Webseite"
   -
     class: "github"
-    link: "github.com/normandra/thebook"
+    link: "https://github.com/normandra/thebook"
     text: "github"
 data:
 
