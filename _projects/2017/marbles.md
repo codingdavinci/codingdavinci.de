@@ -9,7 +9,6 @@ tile_active: "/img/projekte-tiles/2017/marbles-active.png"
 image: "/img/projekte/marbles.png"
 links:
   -
-    class: "website"
     text: "Telegram application --> Contacts --> Search --> @MarblesBot"
   -
     class: "github"
