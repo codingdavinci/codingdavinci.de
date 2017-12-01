@@ -33,12 +33,6 @@ team:
     contact:
      mail: "mailto:Joana.Bergsiek@student.hpi.uni-potsdam.de"
 ---
-Wie lassen sich Kulturen verknüpfen? Zwei schwedische und zwei dänische Sammlungen haben ihre Bilder freigegeben. Ein Anlass sie zusammen zu sehen.
+Mit Skelex können die Ausstellungsstücke aus dem Naturkundemuseum, beispielsweise Skelette von Schlangenköpfen, immersiv erlebt werden. Skelex ist eine Virtual-Reality-Anwendung, mit der die Nutzer/innen in eine virtuelle Umgebung eintauchen, die einer Museumsatmosphäre nachempfunden ist. Dort kann man die Museumsgegenstände nicht nur angucken, sondern auch greifen, rotieren und auseinanderziehen. Aber auch weitere Interaktionsmöglichkeiten wie das Vermessen von Knochen, ein CAT-Scan, Einblendung von Knochenbeschriftungen oder Animationen sind möglich. Man kann die Ausstellungsstücke also nicht nur ansehen, sondern darf sie anfassen und direkt damit experimentieren. 
 
-Auf der linken Seite ein Bild aus der schwedischen Sammlung. Auf der rechten ein Bild aus der dänischen. Links etwas historisches. Die Farben sind monochrom. Das Bild steht still. Rechts zeitgenößisches. Mehr Farben, ein Bild in Bewegung. In der Mitte die Wurzel des Wortes, welches in beiden Sprachen vorkommt. Das Wort verbindet.
-
-Die skandinavischen Sprachen sind nicht weit voneinander entfernt. Gleichklang, gleiche Schreibweise (die Wurzel) der Kategorien schaffen einfach Gemeinsames. Die Auswahl der Themen erfolgt über bereits getätigte Anmerkungen der Kuratoren der Museen. Sie werden miteinander verbunden. Keine Analyse aufgrund von oberflächlichen Bilddaten an sich wird durchgeführt. Lieber wird der Aufwand wiederverwendet, den die Sammlungen schon hereingesteckt haben. Den geschaffenen gemeinsamen Kategorien werden Bilder zugeordnet.
-
-Die zwei Bilder sind ein beliebiger Ausschnitt aus einer Sammlung unter einer gemeinsamen Überschrift. Aus den Datenquellen werden die Bilder neu heruntergeladen und gegenübergestellt. Jedes Mal wird ein Kulturvergleich geschaffen. Die verschiedenen Objekte können in einen größeren Zusammenhang gestellt werden. Der Wechsel zwischen den Themen, aber auch der Wechsel zwischen den Bildpaaren ist beliebig.
-
-Beliebigkeit. Ein Vorteil und ein Nachteil. Die treffenden Codierungen fassen werden angezeigt und fassen zusammen. Trotzdem ergibt sich bei der Navigation viel durch den Zufall. Languages and Places versucht das zu nutzen, um neue Ideen zu liefern, um über Grenzen hinweg zu inspirieren.
+Skelex kann beim Museumsbesuch mit der ganzen Familie genutzt werden. Aber als Education-App kann man sie auch zu Hause oder im Unterricht in der Schule verwenden.
