@@ -32,23 +32,23 @@ team:
     name: "Sabine Redlich"
     contact:
      mail: "mailto:sbn.redlich@gmail.com"
-     website: “www.sabine-redlich.de”
+     website: www.sabine-redlich.de
   -
     name: "Jemma Woolmore"
     contact:
      mail: "mailto:jemthemisfit@gmail.com"
-     website: “www.jemthemisfit.com”
+     website: www.jemthemisfit.com
   -
     name: "Lina Medina"
     contact:
      mail: "mailto:lima3092@gmail.com"
-     github: “https://github.com/lima3092”
+     github: https://github.com/lima3092
   -
     name: "Pablo David Rojas"
     contact:
      mail: "mailto:dadafoto@gmail.com"
-     linkedin: “https://www.linkedin.com/in/pablo-rojas”
-     website: “http://www.dadafoto.com/”
+     linkedin: https://www.linkedin.com/in/pablo-rojas
+     website: http://www.dadafoto.com/
 ---
 
 Das Spiel BOMBUS adressiert den dramatischen Rückgang unserer Insektenpopulation in den vergangenen Jahren. Hummeln (Bombus spp.) gehören dabei zu den betroffenen Arten. Dabei erfüllen Hummeln wichtige Funktionen in unseren Ökosystemen beispielsweise als Bestäuber von Kartoffeln, Äpfeln und Kirschen. Diese „ökologischen Dienstleistungen“ für unsere Wirtschaft werden aber mit dem Einsatz von Pestiziden, dem Rückgang der Pflanzenvielfalt und anderen menschengemachten Umweltveränderungen stark beeinträchtigt. 
