@@ -10,7 +10,7 @@ tile_active: "/img/projekte-tiles/2017/bombus-active.png"
 image: "/img/projekte/bombus.jpg"
 links:
   -
-    class: "website"
+    class: "film"
     link: "https://vimeo.com/244618045/518be1d17e"
     text: "Demo"
   -
@@ -37,7 +37,7 @@ team:
     name: "Jemma Woolmore"
     contact:
      mail: "mailto:jemthemisfit@gmail.com"
-     website: www.jemthemisfit.com
+     website: http://jemthemisfit.com/
   -
     name: "Lina Medina"
     contact:
@@ -47,7 +47,7 @@ team:
     name: "Pablo David Rojas"
     contact:
      mail: "mailto:dadafoto@gmail.com"
-     linkedin: https://www.linkedin.com/in/pablo-rojas
+     website: https://www.linkedin.com/in/pablo-rojas
      website: http://www.dadafoto.com/
 ---
 
