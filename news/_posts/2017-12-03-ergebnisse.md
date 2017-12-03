@@ -1,12 +1,12 @@
 ---
-date: '2017-11-10 09:00:00'
+date: '2017-12-03 09:00:00'
 author: Coding da Vinci Berlin Team
 layout: post
 published: true
 status: publish
 title:  "Ergebnisse Coding da Vinci Preisverleihung"
 image:
-    src: https://upload.wikimedia.org/wikipedia/commons/f/f5/CodingdaVinci2017_Preisverleihung.jpg
+    src: img/news/2017/Preisverleihung.jpg
     alt: 'Coding da Vinci Berlin 2017: Die Gewinner. Fotograf: Wladimir Raizberg CC-BY 4.0'
     license: 'Coding da Vinci Berlin 2017: Die Gewinner. Fotograf: Wladimir Raizberg CC-BY 4.0'
 tags:
