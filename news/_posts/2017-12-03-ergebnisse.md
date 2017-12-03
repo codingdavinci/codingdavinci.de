@@ -27,7 +27,7 @@ Die als **Teilnehmerin** bei Coding da Vinci aktive **Motion Desginerin** Sabine
 5 Gewinner wurden von der fünfköpfigen Jury verkündet - über den 6. Gewinner entschied das Publikum: “Everybody's Darling”, so hieß der Publikumspreis.  
 
 Und das sind die Gewinner:  
-
+<br/>
 <table border="4">
    <tbody><tr>
         <th>Projekt</th>
@@ -73,7 +73,7 @@ Und das sind die Gewinner:
    </tr>
    
 </tbody></table>  
-
+<br/>
 Die Projekte und ihre ausführlichen Beschreibungen sowie Links zu den nutzbaren Lösungen befinden sich auf http://codingdavinci.de/projekte/   
 
 Im nächsten Jahr setzen wir unsere Arbeit an Coding da Vinci als Veranstalter fort. Es wird weitere Ausflüge in die Region geben: Vom **14. April bis zum 19. Juni** findet **Coding da Vinci Ost** in Leipzig statt. Weitere Ausflüge sind in Vorbereitung.  
