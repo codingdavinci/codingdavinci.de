@@ -32,7 +32,7 @@ team:
     name: "Sabine Redlich"
     contact:
      mail: "mailto:sbn.redlich@gmail.com"
-     website: www.sabine-redlich.de
+     website: http://www.sabine-redlich.de
   -
     name: "Jemma Woolmore"
     contact:
