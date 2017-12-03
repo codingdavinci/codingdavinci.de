@@ -6,7 +6,7 @@ published: true
 status: publish
 title:  "Ergebnisse Coding da Vinci Preisverleihung"
 image:
-    src: img/news/2017/Preisverleihung.jpg
+    src: img/news/2017/preisverleihung.jpg
     alt: 'Coding da Vinci Berlin 2017: Die Gewinner. Fotograf: Wladimir Raizberg CC-BY 4.0'
     license: 'Coding da Vinci Berlin 2017: Die Gewinner. Fotograf: Wladimir Raizberg CC-BY 4.0'
 tags:
