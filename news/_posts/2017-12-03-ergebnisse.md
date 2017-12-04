@@ -76,7 +76,7 @@ Und das sind die Gewinner:
 <br/>
 Die Projekte und ihre ausführlichen Beschreibungen sowie Links zu den nutzbaren Lösungen befinden sich auf http://codingdavinci.de/projekte/   
 
-Im nächsten Jahr setzen wir unsere Arbeit an Coding da Vinci als Veranstalter fort. Es wird weitere Ausflüge in die Region geben: Vom **14. April bis zum 19. Juni** findet **Coding da Vinci Ost** in Leipzig statt. Weitere Ausflüge sind in Vorbereitung.  
+Im nächsten Jahr setzen wir unsere Arbeit an Coding da Vinci als Veranstalter fort. Es wird weitere Ausflüge in die Region geben: Vom **14. April bis zum 16. Juni** findet **Coding da Vinci Ost** in Leipzig statt. Weitere Ausflüge sind in Vorbereitung.
 
 Wir bedanken uns bei allen Teilnehmenden - für ihren großartigen Einsatz, für ihre Ideen und die Umsetzungen!  
 
