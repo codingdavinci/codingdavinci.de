@@ -12,6 +12,10 @@ links:
     class: "github"
     link: "https://github.com/shoutrlabs/bug-cruncher"
     text: "github"
+  -
+    class: "twitter"
+    link: "https://twitter.com/haxorpoda"
+    text: "twitter"
 data:
   - "Insektenkästen (MfN Berlin)"
 team:
