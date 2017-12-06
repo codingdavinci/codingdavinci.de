@@ -48,7 +48,7 @@ Und das sind die Gewinner:
       <td>best design</td>
    </tr>
    <tr>
-      <td>Hexorpoda Collective</td>
+      <td>Haxorpoda Collective</td>
       <td>Michael Scheuerl, Falko Krause, Olivier Wagener</td>
       <td>Co-creation Workshop zur Innovativen Daten-visualisierung</td>
       <td>funniest hack</td>
