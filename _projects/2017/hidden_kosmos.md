@@ -32,12 +32,8 @@ team:
      mail: "mailto:p_weschenfelder@posteo.de"
   -
     name: "Benjamin Schlüter"
-    contact:
-     mail: "mailto:benjamin.schlueter+ti.to@posteo.de"
   -
     name: "Carolin Otto"
-    contact:
-     mail: "mailto:im.gruen@web.de"
 ---
 
 In seinen Kosmos Vorlesungen vermittelte Alexander von Humboldt das Wissen seiner Zeit einem breiteren interessierten Publikum, zu dem auch Frauen gehören durften. Der berühmte und weit gereiste Gelehrte gab somit ein wichtiges sozialpolitisches Statement in die Öffentlichkeit.
