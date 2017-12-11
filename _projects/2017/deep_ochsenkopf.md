@@ -38,7 +38,7 @@ team:
 
 
 ---
-Das Projekt nutzt Googles DeepDream, um „halluzinierende Bilder“ zu erzeugen. Dafür wurden künstliche neuronale Netze mit den historischen Wasserzeichen (die allermeisten davon zeigen Ochsenköpfe) der Universitätsbibliothek Leipzig trainiert. Anschließend wurden willkürliche Bilder an das trainierte Netzwerk verfüttert. Die Software sucht und findet in diesen Bildern Strukturen, die den Strukturen der Wasserzeichen ähneln und verstärkt diese. So entstehen neue Bilder. 
+Das Projekt nutzt [DeepDream](https://de.wikipedia.org/wiki/DeepDream), um „halluzinierende Bilder“ zu erzeugen. Dafür wurden künstliche neuronale Netze mit den historischen Wasserzeichen (die allermeisten davon zeigen Ochsenköpfe) der Universitätsbibliothek Leipzig trainiert. Anschließend wurden willkürliche Bilder an das trainierte Netzwerk verfüttert. Die Software sucht und findet in diesen Bildern Strukturen, die den Strukturen der Wasserzeichen ähneln und verstärkt diese. So entstehen neue Bilder. 
 
 Als willkürliche Bilder wurden die Gemälde der Kreuzberger Boheme aus der Sammlung des  Friedrichshain-Kreuzberg Museums (FHXB) ausgewählt. 
 
