@@ -37,3 +37,11 @@ a.scroll-hint {
 }
 
 .caption-text{font-size:75%}
+
+.table .head {
+  background: $cdvo-red
+}
+
+.table {
+  background-image: linear-gradient(180deg, #ffafbe 0%, #ffafbe 100%);
+}
