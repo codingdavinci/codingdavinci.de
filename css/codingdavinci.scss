@@ -9,7 +9,7 @@ $color-black: black;
 
 .cdv-green {
   color: $color-primary;
-} 
+}
 
 @font-face {
   font-family: 'Archive';
@@ -342,6 +342,11 @@ a.scroll-hint:hover {
 	.logo-container-events-ost {
 	  @extend .logo-container-small;
 	  background: url('/img/ost/header_logo_ost_320.png') top center no-repeat;
+	}
+
+  .logo-container-events-rheinmain {
+	  @extend .logo-container-small;
+	  background: url('/img/rheinmain/header_logo_rheinmain_320.png') top center no-repeat;
 	}
 
 	.header-container {
@@ -1656,14 +1661,12 @@ height: 100%;
 }
 
 @media (min-width: 991px) {
-    .logo-container-events-berlin {
+    .logo-container-events-berlin,
+    .logo-container-events-nord,
+    .logo-container-events-ost,
+    .logo-container-events-rheinmain
+    {
 	  padding-top: 38%;
-    }
-    .logo-container-events-nord {
-	  padding-top: 38%;
-    }
-    .logo-container-events-ost {
-      padding-top: 38%;
     }
 }
 
