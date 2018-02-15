@@ -150,7 +150,7 @@ background: url('../img/header_logo.png') top center no-repeat;
   width: 455px;
   height: 265px;
   padding-top: 180px;
-  padding-bottom: 14px; 
+  padding-bottom: 14px;
   margin: 0 auto;
   z-index: 1001;
   -webkit-transform: translate3d(0px, 0px, 0px);
@@ -187,7 +187,15 @@ background: url('../img/header_logo.png') top center no-repeat;
   width: auto;
 }
 
-
+.logo-container-events-rheinmain {
+  @extend .logo-container;
+  background: url('/img/rheinmain/header_logo_rheinmain.png') top center no-repeat;
+  background-size: 100% auto;
+  font-size: 1.5em;
+  font-family: Archive;
+  z-index: 99;
+  width: auto;
+}
 
 .logo-text {
   padding: 0 35px;
@@ -330,7 +338,7 @@ a.scroll-hint:hover {
 	  @extend .logo-container-small;
 	  background: url('/img/nord/header_logo_nord_320.png') top center no-repeat;
   }
-  
+
 	.logo-container-events-ost {
 	  @extend .logo-container-small;
 	  background: url('/img/ost/header_logo_ost_320.png') top center no-repeat;
@@ -1929,10 +1937,8 @@ $brand-primary: $color-black;
 
 }
 
-@media screen and (min-width:856px) { 
-	.cdv-nav-right .navbar-nav:nth-of-type(2) { width:856px; float:right; } } 
+@media screen and (min-width:856px) {
+	.cdv-nav-right .navbar-nav:nth-of-type(2) { width:856px; float:right; } }
 
 @media screen and(min-width:856px){
 	 .cdv-nav-right .navbar-nav:nth-of-type(2) { width:100%; } }
-
-
