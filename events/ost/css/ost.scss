@@ -53,3 +53,21 @@ a.scroll-hint {
   background-color: $cdvo-red;
   border-color: #D8413E;
 }
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary:after {
+  content: "+";
+  float: left;
+  margin-right: 5px;
+}
+
+details[open] summary:after {
+  content: "-";
+}
+
+summary {
+  cursor: pointer
+}

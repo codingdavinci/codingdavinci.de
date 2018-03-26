@@ -33,7 +33,7 @@ team:
     contact:
      mail: "mailto:anastasya.voloshina@gmail.com"
   -
-    name: "Debora Krawczyk"
+    name: "Debora-Alexandra Krawczyk"
     contact:
      mail: "mailto:deborakrawczyk@yahoo.de"
 ---
