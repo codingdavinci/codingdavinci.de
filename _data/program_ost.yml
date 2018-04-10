@@ -46,20 +46,26 @@
       content: "Begrüßung"
       date: "2018-04-15 11:00"
     - 
-      content: "Arbeitszeit"
+      content: "Beginn Arbeitszeit"
       date: "2018-04-15 11:15"
     - 
-      content: 'Input Sessions : TBA'
+      content: 'Input Session : Die API der Deutschen Digitalen Bibliothek (Stephan Bartholmei, DDB)'
+      date: "2018-04-15 11:30"
+    - 
+      content: 'Input Session : DBpedia (Magnus Knuth, DBpedia Association)'
       date: "2018-04-15 11:30"
     - 
       content: "Lunch"
       date: "2018-04-15 13:00"
     - 
-      content: 'Input Sessions : TBA'
+      content: 'Input Session : International Image Interoperability Framework, IIIF (Leander Seige, UB Leipzig)'
       date: "2018-04-15 14:00"
     - 
-      content: 'Input Sessions : TBA'
-      date: "2018-04-15 15:00"
+      content: 'Input Session : Bibliotheks-Schnittstellen der Verbundzentrale des GBV (Jakob Voß, GBV)'
+      date: "2018-04-15 14:00"
+    - 
+      content: "Arbeitszeit"
+      date: "2018-04-15 15:30"
     - 
       content: "Wrap up"
       date: "2018-04-15 16:30"
