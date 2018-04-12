@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>Coding Da Vinci</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ site.baseurl }}css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}css/codingdavinci.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}css/lightgallery.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}css/print.css" rel="stylesheet" type="text/css" media="print">
+ {% if page.css %}
+      <link href="{{ site.baseurl }}events/{{page.slug2}}/css/{{page.slug2}}.css" rel="stylesheet">
+ {% endif %}
+    <!--[if IE ]>
+      <style type="text/css" media="screen">
+        .tiles {  display: none  }
+      </style>
+      <![endif]-->
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="{{ site.baseurl }}img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}img/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}img/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}img/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}img/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}img/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}img/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}img/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}img/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}img/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}img/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}img/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="{{ site.baseurl }}img/mstile-144x144.png">
+    <meta name="msapplication-square70x70logo" content="{{ site.baseurl }}img/mstile-70x70.png">
+    <meta name="msapplication-square144x144logo" content="{{ site.baseurl }}img/mstile-144x144.png">
+    <meta name="msapplication-square150x150logo" content="{{ site.baseurl }}img/mstile-150x150.png">
+    <meta name="msapplication-square310x310logo" content="{{ site.baseurl }}img/mstile-310x310.png">
+    <meta name="msapplication-wide310x150logo" content="{{ site.baseurl }}img/mstile-310x150.png">
+
+    <meta name="description" content="Coding Da Vinci - der Kultur-Hackathon">
+    <meta name="author" content="Open Knowledge Foundation Deutschland (OKF De)">
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar-page">
+    {% if page.header %}
+	<header class="header">
+	      <div class="tiles"> </div>
+      <div class="container header-container"> </div>
+	    <div class="logo-container">
+                <div class="logo-text">RHEIN-MAIN 2018</div> 
+	    </div>
+		<a class="smooth-scroll scroll-hint" href="#inhalt">&#9660; &#9660; &#9660; &#9660;</a>
+	    </header>
+    {% endif %}
+    {% include menu.html %}
+      {{ content }}
+
+      <footer id="impressum" class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">
+              <h5><a href="{{ site.baseurl }}kontakt/">Kontakt</a></h5>
+              <p>
+                Barbara Fischer<br/>
+                Projektleitung Coding da Vinci<br/>
+                Mail: barbara.fischer AT wikimedia.de<br/>
+                Tel: <a href="tel:+4930219158260">+49 30 289158260</a>
+              </p>
+              <h5>Impressum</h5>
+              <p>
+                Wikimedia Deutschland e.V.<br/>
+                Tempelhofer Ufer 23-24, 10963 Berlin<br/>
+                www.wikimedia.de<br/>
+                Tel: <a href="tel:+4930219158260">+49 30 219158260</a><br/>
+                Fax: <a href="tel:+4930219158269">+49 30 219158269</a>
+              </p>
+              <h5>Credits</h5>
+              <p>
+                Design: <a href="http://fuklab.org/">FUK Graphic Design Studio</a><br/>
+                Umsetzung: Stefan Wehrmeyer, Knut Perseke<br/>
+                Font "Archive" von <a href="http://fontfabric.com/">Svetoslav Simov/Fontfabric</a><br/>
+                Graphic Recording: CC-BY-SA von <a href="http://playability.de/">Julian Kücklich</a><br/>
+                Fotos: CC-BY <a href="http://tinyurl.com/straightvisual">Volker Agueras Gaeng</a>
+              </p>
+              <p>
+                Wenn nicht anders angegeben, sind Textinhalte und bildliche Designelemente unter <a href="https://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a> lizenziert.
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-5 col-sm-6 logos">
+              <h5>Ein Projekt von</h5>
+              <img src="{{ site.baseurl }}img/logos/ddb.png" alt="Deutsche Digitale Bibliothek" class="img-responsive"/>
+              <img src="{{ site.baseurl }}img/logos/okfn.png" alt="Open Knowledge Foundation Deutschland" class="img-responsive"/>
+              <img src="{{ site.baseurl }}img/logos/digis.png" alt="Digis Servicestelle Digitalisierung" class="img-responsive"/>
+              <img src="{{ site.baseurl }}img/logos/wikimedia.png" alt="Wikimedia Deutschland" class="img-responsive"/>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="{{ site.baseurl }}js/jquery-1.11.0.min.js"></script>
+    <script src="{{ site.baseurl }}js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}js/codingdavinci.js"></script>
+    <script src="{{ site.baseurl }}js/lightgallery.min.js"></script>
+    <script src="{{ site.baseurl }}js/lg-thumbnail.min.js"></script>
+
+    {% if page.js %}
+    <script src="{{ site.baseurl }}js/{{page.js}}"></script>
+    {% endif %}
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["setCookieDomain", "*.codingdavinci.de"]);
+      _paq.push(["setDomains", ["*.codingdavinci.de"]]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//stat.kobv.de/piwik/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 40]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="//stat.kobv.de/piwik/piwik.php?idsite=40" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
+
+  </body>
+</html>
