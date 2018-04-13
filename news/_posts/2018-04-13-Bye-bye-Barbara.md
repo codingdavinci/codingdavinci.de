@@ -8,7 +8,7 @@ title: "Bye Bye Barbara – Das Coding-da-Vinci-GründerInnenteam verabschiedet 
 image: 
     src: /img/news/2018/CdV_Gruenderjubel_mit_Borduere.png
     alt: Coding da Vinci Gruenderjubel
-    license: "[CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/) Coding da Vinci, Foto: Thomas Nitz"
+    license: '<a href="https://creativecommons.org/licenses/by/3.0/de/">CC BY 3.0 DE</a> Coding da Vinci, Foto: Thomas Nitz'
 tags:
     - Barbara Fischer
     - Coding da Vinci
