@@ -4,7 +4,7 @@ author: Anja Mueller
 layout: post
 published: true
 status: publish
-title: "Bye Bye Barbara – Das Coding-da-Vinci-GründerInnenteam verabschiedet sich von Barbara Fischer"
+title: 'Bye Bye Barbara – Das Coding-da-Vinci-Gründer&ast;innenteam verabschiedet sich von Barbara Fischer'
 image: 
     src: /img/news/2018/CdV_Gruenderjubel_mit_Borduere.png
     alt: Coding da Vinci Gruenderjubel
