@@ -6,7 +6,7 @@ published: true
 status: publish
 title: "Bye Bye Barbara – Das Coding-da-Vinci-Gründer\*innenteam verabschiedet sich von Barbara Fischer"
 image: 
-    src: /img/news/cdvost-mit.png
+    src: /img/news/2018/CdV_Gruenderjubel_mit_Borduere.png
     alt: Coding da Vinci Gründerjubel
     license: [CC BY 4.0] (https://creativecommons.org/licenses/by/4.0/deed.de)
 tags:
