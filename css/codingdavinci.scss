@@ -187,6 +187,19 @@ background: url('../img/header_logo.png') top center no-repeat;
   width: auto;
 }
 
+.logo-container-events-rheinmain {
+  @extend .logo-container;
+  background: url('/img/rheinmain/header_logo_rheinmain.png') top center no-repeat;
+  background-size: 100% auto;
+  font-size: 1.5em;
+  font-family: Archive;
+  z-index: 99;
+  width: auto;
+  .logo-text{
+    padding-top: 25px;
+  }
+}
+
 .logo-text {
   padding: 0 35px;
   text-align: center;
@@ -332,6 +345,11 @@ a.scroll-hint:hover {
 	.logo-container-events-ost {
 	  @extend .logo-container-small;
 	  background: url('/img/ost/header_logo_ost_320.png') top center no-repeat;
+	}
+
+  .logo-container-events-rheinmain {
+	  @extend .logo-container-small;
+	  background: url('/img/rheinmain/header_logo_rheinmain_320.png') top center no-repeat;
 	}
 
 	.header-container {
