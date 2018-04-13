@@ -195,8 +195,8 @@ background: url('../img/header_logo.png') top center no-repeat;
   font-family: Archive;
   z-index: 99;
   width: auto;
-  .logo-text{
-    padding-top: 25px;
+  .logo-text {
+    padding: 0px;
   }
 }
 
@@ -414,6 +414,9 @@ a.scroll-hint:hover {
 	padding-top: 125px;
     }
     .logo-container-events-ost {
+  padding-top: 125px;
+    }
+    .logo-container-events-rheinmain {
   padding-top: 125px;
     }
 }
@@ -1673,6 +1676,9 @@ height: 100%;
     .logo-container-events-ost {
       padding-top: 38%;
     }
+    .logo-container-events-rheinmain {
+      padding-top: 38%;
+    }
 }
 
 @media (max-width: 991px) {
@@ -1819,7 +1825,7 @@ a.btn-default.active {
 
 /* Responsive Semantic Timeline http://codepen.io/kjohnson/pen/azBvaE */
 $outline-width: 0;
-$break-point: 500px;
+$break-point: 650px;
 
 $brand-primary: $color-black;
 .section-header {
