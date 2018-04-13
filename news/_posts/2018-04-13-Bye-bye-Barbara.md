@@ -6,9 +6,9 @@ published: true
 status: publish
 title: 'Bye Bye Barbara – Das Coding-da-Vinci-Gründer&ast;innenteam verabschiedet sich von Barbara Fischer'
 image: 
-    src: /img/news/2018/CdV_Gruenderjubel_mit_Borduere.png
-    alt: Coding da Vinci Gruenderjubel
-    license: '<a href="https://creativecommons.org/licenses/by/3.0/de/">CC BY 3.0 DE</a> Coding da Vinci, Foto: Thomas Nitz'
+    src: /img/news/2018/Barbara_mit_Megaphon.jpg
+    alt: Barbara Fischer bei Coding da Vinci
+    license: '<a href="https://creativecommons.org/licenses/by/2.0/de/">CC BY 2.0 DE</a> Coding da Vinci, Foto: Volker Angueras Gäng'
 tags:
     - Barbara Fischer
     - Coding da Vinci
@@ -53,7 +53,8 @@ type: post
 <p>
     Der Wikimedia-Community bleibt Barbara also in gewisser Weise erhalten, aus dem CdV-Team der Gründer*innen müssen wir sie schweren Herzens zunächst nach Frankfurt an die DNB ziehen lassen. 
 </p>
-<br>
+<img class="img-responsive center-block image-content" src="/img/news/2018/CdV_Gruenderjubel_mit_Borduere.png" alt="Barbara Fischer bei Coding da Vinci">
+<p class="image-caption">Gründerjubel, <a href="https://creativecommons.org/licenses/by/3.0/de/">CC-BY-3.0 DE</a>  <a href="https://twitter.com/codingdavinci">@codingdavinci</a>, Foto: Thomas Nitz</p>
 <p>
     Wir alle wünschen Dir, liebe Barbara, für Deinen neuen Job alles Gute und viel Freude! Und spätestens dann bis zum Herbst bei <a href="/events/rheinmain">Coding da Vinci Rhein-Main</a>!
 </p>
