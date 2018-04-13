@@ -1,13 +1,14 @@
 ---
-date: '2018-04-13 23:00:00'
-author: Anja Müller
+date: '2018-04-13 14:00:00'
+author: Anja Mueller
 layout: post
 published: true
-title: Bye Bye Barbara – Das Coding-da-Vinci-GründerInnenteam verabschiedet sich von Barbara Fischer
+status: publish
+title: "Bye Bye Barbara – Das Coding-da-Vinci-GründerInnenteam verabschiedet sich von Barbara Fischer"
 image: 
     src: /img/news/2018/CdV_Gruenderjubel_mit_Borduere.png
     alt: Coding da Vinci Gruenderjubel
-    license: CC BY 4.0
+    license: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)"
 tags:
     - Barbara Fischer
     - Coding da Vinci
@@ -40,7 +41,6 @@ type: post
     <strong>Strukturwandel</strong><br>
     Coding da Vinci soll auch weiterhin ein Event sein, das engagierte Menschen vernetzt, Experimente ermöglicht und zukünftige Perspektiven der Zusammenarbeit zwischen Kulturinstitutionen und einer begeisterten Tech-Community aufzeigt. Zugleich steht es außer Zweifel, dass der Kulturhackathon dazu beitragen soll, langfristige Strukturen in den Einrichtungen für die Öffnung in den digitalen Raum zu schaffen und vor allem auch die daten- und projektbezogene Kooperation zwischen den Institutionen und den ehrenamtlichen Entwickler*innen zu fördern. Hier muss noch ein längerer Weg zurückgelegt werden, aber der entscheidende Impuls (auch durch die Regionalisierung des Hackathons) ist gesetzt.
 </p>
-<p></p>
 <p>
     Auch Barbara hat sich für einen strukturellen Wandel in ihrer Berufsbiographie entschieden. Die Wahl, zur <a href="http://www.dnb.de//DE/Home/home_node.html">Deutschen Nationalbibliothek</a> (DNB) zu wechseln, mag einen zunächst überraschen. Doch ihre dortige neue Aufgabe als Managerin für neue Kooperationen und spartenübergreifende Communityprojekte mit dem Schwerpunkt für <a href="https://wiki.dnb.de/display/GND/GND-Entwicklungsprogramm+2017-2021">Normdaten und Vernetzung</a> ist fast eine logische Folge von fünf schönen und aufregenden Jahren Coding da Vinci. Normdaten sind „<a href="https://blog.wikimedia.de/2018/04/11/auf-zu-neuen-ufern-alles-gute-barbara-fischer/">das Rückgrat eines maschinenlesbaren, semantischen Netzes der Kultur und Wissenschaft</a>”. Sie spielen für jede Form der Nachnutzung und damit der Erweiterung des gesellschaftlichen Wissensschatzes eine entscheidende Rolle. Die <a href="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">Gemeinsame Normdatei</a> (GND) und ihre geplante Öffnung für Museen, Archive und andere wissenschaftliche Einrichtungen sowie die stärkere Zusammenarbeit mit Wikidata werden voraussichtlich neue Arbeitsfelder von Barbara sein. Sie vereinen sehr gelungen ihre beruflichen Kompetenzen und ihre Fähigkeit, Menschen miteinander zu vernetzen. 
 </p>
