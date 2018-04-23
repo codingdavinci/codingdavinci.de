@@ -24,7 +24,7 @@ data:
   - <a href="https://www.ushmm.org/">https://www.ushmm.org</a>
   - <a href="http://www.yadvashem.org/">http://www.yadvashem.org</a>
   - <a href="http://e-kartoteka.net/index">http://e-kartoteka.net/index</a>
-  - <a href="http://www.dokin.nl/Default">http://www.dokin.nl/Default</a>
+  - <a href="http://www.dokin.nl/">http://www.dokin.nl/</a>
   - <a href="http://objekte.jmberlin.de/">http://objekte.jmberlin.de</a>
   - <a href="https://holocaustcenter.jfcs.org/">https://holocaustcenter.jfcs.org</a>
   - <a href="http://archive.thebreman.org/">http://archive.thebreman.org</a>

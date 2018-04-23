@@ -26,7 +26,7 @@ team:
   -
     name: "Falko Krause"
     contact:
-     mail: "mailto:fk@shoutrlab.com"
+     mail: "mailto:fk@shoutrlabs.com"
   -
     name: "Olivier Wagener"
     contact:
