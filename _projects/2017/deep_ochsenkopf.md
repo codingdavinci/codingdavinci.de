@@ -32,7 +32,7 @@ team:
   -
     name: "Johannes Filter"
     contact:
-     mail: "mailto:hi@jfilterde"
+     mail: "mailto:hi@jfilter.de"
      twitter: https://twitter.com/fil_ter
      github: https://github.com/jfilter
 

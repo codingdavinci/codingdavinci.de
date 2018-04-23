@@ -2,6 +2,7 @@
 identifier: 70
 layout: project
 isFirst: false
+isLast: true
 year: 2017
 name: "Skelex"
 tile: "/img/projekte-tiles/2017/skelex.png"

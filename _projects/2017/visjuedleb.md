@@ -3,7 +3,7 @@ identifier: 69
 layout: project
 year: 2017
 isFirst: false
-isLast: true
+isLast: false
 year: 2017
 name: "Visualisierung jüdischen Lebens"
 tile: "/img/projekte-tiles/2017/visjuedleb.png"

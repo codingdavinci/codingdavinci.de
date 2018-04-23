@@ -27,7 +27,7 @@ team:
   -
     name: "Falko Krause"
     contact:
-     mail: "mailto:fk@shuoutlab.com"
+     mail: "mailto:fk@shoutrlabs.com"
   -
     name: "Erik Koenen"
     contact:
