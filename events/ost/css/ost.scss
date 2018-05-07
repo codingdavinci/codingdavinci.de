@@ -71,3 +71,139 @@ details[open] summary:after {
 summary {
   cursor: pointer
 }
+
+/* Responsive Semantic Timeline http://codepen.io/kjohnson/pen/azBvaE */
+$outline-width: 0;
+$break-point: 500px;
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+$gray-base:     #999999;
+$brand-primary: $cdvo-red;
+
+.section-header {
+  color: $brand-primary;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+
+.steps-header {
+  @extend .section-header;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.steps-timeline {
+  outline: 1px dashed rgba(red, $outline-width);
+
+  @media screen and (max-width: $break-point) {
+    border-left: 2px solid $brand-primary;
+    margin-left: 25px;
+  }
+
+  @media screen and (min-width: $break-point) {
+    border-top: 2px solid $brand-primary;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: 16.65%;
+    margin-right: 16.65%;
+  }
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+.steps-one,
+.steps-two,
+.steps-three {
+  outline: 1px dashed rgba(green, $outline-width);
+
+  @media screen and (max-width: $break-point) {
+    margin-left: -25px;
+  }
+
+  @media screen and (min-width: $break-point) {
+    float: left;
+    width: 33%;
+    margin-top: -50px;
+  }
+}
+.steps-one,
+.steps-two {
+  @media screen and (max-width: $break-point) {
+    padding-bottom: 40px;
+  }
+}
+.steps-one {
+  @media screen and (min-width: $break-point) {
+    margin-left: -16.65%;
+    margin-right: 16.65%;
+  }
+}
+.steps-two {
+
+}
+.steps-three {
+  @media screen and (max-width: $break-point) {
+    margin-bottom: -100%;
+  }
+  @media screen and (min-width: $break-point) {
+    margin-left: 16.65%;
+    margin-right: -16.65%;
+  }
+}
+
+.steps-img {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  @media screen and (max-width: $break-point) {
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+.steps-name,
+.steps-description {
+  margin: 0;
+}
+.steps-name {
+  @extend .section-header;
+
+  @media screen and (min-width: $break-point) {
+    text-align: center;
+  }
+}
+.steps-description {
+  overflow: hidden;
+
+  @media screen and (min-width: $break-point) {
+    text-align: center;
+  }
+}
+
+/* Adjustments to original Responsive Semantic Timeline */
+.steps-timeline {
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+.steps-name {
+  margin-top: 6px;
+  margin-bottom: 3px;
+
+  @media screen and (max-width: $break-point) {
+    text-align: left;
+  }
+
+}

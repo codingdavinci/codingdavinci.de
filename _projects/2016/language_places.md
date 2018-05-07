@@ -8,10 +8,6 @@ year: 2016
 "image": "/img/projekte/language_places.jpg"
 "links":
     -
-        "class": "website"
-        "link": "http://languagesandplaces.com/"
-        "text": "Webseite"
-    -
         "class": "github"
         "link": "https://github.com/rglass/languagesandplaces"
         "text": "GitHub"
