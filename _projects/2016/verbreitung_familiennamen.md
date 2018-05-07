@@ -9,7 +9,7 @@ year: 2016
 "links":
     -
         "class": "website"
-        "link": "http://ec2-35-156-11-204.eu-central-1.compute.amazonaws.com/"
+        "link": "http://dinkla.net/de/programming/javascript-familiennamen.html"
         "text": "Webseite"
     -
         "class": "github"

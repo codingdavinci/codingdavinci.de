@@ -8,10 +8,6 @@ tile_active: "/img/projekte-tiles/2015/floradex-active.png"
 image: "/img/projekte/floradex_logo.png"
 links:
   -
-    class: "website"
-    link: "http://wesuku.de/floradex/www/"
-    text: "Webseite"
-  -
     class: "github"
     link: "https://github.com/Floradex/Floradex"
     text: "github"

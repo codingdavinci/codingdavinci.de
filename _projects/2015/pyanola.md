@@ -8,10 +8,6 @@ tile_active: "/img/projekte-tiles/2015/pyanola-active.png"
 image: "/img/projekte/pyanola_logo.png"
 links:
   -
-    class: "website"
-    link: "http://pyanola.de"
-    text: "Webseite"
-  -
     class: "github"
     link: "https://github.com/misterdanb/pyanola"
     text: "github"

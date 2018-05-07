@@ -9,11 +9,11 @@ year: 2016
 "links":
     -
         "class": "website"
-        "link": "http://app.visitinglandmarks.com"
+        "link": "https://app.visitinglandmarks.com"
         "text": "App"
     -
         "class": "website"
-        "link": "http://visitinglandmarks.com"
+        "link": "https://visitinglandmarks.com"
         "text": "Webseite"
     -
         "class": "github"

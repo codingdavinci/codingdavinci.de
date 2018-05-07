@@ -11,10 +11,6 @@ year: 2016
         "class": "website"
         "link": "http://oer4schools.edu-sharing-network.org/announcement/2-hackathon/"
         "text": "Webseite"
-    -
-        "class": "website"
-        "link": "http://edu-sharing.com/recources/"
-        "text": "Downloads"
 "data":
     - "Archäologisches Museum Hamburg"
 "team":
