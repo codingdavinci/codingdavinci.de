@@ -58,10 +58,10 @@
       content: "Lunch"
       date: "2018-04-15 13:00"
     - 
-      content: 'Input Session : International Image Interoperability Framework, IIIF (Leander Seige, UB Leipzig)'
+      content: 'Input Session : <a href="https://github.com/leanderseige/cdvost2018_iiifworkshop">International Image Interoperability Framework, IIIF</a> (Leander Seige, UB Leipzig)'
       date: "2018-04-15 14:00"
     - 
-      content: 'Input Session : Python 101 - Daten einfach verarbeiten mit Python (Martin Czygan, Universiätsbibliothek)'
+      content: 'Input Session : <a href="https://github.com/miku/sundaypython">Python 101 - Daten einfach verarbeiten mit Python</a> (Martin Czygan, Universiätsbibliothek)'
       date: "2018-04-15 14:00"
     - 
       content: "Arbeitszeit"
