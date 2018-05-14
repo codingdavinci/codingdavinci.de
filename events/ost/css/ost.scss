@@ -26,6 +26,22 @@ a.scroll-hint {
   color: $cdvo-red;
 }
 
+a.main-signup {
+  padding: 15px 15px 10px;
+  text-transform: uppercase;
+  background-color: $cdvo-red;
+  font-size: 18pt;
+  font-weight: normal;
+  margin: 57px auto 0;
+  z-index: 1001;
+  width: 320px;
+  min-height: 100px;
+  display: block;
+  color: #000;
+  font-family: "Archive";
+  vertical-align: bottom;
+}
+
 @keyframes pulse {
   0% {
     color: $cdvo-red;
