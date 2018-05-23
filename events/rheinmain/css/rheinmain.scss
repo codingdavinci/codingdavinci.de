@@ -49,7 +49,17 @@ a.scroll-hint {
 
 $outline-width: 0;
 $break-point: 650px;
-$brand-primary: $color-black;
+$brand-primary: $cdvrm-purple;
+
+.section-header {
+  color: $brand-primary;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.steps-name {
+  @extend .section-header;
+}
 
 .steps-timeline {
   outline: 1px dashed rgba(red, $outline-width);
