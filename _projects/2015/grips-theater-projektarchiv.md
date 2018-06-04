@@ -8,10 +8,6 @@ tile_active: "/img/projekte-tiles/2015/grips-active.png"
 image: "/img/projekte-tiles/default-active.png"
 links:
   -
-    class: "website"
-    link: "http://ktbr.de"
-    text: "Webseite"
-  -
     class: "github"
     link: "https://github.com/teuberkai/cdv2015"
     text: "github"
