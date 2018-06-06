@@ -10,7 +10,7 @@ image: "/img/projekte/fritz.png"
 links:
   -
     class: "website"
-    link: "http://desolate-gorge-15662.herokuapp.com/"
+    link: "https://fahrkartentool.sdtb.de"
     text: "Webseite"
   -
     class: "github"
