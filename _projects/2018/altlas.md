@@ -15,7 +15,7 @@ isLast: false
         "text": "Webseite"
     -
         "class": "github"
-        "link": "https://github.com/altlas/altlas"
+        "link": "https://github.com/altlas"
         "text": "GitHub"
 "data":
     - "Historische Karten und Metadaten des Leibniz-Instituts für Länderkunde e.V."

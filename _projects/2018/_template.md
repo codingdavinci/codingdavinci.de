@@ -22,7 +22,7 @@ year: 2018
     -
         "name": ""
         "contact":
-            "mail": ""
+            "mail": "mailto:"
             "twitter": "http://twitter.com/…"
 ---
 Beschreibung
