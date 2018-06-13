@@ -14,7 +14,7 @@ tags:
 type: post
 ---
 <p>
-Am 16.6. ist es soweit: Nach neun kreativen Wochen seit dem Kick-off werden                                                                                                                                                                   
+Am 16.6. ist es so weit: Nach neun kreativen Wochen seit dem <a href="/news/2018/03/01/seid-ihr-bereit-CdV-Ost.html">Kick-off</a> werden                                                                                                                                                                   
 an der Universitätsbibliothek Leipzig die Preise für Coding da Vinci Ost                                                                                                                                                                      
 verliehen. 31 Kulturinstitutionen aus Sachsen, Sachsen-Anhalt und Thüringen                                                                                                                                                                   
 haben Kulturdatensets wie digitalisierte Gemälde, Handschriften, Drucke,                                                                                                                                                                      
