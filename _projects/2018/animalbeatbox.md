@@ -19,7 +19,7 @@ isLast: false
     -
         "name": "Jasper Pöhls"
         "contact":
-            "mail": "mailto:poehls.pm.me"  
+            "mail": "mailto:poehls@pm.me"  
 ---
 Das "AnimalBeatbox" Projekt bietet seinen Nutzern die Möglichkeit in kreativer und selbstbestimmter Weise aus 100 Tierstimmensamples auf vier Tonspuren verteilt eigene Kompositionen zu erzeugen und mit Freunden zu teilen.
 
