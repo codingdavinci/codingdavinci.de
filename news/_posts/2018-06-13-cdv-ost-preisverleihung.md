@@ -1,5 +1,5 @@
 ---
-date: '2018-06-13 15:00:00'
+date: '2018-06-13 14:00'
 author: Dominik Scholl
 layout: post
 published: true
@@ -49,6 +49,9 @@ Los geht es um 11:30 Uhr, der Ablauf der Veranstaltung ist wie folgt:
                                                                                                                                                                                                                                               
 Coding da Vinci Ost wird gemeinschaftlich von der Universitätsbibliothek                                                                                                                                                                      
 Leipzig (UBL), dem Institut für Digitale Technologien (IfDT) und dem OK Lab                                                                                                                                                                   
-Leipzig veranstaltet. Weitere Informationen finden sich unter                                                                                                                                                                                 
+Leipzig veranstaltet.
+</p>
+<p>
+Weitere Informationen finden sich unter                                                                                                                                                                                 
 <a href="https://codingdavinci.de/events/ost">https://codingdavinci.de/events/ost</a>
 </p>
