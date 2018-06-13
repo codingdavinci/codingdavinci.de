@@ -20,18 +20,18 @@ isLast: true
     -
         "name": "Samina"
         "contact":
-            "mail": "samina.ahmed@live.de"
+            "mail": "mailto:samina.ahmed@live.de"
     -
         "name": "Simon"
         "contact":
-            "mail": "simoneiberger@aol.de"
+            "mail": "mailto:simoneiberger@aol.de"
     -
         "name": "Tobias"
         "contact":
-            "mail": "Tobias-Seidel555@web.de"
+            "mail": "mailto:Tobias-Seidel555@web.de"
     -
         "name": "Silvio"
         "contact":
-            "mail": "straight-edge94@hotmail.de"
+            "mail": "mailto:straight-edge94@hotmail.de"
 ---
 In diesem Quiz wird der Spieler herausgefordert, aus verschiedenen Antwortmöglichkeiten, die richtige Antwort auszuwählen, die zum jeweiligen Bild passt. Das ganze wird in Eclipse/Python programmiert. Wir sind noch in der Entwicklungsphase. Am Anfang wollten wir ein rundenbasiertes Kampfspiel programmieren, bei dem der Spieler gegen eine KI kämpft. Da dies aber nicht unserer Vorstellung entsprach, entschieden wir uns für das Quiz.

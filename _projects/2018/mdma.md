@@ -24,12 +24,14 @@ isLast: false
     -
         "name": "Johannes Filter"
         "contact":
-            "mail": "hi@jfilter.de"
+            "mail": "mailto:hi@jfilter.de"
     -
         "name":  "Martin Czygan"
         "contact":
-            "mail": "martin.czygan@gmail.com"
+            "mail": "mailto:martin.czygan@gmail.com"
 ---
 MDMA erlaubt Laien mittels Verfahren aus der künstlichen Intelligenz (“Deep Learning”) neue Bilder zu erschaffen. Dafür kombiniert man ein beliebiges Eingabebild mit einem Style-Bild. Die Style-Bilder sind eine Art Filter, wie sie bei z.B. Instagram verwendet werden. Das Eingabebild wird dann so transformiert, dass es dem Style-Bild ähnlicher wird. Somit können die Nutzer*innen neue Kunstwerke erstellen und ihre Kreativität ausleben.
+
 Die Style-Bilder (“die Filter”) wurden von uns auserwählt, da hierfür nicht alle Bilder geeignet sind. Um zu sehen, ob ein Bild gute Resultate liefert, haben wir es erst ausgiebig getestet. Für Coding Da Vinci benutzen wir unter anderem Bilder aus der Graphiksammlung des Eugen Diederichs Verlags und der Historischen Kartensammlung des Leibniz-Instituts für Länderkunde. Somit gibt es einen spielerischen bzw. künstlerischen Zugang zu den Kulturgütern.
+
 Als Eingabebilder kann man seine eigenen Bilder hochladen, oder andere, bereits hochgeladene Bilder benutzen. Dadurch, dass man am Anfang nicht zwangsläufig Bilder hochladen muss, kann man leichter in das Thema einsteigen. Wenn ein eigenes Bild nicht öffentlich sein soll, kann man es als privat markieren. Um private Bilder zu teilen, hat man zusätzlich die Möglichkeit spezielle Links zu generieren, sodass nur Leute mit Link auf ein Bild zugreifen können.

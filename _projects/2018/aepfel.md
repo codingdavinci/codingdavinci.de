@@ -11,11 +11,11 @@ isLast: false
 "links":
     -
         "class": "website"
-        "link": "https://olf42.github.io/aepfel_und_birnen"
+        "link": "https://olf42.github.com/aepfel_und_birnen"
         "text": "Webseite"
     -
         "class": "github"
-        "link": "https://olf42.github.com/aepfel_und_birnen"
+        "link": "https://olf42.github.io/aepfel_und_birnen"
         "text": "GitHub"
 "data":
     - "Modellfrüchte aus Wachs (Stiftung Schloss Friedenstein)"
@@ -26,15 +26,15 @@ isLast: false
     -
         "name": "Peter Mühleder"
         "contact":
-            "mail": "peter.muehleder@yahoo.de"
+            "mail": "mailto:peter.muehleder@yahoo.de"
     -
         "name": "Tracy Hoffmann"
         "contact":
-            "mail": "tracy.hoffmann@gmail.com"
+            "mail": "mailto:tracy.hoffmann@gmail.com"
     -
         "name": "Florian Rämisch"
         "contact":
-            "mail": "xy.cdvost@xy.lc"
+            "mail": "mailto:xy.cdvost@xy.lc"
 ---
 Äpfel und Birnen ist die beste Mini-GameCompilation, die sich mit Äpfeln, Birnen und Buchhändlern beschäftigt und bei Coding Da Vinci Ost 2018 eingereicht worden ist. In der überaus realistischen Spielwelt tauchen die Spielerin oder der Spieler ein in das spannende Leben von Obst.
 
