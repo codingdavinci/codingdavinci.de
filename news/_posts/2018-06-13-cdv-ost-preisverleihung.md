@@ -6,7 +6,7 @@ published: true
 status: publish
 title: 'Auf nach Leipzig zur Preisverleihung von Coding da Vinci Ost!'
 image: 
-    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Bibliotheca_Albertina%2C_Au%C3%9Fenansicht.jpg/320px-Bibliotheca_Albertina%2C_Au%C3%9Fenansicht.jpg'
+    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Bibliotheca_Albertina%2C_Au%C3%9Fenansicht.jpg/640px-Bibliotheca_Albertina%2C_Au%C3%9Fenansicht.jpg'
     alt: CdV Ost
     license: '<a href="https://commons.wikimedia.org/wiki/File:Bibliotheca_Albertina,_Au%C3%9Fenansicht.jpg">Bibliotheca Albertina, Außenansicht</a>, <a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY 4.0</a>, <a href="https://commons.wikimedia.org/wiki/User:Universit%C3%A4tsbibliothek_Leipzig">Foto: Universitätsbibliothek Leipzig</a> '
 tags:
@@ -14,7 +14,7 @@ tags:
 type: post
 ---
 <p>
-m 16.6. ist es soweit: Nach neun kreativen Wochen seit dem Kick-off werden                                                                                                                                                                   
+Am 16.6. ist es soweit: Nach neun kreativen Wochen seit dem Kick-off werden                                                                                                                                                                   
 an der Universitätsbibliothek Leipzig die Preise für Coding da Vinci Ost                                                                                                                                                                      
 verliehen. 31 Kulturinstitutionen aus Sachsen, Sachsen-Anhalt und Thüringen                                                                                                                                                                   
 haben Kulturdatensets wie digitalisierte Gemälde, Handschriften, Drucke,                                                                                                                                                                      
