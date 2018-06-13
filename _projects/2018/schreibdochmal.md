@@ -20,14 +20,14 @@ isLast: false
     -
         "name": "Sophia Manns-Süßbrich"
         "contact":
-            "mail": "mannsorama@googlemail.com"
+            "mail": "mailto:mannsorama@googlemail.com"
     -
         "name": "Annika Domin"
         "contact":
-            "mail": "annika.domin@web.de"
+            "mail": "mailto:annika.domin@web.de"
     -
         "name": "Florian Rämisch"
         "contact":
-            "mail": "xy.cdvost@xy.lc"
+            "mail": "mailto:xy.cdvost@xy.lc"
 ---
 Auch wenn es aus der Mode gekommen zu sein scheint, Briefe mit der Hand zu schreiben, tun es doch noch viele. Woran es allerdings zunehmend mangelt, ist schönes, erschwingliches Briefpapier. Damit ist nun Schluss. Wir bieten die Möglichkeit, eigenes, individuelles Briefpapier herzustellen. Per Zufall oder anhand eines Namensgenerators erscheint ein Motiv oder ein Design, das dann beliebig weiter verwendet werden kann. Es kann als Motiv auf einen Briefbogen oder einen Umschlag ausgedruckt werden. Aber auch die Erstellung einer Dokumentenvorlage ist kein Problem. Damit werden die Motive und Pflanzen zu neuem Leben erweckt. Bemerkenswert ist dabei der Weg, den die Objekte durchlaufen: von analogen Bildern in Büchern werden sie digitalisiert, um auf diesem Wege wieder analoge Objekte zu schmücken.

@@ -25,7 +25,7 @@ isLast: false
     -
         "name": "Florian Rämisch"
         "contact":
-            "mail": "xy.cdvost@xy.lc"
+            "mail": "mailto:xy.cdvost@xy.lc"
 ---
 Die historischen, hochauflösenden Fotos aus der Hermann Vogel Sammlung sind nun geolokalisiert auf Wiki Commons
 hochgeladen. Von dort als auch vom Open Data Portal Leipzig werden sie auf einer Web-Karte beim Klick auf einen Positionsmarker angezeigt.

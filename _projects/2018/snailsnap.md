@@ -24,23 +24,23 @@ isLast: false
     -
         "name": "Lisa Ihde"
         "contact":
-            "mail": "lisaihde@web.de"
+            "mail": "mailto:lisaihde@web.de"
     -
         "name": "Lukas Wagner"
         "contact":
-            "mail": "lukas.wagner@student.hpi.de"
+            "mail": "mailto:lukas.wagner@student.hpi.de"
     -
         "name": "Daniel-Amadeus Johannes Glöckner"
         "contact":
-            "mail": "Daniel-amadeus.gloeckner@student.hpi.de"
+            "mail": "mailto:Daniel-amadeus.gloeckner@student.hpi.de"
     -
         "name": "Leonard Geier"
         "contact":
-            "mail": "leonard.geier@hotmail.com"
+            "mail": "mailto:leonard.geier@hotmail.com"
     -
         "name": "Tobias Markus"
         "contact":
-            "mail": "tobias.markus@student.hpi.de"                                                                       
+            "mail": "mailto:tobias.markus@student.hpi.de"                                                                       
 ---
 Die Sammlung des Naturkundemusems Berlin umfasst tausende Schneckengehäuse unterschiedlicher Form und Farbe. Leider können diese jedoch nur verschlossen in Kästen durch Glasscheiben hindurch betrachtet werden. Für Coding da Vinci Ost wurden über 6000 Bilder verfügbar gemacht, die verschiedene Ansichten der Schneckengehäuse zeigen. Dennoch ist es sehr mühsam, sich alle Bilder anzusehen, selbst der begeistertste Weichtierbeobachter verliert nach einigen Hundert die Lust daran.
 Durch "SnailSnap" wird die Aufmerksamkeit für Schnecken auf eine spannende neue Art geweckt, indem man gewissermaßen selber zur Schnecke gemacht wird, besser gesagt, zu einem Haufen von Schnecken. Als Besucher des Museums kann man vor Ort per Kamera ein Bild von sich aufnehmen. Dieses wird zuerst einer automatisierten Personenerkennung unterzogen, um den Hintergrund auszublenden und den Fokus komplett auf das Motiv zu legen. Aus dem Bild wird im Anschluss ein Mosaik erzeugt, zusammengesetzt aus Schneckengehäusen – ein Schneckenselfie.

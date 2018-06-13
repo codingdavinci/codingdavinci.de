@@ -15,7 +15,7 @@ isLast: false
         "text": "Webseite"
     -
         "class": "github"
-        "link": "https://altlas/altlas"
+        "link": "https://github.com/altlas"
         "text": "GitHub"
 "data":
     - "Historische Karten und Metadaten des Leibniz-Instituts für Länderkunde e.V."
@@ -25,23 +25,23 @@ isLast: false
     -
         "name": "Joana Bergsiek"
         "contact":
-            "mail": "joana.bergsiek@student.hpi.de"
+            "mail": "mailto:joana.bergsiek@student.hpi.de"
     -
         "name": "Lukas Wagner"
         "contact":
-            "mail": "lukas.wagner@student.hpi.de"
+            "mail": "mailto:lukas.wagner@student.hpi.de"
     -
         "name": "Moritz Schneider"
         "contact":
-            "mail": "moritzschneider1999@gmail.com"
+            "mail": "mailto:moritzschneider1999@gmail.com"
     -
         "name": "Lisa Ihde"
         "contact":
-            "mail": "lisaihde@web.de"
+            "mail": "mailto:lisaihde@web.de"
     -
         "name": "Daniel-Amadeus Johannes Glöckner"
         "contact":
-            "mail": "Danielamadeus.gloeckner@student.hpi.de"
+            "mail": "mailto:Danielamadeus.gloeckner@student.hpi.de"
 ---
 "Altlas" ist für die Erweiterung der OnlineAngebote, Ausstellungen oder Workshops des Leibniz-Instituts für Länderkunde e.V. entwickelt, damit Nutzer auf eine neue spannende Weise auf geographische Erkundungstour gehen können. Die Virtual-Reality- und Desktop-Anwendung ermöglicht es, Karten aus alten Atlanten interaktiv mit aktuellen Karten zu vergleichen - daher auch der Name Altlas. Die Atmosphäre ist im Steampunk-Stil gehalten. So findet man sich in einem viktorianischen Arbeitszimmer wieder, vor sich ein Schreibtisch mit historischen Karten. Diese sind nach Kategorien in Stapel eingeordnet, welche an der Seite des Tisches liegen. Wenn der Nutzer eine Karte aus einem Stapel gewählt und vor sich platziert hat, kann er einen Hebel umlegen, um zum eigentlichen Hauptelement von Altlas zu gelangen. Dadurch entfaltet sich die Karte auf einem Globus, welcher aus der Tischplatte empor fährt.
 

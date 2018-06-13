@@ -21,19 +21,19 @@ isLast: false
     -
         "name": "Alexander Knipping"
         "contact":
-            "mail": "cdvost@f0rkd.net"
+            "mail": "mailto:cdvost@f0rkd.net"
     -
         "name": "Patrick Plitzner"
         "contact":
-            "mail": "hrrarrlm@gmail.com"
+            "mail": "mailto:hrrarrlm@gmail.com"
     -
         "name": "Anne Münzner"
         "contact":
-            "mail": "annemunzner@gmail.com"
+            "mail": "mailto:annemunzner@gmail.com"
     -
         "name": "Sebastian Biermann"
         "contact":
-            "mail": "biermann.seb@gmail.com"
+            "mail": "mailto:biermann.seb@gmail.com"
 ---
 JibJib ist eine mobile App, welche Nutzern auf anschauliche und spielerische Art und Weise den Zugang zur Vogelkunde ermöglichen soll. Die gesamte Architektur setzt sich aus drei Teilen zusammen:
 Die Android-App führt den User mit einem minimalistischen und spielerischen Ansatz durch die angebotenen Workflows. Hierbei ist ein besonderer Fokus auf einfache Bedienung und eine klare Darstellung der Abläufe gelegt. Für die Erkennung werden die aufgenommenen Vogelstimmen an den REST service endpoint gesendet und die zurückgegebenen Detailinformationen können in einer lokalen Room Datenbank gespeichert werden. Die Software-Architektur basiert auf der Clean Architektur, welche eine maximale Entkopplung von Darstellung, Business Logic und I/O-Operationen ermöglicht. Dieser Ansatz ermöglicht eine nachhaltige Weiterentwicklung, getrenntes Testen sowie potenzielles Austauschen der einzelnen Komponenten ohne größeren Aufwand.

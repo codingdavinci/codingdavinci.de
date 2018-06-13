@@ -20,11 +20,11 @@ isLast: false
     -
         "name": "Sophia Manns-Süßbrich"
         "contact":
-            "mail": "mannsorama@googlemail.com"
+            "mail": "mailto:mannsorama@googlemail.com"
     -
         "name": "Martin Czygan"
         "contact":
-            "mail": "martin.czygan@gmail.com"
+            "mail": "mailto:martin.czygan@gmail.com"
 ---
 Die Mittagsfrau ist eine Sagengestalt, die in der Mittagsstunde, dem taghellen Gegenstück zur Geisterstunde, die Bauern auf dem Felde heimsucht. Sind sie in der Lage bis um ein Uhr ihre Fragen zu beantworten, die sich meist um die Flachsherstellung und die Nutzung von Flachs drehen, kommen sie ungeschoren davon. Ansonsten ist schnell mal der Kopf ab oder der Heimgesuchte hat mindestens fürchterliche Kopfschmerzen.
 Diese Kombination von Fantasie und Flachs haben wir zum Anlass genommen, ein Portal zu kreieren, auf dem es möglich ist, auch ohne drohenden Kopfverlust oder Beschränkung auf eine Uhrzeit Geschichten zu spinnen. Animiert von Fotos der Flachsherstellung werden Geschichten auf Deutsch, Nieder- oder Obersorbisch (gegebenenfalls auch in anderen Sprachen) in den Blog des Portals eingestellt. Diese werden dann jeweils in die anderen Sprachen übersetzt und es entsteht ein multilinguales Geschichtenportal.
