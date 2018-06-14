@@ -11,7 +11,7 @@ isLast: false
 "links":
     -
         "class": "website"
-        "link": "https://codeforleipzig.github.io/codingdavinciost2018/damals/index.html"
+        "link": "https://damals.in/leipzig"
         "text": "Webseite"
     -
         "class": "github"
