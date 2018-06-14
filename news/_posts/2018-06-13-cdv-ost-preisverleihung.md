@@ -28,8 +28,8 @@ der Preisverleihung am 16. Juni werden die Ergebnisse vorgestellt und
 prämiert. In der Jury sitzen Skadi Jennicke (Bürgermeisterin für Kultur der                                                                                                                                                                   
 Stadt Leipzig), Sören Auer (Direktor der Technischen Informationsbibliothek                                                                                                                                                                   
 Hannover), Ulrich Johannes Schneider (Direktor der Universitätsbibliothek                                                                                                                                                                     
-Leipzig) sowie aus dem Gründungsteam von Coding da Vinci Helena Hahn und                                                                                                                                                                      
-Stephan Bartholmei.                                                                                                                                                                                                                           
+Leipzig) sowie aus dem Gründungsteam von Coding da Vinci Helene Hahn und                                                                                                                                                                      
+Stephan Bartholmei (Deutsche Digitale Bibliothek).                                                                                                                                                                                                                           
 </p>
                                                                                                                                                                                                                                               
 <p>
