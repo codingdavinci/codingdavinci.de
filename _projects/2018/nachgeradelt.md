@@ -22,6 +22,7 @@ isLast: false
     - "Wikipedia"
     - "Wikisource"
     - "Wikidata"
+    - "Wikimedia Commons"
     - "Sächsische Adressbücher, Karten und Ansichten (Digitale Sammlungen der SLUB Dresden)"
 "team":
     -
@@ -29,15 +30,13 @@ isLast: false
         "contact":
             "mail": "mailto:hauden@kopfnagel.de"
     -
-        "name": "Jens Bemme"
+        "name": "Tobias Wieprich"
         "contact":
-            "mail": "mailto:mail@jensbemme.de"
+            "mail": "mailto:tobiaswieprich@arcor.de"
     -
-        "name": "Jens Nauber"
+        "name": "Gerd Müller"
         "contact":
-            "mail": "mailto:jens.nauber@slub-dresden.de"
-    -
-        "name": "Gerd"
+            "mail": "mailto:gerdesk@posteo.de"
     -
         "name": "Katharina Schmid"
         "contact":
@@ -50,6 +49,14 @@ isLast: false
         "name": "Alejandro López Roldán"
         "contact":
             "mail": "mailto:lopez2056@hotmail.com"
+    -
+        "name": "Jens Bemme"
+        "contact":
+            "mail": "mailto:mail@jensbemme.de"
+    -
+        "name": "Jens Nauber"
+        "contact":
+            "mail": "mailto:jens.nauber@gmx.de"
 ---
 Nachgeradelt.de ist der Prototyp einer Webanwendung, mit der die Touren historischer digitalisierter Tourenbücherfür Radfahrer ausprobiert und mit anderen Kulturdaten verknüpft werden können. Das Projektteam sammelte alle digitalisierten Touren im Umfeld von Leipzig zwischen 1880 und 1930, um eine ausgewählte Strecke testweise zu befahren und Stationen entlang des Weges digital mit Details und Zusatzinformationen anzureichern. Logoentwicklung, Webdesign und die Restaurierung eines historischen (velo)-Clichés aus dem 19. Jahrhundert als Vektorgrafik waren weitere Aufgabenpakete.
 
