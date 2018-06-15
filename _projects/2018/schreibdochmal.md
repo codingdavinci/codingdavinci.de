@@ -10,6 +10,10 @@ isLast: false
 "image": "/img/projekte/schreibdochmalwieder.jpg"
 "links":
     -
+        "class": "website"
+        "link": "https://schreibdochmalwieder.trollofix.com"
+        "text": "Website"
+    -
         "class": "github"
         "link": "https://github.com/sophiamanns/schreibdochmalwieder"
         "text": "GitHub"
