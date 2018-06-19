@@ -10,6 +10,10 @@ isLast: false
 "image": "/img/projekte/animal_beatbox.jpg"
 "links":
     -
+        "class": "website"
+        "link": "http://animalbeatbox.denkeninechtzeit.net/"
+        "text": "Webseite"
+    -
         "class": "github"
         "link": "https://gitlab.com/elbenfreund/AnimalBeatbox"
         "text": "Gitlab"
