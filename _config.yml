@@ -8,7 +8,7 @@ sass:
 
 permalink: /news/:year/:month/:day/:title.html
 
-plugins: [jekyll-paginate]
+gems: [jekyll-paginate]
 
 collections:
   projects :
