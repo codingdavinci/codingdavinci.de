@@ -2,6 +2,8 @@
 ---
 //Colors
 $cdvs-gelb: #ffed00; 
+$cdvs-blue: #005990;
+$cdvs-light-blue: #D9F0FF;
 
 .cdvs-gelb {
   color: $cdvs-gelb;
@@ -21,7 +23,7 @@ background: url('/img/sued/header_sued_ohne.jpg') top center no-repeat;
   font-family: Archive;
 }
 
-a,a:link,a:hover,a:visited{color:#00BE7B; }
+a,a:link,a:hover,a:visited{color:$cdvs-blue; }
 
 a.scroll-hint {
   color: $cdvs-gelb;
@@ -101,7 +103,7 @@ html {
 }
 
 $gray-base:     #999999;
-$brand-primary: $cdvs-gelb;
+$brand-primary: $cdvs-blue;
 
 .section-header {
   color: $brand-primary;
@@ -224,3 +226,31 @@ $brand-primary: $cdvs-gelb;
   }
 
 }
+
+
+/* boxes */
+.challenge-box {
+  h3 {
+    background-color: $cdvs-gelb;
+  }
+  .box {
+    background-color: $cdvs-light-blue;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+  p {
+    font-size: .9em;
+  }
+}
+
+/* lists */
+ul {
+  margin-top: 1em;
+  li {
+   margin-top:1em;
+  }
+}
+
+
