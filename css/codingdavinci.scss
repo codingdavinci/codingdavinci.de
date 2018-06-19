@@ -197,8 +197,23 @@ background: url('../img/header_logo.png') top center no-repeat;
   width: auto;
   .logo-text {
     padding: 0px;
+}
+}
+
+.logo-container-events-sued {
+  @extend .logo-container;
+  background: url('/img/sued/header_sued_ohne.jpg') top center no-repeat;
+  background-size: 100% auto;
+  font-size: 1.5em;
+  font-family: Archive;
+  z-index: 99;
+  width: auto;
+  .logo-text {
+    padding: 25px;
   }
 }
+
+
 
 .logo-text {
   padding: 0 35px;
