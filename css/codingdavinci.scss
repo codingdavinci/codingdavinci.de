@@ -208,9 +208,6 @@ background: url('../img/header_logo.png') top center no-repeat;
   font-family: Archive;
   z-index: 99;
   width: auto;
-  .logo-text {
-    padding: 25px;
-  }
 }
 
 
@@ -362,10 +359,15 @@ a.scroll-hint:hover {
 	  background: url('/img/ost/header_logo_ost_320.png') top center no-repeat;
 	}
 
-  .logo-container-events-rheinmain {
+	.logo-container-events-rheinmain {
 	  @extend .logo-container-small;
 	  background: url('/img/rheinmain/header_logo_rheinmain_320.png') top center no-repeat;
 	}
+	.logo-container-events-sued {
+	  @extend .logo-container-small;
+	  background: url('/img/sued/header_sued_ohne_320.png') top center no-repeat;
+	}
+
 
 	.header-container {
 	padding-left: 0;
@@ -432,6 +434,9 @@ a.scroll-hint:hover {
   padding-top: 125px;
     }
     .logo-container-events-rheinmain {
+  padding-top: 125px;
+    }
+    .logo-container-events-sued {
   padding-top: 125px;
     }
 }
@@ -1692,6 +1697,9 @@ height: 100%;
       padding-top: 38%;
     }
     .logo-container-events-rheinmain {
+      padding-top: 38%;
+    }
+    .logo-container-events-sued {
       padding-top: 38%;
     }
 }
