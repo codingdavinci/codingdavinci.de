@@ -92,8 +92,9 @@ summary {
 }
 
 /* Responsive Semantic Timeline http://codepen.io/kjohnson/pen/azBvaE */
+$break-point: 650px;
 $outline-width: 0;
-$break-point: 500px;
+
 
 html {
   box-sizing: border-box;
@@ -129,8 +130,8 @@ $brand-primary: $cdvs-blue;
     border-top: 2px solid $brand-primary;
     padding-top: 20px;
     margin-top: 40px;
-    margin-left: 16.65%;
-    margin-right: 16.65%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   &:after {
@@ -141,7 +142,9 @@ $brand-primary: $cdvs-blue;
 }
 .steps-one,
 .steps-two,
-.steps-three {
+.steps-three,
+.steps-four,
+.steps-five {
   outline: 1px dashed rgba(green, $outline-width);
 
   @media screen and (max-width: $break-point) {
@@ -150,32 +153,39 @@ $brand-primary: $cdvs-blue;
 
   @media screen and (min-width: $break-point) {
     float: left;
-    width: 33%;
+    width: 20%;
     margin-top: -50px;
   }
 }
 .steps-one,
-.steps-two {
+.steps-two,.steps-three,.steps-four {
   @media screen and (max-width: $break-point) {
     padding-bottom: 40px;
   }
 }
 .steps-one {
   @media screen and (min-width: $break-point) {
-    margin-left: -16.65%;
-    margin-right: 16.65%;
+    margin-left: -12.25%;
+    margin-right: 7.5%;
   }
 }
-.steps-two {
+.steps-two,.steps-three,.steps-four {
+ @media screen and (max-width: $break-point) {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: $break-point) {
+    margin-left: 7.5%;
+    margin-right: 0;
+  }
 
 }
-.steps-three {
+.steps-five {
   @media screen and (max-width: $break-point) {
     margin-bottom: -100%;
   }
   @media screen and (min-width: $break-point) {
-    margin-left: 16.65%;
-    margin-right: -16.65%;
+    margin-left: -7.5%;
+    margin-right: -7.5%;
   }
 }
 
@@ -234,7 +244,7 @@ $brand-primary: $cdvs-blue;
     background-color: $cdvs-gelb;
   }
   .box {
-    background-color: $cdvs-blue;
+    background-color: $cdvs-light-blue;
   }
 
   p:first-child {
@@ -254,3 +264,7 @@ ul {
 }
 
 
+.logos {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
