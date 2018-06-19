@@ -25,7 +25,7 @@ isLast: false
     -
         "name": "Patrick Plitzner"
         "contact":
-            "mail": "mailto:hrrarrlm@gmail.com"
+            "mail": "mailto:p.plitzner@posteo.de"
     -
         "name": "Anne Münzner"
         "contact":
