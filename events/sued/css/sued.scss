@@ -112,7 +112,6 @@ $brand-primary: $cdvs-blue;
   font-size: 1.2em;
 }
 
-
 .steps-header {
   @extend .section-header;
   margin-bottom: 20px;
@@ -123,13 +122,15 @@ $brand-primary: $cdvs-blue;
 
   @media screen and (max-width: $break-point) {
     border-left: 2px solid $brand-primary;
-    margin-left: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   @media screen and (min-width: $break-point) {
     border-top: 2px solid $brand-primary;
     padding-top: 20px;
-    margin-top: 40px;
+    margin-top: 4em;
+    margin-bottom: 3em;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -140,11 +141,11 @@ $brand-primary: $cdvs-blue;
     clear: both;
   }
 }
+
 .steps-one,
 .steps-two,
 .steps-three,
-.steps-four,
-.steps-five {
+.steps-four {
   outline: 1px dashed rgba(green, $outline-width);
 
   @media screen and (max-width: $break-point) {
@@ -153,12 +154,13 @@ $brand-primary: $cdvs-blue;
 
   @media screen and (min-width: $break-point) {
     float: left;
-    width: 20%;
+    width: 25%;
     margin-top: -50px;
   }
 }
 .steps-one,
-.steps-two,.steps-three,.steps-four {
+.steps-two,
+.steps-three {
   @media screen and (max-width: $break-point) {
     padding-bottom: 40px;
   }
@@ -169,25 +171,27 @@ $brand-primary: $cdvs-blue;
     margin-right: 7.5%;
   }
 }
-.steps-two,.steps-three,.steps-four {
- @media screen and (max-width: $break-point) {
+
+.steps-three {
+  @media screen and (max-width: $break-point) {
     margin-bottom: 0;
   }
   @media screen and (min-width: $break-point) {
     margin-left: 7.5%;
     margin-right: 0;
   }
-
 }
-.steps-five {
+
+.steps-four {
   @media screen and (max-width: $break-point) {
     margin-bottom: -100%;
   }
   @media screen and (min-width: $break-point) {
-    margin-left: -7.5%;
-    margin-right: -7.5%;
+    margin-left: 7.5%;
+    margin-right: -12.25%;
   }
 }
+
 
 .steps-img {
   display: block;
@@ -227,15 +231,6 @@ $brand-primary: $cdvs-blue;
     margin-bottom: 3em;
 }
 
-.steps-name {
-  margin-top: 6px;
-  margin-bottom: 3px;
-
-  @media screen and (max-width: $break-point) {
-    text-align: left;
-  }
-
-}
 
 
 /* boxes */
