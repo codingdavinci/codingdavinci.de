@@ -40,11 +40,30 @@ a.scroll-hint {
 .caption-text{font-size:75%}
 
 .table .head {
-  background: $cdvrm-purple
+  background: $cdvrm-purple;
+  color: white;
 }
 
 .table {
-  background-image: linear-gradient(180deg, #ffafbe 0%, #ffafbe 100%);
+  background-image: linear-gradient(180deg, #e9afd5 0%, #e9afd5 100%);
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary:after {
+  content: "+";
+  float: left;
+  margin-right: 5px;
+}
+
+details[open] summary:after {
+  content: "-";
+}
+
+summary {
+  cursor: pointer
 }
 
 $outline-width: 0;
