@@ -27,6 +27,21 @@ a.scroll-hint {
   color: $cdvrm-purple;
 }
 
+a.main-signup {
+  text-transform: uppercase;
+  background-color: #ae2573;
+  font-size: 22pt;
+  font-weight: normal;
+  margin: 57px auto 0;
+  z-index: 1001;
+  width: 320px;
+  min-height: 100px;
+  display: block;
+  color: black;
+  font-family: "Archive";
+  vertical-align: bottom;
+}
+
 @keyframes pulse {
   0% {
     color: $cdvrm-purple;
