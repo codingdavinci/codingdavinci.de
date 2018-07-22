@@ -1,7 +1,7 @@
 ---
 identifier: 54
 layout: project
-year: 2016
+year: Nord 2016
 "name": "Archäologische Kulturdaten für Schulen"
 "tile": "/img/projekte-tiles/2016/edu-sharing.png"
 "tile_active": "/img/projekte-tiles/2016/edu-sharing-active.png"

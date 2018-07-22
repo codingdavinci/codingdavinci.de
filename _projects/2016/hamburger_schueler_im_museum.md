@@ -1,7 +1,7 @@
 ---
 identifier: 55
 layout: project
-year: 2016
+year: Nord 2016
 "name": "Hamburger Schüler im Museum"
 "tile": "/img/projekte-tiles/2016/hh-schueler.png"
 "tile_active": "/img/projekte-tiles/2016/hh-schueler-active.png"
