@@ -2,7 +2,7 @@
 identifier: 65
 layout: project
 isFirst: false
-year: 2017
+year: Berlin 2017
 name: "FRITZ reist um die Welt"
 tile: "/img/projekte-tiles/2017/fritz.png"
 tile_active: "/img/projekte-tiles/2017/fritz-active.png"

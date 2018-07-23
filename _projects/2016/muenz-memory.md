@@ -1,7 +1,7 @@
 ---
 identifier: 48
 layout: project
-year: 2016
+year: Nord 2016
 "name": "Münz-Memory"
 "tile": "/img/projekte-tiles/2016/muenzmemory.png"
 "tile_active": "/img/projekte-tiles/2016/muenzmemory-active.png"

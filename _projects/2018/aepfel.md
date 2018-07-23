@@ -1,7 +1,7 @@
 ---
 identifier: 71
 layout: project
-year: 2018
+year: Ost 2018
 isFirst: true
 isLast: false
 "name": "Äpfel und Birnen"

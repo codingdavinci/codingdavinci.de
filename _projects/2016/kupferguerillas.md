@@ -1,7 +1,7 @@
 ---
 identifier: 45
 layout: project
-year: 2016
+year: Nord 2016
 "name": "Kupferguerillas"
 "tile": "/img/projekte-tiles/2016/kupferguerillas.png"
 "tile_active": "/img/projekte-tiles/2016/kupferguerillas-active.png"

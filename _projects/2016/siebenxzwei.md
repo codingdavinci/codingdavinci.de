@@ -1,7 +1,7 @@
 ---
 identifier: 49
 layout: project
-year: 2016
+year: Nord 2016
 "name": "sieben x zwei – Von Tugenden und Lastern"
 "tile": "/img/projekte-tiles/2016/siebenxzwei.png"
 "tile_active": "/img/projekte-tiles/2016/siebenxzwei-active.png"

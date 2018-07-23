@@ -2,7 +2,7 @@
 identifier: 62
 layout: project
 isFirst: false
-year: 2017
+year: Berlin 2017
 name: "Exploring The Hidden Kosmos"
 tile: "/img/projekte-tiles/2017/hidden_kosmos.png"
 tile_active: "/img/projekte-tiles/2017/hidden_kosmos-active.png"

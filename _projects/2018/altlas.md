@@ -1,7 +1,7 @@
 ---
 identifier: 72
 layout: project
-year: 2018
+year: Ost 2018
 isFirst: false
 isLast: false
 "name": "Altlas"

@@ -2,7 +2,7 @@
 identifier: 67
 layout: project
 isFirst: false
-year: 2017
+year: Berlin 2017
 name: "Marbles of Remembrance (Murmeln der Erinnerung)"
 tile: "/img/projekte-tiles/2017/marbles.png"
 tile_active: "/img/projekte-tiles/2017/marbles-active.png"

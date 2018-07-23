@@ -1,7 +1,7 @@
 ---
 identifier: 59
 layout: project
-year: 2017
+year: Berlin 2017
 isFirst: false
 name: "Bertuchs Bilderspiel"
 tile: "/img/projekte-tiles/2017/bertuchs_bilderspiel.png"

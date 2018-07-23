@@ -2,7 +2,7 @@
 identifier: 63
 layout: project
 isFirst: false
-year: 2017
+year: Berlin 2017
 name: "Historische Fahrkarten-Memory"
 tile: "/img/projekte-tiles/2017/fahrkarten_memory.png"
 tile_active: "/img/projekte-tiles/2017/fahrkarten_memory-active.png"
