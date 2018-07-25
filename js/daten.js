@@ -100,8 +100,8 @@ $(document).ready(function () {
 			});
 		});
 		list.sort(function (a, b) {
-			if (a > b) return 1;
-			if (a < b) return - 1;
+			if (a[a.length-1] > b[b.length-1]) return 1;
+			if (a[a.length-1] < b[b.length-1]) return - 1;
 			return 0;
 		});
 		var htm = list.map(function (entry) {
@@ -135,7 +135,7 @@ $(document).ready(function () {
 	fillFilter('region', 'primary');
 	
 	//HACK: Set filter for 2015
-	//filter['years'] = '2015';
+//	filter['years'] = '2015';
 	buildEntryList();
 
 
