@@ -15,7 +15,7 @@ tags:
 type: post
 ---
 <p>
-Interessierte aus knapp zwanzig verschiedenen Kultureinrichtungen des Rhein-Main-Gebiets haben sich in der Aula der Hochschule Mainz zum Onboarding, dem Informationstreffen für Datengeber, für Fragen und Antworten rund um <strong>Coding da Vinci Rhein-Main</strong> und offene Kulturdaten getroffen.</p>
+Interessierte aus knapp zwanzig verschiedenen Kultureinrichtungen des Rhein-Main-Gebiets haben sich in der Aula der Hochschule Mainz zum Onboarding, dem Informationstreffen für Datengeber, für Fragen und Antworten rund um <strong>Coding da Vinci Rhein-Main</strong> und offene Kulturdaten am 18. Juni 2018 getroffen.</p>
 <p>
 Von 14 bis 17 Uhr ging es an drei Thementischen um Lizenzen für offene Kulturdaten, Präsentation von Daten für die Community sowie um die Aufbereitung offener Daten für die Teilnahme am Hackathon. Und da Coding da Vinci nicht nur Coding ist, sondern auch Kulturinstitutionen, Daten und Menschen zusammenbringt, gab es auch Gelegenheit, sich über der Kaffeetasse zusammenzusetzen und kennenzulernen - ob “Neuling” oder “Datengeber-Urgestein”.</p>
 <p>
