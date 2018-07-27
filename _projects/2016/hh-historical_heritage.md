@@ -1,7 +1,7 @@
 ---
 identifier: 41
 layout: project
-year: 2016
+year: Nord 2016
 "name": "Hansestadt Hamburg’s Historical Heritage (HH-HH)"
 "tile": "/img/projekte-tiles/2016/hhhh.png"
 "tile_active": "/img/projekte-tiles/2016/hhhh-active.png"

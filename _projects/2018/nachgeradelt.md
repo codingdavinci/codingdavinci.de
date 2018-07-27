@@ -1,7 +1,7 @@
 ---
 identifier: 81
 layout: project
-year: 2018
+year: Ost 2018
 isFirst: false
 isLast: false
 "name": "nachgeradelt.de – Coden wie die Stahlroßreiter"

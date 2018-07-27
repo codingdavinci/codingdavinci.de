@@ -1,7 +1,7 @@
 ---
 identifier: 51
 layout: project
-year: 2016
+year: Nord 2016
 name: "Unser modernes Hamburg // Fritz Schumacher"
 tile: "/img/projekte-tiles/2016/schumacher.png"
 tile_active: "/img/projekte-tiles/2016/schumacher-active.png"

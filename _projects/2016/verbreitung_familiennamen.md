@@ -1,7 +1,7 @@
 ---
 identifier: 52
 layout: project
-year: 2016
+year: Nord 2016
 "name": "Verbreitung von Familiennamen"
 "tile": "/img/projekte-tiles/2016/familiennamen.png"
 "tile_active": "/img/projekte-tiles/2016/familiennamen-active.png"

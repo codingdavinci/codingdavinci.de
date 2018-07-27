@@ -1,7 +1,7 @@
 ---
 identifier: 43
 layout: project
-year: 2016
+year: Nord 2016
 "name": "Klang der Sterne"
 "tile": "/img/projekte-tiles/2016/klang-der-sterne.png"
 "tile_active": "/img/projekte-tiles/2016/klang-der-sterne-active.png"

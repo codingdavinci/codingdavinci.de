@@ -1,7 +1,7 @@
 ---
 identifier: 40
 layout: project
-year: 2016
+year: Nord 2016
 "name": "Chronoscope Hamburg"
 "tile": "/img/projekte-tiles/2016/chronoscope.png"
 "tile_active": "/img/projekte-tiles/2016/chronoscope-active.png"
