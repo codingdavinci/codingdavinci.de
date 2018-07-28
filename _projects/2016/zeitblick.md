@@ -1,7 +1,7 @@
 ---
 identifier: 39
 layout: project
-year: 2016
+year: Nord 2016
 isFirst: true
 "name": "Zeitblick"
 "tile": "/img/projekte-tiles/2016/zeitblick.png"

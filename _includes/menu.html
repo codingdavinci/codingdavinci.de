@@ -17,8 +17,8 @@
             <li class="separator {% if page.slug == 'daten' %}active{% endif %}">
               <a href="{{ site.baseurl }}daten/">Daten</a>
             </li>
-            <li class="separator {% if page.slug == 'projekte' %}active{% endif %}">
-              <a href="{{ site.baseurl }}projekte/">Projekte</a>
+            <li class="separator {% if page.layout == 'project' %}active{% endif %}">
+              <a href="{{ site.baseurl }}projects/2018/aepfel.html">Projekte</a>
             </li>
             <li class="separator {% if page.slug == 'dokumentation' %}active{% endif %}">
               <a href="{{ site.baseurl }}dokumentation/">Dokumentation</a>
@@ -64,6 +64,7 @@
               <a href="{{ site.baseurl }}events/sued">Süd</a>
             </li>
 	{% endif %}
+
 	   </ul>
 	</div>
         </nav>

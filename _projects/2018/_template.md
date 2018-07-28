@@ -1,7 +1,7 @@
 ---
 identifier: 0
 layout: project
-year: 2018
+year: Ost 2018
 "name": ""
 "tile": "/img/projekte-tiles/…"
 "tile_active": "/img/projekte-tiles/…-active.png"

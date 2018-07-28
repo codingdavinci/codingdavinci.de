@@ -1,10 +1,10 @@
 ---
 identifier: 69
 layout: project
-year: 2017
+year: Berlin 2017
 isFirst: false
 isLast: false
-year: 2017
+year: Berlin 2017
 name: "Visualisierung jüdischen Lebens"
 tile: "/img/projekte-tiles/2017/visjuedleb.png"
 tile_active: "/img/projekte-tiles/2017/visjuedleb-active.png"

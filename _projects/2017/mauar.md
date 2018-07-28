@@ -2,7 +2,7 @@
 identifier: 57
 layout: project
 isFirst: false
-year: 2017
+year: Berlin 2017
 name: "Berliner MauAr"
 tile: "/img/projekte-tiles/2017/mauar.png"
 tile_active: "/img/projekte-tiles/2017/mauar-active.png"

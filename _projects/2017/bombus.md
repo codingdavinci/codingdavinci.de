@@ -3,7 +3,7 @@
 identifier: 60
 layout: project
 isFirst: false
-year: 2017
+year: Berlin 2017
 name: "BOMBUS"
 tile: "/img/projekte-tiles/2017/bombus.png"
 tile_active: "/img/projekte-tiles/2017/bombus-active.png"
