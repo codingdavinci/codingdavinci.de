@@ -2,7 +2,7 @@
 identifier: 61
 layout: project
 isFirst: false
-year: 2017
+year: Berlin 2017
 name: "Deep Ochsenkopf"
 tile: "/img/projekte-tiles/2017/deep_ochsenkopf.png"
 tile_active: "/img/projekte-tiles/2017/deep_ochsenkopf-active.png"
@@ -32,7 +32,7 @@ team:
   -
     name: "Johannes Filter"
     contact:
-     mail: "mailto:hi@jfilterde"
+     mail: "mailto:hi@jfilter.de"
      twitter: https://twitter.com/fil_ter
      github: https://github.com/jfilter
 

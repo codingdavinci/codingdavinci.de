@@ -1,17 +1,13 @@
 ---
 identifier: 59
 layout: project
-year: 2017
+year: Berlin 2017
 isFirst: false
 name: "Bertuchs Bilderspiel"
 tile: "/img/projekte-tiles/2017/bertuchs_bilderspiel.png"
 tile_active: "/img/projekte-tiles/2017/bertuchs_bilderspiel-active.png"
 image: "/img/projekte/bertuchs_bilderspiel.png"
 links:
-  -
-    class: "website"
-    link: "http://norboy.de/"
-    text: "Webseite"
   -
     class: "github"
     link: "https://github.com/normandra/thebook"

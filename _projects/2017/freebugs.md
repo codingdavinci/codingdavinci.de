@@ -2,16 +2,12 @@
 identifier: 64
 layout: project
 isFirst: false
-year: 2017
+year: Berlin 2017
 name: "Free Bugs"
 tile: "/img/projekte-tiles/2017/freebugs.png"
 tile_active: "/img/projekte-tiles/2017/freebugs-active.png"
 image: "/img/projekte/freebugs.jpg"
 links:
-  -
-    class: "website"
-    link: "http://enricoscherlies.de/freeBugs/"
-    text: "Webseite"
   -
     class: "github"
     link: "https://github.com/enryco/free-bugs"

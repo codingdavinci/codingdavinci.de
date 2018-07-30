@@ -25,7 +25,7 @@ team:
     -
         name: "Florian Idelberger"
         contact:
-            twitter: "http://twitter.com/windrush"
+            twitter: "https://twitter.com/windrush"
     -
         name: "Ruperta M. Steinwender"
         contact:

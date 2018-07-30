@@ -1,7 +1,7 @@
 ---
 identifier: 66
 layout: project
-year: 2017
+year: Berlin 2017
 isFirst: false
 "name": "Haxorpoda Collective: “Bug-cruncher”, “Bug-feed”, “wOgus”"
 tile: "/img/projekte-tiles/2017/haxorpoda.png"
@@ -26,7 +26,7 @@ team:
   -
     name: "Falko Krause"
     contact:
-     mail: "mailto:fk@shoutrlab.com"
+     mail: "mailto:fk@shoutrlabs.com"
   -
     name: "Olivier Wagener"
     contact:

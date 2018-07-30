@@ -2,7 +2,7 @@
 identifier: 56
 layout: project
 isFirst: true
-year: 2017
+year: Berlin 2017
 name: "Altpapier"
 tile: "/img/projekte-tiles/2017/altpapier.png"
 tile_active: "/img/projekte-tiles/2017/altpapier-active.png"

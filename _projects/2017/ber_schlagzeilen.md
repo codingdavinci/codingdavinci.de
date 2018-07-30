@@ -2,7 +2,7 @@
 identifier: 58
 layout: project
 isFirst: false
-year: 2017
+year: Berlin 2017
 name: "Berliner Schlagzeilen"
 tile: "/img/projekte-tiles/2017/ber_schlagzeilen.png"
 tile_active: "/img/projekte-tiles/2017/ber_schlagzeilen-active.png"
@@ -27,7 +27,7 @@ team:
   -
     name: "Falko Krause"
     contact:
-     mail: "mailto:fk@shuoutlab.com"
+     mail: "mailto:fk@shoutrlabs.com"
   -
     name: "Erik Koenen"
     contact:

@@ -58,7 +58,6 @@ year: 2014
         "name": "Kai Teuber, Ministerialbeamter, Berlin, Potsdam"
         "contact" :
             "github": "http://github.com/teuberkai"
-            "twitter": "http://twitter.com/teuberkai"
 
     -
         "name": "Clemens Wilding"

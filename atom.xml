@@ -5,7 +5,6 @@
     <title>Coding da Vinci</title>
     <link href="{{site.url}}/atom.xml" rel="self"/>
     <link href="{{site.url}}"/>
-    <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>{{site.url}}</id>
     <author>
         <name>Coding da Vinci</name>
@@ -16,7 +15,6 @@
     <entry>
         <title>{{ post.title | xml_escape }}</title>
         <link href="{{site.url}}{{ post.url }}"/>
-        <updated>{{ post.date | date_to_xmlschema }}</updated>
         <id>{{site.url}}{{ post.url }}</id>
         <content type="html">{{ post.content | xml_escape }}</content>
     </entry>

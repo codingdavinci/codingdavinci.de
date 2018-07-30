@@ -2,7 +2,7 @@
 identifier: 68
 layout: project
 isFirst: false
-year: 2017
+year: Berlin 2017
 name: "Musik Lovers"
 tile: "/img/projekte-tiles/2017/musik_lovers.png"
 tile_active: "/img/projekte-tiles/2017/musik_lovers-active.png"

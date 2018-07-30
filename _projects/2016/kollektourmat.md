@@ -1,7 +1,7 @@
 ---
 identifier: 44
 layout: project
-year: 2016
+year: Nord 2016
 "name": "kollekTOURmat – unterwegs in Hamburg"
 "tile": "/img/projekte-tiles/2016/kollektourmat.png"
 "tile_active": "/img/projekte-tiles/2016/kollektourmat-active.png"

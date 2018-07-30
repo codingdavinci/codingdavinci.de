@@ -1,7 +1,7 @@
 ---
 identifier: 52
 layout: project
-year: 2016
+year: Nord 2016
 "name": "Verbreitung von Familiennamen"
 "tile": "/img/projekte-tiles/2016/familiennamen.png"
 "tile_active": "/img/projekte-tiles/2016/familiennamen-active.png"
@@ -9,7 +9,7 @@ year: 2016
 "links":
     -
         "class": "website"
-        "link": "http://ec2-35-156-11-204.eu-central-1.compute.amazonaws.com/"
+        "link": "http://dinkla.net/de/programming/javascript-familiennamen.html"
         "text": "Webseite"
     -
         "class": "github"

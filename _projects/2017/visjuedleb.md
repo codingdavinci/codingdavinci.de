@@ -1,10 +1,10 @@
 ---
 identifier: 69
 layout: project
-year: 2017
+year: Berlin 2017
 isFirst: false
-isLast: true
-year: 2017
+isLast: false
+year: Berlin 2017
 name: "Visualisierung jüdischen Lebens"
 tile: "/img/projekte-tiles/2017/visjuedleb.png"
 tile_active: "/img/projekte-tiles/2017/visjuedleb-active.png"
@@ -33,7 +33,7 @@ team:
     contact:
      mail: "mailto:anastasya.voloshina@gmail.com"
   -
-    name: "Debora Krawczyk"
+    name: "Debora-Alexandra Krawczyk"
     contact:
      mail: "mailto:deborakrawczyk@yahoo.de"
 ---

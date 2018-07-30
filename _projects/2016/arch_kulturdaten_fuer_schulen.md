@@ -1,7 +1,7 @@
 ---
 identifier: 54
 layout: project
-year: 2016
+year: Nord 2016
 "name": "Archäologische Kulturdaten für Schulen"
 "tile": "/img/projekte-tiles/2016/edu-sharing.png"
 "tile_active": "/img/projekte-tiles/2016/edu-sharing-active.png"
@@ -11,10 +11,6 @@ year: 2016
         "class": "website"
         "link": "http://oer4schools.edu-sharing-network.org/announcement/2-hackathon/"
         "text": "Webseite"
-    -
-        "class": "website"
-        "link": "http://edu-sharing.com/recources/"
-        "text": "Downloads"
 "data":
     - "Archäologisches Museum Hamburg"
 "team":

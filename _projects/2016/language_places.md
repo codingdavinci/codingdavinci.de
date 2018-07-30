@@ -1,16 +1,12 @@
 ---
 identifier: 46
 layout: project
-year: 2016
+year: Nord 2016
 "name": "Language & Places"
 "tile": "/img/projekte-tiles/2016/languageplaces.png"
 "tile_active": "/img/projekte-tiles/2016/languageplaces-active.png"
 "image": "/img/projekte/language_places.jpg"
 "links":
-    -
-        "class": "website"
-        "link": "http://languagesandplaces.com/"
-        "text": "Webseite"
     -
         "class": "github"
         "link": "https://github.com/rglass/languagesandplaces"

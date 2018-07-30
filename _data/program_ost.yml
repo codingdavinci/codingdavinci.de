@@ -1,0 +1,104 @@
+---
+-
+  entries:
+    -
+      content: "Registration opens"
+      date: "2018-04-14 10:00"
+    -
+      content: "Begrüßung durch die Veranstalter"
+      date: "2018-04-14 11:00"
+    -
+      content: "Daten - One Minute Madness"
+      date: "2018-04-14 11:30"
+    -
+      content: "Datenpräsentationen"
+      date: "2018-04-14 12:15"
+    -
+      content: "Lunch"
+      date: "2018-04-14 13:15"
+    -
+      content: "Datenpräsentationen"
+      date: "2018-04-14 14:30"
+    -
+      content: "Kaffeepause"
+      date: "2018-04-14 16:10"
+    -
+      content: "Ideenpitch, Teams bilden & Hacken"
+      date: "2018-04-14 16:30"
+    -
+      content: "Abendsnack"
+      date: "2018-04-14 18:30"
+    -
+      content: "Wrap up"
+      date: "2018-04-14 19:00"
+    -
+      content: "Ende"
+      date: "2018-04-14 21:00"
+  header: "1. Auftakt"
+  style: 1
+  title: "14. April"
+-
+  entries:
+    -
+      content: "Start des Entwicklertags"
+      date: "2018-04-15 10:00"
+    -
+      content: "Begrüßung"
+      date: "2018-04-15 11:00"
+    -
+      content: "Beginn Arbeitszeit"
+      date: "2018-04-15 11:15"
+    -
+      content: 'Lightning Talks'
+      date: "2018-04-15 11:30"
+    -
+      content: 'Input Session : DBpedia (Magnus Knuth, DBpedia Association)'
+      date: "2018-04-15 11:30"
+    -
+      content: "Lunch"
+      date: "2018-04-15 13:00"
+    -
+      content: 'Input Session : <a href="https://github.com/leanderseige/cdvost2018_iiifworkshop">International Image Interoperability Framework, IIIF</a> (Leander Seige, UB Leipzig)'
+      date: "2018-04-15 14:00"
+    -
+      content: 'Input Session : <a href="https://github.com/miku/sundaypython">Python 101 - Daten einfach verarbeiten mit Python</a> (Martin Czygan, Universiätsbibliothek)'
+      date: "2018-04-15 14:00"
+    -
+      content: "Arbeitszeit"
+      date: "2018-04-15 15:30"
+    -
+      content: "Wrap up"
+      date: "2018-04-15 16:30"
+    -
+      content: "Ende"
+      date: "2018-04-15 17:00"
+  style: 1
+  title: "15. April"
+-
+  header: "2. Sprint"
+  image: "/img/ost/cdv_sprint_24_ost.png"
+  style: 2
+  title: "Bis zur Preisverleihung habt ihr 9 Wochen Zeit, um euer Projekt voranzutreiben."
+-
+  entries:
+      -
+        content: "Einlass"
+        date: "2018-06-16 11:30"
+      -
+        content: "Begrüßung"
+        date: "2018-06-16 12:00"
+      -
+        content: "Ergebnispräsentation der Teams"
+        date: "2018-06-16 13:00"
+      -
+        content: "Demos / Jurysitzung / Publikumsstimmungsbild / Snacks"
+        date: "2018-06-16 15:00"
+      -
+        content: "Preisverleihung durch die Jury"
+        date: "2018-06-16 16:30"
+      -
+        content: "Verabschiedung"
+        date: "2018-06-16 18:00"
+  style: 1
+  title: "16. Juni"
+  header: "3. Preisverleihung"

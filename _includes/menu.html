@@ -17,8 +17,8 @@
             <li class="separator {% if page.slug == 'daten' %}active{% endif %}">
               <a href="{{ site.baseurl }}daten/">Daten</a>
             </li>
-            <li class="separator {% if page.slug == 'projekte' %}active{% endif %}">
-              <a href="{{ site.baseurl }}projekte/">Projekte</a>
+            <li class="separator {% if page.layout == 'project' %}active{% endif %}">
+              <a href="{{ site.baseurl }}projects/2018/aepfel.html">Projekte</a>
             </li>
             <li class="separator {% if page.slug == 'dokumentation' %}active{% endif %}">
               <a href="{{ site.baseurl }}dokumentation/">Dokumentation</a>
@@ -54,13 +54,18 @@
             <li class="separator {% if page.slug2 == 'nord' %}active{% endif %}">
               <a href="{{ site.baseurl }}events/nord">Nord</a>
             </li>
-            <li class="menu-link {% if page.slug2 == 'ost' %}active{% endif %}">
+            <li class="separator {% if page.slug2 == 'ost' %}active{% endif %}">
               <a href="{{ site.baseurl }}events/ost">Ost</a>
             </li>
+            <li class="separator {% if page.slug2 == 'rheinmain' %}active{% endif %}">
+              <a href="{{ site.baseurl }}events/rheinmain">Rhein-Main</a>
+            </li>
+            <li class="menu-link {% if page.slug2 == 'sued' %}active{% endif %}">
+              <a href="{{ site.baseurl }}events/sued">Süd</a>
+            </li>
 	{% endif %}
+
 	   </ul>
 	</div>
         </nav>
       </div>
-
-

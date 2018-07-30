@@ -2,7 +2,7 @@
 identifier: 57
 layout: project
 isFirst: false
-year: 2017
+year: Berlin 2017
 name: "Berliner MauAr"
 tile: "/img/projekte-tiles/2017/mauar.png"
 tile_active: "/img/projekte-tiles/2017/mauar-active.png"
@@ -29,7 +29,6 @@ team:
     name: "Peter Kolski"
     contact:
       mail: "mailto:peter@bildpeter.de"
-      twitter: https://twitter.com/bildpeter
       github: https://github.com/bildpeter
   -
     name: "Maimi von Mirbach"

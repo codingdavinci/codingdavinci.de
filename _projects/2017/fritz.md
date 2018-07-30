@@ -2,7 +2,7 @@
 identifier: 65
 layout: project
 isFirst: false
-year: 2017
+year: Berlin 2017
 name: "FRITZ reist um die Welt"
 tile: "/img/projekte-tiles/2017/fritz.png"
 tile_active: "/img/projekte-tiles/2017/fritz-active.png"
@@ -10,7 +10,7 @@ image: "/img/projekte/fritz.png"
 links:
   -
     class: "website"
-    link: "http://desolate-gorge-15662.herokuapp.com/"
+    link: "https://fahrkartentool.sdtb.de"
     text: "Webseite"
   -
     class: "github"
