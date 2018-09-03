@@ -11,11 +11,11 @@ isLast: false
 "links":
     -
         "class": "website"
-        "link": "https://olf42.github.com/aepfel_und_birnen"
+        "link": "http://aepfelundbirnen.trollofix.com/"
         "text": "Webseite"
     -
         "class": "github"
-        "link": "https://olf42.github.io/aepfel_und_birnen"
+        "link": "https://github.com/olf42/aepfel_und_birnen"
         "text": "GitHub"
 "data":
     - "Modellfrüchte aus Wachs (Stiftung Schloss Friedenstein)"
