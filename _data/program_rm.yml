@@ -14,14 +14,14 @@
       content: "Datenpräsentationen"
       date: "2018-10-27 12:15"
     -
-      content: "Lunch"
+      content: "Mittagessen"
       date: "2018-10-27 13:15"
     -
       content: "Datenpräsentationen"
       date: "2018-10-27 14:30"
     -
       content: "Kaffeepause"
-      date: "2018-10-27 16:10"
+      date: "2018-10-27 15:30"
     -
       content: "Ideenpitch, Teams bilden & Hacken"
       date: "2018-10-27 16:30"
@@ -49,16 +49,13 @@
       content: "Beginn Arbeitszeit"
       date: "2018-10-28 11:15"
     -
-      content: 'Lightning Talks'
+      content: 'Input Session: Metadaten 101 (Julia Beck, UB Mainz)'
       date: "2018-10-28 11:30"
     -
-      content: 'Input Session: Datenschnittstellen im Kulturbereich - API der DDB (Stephan Bartholmei, DDB)'
-      date: "2018-10-28 11:30"
-    -
-      content: "Lunch"
+      content: "Mittagessen"
       date: "2018-10-28 13:00"
     -
-      content: 'Input Session: Metadaten 101 (Julia Beck, UB Mainz)'
+      content: 'Input Session: Datenschnittstellen im Kulturbereich - API der DDB (Stephan Bartholmei, DDB)'
       date: "2018-10-28 14:00"
     -
       content: "Arbeitszeit"
