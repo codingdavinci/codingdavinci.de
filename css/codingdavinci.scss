@@ -1271,6 +1271,11 @@ only screen and (min-device-pixel-ratio: 2) {
   border-top: 0px solid $color-secondary;
 }
 
+#table_theaterbau td, tr ,th {
+  border: 1px solid $color-black;
+  padding: 15px;
+}
+
 .sep {
   background-image: url("../img/cdv_linie_h.png");
   background-repeat: repeat-y;
