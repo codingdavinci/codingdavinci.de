@@ -49,16 +49,16 @@
       content: "Beginn Arbeitszeit"
       date: "2018-10-28 11:15"
     -
-      content: 'Input Session: Metadaten 101 (Julia Beck, UB Mainz)'
+      content: 'Input Session: <a href="/downloads/workshops/Input_Session_Metadaten.pdf">Metadaten 101 (Julia Beck, UB Mainz)</a>'
       date: "2018-10-28 11:30"
     -
-      content: 'Input Session: OpenStreetMap im Einsatz für Coding da Vinci?(Pascal Neis, i3mainz)'
+      content: 'Input Session: <a href="https://de.slideshare.net/pascalneis/openstreetmap-im-einsatz-fr-codingdavincinutzung-der-karten-daten-und-dienste" target="_blank">OpenStreetMap im Einsatz für Coding da Vinci?(Pascal Neis, i3mainz)</a>'
       date: "2018-10-28 11:30"
     -
       content: "Mittagessen"
       date: "2018-10-28 13:00"
     -
-      content: 'Input-Session: Datenvisualisierung mit dem VIKUS-Viewer (Christopher Pietsch, freischaffender Interaktions-Designer und Programmierer)'
+      content: 'Input-Session: <a href="/downloads/workshops/Input_Session_vikusviewer.pdf">Datenvisualisierung mit dem VIKUS-Viewer (Christopher Pietsch, freischaffender Interaktions-Designer und Programmierer)</a>'
       date: "2018-10-28 14:00"
     -
       content: 'Input-Session: Einführung in Wikidata und Semantic Web (Timo Homburg, i3mainz)'
