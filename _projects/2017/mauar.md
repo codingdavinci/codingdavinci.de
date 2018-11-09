@@ -10,7 +10,7 @@ image: "/img/projekte/mauar.png"
 links:
   -
     class: "website"
-    link: "http://mauar.de/"
+    link: "http://mauar.berlin/"
     text: "Webseite"
   -
     class: "website"
