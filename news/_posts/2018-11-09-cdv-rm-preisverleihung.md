@@ -19,11 +19,13 @@ Unsere Entwickler*innen-Teams präsentieren ihre schlauen, kreativen, innovative
 </p>
 <p>
 <ul style="list-style: none">
-  <li>11:30 Einlass</li>
-  <li>12:30 Begrüßung</li>
-  <li>15:30 Demos / Jurysitzung / Publikumsstimmungsbild / Snacks</li>
-  <li>17:00 Preisverleihung durch die Jury</li>
-  <li>18:00 Verabschiedung</li>
+  <li>11:30 Meet & Greet</li>
+  <li>12:30 Begrüßung - u.a. mit Staatssekretär Salvatore Barbaro</li>
+  <li>13:00 Projektpräsentationen der Teams & Voting für den Publikumsliebling</li>
+  <li>15:30 Live-Demos der Projekte - entdecken, testen, spielen</li>
+  <li>17:00 Keynote “Hacken Sie schon oder archivieren Sie noch?” von Thomas Just</li>
+  <li>17:30 Preisverleihung</li>
+  <li>18:00 Ende</li>
 </ul>
 </p>
 <p>

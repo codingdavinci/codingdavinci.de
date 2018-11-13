@@ -82,22 +82,25 @@
 -
   entries:
       -
-        content: "Einlass"
+        content: "Meet & Greet"
         date: "2018-12-01 11:30"
       -
-        content: "Begrüßung"
-        date: "2018-12-01 12:00"
+        content: "Begrüßung - u.a. mit Staatssekretär Salvatore Barbaro"
+        date: "2018-12-01 12:30"
       -
-        content: "Ergebnispräsentation der Teams"
+        content: "Projektpräsentationen der Teams & Voting für den Publikumsliebling"
         date: "2018-12-01 13:00"
       -
-        content: "Demos / Jurysitzung / Publikumsstimmungsbild / Snacks"
-        date: "2018-12-01 15:00"
+        content: "Live-Demos der Projekte - entdecken, testen, spielen"
+        date: "2018-12-01 15:30"
       -
-        content: "Preisverleihung durch die Jury"
-        date: "2018-12-01 16:30"
+        content: "Keynote “Hacken Sie schon oder archivieren Sie noch?” von Thomas Just"
+        date: "2018-12-01 17:00"
       -
-        content: "Verabschiedung"
+        content: "Preisverleihung"
+        date: "2018-12-01 17:30"
+      -
+        content: "Ende"
         date: "2018-12-01 18:00"
   style: 1
   title: "01. Dezember"
