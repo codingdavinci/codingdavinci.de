@@ -19,7 +19,7 @@ slug: projekte
 
     {% assign years = site.projects | map : 'year'|  uniq %}
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-lg-10 col-lg-offset-1">
             <div class="btn-group btn-group-justified" role="group" aria-label="...">
                 {% for year in years %}
                     {% assign firstProject = site.projects | where: 'year', year | where: 'isFirst', true | first %}
