@@ -12,7 +12,7 @@ isLast: false
     -
         "class": "web-app"
         "link": "artific.app"
-        "text": "Web-App"
+        "text": "Web-App artific.app"
     -
         "class": "github"
         "link": "https://github.com/pitC/digital_art_consultant"
@@ -49,7 +49,7 @@ Artific ist eine browserbasierte Anwendung. Wir haben uns bewusst gegen einer Ap
 
 Die technische Umsetzung erfolgte in drei Schritten: Zuerst wurden die Metadaten des Städel Museums nach relevanten Informationen gesichtet, diese dann extrahiert und um die Farbwerte ergänzt. Im zweiten Schritt haben wir einen Matching-Algorithmus erstellt, der Bildvorschläge anhand von Farben (entweder über einen Photo-Input oder manuelle Auswahl) oder Antworten auf Fragen generiert. Dann wurde eine 3-D-Umgebung implementiert, in der das ausgewählte Bild mit Rahmen und Passepartout als Augmented-Reality-Vorschau auf die Wand der Nutzerin / des Nutzers projiziert wird.     
 
-Für die Farberkennung bei den Kunstwerken und den von den hochgeladenen Bildern haben wir die vorhandene vibrant.JS-Bibliothek genutzt. Bei dem Matching-Algorithmus war eine Neuentwicklung nötig: die farbliche Nähe wird nach einer Delta-E-Formel und der 60-30-10-Regel berechnet. In dem Input-Bild (bzw. bei der manuellen Auswahl) werden drei Farben definiert: die Hauptfarbe (z.B. die Wandfarbe), die Sekundärfarbe und die Kontrastfarbe (hierfür wird immer die durch die vibrant.js anerkannte „vibrant“-Farbe genommen). In dem Kunstwerk wird dann umgekehrt gesucht: vor allem die „vibrant“-Farbe mit der Gewichtung von 60%, dann die Sekundärfarbe mit der Gewichtung von 30% und die Hauptfarbe mit der Gewichtung von 10%. Durch diese Formel wird ein menschliches ästhetisches Empfinden mathematisch erzeugt. Die Rahmen des Bildes in der AR-Vorschau sind auch farblich an das Bild angepasst. 
+Für die Farberkennung bei den Kunstwerken und den von den hochgeladenen Bildern haben wir die vorhandene vibrant.JS-Bibliothek genutzt. Bei dem Matching-Algorithmus war eine Neuentwicklung nötig: die farbliche Nähe wird nach einer Delta-E-Formel und der 60-30-10-Regel berechnet. In dem Input-Bild (bzw. bei der manuellen Auswahl) werden drei Farben definiert: die Hauptfarbe (z.B. die Wandfarbe), die Sekundärfarbe und die Kontrastfarbe (hierfür wird immer die durch die vibrant.js anerkannte „vibrant“-Farbe genommen). In dem Kunstwerk wird dann umgekehrt gesucht: vor allem die „vibrant“-Farbe mit der Gewichtung von 60%, dann die Sekundärfarbe mit der Gewichtung von 30% und die Hauptfarbe mit der Gewichtung von 10%. Durch diese Formel wird ein menschliches ästhetisches Empfinden mathematisch erzeugt. Die Rahmen des Bildes in der AR-Vorschau sind auch farblich an das Bild angepasst.
 Die zweite Matching-Möglichkeit: Fragen mit drei Antwortoptionen verwenden andere Metataten des Objektes. Pro Antwort wird individuell nach unterschiedlichen Werten gesucht, z.B.
 
 Choose one Beatles song
@@ -62,7 +62,7 @@ record - Associated_subject - association.subject. – text -> wealth
 -	Norwegian Wood
 record - Content_subject - content.subject – term -> fire; tree trunk; house
 
-Die finale Reihenfolge der vorgeschlagenen Kunstwerke hängt von der Übereinstimmung der gesuchten Metadaten-Werte und der Farbnähe ab. 
+Die finale Reihenfolge der vorgeschlagenen Kunstwerke hängt von der Übereinstimmung der gesuchten Metadaten-Werte und der Farbnähe ab.
 Für die Umsetzung wurden folgende Technologien verwendet:
 -	Node.JS
 -	MongoB
@@ -71,17 +71,17 @@ Für die Umsetzung wurden folgende Technologien verwendet:
 -	A-Frame
 -	Vibrant.JS
 
-Bei der Arbeit mit dem Datenset des Städel Museums sind wir auf ein paar Probleme gestoßen. Aufgrund der aktuellen Struktur der Digitalen Sammlung und einem Downloadschutz von nicht gemeinfreien Bildern war es nicht möglich, direkte Links zu den Digitalisaten zu bekommen. Dies führte dazu, dass wir die Dateien selber hosten müssen. Darüber hinaus konnten die Labeltexte aus Lizenzgründen nicht zur Verfügung gestellt werden, was den Kunstvermittlungsaspekt unserer Web-App deutlich verhinderte. 
+Bei der Arbeit mit dem Datenset des Städel Museums sind wir auf ein paar Probleme gestoßen. Aufgrund der aktuellen Struktur der Digitalen Sammlung und einem Downloadschutz von nicht gemeinfreien Bildern war es nicht möglich, direkte Links zu den Digitalisaten zu bekommen. Dies führte dazu, dass wir die Dateien selber hosten müssen. Darüber hinaus konnten die Labeltexte aus Lizenzgründen nicht zur Verfügung gestellt werden, was den Kunstvermittlungsaspekt unserer Web-App deutlich verhinderte.
 
 An dieser Stelle möchten wir uns ganz herzlich bei Frau Ulrike Fladerer bedanken, die alle unsere Fragen beantwortet hat und uns ein ergänztes Metadaten-Set zur Verfügung gestellt hat. Eine direkte Ansprechpartnerin am Städel Museum zu haben war sehr hilfreich.
 
 WIE GEHT’S WEITER?
 
-Wir wollen die Web-App auf jeden Fall weiterentwickeln! Im ersten Schritt werden weitere geeignete Metadaten-Sets aus den bisherigen Coding-da-Vinci-Hackathons berücksichtigt. Dann hoffen wir, weitere Museen einladen zu können, unser Angebot zu nutzen und ihre Metadaten beizusteuern. 
+Wir wollen die Web-App auf jeden Fall weiterentwickeln! Im ersten Schritt werden weitere geeignete Metadaten-Sets aus den bisherigen Coding-da-Vinci-Hackathons berücksichtigt. Dann hoffen wir, weitere Museen einladen zu können, unser Angebot zu nutzen und ihre Metadaten beizusteuern.
 
-Bei Empfehlungen wollen wir automatisierte Bildvorschläge anhand der Analyse des eigenen Social-Media-Kanals einbauen. 
+Bei Empfehlungen wollen wir automatisierte Bildvorschläge anhand der Analyse des eigenen Social-Media-Kanals einbauen.
 
-Was die Reproduktionsbestellfunktionalität angeht, möchten wir erstmal alle Museen darauf aufmerksam machen, diese Möglichkeit für sich zu nutzen. Soll unsere Idee auf kein Interesse stoßen, überlegen wir – wenn die rechtliche Lage der Kunstwerke dies erlaubt – selbst einen B2B-Vertrag mit einem Online-Print-Shop zu schließen, um den Nutzerinnen und Nutzern die Möglichkeit des Mit-einem-Klick-Bestellens zu ermöglichen und die Erlöse daraus an Europeana zu spenden. 
+Was die Reproduktionsbestellfunktionalität angeht, möchten wir erstmal alle Museen darauf aufmerksam machen, diese Möglichkeit für sich zu nutzen. Soll unsere Idee auf kein Interesse stoßen, überlegen wir – wenn die rechtliche Lage der Kunstwerke dies erlaubt – selbst einen B2B-Vertrag mit einem Online-Print-Shop zu schließen, um den Nutzerinnen und Nutzern die Möglichkeit des Mit-einem-Klick-Bestellens zu ermöglichen und die Erlöse daraus an Europeana zu spenden.
 
 Wir hoffen auch auf spontane Impulse zur Weiterentwicklung bei unserer Live-Demo des Projekts.
 

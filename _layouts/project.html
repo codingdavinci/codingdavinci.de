@@ -12,14 +12,14 @@ slug: projekte
         <div class="col-lg-8 col-lg-offset-2 project-intro">
             <br/><br/>
 
-            <p>Im Rahmen von Coding da Vinci haben die Teilnehmer/innen in Zusammenarbeit mit den Kulturinstitutionen Projekte entwickelt und diese bei der Preisverleihung vorgestellt. Alle Informationen zu den Projekten haben wir hier gelistet. 
+            <p>Im Rahmen von Coding da Vinci haben die Teilnehmer/innen in Zusammenarbeit mit den Kulturinstitutionen Projekte entwickelt und diese bei der Preisverleihung vorgestellt. Alle Informationen zu den Projekten haben wir hier gelistet.
             </p>
         </div>
     </div>
 
     {% assign years = site.projects | map : 'year'|  uniq %}
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-lg-8 col-lg-offset-2 projects-row">
             <div class="btn-group btn-group-justified" role="group" aria-label="...">
                 {% for year in years %}
                     {% assign firstProject = site.projects | where: 'year', year | where: 'isFirst', true | first %}

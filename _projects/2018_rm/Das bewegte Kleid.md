@@ -13,13 +13,9 @@ isLast: false
         "class": "Exponat"
         "link": ""
         "text": "Exponat"
-    -
-        "class": "github"
-        "link": ""
-        "text": "GitHub"
 "data":
     - "Deutsches Historisches Museum Frankfurt"
-   
+
 "team":
     -
         "name": "Torsten Hemke"
