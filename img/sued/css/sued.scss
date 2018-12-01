@@ -1,0 +1,265 @@
+---
+---
+//Colors
+$cdvs-gelb: #ffed00; 
+$cdvs-blue: #0099ff;
+$cdvs-light-blue: #D9F0FF;
+
+.cdvs-gelb {
+  color: $cdvs-gelb;
+}
+
+
+.logo-container-sued {
+background: url('/img/sued/header_sued_ohne.jpg') top center no-repeat;
+  width: auto;
+  padding-top: 180px;
+  padding-bottom: 14px; 
+  margin: 0 auto;
+  z-index: 1099;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  font-size: 25pt;
+  font-family: Archive;
+}
+
+a,a:link,a:hover,a:visited{color:$cdvs-blue; }
+
+a.scroll-hint {
+  color: $cdvs-gelb;
+}
+
+a.main-signup {
+  padding: 15px 15px 10px;
+  text-transform: uppercase;
+  background-color: $cdvs-gelb;
+  font-size: 18pt;
+  font-weight: normal;
+  margin: 57px auto 0;
+  z-index: 1001;
+  width: 320px;
+  min-height: 100px;
+  display: block;
+  color: #000;
+  font-family: "Archive";
+  vertical-align: bottom;
+}
+
+@keyframes pulse {
+  0% {
+    color: $cdvs-gelb;
+  }
+
+  100% {
+    color: black;
+  }
+}
+
+.caption-text{font-size:75%}
+
+.table .head {
+  background: $cdvs-gelb
+}
+
+.table {
+  background-image: linear-gradient(180deg, #ffafbe 0%, #ffafbe 100%);
+}
+
+.btn-events, .btn-events:link, .btn-events:hover, .btn-events:visited {
+  font-family: Archive;
+  font-size: 125%;
+  color: white;
+  background-color: $cdvs-gelb;
+  border-color: #D8413E;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary:after {
+  content: "+";
+  float: left;
+  margin-right: 5px;
+}
+
+details[open] summary:after {
+  content: "-";
+}
+
+summary {
+  cursor: pointer
+}
+
+/* Responsive Semantic Timeline http://codepen.io/kjohnson/pen/azBvaE */
+$break-point: 650px;
+$outline-width: 0;
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+$gray-base:     #999999;
+$brand-primary: $cdvs-blue;
+
+.section-header {
+  color: $brand-primary;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.steps-header {
+  @extend .section-header;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.steps-timeline {
+  outline: 1px dashed rgba(red, $outline-width);
+
+  @media screen and (max-width: $break-point) {
+    border-left: 2px solid $brand-primary;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  @media screen and (min-width: $break-point) {
+    border-top: 2px solid $brand-primary;
+    padding-top: 20px;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.steps-one,
+.steps-two,
+.steps-three,
+.steps-four {
+  outline: 1px dashed rgba(green, $outline-width);
+
+  @media screen and (max-width: $break-point) {
+    margin-left: -25px;
+  }
+
+  @media screen and (min-width: $break-point) {
+    float: left;
+    width: 25%;
+    margin-top: -50px;
+  }
+}
+.steps-one,
+.steps-two,
+.steps-three {
+  @media screen and (max-width: $break-point) {
+    padding-bottom: 40px;
+  }
+}
+.steps-one {
+  @media screen and (min-width: $break-point) {
+    margin-left: -12.25%;
+    margin-right: 7.5%;
+  }
+}
+
+.steps-three {
+  @media screen and (max-width: $break-point) {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: $break-point) {
+    margin-left: 7.5%;
+    margin-right: 0;
+  }
+}
+
+.steps-four {
+  @media screen and (max-width: $break-point) {
+    margin-bottom: -100%;
+  }
+  @media screen and (min-width: $break-point) {
+    margin-left: 7.5%;
+    margin-right: -12.25%;
+  }
+}
+
+
+.steps-img {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  @media screen and (max-width: $break-point) {
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+.steps-name,
+.steps-description {
+  margin: 0;
+}
+.steps-name {
+  @extend .section-header;
+
+  @media screen and (min-width: $break-point) {
+    text-align: center;
+  }
+}
+.steps-description {
+  overflow: hidden;
+
+  @media screen and (min-width: $break-point) {
+    text-align: center;
+  }
+}
+
+/* Adjustments to original Responsive Semantic Timeline */
+.steps-timeline {
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+
+
+/* boxes */
+.challenge-box {
+  h3 {
+    background-color: $cdvs-gelb;
+  }
+  .box {
+    background-color: $cdvs-light-blue;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+  p {
+    font-size: .9em;
+  }
+}
+
+/* lists */
+ul {
+  margin-top: 1em;
+  li {
+   margin-top:1em;
+  }
+}
+
+
+.logos {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
