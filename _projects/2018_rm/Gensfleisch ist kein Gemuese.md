@@ -34,17 +34,15 @@ isLast: false
                    
 
 ---
-Claus ist Webentwickler, also nutzen wir Techniken wie JavaScript, HTML und CSS, um die App erst einmal als interaktive Webseiten zu schreiben. Zunächst schaltet der Nutzer Schritt für Schritt die Orte auf einer Karte frei, die er im Rahmen unserer App aufsucht. Später werden wir mit Cordova die App auch richtig auf dem Handy installieren können. Bis zum Abgabetermin wurde die Zeit knapp – gar nicht so einfach, Studium, Beruf und eine kleine Idee, für die man nochmal recherchieren muss (technisch und inhaltlich), in den Alltag zu integrieren. Aber Spaß macht es auf alle Fälle.
+Die App liefert ein Informationen über Mainz, den Buchdruck und Gutenberg, die durch ein paar Quizfragen aufgelockert werden. Zunächst schaltet der Nutzer Schritt für Schritt die Orte auf einer Karte frei, die er im Rahmen unserer App aufsucht.
 
-Wir haben uns überlegt, einen kleinen Rahmen zu schreiben der die einzelnen Seiten aus einer JSON-Datei liest und in der richtigen Reihenfolge darstellt. Benutzt haben wir gängige Frameworks: Bootstrap für das Aussehen, Vue.js für die Logik und die HTML Templates und jQuery, weil Bootstrap das ohnehin braucht, um gut zu funktionieren und es einfacher macht, schnell im HTML Daten zu lesen oder zu ändern, wenn Claus mit Vue.js nicht gleich zum Erfolg kam.
+Claus ist Webentwickler, also nutzen wir Techniken wie JavaScript, HTML und CSS, um die App erst einmal als interaktive Webseiten zu schreiben. Wir haben uns überlegt, einen kleinen Rahmen zu schreiben, der die einzelnen Seiten aus einer JSON-Datei liest und in der richtigen Reihenfolge darstellt. Benutzt haben wir gängige Frameworks: Bootstrap für das Aussehen, Vue.js für die Logik sowie die HTML-Templates und jQuery.
 
-Die Karte wird von leaflet.js erstellt. Einer Bibliothek für den Umgang mit Kartendaten, die Daten vom Landesmuseum die als XML kamen, haben wir mit einem Webdienst in JSON umgewandelt und einfach hinzukopiert. Leaflet.js haben wir erst beim Kickstart des Wettbewerbs in einem Vortrag kennengelernt.
+Die Karte wird mit Hilfe von leaflet.js erstellt, einer Bibliothek für den Umgang mit Kartendaten. Die Daten vom Landesmuseum Mainz, die als XML kamen, haben wir mit einem Webdienst in JSON umgewandelt und einfach hinzukopiert. Leaflet.js haben wir erst beim Kickoff von Coding da Vinci Rhein-Main in einem Workshop kennengelernt.
 
-Die App liefert ein Informationen über Mainz, den Buchdruck und Gutenberg, die durch ein paar Quizfragen aufgelockert werden.
-
-Später soll man durch die Stadt gehen können und die App erkennt, dass man wie bei einer Schnitzeljagd den nächsten Halt erreicht hat. Bis dahin blendet die App nur die Orte ein, die auf den Seiten erwähnt werden.
+In einer geplanten Weiterentwicklungsstufe soll man durch die Stadt gehen können und die App erkennen, dass man wie bei einer Schnitzeljagd den nächsten Halt erreicht hat. Bislang blendet die App nur die Orte ein, die auf den Seiten erwähnt werden.
 
 Am Ende erfährt man, wie viele Fragen man auf Anhieb richtig beantwortet hat und bei wie vielen Versuchen man beim Raten daneben lag.
 
-Viel Spaß beim Ausprobieren!
+
 
