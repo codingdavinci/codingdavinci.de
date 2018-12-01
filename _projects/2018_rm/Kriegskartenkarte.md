@@ -10,11 +10,11 @@ isLast: true
 "image": "/img/projekte/kriegskartenkarte.png"
 "links":
     -
-        "class": "Webapplikation"
+        "class": "website"
         "link": "https://vwestric.shinyapps.io/kriegs_karten_karte/"
         "text": "Webapplikation"
 "data":
-    - "Hessisches Staatsarchiv Marburg: Wilhelmshöher Kriegskarten"
+    - "Hessisches Staatsarchiv Marburg, Wilhelmshöher Kriegskarten"
     - Wikpedia/Wikidata
     - Geonames
 "team":
@@ -23,7 +23,7 @@ isLast: true
         "contact":
             "mail": "mailto:vwestric@students.uni-mainz.de"
 ---
-Die Idee hinter dem Projekt ist, wie bereits der Titel impliziert, eine digitale ‚Metakarte‘ für die Abbildung der Wilhelmshöher Kriegkarten zu schaffen. Ziel ist es, Nutzer*innen über den visuellen, räumlichen Zugang, den eine digitale Karte bietet, zur Exploration der Kriegskarten in ihrem geographischem Kontext zu animieren.
+Die Idee hinter dem Projekt ist, wie bereits der Titel impliziert, eine digitale ‚Metakarte‘ für die Abbildung der Wilhelmshöher Kriegkarten zu schaffen. Ziel ist es, die Nutzerinnen und Nutzer über den visuellen räumlichen Zugang, den eine digitale Karte bietet, zur Exploration der Kriegskarten in ihrem geographischem Kontext zu animieren.
 
 Eine persönliche Motivation für die Arbeit an diesem Projekt war es, die Anwendbarkeit von Shiny Apps im geisteswissenchaftlichen Kontext bezogen auf die Visualisierung von räumlichen Daten zu testen. Mit diesem Themenfeld habe ich mich bereits in meiner Bachelorarbeit beschäftigt, und ich würde mir wünschen, dieses Projekt auf einer Plattform unter realen Bedingungen und vielleicht sogar mit einer größeren Zahl Nutzerinnen testen zu können.
 
@@ -51,15 +51,3 @@ Bisher nicht realisierte Features, die aber noch geplant sind:
 
 • Grundsätzlich ist zu sagen, dass noch nicht alle Datensätze, die in das Projekt einbezogen werden sollen, vollständig aufbereitet sind.
 
-Eine Demoversion der noch nicht fertig gestellten Anwendung findet sich unter: https://vwestric.shinyapps.io/kriegs_karten_karte/
-
-Problemstellen der Anwendung sind zunächst die genaue Verortung der Schlachtfelder, die zunächst auf die im Titel des Datensatzes genannten Orte verortet wurden, z.B. „Schlacht bei Rocoi“ = Rocoi. In der Kürze der Zeit ließ sich aber bisher keine effizientere und genauere Verortung der Schlachtfelder finden.
-
-Die Wikipedia Online-Enzyklopädie liefert tatsächlich für eine ganze Reihe von Schlachten Koordinaten, aber aufgrund des (teilweise) nicht gesicherten Status dieser Daten wurden diese Datensätze allerdings nicht mit den Wilhelmshöher Kriegskarten verknüpft, sondern separat eingespielt. Die englische Wikipedia wurde aufgrund der (teilweise) höheren Informationsmenge und Artikelanzahl gewählt.
-Ein weiteres Problem sind Encoding-Schwierigkeiten des Frontends bei R Shiny in Bezug auf deutsche Umlaute o.Ä., die ebenfalls noch gelöst werden müssen.
-
-Zusammengefasst:
-
-Für die Endnutzer*innen soll die Anwendung einen visuellen Einstieg zum Datenset der Wilhelmshöher Kriegskarten bieten. Nach der Fertigstellung sollen für interessierten Nutzer*innen eine Plattform zur Verfügung stehen, die sie animiert, durch eigene Georeferenzierung einzelner Karten zur Qualität des Datensets beizutragen.
-
-Falls dies von den Datengebern gewünscht ist, würde ich nach dem Ende des Hackathons sehr gerne weiter an der App arbeiten, zumindest bis zu ihrer Fertigstellung, aber auch darüber hinaus.
