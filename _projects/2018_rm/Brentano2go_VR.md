@@ -24,7 +24,7 @@ Vorlesen ist wunderbar, aber nicht alle können teilhaben.
 
 „Brentano2go@VR“ ist daher eine 360-Grad-VR-Erlebnislesung sowohl für den Bundesweiten Vorlesetag am 16.11.2018 als auch für den Kulturhackathon {COD1NG DA V1NC1} RHEIN-MAIN 2018.
 
-Jeder kann an dieses 360-Grad-Vorlese-Events miterleben, auch z.B. im Krankenhaus oder Seniorenstift. Ideal ist eine VR-Brille, aber mit Smartphone, Tablet, Notebook oder PC ist ein Miterleben bereits möglich … wenn auch nicht ganz so immersiv.
+Jeder kann dieses 360-Grad-Vorlese-Event miterleben, auch z.B. im Krankenhaus oder Seniorenstift. Ideal ist eine VR-Brille, aber mit Smartphone, Tablet, Notebook oder PC ist ein Miterleben bereits möglich … wenn auch nicht ganz so immersiv.
 
 Brentano berichtet im Jahr 1811 handschriftlich und mit einigen überraschenden Skizzen über eine für ihn unvergessliche Nacht in Köpenick an Susanne Schinkel.
 
