@@ -10,9 +10,9 @@ isLast: false
 "image": "/img/projekte/tour_wiz_art.png"
 "links":
     -
-        "class": "Android App"
-        "link": ""
-        "text": "Android App"
+        "class": "website"
+        "link": "https://play.google.com/store/apps/details?id=codingdavinci.tourwizart"
+        "text": "Android App im Google-Play-Store"
     -
         "class": "github"
         "link": "https://github.com/cdvrm18-bb1/Tour-de-Museum"
@@ -40,9 +40,7 @@ Füge zum Beispiel die Gemälde des Städels zu Deiner Tour hinzu, die Du bei De
 
 Auch die Bewertung einzelner Objekte der Tour ist möglich; das kann dem Kulturinstitut als Feedback dienen, das dann ggf. zusätzliche Aktionen startet.
 
-Nun das i-Tüpfelchen: da TourWizArt seine Daten vollständig aus der Cloud bezieht, haben wir gleich mehrere Coding-daVinci-Datensätze integriert:
+Nun das i-Tüpfelchen: Da TourWizArt seine Daten vollständig aus der Cloud bezieht, haben wir gleich mehrere Coding-daVinci-Datensätze integriert.
 
-TourWizArt befindet sich bereits als Prototyp im Android App Store. Wenn Du mal einen Blick reinwerfen willst, dann schicke mir Deine Google-Account-Mail-Adresse an matthias@online.de, da die App noch nicht öffentlich ist. Wir hoffen, dass wir noch vor der Präsentation am Samstag die App vollständig im AppStore freigeben können!
-
-GitHub: https://github.com/cdvrm18-bb1/Tour-de-Museum
+TourWizArt befindet sich bereits als Prototyp im Android App Store.
 
