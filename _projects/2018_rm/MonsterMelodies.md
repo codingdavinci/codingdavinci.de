@@ -28,12 +28,12 @@ isLast: false
     -
         "class": "github"
         "link": "https://github.com/merenor/marc2json"
-        "text": "GitHub"
+        "text": "GitHub marc2json"
 "data":
     - "Monster-Illustrationen aus der Martinus-Bibliothek Mainz"
     - "Informationen zu den digitalisierten Autographen der Symphonien von Christoph Graupner, die sich in der ULB Darmstadt befinden, abgerufen über den OPAC von RISM"
     - "Kleider in Bewegung aus dem Historischen Museum Frankfurt"
-    - "eine zufällige Auswahl aus der <a href="https://www.mithrilandmages.com/utilities/MedievalBrowse.php">List of Medieval Names</a> von Mark Hassman"
+    - "eine zufällige Auswahl aus der List of Medieval Names von Mark Hassman"
     - "grausame Adjektive: API von openthesaurus.de"
 "team":
     -
