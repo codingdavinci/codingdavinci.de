@@ -10,7 +10,7 @@ isLast: false
 "image": "/img/projekte/delivery_detector.jpg"
 "links":
     -
-        "class": "Computer-Vision-App"
+        "class": "website"
         "link": "https://deliverydetector.github.io/"
         "text": "Computer-Vision-App"
     -
@@ -48,7 +48,11 @@ isLast: false
         "contact":
             "mail": "mailto:joana.bergsiek@student.hpi.de"
 ---
-"DeliveryDetector" nutzt die historischen Posthornklänge aus dem Albert-Hiller-Datensatz, um den Nutzer auf DHL-Autos vor seiner Wohnung hinzuweisen.
+„DeliveryDetector“ nutzt die historischen Posthornklänge aus dem Albert-Hiller-Datensatz des Museums für Kommunikation Frankfurt, um den Nutzer auf Paketdienst-Fahrzeuge vor seiner Wohnung hinzuweisen.
+
 Lieferanten haben nur wenig Zeit alle Pakete auszuliefern. Da ist es kein Wunder, dass sie nicht lange die Haustür suchen können. Bei verwinkelten Wohnsituationen geht da schnell ein Paket in den Paketshop statt nach Hause, obwohl man selbst da war.
-Unsere Anwendung soll das verhindern. Wir haben ein Programm entwickelt, dass auf einem Raspberry Pi (einem kleinen Computer) laufen kann. Mit einer Kamera ausgestattet, kann dieser haltende DHL-Autos erkennen und den Nutzer mit dem Klang eines Posthorns darauf hinweisen. Für den Computer-Vision-Teil des Projektes nutzen wir OpenCV und eine selbst trainierten HAAR Classifier, der die Videodaten in Echtzeit analysiert.
+Unsere Anwendung soll das verhindern. 
+
+Wir haben ein Programm entwickelt, dass auf einem Raspberry Pi (einem kleinen Computer) laufen kann. Mit einer Kamera ausgestattet, kann dieser haltende Paketdienst-Fahrzeuge erkennen und den Nutzer mit dem Klang eines Posthorns darauf hinweisen. Für den Computer-Vision-Teil des Projektes nutzen wir OpenCV und eine selbst trainierten HAAR-Classifier, der die Videodaten in Echtzeit analysiert.
+
 Damit bemerkt der Nutzer die Ankunft des Lieferanten und kann ihm entgegenkommen, wenn dieser mal die Haustür nicht findet.
