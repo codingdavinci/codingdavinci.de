@@ -9,14 +9,7 @@ isLast: false
 "tile_active": "/img/projekte-tiles/2018_rm/kleiderleben-active.png"
 "image": "/img/projekte/kleiderleben.png"
 "links":
-    -
-        "class": "Showcase für neues immersives Erlebnis-Exponat zu 'Kleider in Bewegung'"
-        "link": ""
-        "text": "Showcase für neues immersives Erlebnis-Exponat zu 'Kleider in Bewegung'"
-    -
-        "class": "github"
-        "link": ""
-        "text": "GitHub"
+
 "data":
     - "Objekte der Sammlung Mode und Textil aus der Zeitspanne zwischen 1850 und 1930 des Historischen Museums Frankfurt"
     - "Wikipedia, uvm."
@@ -26,42 +19,30 @@ isLast: false
         "contact":
             "mail": "mailto:Kleid-er-leben@web.de"
     -
-        "name": "Dr. Maren Christine Härtel"
-        "contact":
-            "mail": "mailto:Kleid-er-leben@web.de"
-    -
         "name": "Christine Gabriel"
         "contact":
             "mail": "mailto:Kleid-er-leben@web.de"
-    -
-        "name": "Das blau-goldene Theaterkostüm ;-)"
-        "contact":
-            "mail": "mailto:Kleid-er-leben@web.de"
+
 ---
-Selbstverständlich werden auch für Rollstuhlbenutzer einfache Auflegefunktionsanzüge vorbereitet, ebenso wie Gebärdensprachanleitungen und die Möglichkeit, sich selbst Erinnerungsaufnahmen per E-Mail oder späterem Download zur Verfügung zu stellen.
+Der Showcase „Kleid-er-leben“ zeigt ein neues mögliches 360-Grad-VR-Erlebnisexponat für das Historische Museum Frankfurt.
 
-Ich habe zu einem Designer und Ergonomen, der bereits Erfahrungen mit Alterssimulationsanzügen gesammelt hat Kontakt aufgenommen, um diesen speziellen und wesentlichen Anteil der Idee weiterzuentwickeln. 
+Die Besucher spüren per Funktionsanzug (Overall mit optionalen Erweiterungen - ähnlich zu Alterssimulationsanzügen) die unterschiedlichen Bewegungseinschränkungen historischer Kleider am eigenen Körper. Per Roomscale-VR mit Motion Capture in einer GreenScreenBox (Grundfläche von mind. 3m x 3m) bewegen sie sich in historischen Räumlichkeiten und sehen sich z.B. in einem virtuellen Spiegel selbst in den jeweils vorher ausgewählten Original-Kleidern. 
 
-Gerne präsentieren wir den Showcase vor den Forschungspartnern des Historischen Museums Frankfurt um eine Realisierung als zukünftiges Exponat zu ermöglichen. Dafür könnten z.B. auch die von anderen Projekten bereits erhobenen Modellierungsdaten der Kleider weitergenutzt werden. Aber auch mit weiteren professionellen Partnern könnten wir das Projekt zeitnah weiterentwickeln.
+Die weiteren um das Exponat verweilenden Museumsbesucher sehen sowohl den aktuellen Nutzer in der realen Welt im Funktionsanzug in der GreenScreenBox als auch in einem Display (analog dem virtuellen Standspiegel) die Ansicht mit modelliertem Kleid in der historischen Umgebung.
 
-Wir haben dafür extra auch ein hochwertiges Theaterkostüm erworben, um damit die nötigen Aufnahmen zu erstellen und ggf. Präsentationen zu ermöglichen, ohne Originalobjekte aus dem Fundus zu beanspruchen.
+„Kleid-er-leben“ bietet für jeden die dank VR derzeit realistischste Erfahrung mit „Kleidern in Bewegung“, ohne die Original-Gewänder überhaupt zu beanspruchen. Jeder Museumsbesucher kann einen Funktionsoverall anziehen, der auf das jeweils gewünschte Kleid angepasst wird. Beispielsweise wird eine Korsage durch waagerechte Klettstreifen, schwere Stoffe durch Zusatzgewichte simuliert - und/oder über dem Overall ein optionaler Reifrock getragen. Bei besonders leichten Kleidern wird der Baumwoll-Overall durch ein sehr leichten Funktionsoverall ähnlich einem Einweg-Overall ersetzt.
 
-Auch aufgrund der intensiven Arbeit am Projekt "Brentano2go@VR" konnte ich keine geeigneten 360-Grad-Aufnahmen von historischen Umgebungen anfertigen, daher habe ich dank freundlicher Unterstützung durch:
+Wichtig ist, dass die Bewegungen der Besucher in den Funktionsanzügen getrackt werden (Roomscale-VR mit Motion Capture), d.h. die Position und Bewegung im Raum wird sowohl zur Selbstansicht im Spiegel als auch zur eigenen Perspektive im virtuellen Raum und zur Darstellung für die vor dem Exponat verweilenden anderen Besuchern nachverfolgt und berechnet.
 
-schnurstracks gestaltung und interaktion
-Dipl.-Fotoing. Chris Witzani
-info@schnurstracks.de
+Selbstverständlich werden auch für Rollstuhlbenutzer Auflegefunktionsanzüge vorbereitet, ebenso wie Gebärdensprachanleitungen und die Möglichkeit, sich selbst Erinnerungsaufnahmen per E-Mail oder späterem Download zur Verfügung zu stellen.
 
-eine zweckgebundene, temporäre und nicht-kommerzielle Nutzungserlaubnis für dieses Projekt für die Nutzung von 360-Grad Aufnahmen vom 
-- Musiksaal
-- Kleinen Saal
-- Kabinettzimmer
-- Haupttreppenhaus oben
-aus dem Stadtschloss Wiesbaden erhalten.
+Zu einem Designer und Ergonomen, der bereits Erfahrungen mit Alterssimulationsanzügen gesammelt hat, habe ich bereits Kontakt aufgenommen, um diesen speziellen und wesentlichen Anteil der Idee weiterzuentwickeln. 
 
-Im Historischen Museum habe ich sehr interessante 360-Grad-Panoramen aufgenommen, die sofort zu weiteren Ideen auch für z.B. virtuelle Museumsbesuche führen - da auch das Museum mit dem Thema Inklusion einen wichtigen Beitrag leistet.
+Gerne präsentieren wir den Showcase vor den Forschungspartnern des Historischen Museums Frankfurt um eine Realisierung als zukünftiges Exponat zu ermöglichen. Dafür könnten z.B. auch die von den anderen Teams bereits erhobenen Modellierungsdaten der Kleider weitergenutzt werden. 
 
-Interessanterweise wird beispielsweise in der gerade eröffneten Sonderausstellung "Orte der Jugend" aktuell eine kleine GreenScreenBox zur Aufnahme von Videobeiträgen genutzt.
+Aufgrund der Kürze der Zeit greife ich für die Präsentation auf 360-Grad-Panoramen aus dem Stadtschloss Wiesbaden von „schnurstracks gestaltung und interaktion“ Chris Witzani (info@schnurstracks.de) als historische Umgebung zu. Danke für die zweckgebundene, temporäre und nicht-kommerzielle Nutzungserlaubnis für dieses Projekt.
+
+Vielen Dank insbesondere an Dr. Maren Härtel vom Historischen Museum Frankfurt.
 
 
 
