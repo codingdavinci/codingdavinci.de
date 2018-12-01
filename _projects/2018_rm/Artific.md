@@ -9,7 +9,10 @@ isLast: false
 "tile_active": "/img/projekte-tiles/2018_rm/artific-active.png"
 "image": "/img/projekte/artific.jpg"
 "links":
- 
+    -
+        "class": "website"
+        "link": "https://www.artific.app"
+        "text": "Webseite"
     -
         "class": "github"
         "link": "https://github.com/pitC/digital_art_consultant"
