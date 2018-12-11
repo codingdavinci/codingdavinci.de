@@ -1367,6 +1367,10 @@ only screen and (min-device-pixel-ratio: 2) {
   /*-webkit-align-content: flex-start;*/
 }
 
+.projects-row {
+  padding: 0;
+}
+
 @media all and (min-width: 420px){
   .projects-container .project-tile,
   .projects-container .gap{
