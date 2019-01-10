@@ -64,15 +64,14 @@
     {% endif %}
     {% include menu.html %}
       {{ content }}
-
       <footer id="impressum" class="footer">
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">
-              <h5><a href="{{ site.baseurl }}kontakt/">Kontakt</a></h5>
-              <p>
-		Projektkoordination:<br/>
-		Stephan Bartholmei (DDB), Anja Müller (digiS), Dominik Scholl (WMDE)<BR/>
+              <h5>Kontakt</h5>
+		 <p>
+                Projektkoordination:<br/>
+                Stephan Bartholmei (DDB), Anja Müller (digiS), Dominik Scholl (WMDE)<BR/>
                 Mail: codingdavinci AT zib.de<br/>
               </p>
               <h5>Impressum</h5>
@@ -89,26 +88,32 @@
                 Font "Archive" von <a href="http://fontfabric.com/">Svetoslav Simov/Fontfabric</a><br/>
               </p>
               <p>
-		Wenn nicht anders angegeben, sind Textinhalte und bildliche Designelemente unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</a> lizenziert.
+                Wenn nicht anders angegeben, sind Textinhalte und bildliche Designelemente unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</a> lizenziert.
               </p>
-            </div>
 	      <h5>Datenschutzerklärung</h5>
               <p>
 	      Auf <a href="https://wikimedia.de/de/impressum">www.wikimedia.de/de/impressum</a> finden Sie alle Hinweise darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese oder andere Websites von Wikimedia Deutschland besuchen.<br/>
               </p>
-
+            </div>
             <div class="col-lg-3 col-md-5 col-sm-6 logos">
               <h5>Ein Projekt von</h5>
               <img src="{{ site.baseurl }}img/logos/ddb.png" alt="Deutsche Digitale Bibliothek" class="img-responsive"/>
               <img src="{{ site.baseurl }}img/logos/okfn.png" alt="Open Knowledge Foundation Deutschland" class="img-responsive"/>
               <img src="{{ site.baseurl }}img/logos/digis.png" alt="Digis Servicestelle Digitalisierung" class="img-responsive"/>
               <img src="{{ site.baseurl }}img/logos/wikimedia.png" alt="Wikimedia Deutschland" class="img-responsive"/>
-              <img src="{{ site.baseurl }}img/logos/ksb.jpg" alt="Kulturstiftung des Bundes" class="img-responsive"/>
+	      
             </div>
-          </div>
+      	</div>
+      	<div class="row">
+	    	<div class="col-lg-4 col-lg-offset-6 col-md-5 col-md-offset-6 col-sm-6 col-sm-offset-6 logos">
+			<p style="margin-top:40px; font-size: 13px;"><strong>Gefördert im Programm Kultur Digital der</strong></p>
+			<a href="https://www.kulturstiftung-des-bundes.de/"><img src="{{ site.baseurl }}img/logos/ksb.jpg" alt="Kulturstiftung des Bundes"  class="img-responsive"/></a>
+	    	</div>
+	  </div>
         </div>
       </footer>
     </div>
+
     <script src="{{ site.baseurl }}js/jquery-1.11.0.min.js"></script>
     <script src="{{ site.baseurl }}js/bootstrap.min.js"></script>
     <script src="{{ site.baseurl }}js/codingdavinci.js"></script>
