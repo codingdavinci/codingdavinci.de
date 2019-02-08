@@ -1,6 +1,6 @@
 ---
 date: '2019-02-08 10:00'
-author: Caroline Flesch
+author: Angelika Schindel, Kathrin Zimmer und Sybille Greisinger
 layout: post
 published: true
 status: publish
