@@ -8,7 +8,7 @@ title: 'Coding da Vinci Süd nimmt Fahrt auf: „Prepare your data“'
 image:
     src: '/img/news/2019/prepareyourdata_sued.jpg'
     alt: Großer Andrang beim „Prepare your data“-Workshop von Coding da Vinci Süd
-    license: '<a href="/img/news/2019/prepareyourdata_sued.jpg" target="_blank">Großer Andrang beim „Prepare your data“-Workshop von Coding da Vinci Sued</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank">CC-BY-SA 4.0</a>, Foto: Angelika Schindel'
+    license: '<a href="/img/news/2019/prepareyourdata_sued.jpg" target="_blank">Großer Andrang beim „Prepare your data“-Workshop von Coding da Vinci Süd</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank">CC-BY-SA 4.0</a>, Foto: Angelika Schindel'
 tags:
     - Coding da Vinci Sued
 type: post
