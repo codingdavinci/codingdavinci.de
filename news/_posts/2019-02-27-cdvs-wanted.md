@@ -8,13 +8,13 @@ title: 'Coding da Vinci Süd sucht DICH!'
 image:
     src: '/img/news/2019/cdvs-wanted.jpg'
     alt: Jetzt anmelden beim Kultur-Hackathon Coding da Vinci Süd
-    license: '<a href="/img/news/2019/cdvs-wanted.jpg" target="_blank">Jetzt anmelden beim Kultur-Hackathon Coding da Vinci Süd</a>'
+    license: 'Bild-Lizenz: CC0'
 tags:
     - Coding da Vinci Sued
 type: post
 ---
 <p>
-Das kostenlose Ticketing für den Kick-Off von Coding da Vinci Süd am 6./7. April 2019 in der Münchner Stadtbibliothek Am Gasteig ist jetzt für alle TeilnehmerInnen offen: <a href="https://www.xing.com/events/coding-vinci-sud-kick-off-2057724">https://www.xing.com/events/coding-vinci-sud-kick-off-2057724</a>
+Das kostenlose Ticketing für den Kick-Off von Coding da Vinci Süd am 6./7. April 2019 in der Münchner Stadtbibliothek Am Gasteig ist jetzt für alle TeilnehmerInnen offen. Hol' Dir jetzt Dein Ticket für's  <a href="https://www.xing.com/events/coding-vinci-sud-kick-off-2057724">Kick-Off.</a>
 </p>
 <p>
 Du bist EntwicklerIn, DesignerIn, GrafikerIn, KünstlerIn, HackerIn, SpieleentwicklerIn, MakerIn, machst “irgendwas mit Medien“ oder bist einfach an Kultur interessiert und hast Lust mit Gleichgesinnten neue Ideen zu entwickeln? Dann bietet Coding da Vinci Süd dir die Chance, mit Kulturinstitutionen in Bayern und Baden-Württemberg in Kontakt zu kommen und gemeinsam den Zugang zu unserem digitalen Kulturerbe neu zu gestalten – mit Apps, Websites, VR/AR-Umsetzungen, interaktiven Installationen, Datenvisualisierungen, hand-on oder anderem Überraschenden.
