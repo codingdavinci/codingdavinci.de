@@ -11,11 +11,11 @@ header_events: true
 		<div class="col-lg-12"><header class="subheader subheader-banderole"> <h2>CODING DA VINCI <span class="cdvs-gelb">SÜD</span></h2>
 			</header>
 		</div>
-	</div>
 	<p>Coding da Vinci, der Kultur-Hackathon für offene Kulturdaten, vernetzt Kultur- und Technikwelt miteinander und zeigt, welche überraschenden Möglichkeiten in offenen Kulturdaten stecken. <br></p>
+	</div>
 
 	<div class="col-lg-6 col-lg-offset-3">
-       <p class="center"><a class="btn btn-primary btn-lg btn-events" href="https://www.xing.com/events/coding-vinci-sud-kick-off-2057724" target="_blank" role="button">Newsletter abonnieren</a></p>
+       <p class="center"><a class="btn btn-primary btn-lg btn-events" href="https://www.xing.com/events/coding-vinci-sud-kick-off-2057724" target="_blank" role="button">Zur Anmeldung fürs Kick-Off</a></p>
      </div>
 
 	<p>Zum ersten Coding Da Vinci Süd werden Kultur- und Bildungseinrichtungen aus Bayern und Baden-Württemberg mit einer bunten Mischung kreativer Köpfe zusammengebracht.</p>
@@ -26,7 +26,6 @@ header_events: true
 	<p><strong>Was passiert bei Coding da Vinci Süd? </strong></p>
 	<p>Bei dem zweitägigen Kick-Off am 6./7. April entwickeln die TeilnehmerInnen in Teams vor Ort Ideen, Projekte und Prototypen. Während ein klassischer Hackathon den Teilnehmern nur wenig Zeit für ihre Projektentwicklung gibt, erstreckt sich Coding da Vinci Süd nach dem Kick-Off über eine Zeitspanne von sechs Wochen. Die Präsentation und Preisverleihung finden am 18. Mai 2019 in der Tafelhalle des KunstKulturQuartiers Nürnberg statt.</p>
 	<p>Alle Ergebnisse des Hackathons – vom Quellcode bis zu Bildern – werden der Öffentlichkeit unter freien Lizenzen (<a href="https://opensource.org/licenses">Open Source</a> bzw. <a href="https://opendefinition.org/licenses/">Open Definition</a>) zur Verfügung gestellt.</p><br>
-
 
 	<section id="Steps" class="steps-section"><!-- Timeline -->
 		<div class="steps-timeline">
@@ -152,7 +151,7 @@ header_events: true
 			{% assign program = site.data.program_sued[0] %}
 
 			<div class="row">
-			  <div class="col-lg-5 col-lg-offset-1">
+			  <div class="col-lg-6 col-lg-offset-3">
 				<div class="programheader">
 				  <h2>{{ program.header }}</h2>
 				</div>
@@ -189,45 +188,13 @@ header_events: true
 				</table>
 			  </div>
 
-			  <div class="col-lg-5">
-				{% assign program = site.data.program_sued[2] %}
-				<div class="programheader">
-				  <h2>{{ program.header }}</h2>
-				</div>
-
-				{% assign program = site.data.program_sued[3] %}
-				<div class="programheader">
-						<h2>{{ program.header }}</h2>
-				</div>
-				<table class="table">
-				  <thead>
-					<tr>
-					  <td class="head" colspan="2">{{ program.title }}</td>
-					</tr>
-				  </thead>
-
-				  {% for entry in program.entries %}
-				  <tr>
-					<td>{{ entry.date | date:"%H:%M"}}</td>
-					<td>{{ entry.content }}</td>
-				  </tr>
-				  {% endfor %}
-				</table>
-
-			  </div>
-			</div>
 		</div> 
 
 <div id="presse" class="container-fluid">
 	<header class="subheader subheader-ausrufer">
 		<h2>Presse</h2>
 	</header>
-	<p>Für das Projekt Coding Da Vinci Sued 2019 macht die Presse- und Öffentlichkeitsarbeit Frau Angelika Schindel.<br><br>
-		KOMMUNIKAT!ION<br>
-		A.Schindel<br>
-		Steinstr. 11<br>
-		81667 München<br>
-		<a href="mailto:A.Schindel@gmx.de">A.Schindel@gmx.de </a>
+	<p> Presse- und Öffentlichkeitsarbeit Coding da Vinci Süd 2019: Angelika Schindel <a href="mailto:A.Schindel@gmx.de">A.Schindel@gmx.de </a>
 	</p>
 	</div>
 
