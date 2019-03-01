@@ -1,0 +1,60 @@
+--- 
+- 
+  entries: 
+    - 
+      content: "Einlass & Anmeldung"
+      date: "2019-04-06 10:00"
+    - 
+      content: "Begrüßung"
+      date: "2019-04-06 11:00"
+    - 
+      content: "One Minute Madness aller Datengeber"
+      date: "2019-04-06 11:30"
+    - 
+      content: "Datenpräsentationen (Sessions parallel)"
+      date: "2019-04-06 12:30"
+    - 
+      content: "Mittagssnack"
+      date: "2019-04-06 14:00"
+    - 
+      content: "Teambuilding & Ideenpitches"
+      date: "2019-04-06 15:00"
+    - 
+      content: "Vorstellung eurer Teams und Projekte"
+      date: "2019-04-06 15:45"
+    - 
+      content: "Abendessen"
+      date: "2019-04-06 18:00"
+    - 
+      content: "Open End bis 22 Uhr"
+      date: "2019-04-06 19:00"
+  style: 1
+  title: "6. April"
+- 
+  entries: 
+    - 
+      content: "Start des Entwicklertags"
+      date: "2019-04-26 10:00"
+    - 
+      content: "Begrüßung"
+      date: "2019-04-26 11:00"
+    - 
+      content: "Arbeiten an den Projekten"
+      date: "2019-04-26 11:15"
+    - 
+      content: 'Input-Sessions (optional)'
+      date: "2019-04-26 11:30"
+    - 
+      content: "Mittagessen"
+      date: "2019-04-26 13:00"
+    - 
+      content: 'Input-Sessions (optional)'
+      date: "2019-04-26 14:00"
+    - 
+      content: "Projektvorstellung & Wrap up"
+      date: "2019-04-26 16:00"
+    - 
+      content: "Ende"
+      date: "2019-04-26 17:00"
+  style: 1
+  title: "7. April"
