@@ -6,3 +6,5 @@ _vendor/
 .sass-cache/
 img/src/
 downloads/src/
+Gemfile
+Gemfile.lock
