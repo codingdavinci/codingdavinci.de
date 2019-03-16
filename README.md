@@ -6,7 +6,7 @@ Source code for the [codingdavinci.de website](https://codingdavinci.de).
 
 Design: [FUK Graphic Design Studio](http://fuklab.org/)
 
-Umsetzung: [Stefan Wehrmeyer](http://stefanwehrmeyer.com)
+Umsetzung: [Stefan Wehrmeyer](http://stefanwehrmeyer.com), Knut Perseke, Marlen Cämmerer
 
 ## Development
 
