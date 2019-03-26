@@ -14,17 +14,17 @@
       content: "Datenpräsentationen (Sessions parallel)"
       date: "2019-04-06 12:30"
     - 
-      content: "Mittagssnack"
+      content: "Mittagssnack & Brainstorming"
       date: "2019-04-06 14:00"
     - 
-      content: "Teambuilding & Ideenpitches"
-      date: "2019-04-06 15:00"
+      content: "Ideenpitches & Teambuilding"
+      date: "2019-04-06 15:30"
     - 
       content: "Vorstellung eurer Teams und Projekte"
-      date: "2019-04-06 15:45"
+      date: "2019-04-06 18:00"
     - 
       content: "Abendessen"
-      date: "2019-04-06 18:00"
+      date: "2019-04-06 18:30"
     - 
       content: "Open End bis 22 Uhr"
       date: "2019-04-06 19:00"
@@ -33,22 +33,19 @@
 - 
   entries: 
     - 
-      content: "Start des Entwicklertags"
+      content: "Begrüßung"
       date: "2019-04-26 10:00"
     - 
-      content: "Begrüßung"
-      date: "2019-04-26 11:00"
-    - 
       content: "Arbeiten an den Projekten"
-      date: "2019-04-26 11:15"
+      date: "2019-04-26 10:15"
     - 
-      content: 'Input-Sessions (optional)'
+      content: "Input Sessions (optional):<br/><small><ul><li> Vom Reisen und Entdecken - Storytelling rund um Kulturgüter<br/>Astrid Kahmke, Bayerisches Filmzentrum <br/>Ort: Hauptbühne</li><li><a href=\"/events/sued/Workshop_Sprache_Arnold.pdf\">Kleine Einführung in domänenspezifische Sprachen</a><br/> Eckhart Arnold, Bayerische Akademie der Wissenschaften<br/>Ort: Multimedia-Lab</li></ul></small>"
       date: "2019-04-26 11:30"
     - 
       content: "Mittagessen"
       date: "2019-04-26 13:00"
     - 
-      content: 'Input-Sessions (optional)'
+      content: 'Input-Sessions (optional):<br/><small><ul><li>Gamedesign 101<br/>Robin Kocaurek, Games Bavaria <br/>Ort: Hauptbühne</li></ul></small>'
       date: "2019-04-26 14:00"
     - 
       content: "Projektvorstellung & Wrap up"
