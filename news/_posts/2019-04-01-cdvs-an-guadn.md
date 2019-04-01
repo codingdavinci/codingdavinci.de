@@ -38,7 +38,7 @@ Bereits jetzt haben sich 140 Teilnehmer*innen für den Hackathon angemeldet. (Ke
  </p>
 
 <div class="row">
-	<div class="col-lg-4 col-lg-offset-4 col-md-5 col-md-offset-3 col-sm-4">
+	<div class="col-lg-6 col-lg-offset-4 col-md-5 col-md-offset-3 col-sm-4">
        <p class="center"><a class="btn btn-primary btn-lg btn-events" style="background-color: #ffed00; color: #000000;" href="https://www.xing.com/events/coding-vinci-sud-kick-off-2057724" target="_blank" role="button">Zur Anmeldung fürs Kick-Off</a></p>
 	</div>
 </div>     
@@ -50,10 +50,10 @@ Noch ein Hinweis für alle, die von außerhalb Münchens anreisen müssen: Es gi
 Auch neu ist, dass CdV Süd als erster Regionalevent durch die Förderung der Kulturstiftung des Bundes (KSB) dort neu aufgelegten Programm „Kultur Digital“ unterstützt wird. 
 </p>
 <div class="row">
-	<div class="col-lg-4 col-lg-offset-4 col-md-5 col-md-offset-3 col-sm-4 logos">
+	<div class="col-lg-6 col-lg-offset-4 col-md-5 col-md-offset-3 col-sm-4 logos">
 		<p style="margin-top:40px; font-size: 13px;"><strong>Gefördert im Programm Kultur Digital der</strong></p>
 			<a href="https://www.kulturstiftung-des-bundes.de/" target="_blank">
-				<img src="/img/logos/ksb.jpg" class="img-responsive" alt="Kulturstiftung des Bundes">
+				<img src="/img/logos/ksb.jpg" class="img-responsive block-left" alt="Kulturstiftung des Bundes">
 			</a>
     </div>
 </div>
