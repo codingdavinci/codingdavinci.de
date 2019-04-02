@@ -8,7 +8,7 @@ title: 'Kick-Off Coding da Vinci Süd - „An Guadn“'
 image:
     src: '/img/news/2019/kick-off_an-guadn.jpg'
     alt: 'Jetzt anmelden beim Kultur-Hackathon Coding da Vinci Süd'
-    license: '„An guadn" - einer der CdV Süd Datensätze - die Sammlung Monchner Speisekarten. Bild-Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank">CC-BY-SA 4.0</a> Münchener Stadtbibliothek - Monacensia im Hildebrandhaus'
+    license: '„An guadn" - einer der CdV Süd Datensätze - die Sammlung Münchner Speisekarten. Bild-Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank">CC-BY-SA 4.0</a> Münchener Stadtbibliothek - Monacensia im Hildebrandhaus'
 tags:
     - Coding da Vinci Sued
 type: post
