@@ -21,7 +21,7 @@ Das aus 11 Partnern bestehende Veranstalter*innen-Team von CdV Süd hat bei mehr
 Dazu gehören beispielsweise die <a href="/daten/#bstgs">Bayerischen Staatsgemäldesammlungen / Pinakotheken</a> mit dem Parzival-Zyklus des Malers Edward von Steinle (1810–1886), die Kartensammlung des <a href="/daten/#dbmus">DB Museum Nürnberg</a>, das <a href="/daten/#nsdokmuc">Münchener NS-Dokumentationszentrum</a> mit den Ergebnissen der Reichstagswahlen von 1920 bis 1933 in München, die <a href="/daten/#lenbach">Städtische Galerie im Lenbachhaus</a> mit Porträts der „High Society des 19. Jahrhunderts“, die Sammlung Münchner Speisekarten der <a href="/daten/#monacensia">Monacensia im Hildebrandhaus</a> oder die Postsäcke des <a href="/daten/#muk_n">Museums für Kommunikation Nürnberg</a>. Aus Baden-Württemberg steuern unter anderem das <a href="/daten/#landesarchiv-baden-w%C3%BCrttemberg">Landesarchiv Baden-Württemberg</a> und das <a href="/daten/#lmbw">Landesmuseum Württemberg</a> Daten bei. 
 </p>
 <p>
-Alle Datensets stehen wie immer unter einer offenen Lizenz zur Verfügung und sind unter <a href="/daten">https://codingdavinci.de/daten/</a> (Event: Süd 2019) zusammen mit den bereits für die früheren Hackathons geöffneten Daten online. 
+Alle Datensets stehen wie immer unter einer offenen Lizenz zur Verfügung und sind unter <a href="/daten">https://codingdavinci.de/daten/</a> (Event: Süd 2019) zusammen mit den für die früheren Hackathons geöffneten Daten online. 
 </p>
 <p>
 Bereits jetzt haben sich 140 Teilnehmer*innen für den Hackathon angemeldet. (Keine Sorge, Platz ist noch da und die <a href="https://www.xing.com/events/coding-vinci-sud-kick-off-2057724">Online-Anmeldung</a> bis Freitag geöffnet. Danach ist die Registrierung vor Ort noch möglich.) In den vergangenen Jahren war es dem großen ehrenamtlichen Engagement der teilnehmenden CoderInnen zu verdanken, dass auf Basis der bereitgestellten Daten insgesamt <a href="/projects/2018_rm/ANTLITZ.NINJA.html">100 Projekte</a> von Apps bis zu Websites im Rahmen von Coding da Vinci entwickelt wurden. Der Ideenpitch ist daher bei jedem Kick-Off immer der spannendste Moment. 
@@ -47,7 +47,7 @@ Bereits jetzt haben sich 140 Teilnehmer*innen für den Hackathon angemeldet. (Ke
 Noch ein Hinweis für alle, die von außerhalb Münchens anreisen müssen: Es gibt die Möglichkeit, Euch bei den Reisekosten zu unterstützen; meldet Euch dazu bitte bei der Registrierung vor Ort. (Das Budget ist allerdings begrenzt.)
 </p>                
 <p>
-Auch neu ist, dass CdV Süd als erster Regionalevent durch die Förderung der Kulturstiftung des Bundes (KSB) dort neu aufgelegten Programm „Kultur Digital“ unterstützt wird. 
+Auch neu ist, dass CdV Süd als erster Regionalevent im Programm „Kultur Digital“ der Kulturstiftung des Bundes gefördert wird. 
 </p>
 <div class="row">
 	<div class="col-lg-6 col-lg-offset-4 col-md-5 col-md-offset-3 col-sm-4 logos">
