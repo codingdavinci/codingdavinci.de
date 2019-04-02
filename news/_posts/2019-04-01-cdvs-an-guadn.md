@@ -26,12 +26,6 @@ Alle Datensets stehen wie immer unter einer offenen Lizenz zur Verfügung und si
 <p>
 Bereits jetzt haben sich 140 Teilnehmer*innen für den Hackathon angemeldet. (Keine Sorge, Platz ist noch da und die <a href="https://www.xing.com/events/coding-vinci-sud-kick-off-2057724">Online-Anmeldung</a> bis Freitag geöffnet. Danach ist die Registrierung vor Ort noch möglich.) In den vergangenen Jahren war es dem großen ehrenamtlichen Engagement der teilnehmenden CoderInnen zu verdanken, dass auf Basis der bereitgestellten Daten insgesamt <a href="/projects/2018_rm/ANTLITZ.NINJA.html">100 Projekte</a> von Apps bis zu Websites im Rahmen von Coding da Vinci entwickelt wurden. Der Ideenpitch ist daher bei jedem Kick-Off immer der spannendste Moment. 
 </p>
-<div class="row">
-	<div class="col-md-12">
-		<img class="img-responsive center-block image-content" src="/img/news/2019/kick-off_an-guadn_haxorpoda.jpg" alt="Haxorpoda - ein Coding da Vinci Projekt">
-		<p class="image-caption">Ein Coding da Vinci Projekt stellvertretend für viele andere: <a href="/projects/2017/haxorpoda.html#project-name">Projekt Haxorpoda Collective (Berlin 2017)</a></p>
-	</div>
-</div>
 <p>CdV Süd feiert zudem eine internationale Premiere. Denn durch den Mitveranstalter Goethe-Institut organisiert, nimmt erstmal auch eine kleine Gruppe von internationalen Teilnehmer*innen aus Indonesien, Brasilien, Cote d'Ivoire und Senegal an Coding da Vinci Süd teil. Wir sind auch als Gründungspartner von Coding da Vinci sehr gespannt darauf, ob und was sich aus der damit erstmals persönlichen gemeinsamen Arbeit der Datenenthusiast*innen aus dem bundesdeutschen und dem globalen Süden ergibt. 
 </p>
 <p>Wir können alle Hacker*innen, die sich noch nicht zu CdV Süd angemeldet haben, nur ermuntern am 6. April zum Kick off an den Gasteig zu kommen und sich mit allen Menschen, die Interesse am kreativen Umgang und der freien Nachnutzbarkeit von Kulturdaten haben, zu treffen, auszutauschen und gemeinsam Neues zu entwickeln. 
