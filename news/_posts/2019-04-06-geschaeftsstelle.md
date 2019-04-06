@@ -20,12 +20,15 @@ Kein Scherz! Am 1. April 2019 hat die Geschäftsstelle von Coding da Vinci mit S
 Die Geschäftsstelle koordiniert als erste Ansprechpartnerin alle Aktivitäten rund um Coding da Vinci und vernetzt Interessent*innen in den Regionen. Sie übernimmt beratende und administrative Aufgaben für und mit den Veranstalter*innen der regional ausgerichteten Hackathons. Auch datengebende Institutionen sollen hier Hilfestellung bekommen. Zudem soll die Website von CdV weiter ausgebaut und benutzerfreundlicher werden.
 </p>
 <p>
-So erreichen Sie das Geschäftsstellenteam:
-Philippe Genêt (Koordination)
-Tel.: 069 1525-1847
+So erreichen Sie das Geschäftsstellenteam: <br/>
+</p>
+<p>
+Philippe Genêt (Koordination)<br/>
+Tel.: 069 1525-1847<br/>
 E-Mail: p.genet@dnb.de
-
-Andrea Lehr (Assistenz)
-Tel.: 069 1525-1845
+</p>
+<p>
+Andrea Lehr (Assistenz)<br/>
+Tel.: 069 1525-1845<br/>
 E-Mail: a.lehr@dnb.de
 </p>
