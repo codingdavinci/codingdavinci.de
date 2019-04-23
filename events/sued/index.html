@@ -233,7 +233,7 @@ header_events: true
 			</div>
 
 			  <div class="col-lg-5">
-				   {% assign program = site.data.program_ost[2] %}
+				   {% assign program = site.data.program_sued[2] %}
                                 <div class="programheader">
                                   <h2>{{ program.header }}</h2>
                                 </div>
@@ -255,6 +255,29 @@ header_events: true
                                   {% endfor %}
 
                                 </table>
+				   {% assign program = site.data.program_sued[3] %}
+                                <div class="programheader">
+                                  <h2>{{ program.header }}</h2>
+                                </div>
+                                <table class="table">
+                                  <thead>
+                                        <tr>
+                                          <td colspan="2" class="head">{{ program.title }}</td>
+                                        </tr>
+                                  </thead>
+                                  <tr>
+                                        <td>
+                                                <img src="{{ program.image}}" alt="Sprint" />
+                                        </td>
+                                  </tr>
+                                  {% for entry in program.entries %}
+                                  <tr>
+                                        <td>{{ entry.content }}</td>
+                                  </tr>
+                                  {% endfor %}
+
+                                </table>
+
 			</div>
                   </div>
 	<div class="row" style="margin-top: 100px">
