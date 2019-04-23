@@ -80,7 +80,7 @@ header_events: true
 			<div class="steps-two">
 				<img class="steps-img" src="/img/sued/cdv-gelb.png" alt="">
 				<h3 class="steps-name">
-				Kick-Off
+				Kick-Off ✔︎
 				</h3>
 				<p class="steps-description">
 				<b>	6./7. April 2019 <br>
@@ -155,34 +155,9 @@ header_events: true
 		<li><a href="CdV_Sued_Fragenkatalog.pdf">Fragenkatalog zur Auswahl geeigneter Datenbestände für Coding da Vinci</a></li>
 		</ul>
 		<br><p>Bei Fragen können Sie sich jederzeit über <a href="mailto:cdvsued@zd-b.de">cdvsued@zd-b.de</a> bei uns melden.</p>
-		<!-- <p>Es können Bilder und Texte für eine kreative Bearbeitung zur Verfügung gestellt werden, aber auch Sound- und Filmdateien, 3D-Scans, sphärische Bildsequenzen und natürlich viele Metadaten sind für das Event spannend. Alle Daten werden unter freien Lizenzen im <a href="https://codingdavinci.de/daten/">Coding da Vinci Datenportal</a> bereitgestellt und können so von den Teilnehmern <a href="https://codingdavinci.de/projekte/">kreativ genutzt, beliebig remixt, neu kontextualisiert oder anderweitig zum Leben erweckt werden.</a>
-		<p>Coding da Vinci Süd richtet sich an alle Kulturinstitutionen in Bayern und Baden-Württemberg und bezieht neben den Museen, Bibliotheken und Archiven auch gezielt die Sammlungen der Hochschulen mit ein.</p>
-		<p>Bis zum 14. Januar bestand für Datengeber die Möglichkeit sich über <a href="mailto:cdvsued@zd-b.de">cdvsued@zd-b.de</a> anzumelden. Wir freuen uns auf Sie und Ihre Daten!</p>
-
-		<ul>
-		<li><a href="CdV_Sued_Datenworkshop_MUC.pdf">"prepare your data" Workshop München</a><br/></li>
-		<li><a href="CdV_Sued_Datenworkshop_STUTT.pdf">"prepare your data" Workshop Stuttgart</a><br/></li>
-		</ul> -->
 	</div>
 
 
-<!--<div id="termine-infotour" class="container">
-	<header class="subheader subheader-uhr"> <h2>TERMINE DER INFOTOUR 2018</h2>
-	</header>
-		<ul>
-			<li>20.6.2018, 11:00 an der LMU München (Museum für Abgüsse Klassischer Bildwerke, Katharina-von-Bora-Straße 10, 80333 München) in Kooperation mit dem Institut für Klassische Archäologie</li>
-			<li>26.6.2018, 17:00 im Zollhof Nürnberg (ZOLLHOF - Tech Incubator, Kohlenhofstr. 60, 90443 Nürnberg) in Kooperation mit der FAU Erlangen-Nürnberg</li>
-			<li>29.6.2018, 15:00 am Game Innovation Lab der Universität Bayreuth (Universität Bayreuth, Medienwissenschaft, Nürnberger Str. 38, Raum 4.3.11b)</li>
-			<li>5.7.2018, 17:00 im Schloss Hohentübingen (Institut für Klassische Archäologie, Ernst-von-Sieglin-Hörsaal, Burgsteige 11, 72070 Tübingen) in Kooperation mit dem MUT | Museum Universität Tübingen</li>
-			<li>5.10.2018, 10:00 in der Landesstelle für die nichtstaatlichen Museen in Bayern, Alter Hof 2, 80331 München</li>
-			<li><b>28.11.2018 14:00 - 16:00 MFG Medien- und Filmgesellschaft Baden-Württemberg, Breitscheidstraße 4, 70174 Stuttgart.</b></li>
-			<li>11.12.2018 14:00 - 17:00 <a href="https://dhmuc.hypotheses.org/coding-da-vinci-onboarding">Onboarding-Workshop</a> in der Bayerischen Akademie der Wissenschaften, Alfons-Goppel-Str. 11</li>
-		</ul>
-		<header class="subheader"> <h2>TERMINE DER INFOTOUR 2019</h2>
-			</header>
-		<p>Die Infotour für die Teilnehmerinnen/Teilnehmer findet Ende 2018/Anfang 2019 statt. Weitere Informationen folgen.</p>
-	</div>
-	!-->
 
 
 <div id="programm" class="container">
@@ -255,28 +230,23 @@ header_events: true
                                   {% endfor %}
 
                                 </table>
-				   {% assign program = site.data.program_sued[3] %}
-                                <div class="programheader">
-                                  <h2>{{ program.header }}</h2>
-                                </div>
-                                <table class="table">
-                                  <thead>
-                                        <tr>
-                                          <td colspan="2" class="head">{{ program.title }}</td>
-                                        </tr>
-                                  </thead>
-                                  <tr>
-                                        <td>
-                                                <img src="{{ program.image}}" alt="Sprint" />
-                                        </td>
-                                  </tr>
-                                  {% for entry in program.entries %}
-                                  <tr>
-                                        <td>{{ entry.content }}</td>
-                                  </tr>
-                                  {% endfor %}
 
-                                </table>
+				{% assign program = site.data.program_sued[3] %}
+				<table class="table">
+				  <thead>
+					<tr>
+					  <td class="head" colspan="2">{{ program.title }}</td>
+					</tr>
+				  </thead>
+
+				  {% for entry in program.entries %}
+				  <tr>
+					<td>{{ entry.date | date:"%H:%M"}}</td>
+					<td>{{ entry.content }}</td>
+				  </tr>
+				  {% endfor %}
+				</table>
+
 
 			</div>
                   </div>
