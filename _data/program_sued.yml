@@ -60,7 +60,7 @@
 -
   header: "2. Sprint"
   image: "/img/sued/sprint.jpg"
-  style: 2
+  style: 1
   title: "Bis zur Preisverleihung habt ihr 6 Wochen Zeit, um euer Projekt voranzutreiben."
 -
   entries:
@@ -83,7 +83,7 @@
         content: "Preisverleihung"
         date: "2019-05-18 17:00"
     - 
-        content: "Ende der Verantstaltung"
+        content: "Ende der Veranstaltung"
         date: "2019-05-18 18:00"
   style: 1
   title: "18. Mai"
