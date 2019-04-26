@@ -36,6 +36,6 @@ Das Programm im Detail:
 </ul>
 </p>
 <p>
-Coding da Vinci wird gefördert im <a href="https://www.kulturstiftung-des-bundes.de/de/projekte/bild_und_raum/detail/kultur_digital.html"Programm Kultur Digital der Kulturstiftung des Bundes.</a>
+Coding da Vinci wird gefördert im <a href="https://www.kulturstiftung-des-bundes.de/de/projekte/bild_und_raum/detail/kultur_digital.html">Programm Kultur Digital der Kulturstiftung des Bundes.</a>
 </p>
 
