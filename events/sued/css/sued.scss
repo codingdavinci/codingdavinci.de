@@ -4,6 +4,10 @@
 $cdvs-gelb: #ffed00; 
 $cdvs-blue: #0099ff;
 $cdvs-light-blue: #D9F0FF;
+$cdvs-light-green: #b4b150;
+$cdvs-orange: #e1b212;
+/* alternative orange: #e1b51e */
+
 
 .cdvs-gelb {
   color: $cdvs-gelb;
@@ -261,4 +265,11 @@ ul {
 .logos {
   margin-top: 3em;
   margin-bottom: 3em;
+}
+
+/* custom */
+
+/* Preise */
+.additional-text p {
+  margin-left: 0px;
 }
