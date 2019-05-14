@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-cd ../2018_rm
+cd ../2019_sued_test
 
 echo "\n convert all base images to png"
 for file in *.jpg; do; echo ${file}; convert ${file} `basename ${file} .jpg`.png; echo ${file}; done
