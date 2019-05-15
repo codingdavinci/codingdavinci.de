@@ -11,37 +11,21 @@ isLast: false
 "links":
     -
         "class": "website"
-        "link": "https://example.com/"
+        "link": "http://textadventures.co.uk/games/view/wafvlkj26kwjamjxdm3ayw/frankische-reise"
         "text": "Webseite"
-    -
-        "class": "github"
-        "link": "https://github.com/example"
-        "text": "GitHub"
 "data":
-    - "Resource 1"
-    - "Resource 2"
-    - "Resource 3"
+    - "Fränkisches Wörterbuch der Bayerischen Akademie der Wissenschaften"
+    - "Wikipedia"
+    - "Wikimedia"
 "team":
     -
-        "name": "person 1"
-        "contact":
-            "mail": "mailto:person1@example.com"
+        "name": "Nina Brolich"
     -
-        "name": "person 2"
-        "contact":
-            "mail": "mailto:person2@example.com"
+        "name": "Biyanto Rebin"
     -
-        "name": "person 3"
-        "contact":
-            "mail": "mailto:person3@example.com"
-    -
-        "name": "person 4"
-        "contact":
-            "mail": "mailto:person4@example.com"
-    -
-        "name": "person 5"
-        "contact":
-            "mail": "mailto:person5@example.com"
+        "name": "Raisha Abdillah"
            
 ---
-text
+Online verfügbares Gamebook, bei dem man auf einer Reise durch Franken immer wieder mit Fragen zum fränkischen Dialekt konfrontiert wird. 
+<br/><br/>
+Das Game soll eine spielerische (und lustige) Möglichkeit sein, den fränkischen Dialekt näher kennen zu lernen bzw. die eigenen Kenntnisse des Fränkischen zu testen. Das Ganze aber nicht nur im Rahmen eines Quiz, sondern in eine interaktive Story gebettet - das bringt zum einen mehr Spaß an der Sache, zum anderen lernt der Spielende gleichzeitig auch etwas über die größeren Städte in Franken. Gearbeitet haben wir mit Quest, technisch ist das Spiel relativ simpel. Je nach individueller Entscheidung bekommt man ein neues Textsegment angezeigt. Es ist eine Route vorgegeben, trotzdem ergibt sich jeweils eine individuelle Geschichte. Aktuell sind wir nur bis Bayreuth gekommen, doch es sind noch weitere Städte vorgesehen.

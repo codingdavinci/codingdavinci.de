@@ -11,37 +11,40 @@ isLast: false
 "links":
     -
         "class": "website"
-        "link": "https://example.com/"
+        "link": "http://slod.fiz-karlsruhe.de/"
         "text": "Webseite"
     -
         "class": "github"
-        "link": "https://github.com/example"
+        "link": "https://github.com/ISE-FIZKarlsruhe/LinkedStageGraph"
         "text": "GitHub"
 "data":
-    - "Resource 1"
-    - "Resource 2"
-    - "Resource 3"
+    - "Landesarchiv Baden-Württemberg"
+    - "Staatstheater Stuttgart"
+    - "Wikidata"
+    - "Gemeinsame Normdatei (GND)"
 "team":
     -
-        "name": "person 1"
+        "name": "Tabea Tietz"
         "contact":
-            "mail": "mailto:person1@example.com"
+            "mail": "mailto:tabea.tietz@fiz-karlsruhe.de"
+            "twitter": "https://twitter.com/Tabea_T"
     -
-        "name": "person 2"
+        "name": "Kanran Zhou"
         "contact":
-            "mail": "mailto:person2@example.com"
+            "mail": "mailto:Linukaszkr@gmail.com"
     -
-        "name": "person 3"
+        "name": "Jörg Waitelonis"
         "contact":
-            "mail": "mailto:person3@example.com"
+            "mail": "mailto:joerg@yovisto.com"
+            "twitter": "https://twitter.com/yovisto"
     -
-        "name": "person 4"
+        "name": "Paul Felgentreff"
         "contact":
-            "mail": "mailto:person4@example.com"
-    -
-        "name": "person 5"
-        "contact":
-            "mail": "mailto:person5@example.com"
+            "mail": "mailto:paul.felge@pm.me"
            
 ---
-text
+Linked Stage Graph implementiert einen Linked Data basierten Wissensgraphen und darauf aufbauende Visualisierungen für die Aufführungsdaten und Fotografien des Stuttgarter Staatstheaters, bereitgestellt vom Landesarchiv Baden-Württemberg. Die 7.000 schwarz/weiß Fotografien zeigen spannende Momente auf und hinter der Bühne zwischen den 1890er und 1940er Jahren. Dieser Zeitrahmen ist vor allem in Deutschland geprägt von gesellschaftlichen und politischen Umbrüchen, die auch heute noch von maßgeblicher Relevanz sind. Wir finden es wichtig, dass diese Inhalte für interessierte Nutzerinnen einfach explorierbar und verstehbar gemacht werden. Doch erschließt sich dem Laien die archivarische Sichtweise und Systematik kaum, was den Zugang und die Möglichkeit zur Exploration erschwert. 
+<br/><br/>
+Linked Stage Graph bietet einen Ansatz, die Daten so zu strukturieren und zu visualisieren, dass sie sowohl für technische Laien als auch für Expert\*innen auf eine interessante und einfach zugängliche Art und Weise erlebbar gemacht werden. Die Fotografien konnten wir mit Hilfe einer KI-basierten Anwendung automatisch kolorieren und ihnen damit erneut Leben einhauchen. Die verfügbaren Aufführungsmetadaten wurden aus einem proprietären XML-Format nach Linked Data überführt und mit bestehenden Wissensgraphen, wie Wikidata und den Gemeinsamen Normdaten der Deutschen Nationalbibliothek (GND) verknüpft. Das Ergebnis ist der Linked Stage Graph, dessen Inhalte über einen öffentlich verfügbaren SPARQL Endpunkt abgefragt werden können. 
+<br/><br/>
+So können (Linked) Data Enthusiast\*innen komplexe Abfragen auf den vorhandenen Daten stellen und sind eingeladen, daraus eigene spannende Visualisierungen und Anwendungen zu entwickeln und sich mit dem Linked Stage Graph zu vernetzen. Theater-, Fotografie- und Kulturinteressierte haben mit unseren Timeline-Visualisierungen ebenso die Möglichkeit, die Theatergeschichte Stuttgarts aus neuen Perspektiven zu entdecken und Neues zu lernen.

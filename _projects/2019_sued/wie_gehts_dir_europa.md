@@ -11,37 +11,30 @@ isLast: false
 "links":
     -
         "class": "website"
-        "link": "https://example.com/"
+        "link": "https://www.leo-bw.de/wiegehtsdireuropa"
         "text": "Webseite"
     -
         "class": "github"
-        "link": "https://github.com/example"
+        "link": "https://github.com/gerdesque/wiegehtsdireuropa"
         "text": "GitHub"
 "data":
-    - "Resource 1"
-    - "Resource 2"
-    - "Resource 3"
+    - "Landesarchiv Baden-Württemberg: Fotosammlung Willy Pragher"
+    - "Twittertweets"
 "team":
     -
-        "name": "person 1"
-        "contact":
-            "mail": "mailto:person1@example.com"
+        "name": "Agata"
     -
-        "name": "person 2"
-        "contact":
-            "mail": "mailto:person2@example.com"
+        "name": "Anne"
     -
-        "name": "person 3"
-        "contact":
-            "mail": "mailto:person3@example.com"
+        "name": "Gerd"
     -
-        "name": "person 4"
-        "contact":
-            "mail": "mailto:person4@example.com"
-    -
-        "name": "person 5"
-        "contact":
-            "mail": "mailto:person5@example.com"
+        "name": "Veronika"
            
 ---
-text
+Sonntag, 10.30 Uhr - wach, aufgeregt, zukunftsoptimistisch #EUphorisch. Geht´s dir heute auch so, Europa?
+<br/><br/>
+Keine hundert Jahre liegen zwischen den Fotografien von Willy Pragher und unserer twitteraffinen Zeit. Anlässlich der Europawahl 2019 wollen wir die fotografischen Momentaufnahmen des letzten Jahrhunderts mit aktuellen Statements zum Thema EU und Europa von TwitternutzerInnen zusammenbringen und mithilfe eigens kreierter Hashtags den Bildern in Form von Polaroids neue Bedeutungen und Aussagen verleihen. Diese können dann per Sharing-Funktion wieder als Memes in die Twitter- und Instagramkanäle zurückgeschickt und geteilt werden. 
+<br/><br/>
+Unsere Motivation war ganz klar, die Vielfalt und Stimmungen Europas bzw. konkret innerhalb der EU in einer etwas anderen Form darzustellen und eine interaktive Anwendung zu schaffen, mit der NutzerInnen eigene Inhalte kreieren können, aber auch Inhalte anderer neu arrangieren können. Dafür erschienen uns die Bilder Willy Praghers aus der Sammlung des Landesarchivs Baden-Württemberg sehr geeignet. Unser Anliegen ist es, das Projekt EU zu promoten und Menschen indirekt zu motivieren, am 26. Mai wählen zu gehen. 
+<br/><br/>
+Technisch umgesetzt wurde unser Projekt als Single-Page-Application, die mit dem React Framework in JavaScript umgesetzt wurde.
