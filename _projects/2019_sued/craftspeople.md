@@ -7,7 +7,7 @@ isLast: false
 "name": "Craftspeople"
 "tile": "/img/projekte-tiles/2019_sued/craftspeople.png"
 "tile_active": "/img/projekte-tiles/2019_sued/craftspeople-active.png"
-"image": "/img/projekte/craftspeople.jpg"
+"image": "/img/projekte/craftspeople.JPG"
 "links":
     -
         "class": "website"

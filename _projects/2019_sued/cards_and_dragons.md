@@ -7,7 +7,7 @@ isLast: false
 "name": "Cards and Dragons"
 "tile": "/img/projekte-tiles/2019_sued/cards_and_dragons.png"
 "tile_active": "/img/projekte-tiles/2019_sued/cards_and_dragons-active.png"
-"image": "/img/projekte/cards_and_dragons.jpg"
+"image": "/img/projekte/cards_and_dragons.JPG"
 "links":
     -
         "class": "github"
