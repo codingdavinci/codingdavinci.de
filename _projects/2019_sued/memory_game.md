@@ -5,9 +5,9 @@ year: Süd 2019
 isFirst: false
 isLast: false
 "name": "Memory Game"
-"tile": "/img/projekte-tiles/2019_sued/file.png"
-"tile_active": "/img/projekte-tiles/2019_sued/file-active.png"
-"image": "/img/projekte/file.jpg"
+"tile": "/img/projekte-tiles/2019_sued/memory_game.png"
+"tile_active": "/img/projekte-tiles/2019_sued/memory_game-active.png"
+"image": "/img/projekte/memory_game.png"
 "links":
     -
         "class": "website"

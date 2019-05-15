@@ -5,9 +5,9 @@ year: Süd 2019
 isFirst: false
 isLast: false
 "name": "Musel"
-"tile": "/img/projekte-tiles/2019_sued/file.png"
-"tile_active": "/img/projekte-tiles/2019_sued/file-active.png"
-"image": "/img/projekte/file.jpg"
+"tile": "/img/projekte-tiles/2019_sued/musel.png"
+"tile_active": "/img/projekte-tiles/2019_sued/musel-active.png"
+"image": "/img/projekte/musel.png"
 "links":
     -
         "class": "website"
