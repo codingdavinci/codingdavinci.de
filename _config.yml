@@ -8,8 +8,11 @@ sass:
 
 permalink: /news/:year/:month/:day/:title.html
 
-plugins: [jekyll-paginate]
+plugins_dir: [jekyll-paginate]
+# from most recent to oldest:
+# it was: plugins: [jekyll-paginate]
 # it was: gems: [jekyll-paginate]
+gems: [jekyll-paginate]
 
 collections:
   projects :
