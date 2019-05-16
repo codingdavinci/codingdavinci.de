@@ -11,37 +11,29 @@ isLast: false
 "links":
     -
         "class": "website"
-        "link": "https://example.com/"
+        "link": "http://anja-haumann.de/craftspeople/"
         "text": "Webseite"
     -
         "class": "github"
-        "link": "https://github.com/example"
-        "text": "GitHub"
+        "link": "https://bitbucket.org/Anja_H/codingdavinci2019-handwerk/src/default/"
+        "text": "Bitbucket"
 "data":
-    - "Resource 1"
-    - "Resource 2"
-    - "Resource 3"
+    - "Landesmuseum Württemberg"
 "team":
     -
-        "name": "person 1"
+        "name": "Anja Haumann"
         "contact":
-            "mail": "mailto:person1@example.com"
+            "mail": "mailto:anja_haumann@yahoo.de"
     -
-        "name": "person 2"
+        "name": "Holger Becker"
         "contact":
-            "mail": "mailto:person2@example.com"
+            "mail": "mailto:HBXorshift@gmail.com"
     -
-        "name": "person 3"
+        "name": "Alexandra Richter"
         "contact":
-            "mail": "mailto:person3@example.com"
-    -
-        "name": "person 4"
-        "contact":
-            "mail": "mailto:person4@example.com"
-    -
-        "name": "person 5"
-        "contact":
-            "mail": "mailto:person5@example.com"
+            "mail": "mailto:a.richter@agentur-richter.com"
            
 ---
-text
+Das Projekt "Craftspeople" überträgt Lithographien des Landesmuseums Württemberg über "Handwerker\*innen um die Mitte des 19. Jahrhunderts" in eine App des 21. Jahrhunderts. Ziel der historischen Tafeln war es, Kindern die Abläufe und Werkzeuge verschiedener Handwerksberufe nahezubringen. Wir bleiben diesem ursprünglichen Ansatz treu und machen ihn interaktiv, um die Kinder der Gegenwart zu erreichen. Ergänzt wird das historische Ausgangsmaterial durch ein Interview mit einem aktuell arbeitenden Handwerker in seinem Arbeitsumfeld.
+<br/><br/>
+Uns hat das schön gestaltete Ausgangsmaterial und der erklärende Ansatz sehr gefallen. Darüber hinaus hat es uns Freude gemacht, die Traditionslinien heute noch praktizierter Handwerksberufe erfahrbar zu machen. Die App ist nur ein Prototyp: Wir haben uns auf ein Handwerk (Buchbinder) beschränkt. Die App ist aber technisch so gestaltet, dass sie einfach um weitere Handwerke erweitert werden kann, falls daran Interesse besteht.

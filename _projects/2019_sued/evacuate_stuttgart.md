@@ -11,37 +11,37 @@ isLast: false
 "links":
     -
         "class": "website"
-        "link": "https://example.com/"
+        "link": "http://evacuate-stuttgart.de"
         "text": "Webseite"
     -
         "class": "github"
-        "link": "https://github.com/example"
-        "text": "GitHub"
+        "link": "https://gitlab.com/PaulRdy/codingdavincistuttgart"
+        "text": "GitLab"
 "data":
-    - "Resource 1"
-    - "Resource 2"
-    - "Resource 3"
+    - "Stadtarchiv Stuttgart: Luftangriffspläne"
 "team":
     -
-        "name": "person 1"
+        "name": "Paul Redetzky"
         "contact":
-            "mail": "mailto:person1@example.com"
+            "twitter": "https://twitter.com/PaulRdy"         
     -
-        "name": "person 2"
+        "name": "Ivette Schmidt"
         "contact":
-            "mail": "mailto:person2@example.com"
+            "twitter": "http://twitter.com/thebrokenbirdy"
     -
-        "name": "person 3"
+        "name": "Dorian Kirschstein"
         "contact":
-            "mail": "mailto:person3@example.com"
+            "github": "https://gitlab.com/DorianK"
     -
-        "name": "person 4"
+        "name": "Jessica Schreib"
         "contact":
-            "mail": "mailto:person4@example.com"
-    -
-        "name": "person 5"
-        "contact":
-            "mail": "mailto:person5@example.com"
+            "twitter": "http://twitter.com/janyala_draws"
            
 ---
-text
+Mit dem Datensatz der "Destructive Maps" wollen wir ein Spiel erstellen, in dem der/die Spieler\*in so viele Menschen wie möglich retten muss.
+<br/><br/>
+"Evacuate Stuttgart" basiert auf den historischen Luftangriffsplänen aus den Jahren 1940-45, die vom Stadtarchiv Stuttgart zur Verfügung gestellt wurden. Inmitten der insgesamt 52 Bombenhagel, die auf die Stadt niedergingen, hilft der/die Spieler\*in den Bewohner\*innen des virtuellen Stuttgarts bei einem Bombenalarm in den nächstgelegenen Bunker zu fliehen, er/sie setzt Fluchtwege und organisiert nach dem Angriff die Aufräumarbeiten. Die weitgehende Hilflosigkeit gegenüber dem nächsten Angriff macht Überleben durch bestmöglichen Schutz der Zivilbevölkerung zur einzigen Priorität.
+<br/><br/>
+Wir haben uns für den historischen Kartenausschnitt mit der vielsagenden Zahl 10B konzentriert. Dieser Ausschnitt hat das Geschehen rund um den Hauptbahnhof dokumentiert. Hier wissen wir von einem der zahlreichen Schutzbunker, die es in der Stadt gegeben hat, und haben diesen als Anfangsbunker für unser Spiel genommen.
+<br/><br/>
+Umgesetzt haben wir das Spiel mit der Unity Engine. Die Website dahinter ist simples HTML, CSS und ein bisschen JS. Leider ist Evacuate Stuttgart nicht auf mobilen Endgeräten spielbar, allerdings kann man sich die zugehörigen Informationen dazu ansehen – diese sind Responsive.
