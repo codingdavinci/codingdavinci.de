@@ -22,7 +22,7 @@ isLast: false
     -
         "name": "Katrin Krumpholz"
         "contact":
-            "twitter": "http://twitter.com/@katrin.krumpholz"
+            "twitter": "http://twitter.com/@katrinkrumpholz"
     -
         "name": "Ploy Schneider"
     -

@@ -18,8 +18,7 @@ isLast: false
         "link": "https://github.com/ISE-FIZKarlsruhe/LinkedStageGraph"
         "text": "GitHub"
 "data":
-    - "Landesarchiv Baden-Württemberg"
-    - "Staatstheater Stuttgart"
+    - "Landesarchiv Baden-Württemberg: Staatstheater Stuttgart"
     - "Wikidata"
     - "Gemeinsame Normdatei (GND)"
 "team":

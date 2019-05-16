@@ -14,7 +14,7 @@ isLast: false
         "link": "http://textadventures.co.uk/games/view/wafvlkj26kwjamjxdm3ayw/frankische-reise"
         "text": "Webseite"
 "data":
-    - "Fränkisches Wörterbuch der Bayerischen Akademie der Wissenschaften"
+    - "Bayerische Akademie der Wissenschaften"
     - "Wikipedia"
     - "Wikimedia"
 "team":

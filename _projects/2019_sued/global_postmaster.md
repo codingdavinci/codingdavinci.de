@@ -14,7 +14,7 @@ isLast: false
         "link": "https://github.com/sideburns3000/global-postmaster"
         "text": "GitHub"
 "data":
-    - "Museum für Kommunikation Nürnberg"
+    - "Museum für Kommunikation Nürnberg, Museumsstiftung Post und Telekommunikation"
     - "Wikipedia"
 "team":
     -
