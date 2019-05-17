@@ -21,16 +21,12 @@ for file in *.png; do; convert ${file} `basename ${file} .png`-active.png; done
 
 # echo "\n\n make non-active images"
 # for file in *; do; convert -sepia-tone 100% ${file} `basename ${file} -active.png`.png; echo ${file}; done
-# #ffd83d
-# for file in *; do; composite ../conversion/sued_layer.png ${file} `basename ${file} -active.png`.png; echo ${file}; done
 # for file in *; do; convert ${file} `basename ${file} -active.png`.png; done
 
 
 echo "\n\n apply filter to non-active images ; the name remains the same"
 # for file in *[^-active].png; do; convert -sepia-tone 100% ${file} `basename ${file} .png`.png; done
 for file in *[^-active].png; do; convert -fill '#ffd83d' -tint 70% ${file} `basename ${file} .png`.png; done
-# for file in *Original.png; do; convert -sepia-tone 100% -fill '#ffd83d' -tint 70% ${file} `basename ${file} .png`-withSepia.png; done
-# convert -fill '#ffd83d' -tint 70% chamaeleon.png chamaeleon70.png
 
 # create rhombus for both active and non-active by applying a negative of any color, then "subtracting" it by making it transparent
 echo "\n\n add negative"

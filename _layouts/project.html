@@ -73,7 +73,7 @@ slug: projekte
 
                     <p>
                         {{link.text}}
-                        <a href="{{link.link}}"><span class="{{link.class}}-glyph"></span></a>
+                        <a href="{{link.link}}" target="_blank"><span class="{{link.class}}-glyph"></span></a>
                     </p>
                     {% endfor %}
                 </div>
@@ -99,7 +99,7 @@ slug: projekte
                     <p>
                         {{member.name}}
                         {% for contact in member.contact %}
-                            <a href="{{contact[1]}}"><span class="{{contact[0]}}-glyph"></span></a>
+                            <a href="{{contact[1]}}" target="_blank"><span class="{{contact[0]}}-glyph"></span></a>
                         {% endfor %}
                     </p>
                     {% endfor %}
