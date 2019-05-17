@@ -11,7 +11,7 @@ isLast: false
 "links":
     -
         "class": "website"
-        "link": "www.musel.group"
+        "link": "http://www.musel.group"
         "text": "Webseite"
     -
         "class": "github"
@@ -22,7 +22,7 @@ isLast: false
         "link": "https://twitter.com/Musel_group?lang=de"
         "text": "Twitter"    
 "data":
-    - "Bayerische Staatsgemäldesammlung: Neue Pinakothek"
+    - "Bayerische Staatsgemäldesammlungen | Pinakotheken: Online-Sammlung der Bayerischen Staatsgemäldesammlungen"
     - "Wikipedia"
 "team":
     -

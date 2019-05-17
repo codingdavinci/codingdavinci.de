@@ -1,9 +1,9 @@
 ---
-identifier: 118
+identifier: 117
 layout: project
 year: Süd 2019
 isFirst: false
-isLast: true
+isLast: false
 "name": "162 Ways to Die"
 "tile": "/img/projekte-tiles/2019_sued/ways_162_to_die.png"
 "tile_active": "/img/projekte-tiles/2019_sued/ways_162_to_die-active.png"

@@ -18,7 +18,7 @@ isLast: false
         "link": "https://github.com/buccalon/math-with-models"
         "text": "GitHub"
 "data":
-    - "Mathematische Modelle der Universität Tübingen"
+    - "Museum der Universität Tübingen MUT: Dreidimensionale mathematische Modelle"
     - "3D-Modelle"
 "team":
     -

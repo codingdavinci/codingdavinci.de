@@ -14,14 +14,14 @@ isLast: false
         "link": "https://github.com/floriangantner/speisekarten"
         "text": "GitHub"
 "data":
-    - "Portraitsammlung Deutsches Museum"
+    - "Bayerische Akademie der Wissenschaften"
+    - "Deutsches Museum: Porträtdarstellungen aus fünf Jahrhunderten"
     - "Deutsches Spielearchiv Nürnberg"
-    - "Bayerische Akademie der Wissenschaften: Fränkisches Wörterbuch"
-    - "Monacensia im Hildebrandhaus"
     - "Gemeinsame Normdatei (GND)"
+    - "Monacensia im Hildebrandhaus"
+    - "Open Street Map"
     - "Wikidata"
     - "Wikiquote"
-    - "Open Street Map"
 "team":
     -
         "name": "Henrike Horn"
