@@ -13,6 +13,14 @@ isLast: false
         "class": "github"
         "link": "https://github.com/3Dmagic/Stereoskopic"
         "text": "GitHub"
+    -
+        "class": "website"
+        "link": "https://present4d.com/en/virtual-reality-suite/"
+        "text": "present4D VR-Suite (portal key: fmy-ngz)"
+    -
+        "class": "twitter"
+        "link": "https://twitter.com/rplus_v"
+        "text": "Twitter"
 "data":
     - "Münchner Stadtmuseum"
     - "DB Museum"
