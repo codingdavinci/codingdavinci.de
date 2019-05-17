@@ -26,6 +26,9 @@ isLast: false
     - "DB Museum"
     - "Zeppelinmuseum"
     - "Deutsches Museum"
+    - "Stadtmuseum Berlin"
+    - "Freilichtmuseum Hessenpark, Neu-Anspach"
+    - "Komische Oper Berlin"
 "team":
     -
         "name": "Claus"
