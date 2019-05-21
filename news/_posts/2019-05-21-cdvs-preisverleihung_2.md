@@ -8,14 +8,13 @@ title: 'Hochkarätig: CdV Süd punktet mit Projekten auf hohem Niveau'
 image:
     src: '/img/news/2019/cdvsued-gewinner1.jpg'
     alt: ''
-    license: 'Gewinner und Jury fröhlich vereint auf der Bühne des KunstKulturQuartiers. Ganz links das Team von COVER.BOUTIQUE, Jurorin Agnes Lison von Agli-Design (3.v.l.), die „Schmankerl Time Machine“ (4. und 5.v.l.), „163 Ways to die“ (Mitte hinten, 6. und 8. v.r.), die Juroren Fabrizio Palmas (7.v.r.) von straigth labs, Philipp Grammes (3.v.r.) von Bayern 2, Anja Müller vom digiS (5.v.r.) und das Team von „Linked Stage Graph“. Bild-Lizenz <a href="https://creativecommons.org/licenses/by/4.0/deed.de" target="_blank">CC-BY 4.0</a> Coding da Vinci Süd, Fotografin: Diane von Schoen'
+    license: 'Gewinner und Jury fröhlich vereint auf der Bühne des KunstKulturQuartiers. Bild-Lizenz <a href="https://creativecommons.org/licenses/by/4.0/deed.de" target="_blank">CC-BY 4.0</a> Coding da Vinci Süd, Fotografin: Diane von Schoen'
 tags:
     - Coding da Vinci Sued
 type: post
 ---
-
-<p>Da waren sich Jury und Publikum einig: Der Jurypreis „funniest hack“ und der Publikumspreis „everybody’s darling“ ging an das Projektteam von „<a href="../../../../projects/2019_sued/ways_162_to_die.html" target="_blank">162 Ways To Die</a>“. Und trotzdem: Auch die Sympathiewerte für die Teams von der „<a href="../../../../projects/2019_sued/schmankerl_time_machine.html" target="_blank">Schmankerl Time Machine</a>“, die den Preis in der Kategorie „most technical“ einheimsten, für die „best design“-Gewinnerin „<a href="../../../../projects/2019_sued/cover_boutique.html" target="_blank">COVER.BOUTIQUE</a>“ sowie „<a href="../../../../projects/2019_sued/linked_stage_graph.html" target="_blank">Linked Stage Graph</a>“ als „most useful hack“ waren enorm hoch.</p>
-
+<br/>
+<p><span style="font-weight: bolder;">Da waren sich Jury und Publikum einig: Der Jurypreis „funniest hack“ und der Publikumspreis „everybody’s darling“ ging an das Projektteam von „<a href="../../../../projects/2019_sued/ways_162_to_die.html" target="_blank">162 Ways To Die</a>“. Und trotzdem: Auch die Sympathiewerte für die Teams von der „<a href="../../../../projects/2019_sued/schmankerl_time_machine.html" target="_blank">Schmankerl Time Machine</a>“, die den Preis in der Kategorie „most technical“ einheimsten, für die „best design“-Gewinnerin „<a href="../../../../projects/2019_sued/cover_boutique.html" target="_blank">COVER.BOUTIQUE</a>“ sowie „<a href="../../../../projects/2019_sued/linked_stage_graph.html" target="_blank">Linked Stage Graph</a>“ als „most useful hack“ waren enorm hoch.</span></p>
 <p>Insgesamt 18 Projekte waren am Ende der Sprintphase von Coding da Vinci Süd in das Rennen um die Preise in fünf Kategorien gegangen. Alle Projekte bestanden den Praxistest in der Präsentation vor großem Publikum in der Tafelhalle in Nürnberg mit Bravour. Die Apps und Spiele bestachen mit witzigen und kreativen Ansätzen. Einige Anwendungen beeindruckten das Publikum durch ihre aufwendige Technik, für deren Entwicklung sich die Hacker*innen mit Sicherheit einige Nächte um die Ohren geschlagen haben. Auch das Stichwort Nachnutzbarkeit der Daten spielte bei den Vorführungen eine wichtige Rolle.
 
 <p>Nicht von der Jury ausgezeichnet aber in höchst positivem Maße politisch und anregend war die Message von „Wie geht‘s Dir, Europa?“, die mit ihrem Projekt vor allem junge Leute für die Europawahl am 26. Mai begeistern wollen.</p> 
