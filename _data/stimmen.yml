@@ -65,3 +65,38 @@
   url: 'http://www.berlinischegalerie.de/'
   quote: 'Die Anforderungen von Entwicklern erfordern Zeit und Ressourcen, die erst einmal aufgebracht werden müssen. Hier haben wir nicht nur gutes Feedback der Entwickler bekommen, sondern auch tolle Ergebnisse. Das ist eine gute Möglichkeit für Institutionen, um in der digitalen Welt sichtbar zu bleiben.'
   date: 'Coding da Vinci-Partner 2014/15'
+
+
+- name: Luis Moßburger und Katrin Krumpholz
+  img: luis_katrin
+  institute: Teilnehmende, Projekt "Spiele-Safari"
+  quote: 'Toll, dass sich Bibliotheken und andere Institutionen endlich trauen, ihre Daten frei zugänglich zu machen und somit auch als Kulturinstitutionen viel stärker wahrgenommen werden.'
+  date: 'Coding da Vinci Süd 2019'
+
+
+- name: Anne Mühlich und Gerd Müller
+  img: gerd_anne
+  institute: Teilnehmende, Projekt "Wie geht’s dir, Europa?"
+  quote: 'Nächste Woche ist Europa-Wahl. Unser Ziel ist, dass sich vor allem Leute unter 40 Jahren über den spielerischen Umgang mit den Fotos aus dem Willy Pragher-Archiv mit der europäischen Idee auseinandersetzen. Das kann eine tolle Motivation sein, kommenden Sonntag wählen zu gehen.'
+  date: 'Coding da Vinci Süd 2019'
+
+
+- name: Brigitte Döllgast
+  img: goethe_institut
+  institute: Leiterin des Bereichs Bibliotheken in der Zentrale des Goethe-Instituts in München
+  quote: 'Ich bin jetzt schon gespannt auf die nächsten Kultur-Hackathons. Der CdV-Süd war wirklich phantastisch organisiert und das Format wird von Mal zu Mal besser und interessanter. Besonders freue ich mich, dass wir den Coding da Vinci-Ansatz im Jahr 2020 auf die internationale Bühne bringen können. Im Augenblick planen wir Kultur-Hackathons in Brasilien, Indonesien und einem Land der Region Subsahara-Afrika.'
+  date: 'Coding da Vinci Süd 2019'
+
+
+- name: Julian Schulz und Stefanie Schneider
+  img: julian_stefanie
+  institute: Teilnehmende, Projekt "Schmankerl Time Machine"
+  quote: 'Wir wollen unser Projekt langfristig sichtbar und nachnutzbar machen. Sämtliche Abbildungen der Speisekarten sowie die im Projekt entstandenen Daten werden im Forschungsdatenrepositorium der Ludwig-Maximilians-Universität München (OpenData LMU) dauerhaft und mittels einer DOI eindeutig referenzierbar abgelegt.'
+  date: 'Coding da Vinci Süd 2019'
+
+
+- name: Anja Hausmann
+  img: anja_hausmann
+  institute: Teilnehmerin, Projekt "Craftspeople"
+  quote: 'Diese Bilder sind viel zu schön, um nur im Museum zu verbleiben. Das Ausgangsmaterial war so super, dass wir gar nicht aufhören wollten, immer mehr Material und Informationen einzusammeln.'
+  date: 'Coding da Vinci Süd 2019'

@@ -35,6 +35,6 @@ year: Nord 2016
 ---
 Wir dachten, das dies den meisten Menschen so gehen wird. So entstand die Idee die Kupferstiche zu befreien und den Menschen mittels augmented Reality, Quiz und Tonspur zugänglich zu machen.
 
-Die verschiedenen Modi wurden gewählt um unterschiedliche  Interessen und „Zugangskanäle“ anzusprechen. Zielgruppe waren  allgemein alle potentiellen „Museeumsbesucher  mit homoöpathisch dosiertem Kulturinteresse“.
+Die verschiedenen Modi wurden gewählt um unterschiedliche  Interessen und „Zugangskanäle“ anzusprechen. Zielgruppe waren  allgemein alle potentiellen „Museeumsbesucher  mit homöopathisch dosiertem Kulturinteresse“.
 
-Die Thematik „Der Lauf der Welt“ ist mit jedem Bild noch aktuell. Reichtum, Neid, Hocdehmut… und das tiefe Bedürfnis nach Frieden hat an Brisanz nichts verloren. So entstand der Name „Kupferguerilla – Eigenverantwortung und menschliches Miteinander für einen friedlicheren Lauf der Welt“. Wir wollen mit dem Bilderzyklus informieren, anregen und Kupferstiche aus dem Dunkeln ins Licht holen.
+Die Thematik „Der Lauf der Welt“ ist mit jedem Bild noch aktuell. Reichtum, Neid, Hochmut… und das tiefe Bedürfnis nach Frieden hat an Brisanz nichts verloren. So entstand der Name „Kupferguerilla – Eigenverantwortung und menschliches Miteinander für einen friedlicheren Lauf der Welt“. Wir wollen mit dem Bilderzyklus informieren, anregen und Kupferstiche aus dem Dunkeln ins Licht holen.
