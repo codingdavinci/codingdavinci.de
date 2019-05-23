@@ -34,10 +34,6 @@ isLast: false
         "contact":
             "mail": "mailto:linus.kohl@live.com"
     -
-        "name": "Clara Multerer"
-        "contact":
-            "mail": "mailto:Clara.Multerer@campus.lmu.de"
-    -
         "name": "Alexandra Reisser"
         "contact":
             "mail": "mailto:areisser92@googlemail.com"
