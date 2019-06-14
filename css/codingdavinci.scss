@@ -210,10 +210,21 @@ background: url('../img/header_logo.png') top center no-repeat;
   width: auto;
 }
 
+.logo-container-events-westruhr {
+  @extend .logo-container;
+  background: url('/img/westruhr/header.png') top center no-repeat;
+  background-size: 100% auto;
+  font-size: 1.5em;
+  font-family: Archive;
+  z-index: 99;
+  width: auto;
+}
+
 
 
 .logo-text {
-  padding: 0 35px;
+  padding-right: 35px;
+  padding-left: 35px;
   text-align: center;
 }
 
@@ -367,6 +378,10 @@ a.scroll-hint:hover {
 	  @extend .logo-container-small;
 	  background: url('/img/sued/header_sued_ohne_320.png') top center no-repeat;
 	}
+  .logo-container-events-westruhr {
+    @extend .logo-container-small;
+    background: url('/img/westruhr/header_320.png') top center no-repeat;
+  }
 
 
 	.header-container {
@@ -437,6 +452,9 @@ a.scroll-hint:hover {
   padding-top: 125px;
     }
     .logo-container-events-sued {
+  padding-top: 125px;
+    }
+    .logo-container-events-westruhr {
   padding-top: 125px;
     }
 }
@@ -1710,6 +1728,9 @@ height: 100%;
       padding-top: 38%;
     }
     .logo-container-events-sued {
+      padding-top: 38%;
+    }
+    .logo-container-events-westruhr {
       padding-top: 38%;
     }
 }
