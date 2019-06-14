@@ -1,6 +1,6 @@
 ---
 date: '2019-06-14 09:00'
-author: Andrea Lehr
+author: Philippe Genêt
 layout: post
 published: true
 status: publish
@@ -47,9 +47,9 @@ Grubenweg 5, 44388 Dortmund (<a href="https://goo.gl/maps/bXfV4VkUnMjdWYQZ6" tar
 </p>
 <br/>
 
-<p>Aber auch wer es zum Onboarding nicht schafft, kann Kulturdaten in den kreativen Hackathon einbringen. Wir freuen uns über alle interessierten Kulturinstitutionen, die mit offenen Daten und freien Inhalten bei Coding da Vinci Westfalen-Ruhrgebiet mitmachen möchten. Sie erhalten die Gelegenheit, Ihre Daten beim Kick-Off im LWL-Industriemuseum Zeche Zollern am 12.-13. Oktober 2019 der Entwickler*innen-Community zu präsentieren und gemeinsam mit ihr Ideen für neue Anwendungen zu erarbeiten.</p>
+<p>Aber auch wer es zum Onboarding nicht schafft, kann Kulturdaten in den kreativen Hackathon einbringen. Wir freuen uns über alle interessierten Kulturinstitutionen, die mit offenen Daten und freien Inhalten bei Coding da Vinci Westfalen-Ruhrgebiet mitmachen möchten. Sie erhalten die Gelegenheit, ihre Daten beim Kick-Off im LWL-Industriemuseum Zeche Zollern am 12.-13. Oktober 2019 der Entwickler*innen-Community zu präsentieren und gemeinsam mit ihr Ideen für neue Anwendungen zu erarbeiten.</p>
 
-<p>Diese werden dann in der folgenden achtwöchigen Sprint-Phase praktisch umgesetzt. Am 6. Dezember 2019 werden alle Ergebnisse zur Preisverleihung feierlich der Öffentlichkeit vorgestellt. Nach wie vor freuen wir uns über weitere Begeisterte und Ihre Datensets!</p>
+<p>Diese werden dann in der folgenden achtwöchigen Sprint-Phase praktisch umgesetzt. Am 6. Dezember 2019 werden alle Ergebnisse zur Preisverleihung feierlich der Öffentlichkeit vorgestellt. Nach wie vor freuen wir uns über weitere Begeisterte und ihre Datensets!</p>
 
 <p>Coding da Vinci – Der Kultur-Hackathon wird gefördert im Programm Kultur Digital der Kulturstiftung des Bundes als gemeinsames Projekt der Deutschen Digitalen Bibliothek, des Forschungs- und Kompetenzzentrums Digitalisierung Berlin (digiS), der Open Knowledge Foundation Deutschland und Wikimedia Deutschland.</p>
 <br/>
@@ -57,5 +57,5 @@ Grubenweg 5, 44388 Dortmund (<a href="https://goo.gl/maps/bXfV4VkUnMjdWYQZ6" tar
 <p></p>
 <img class="img-responsive center" style="max-width: 75%" src="/img/news/2019/cdv-wr-zeche_zollern-maschinenhalle.jpg">
 <p class="image-caption">Maschinenhalle der Zeche Zollern - Förderanlage.<br />
-Bild-Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank">CC BY-SA 4.0</a> Foto: <a href="https://commons.wikimedia.org/wiki/User:Dat_doris">Dat doris</a>
+Bild-Lizenz: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank">CC BY-SA 4.0</a> Foto: <a href="https://commons.wikimedia.org/wiki/User:Dat_doris">Dat doris</a>
 </p>
