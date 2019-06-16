@@ -57,5 +57,5 @@ Grubenweg 5, 44388 Dortmund (<a href="https://goo.gl/maps/bXfV4VkUnMjdWYQZ6" tar
 <p></p>
 <img class="img-responsive center" style="max-width: 75%" src="/img/news/2019/cdv-wr-zeche_zollern-maschinenhalle.jpg">
 <p class="image-caption">Maschinenhalle der Zeche Zollern - Förderanlage.<br />
-Bild-Lizenz: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank">CC BY-SA 4.0</a> Foto: <a href="https://commons.wikimedia.org/wiki/User:Dat_doris">Dat doris</a>
+Bild-Lizenz: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank">CC BY-SA 4.0</a> Foto: <a href="https://commons.wikimedia.org/wiki/User:Dat_doris" target="_blank">Dat doris</a>
 </p>
