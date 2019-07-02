@@ -276,3 +276,12 @@ ul {
 .additional-text p {
   margin-left: 0px;
 }
+
+
+/* Logos */
+#muensterland {
+  @media screen and (max-width: 576px) {
+    max-width: 50%;
+  }
+
+}
