@@ -6,9 +6,9 @@ published: true
 status: publish
 title: 'Call for Data bei Coding da Vinci Westfalen-Ruhrgebiet'
 image:
-    src: '/img/news/2019/cdv-wr-header_text.png'
+    src: '/img/news/2019/cdvwest-call-for-data_klein.jpg'
     alt: ''
-    license: ''
+    license: 'Bild-Lizenz <a href="https://creativecommons.org/licenses/by/4.0/deed.de" target="_blank">CC-BY 4.0</a> (Bild beschnitten) Norwegisches Nationalarchiv, Fotograf: Ragge Strand'
 tags:
     - Coding da Vinci Westfalen-Ruhrgebiet
 type: post
@@ -18,15 +18,14 @@ type: post
 
 <h3>Jetzt Datensatz einreichen!</h3>
 
-<p>Interessierte Kulturinstitutionen können sich jetzt für die Teilnahme an Coding da Vinci Westfalen Ruhrgebiet anmelden – ganz einfach per E-Mail an</p> 
-<div class="row" style="margin-top:15px; margin-bottom:15px;">
+<p>Interessierte Kulturinstitutionen können sich jetzt für die Teilnahme an Coding da Vinci Westfalen Ruhrgebiet anmelden – ganz einfach per E-Mail codingdavinci@lwl.org. Dort erhalten sie auch alle näheren Informationen zum Hackathon.</p> 
+<div class="row" style="margin-top:30px; margin-bottom:30px;">
 	<div class="col-lg-6 col-lg-offset-4">
-		<a class="btn btn-primary btn-lg btn-events" style="background-color: #fda87e; color: #000000;" href="mailto:codingdavinci@lwl.org" target="_blank" role="button">codingdavinci@lwl.org</a>
+		<a class="btn btn-primary btn-lg btn-events" style="background-color: #fda87e; color: #000000;" href="mailto:codingdavinci@lwl.org" target="_blank" role="button">Jetzt Datensatz einreichen!</a>
 	</div>
 </div>
-<p>Dort erhalten sie auch alle näheren Informationen zum Hackathon.</p><br/>
 
-<p>Auf der Kick-Off-Veranstaltung am 12. und 13. im Oktober auf der Zeche Zollern präsentieren die datengebenden Kulturinstitutionen in Kurzvorträgen ihre digitalisierten Schätze – zum Beispiel historische Fotografien, Urkunden oder Landkarten, aber auch Speisekarten, Wörterbücher, Sound- oder Filmdateien. Teilnehmer*innen aus der Programmierer*innen- und Coder*innen-Szene entwickeln daraus mit weiteren kreativen Köpfen Ideen für Online-Spiele, Apps, Websites, Virtual Reality-Anwendungen und andere Visualisierungen. Anschließend werden die Ideen in einer achtwöchigen Arbeitsphase praktisch umgesetzt und die Prototypen am 6. Dezember im Dortmunder U einer fachkundigen Jury vorgestellt. Sie zeichnet die besten Projekte aus.</p><br/>
+<p>Auf der Kick-Off-Veranstaltung am 12. und 13. Oktober auf der Zeche Zollern präsentieren die datengebenden Kulturinstitutionen in Kurzvorträgen ihre digitalisierten Schätze – zum Beispiel historische Fotografien, Urkunden oder Landkarten, aber auch Speisekarten, Wörterbücher, Sound- oder Filmdateien. Teilnehmer*innen aus der Programmierer*innen- und Coder*innen-Szene entwickeln daraus mit weiteren kreativen Köpfen Ideen für Online-Spiele, Apps, Websites, Virtual Reality-Anwendungen und andere Visualisierungen. Anschließend werden die Ideen in einer achtwöchigen Arbeitsphase praktisch umgesetzt und die Prototypen am 6. Dezember im Dortmunder U einer fachkundigen Jury vorgestellt. Sie zeichnet die besten Projekte aus.</p><br/>
 
 <p>Weitere Informationen zum Ablauf des Hackathons:</p>
 <a href="/events/westfalen-ruhrgebiet/">https://codingdavinci.de/events/westfalen-ruhrgebiet/</a>
