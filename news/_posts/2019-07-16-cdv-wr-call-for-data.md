@@ -19,7 +19,7 @@ type: post
 <p>Interessierte Kulturinstitutionen können sich jetzt für die Teilnahme an Coding da Vinci Westfalen Ruhrgebiet anmelden – ganz einfach per E-Mail codingdavinci@lwl.org. Dort erhalten sie auch alle näheren Informationen zum Hackathon.</p> 
 <div class="row" style="margin-top:30px; margin-bottom:30px;">
 	<div style="text-align:center">
-		<a class="btn btn-primary btn-lg btn-events" style="background-color: #fda87e; color: #000000;" href="mailto:codingdavinci@lwl.org" target="_blank" role="button">Jetzt Datensatz einreichen!</a>
+		<a class="btn btn-primary btn-lg btn-events" style="background-color: #fda87e; color: #000000; font-weight: bold;" href="mailto:codingdavinci@lwl.org" target="_blank" role="button">Jetzt Datensatz einreichen!</a>
 	</div>
 </div>
 
