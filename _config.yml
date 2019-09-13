@@ -9,7 +9,7 @@ sass:
 permalink: /news/:year/:month/:day/:title.html
 
 plugins_dir: [jekyll-paginate]
-# plugins: [jekyll-paginate]
+plugins: [jekyll-paginate]
 gems: [jekyll-paginate]
 
 collections:
