@@ -2016,3 +2016,19 @@ $brand-primary: $color-black;
   color:#a4a2a2;
   /* #c6c3c3 */
 }
+
+code {
+  color:grey;
+}
+
+.member_info {
+  font-size: 18px;
+  padding-left: 100px;
+}
+
+.anchor_off {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
