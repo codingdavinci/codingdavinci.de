@@ -124,8 +124,8 @@ Studium der Archäologie (B.A.) und Geowissenschaften (B.Sc.) an der Ruhr-Univer
 	 </div>
 
  <div class=" col-lg-2  col-md-2 jury-profile">
-		 <img src="/img/news/2019/cdvwest-inke_arns_1_c_Anne_Bergner.jpg" alt="Inke Arns" class="img-responsive">
-		 <h5><a href="#inke">Inke Arns</a></h5>
+		 <img src="/img/news/2019/cdvwest-inke_arns_1_c_Anne_Bergner.jpg" alt="Inke Arns | Fotografin: Anne Bergner" class="img-responsive">
+		 <h5><a href="#inke">Inke Arns</a> (Fotografin: Anne Bergner)</h5>
 	 </div>
 
  <div class=" col-lg-2  col-md-2 jury-profile">
