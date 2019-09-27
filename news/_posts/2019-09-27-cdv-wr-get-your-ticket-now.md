@@ -30,4 +30,4 @@ type: post
 	</div>
 </div>
 
-<p><b>Wir freuen uns, euch am 12. und 13. Oktober im „Schloss der Arbeit“ nächste Woche begrüßen zu dürfen.</b></p>
+<p><b>Wir freuen uns, euch am 12. und 13. Oktober im „Schloss der Arbeit“ begrüßen zu dürfen.</b></p>
