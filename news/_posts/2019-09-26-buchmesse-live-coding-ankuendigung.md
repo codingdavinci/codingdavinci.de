@@ -1,6 +1,6 @@
 ---
 date: '2019-09-26 12:00'
-author: Philippe Genêt
+author: Andrea Lehr, Philippe Genêt
 layout: post
 published: true
 status: publish
