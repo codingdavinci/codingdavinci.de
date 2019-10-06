@@ -35,7 +35,7 @@ type: post
 	</tr>                   
 </table>
 <br/>
-<p>Wir werden auch nächste Tagen noch die letzten Datengeber auf unserem Twitter-Account und in den nächsten Wochen Instagram-Account des Industriemuseums posten:<br/>
+<p>In den kommendem Tagen werden wir noch die letzten Datengeber auf unserem Twitter-Account vorstellen sowie in den nächsten Wochen mittels dem Instagram-Account des LWL-Industriemuseums ebenso:<br/>
 <a href="https://twitter.com/cdvwest" target="_blank">https://twitter.com/cdvwest</a><br/>
 <a href="https://www.instagram.com/lwlindustriemuseum" target="_blank">https://www.instagram.com/lwlindustriemuseum</a></p>
 
