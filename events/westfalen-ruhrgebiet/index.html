@@ -171,6 +171,101 @@ header_events: true
 		</div>
 	</div>
 
+	<div id="programm" class="container">
+		<header class="subheader subheader-uhr">
+			<h2>PROGRAMM</h2>
+		</header>
+		
+		<p>Am 6./7. April 2019 fand der Kick-off in der Münchner Stadtbibliothek Am Gasteig statt. Die anwesenden TeilnehmerInnen haben sich an diesem Wochenende zu Teams zusammengefunden, die in der sechswöchigen Sprint-Phase Ideen für mobile Apps, Webseiten, Datenvisualisierungen, Spiele und interaktive Installationen praktisch umsetzen. Die Ergebnisse werden in einer großen Abschlussveranstaltung am 18. Mai in Nürnberg der Öffentlichkeit vorgestellt. Die Jury wird besonders herausragende Projekte prämieren.</p>
+
+		<div class="container" id="schedule">
+			{% assign program = site.data.program_sued[0] %}
+
+		    <div class="row">
+			  	<div class="col-lg-5 col-lg-offset-1">
+					<div class="programheader">
+				  		<h2>{{ program.header }}</h2>
+					</div>
+
+					<table class="table">
+						 	<thead>
+								<tr>
+								  	<td class="head" colspan="2">{{ program.title }}</td>
+								</tr>
+						  	</thead>
+					  		{% for entry in program.entries %}
+					  		<tr>
+								<td>{{ entry.date | date:"%H:%M"}}</td>
+								<td>{{ entry.content }}</td>
+					  		</tr>
+					  		{% endfor %}
+					</table>
+
+					{% assign program = site.data.program_sued[1] %}
+					<table class="table">
+					  	<thead>
+							<tr>
+						  		<td class="head" colspan="2">{{ program.title }}</td>
+							</tr>
+					  	</thead>
+					  	{% for entry in program.entries %}
+					  	<tr>
+							<td>{{ entry.date | date:"%H:%M"}}</td>
+							<td>{{ entry.content }}</td>
+					  	</tr>
+					 	{% endfor %}
+					</table>
+				</div>
+
+				<div class="col-lg-5">
+					{% assign program = site.data.program_sued[2] %}
+	                <div class="programheader">
+	                   	<h2>{{ program.header }}</h2>
+	                </div>
+	                
+	                <table class="table">
+	                    <thead>
+	                        <tr>
+	                            <td colspan="2" class="head">{{ program.title }}</td>
+	                        </tr>
+	                    </thead>
+	                    <tr>
+	                        <td>
+	                            <img src="{{ program.image}}" alt="Sprint" />
+	                        </td>
+	                    </tr>
+	                    {% for entry in program.entries %}
+	                    <tr>
+	                        <td>{{ entry.content }}</td>
+	                    </tr>
+	                    {% endfor %}
+	                </table>
+
+					{% assign program = site.data.program_sued[3] %}
+	                <div class="programheader">
+	                    <h2>{{ program.header }}</h2>
+	                </div>
+	                
+	                <p style="text-align: center"><a href="CdV_Sued_Preisverleihung_Programm.pdf" target="_blank">Programm</a></p>
+					<table class="table">
+					  	<thead>
+							<tr>
+						  		<td class="head" colspan="2">{{ program.title }}</td>
+							</tr>
+					  	</thead>
+
+					  	{% for entry in program.entries %}
+					  	<tr>
+							<td>{{ entry.date | date:"%H:%M"}}</td>
+							<td>{{ entry.content }}</td>
+					  	</tr>
+					  	{% endfor %}
+					</table>
+				</div>
+
+        	</div>
+		</div>
+
 	<!-- Challenge -->
 	<div class="container" id="challenges">
 		<header class="subheader subheader-challenge">
