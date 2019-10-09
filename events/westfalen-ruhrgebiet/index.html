@@ -110,15 +110,7 @@ header_events: true
 		<div> <!-- class="col-lg-12" -->
 			<p style="margin-top:50px;"><strong>KICK-OFF</strong></p>
 			<p>Beim zweitägigen Kick-Off am 12. und 13. Oktober im LWL-Industriemuseum Zeche Zollern entwickeln die Teilnehmer*innen in Teams Ideen, Projekte und Prototypen. Während ein klassischer Hackathon nur wenig Zeit für die Projektentwicklung gibt, erstreckt sich Coding da Vinci Westfalen-Ruhrgebiet nach dem Kick-Off über eine Zeitspanne von acht Wochen.</p> 
-			<p/>
-
-			<div style="margin-top:15px; margin-bottom:15px; text-align: center;">
-				<a class="btn btn-primary btn-lg btn-events" style="background-color: #fda87e; color: #000000;" href="https://t.co/aYqcZQtK1G?amp=1" target="_blank" role="button">Anmeldung als Teilnehmer*in</a>
-				<!--<a class="btn btn-primary btn-lg btn-events" style="background-color: #fda87e; color: #000000;" href="mailto:codingdavinci@lwl.org" target="_blank" role="button">Anmeldung per E-Mail</a>-->
-			</div>
-			<div style="text-align: center;">
-			Anmeldung auch per <a href="mailto:codingdavinci@lwl.org" target="_blank">E-Mail</a> möglich.
-			</div>
+			<p/>	
 		</div> 
 		
 		<div class="inactive-section"> 
@@ -176,17 +168,22 @@ header_events: true
 			<h2>PROGRAMM</h2>
 		</header>
 		
-		<p>Am 6./7. April 2019 fand der Kick-off in der Münchner Stadtbibliothek Am Gasteig statt. Die anwesenden TeilnehmerInnen haben sich an diesem Wochenende zu Teams zusammengefunden, die in der sechswöchigen Sprint-Phase Ideen für mobile Apps, Webseiten, Datenvisualisierungen, Spiele und interaktive Installationen praktisch umsetzen. Die Ergebnisse werden in einer großen Abschlussveranstaltung am 18. Mai in Nürnberg der Öffentlichkeit vorgestellt. Die Jury wird besonders herausragende Projekte prämieren.</p>
+		<p>Am 12./13. Oktober 2019 findet der Kick-off im LWL-Industriemuseum Zeche Zollern in Dortmund statt. Die anwesenden Teilnehmer*innen finden sich an diesem Wochenende zu Teams zusammen, die in der achtwöchigen Sprint-Phase Ideen für mobile Apps, Webseiten, Datenvisualisierungen, Spiele und interaktive Installationen praktisch umsetzen. Die Ergebnisse werden in einer großen Abschlussveranstaltung am 6. Dezember 2019 im Kinosaal des Dortmunder U der Öffentlichkeit vorgestellt. Die Jury wird besonders herausragende Projekte prämieren.</p><br/>
 
-		<div class="container" id="schedule">
-			{% assign program = site.data.program_sued[0] %}
+		<div class="container" id="schedule" style="margin-left: -15px !important;">
 
+			<!-- Kick-off -->
+			{% assign program = site.data.program_west[0] %}
+			<div class="programheader">
+				<h2>{{ program.header }}</h2>
+				<p style="text-align: center; font-size:16px;">Moderation: Kai Heddergott<br/>
+				Graphic Recording: Silvia Dierkes<br/>
+				<a href="cdvwest_kickoff_programm.pdf" target="_blank">Programm als PDF</a></p>
+			</div>
+			
 		    <div class="row">
+		    	<!-- 12. Oktober -->
 			  	<div class="col-lg-5 col-lg-offset-1">
-					<div class="programheader">
-				  		<h2>{{ program.header }}</h2>
-					</div>
-
 					<table class="table">
 						 	<thead>
 								<tr>
@@ -195,13 +192,16 @@ header_events: true
 						  	</thead>
 					  		{% for entry in program.entries %}
 					  		<tr>
-								<td>{{ entry.date | date:"%H:%M"}}</td>
-								<td>{{ entry.content }}</td>
+								<td class="west-schedule-box">{{ entry.date | date:"%H:%M"}}</td>
+								<td class="west-schedule-box">{{ entry.content }}</td>
 					  		</tr>
 					  		{% endfor %}
-					</table>
+					</table>					
+				</div>
 
-					{% assign program = site.data.program_sued[1] %}
+				<!-- 13. Oktober -->
+				<div class="col-lg-5">
+					{% assign program = site.data.program_west[1] %}
 					<table class="table">
 					  	<thead>
 							<tr>
@@ -210,61 +210,36 @@ header_events: true
 					  	</thead>
 					  	{% for entry in program.entries %}
 					  	<tr>
-							<td>{{ entry.date | date:"%H:%M"}}</td>
-							<td>{{ entry.content }}</td>
+							<td class="west-schedule-box">{{ entry.date | date:"%H:%M"}}</td>
+							<td class="west-schedule-box">{{ entry.content }}</td>
 					  	</tr>
 					 	{% endfor %}
 					</table>
 				</div>
-
-				<div class="col-lg-5">
-					{% assign program = site.data.program_sued[2] %}
-	                <div class="programheader">
-	                   	<h2>{{ program.header }}</h2>
-	                </div>
-	                
-	                <table class="table">
-	                    <thead>
-	                        <tr>
-	                            <td colspan="2" class="head">{{ program.title }}</td>
-	                        </tr>
-	                    </thead>
-	                    <tr>
-	                        <td>
-	                            <img src="{{ program.image}}" alt="Sprint" />
-	                        </td>
-	                    </tr>
-	                    {% for entry in program.entries %}
-	                    <tr>
-	                        <td>{{ entry.content }}</td>
-	                    </tr>
-	                    {% endfor %}
-	                </table>
-
-					{% assign program = site.data.program_sued[3] %}
-	                <div class="programheader">
-	                    <h2>{{ program.header }}</h2>
-	                </div>
-	                
-	                <p style="text-align: center"><a href="CdV_Sued_Preisverleihung_Programm.pdf" target="_blank">Programm</a></p>
-					<table class="table">
-					  	<thead>
-							<tr>
-						  		<td class="head" colspan="2">{{ program.title }}</td>
-							</tr>
-					  	</thead>
-
-					  	{% for entry in program.entries %}
-					  	<tr>
-							<td>{{ entry.date | date:"%H:%M"}}</td>
-							<td>{{ entry.content }}</td>
-					  	</tr>
-					  	{% endfor %}
-					</table>
-				</div>
-
         	</div>
+
+        	<!-- Anmeldung -->
+        	<div style="margin-top:40px; margin-bottom:15px; text-align: center;">
+				<a class="btn btn-primary btn-lg btn-events" style="background-color: #fda87e; color: #000000;" href="https://t.co/aYqcZQtK1G?amp=1" target="_blank" role="button">Anmeldung als Teilnehmer*in</a>
+				<!--<a class="btn btn-primary btn-lg btn-events" style="background-color: #fda87e; color: #000000;" href="mailto:codingdavinci@lwl.org" target="_blank" role="button">Anmeldung per E-Mail</a>-->
+			</div>
+			<div style="text-align: center;">Anmeldung auch per <a href="mailto:codingdavinci@lwl.org" target="_blank">E-Mail</a> möglich.
+			</div>
+
+			<!-- Nützliches -->			
+			<div style="margin-top:50px; margin-bottom:15px; text-align: center;">
+   				<p style="font-family:Archive; font-size: 20pt;">Nützliches</p>
+				<p style="font-size:16px;">Bustransfer an beiden Tagen vom Busbahnhof - Rückseite des
+				Dortmunder Hbf. zum LWL-Industriemuseum Zeche Zollern:<br/><br/>
+				<b>Samstag, 12.10.2019</b><br/>
+				09:30h (Abfahrt Busbahnhof - Dortmund Hbf)<br/>
+				20:00 (Abfahrt LWL-Industriemuseum - Zeche Zollern)<br/><br/>
+				<b>Sonntag, 13.10.2019</b><br/>
+				09:30h (Abfahrt Busbahnhof - Dortmund Hbf)<br/>
+				18:00 (Abfahrt LWL-Industriemuseum - Zeche Zollern)</p>
+ 			</div> 			
 		</div>
+	</div>
 
 	<!-- Challenge -->
 	<div class="container" id="challenges">
