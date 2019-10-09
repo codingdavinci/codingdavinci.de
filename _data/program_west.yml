@@ -1,0 +1,67 @@
+--- 
+- 
+  entries: 
+    - 
+      content: "Einlass & Anmeldung"
+      date: "2019-10-12 10:00"
+    - 
+      content: "Pressekonferenz"
+      date: "2019-10-12 10:30"  
+    - 
+      content: "Begrüßung:<br/><small><ul><li>Matthias Löb<br/>LWL-Direktor</li></ul></small>"
+      date: "2019-10-12 11:00"
+    - 
+      content: "Grußworte:<br/><small><ul><li>Marie-Kristin Meier<br/>Kulturstiftung des Bundes</li><li>Lucy Patterson<br/>Wikimedia Deutschland</li><li>Stephan Bartholmei<br/>Deutsche Digitale Bibliothek</li></ul></small>"
+      date: "2019-10-12 11:10"
+    - 
+      content: "One Minute Madness"
+      date: "2019-10-12 11:30"
+    - 
+      content: "Datenpräsentation (Sessions parallel)"
+      date: "2019-10-12 12:30"
+    - 
+      content: "Mittagssnack & Brainstorming"
+      date: "2019-10-12 14:00"
+    - 
+      content: "Ideenpitches & Teambuilding"
+      date: "2019-10-12 15:30"
+    - 
+      content: "Abendessen"
+      date: "2019-10-12 18:00"
+    - 
+      content: "Kurzführung I: Sonderausstellung \"Alles nur geklaut?\""
+      date: "2019-10-12 18:30"
+    - 
+      content: "Kurzführung II: Sonderausstellung \"Alles nur geklaut?\""
+      date: "2019-10-12 19:00"
+  header: "Kick-off"
+  style: 1
+  title: "12. Oktober"
+- 
+  entries: 
+    - 
+      content: "Begrüßung:<br/><small><ul><li>Felix Hartelt<br/>Coding da Vinci Westfalen-Ruhrgebiet</li></ul></small>"
+      date: "2019-10-13 10:00"
+    - 
+      content: "Work on Projects"
+      date: "2019-10-13 10:15"
+    - 
+      content: "Input-Session I (optional):<br/><small><ul><li>Kathrin Strotmann<br/>Apokalypse Münsterland</li><li>Christian Ullenboom<br/>BINARIUM Dortmund</li></ul></small>"
+      date: "2019-10-13 11:30"
+    - 
+      content: "Mittagessen"
+      date: "2019-10-13 13:00"
+    - 
+      content: 'Input-Session II (optional):<br/><small><ul><li>Felix Erdmann<br/>Universität Münster (OpenSenseMap)</li><li>Till Röger<br/>Bundesverwaltungsamt (Kompetenzzentrum OpenData)</li></ul></small>'
+      date: "2019-10-13 14:00"
+    - 
+      content: "Projektpräsentationen"
+      date: "2019-10-13 16:00"
+    - 
+      content: "Inoffizielles Ende"
+      date: "2019-10-13 17:00"
+    - 
+      content: "Live-Hacking - Finissage der Sonderausstellung \"Alles nur geklaut?\""
+      date: "2019-10-13 18:00"  
+  style: 1
+  title: "13. Oktober"
