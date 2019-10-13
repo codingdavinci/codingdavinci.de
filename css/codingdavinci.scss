@@ -233,11 +233,11 @@ a.main-signup {
   text-transform: uppercase;
   background-color: #00BE7B;
   font-size: 18pt;
-  font-weight: normal; // bold;
+  font-weight: normal; /*// bold;*/
   margin: 75px auto 0;
   z-index: 1001;
   width: 320px;
-  min-height: 100px;
+  /*min-height: 100px;*/ /*depends on length of text */
   display: block;
   color: $color-black;
   font-family: "Archive";
@@ -2029,6 +2029,6 @@ code {
 .anchor_off {
     display: block;
     position: relative;
-    top: -250px;
+    top: -300px;
     visibility: hidden;
 }
