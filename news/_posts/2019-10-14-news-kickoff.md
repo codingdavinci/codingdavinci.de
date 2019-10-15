@@ -33,7 +33,7 @@ type: post
 
 <h4>Neu: Inkubationsförderung</h4>
 
-<p>Nach der One-Minute-Madness überbrachte Stephan Bartholmei, Mitbegründer von Coding da Vinci und hauptberuflich Fachbereichsleiter bei der Deutschen Digitalen Bibliothek, den Teilnehmer*innen die Nachricht, dass es bei CdV Westfalen-Ruhrgebiet zum ersten Mal eine Inkubationsförderung geben wird. Zwar wolle man „nicht mit Geld den Hackathon verderben“, aber das Stipendienmodell, das Gründer, Geschäftsstelle und KSB gemeinsam entwickelt haben, könne dabei helfen, den entstandenen Projekten deutlich mehr Sichtbarkeit und Nachhaltigkeit zu verleihen. Informationen zur Inkubationsförderung gibt es in Kürze auf der CdV-Website.</p>
+<p>Nach der One-Minute-Madness überbrachte Stephan Bartholmei, Mitbegründer von Coding da Vinci und Leiter Produktentwicklung und Innovation bei der Deutschen Digitalen Bibliothek, den Teilnehmer*innen die Nachricht, dass es bei CdV Westfalen-Ruhrgebiet zum ersten Mal eine Inkubationsförderung geben wird. Zwar wolle man „nicht mit Geld den Hackathon verderben“, aber das Stipendienmodell, das Gründer, Geschäftsstelle und KSB gemeinsam entwickelt haben, könne dabei helfen, den entstandenen Projekten deutlich mehr Sichtbarkeit und Nachhaltigkeit zu verleihen. Informationen zur Inkubationsförderung gibt es in Kürze auf der CdV-Website.</p>
 
 <br/>
 <img class="img-responsive center" style="max-width: 75%" src="/img/news/2019/cdvwest-gruppenbild_projektpitch.jpg">
