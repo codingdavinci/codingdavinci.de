@@ -16,7 +16,7 @@ isLast: false
     -
         "class": "github"
         "link": "https://github.com/luismossburger/digitale_safari"
-        "text": "GitHub"
+        "text": "GitHub"    
 "data":
     - "Universitätsbibliothek FAU Erlangen-Nürnberg"
     - "Wikipedia"
