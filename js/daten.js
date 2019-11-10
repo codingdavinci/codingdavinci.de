@@ -1,21 +1,34 @@
 $(document).ready(function () {
-	if(!window.location.hash) {
-  		$('.data-entry').addClass('hidden');
-	}
-	
-
 	var filter = {
 		category: null,
 		type: null,
 		license: null,
-		year: null
+		years: null
 	};
+	var selectedId = 'start';
+	if (window.location.hash) {
+		if (window.location.hash.substr(0, 7) == '#event=') {
+			filter.years = decodeURI(window.location.hash.substr(7)).replace('-', ' ');
+			// upper case first char again
+			filter.years = filter.years[0].toUpperCase() + filter.years.substr(1);
+			console.log(filter);
+		} else {
+			selectedId = window.location.hash.substr(1);
+		}
+	}
+
+	$('.data-entry').map(function () {
+		if (this.id != selectedId) {
+			$(this).addClass('hidden');
+		}
+	});
 	var all_entries = [];
 	var default_entry;
 
 	function scrollToAnchor(aid) {
 		var aTag = $("#" + aid);
 		$('html,body').animate({scrollTop: aTag.offset().top - 50}, 'slow');
+		window.location.hash = aid;
 	}
 
 	function buildEntryList() {
@@ -80,6 +93,16 @@ $(document).ready(function () {
 				entry.region.push($(e).text());
 			});
 
+			if (filter.years && entry.years.indexOf(filter.years) < 0) {
+				return;
+			}
+			if (filter.types && entry.types.indexOf(filter.types) < 0) {
+				return;
+			}
+			if (filter.licenses && entry.licenses.indexOf(filter.licenses) < 0) {
+				return;
+			}
+
 			if (entry.id !== 'start')
 				all_entries.push(entry);
 		});
@@ -105,10 +128,8 @@ $(document).ready(function () {
 			return 0;
 		});
 		var htm = list.map(function (entry) {
-			console.log(entry);
-			return '<a href value="' + entry + '" class="label label-' + labeltype + '">' + entry + '</a>';
+			return '<a href value="' + entry + '" class="label label-' + labeltype + (filter[mode] == entry ? ' active' : '') + '">' + entry + '</a>';
 		}).join(' – ');
-		console.log(htm);
 		$(".nav-filter-" + mode).html(htm);
 		//toggle filter properties
 		$(".nav-filter-" + mode + " a").click(function (e) {
@@ -121,29 +142,34 @@ $(document).ready(function () {
 			if (val) {
 				$(e.currentTarget).addClass('active');
 			}
+			// rebuild filter list when changing filters
+			all_entries = [];
+			collectEntries();
+			mode != 'types' && fillFilter('types', 'info');
+			mode != 'licenses' && fillFilter('licenses', 'danger');
 			buildEntryList();
+
+			if (mode == 'years') {
+				window.location.hash = val ? '#event=' + val.toLowerCase().replace(' ', '-') : '';
+			}
+
 			e.stopPropagation();
 			return false;
 		});
 	}
 
 	collectEntries();
-	fillFilter('categories', 'default');
+	//fillFilter('categories', 'default');
 	fillFilter('types', 'info');
 	fillFilter('licenses', 'danger');
 	fillFilter('years', 'warning');
-	fillFilter('region', 'primary');
+	//fillFilter('region', 'primary');
 	
 	//HACK: Set filter for 2015
 //	filter['years'] = '2015';
 	buildEntryList();
 
-
-	//show start
-	$('#start').removeClass('hidden');
-
 	$('#default_entry').addClass('active');
-	console.log($('#default_entry'));
 
 	//expand/collapse filtersection
 	$(".nav-filter-toggle").click(function (e) {
