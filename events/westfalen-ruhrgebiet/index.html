@@ -13,23 +13,32 @@ header_events: true
 		</div>
 	</div>
 
-	<!-- <div class="row" style="margin-top:15px; margin-bottom:15px;">
+
+	<!-- Button -->
+	<div class="row" style="margin-top:15px; margin-bottom:15px;">
 		<div style="text-align: center; margin-bottom:15px;">
-			<a class="btn btn-primary btn-lg btn-events" style="background-color: #fda87e; color: #000000;" href="https://t.co/aYqcZQtK1G?amp=1" target="_blank" role="button">Anmeldung als Teilnehmer*in</a>
+			<a class="btn btn-primary btn-lg btn-events" style="background-color: #fda87e; color: #000000;" href="https://pretix.eu/CdV-Preisverleihung/anmeldung/" target="_blank" role="button">Anmeldung zur Preisverleihung</a>
 		</div>
-		<div style="text-align: center;">
+		<!-- <div style="text-align: center;">
 			Anmeldung auch per <a href="mailto:codingdavinci@lwl.org" target="_blank">E-Mail</a> möglich.
-		</div>
-	</div> -->
+		</div> -->
+	</div>
+
+
 	<!-- Intro -->
 	<div class="row" >
       	<div class="col-lg-12 ">
       		<br/>
 			<p>Coding da Vinci, der Kultur-Hackathon für offene Kulturdaten, vernetzt die Kultur- und die Technikwelt miteinander. Jetzt kommt Coding da Vinci zum ersten Mal in den Westen der Republik und zeigt einmal mehr, welche überraschenden Möglichkeiten in offenen Kulturdaten stecken.</p>
 			
-			<p>Du bist fit in Software-Entwicklung, Grafikanwendungen oder -design, hackst, bist Künstler*in, gestaltest Games, machst in Medien oder bist einfach „nur“ an Kultur interessiert und hast Lust mit Gleichgesinnten neue Ideen zu entwickeln?</p>
+			<!-- <p>Du bist fit in Software-Entwicklung, Grafikanwendungen oder -design, hackst, bist Künstler*in, gestaltest Games, machst in Medien oder bist einfach „nur“ an Kultur interessiert und hast Lust mit Gleichgesinnten neue Ideen zu entwickeln?</p>
 
-			<p>Dann bietet Coding da Vinci Westfalen-Ruhrgebiet dir im Herbst 2019 die Chance, mit Kulturinstitutionen aus deiner Region in Kontakt zu kommen, um neue Zugänge zu unserem digitalen Kulturerbe zu gestalten: mit Apps, Websites, VR/AR-Umsetzungen, interaktiven Installationen, Datenvisualisierungen oder was dir sonst noch einfällt.</p>			
+			<p>Dann bietet Coding da Vinci Westfalen-Ruhrgebiet dir im Herbst 2019 die Chance, mit Kulturinstitutionen aus deiner Region in Kontakt zu kommen, um neue Zugänge zu unserem digitalen Kulturerbe zu gestalten: mit Apps, Websites, VR/AR-Umsetzungen, interaktiven Installationen, Datenvisualisierungen oder was dir sonst noch einfällt.</p> -->
+
+			<p>Wer den Kick-off am 12./13. Oktober 2019 in Dortmund verpasst hat, findet hier die archivierten Livestreams:<br/><br/>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/EHcAtjgu9TA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/oAQ2Gd7M-MY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</p>			
 		</div>
 	</div>
 
@@ -159,18 +168,33 @@ header_events: true
 
 		<div class="container" id="schedule" style="margin-left: -15px !important;">
 
-			<!-- Kick-off -->
-			{% assign program = site.data.program_west[0] %}
-			<div class="programheader">
-				<h2>{{ program.header }}</h2>
-				<p style="text-align: center; font-size:16px;">Moderation: Kai Heddergott<br/>
-				Graphic Recording: Silvia Dierkes<br/>
-				<a href="cdvwest_kickoff_programm.pdf" target="_blank">Programm als PDF</a></p>
-			</div>
+			<div class="row">
+				<!-- Graphic recording -->            
+                {% assign program = site.data.program_west[2] %}
+                <table class="table" align="center" style="max-width: 80%">
+                    <tr>
+                        <td class="west-schedule-box">
+                            <img src="{{ program.image}}" alt="Sprint" /><br/>
+                            <div style="text-align: right; font-size:16px;">Silvia Dierkes, Lizenz: CC BY 4.0</div>                                
+                        </td>
+                    </tr>
+                </table>
+        	</div>
+        	<br/>
 			
 		    <div class="row">
-		    	<!-- 12. Oktober -->
+		    	<!-- left column -->
 			  	<div class="col-lg-5 col-lg-offset-1">
+			  		<!-- Kick-off -->
+					{% assign program = site.data.program_west[0] %}
+					<div class="programheader">
+						<h2>{{ program.header }}</h2>
+						<p style="text-align: center; font-size:16px;">Moderation: Kai Heddergott<br/>
+						Graphic Recording: Silvia Dierkes<br/>
+						<a href="cdvwest_kickoff_programm.pdf" target="_blank">Programm [PDF]</a></p>
+					</div>
+
+			  		<!-- 12. Oktober -->
 					<table class="table">
 						 	<thead>
 								<tr>
@@ -183,11 +207,9 @@ header_events: true
 								<td class="west-schedule-box">{{ entry.content }}</td>
 					  		</tr>
 					  		{% endfor %}
-					</table>					
-				</div>
+					</table>
 
-				<!-- 13. Oktober -->
-				<div class="col-lg-5">
+					<!-- 13. Oktober -->
 					{% assign program = site.data.program_west[1] %}
 					<table class="table">
 					  	<thead>
@@ -201,9 +223,68 @@ header_events: true
 							<td class="west-schedule-box">{{ entry.content }}</td>
 					  	</tr>
 					 	{% endfor %}
+					</table>					
+				</div>
+
+				<!-- right column -->
+				<div class="col-lg-5">
+					<!-- Sprint -->
+					{% assign program = site.data.program_west[2] %}
+                    <div class="programheader">
+                    <h2>{{ program.header }}</h2>
+                    <p style="text-align: center; font-size:16px;">
+						<a href="MEET_UPS_CdV_West.pdf" target="_blank">Termine der Meet-Ups [PDF]</a>
+					</p>
+                    </div>                   
+                   
+                    <!-- Meet-ups -->
+                    {% assign program = site.data.program_west[3] %}
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <td colspan="2" class="head">{{ program.title }}</td>
+                            </tr>
+                        </thead>
+                        {% for entry in program.entries %}
+				  		<tr>
+							<td class="west-schedule-box">{{ entry.date }}</td>
+							<td class="west-schedule-box">{{ entry.content }}</td>
+				  		</tr>
+				  		{% endfor %}
+                    </table>
+                    <br/><br/>
+
+                    <!-- Preisverleihung -->
+					{% assign program = site.data.program_west[4] %}
+                    <div class="programheader">
+                    <h2>{{ program.header }}</h2>                 
+                    <p style="text-align: center; font-size:16px;">Moderation: Kai Heddergott<br/>
+                    	<a href="Preisverleihung_Programm.pdf" target="_blank">Programm [PDF]</a>
+                    </p>
+                    </div>
+
+                    <!-- Button -->
+                    <div style="text-align: center">
+                    	<a class="btn btn-primary btn-lg btn-events" style="background-color: #fda87e; color: #000000;" href="https://pretix.eu/CdV-Preisverleihung/anmeldung/" target="_blank" role="button">Anmeldung</a>
+                    </div>
+				
+					<table class="table">
+				  		<thead>
+							<tr>
+					  			<td class="head" colspan="2">{{ program.title }}</td>
+							</tr>
+				  		</thead>
+				  		{% for entry in program.entries %}
+				  		<tr>
+							<td class="west-schedule-box">{{ entry.date | date:"%H:%M"}}</td>
+							<td class="west-schedule-box">{{ entry.content }}</td>
+				  		</tr>
+				  		{% endfor %}
 					</table>
 				</div>
         	</div>
+
+        	
 
         	<!-- Anmeldung -->
         	<!-- <div style="margin-top:40px; margin-bottom:15px; text-align: center;">
@@ -215,14 +296,7 @@ header_events: true
 			<!-- Nützliches -->			
 			<div style="margin-top:50px; margin-bottom:15px; text-align: center;">
    				<p style="font-family:Archive; font-size: 20pt;">Nützliches</p>
-				<p style="font-size:16px;">Bustransfer an beiden Tagen vom Busbahnhof - Rückseite des
-				Dortmunder Hbf. zum LWL-Industriemuseum Zeche Zollern:<br/><br/>
-				<b>Samstag, 12.10.2019</b><br/>
-				09:30h (Abfahrt Busbahnhof - Dortmund Hbf)<br/>
-				20:00 (Abfahrt LWL-Industriemuseum - Zeche Zollern)<br/><br/>
-				<b>Sonntag, 13.10.2019</b><br/>
-				09:30h (Abfahrt Busbahnhof - Dortmund Hbf)<br/>
-				18:00 (Abfahrt LWL-Industriemuseum - Zeche Zollern)</p>
+				<p style="font-size:16px;">Anfahrt/Anreise zum Dortmunder U: <a href="https://www.dortmunder-u.de/anfahrt" target="_blank">https://www.dortmunder-u.de/anfahrt</a></p>
  			</div> 			
 		</div>
 	</div>
