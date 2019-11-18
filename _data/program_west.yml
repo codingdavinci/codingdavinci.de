@@ -8,10 +8,12 @@
       content: "Pressekonferenz"
       date: "2019-10-12 10:30"  
     - 
-      content: "Begrüßung:<br/><small><ul><li>Matthias Löb<br/>LWL-Direktor</li></ul></small>"
+      # content: "Begrüßung:<br/><small><ul><li>Matthias Löb<br/>LWL-Direktor</li></ul></small>"
+      content: "Begrüßung"
       date: "2019-10-12 11:00"
     - 
-      content: "Grußworte:<br/><small><ul><li>Marie-Kristin Meier<br/>Kulturstiftung des Bundes</li><li>Lucy Patterson<br/>Wikimedia Deutschland</li><li>Stephan Bartholmei<br/>Deutsche Digitale Bibliothek</li></ul></small>"
+      # content: "Grußworte:<br/><small><ul><li>Marie-Kristin Meier<br/>Kulturstiftung des Bundes</li><li>Lucy Patterson<br/>Wikimedia Deutschland</li><li>Stephan Bartholmei<br/>Deutsche Digitale Bibliothek</li></ul></small>"
+      content: "Grußworte"
       date: "2019-10-12 11:10"
     - 
       content: "One Minute Madness"
@@ -34,25 +36,28 @@
     - 
       content: "Kurzführung II: Sonderausstellung \"Alles nur geklaut?\""
       date: "2019-10-12 19:00"
-  header: "Kick-off"
+  header: "1. Kick-off"
   style: 1
   title: "12. Oktober"
 - 
   entries: 
     - 
-      content: "Begrüßung:<br/><small><ul><li>Felix Hartelt<br/>Coding da Vinci Westfalen-Ruhrgebiet</li></ul></small>"
+      # content: "Begrüßung:<br/><small><ul><li>Felix Hartelt<br/>Coding da Vinci Westfalen-Ruhrgebiet</li></ul></small>"
+      content: "Begrüßung"
       date: "2019-10-13 10:00"
     - 
       content: "Work on Projects"
       date: "2019-10-13 10:15"
     - 
       content: "Input-Session I (optional):<br/><small><ul><li>Kathrin Strotmann<br/>Apokalypse Münsterland</li><li>Christian Ullenboom<br/>BINARIUM Dortmund</li></ul></small>"
+      # content: "Input-Session I (optional)"
       date: "2019-10-13 11:30"
     - 
       content: "Mittagessen"
       date: "2019-10-13 13:00"
     - 
       content: 'Input-Session II (optional):<br/><small><ul><li>Felix Erdmann<br/>Universität Münster (OpenSenseMap)</li><li>Till Röger<br/>Bundesverwaltungsamt (Kompetenzzentrum OpenData)</li></ul></small>'
+      # content: 'Input-Session II (optional)'
       date: "2019-10-13 14:00"
     - 
       content: "Projektpräsentationen"
@@ -65,3 +70,74 @@
       date: "2019-10-13 18:00"  
   style: 1
   title: "13. Oktober"
+-
+  header: "2. Sprint"
+  image: "/img/westruhr/sprint.jpg"
+  style: 1
+  title: "Bis zur Preisverleihung habt ihr 8 Wochen Zeit, um euer Projekt voranzutreiben."
+-
+  entries:
+    - 
+      content: "Ruhr-Universität Bochum"
+      date: "23-10-2019"
+    - 
+      content: "Binarium"
+      date: "26-10-2019"
+    - 
+      content: "Ruhr-Universität Bochum"
+      date: "30-10-2019"
+    - 
+      content: "Binarium"
+      date: "02-11-2019"
+    - 
+      content: "FabLab Münster<br/>Ruhr-Universität Bochum"
+      date: "06-11-2019"
+    - 
+      content: "Bar Cutie"
+      date: "07-11-2019"
+    - 
+      content: "FabLab Münster<br/>Ruhr-Universität Bochum"
+      date: "13-11-2019"
+    - 
+      content: "Binarium"
+      date: "16-11-2019"
+    - 
+      content: "FabLab Münster<br/>Ruhr-Universität Bochum"
+      date: "20-11-2019"
+    - 
+      content: "Bar Cutie"
+      date: "21-11-2019"
+    - 
+      content: "Binarium"
+      date: "30-11-2019"  
+  style: 1
+  title: "Meet-Ups"
+-
+  entries:
+    - 
+      content: "Meet & Greet"
+      date: "2019-12-06 11:00"
+    - 
+      content: "Grußworte"
+      date: "2019-12-06 11:30"
+    - 
+      content: "Keynote [EN]:<br/><small><ul><li>Douglas McCarthy<br/>Europeana Foundation / openGLAM (Delft, Niederlande)</li></ul></small>"
+      date: "2019-12-06 11:45"
+    - 
+      content: "Projektpräsentationen der Teams"
+      date: "2019-12-06 12:30"
+    - 
+      content: "Live-Demos der Projekte (inkl. Mittagssnack)"
+      date: "2019-12-06 13:30"
+    - 
+      content: "Preisverleihung"
+      date: "2019-12-06 15:00"
+    - 
+      content: "Offenes Ende"
+      date: "2019-12-06 16:00"
+    - 
+      content: "Kurzführung des HMKV:<br/>Ausstellung \"Artists & Agents\""
+      date: "2019-12-06 16:30"
+  style: 1
+  title: "6. Dezember"
+  header: "3. Preisverleihung"
