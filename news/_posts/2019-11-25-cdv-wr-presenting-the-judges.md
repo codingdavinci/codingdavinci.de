@@ -22,8 +22,7 @@ type: post
 <b>Lucy Patterson</b>
 <p style="font-size: 0.6em; margin-top: -10px">Foto: Uwe Grunwald<p/>
 <p><i>Projektmanagerin bei Wikimedia Deutschland</i><br/>
-gelernte Biologin für OpenData-Projekte im Bereich des Kulturerbes ein<br/>
-und organisierte bereits den Science Hack Day Berlin.
+promovierte Biologin setzt sich für OpenData-Projekte im Bereich des Kulturerbes ein und organisierte bereits den Science Hack Day Berlin.
 </p><br/>
 
 <img style="max-width: 250px" src="/img/westruhr/jury/Stefan_Muehlhofer.jpg">
@@ -31,8 +30,7 @@ und organisierte bereits den Science Hack Day Berlin.
 <b>Dr. Stefan Mühlhofer</b>
 <p style="font-size: 0.6em; margin-top: -10px">Foto: Stefanie Kleemann<p/>
 <p><i>Geschäftsführender Direktor der Kulturbetriebe Dortmund</i><br/>
-Studium der Neueren Geschichte, Alten Geschichte und Klassischen Archäologie,<br/>
-zudem Direktor des Stadtarchivs Dortmund und Kommissarischer Direktor des Dortmunder U.
+Studium der Neueren Geschichte, Alten Geschichte und Klassischen Archäologie, zudem Direktor des Stadtarchivs Dortmund und Kommissarischer Direktor des Dortmunder U.
 </p><br/>
 
 <img style="max-width: 250px" src="/img/westruhr/jury/Claudia_Jericho.jpg">
