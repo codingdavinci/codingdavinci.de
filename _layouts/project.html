@@ -8,125 +8,137 @@ slug: projekte
         <h2>Projekte</h2>
     </header>
 
+    <!-- Intro -->
     <div class="row" id="project">
         <div class="col-lg-8 col-lg-offset-2 project-intro">
             <br/><br/>
-
-            <p>Im Rahmen von Coding da Vinci haben die Teilnehmer/innen in Zusammenarbeit mit den Kulturinstitutionen Projekte entwickelt und diese bei der Preisverleihung vorgestellt. Alle Informationen zu den Projekten haben wir hier gelistet. 
-            </p>
+            <p>Im Rahmen von Coding da Vinci haben die Teilnehmer/innen in Zusammenarbeit mit den Kulturinstitutionen Projekte entwickelt und diese bei der Preisverleihung vorgestellt. Alle Informationen zu den Projekten haben wir hier gelistet.</p>
         </div>
     </div>
 
+    <!-- Hackathon tabs -->
     {% assign years = site.projects | map : 'year'|  uniq %}
-    <div class="row">
+    <div class="hackathon_tabs">
         <div class="col-lg-10 col-lg-offset-1">
             <div class="btn-group btn-group-justified" role="group" aria-label="...">
                 {% for year in years %}
                     {% assign firstProject = site.projects | where: 'year', year | where: 'isFirst', true | first %}
                     <div class="btn-group" role="group">
-                    <a type="button" class="btn btn-default {% if page.year == year %} active {% endif %}"
-                    href="{{firstProject.id}}.html">{{year}}</a>
+                        <a type="button" class="btn btn-default {% if page.year == year %} active {% endif %}" href="{{firstProject.id}}.html">{{year}}</a>
                     </div>
                 {% endfor %}
             </div>
         </div>
     </div>
 
+    <!-- Project / All Projects -->
     {% if page.identifier %}
 
-    <div class="container" id="projects">
-        <div class="row project-navigation">
-            {%if page.isFirst != true %}
-                {% assign prev_id = page.identifier | minus: 1 %}
-                {% assign prev_proj = site.projects | where: 'identifier', prev_id | first %}
-                <a class="project-link" id="previous-project" href="{{prev_proj.id}}.html#project"><span class="glyphicon glyphicon-triangle-left"></span>Vorheriges Projekt</a>
-            {% endif %}
-            {% if page.isLast != true %}
-                {% assign next_id = page.identifier | plus: 1 %}
-                {% assign next_proj = site.projects | where: 'identifier', next_id | first %}
-                <a class="project-link pull-right" id="next-project" href="{{next_proj.id}}.html#project">nächstes Projekt<span class="glyphicon glyphicon-triangle-right"></a>
-            {% endif %}
-        </div>
-        <div class="row">
-            <header class="subheader project-header">
-                <h2 id="project-name" class="project-name">{{page.name}}</h2>
-            </header>
-        </div>
-        <div class="row">
-            <div class="project-image-container">
-                <img src="{{page.image}}" alt="" id="project-image">
+        <!-- Project intro -->
+        <div class="container" id="projects">
+            <!-- vorheriges vs. nächstes Projekt -->
+            <div class="row project-navigation">
+                {%if page.isFirst != true %}
+                    {% assign prev_id = page.identifier | minus: 1 %}
+                    {% assign prev_proj = site.projects | where: 'identifier', prev_id | first %}
+                    <a class="project-link" id="previous-project" href="{{prev_proj.id}}.html#project"><span class="glyphicon glyphicon-triangle-left"></span>vorheriges Projekt</a>
+                {% endif %}
+                {% if page.isLast != true %}
+                    {% assign next_id = page.identifier | plus: 1 %}
+                    {% assign next_proj = site.projects | where: 'identifier', next_id | first %}
+                    <a class="project-link pull-right" id="next-project" href="{{next_proj.id}}.html#project">nächstes Projekt<span class="glyphicon glyphicon-triangle-right"></a>
+                {% endif %}
             </div>
-            <div id="project-description">
-                {{content}}
-            </div>
-        </div>
-    </div>
-    <div class="light-interlude project-interlude">
-        <div class="row">
-            <div class="col-md-offset-2 col-md-3">
-                <p class="monitor-glyph project-footer" />
-                <p class="project-subheader">
-                    Zu finden auf:
-                </p>
-                <div id="projectlinks">
-                    {% for link in page.links %}
 
-                    <p>
-                        {{link.text}}
-                        <a href="{{link.link}}" target="_blank"><span class="{{link.class}}-glyph"></span></a>
-                    </p>
-                    {% endfor %}
+            <!-- Project title -->
+            <div class="row">
+                <header class="subheader project-header">
+                    <h2 id="project-name" class="project-name">{{page.name}}</h2>
+                </header>
+            </div>
+
+            <!-- Project image and description -->
+            <div class="row">
+                <div class="project-image-container">
+                    <img src="{{page.image}}" alt="" id="project-image">
+                </div>
+                <div id="project-description">
+                    {{content}}
                 </div>
             </div>
-            <div class="col-md-3">
-                <p class="dataset-glyph project-footer" />
-                <p class="project-subheader">
-                    Datengrundlage:
-                </p>
-                <div id="data">
-                    {% for data in page.data %}
-                        <p>{{data}}</p>
-                    {% endfor %}
-                </div>
-            </div>
-            <div class="col-md-3">
-                <p class="people-glyph project-footer" />
-                <p class="project-subheader">
-                    Team:
-                </p>
-                <div id="team">
-                    {% for member in page.team %}
-                    <p>
-                        {{member.name}}
-                        {% for contact in member.contact %}
-                            <a href="{{contact[1]}}" target="_blank"><span class="{{contact[0]}}-glyph"></span></a>
+        </div>
+        <!-- End of project intro -->
+
+        <!-- Section: Zu finden auf / Datengrundlage / Team -->
+        <div class="light-interlude project-interlude">
+            <div class="row">
+                
+                <!-- Zu finden auf -->
+                <div class="col-md-offset-2 col-md-3">
+                    <p class="monitor-glyph project-footer" />
+                    <p class="project-subheader">Zu finden auf:</p>
+                    <div id="projectlinks">
+                        {% for link in page.links %}
+                            <p>{{link.text}} <a href="{{link.link}}" target="_blank"><span class="{{link.class}}-glyph"></span></a></p>
                         {% endfor %}
-                    </p>
-                    {% endfor %}
-
+                    </div>
                 </div>
+
+                <!-- Datengrundlage -->
+                <div class="col-md-3">
+                    <p class="dataset-glyph project-footer" />
+                    <p class="project-subheader">Datengrundlage:</p>
+                    <div id="data">
+                        {% for data in page.data %}
+                            <p>{{data}}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <!-- Team -->
+                <div class="col-md-3">
+                    <p class="people-glyph project-footer" />
+                    <p class="project-subheader">Team:</p>
+                    <div id="team">
+                        {% for member in page.team %}
+                            <p>{{member.name}}
+                                {% for contact in member.contact %}
+                                    <a href="{{contact[1]}}" target="_blank"><span class="{{contact[0]}}-glyph"></span></a>
+                                {% endfor %}
+                            </p>
+                        {% endfor %}
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
-    <div class="container other-projects">
-        <div class="row">
-            <header class="subheader">
-                <h2>Alle Projekte {{page.year}}</h2>
-            </header>
+        <!-- End of Section: Zu finden auf / Datengrundlage / Team -->
+
+        <!-- Section: Alle Projekte -->
+        <div class="container other-projects">
+            <div class="row">
+                <header class="subheader">
+                    <h2>Alle Projekte {{page.year}}</h2>
+                </header>
+            </div>
+
+            <div class="row projects-container" id="all-projects" >
+                {% assign projects = site.projects | where : 'year', page.year %}
+                {% for project in projects %}
+                    {{project.tile}}
+                    <div class="project-tile">
+                        <a href="{{project.id}}.html#project-name">
+                            <img src="{{project.tile}}" class="project-tile-img" onmouseover="this.src='{{project.tile_active}}'"
+                                 onmouseout="this.src='{{project.tile}}'"/>
+                            <p>{{project.name}}</p>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
-        <div class="row projects-container" id="all-projects" >
-            {% assign projects = site.projects | where : 'year', page.year %}
-            {% for project in projects %}
-                {{project.tile}}
-                <div class="project-tile">
-                    <a href="{{project.id}}.html#project-name">
-                        <img src="{{project.tile}}" class="project-tile-img" onmouseover="this.src='{{project.tile_active}}'"
-                             onmouseout="this.src='{{project.tile}}'"/>
-                        <p>{{project.name}}</p>
-                    </a>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
+        <!-- End of Section: Alle Projekte -->
+
     {% endif %}
+    <!-- End of Project / All Projects -->
+
 </div>
