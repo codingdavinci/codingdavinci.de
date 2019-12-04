@@ -4,7 +4,7 @@ layout: project
 year: West 2019
 isFirst: false
 isLast: true
-"name": "Interaktive Karte für euregio-history.net"
+"name": "euregio-history-map"
 "image": "/img/projekte/2019_west/euregiohistoryMap.jpg"
 "tile": "/img/projekte-tiles/2019_west/euregiohistoryMap.png"
 "tile_active": "/img/projekte-tiles/2019_west/euregiohistoryMap-active.png"
