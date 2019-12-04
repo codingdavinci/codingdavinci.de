@@ -34,3 +34,5 @@ isLast: false
 Darstellung vorhandener Daten bzgl. der Translozierung in modernen Medien am Beispiel des Bürgerhauses Blomberg im LWL-Freilichtmuseum Detmold. Wie lässt sich das Wissen in den beiden neuen Medien VR und AR unterschiedlich vermitteln?
 
 Unser Ziel ist es, Fassaden von Gebäuden mittels vorhandener Bilddaten zu erkennen und zu augmentieren. Die grundlegenden Technologien und Techniken sollen hier prototypisch anhand des Hauses Blomberg des LWL-Freilichtmuseums Detmold erprobt werden und somit den Weg bereiten für zukünftige Weiterentwicklungen. Der Prototyp soll mittels der Augmentierung die Fachwerkstruktur des Gebäudes visualisieren und dem Nutzer die Translokation des Gebäudes vermitteln.
+
+VR-Teil: <a href="/projects/2019_west/blombergVARsetzen_VR.html" target="_blank">hier</a>.

@@ -26,7 +26,7 @@ isLast: false
 "links":
     -
         "class": "github"
-        "link": "https://dev.azure.com/Tasty-IT/_git/SpinnARei"
+        "link": "https://github.com/olgaakulinushkina/webARei"
         "text": "GitHub"
            
 ---

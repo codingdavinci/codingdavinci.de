@@ -3,7 +3,7 @@ identifier: 129
 layout: project
 year: West 2019
 isFirst: false
-isLast: true
+isLast: false
 "name": "Crawling Feminism"
 "image": "/img/projekte/2019_west/crawling_feminism.jpg"
 "tile": "/img/projekte-tiles/2019_west/crawling_feminism.png"

@@ -39,4 +39,4 @@ Wir haben den VR-Part entwickelt. Dieser richtet sich an Besucher\*innen des LWL
 
 Mithilfe von Fotos und Daten über das Haus aus dem Jahr 1877 haben wir 3D-Modelle konstruiert und diese in eine VR-Szene gesetzt. Im ersten Schritt kann man das Haus noch nicht betreten, gerne würden wir das Projekt noch durch den Innenraum des Hauses erweitern.
 
-Der AR-Teil wurde von BOK+Gärtner entwickelt. 
+Der <a href="/projects/2019_west/blombergVARsetzen_AR.html" target="_blank">AR-Teil</a> wurde von BOK+Gärtner entwickelt. 
