@@ -4,33 +4,46 @@ layout: project
 year: West 2019
 isFirst: false
 isLast: false
-"name": "Crawling Feminism"
-"image": "/img/projekte/2019_west/crawling_feminism.jpg"
-"tile": "/img/projekte-tiles/2019_west/crawling_feminism.png"
-"tile_active": "/img/projekte-tiles/2019_west/crawling_feminism-active.png"
+"name": "f culture"
+"image": "/img/projekte/2019_west/fculture.jpg"
+"tile": "/img/projekte-tiles/2019_west/fculture.png"
+"tile_active": "/img/projekte-tiles/2019_west/fculture-active.png"
 "team":
-    -
-        "name": "Sandra Becker"
-        "contact":
-            "mail": "mailto:mail@sandrabecker01.de"
-    -
-        "name": "Frank Dierolf"
     -
         "name": "Mark"
         "contact":
-            "mail": "mailto:mbal@posteo.de"
+            "mail": "mailto:fculture.codingdavinci@gmail.com"
     -
-        "name": "Roxanne Ruscheinsky"
+        "name": "Sandra"
+        "contact":
+            "mail": "mailto:mail@sandrabecker01.de"
+    -
+        "name": "Frank"
+        "contact":
+            "mail": "mailto:frank_dierolf@web.de"
+    -
+        "name": "Roxanne"
+        "contact":
+            "mail": "mailto:r.ruscheinsky@bikiniartmuseum.com"
 "data":
     - "BikiniARTmuseum"
     - "Marta Herford, Museum für Kunst, Architektur, Design"
+    - "Wikipedia" 
+    - "Wikimedia Commons" 
+    - "zzgl. Quellenangaben auf der Website"
 "links":
     -
         "class": "website"
         "link": "https://fculture.de"
         "text": "Webseite"
+    -
+        "class": "github"
+        "link": "https://github.com/fculture/codingdavinci"
+        "text": "GitHub"
            
 ---
-Eine Ansicht über die Welt und ihre Mode. Der Bikini gilt als Symbol der Freiheit und Gleichberechtigung im internationalen Kontext.
+Im Rahmen des Kultur-Hackathons CodingDaVinci Westfalen/Ruhrgebiet 2019 werden im fculture-Projekt die vom Bikini Art Museum bereitgestellten Quizfragen auf der Website <a href="http://fculture.de" target="_blank">http://fculture.de</a> in einen gesellschaftskritischen Kontext gebracht. Das Titelbild der Website verwendet ein Bild des vom Marta Herford bereitgestellten Datensatzes.
 
-Es werden die ersten Google-Bilder aus unterschiedlichen Ländern der Welt zu den bestimmten Begriffen gecrawlt. Die sortierte Einordnung erfolgt in einer Tabelle.
+Im nächsten Schritt des Projekts solle Live-Daten aus den sozialen Medien eingebunden werden.
+
+Es handelt sich um eine Wordpress-Site.
