@@ -30,8 +30,8 @@ isLast: false
 "links":
     -
         "class": "github"
-        "link": "https://drive.google.com/drive/folders/1tH34alLXtvrpCsRYdppy1lqXTevmPqN1?usp=sharing"
-        "text": "Repository"
+        "link": "https://github.com/Weltenweber/CdV_VR_Blomberg"
+        "text": "Github"
            
 ---
 Das Projekt (Blomberg) VARsetzen setzt sich zusammen aus einem Teil in Virtual Reality (VR) und einem in Augmented Reality (AR). 
