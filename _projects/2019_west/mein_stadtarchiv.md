@@ -51,4 +51,5 @@ Oft können Bürger\*innen wertvolle Zusatzinformationen geben, so dass es eine 
 - Admin-Interface mit Geocoding, Unterstützung mehrerer XML-Formate und damit vieler verschiedener Archive, Bild-Upload u.v.m.: 
 Um Archiven den Datenupload zu vereinfachen, wurde ein Verwaltungs-Interface geschaffen.
 
-Außerdem gab es ein umfangreiches Refactoring. Die Open-Source-Software basiert nun auf Python 3.6+, Flask, ElasticSearch 7, MongoDB 4.2 und kann mit einfachen Mitteln via Docker eingesetzt werden.
+Außerdem gab es ein umfangreiches Refactoring. Die Open-Source-Software basiert nun auf Python 3.6+, Flask, ElasticSearch 7, MongoDB 4.2 und kann mit einfachen Mitteln via Docker eingesetzt werden.<br/><br/>
+Projektpräsentation: <a href="/projekte/2019_west/mein_stadtarchiv.pdf" target="_blank">pdf</a>

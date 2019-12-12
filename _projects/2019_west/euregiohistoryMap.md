@@ -38,4 +38,5 @@ Die euregio-history sammelt Zeitzeugengeschichten im Grenzgebiet Niederlande-Deu
 
 Ein paar Skripte sind nötig, um aus den originären Städtenamen der Metadaten ein Matching auf Wikidata-Entitäten zu erzeugen. Von Wikidata lassen sich dann Geo-Daten holen. Diese werden mit einem Teil der Titeldaten von euregio-history in einer `geojson`-Datei gespeichert. Mittels Javascript wird diese Datei auf einer interaktiven OpenStreetMap dargestellt.
 
-Die Datensets werden mittels Java und einigen Bash-Skripten sowie den offenen Web-APIs von Wikidata erzeugt. Die Webapp basiert auf der Javascript `leaflet`-Library.
+Die Datensets werden mittels Java und einigen Bash-Skripten sowie den offenen Web-APIs von Wikidata erzeugt. Die Webapp basiert auf der Javascript `leaflet`-Library.<br/><br/>
+Projektpräsentation: <a href="/projekte/2019_west/euregiohistoryMap.pdf" target="_blank">pdf</a>

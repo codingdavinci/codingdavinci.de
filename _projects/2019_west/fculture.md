@@ -46,4 +46,5 @@ Im Rahmen des Kultur-Hackathons CodingDaVinci Westfalen/Ruhrgebiet 2019 werden i
 
 Im nächsten Schritt des Projekts solle Live-Daten aus den sozialen Medien eingebunden werden.
 
-Es handelt sich um eine Wordpress-Site.
+Es handelt sich um eine Wordpress-Site.<br/><br/>
+Projektpräsentation: <a href="/projekte/2019_west/fculture.pdf" target="_blank">pdf</a>

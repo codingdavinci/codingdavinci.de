@@ -37,4 +37,5 @@ Dieser Knowledge Graph kann:
 2) Antworten geben auf verschiedene Fragen, wie "Welche Projekte haben bisher Coding da Vinci gewonnen?", "Welche Coding da Vinci-Teilnehmer\*innen findet man eigentlich auf Twitter?" oder "Welcher Datensatz wurde bisher am häufigsten 'ins Rennen' geworfen?".
 3) durch entsprechende Ontologien Teil des semantischen Webs werden.
 
-Der Knowledge Graph ist nicht nur ein Projekt, sondern ein weiterer Datensatz für die nächsten Wettbewerbe – er kann wachsen (bspw. durch Einbindung von Wikidata, der GND, Twitter ...), einheitliche und offene Daten für die Website generieren und prinzipiell auch die wahrscheinlichsten Gewinner vorhersagen! ;) 
+Der Knowledge Graph ist nicht nur ein Projekt, sondern ein weiterer Datensatz für die nächsten Wettbewerbe – er kann wachsen (bspw. durch Einbindung von Wikidata, der GND, Twitter ...), einheitliche und offene Daten für die Website generieren und prinzipiell auch die wahrscheinlichsten Gewinner vorhersagen! ;)<br/><br/>
+Projektpräsentation: <a href="/projekte/2019_west/visualizing_davinci.pdf" target="_blank">pdf</a>
