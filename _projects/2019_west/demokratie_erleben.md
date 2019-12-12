@@ -45,4 +45,5 @@ Unsere Website richtet sich an all jene, die sich spielerisch mit diesem Thema b
 
 Erzählt wird die Geschichte in einer von Florian designten Website. Die von Felix professionell eingesprochenen Texte werden durch kurze Animationsfilme unter der Regie von Anne ergänzt. Das Ganze hat Gerd als single-page application mittels des JavaScript-Frameworks React umgesetzt.
 
-Die Geschichte basiert auf Datensätzen und erweiterten Informationen des Archivs der Arbeiterjugendbewegung und soll die Möglichkeit eines niedrigschwelligen Einstiegs in das Thema bieten. Wir möchten das Projekt gern im Sinne der archivpädagogischen Arbeit weiterentwickeln, sodass es in der Arbeit mit Jugendgruppen genutzt werden kann. 
+Die Geschichte basiert auf Datensätzen und erweiterten Informationen des Archivs der Arbeiterjugendbewegung und soll die Möglichkeit eines niedrigschwelligen Einstiegs in das Thema bieten. Wir möchten das Projekt gern im Sinne der archivpädagogischen Arbeit weiterentwickeln, sodass es in der Arbeit mit Jugendgruppen genutzt werden kann.<br/><br/>
+Projektpräsentation: <a href="/projekte/2019_west/demokratie_erleben.pdf" target="_blank">pdf</a>

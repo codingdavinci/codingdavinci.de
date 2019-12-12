@@ -39,4 +39,5 @@ Dutzenden Zeitzeugengeschichten zu visualisieren. Auf der Suche nach einer Idee 
 
 Die Datensets werden mittels Java und einigen Bash-Skripten sowie den offenen Web-APIs von Wikidata und lobid.org erzeugt. Die Webapp basiert auf Javascript-Programmen von <a href="https://twitter.com/_hanwong" target="_blank">https://twitter.com/_hanwong</a>, die bei CdV Ost 2018 entstanden (<a href="https://github.com/CodeforLeipzig/codingdavinciost2018" target="_blank">https://github.com/CodeforLeipzig/codingdavinciost2018</a>).
 
-Es wäre spannend, weitere Datensets zu erzeugen, für kleinere Städte oder Euregio-Regionen.
+Es wäre spannend, weitere Datensets zu erzeugen, für kleinere Städte oder Euregio-Regionen.<br/><br/>
+Projektpräsentation: <a href="/projekte/2019_west/nwbiQuiz.pdf" target="_blank">pdf</a>

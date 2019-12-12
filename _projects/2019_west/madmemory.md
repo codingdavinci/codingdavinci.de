@@ -39,4 +39,5 @@ Ich dachte mir, das Spielkonzept würde sich prima eignen für die Wörter aus d
 
 Welchen kulturellen Nutzen könnte diese Anwendung nun haben? Man geht zum Teil zu schnell über Dinge hinweg und vergisst sie gleich wieder. Würde man sich  noch an alle Malereien aus der Gemäldesammlung erinnern, die man gerade besucht hat? Das Spiel lädt dazu ein, ein bisschen bewusster und genauer hinzuschauen/hinzuhören. 
 
-Bei der Entwicklung sind mir diverse Erweiterungsmöglichkeiten eingefallen, z.B. bei den Industrie-Sounds in der ersten Runde Bild, Ton und Titel anzeigen, in der zweiten Runde nur den Klang abspielen und in der Auswahlliste am Ende nur die Titel anzeigen. Oder ein Punktevergabe-System (nach Anzahl der Elemente, Anzeigezeit, Ähnlichkeit) als zusätzliche Motivation.
+Bei der Entwicklung sind mir diverse Erweiterungsmöglichkeiten eingefallen, z.B. bei den Industrie-Sounds in der ersten Runde Bild, Ton und Titel anzeigen, in der zweiten Runde nur den Klang abspielen und in der Auswahlliste am Ende nur die Titel anzeigen. Oder ein Punktevergabe-System (nach Anzahl der Elemente, Anzeigezeit, Ähnlichkeit) als zusätzliche Motivation.<br/><br/>
+Projektpräsentation: <a href="/projekte/2019_west/madmemory.pdf" target="_blank">pdf</a>
