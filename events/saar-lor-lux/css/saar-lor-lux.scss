@@ -282,14 +282,39 @@ ul {
 
 
 /* Logos */
-#muensterland {
-  @media screen and (max-width: 576px) {
-    max-width: 50%;
+#cna {
+  @media screen and (max-width: 1200px) {
+    width: 138px;
   }
-
+}
+#hbksaar {
+  @media screen and (max-width: 1200px) {
+    width: 180px;
+  }
+}
+#k8 {
+  @media screen and (max-width: 1200px) {
+    width: 138px;
+  }
+}
+#opensaar {
+  @media screen and (max-width: 1200px) {
+    width: 175px;
+  }
+}
+#bliiida {
+  @media screen and (max-width: 1200px) {
+    width: 165px;
+  }
+}
+#saarlaendischerKulturBesitz {
+  @media screen and (max-width: 1200px) {
+    width: 230px;
+  }
 }
 
 /* Programm */
-.west-schedule-box {
+/* Class noch nicht in html */
+.sll-schedule-box {
   background-color: $cdvsll-apricot2;
 }
