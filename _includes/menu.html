@@ -7,7 +7,7 @@
             </a>
           </div>
 	  <div class="cdv-nav-right">
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav" style="float:right"> <!-- there was an additional class "navbar-right" instead of style -->
             <li class="separator {% if page.slug == 'news' %}active{% endif %}">
               <a href="{{ site.baseurl }}news/">News</a>
             </li>
