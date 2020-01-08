@@ -1,0 +1,320 @@
+---
+---
+//Colors
+$cdvsll-blue: #4780a0;
+$cdvsll-apricot: #ffc09c;
+$cdvsll-apricot2: #f2bb9b;
+$cdvs-gelb: #ffed00; 
+$cdvs-blue: #0099ff;
+$cdvs-light-blue: #D9F0FF;
+$cdvs-orange: #e1b212;
+/* alternative orange: #e1b51e */
+$cdvwr-apricot: #FDA87E;
+$cdvwr-light-apricot: #fed7c4;
+$cdvwr-green: #099B8A;
+$cdvwr-light-green: #b9dbd1;
+
+
+.cdvsll-blue {
+  color: $cdvsll-blue;
+}
+
+
+.logo-container-saar-lor-lux {
+background: url('/img/saar-lor-lux/header.png') top center no-repeat;
+  width: auto;
+  padding-top: 180px;
+  padding-bottom: 14px; 
+  margin: 0 auto;
+  z-index: 1099;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  font-size: 25pt;
+  font-family: Archive;
+}
+
+a,a:link,a:hover,a:visited{color:$cdvsll-apricot2; }
+
+a.scroll-hint {
+  color: $cdvsll-blue;
+}
+
+a.main-signup {
+  padding: 15px 15px 10px;
+  text-transform: uppercase;
+  background-color: $cdvsll-blue;
+  font-size: 18pt;
+  font-weight: normal;
+  margin: 57px auto 0;
+  z-index: 1001;
+  width: 320px;
+  /*min-height: 100px;*/ /*depends on length of text */
+  display: block;
+  color: #000;
+  font-family: "Archive";
+  vertical-align: bottom;
+}
+
+@keyframes pulse {
+  0% {
+    color: $cdvsll-blue;
+  }
+
+  100% {
+    color: black;
+  }
+}
+
+.caption-text{font-size:75%}
+
+.table .head {
+  background: $cdvsll-blue
+}
+
+.table {
+  background-image: linear-gradient(180deg, #D9F0FF 0%, #D9F0FF 100%);
+}
+
+.btn-events, .btn-events:link, .btn-events:hover, .btn-events:visited {
+  font-family: Archive;
+  color: black;
+  background-color: $cdvsll-blue;
+  border-color: #D8413E;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary:after {
+  content: "+";
+  float: left;
+  margin-right: 5px;
+}
+
+details[open] summary:after {
+  content: "-";
+}
+
+summary {
+  cursor: pointer
+}
+
+/* Responsive Semantic Timeline http://codepen.io/kjohnson/pen/azBvaE */
+$break-point: 650px;
+$outline-width: 0;
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+$gray-base:     #999999;
+$brand-primary: $cdvsll-apricot2;
+
+.section-header {
+  color: $brand-primary;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.steps-header {
+  @extend .section-header;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.steps-timeline {
+  outline: 1px dashed rgba(red, $outline-width);
+
+  @media screen and (max-width: $break-point) {
+    border-left: 2px solid $brand-primary;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  @media screen and (min-width: $break-point) {
+    border-top: 2px solid $brand-primary;
+    padding-top: 20px;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.steps-one,
+.steps-two,
+.steps-three,
+.steps-four {
+  outline: 1px dashed rgba(green, $outline-width);
+
+  @media screen and (max-width: $break-point) {
+    margin-left: -25px;
+  }
+
+  @media screen and (min-width: $break-point) {
+    float: left;
+    width: 25%;
+    margin-top: -50px;
+  }
+}
+.steps-one,
+.steps-two,
+.steps-three {
+  @media screen and (max-width: $break-point) {
+    padding-bottom: 40px;
+  }
+}
+.steps-one {
+  @media screen and (min-width: $break-point) {
+    margin-left: -12.25%;
+    margin-right: 7.5%;
+  }
+}
+
+.steps-three {
+  @media screen and (max-width: $break-point) {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: $break-point) {
+    margin-left: 7.5%;
+    margin-right: 0;
+  }
+}
+
+.steps-four {
+  @media screen and (max-width: $break-point) {
+    margin-bottom: -100%;
+  }
+  @media screen and (min-width: $break-point) {
+    margin-left: 7.5%;
+    margin-right: -12.25%;
+  }
+}
+
+
+.steps-img {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  @media screen and (max-width: $break-point) {
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+.steps-name,
+.steps-description {
+  margin: 0;
+}
+.steps-name {
+  @extend .section-header;
+
+  @media screen and (min-width: $break-point) {
+    text-align: center;
+  }
+}
+.steps-description {
+  overflow: hidden;
+
+  @media screen and (min-width: $break-point) {
+    text-align: center;
+  }
+}
+
+/* Adjustments to original Responsive Semantic Timeline */
+.steps-timeline {
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+
+
+/* boxes */
+.challenge-box {
+  h3 {
+    background-color: $cdvsll-blue;
+  }
+  .box {
+    background-color: $cdvsll-apricot2;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+  p {
+    font-size: .9em;
+  }
+}
+
+/* lists */
+ul {
+  margin-top: 1em;
+  li {
+   margin-top:1em;
+  }
+}
+
+
+.logos {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+/* custom */
+
+/* Preise */
+.additional-text p {
+  margin-left: 0px;
+}
+
+
+/* Logos */
+#cna {
+  @media screen and (max-width: 1200px) {
+    width: 138px;
+  }
+}
+#hbksaar {
+  @media screen and (max-width: 1200px) {
+    width: 180px;
+  }
+}
+#k8 {
+  @media screen and (max-width: 1200px) {
+    width: 138px;
+  }
+}
+#opensaar {
+  @media screen and (max-width: 1200px) {
+    width: 175px;
+  }
+}
+#bliiida {
+  @media screen and (max-width: 1200px) {
+    width: 165px;
+  }
+}
+#saarlaendischerKulturBesitz {
+  @media screen and (max-width: 1200px) {
+    width: 230px;
+  }
+}
+
+/* Programm */
+/* Class noch nicht in html */
+.sll-schedule-box {
+  background-color: $cdvsll-apricot2;
+}
