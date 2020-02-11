@@ -18,7 +18,6 @@ type: post
 
 <p>Am Donnerstag, den 6. Februar 2020, entschied eine eigens einberufene Jury, welche Teams in die Förderung aufgenommen werden. Insgesamt hat sie acht Stipendien vergeben. Jede*r Stipendiat*in erhält eine finanzielle monatliche Unterstützung in Höhe von 1.250 Euro über einen Zeitraum von drei Monaten zur Deckung des Lebensunterhalts, während sich der/die Stipendiat*in der Weiterentwicklung des Projekts widmet. Zudem nehmen die Geförderten an Workshops oder Coachings teil, die auf ihre Bedürfnisse zugeschnitten sind.</p><br/>
 <p>Hier stellen wir die Geförderten und ihre Projekte vor:</p>
-<br/>
 
 <h4>Ploy Schneider & Karin Kulhanek</h4>
 <p><a href="https://codingdavinci.de/projects/2019_sued/spiele_safari.html" target="_blank">Spiele-Safari</a></p>
