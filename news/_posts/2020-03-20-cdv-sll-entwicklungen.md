@@ -4,7 +4,7 @@ author: Julia Hartnik
 layout: post
 published: true
 status: publish
-title: 'Coding da Vinci Saar-Lor-Lux 2020: Letzte Entwicklungen'
+title: 'Coding da Vinci Saar-Lor-Lux 2020: Neueste Entwicklungen'
 image:
     src: '/img/news/2020/cdv-sll-logo.jpg'
     alt: ''
