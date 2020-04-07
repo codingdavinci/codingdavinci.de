@@ -1,5 +1,5 @@
 ---
-date: '2020-04-06 12:00'
+date: '2020-04-07 08	:00'
 author: Aude Poilroux
 layout: post
 published: true
@@ -16,7 +16,7 @@ type: post
 <!-- Sprache -->
 <div class="row">
 	<div class="col-lg-2 col-lg-offset-10">
-   		<p style="margin-bottom:15px; font-family:Archive; font-size: 22pt; text-align: right;">DE <a href="../../04/06/cdv-sll-anmeldung_fr.html" style="color: #f2bb9b;">FR</a></p>
+   		<p style="margin-bottom:15px; font-family:Archive; font-size: 22pt; text-align: right;">DE <a href="../../04/07/cdv-sll-anmeldung_fr.html" style="color: #f2bb9b;">FR</a></p>
  	</div>
 </div>
 
@@ -34,7 +34,7 @@ Alle Inhalte der Veranstaltung und die entwickelten Ideenansätze werden im Ansc
 am Samstag, 16.05.2020 + Sonntag, 17.05.2020</b><br/>
 <i>Anmeldung bis zum 08.05.2020 <a href="https://k8-institut.limequery.com/188436?lang=de" target="_blank" style="color: #f2bb9b;">über dieses Anmeldeformular</a></i><br/>
 Auf der Basis der bereitgestellten Datensätzen werden Projektideen entwickelt und Teams finden sich zusammen, um bis zum 4. Juli Prototypen zu realisieren.<br/>
-Am ersten Tag, steht der intensive Austausch per Videokonferenz und Slack untereinander im Vordergrund.<br/>
+Am ersten Tag steht der intensive Austausch untereinander per Videokonferenz und Slack im Vordergrund.<br/>
 Am zweiten Tag arbeiten die Teams mit Unterstützung des lokalen Organisationsteams weiter: Insbesondere werden vier Impulsvorträge, über den Tag verteilt, für Inspiration für die Entwicklung des eigenen Projektes sorgen.</p>
 <br/>
 <p><b>Preisverleihung Coding da Vinci Saar-Lor-Lux<br/>
