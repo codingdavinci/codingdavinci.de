@@ -219,18 +219,37 @@ $brand-primary: $cdvsll-apricot2;
 .steps-description {
   margin: 0;
 }
+
+/* customized steps */
 .steps-name {
+
   @extend .section-header;
 
   @media screen and (min-width: $break-point) {
     text-align: center;
   }
+
+  color: $cdvsll-blue; /*added*/ 
 }
+
+.steps-number {
+  border: 1.5px solid $cdvsll-apricot2; 
+  border-radius: 5px; 
+  padding: 1px 7px; 
+  color: $cdvsll-blue;
+}
+
 .steps-description {
   overflow: hidden;
 
   @media screen and (min-width: $break-point) {
     text-align: center;
+  }
+}
+
+.extra-step {
+  @media screen and (max-width: $break-point) {
+    margin-left: 69px;
   }
 }
 
@@ -332,4 +351,9 @@ ul {
 /* Class noch nicht in html */
 .sll-schedule-box {
   background-color: $cdvsll-apricot2;
+}
+
+/* Word splitting */
+.hyphens {
+   hyphens: auto;
 }
