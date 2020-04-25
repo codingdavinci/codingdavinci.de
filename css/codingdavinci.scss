@@ -71,9 +71,13 @@ a, a:hover, a:visited, a:active {
   color: $color-primary;
 }
 
+a.sll, a.sll:hover, a.sll:visited, a.sll:active {
+  color: #f2bb9b;
+}
+
 a:hover {
   text-decoration: underline;
-  color: $color-primary;
+  /*color: $color-primary;*/
 }
 
 blockquote {
@@ -1587,16 +1591,24 @@ height: 100%;
   border-bottom: 1px solid #e5e5f9;
 }
 
+.data-meta dt {
+  margin-top: 0.6em;
+}
+
+.data-meta-sll {
+  border-bottom: 1px solid #4780a0;
+}
+
+.data-meta-sll dt {
+  margin-top: 0.6em;
+}
+
 .data-content {
   margin-bottom: 1.5em;
 }
 
 .data-meta {
   /*padding-top: 1em;*/
-}
-
-.data-meta dt {
-  margin-top: 0.6em;
 }
 
 .project-tile  img {
