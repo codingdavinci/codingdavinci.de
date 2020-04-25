@@ -357,3 +357,14 @@ ul {
 .hyphens {
    hyphens: auto;
 }
+
+/*links in timeline*/
+
+a.button:hover {
+  background-color: $cdvsll-apricot2;
+  text-decoration: none;
+}
+
+a.button:visited {
+
+}
