@@ -75,11 +75,16 @@ a.main-signup {
   background-image: linear-gradient(180deg, #D9F0FF 0%, #D9F0FF 100%);
 }
 
-.btn-events, .btn-events:link, .btn-events:hover, .btn-events:visited {
+.btn-events, .btn-events:link, .btn-events:visited {
   font-family: Archive;
   color: black;
   background-color: $cdvsll-blue;
-  border-color: #D8413E;
+}
+
+.btn-events:hover {
+  font-family: Archive;
+  color: black;
+  background-color: $cdvsll-apricot2;
 }
 
 summary::-webkit-details-marker {
@@ -356,4 +361,15 @@ ul {
 /* Word splitting */
 .hyphens {
    hyphens: auto;
+}
+
+/*links in timeline*/
+
+a.button:hover {
+  background-color: $cdvsll-apricot2;
+  text-decoration: none;
+}
+
+a.button:visited {
+
 }

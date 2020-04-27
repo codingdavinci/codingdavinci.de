@@ -40,9 +40,9 @@ header_events: true
     	<div class="col-lg-10 col-lg-offset-1">	
 			<section id="Steps" class="steps-section">
 				<div class="steps-timeline">
-					<div class="steps-one">
+					<div class="steps-one inactive-section">
 						<img class="steps-img" src="/img/saar-lor-lux/cdv-blue.png" alt="" style="margin-bottom: 10px;"/>						
-						<h3 class="steps-name"><span class="steps-number">1</span> Prepare your data</h3>
+						<h3 class="steps-name" style="color:#a4a2a2!important;"><a href="#step1"><span class="steps-number" style="color:#a4a2a2!important;">1</span></a> Prepare your data</h3>
 						<p class="steps-description">Workshops für Datengeber:<br>
 							<a href="https://www.kulturbesitz.de/museen/saarlandmuseum-moderne-galerie.html" target="_blank">Moderne Galerie, Saarbrücken</a>,<br/>12.2.2020 | 10:00 - 13:30 (auf DE)<br/>
 							<a href="https://www.bliiida.fr/" target="_blank">BLIIIDA, Metz (F)</a>,<br/>13.2.2020 | 14:00 - 17:30 (auf FR)<br/>
@@ -51,12 +51,12 @@ header_events: true
 
 					<div class="steps-two">
 						<img class="steps-img" src="/img/saar-lor-lux/cdv-blue.png" alt="" style="margin-bottom: 10px;"/>
-						<h3 class="steps-name"><span class="steps-number">2</span> Check the datasets</h3>
+						<h3 class="steps-name"><a href="#step2a" class="button"><span class="steps-number">2</span></a> Check the datasets</h3>
 						<p class="steps-description">30.4.2020, 18:00 - 20:00 <br>
 						Online-Präsentation der Datensätze</p>
 						<br/>
 						<div class="extra-step">
-							<h3 class="steps-name"><span class="steps-number">3</span> Online-Kick-Off</h3>
+							<h3 class="steps-name"><a href="#step2b" class="button"><span class="steps-number">3</span></a> Online-Kick-Off</h3>
 							<p class="steps-description">16./17.5.2020 <br>
 							Hackathon-Wochenende</p>
 						</div>
@@ -64,13 +64,13 @@ header_events: true
 
 					<div class="steps-three">
 						<img class="steps-img" src="/img/saar-lor-lux/cdv-blue.png" alt="" style="margin-bottom: 10px;"/>
-						<h3 class="steps-name"><span class="steps-number">4</span> Sprint</h3>
+						<h3 class="steps-name"><a href="#step3" class="button"><span class="steps-number">4</span></a> Sprint</h3>
 						<p class="steps-description">7 Wochen, um kreative Ideen umzusetzen</p>
 					</div>
 
 					<div class="steps-four">
 						<img class="steps-img" src="/img/saar-lor-lux/cdv-blue.png" alt="" style="margin-bottom: 10px;"/>
-						<h3 class="steps-name hyphens" lang="de"><span class="steps-number">5</span> <span class="hyphens">Preisverleihung</span></h3>
+						<h3 class="steps-name hyphens" lang="de"><a href="#step4" class="button"><span class="steps-number">5</span></a> <span class="hyphens">Preisverleihung</span></h3>
 						<p class="steps-description">4.7.2020 <br>
 						Präsentation der Projekte und Preisverleihung<br>
 						<a href="https://www.kulturbesitz.de/museen/saarlandmuseum-moderne-galerie.html" target="_blank">Moderne Galerie,<br/> Saarbrücken</a></p>
@@ -82,21 +82,29 @@ header_events: true
 	
 	<!-- Steps explained -->		
     <div class="row">
-        <div>
+        <div class="anchor_off" id="step1"></div>
+        <div class="inactive-section">
         	<p style="margin-top:50px;"><strong>ONBOARDING-WORKSHOPS:<br/>OPEN AND PREPARE YOUR DATA</strong></p>
 			<p>In "Onboarding-Workshops" erfahren interessierte Akteure aus den Kulturinstitutionen der Großregion, wie und in welcher Form sie ihre Daten "öffnen" und optimal für den Hackathon zur Verfügung stellen können. An drei Terminen stellen Referent*innen jeweils das Hackathon-Format Coding da Vinci vor, informieren darüber, welche Rolle offene Kulturdaten bei Strategien zur Organisations- und Publikumsentwicklung spielen können, sowie über gängige Lizenzierungsmöglichkeiten und Datenformate.<br/>
 				Anmeldung: per Email an <a href="mailto:cdv@k8.design" target="_blank">cdv@k8.design</a></p> 
 			<p/>
 		</div>
 
+		<div class="anchor_off" id="step2a"></div>
 		<div>
         	<p style="margin-top:50px;"><strong>CHECK THE DATASETS:<br/>ONLINE-PRÄSENTATION DER DATENSETS</strong></p>
         	<p>am Donnerstag, 30.04.2020, 18:00 - 20:00<br/>
 			Anmeldung bis zum 26.04.2020 <a href="https://k8-institut.limequery.com/188436?lang=de" target="_blank">über dieses Anmeldeformular</a></p>
 			<p>Gemeinsam möchten wir uns die für Coding da Vinci Saar-Lor-Lux 2020 veröffentlichten Datensätze ansehen, uns darüber austauschen und erste Ideenansätze für den Hackathon entwickeln.<br/>
 			Alle Inhalte der Veranstaltung und die entwickelten Ideenansätze werden im Anschluss auf der Webseite von Coding da Vinci veröffentlicht und eine Weiterentwicklung der Ideen bzw. Vorstellung neuer Ideen über Slack ist jederzeit möglich.</p>
+			<!-- Button -->
+            <!-- <div>
+            	<a class="btn btn-primary btn-lg btn-events" href="#" target="_blank" role="button">Zum Event</a>
+            </div> -->
+            <!-- End of Button -->
 		</div>
 
+		<div class="anchor_off" id="step2b"></div>
 		<div>
 			<p style="margin-top:50px;"><strong>KICK-OFF:<br/>CO-CREATING WITH OPEN DATA</strong></p>
 			<p>am Samstag, 16.05. + Sonntag, 17.05.2020<br/>
@@ -107,13 +115,13 @@ header_events: true
 			Während ein klassischer Hackathon nur wenig Zeit für die Projektentwicklung gibt, erstreckt sich Coding da Vinci Saar-Lor-Lux 2020 nach dem Kick-Off über eine Zeitspanne von sieben Wochen.</p>	
 		</div> 		
 		
+		<div class="anchor_off" id="step3"></div>
 		<div> 
 			<p style="margin-top:50px;"><strong>SPRINT:<br/>COLLABORATIVE PROTOTYPING</strong></p>
 			<p>In der Sprint-Phase werden die Ideen in den Teams weiterentwickelt. Wer erst nach dem Kick-Off Lust bekommen hat, ein Projekt zu starten oder sich an einem existierenden Projekt zu beteiligen, kann sich auch in dieser Phase noch einklinken.</p>
 		</div> 
 
-		<!-- <div class="anchor_off" id="anchor"></div> -->
-
+		<div class="anchor_off" id="step4"></div>
 		<div> 
 			<p style="margin-top:50px;"><strong>FINAL CEREMONY:<br/>SHOW AND SHARE YOUR WORK</strong></p>
 			<p>am Samstag, 04.07.2020<br/>
@@ -264,14 +272,6 @@ header_events: true
 			</div>
 		</div>
 
-
-		<!-- <div class="row row-centered row-cl">
-			<div class="col-lg-4 col-lg-offset-4 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3">
-				<a href="https://www.hmkv.de/" target="_blank">
-					<img src="/img/westruhr/hmkv-sw-trans.png" class="img-responsive" alt="Hartware MedienKunstVerein Dortmund" style="margin-right: auto; margin-left: auto"/>
-				</a>
-			</div>
-		</div> -->
 		
 	<!-- Förderpartner -->	
 	<div id="partner" class="container-fluid"> 
