@@ -14,11 +14,11 @@ tags:
 type: post
 ---
 <!-- Sprache -->
-<!-- <div class="row">
+<div class="row">
 	<div class="col-lg-2 col-lg-offset-10">
    		<p style="margin-bottom:15px; font-family:Archive; font-size: 22pt; text-align: right;">DE <a href="../../04/29/cdv-sll-check_the_datasets_fr.html" style="color: #f2bb9b;">FR</a></p>
  	</div>
-</div> -->
+</div>
 
 <!-- Post -->
 <br/>
@@ -26,7 +26,7 @@ type: post
 
 <p>Alle 27 Datensets von 18 Datengebern findet Ihr schon <a href="https://codingdavinci.de/daten/" target="_blank" style="color: #f2bb9b;">hier</a> auf der Webseite - Ihr könnt Euch also jederzeit einen Überblick verschaffen über die Kulturerbeschätze die aus der Großregion SaarLorLux bereitgestellt wurden.</p>
 
-<p>Alle Informationen für das Treffen am Donnerstagabend findet hier unter:
+<p>Alle Informationen für das Treffen am Donnerstagabend findet hier unter: 
 <a href="https://codingdavinci.de/events/saar-lor-lux/kick-off/" target="_blank" style="color: #f2bb9b;">https://codingdavinci.de/events/saar-lor-lux/kick-off/</a><br/>
 Unser Treffen findet auf der Videokonferenz-Plattform <b>Zoom</b> statt und über den folgenden Link erhaltet Ihr Zugang dazu: <a href="https://us02web.zoom.us/j/89072104555" target="_blank" style="color: #f2bb9b;">https://us02web.zoom.us/j/89072104555</a><br/>
 Parallel zu unserem Austausch auf Zoom nutzen wir <b>Slack</b> zum Arbeiten - deshalb die Bitte, Euch über diesen Link in unserem Slack-Workspace anzumelden: <a href="https://join.slack.com/t/codingdavinci-a0f6654/shared_invite/zt-db1ih1l2-zyJCiHea_Whvgc_yMTNQ5Q" target="_blank" style="color: #f2bb9b;">https://join.slack.com/t/codingdavinci-a0f6654/shared_invite/zt-db1ih1l2-zyJCiHea_Whvgc_yMTNQ5Q</a></p>
