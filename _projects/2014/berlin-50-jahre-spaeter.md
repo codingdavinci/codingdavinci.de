@@ -21,9 +21,4 @@ team:
             twitter: "https://twitter.com/devbnz"
             stackOverflow: "http://stackoverflow.com/users/1816139/bnz"
 ---
-Im Mai und Juni 1933 wurden während der NS-Zeit sämtliche Autoren verfolgt und zahlreiche Bücher verbrannt. Auch in
-unsere heutige Zeit hinein fehlt uns der Überblick über diese Artefakte und ihre meist unbekannten Erschaffer. Die App
-“Verbotene Autoren” möchte diese Zeit mehr beleuchten - und ermöglicht es jedem Interessierten sich gezielt oder per
-Zufall über die von Nazionalsozialisten verbotenen Werke und ihre Schriftsteller zu informieren. Die App zeigt nicht nur
-Einzelansichten der Autoren, sonst führt auch in ihre Biographie ein, um so die Personen erneut ins Gedächtnis unserer
-Zeit zu holen.
+Das Projekt “Berlin 50 Jahre später” verortet die Aufnahmen von Ostberlin aus dem Jahre 1965 der Berlinischen Galerie auf einer Karte. Die Daten wurden um moderne Aufnahmen von Plätzen und Sehenswürdigkeiten ergänzt, sodass der Nutzer über eine Webseite einen Vorher­/Nachher­Vergleich dieser Orte ­ bspw. dem Brandenburger Tor ziehen kann. Die 13 bereitgestellten Aufnahmen der Berlinischen Galerie sind jeweils um eine Ortbeschreibung ergänzt. Interessierte Entwickler können auf die Daten der Berlinischen Galerie über eine API zugreifen.
