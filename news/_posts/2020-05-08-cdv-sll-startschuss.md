@@ -17,8 +17,7 @@ type: post
 <br/>
 <p><b>Nach den erfolgreich ins Netz verlegten Datenpräsentationen geht Coding da Vinci Saar-Lor-Lux am 16. und 17. Mai per Kick-Off in die nächste Runde.</b></p> 
 <br/>
-<p>Einiges ist neu in diesem Jahr: Coding da Vinci findet konsequent grenzüberschreitend statt, läutet die Sprintphase mit einem Online-Format ein und verteilt die Präsentation der Kulturdaten und den Kick-Off, bei dem sich die Projektteams zur gemeinsamen Arbeit zusammenfinden, zeitlich über zweieinhalb Wochen.</p> 
-
+<p>Einiges ist neu in diesem Jahr: Coding da Vinci findet konsequent grenzüberschreitend statt, läutet die Sprintphase mit einem Online-Format ein und verteilt die Präsentation der Kulturdaten und den Kick-Off, bei dem sich die Projektteams zur gemeinsamen Arbeit zusammenfinden, zeitlich über zweieinhalb Wochen.</p>
 <p>Die erste Online-Veranstaltung von Coding da Vinci Saar-Lor-Lux 2020 am 30.04. war mit 65 Teilnehmenden aus Deutschland, Frankreich und Luxemburg ein schöner Erfolg: Nach der Vorstellung der Datensätze anhand kurzer Videos und einem regen Austausch mit den Datengeber*innen nahmen bereits während des Abends mehrere Projektideen Form an und werden zur Zeit im <a href="https://join.slack.com/t/codingdavinci-a0f6654/shared_invite/zt-ecvqmh2o-biOjpZYYw0zBD0OApxdW6Q" target="_blank" style="color: #f2bb9b;">Slack-Raum</a> von Coding da Vinci Saar-Lor-Lux weiterentwickelt.</p>
 
 <br/>
