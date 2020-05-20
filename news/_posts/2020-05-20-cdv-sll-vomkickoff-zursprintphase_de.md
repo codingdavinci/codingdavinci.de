@@ -1,5 +1,5 @@
 ---
-date: '2020-05-20 09:00'
+date: '2020-05-20 10:00'
 author: Julia Hartnik
 layout: post
 published: true
@@ -13,6 +13,13 @@ tags:
     - Coding da Vinci Saar-Lor-Lux
 type: post
 ---
+<!-- Sprache -->
+<div class="row">
+    <div class="col-lg-2 col-lg-offset-10">
+        <p style="margin-bottom:15px; font-family:Archive; font-size: 22pt; text-align: right;">DE <a href="../../05/20/cdv-sll-vomkickoff-zursprintphase_fr.html" style="color: #f2bb9b;">FR</a></p>
+    </div>
+</div>
+
 <!-- Post -->
 <br/>
 
