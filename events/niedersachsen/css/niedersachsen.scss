@@ -1,0 +1,405 @@
+---
+---
+//Colors
+$cdvnds-rosa: #f29689;
+$cdvnds-blue: #67b9b9;
+
+
+.cdvnds-rosa {
+  color: $cdvnds-rosa;
+}
+
+
+.logo-container-niedersachsen {
+background: url('/img/niedersachsen/header.png') top center no-repeat;
+  width: auto;
+  padding-top: 180px;
+  padding-bottom: 14px; 
+  margin: 0 auto;
+  z-index: 1099;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  font-size: 25pt;
+  font-family: Archive;
+}
+
+a,a:link,a:hover,a:visited{color:$cdvnds-blue; }
+
+a.scroll-hint {
+  color: $cdvnds-rosa;
+}
+
+a.main-signup {
+  padding: 15px 15px 10px;
+  text-transform: uppercase;
+  background-color: $cdvnds-rosa;
+  font-size: 18pt;
+  font-weight: normal;
+  margin: 57px auto 0;
+  z-index: 1001;
+  width: 320px;
+  /*min-height: 100px;*/ /*depends on length of text */
+  display: block;
+  color: #000;
+  font-family: "Archive";
+  vertical-align: bottom;
+}
+
+@keyframes pulse {
+  0% {
+    color: $cdvnds-rosa;
+  }
+
+  100% {
+    color: black;
+  }
+}
+
+.caption-text{font-size:75%}
+
+.table .head {
+  background: $cdvnds-rosa
+}
+
+.table {
+  background-image: linear-gradient(180deg, #D9F0FF 0%, #D9F0FF 100%);
+}
+
+.btn-events, .btn-events:link, .btn-events:visited {
+  font-family: Archive;
+  color: black;
+  background-color: $cdvnds-rosa;
+}
+
+.btn-events:hover {
+  font-family: Archive;
+  color: black;
+  background-color: $cdvnds-blue;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary:after {
+  content: "+";
+  float: left;
+  margin-right: 5px;
+}
+
+details[open] summary:after {
+  content: "-";
+}
+
+summary {
+  cursor: pointer
+}
+
+/* Responsive Semantic Timeline http://codepen.io/kjohnson/pen/azBvaE */
+$break-point: 650px;
+$outline-width: 0;
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+$gray-base:     #999999;
+$brand-primary: $cdvnds-blue;
+
+.section-header {
+  color: $brand-primary;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.steps-header {
+  @extend .section-header;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.steps-timeline {
+  outline: 1px dashed rgba(red, $outline-width);
+
+  @media screen and (max-width: $break-point) {
+    border-left: 2px solid $brand-primary;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  @media screen and (min-width: $break-point) {
+    border-top: 2px solid $brand-primary;
+    padding-top: 20px;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.steps-one,
+.steps-two,
+.steps-three,
+.steps-four {
+  outline: 1px dashed rgba(green, $outline-width);
+
+  @media screen and (max-width: $break-point) {
+    margin-left: -25px;
+  }
+
+  @media screen and (min-width: $break-point) {
+    float: left;
+    width: 25%;
+    margin-top: -50px;
+  }
+}
+.steps-one,
+.steps-two,
+.steps-three {
+  @media screen and (max-width: $break-point) {
+    padding-bottom: 40px;
+  }
+}
+.steps-one {
+  @media screen and (min-width: $break-point) {
+    margin-left: -12.25%;
+    margin-right: 7.5%;
+  }
+}
+
+.steps-three {
+  @media screen and (max-width: $break-point) {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: $break-point) {
+    margin-left: 7.5%;
+    margin-right: 0;
+  }
+}
+
+.steps-four {
+  @media screen and (max-width: $break-point) {
+    margin-bottom: -100%;
+  }
+  @media screen and (min-width: $break-point) {
+    margin-left: 7.5%;
+    margin-right: -12.25%;
+  }
+}
+
+
+.steps-img {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  @media screen and (max-width: $break-point) {
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+.steps-name,
+.steps-description {
+  margin: 0;
+}
+
+/* customized steps */
+.steps-name {
+
+  @extend .section-header;
+
+  @media screen and (min-width: $break-point) {
+    text-align: center;
+  }
+
+  color: $cdvnds-rosa; /*added*/ 
+}
+
+.steps-number {
+  border: 1.5px solid $cdvnds-blue; 
+  border-radius: 5px; 
+  padding: 1px 7px; 
+  color: $cdvnds-rosa;
+}
+
+.steps-description {
+  overflow: hidden;
+
+  @media screen and (min-width: $break-point) {
+    text-align: center;
+  }
+}
+
+.extra-step {
+  @media screen and (max-width: $break-point) {
+    margin-left: 69px;
+  }
+}
+
+/* Adjustments to original Responsive Semantic Timeline */
+.steps-timeline {
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+
+
+/* boxes */
+.challenge-box {
+  h3 {
+    background-color: $cdvnds-rosa;
+  }
+  .box {
+    background-color: $cdvnds-blue;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+  p {
+    font-size: .9em;
+  }
+}
+
+/* lists */
+ul {
+  margin-top: 1em;
+  li {
+   margin-top:1em;
+  }
+}
+
+
+.logos {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+/* custom */
+
+/* Preise */
+.additional-text p {
+  margin-left: 0px;
+}
+
+
+/* Logos */
+#tib {
+  @media screen and (max-width: 1200px) {
+    width: 280px;
+  }
+}
+#pavillon {
+  @media screen and (max-width: 1200px) {
+    width: 250px;
+  }
+}
+#cluster {
+  @media screen and (max-width: 1200px) {
+    width: 235px;
+  }
+}
+#tuBraunschweig {
+  @media screen and (max-width: 1200px) {
+    width: 240px;
+  }
+}
+#natur_mensch {
+  @media screen and (max-width: 1200px) {
+    width: 220px;
+  }
+}
+#sub {
+  @media screen and (max-width: 1200px) {
+    width: 300px;
+  }
+}
+#nld {
+  @media screen and (max-width: 1200px) {
+    width: 310px;
+  }
+}
+#lernO {
+  @media screen and (max-width: 1200px) {
+    width: 185px;
+  }
+}
+#mvnb {
+  @media screen and (max-width: 1200px) {
+    width: 235px;
+  }
+}
+#leineLab {
+  @media screen and (max-width: 1200px) {
+    width: 158px;
+  }
+}
+#silverLabs {
+  @media screen and (max-width: 1200px) {
+    width: 250px;
+  }
+}
+#wikipediaHannover {
+  @media screen and (max-width: 1200px) {
+    width: 235px;
+  }
+}
+#make {
+  @media screen and (max-width: 1200px) {
+    width: 200px;
+  }
+}
+#vzg {
+  @media screen and (max-width: 1200px) {
+    width: 275px;
+  }
+}
+#bildungsverein {
+  @media screen and (max-width: 1200px) {
+    width: 260px;
+  }
+}
+#informationsgesellschaft {
+  @media screen and (max-width: 1200px) {
+    width: 270px;
+  }
+}
+#dhvlab {
+  @media screen and (max-width: 1200px) {
+    width: 175px;
+    }
+}
+
+/* Programm */
+/* Class noch nicht in html */
+.sll-schedule-box {
+  background-color: $cdvnds-blue;
+}
+
+/* Word splitting */
+.hyphens {
+   hyphens: auto;
+}
+
+/*links in timeline*/
+
+a.button:hover {
+  background-color: $cdvnds-blue;
+  text-decoration: none;
+}
+
+a.button:visited {
+
+}

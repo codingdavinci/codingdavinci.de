@@ -234,6 +234,16 @@ background: url('../img/header_logo.png') top center no-repeat;
   width: auto;
 }
 
+.logo-container-events-niedersachsen { /* repeats below for responsive adjustments */
+  @extend .logo-container;
+  background: url('/img/niedersachsen/header.png') top center no-repeat;
+  background-size: 100% auto;
+  font-size: 1.5em;
+  font-family: Archive;
+  z-index: 99;
+  width: auto;
+}
+
 
 
 .logo-text {
@@ -400,6 +410,10 @@ a.scroll-hint:hover {
     @extend .logo-container-small;
     background: url('/img/saar-lor-lux/header_320.png') top center no-repeat;
   }
+  .logo-container-events-niedersachsen {
+    @extend .logo-container-small;
+    background: url('/img/niedersachsen/header_320.png') top center no-repeat;
+  }
 
 
 	.header-container {
@@ -476,6 +490,9 @@ a.scroll-hint:hover {
   padding-top: 125px;
     }
     .logo-container-events-saar-lor-lux {
+  padding-top: 125px;
+    }
+    .logo-container-events-niedersachsen {
   padding-top: 125px;
     }
 }
@@ -1802,6 +1819,9 @@ height: 100%;
       padding-top: 38%;
     }
     .logo-container-events-saar-lor-lux {
+      padding-top: 38%;
+    }
+    .logo-container-events-niedersachsen {
       padding-top: 38%;
     }
 }
