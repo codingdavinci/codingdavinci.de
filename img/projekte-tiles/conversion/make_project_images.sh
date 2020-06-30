@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+# based on imagemagick
+
 cd ../2020_sll
 
 echo "\n convert all base images to png"
@@ -35,7 +37,8 @@ echo "\n\n make negative transparent"
 for file in *_trans.png; do; mogrify -transparent '#ff00ff' ${file}; done
 
 echo "\n\n apply rahmen"
-for file in *_trans.png; do; composite ../conversion/rahmen.png ${file} `basename ${file} _trans.png`.png; done
+# the rahmen-xxx.png needs to have the desired color
+for file in *_trans.png; do; composite ../conversion/rahmen-sll.png ${file} `basename ${file} _trans.png`.png; done
 
 echo "\n\n remove files with _trans.png suffix"
 rm -f *_trans.png
