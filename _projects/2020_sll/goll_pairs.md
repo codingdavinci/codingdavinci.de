@@ -1,7 +1,8 @@
 ---
 identifier: 145
 layout: project
-year: Saar-Lor-Lux 2020
+year: Saar-Lor-Lux
+year2: 2020
 isFirst: false
 isLast: false
 "name": "Goll Pairs"

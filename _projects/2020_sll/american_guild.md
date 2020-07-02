@@ -1,7 +1,8 @@
 ---
 identifier: 141
 layout: project
-year: Saar-Lor-Lux 2020
+year: Saar-Lor-Lux
+year2: 2020
 isFirst: true
 isLast: false
 "name": "American Guild - Network Data"
