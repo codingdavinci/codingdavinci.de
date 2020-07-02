@@ -4,74 +4,46 @@ layout: project
 year: Saar-Lor-Lux 2020
 isFirst: false
 isLast: false
-"name": "TITLE"
+"name": "Atondes - Virtual Exploration"
 "image": "/img/projekte/2020_sll/atondes.jpg"
 "tile": "/img/projekte-tiles/2020_sll/atondes.png"
 "tile_active": "/img/projekte-tiles/2020_sll/atondes-active.png"
 "team":
     -
-        "name": "person 1"
+        "name": "Saskia Riedel"
         "contact":
-            "mail": "mailto:person1@example.com"
-            "twitter": "https://twitter.com/example"
-            "github": "https://github.com/example"
+            "mail": "mailto:arcsaudio@gmail.com"
     -
-        "name": "person 2"
-        "contact":
-            "mail": "mailto:person2@example.com"
-            "twitter": "https://twitter.com/example"
-            "github": "https://github.com/example"
+        "name": "Tamay Zieske"
     -
-        "name": "person 3"
-        "contact":
-            "mail": "mailto:person3@example.com"
-            "twitter": "https://twitter.com/example"
-            "github": "https://github.com/example"
+        "name": "Olivier Wagner"
     -
-        "name": "person 4"
-        "contact":
-            "mail": "mailto:person4@example.com"
-            "twitter": "https://twitter.com/example"
-            "github": "https://github.com/example"
+        "name": "Falko Krause"
     -
-        "name": "person 5"
-        "contact":
-            "mail": "mailto:person5@example.com"
-            "twitter": "https://twitter.com/example"
-            "github": "https://github.com/example"
+        "name": "Esther Helena Arens"
 "data":
-    - "Archives départementales de la Moselle"
-    - "Bibliothèque nationale du Luxembourg"
-    - "Centre international d'art verrier (CIAV)"
-    - "Centre national de l 'audiovisuel (CNA)"
-    - "Deutsche Digitale Bibliothek"
-    - "Deutsches Exilarchiv 1933-1945 der Deutschen Nationalbibliothek"
-    - "Institut für aktuelle Kunst"
-    - "K8 Institut für strategische Ästhetik gGmbH"
-    - "Lehrstuhl für Klassische Archäologie, Universität des Saarlandes"
-    - "Nancy Musées"
-    - "Privatarchiv des Architekten Walter Schrempf"
-    - "Privatsammlung Andreas Detemple"
     - "Rotondes – explorations culturelles"
-    - "Saarlandmuseum - Moderne Galerie, Stiftung Saarländischer Kulturbesitz"
-    - "Saarländisches Staatstheater"
-    - "Stadtarchiv der Landeshauptstadt Saarbrücken"
-    - "Ville de Saint-Dié-des-Vosges"
-    - "Wikidata"
-    - "xm:lab der HBKsaar"
 "links":
     -
         "class": "website"
-        "link": "https://example.com/"
+        "link": "https://rotondes.next-site.de/about/"
         "text": "Website"
     -
         "class": "github"
-        "link": "https://github.com/example"
-        "text": "GitHub"
-    -
-        "class": "twitter"
-        "link": "http://twitter.com/example"
-        "text": "Twitter"
+        "link": "https://gitlab.com/atondes/atondes-ar-app"
+        "text": "GitLab"
            
 ---
-text
+<b>EN</b> \| ATONDES is an augmented reality web-app that brings event posters of the Luxembourgish cultural venue "Rotondes" to life.
+
+By scanning the posters with your smartphone camera, augmented reality icons appear on your screen, like a little TV, a vinyl long player or a photo album. With one click you can dive into your favorite artists’ performance and experience the event again through the photos, videos, sound recordings or little stories by other visitors. 
+
+Everyone is invited to contribute and share their personal experience. So the platform will grow steadily.
+<br/><br/>
+<b>FR</b> \| Atondes - Virtual Exploration est une application de réalité augmentée conçue pour donner vie à des
+affiches d'événements qui se sont déroulés au Centre culturel Rotondes (Luxembourg). 
+
+Quand on scanne les affiches avec la caméra de son téléphone, des icônes de réalité augmentée, telles qu'une petite télévision, une platine vinyle ou un album photo, apparaissent sur l'écran de l'utilisateur.trice. En un clic, on est propulsé.e dans la performance de ses artistes favorie.e.s et revivre l'événement grâce aux photos, vidéos, enregistrements audio 
+ou petites "stories" téléchargées au préalable par le public des événements concernés.
+
+Chacun.e est invité.e à partager son expérience et à contribuer au développement constant de cette plateforme.

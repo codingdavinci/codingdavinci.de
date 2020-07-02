@@ -4,74 +4,38 @@ layout: project
 year: Saar-Lor-Lux 2020
 isFirst: false
 isLast: false
-"name": "TITLE"
+"name": "Once more with feeling - Collectiontagger"
 "image": "/img/projekte/2020_sll/once_more_with_feeling.jpg"
 "tile": "/img/projekte-tiles/2020_sll/once_more_with_feeling.png"
 "tile_active": "/img/projekte-tiles/2020_sll/once_more_with_feeling-active.png"
 "team":
     -
-        "name": "person 1"
+        "name": "Saskia Riedel"
         "contact":
-            "mail": "mailto:person1@example.com"
-            "twitter": "https://twitter.com/example"
-            "github": "https://github.com/example"
+            "mail": "mailto:arcsaudio@gmail.com"
     -
-        "name": "person 2"
-        "contact":
-            "mail": "mailto:person2@example.com"
-            "twitter": "https://twitter.com/example"
-            "github": "https://github.com/example"
+        "name": "Anastasia Bauch"
     -
-        "name": "person 3"
-        "contact":
-            "mail": "mailto:person3@example.com"
-            "twitter": "https://twitter.com/example"
-            "github": "https://github.com/example"
+        "name": "Ole Keil"
     -
-        "name": "person 4"
-        "contact":
-            "mail": "mailto:person4@example.com"
-            "twitter": "https://twitter.com/example"
-            "github": "https://github.com/example"
-    -
-        "name": "person 5"
-        "contact":
-            "mail": "mailto:person5@example.com"
-            "twitter": "https://twitter.com/example"
-            "github": "https://github.com/example"
+        "name": "Muhammad Bilal Latif"
 "data":
-    - "Archives départementales de la Moselle"
-    - "Bibliothèque nationale du Luxembourg"
-    - "Centre international d'art verrier (CIAV)"
-    - "Centre national de l 'audiovisuel (CNA)"
-    - "Deutsche Digitale Bibliothek"
-    - "Deutsches Exilarchiv 1933-1945 der Deutschen Nationalbibliothek"
-    - "Institut für aktuelle Kunst"
-    - "K8 Institut für strategische Ästhetik gGmbH"
-    - "Lehrstuhl für Klassische Archäologie, Universität des Saarlandes"
-    - "Nancy Musées"
-    - "Privatarchiv des Architekten Walter Schrempf"
-    - "Privatsammlung Andreas Detemple"
-    - "Rotondes – explorations culturelles"
     - "Saarlandmuseum - Moderne Galerie, Stiftung Saarländischer Kulturbesitz"
-    - "Saarländisches Staatstheater"
-    - "Stadtarchiv der Landeshauptstadt Saarbrücken"
-    - "Ville de Saint-Dié-des-Vosges"
-    - "Wikidata"
-    - "xm:lab der HBKsaar"
 "links":
     -
         "class": "website"
-        "link": "https://example.com/"
+        "link": "https://cdv07-1e5c4.web.app/dashboard"
         "text": "Website"
     -
         "class": "github"
-        "link": "https://github.com/example"
-        "text": "GitHub"
-    -
-        "class": "twitter"
-        "link": "http://twitter.com/example"
-        "text": "Twitter"
+        "link": "https://gitlab.com/ole.keil/cdv07frontend"
+        "text": "GitLab (Frontend)"
            
 ---
-text
+<b>DE</b> \| Once more with feeling - Collectionstagger ist ein Projekt des Coding Da Vinci Saar Lor Lux 2020. Entwickler und Kulturvermittler\*innen haben sich zusammengeschlossen, um für die Sammlung der Modernen Galerie des Saarlandmuseums eine interaktive Web-App umzusetzen. Hier können die Nutzer\*innen der Seite einzelne Kunstwerke emotional verschlagworten und sehen, was andere Nutzer\*innen damit verbinden. 
+
+Die Daten werden anschließend in Diagrammen, Wortclouds und Rankings ausgewertet und sichtbar gemacht.
+<br/><br/>
+<b>FR</b> \| "Once more with feeling - collectionstagger" est un projet réalisé dans le cadre de Coding da Vinci Saar-Lor-Lux 2020. Des développeurs et des médiateur.trice.s culturel.le.s ont travaillé ensemble pour développer une application interactive pour la Moderne Galerie du Saarland Museum à Sarrebruck. Les utlisateur.trice.s peuvent associer des mots clés émotionnels aux différentes oeuvres d’art et voir ce à quoi les associent d’autres utilisateur.trice.s. 
+
+Les résultats sont ensuite analysés et rendus visibles sous forme de diagrammes, de nuages de mots et de palmarès.
