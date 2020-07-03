@@ -31,6 +31,10 @@ isLast: false
         "class": "github"
         "link": "https://gitlab.com/ole.keil/cdv07frontend"
         "text": "GitLab (Frontend)"
+    -
+        "class": "github"
+        "link": "https://gitlab.com/bilallatif18/cdv07backend"
+        "text": "GitLab (Backend)"
            
 ---
 <b>DE</b> \| Once more with feeling - Collectionstagger ist ein Projekt des Coding Da Vinci Saar Lor Lux 2020. Entwickler und Kulturvermittler\*innen haben sich zusammengeschlossen, um für die Sammlung der Modernen Galerie des Saarlandmuseums eine interaktive Web-App umzusetzen. Hier können die Nutzer\*innen der Seite einzelne Kunstwerke emotional verschlagworten und sehen, was andere Nutzer\*innen damit verbinden. 
