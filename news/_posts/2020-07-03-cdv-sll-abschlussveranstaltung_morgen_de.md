@@ -30,7 +30,7 @@ type: post
 <br/>
 <p>Die Jury besteht aus Open Data- und Creative Tech-Expert*innen:
 <ul>
-<li><b>Stephan Bartholmei</b>, Projektleiter Produktentwicklung und Innovation | <a href="https://www.deutsche-digitale-bibliothek.de/" target="_blank" style="color: #f2bb9b;">Deutsche Digitale Bibliothek</a></li>
+<li><b>Stephan Bartholmei</b>, Leiter Produktentwicklung und Innovation | <a href="https://www.deutsche-digitale-bibliothek.de/" target="_blank" style="color: #f2bb9b;">Deutsche Digitale Bibliothek</a></li>
 <li><b>Svenja Böttger</b>, Leiterin | <a href="https://ffmop.de/" target="_blank" style="color: #f2bb9b;">Festival Max Ophüls</a></li>
 <li><b>Fabrice Jallet</b>, Projektleiter im Bereich Unternehmertum & Inkubator | <a href="https://www.bliiida.fr/" target="_blank" style="color: #f2bb9b;">BLIIIDA</a></li>
 <li><b>Myriam Krämer</b>, Kuratorin| <a href="http://cna.public.lu/" target="_blank" style="color: #f2bb9b;">Centre National de l'Audiovisuel</a></li>

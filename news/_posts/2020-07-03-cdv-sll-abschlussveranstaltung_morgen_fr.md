@@ -30,7 +30,7 @@ type: post
 <br/>
 <p>Le jury est constitué d'expert.e.s de l'open data et des nouvelles technologies :
 <ul>
-<li><b>Stephan Bartholmei</b>, Responsable du développement de projets et de l'innovation | <a href="https://www.deutsche-digitale-bibliothek.de/" target="_blank" style="color: #f2bb9b;">Bibliothèque Numérique allemande</a></li>
+<li><b>Stephan Bartholmei</b>, Responsable du développement de produits et de l'innovation | <a href="https://www.deutsche-digitale-bibliothek.de/" target="_blank" style="color: #f2bb9b;">Bibliothèque Numérique allemande</a></li>
 <li><b>Svenja Böttger</b>, Directrice | <a href="https://ffmop.de/" target="_blank" style="color: #f2bb9b;">Festival Max Ophüls</a></li>
 <li><b>Fabrice Jallet</b>, Chargé de mission entrepreneuriat & incubation | <a href="https://www.bliiida.fr/" target="_blank" style="color: #f2bb9b;">BLIIIDA</a></li>
 <li><b>Myriam Krämer</b>, Curatrice | <a href="http://cna.public.lu/" target="_blank" style="color: #f2bb9b;">Centre National de l'Audiovisuel</a></li>
