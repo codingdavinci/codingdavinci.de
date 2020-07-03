@@ -17,9 +17,9 @@ isLast: false
             "twitter": "https://twitter.com/pjakapeyotl"
             "github": "https://github.com/pjgueno/"
     -
-        "name": "Robin Klier"
+        "name": "Robin"
         "contact":
-            "mail": "mailto:robin.klier@live.de"
+            "mail": "mailto:robin@madein.saarland"
 "data":
     - "Archives départementales de la Moselle"
     - "K8 Institut für strategische Ästhetik gGmbH"
