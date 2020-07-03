@@ -1532,6 +1532,18 @@ iframe.vimeo3 {
   
 }
 
+iframe.vimeo4 {
+  $break-point: 650px;
+
+  width:640px; /* was 400px */
+  height:600px;
+
+  @media screen and (max-width: $break-point) {
+    width:350px;
+  }
+  
+}
+
 dd.vimeo {
   padding:48.25% 0 0 0; /* top was 56.25% */
   position:relative;
