@@ -243,6 +243,12 @@ $brand-primary: $cdvsll-apricot2;
   color: $cdvsll-blue;
 }
 
+.border-sll {
+  border: 1.5px solid $cdvsll-apricot2; 
+  border-radius: 5px; 
+  padding: 1px 7px; 
+}
+
 .steps-description {
   overflow: hidden;
 
