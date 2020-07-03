@@ -1,7 +1,8 @@
 ---
 identifier: 94
 layout: project
-year: Rhein-Main 2018
+year: Rhein-Main
+year2: 2018
 isFirst: false
 isLast: false
 "name": "Mylius Spuren"

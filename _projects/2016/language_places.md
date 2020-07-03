@@ -1,7 +1,8 @@
 ---
 identifier: 46
 layout: project
-year: Nord 2016
+year: Nord
+year2: 2016
 "name": "Language & Places"
 "tile": "/img/projekte-tiles/2016/languageplaces.png"
 "tile_active": "/img/projekte-tiles/2016/languageplaces-active.png"

@@ -1,7 +1,8 @@
 ---
 identifier: 109
 layout: project
-year: Süd 2019
+year: Süd
+year2: 2019
 isFirst: false
 isLast: false
 "name": "Kaiserpanorama VR+"

@@ -1,7 +1,8 @@
 ---
 identifier: 53
 layout: project
-year: Nord 2016
+year: Nord
+year2: 2016
 "name": "Visiting Landmarks"
 "tile": "/img/projekte-tiles/2016/visitinglandmarks.png"
 "tile_active": "/img/projekte-tiles/2016/visitinglandmarks-active.png"

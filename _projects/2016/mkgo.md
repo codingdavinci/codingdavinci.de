@@ -1,7 +1,8 @@
 ---
 identifier: 47
 layout: project
-year: Nord 2016
+year: Nord
+year2: 2016
 "name": "MKGo"
 "tile": "/img/projekte-tiles/2016/mkgo.png"
 "tile_active": "/img/projekte-tiles/2016/mkgo-active.png"

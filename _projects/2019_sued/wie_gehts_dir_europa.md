@@ -1,7 +1,8 @@
 ---
 identifier: 118
 layout: project
-year: Süd 2019
+year: Süd
+year2: 2019
 isFirst: false
 isLast: true
 "name": "Wie geht's dir, Europa?"

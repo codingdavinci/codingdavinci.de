@@ -1,7 +1,8 @@
 ---
 identifier: 101
 layout: project
-year: Süd 2019
+year: Süd
+year2: 2019
 isFirst: true
 isLast: false
 "name": "Cards and Dragons"
