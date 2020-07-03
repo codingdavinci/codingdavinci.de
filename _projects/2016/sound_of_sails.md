@@ -1,7 +1,8 @@
 ---
 identifier: 50
 layout: project
-year: Nord 2016
+year: Nord
+year2: 2016
 "name": "SOS – Sound of Sails"
 "tile": "/img/projekte-tiles/2016/sos.png"
 "tile_active": "/img/projekte-tiles/2016/sos-active.png"

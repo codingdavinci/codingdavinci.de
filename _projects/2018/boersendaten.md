@@ -1,7 +1,8 @@
 ---
 identifier: 75
 layout: project
-year: Ost 2018
+year: Ost
+year2: 2018
 isFirst: false
 isLast: false
 "name": "Börsendaten"

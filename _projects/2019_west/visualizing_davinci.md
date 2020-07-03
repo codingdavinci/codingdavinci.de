@@ -1,7 +1,8 @@
 ---
 identifier: 122
 layout: project
-year: West 2019
+year: West
+year2: 2019
 isFirst: false
 isLast: false
 "name": "VisualizingDaVinci"

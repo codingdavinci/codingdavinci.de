@@ -1,7 +1,8 @@
 ---
 identifier: 131
 layout: project
-year: West 2019
+year: West
+year2: 2019
 isFirst: false
 isLast: true
 "name": "euregio-history-map"

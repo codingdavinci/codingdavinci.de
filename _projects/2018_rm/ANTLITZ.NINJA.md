@@ -1,7 +1,8 @@
 ---
 identifier: 85
 layout: project
-year: Rhein-Main 2018
+year: Rhein-Main
+year2: 2018
 isFirst: true
 isLast: false
 "name": "ANTLITZ.NINJA"

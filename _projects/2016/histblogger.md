@@ -1,7 +1,8 @@
 ---
 identifier: 42
 layout: project
-year: Nord 2016
+year: Nord
+year2: 2016
 "name": "Histblogger – Kopergravure"
 "tile": "/img/projekte-tiles/2016/hist-blogger.png"
 "tile_active": "/img/projekte-tiles/2016/hist-blogger-active.png"
