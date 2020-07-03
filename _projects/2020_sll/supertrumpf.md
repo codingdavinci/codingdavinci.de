@@ -22,6 +22,10 @@ isLast: true
     - "Centre international d'art verrier (CIAV)"
 "links":
     -
+        "class": "website"
+        "link": "https://supertrumpf.kerndruck.de/"
+        "text": "Website"
+    -
         "class": "github"
         "link": "https://github.com/rowbean/supertrumpfgenerator"
         "text": "GitHub"
