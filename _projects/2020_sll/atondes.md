@@ -31,7 +31,7 @@ isLast: false
         "text": "Website"
     -
         "class": "github"
-        "link": "https://gitlab.com/atondes/atondes-ar-app"
+        "link": "https://gitlab.com/atondes"
         "text": "GitLab"
            
 ---
