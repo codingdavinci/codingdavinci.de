@@ -399,3 +399,12 @@ $brand-primary: $cdvn-blue;
   }
 
 }
+
+/* --- CUSTOM --- */
+
+/* Logos */
+#anynines {
+  @media screen and (max-width: 1200px) {
+    width: 230px;
+    }
+}
