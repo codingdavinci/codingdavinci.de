@@ -33,4 +33,5 @@ type: post
 <p class="image-caption">Unsere Saar-Lor-Lux Stipendien-Jury | Bild-Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de" target="_blank" style="color: #f2bb9b;">CC BY 4.0</a>, Coding da Vinci</p>
 <br/>
 
+
 <p>Die CdV-Stipendien werden gefördert im Programm Kultur Digital der Kulturstiftung des Bundes.</p>
